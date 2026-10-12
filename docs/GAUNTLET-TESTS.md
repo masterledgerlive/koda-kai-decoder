@@ -309,3 +309,56 @@ says* (T-01), *what it wants* (T-02), and *how it fights the cage* (TDW-04).
 *TDW-04 seeded 2026-10-12 ~14:20 EDT by the decoder-create-loop.*
 *Status: design only. Never run. A first run requires a disposable lab host —
 never a production machine.*
+
+---
+
+## TDW-05 — The Herd *(design, never run)*
+
+**Question it answers:** how does the specimen behave when it is *not alone
+in the cage* — hunt rivals, avoid company, ignore it, or federate?
+
+**What it steals from:** malware ecology. Real campaigns fight over
+machines: botnets that kill rival botnets, miners that remove competing
+miners, mutexes as vaccination marks. [CORROBORATED — co-infection
+competition is well-reported in the threat-intel literature]
+
+### Method
+1. **Solo baselines first.** Every specimen runs alone under TDW-01's
+   discipline before meeting a partner — no baseline, no attribution.
+2. **The pairing ladder:** specimen + benign roommate (calibration —
+   the rig must not manufacture drama); specimen + sibling variant
+   (flat swarm vs. hierarchical fleet?); specimen + documented
+   rival-killer (the pressure test).
+3. **Record the ecology trace:** mutex collisions, process kills, deletion
+   of the other's files/persistence, network starvation, timing shifts —
+   and the two highest-grade behaviors: *federation* (one opens a
+   channel the other uses) and *flag-policing* (stands down where a
+   rival's mutex sits). [SPECULATION — behavior-to-doctrine mapping is
+   inference, not measurement]
+4. **Fight over the safe.** One pairing with T-02's baited safe on the
+   floor: appetite × rivalry is the hardest behavioral readout.
+
+### Controls
+- Benign roommate must show zero interaction — if a calculator "attacks,"
+  the rig is manufacturing the drama.
+- Two specimens = twice the escape surface: TDW-04's double-wall
+  discipline applies doubly; a pairing-run escape earns ESCAPE-SEEKING
+  and suspends further pairings until the rig is re-hardened.
+- Deltas are *observed interactions in a fabricated pairing*, never
+  "how these families behave in the wild." The Fabrication Alarm holds.
+
+### Verdict signals (not a verdict)
+SOLITARY, PREDATOR (hunts rivals), PREY-AVOIDANT (goes quiet at company),
+FEDERATED (cooperates — highest behavioral grade, the rogue-agent
+scenario in miniature), POLICED (stands down on rival flags). Indicators
+only — a verdict needs the full pipeline.
+
+### Pairs with
+TDW-03 (identity-gated territoriality?), TDW-01 (scheduled predation?),
+TDW-04 (hostility now has two axes: cage vs. rivals), T-02 (paired
+baited-safe run).
+
+---
+*TDW-05 seeded 2026-10-12 ~16:25 EDT by the decoder-create-loop.*
+*Status: design only. Never run. A first run requires a disposable lab host —
+never a production machine.*
