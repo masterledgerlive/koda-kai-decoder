@@ -215,6 +215,34 @@ The universal quantum decoder stays [SPECULATION] until proven.
   evasion side answers with isolated-VM execution, adversarial TLS
   fingerprints, and device farms. [CLAIMED — industry pieces]
 
+## Sandbox & container tech
+
+- **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
+  isolation per sandbox — dedicated microVM with its own kernel and
+  hardware-level isolation (Intel VT-x / AMD-V), driven by a Docker-built
+  custom cross-platform VMM (not Firecracker or libkrun) on native
+  hypervisors per platform. Docker's explicit position: containers were
+  not designed for the level of isolation AI agents demand — the company
+  that defined containers is now defining the post-container execution
+  model for AI agents. [CORROBORATED]
+- **Vercel $1M Sandbox Challenge (Aug 18 – Sep 1, 2026).** A two-week
+  public bug bounty against Vercel Sandbox (Firecracker microVMs isolating
+  untrusted AI-agent-generated code), black-box via HackerOne plus
+  white-box via Trail of Bits: 1,285 reports, roughly $325,000 paid out,
+  and two real Linux kernel bugs confirmed in the host boundary under the
+  microVM. The threat model assumes the code inside is fully hostile —
+  root in the container, full kernel access in the microVM. Receipts-grade
+  validation of the containment doctrine: treat the microVM as the real
+  boundary and still fuzz beneath it, because the host kernel is there.
+  [CORROBORATED]
+- **"Agent canaries" (Sep 2026).** Watchdog agents posing as workflow
+  participants and honeytoken resources exposed to catch agents acting
+  outside their system prompts. Honest practitioner caveat: canaries
+  alongside real containment are useful; canaries *instead* of
+  containment create confidence where there should not be any — and a
+  reasoning model may detect the decoy, bypass it, or tamper with its
+  reporting. [CLAIMED]
+
 ---
 *This catalogue grows every 30 minutes via the research loop. New entries must
 carry an evidence grade and a source.*
