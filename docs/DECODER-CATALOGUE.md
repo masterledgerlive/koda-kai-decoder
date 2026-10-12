@@ -80,6 +80,20 @@ formats. [VERIFIED]
 Quantum advantage is **problem-specific** (factoring, search, simulation,
 optimization) — not a universal "decode all information" engine. Active research:
 quantum error correction, quantum machine learning, quantum cryptanalysis.
+- **IonQ real-time QEC decoder (Sep 2026).** Company claims the first end-to-end
+  real-time quantum error correction decoder on one standard CPU; dual-decoder
+  architecture, circuits simulating up to 408 logical qubits. [CLAIMED]
+- **LR-QAOA QEC-operations benchmark (Oct 2026).** Jülich preprint; 10 QPUs from
+  IBM, IQM, Quantinuum; Quantinuum Helios-1 led, 91-data-qubit tests; a readiness
+  gauge before full error-correction experiments. [CORROBORATED]
+- **Real-time measurement-and-reset at 100 qubits (Nature Physics, Oct 2026).**
+  Rutgers/IBM: ~5,000 two-qubit ops + ~5,000 measurement-and-reset cycles,
+  sharp chaos-to-control transition — the feedback capability QEC requires.
+  [CORROBORATED]
+- **PQC deadlines landing now.** Oct 2026: federal agency migration plans due;
+  Dec 2026: FAR Council proposed contractor-compliance rule; Jan 2027: CNSA 2.0
+  for new national-security-system buys (EO 14412 / OMB M-26-15).
+  [CORROBORATED]
 The universal quantum decoder stays [SPECULATION] until proven.
 
 ---
