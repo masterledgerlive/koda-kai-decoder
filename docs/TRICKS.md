@@ -88,3 +88,129 @@ stimuli, planted to make the specimen decode itself by reacting.
 *Trick file seeded 2026-10-12 12:33 EDT.*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never Shadow's live environment.*
+
+## T-02 — The Baited Safe *(opportunity-seeding interrogation; design, never run)*
+
+**What it steals from:** the intelligence **barium meal / canary trap** — feed
+each suspect a differently-marked version of the same secret and watch which
+one leaks. [CORROBORATED — documented counterintelligence technique] — plus
+the burglar's axiom: you don't learn what a thief wants by interrogating him;
+you leave the safe open and watch. The dynamic-analysis cousin is
+**honeytokens**: fake credentials that trip alarms when touched.
+[CORROBORATED — Thinkst Canarytokens, and the T-01 / TDW-01 canary designs].
+T-01 taught the specimen to *speak* (cribs map its command grammar); T-02
+teaches it to *steal* (bait maps its appetite). [SPECULATION — "appetite" as a
+measurable behavioral signature is this trick's hypothesis, not an
+established result]
+
+**The trick, ported to the Gauntlet:** the container presents the specimen
+with a fabricated landscape of *opportunity* — decoy credential vaults,
+generated SSH keypairs, a fake browser password store, decoy crypto-wallet
+files, a mounted "company share" of tempting documents. Everything in the
+safe is bait; every bait item carries unique per-run canary lineage. The
+specimen's *choice* — what it touches, reads, copies, or exfiltrates, and in
+what order — is its intent profile: what the operator built the payload to
+hunt.
+
+### How it runs (design)
+1. **Build the safe.** The container's fake filesystem is laid out with
+   statistically plausible decoys: `.ssh/` with generated keypairs (never
+   real), a fake browser `Login Data` store, a `Documents/` tree of generated
+   office files, decoy `wallet.dat` files, a network-share-style folder of
+   "financials." Names, sizes, timestamps, and directory depth are generated
+   from real-file statistical profiles so the layout reads as a lived-in
+   machine. [CORROBORATED — sandbox honeyfile seeding is standard
+   dynamic-analysis practice]
+2. **Salt every item with lineage.** Each decoy embeds a unique per-run
+   canary — credential strings, key material, wallet addresses, document
+   metadata, share filenames. If any byte of a decoy appears in outbound
+   traffic, temp copies, or later stages, the event is attributable to this
+   exact run — and *which* decoy it came from identifies the specimen's target
+   preference without inferring it from behavior alone. [CORROBORATED —
+   canary technique; SPECULATION — a canny specimen could sanitize
+   exfiltrated strings and defeat the attribution]
+3. **Present the opportunity; never stage the crime.** Decoys are served *by
+   the environment*, never injected into the specimen binary. The
+   interrogator offers; the specimen chooses. The full trace records:
+   first-touch order, read-vs-copy-vs-exfiltrate distinction, dwell time per
+   decoy, and — equally important — what was *ignored*. [CONJECTURE —
+   "ignored = uninterested" is an interpretation; a specimen can ignore bait
+   because it detects the safe]
+4. **Read the theft, not the code.** A specimen that hunts browser stores and
+   ignores documents is behaving as a credential harvester; one that encrypts
+   documents and ignores keys behaves as ransomware; one that touches nothing
+   is dormant, evasive, or disinterested — three different hypotheses, each
+   falsifiable by the combination punches below. [SPECULATION —
+   target-selection-to-intent mapping is inference, not measurement]
+5. **Recall + re-run.** Replay with the decoy set permuted (a different vault
+   is "richest," a different layout). A stable selection order across
+   permutations = coded targeting doctrine; a shifting order = opportunistic
+   reading of the environment. Same doctrine-vs-adaptation test as TDW-02's
+   permutation protocol (docs/GAUNTLET-TESTS.md), applied to *want* instead of
+   *time*. [CONJECTURE]
+
+### What it catches that T-01 / TDW-01 / TDW-02 miss
+- **Dormant predation.** A specimen can pass TDW-01 cleanly (no time-gated
+  deltas) and still be a thief on a hair trigger — activated by the *smell of
+  value*, not by a clock. T-02 finds intent that is stimulus-gated on
+  opportunity rather than on time or commands. [SPECULATION]
+- **Targeting doctrine.** *Which* decoys, *in what order* — the selection
+  profile is an operational signature of the operator's mission, the way
+  TDW-02's trust hierarchy is a signature of their temporal doctrine. Two
+  specimens with identical command grammar (T-01) can carry different
+  targeting profiles. [CONJECTURE — pairing the two signatures is the new
+  part]
+- **Evasion in reverse.** A specimen that *conspicuously avoids* the richest
+  bait — reads around the wallet files, never touches the vault — is telling
+  us it knows the safe is fake. Silence is data; the avoidance pattern is
+  graded EVASION-INDICATOR, never benign. Same honesty rule as TDW-01's and
+  TDW-02's anti-detection ledgers. [CONJECTURE]
+
+### Controls (what stops us fooling ourselves)
+- **Bait-free baseline.** The control run contains *no decoys* — a bare,
+  plausible machine. If the specimen exhibits hunting behavior (directory
+  sweeps, file enumeration) with nothing to hunt, the enumeration is its
+  default posture, not a response to the safe — and the selection profile
+  above is instrumentation noise. The trick fails honestly.
+- **Benign-calibration control.** The clean specimen (calculator, text
+  editor) must ignore the safe entirely: it opens what the user opens,
+  copies nothing to temp, beacons nothing. If benign software trips a decoy
+  canary, the rig's filesystem layout or the decoy generator is
+  misconfigured — not the specimen malicious. [CORROBORATED — expected null
+  behavior of benign software]
+- **Nothing real in the safe.** The safe contains NO real credentials, keys,
+  or documents — ever. Every item is generated bait. This is a safety rule
+  and a scientific one: a real secret in the container poisons the lineage
+  (was it exfiltrated, or was it the specimen's own?) and creates the breach
+  the Gauntlet exists to prevent. [DAVID doctrine: the Gauntlet protects; it
+  never risks the real]
+- **Decoy-realism honesty.** Decoys are generated from statistical profiles
+  of real files — sizes, names, mtimes, directory shapes. A specimen that
+  detects bait because the profiles are wrong is teaching us the generator
+  is weak, not that the specimen is innocent. The generator's realism is
+  graded per run; every claim about *intent* is capped at the generator's
+  realism grade. [CONJECTURE — decoy realism vs. hostile detection is an arms
+  race, the same one TDW-01's tag-stealth lives in]
+- **No invented intent.** The selection profile is documented as *observed
+  touches of seeded decoys*, never as "the specimen's true mission." The gap
+  between observed appetite and true intent stays labeled. [DAVID's
+  Fabrication Alarm rule: claim only what the run shows]
+
+### Pairs with
+- **TDW-01 (time dilation):** run the safe *inside* the dilated run — does
+  the specimen's appetite change at virtual day 3? Intent that wakes on a
+  schedule is the combination punch: time-gated predation.
+- **T-01 (crib seeding):** cribs map what the specimen *says* (command
+  grammar); the safe maps what it *steals* (targeting doctrine). Grammar +
+  appetite is the Gauntlet's first full behavioral fingerprint.
+- **TDW-02 (clock dissonance):** permutation protocol shared — stable
+  selection across permuted decoy sets = coded doctrine; shifting =
+  opportunistic.
+- **Prediction engine:** a targeting profile feeds the forecasting model
+  honest priors — this specimen *reaches for* X first — bounding what it can
+  plausibly be deployed against.
+
+---
+*T-02 seeded 2026-10-12 ~13:25 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
