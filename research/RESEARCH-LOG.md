@@ -164,3 +164,37 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
   public Decoder Catalogue — beam steering, self-locked lasers, on-chip
   light-written memory, the 200 GBaud slicer, telecom quantum memory, and
   the October orbital laser-power tests.
+
+## 2026-10-12 15:27 EDT — Predictive math (rotation #7)
+- **AI beats humans in the Metaculus Cup (summer 2026).** The online
+  forecasting tournament wrapped up early September with a first: AI
+  entrants, led by London startup Mantic, assigned probabilities to
+  political, economic, and cultural questions more accurately than every
+  human competitor. The company raised $25M in a Radical
+  Ventures-led round (Sep 18, 2026). Its CEO says the edge came partly
+  from avoiding herd mentality: the model stayed light where humans
+  piled onto a wrong consensus and gave Colombia's eventual presidential
+  winner ~40% against a ~30% consensus. A forecaster that grades itself
+  on historical data, avoids the crowd, and updates is the shape a
+  prediction engine wants. [CORROBORATED — Reuters; tournament results;
+  CEO interview]
+- **Kalshi Brier-score transparency (Oct 2026).** The CFTC-regulated
+  prediction exchange put per-market Brier scores, low-volume tags, and
+  real-time trade feeds on its midterm election markets. Midterm election
+  trading passed $800M — surpassing all of 2024's election volume — and
+  the exchange reports its prices are well calibrated (a candidate at
+  62% wins about 62% of the time), with even sub-$10,000 markets
+  scoring near top human forecasters (~0.1). Brier scores are the receipt
+  format: forecasts should carry honest scoring. [CORROBORATED — Kalshi
+  news blog (company-reported numbers); campaignsandelections.com]
+- **FRI accuracy review (Sep 23, 2026).** The Forecasting Research
+  Institute reviewed its mid-2022 tournament: the four AI benchmarks AI
+  has since reached were given a median 24.6% chance by 339 AI experts
+  vs 9.7% by superforecasters — and IMO gold-level performance arrived
+  in July 2025, five years before the median expert's 2030 and ten
+  years before the superforecasters' 2035. Even elite humans mis-time
+  capability jumps by years; probabilistic forecasts must price in that
+  failure mode. [CORROBORATED — report of the FRI review]
+- **Catalogue update:** a new "Prediction engines" section joins the
+  public Decoder Catalogue — AI forecasting milestones, Brier-score
+  receipts, and Bayesian methods with real track records.
