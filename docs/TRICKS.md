@@ -600,3 +600,130 @@ a sealed baseline for one-variable-at-a-time mutation.
 *T-05 seeded 2026-10-12 ~15:31 EDT by the decoder-create-loop.*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never Shadow's live environment.*
+---
+
+## T-06 — The Ghost Receipt *(stealth-tagging technique; design, never run)*
+
+**What it steals from:** three lineages. *One* — the canary-token
+tradition: plant fake-but-attractive secrets (Thinkst's Canarytokens is
+the canonical real-world instance — AWS keys, PDF beacons, DNS tokens
+that page you the moment anything touches them) and attribution comes
+for free, because nothing legitimate ever touches them. [VERIFIED —
+canary-token services are shipped products with public write-ups].
+*Two* — Venona's subtraction lesson: strip the known layer and read
+the unknown beneath. The Gauntlet knows every byte it seeded; anything
+the specimen *added or altered* is revealed by subtraction.
+[VERIFIED — library/DECODERS.md §(a)]. *Three* — the verifiable recall
+receipt: lineage that any third party can verify independently from
+the receipt alone, no trust in the issuer required. The receipt is the
+proof, not the claim. [CONJECTURE — this doctrine's port; the pattern
+is articulated in the decoder doctrine, the field application is new].
+
+**The trick, ported to the Gauntlet:** every byte the Gauntlet seeds —
+network-simulator answers, bait files, fake registry values, DNS
+labels, config strings — carries a *ghost token*: a canary structured
+as plausible data (a session UUID, an OAuth-style bearer string, a
+machine GUID, a long hex blob in a TLS SNI) that the specimen has no
+reason to distrust. The token is `run_id ‖ channel ‖ counter ‖
+HMAC(key, run_id ‖ channel ‖ counter)`, encoded to look native in its
+context. The HMAC key never leaves the Gauntlet. If seeded data ever
+*comes back* — exfiltrated in a packet, stashed in a registry value,
+written to disk, replayed in a later run — the fragment is
+cryptographically attributable to the exact run, channel, and
+sequence number that planted it, by anyone holding the key, with no
+need to trust the Gauntlet's own logs. The seed remembers where it
+was born; the recall carries the receipt.
+
+### How it runs (design)
+1. **Mint per-run, per-channel ghosts.** Before a run, the Gauntlet
+   mints a fresh ghost-token set: distinct tokens for the DNS channel,
+   the HTTP(S) channel, the file channel, the registry/config channel,
+   the clipboard channel. Per T-05's rotation discipline, tokens never
+   repeat across runs — a specimen can never learn a token in Run A
+   and use it as a cross-run linkage signal in Run B.
+2. **Seed plausibly.** The format matches the context: the HTTP
+   simulator returns a JSON API body containing a "session_id" that
+   *is* the ghost; the bait file contains a commented-out API key that
+   is the ghost; the DNS simulator answers a TXT query with the ghost
+   encoded as base64. Implausible seeds are worse than no seeds — a
+   specimen that detects seeding learns it is watched (the T-01 rule).
+3. **Watch, subtract, attribute.** The egress and persistence monitors
+   scan everything the specimen emits or stores for ghost-token
+   fragments. Found fragments go through subtraction: remove the
+   seeded bytes, read what the specimen *added or transformed*.
+   - *Intact fragment on an unexpected channel* — the specimen
+     forwarded the seed: the channel it appeared on is mapped as an
+     exfiltration/storage route. The route is the finding.
+   - *Fragment with altered bytes* — the specimen tampered with the
+     seed (encryption, re-encoding, truncation). HMAC verification
+     fails by design on altered tokens; the *class* of alteration
+     (e.g. XOR'd, base64-wrapped, truncated to 16 bytes) reveals the
+     specimen's data-handling pipeline. Venona logic: the unknown
+     operation is read from the known minus the unknown.
+   - *Fragment in a later run's inputs* — the specimen persisted the
+     seed across runs (marker file, registry residue, re-seeded C2
+     message). That is a PERSISTENT-class divergence, cross-confirmed
+     against T-05.
+   - *No fragment anywhere* — an honest negative. Either the specimen
+     ignored the seeds (a finding about its appetite, cf. T-02) or it
+     destroyed them before emission (a finding about its hygiene).
+4. **Receipt the recall.** Any fragment found is packaged as a *ghost
+   receipt*: the fragment, the attributed run/channel/counter (from
+   HMAC re-verification), the byte-offset context where it was found,
+   and the run lineage hash. A receipt is self-verifying to anyone
+   with the Gauntlet key — the provenance claim needs no trust in
+   the analysis pipeline, only in the key custody. [CONJECTURE —
+   the receipt format is this trick's design].
+
+### What it catches that T-01 through T-05 / the TDW tests miss
+- **Route mapping of seeded secrets.** T-01 cribs make the specimen
+  *react*; T-06 makes the specimen *route*. Knowing where seeded data
+  ends up (which packet, which file, which registry key) is the
+  exfiltration topology — the thing the report card needs most and
+  the hardest thing to observe without planting.
+- **Specimen data-handling, read from transformations.** A specimen
+  that XORs every token with a constant before sending isn't just
+  forwarding data — it's running a pipeline, and the pipeline has a
+  signature. T-03 (poisoned well) shows what the specimen *believes*;
+  T-06 shows what the specimen *does with* what it believes.
+- **Silent persistence the TDW tests can't see.** TDW-01 dilates time;
+  T-05 rewinds it; neither catches a specimen that stashes seeded data
+  and sits quiet. A ghost fragment surfacing two runs later is the
+  smoking gun neither time trick can produce.
+- **Receipts for the T-04 prediction engine.** The Long Echo forecasts
+  behavior; the ghost receipt is *evidence* scored into the forecast
+  ledger as a verified hit. Predictions become priced by receipts,
+  not vibes.
+
+### Controls (what stops us fooling ourselves)
+- **Never a real secret.** Ghosts are provably inert: they resolve to
+  infrastructure the Gauntlet sinkholes, reference accounts that don't
+  exist, and are revoked the moment the run seals. A real credential
+  planted by accident is a breach, not a trick — the mint step is
+  key-checked against the real-asset inventory before seeding.
+  [CORROBORATED — canary-token products enforce the same rule].
+- **Plausibility audit.** Every seeded ghost passes a plausibility
+  gate: would a real server emit this exact format here? A UUID where
+  the vendor uses hex-with-dashes, an API key with the wrong prefix —
+  any mismatch teaches the specimen it is in a cage. The gate is a
+  format checklist per channel, reviewed against real-world captures,
+  not imagined formats.
+- **The specimen must never verify a ghost.** Ghosts are designed
+  *unverifiable* by design: no token validates against any real
+  service, and the simulator never confirms one. A ghost the specimen
+  could check (a real AWS-key-shaped string) would let the specimen
+  distinguish seed from reality — the failure mode that kills T-01.
+- **Key custody is the trust root.** The receipt's verifiability rests
+  entirely on the HMAC key staying inside the Gauntlet. Key rotation
+  per campaign; receipts name the key generation. If the key leaks,
+  all receipts from that generation are downgraded to CLAIMS.
+- **No invented intent.** A fragment found on the wire proves *data
+  routing*, never malice. A benign updater forwarding a token-laden
+  crash report routes data too. T-06 outputs *indicators*
+  (GHOST-ROUTE, GHOST-ALTERED, GHOST-PERSISTED, GHOST-ABSENT); intent
+  is a verdict-layer question, never a tagging-layer claim.
+  [DAVID's Fabrication Alarm rule: claim only what the run shows].
+
+*T-06 seeded 2026-10-12 ~15:46 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
