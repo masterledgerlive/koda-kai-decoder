@@ -4,6 +4,13 @@
 CLAIMED / SPECULATION.*
 
 ## Historical codebreakers
+- **Napoleon 1809 homophonic cipher (AI-deciphered, Oct 2026):** a homophonic
+  cipher letter to General de Marmont, unread for 217 years (~1,300 cipher
+  units, 155 symbols), was closed by a multi-modal AI pipeline (image
+  transcription → symbol segmentation → simulated annealing) from a single
+  scanned image in about six hours — no recovered key. First real case study
+  of machine-assisted cryptanalysis on an unsolved historical cipher.
+  [CORROBORATED]
 - **Enigma** (1918–1945): rotor cipher machine; broken at Bletchley Park with the
   Bombe — the lineage of breaking the "unbreakable." [VERIFIED]
 - **Lorenz cipher / Tunny**: broken via Colossus, the first programmable digital
