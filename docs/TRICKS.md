@@ -849,3 +849,118 @@ lives in the semantics.
 *T-07 seeded 2026-10-12 ~17:18 EDT by the decoder-create-loop.*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never Shadow's live environment.*
+
+---
+
+## T-08 — The Second Hand *(stealth-tagging technique; design, never run)*
+
+**What it steals from:** network flow watermarking. Since the mid-2000s,
+traffic-analysis research has shown you can mark a network flow by modulating
+packet timings by tens of milliseconds and detect the mark downstream —
+through jitter and chaff — with correlation tests (the interval-based
+watermark family). Timing side channels are canonical too: inter-keystroke
+timing analysis against SSH sessions is the textbook case. The decoder ports
+the whole lineage into the container: we don't mark packets — we mark
+*answers*. [VERIFIED — interval-based flow watermarking is a published field
+(N. Kiyavash, A. Houmansadr et al.); timing covert channels and
+keystroke-timing attacks are standard literature]
+
+**The trick:** the simulator's response *schedule* carries the per-run tag.
+Inter-response intervals are modulated by a seeded pseudo-random delay
+pattern (e.g. ±40 ms drawn from a seeded distribution) — small enough to live
+inside natural network jitter, large enough to correlate. When the specimen
+relays simulator content downstream (proxying, exfiltrating, reporting back
+to its operator), its own request/egress timestamps preserve the timing
+signature as long as it forwards promptly. The Gauntlet never touches the
+specimen to detect this — it timestamps everything the specimen emits and
+correlates the intervals against the seeded schedule. Content can be fully
+rewritten (killing T-06's byte ghosts) and fully paraphrased (killing T-07's
+dialect shadow) and the clock still tells.
+
+### How it runs (design)
+1. **Seed the schedule.** Per run, a keyed PRNG draws the delay pattern.
+   The schedule is key-grade Gauntlet-internal — the T-06/T-07 custody rule,
+   applied to time.
+2. **Delay-budget gate.** Total added latency per interaction stays inside the
+   measured natural variance of the simulated service (the simulator's
+   baseline jitter profile, calibrated against real equivalents). Rule: if a
+   timing-aware specimen could reliably distinguish our modulation from a
+   congested Tuesday, the budget is too loud — re-seed lower or abandon for
+   the run.
+3. **Injection points.** Modulation rides only on simulator responses the
+   specimen actually requested — never gratuitous delay on the specimen's own
+   pacing. The mark travels on *our* answers, never by throttling the
+   specimen.
+4. **Capture.** The Gauntlet logs timestamps of everything leaving the
+   specimen's process boundary (egress packets, file writes, clipboard,
+   DNS queries — whatever the container's sensors see). Detection needs no
+   cooperation from the specimen.
+5. **Detection.** Non-parametric correlation between the observed inter-event
+   intervals and the seeded schedule, scored against a *control* schedule
+   (a schedule never used this run). Report correlation plus p-value;
+   the threshold is pre-registered before the run, never fitted to it.
+6. **Indicators.** TIME-ECHO (correlation beats the control at the
+   pre-registered level), TIME-ABSENT, TIME-FLATTENED (intervals
+   suspiciously regular — active timing normalization, e.g. store-and-forward
+   buffering; an indicator class, not an accusation — benign agents buffer
+   too).
+
+### What it catches that T-01 through T-07 / the TDW tests miss
+- **Full-content laundering.** The specimen re-encodes everything it touches
+  (T-06's byte ghosts die) and paraphrases every phrase (T-07's dialect
+  shadow dies) but forwards promptly — the timing signature survives any
+  transform that preserves causality.
+- **The clean relay.** A specimen that proxies simulator requests faithfully
+  outward becomes a timing mirror: its egress timestamps echo the seeded
+  schedule straight through, mapping *which* external dependency it actually
+  uses — data the byte and semantic tags cannot give.
+- **Steganographic re-encoding.** The specimen hides stolen data in an
+  unrelated-looking protocol (DNS tunneling, padded TLS). Content analysis
+  sees noise; the schedule rides the *rhythm* of the re-encoded flow
+  regardless.
+- **The trilogy read.** T-06 + T-07 + T-08 read as one: bytes say *what*
+  moved, dialect says *how it was rewritten*, timing says *when and how
+  fast*. Together they triangulate a data-handling pipeline no single tag
+  can map.
+
+### Controls (what stops us fooling ourselves)
+- **Baseline or it didn't happen.** Every run opens with a calibration phase
+  measuring the specimen's own request pacing and the simulator's natural
+  jitter. No baseline → no correlation claim → no TIME-ECHO.
+- **The delay-budget audit.** Post-run, an independent check confirms the
+  modulation stayed inside the calibrated natural variance. A mark the
+  specimen could reliably detect is a tainted run: it teaches caged
+  specimens to buffer, and TIME-FLATTENED becomes the new normal.
+- **Timing echo proves *data flow*, never intent.** A benign specimen
+  calling home with fresh logs echoes the schedule too. T-08 outputs
+  indicators; intent is a verdict-layer question (the T-06/T-07 rule,
+  restated for the time domain).
+- **Correlation is not evidence without the control.** Every detection is
+  reported as seeded-schedule correlation *versus* control-schedule
+  correlation. A lone "high correlation" with no control comparison is not
+  evidence of anything.
+- **The buffering confound.** A specimen under load buffers and batches,
+  flattening timing for innocent reasons. TIME-FLATTENED must be scored
+  against load telemetry from the container, never in isolation.
+- **Probabilistic by construction.** Like T-07, this tag is a measured
+  signal with a measured false-positive rate from calibration runs.
+  Report cards grade it as *evidence weight*, never as a binary fact.
+
+### Pairs with
+- **T-06 (byte ghosts) + T-07 (dialect shadow):** the stealth-tagging
+  trilogy — bytes, meaning, time. Together they separate *copying* (ghost
+  survives), *rewriting* (dialect survives), and *relaying* (timing
+  survives).
+- **TDW-06 ("The Unasked Exit"):** a CHANNEL-BUILDER specimen building
+  covert channels is the primary suspect for a TIME-ECHO — the covert
+  channel's own rhythm is what gets marked.
+- **library/MATH-PHYSICS.md §3:** correlation tests and their confidence
+  intervals live in the probabilistic layer; every TIME-ECHO ships with
+  its interval or it ships nothing.
+
+*T-08 seeded 2026-10-12 ~17:35 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "timing echo is a stable, measurable data-flow signal
+in this container" is this trick's core hypothesis, untested; the flow-watermark
+lineage it steals from is VERIFIED literature]*
