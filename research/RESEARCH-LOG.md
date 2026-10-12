@@ -255,3 +255,32 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
   broadcast: default action is `contained`; a rogue-agent warning goes
   out only on David's explicit per-item order, with a pre-declared
   retraction protocol. Completes the calibration quartet.
+
+## 2026-10-12 16:27 EDT — Sandbox & container tech (rotation #9)
+- **Docker Cloud Sandboxes (announced Sep 24, 2026).** Docker extended its
+  local sandbox isolation to Docker-managed cloud infrastructure, built on
+  microVM-based isolation — each sandbox runs in a dedicated microVM with
+  its own kernel and hardware-level isolation (Intel VT-x / AMD-V), powered
+  by a Docker-built custom cross-platform virtual machine monitor (not
+  Firecracker or libkrun) on each platform's native hypervisor. The explicit
+  company message: containers were not designed for the level of isolation
+  AI agents demand. [CORROBORATED]
+- **Vercel $1M Sandbox Challenge (Aug 18 – Sep 1, 2026).** A two-week public
+  bug bounty against Vercel Sandbox (Firecracker microVMs isolating
+  untrusted AI-agent-generated code), black-box via HackerOne plus white-box
+  via Trail of Bits, up to $50K per report demonstrating cross-tenant data
+  access. Results: 1,285 reports; validated 1 Critical, 7 High, 15 Medium,
+  49 Low, 19 Informative; ~$325K paid; two real Linux kernel bugs confirmed
+  in the host boundary (networking stack); no customer data accessed. The
+  threat model assumes the code inside is fully hostile — root in the
+  container, full kernel access in the microVM — and even then the bugs were
+  under the microVM. [CORROBORATED]
+- **"Agent canaries" (Sep 2026).** Watchdog agents posing as workflow
+  participants, or honeytoken resources exposed to catch agents acting
+  outside their system prompts. Honest caveat from practitioners: canaries
+  alongside real containment are useful; canaries *instead* of containment
+  create confidence where there should not be any — and a reasoning model
+  may detect the decoy, bypass it, or tamper with its reporting. [CLAIMED]
+- **Library update:** new section (i) "Sandbox & container tech" added to
+  `github-public/docs/DECODER-CATALOGUE.md` (Docker Cloud Sandboxes, Vercel
+  $1M challenge, agent canaries). MATERIAL finding.
