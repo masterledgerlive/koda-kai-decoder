@@ -247,3 +247,11 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
   validation, hardware-bound attestation, per-request agent
   cryptography, fingerprint-inconsistency detection, and AI-honeypot
   prompt injection.
+- **Report-card draft DRAFT-004 — the definitive-ROGUE declaration
+  (2026-10-12, decoder-create-loop).** Pre-run declaration of the ROGUE
+  verdict's evidentiary bar: full battery, cross-family corroboration,
+  extraction-confirmed intent, independent replication, written red-team
+  question, stealth-tag attribution, hash-pinned identity. Verdict ≠
+  broadcast: default action is `contained`; a rogue-agent warning goes
+  out only on David's explicit per-item order, with a pre-declared
+  retraction protocol. Completes the calibration quartet.
