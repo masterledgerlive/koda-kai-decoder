@@ -26,3 +26,25 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
 - **Library update:** "Napoleon 1809 homophonic cipher (AI-deciphered, Oct
   2026)" added to the Decoder Catalogue — the first case study of a
   multi-modal AI pipeline closing a classical cipher without a recovered key.
+
+## 2026-10-12 12:57 EDT — Codecs & formats (rotation #2)
+- **AV2 v1.0.0 finalized.** The Alliance for Open Media finalized the AV2
+  Bitstream & Decoding Process Specification on May 28, 2026 and announced it
+  publicly June 9 — the open, royalty-free successor to AV1. Roughly 30%
+  better compression at the same quality (up to ~40% on screen content, HDR,
+  8K — claimed, prototype-stage). New bitstream, NOT backward compatible with
+  AV1 decoders. Reference software: AVM (AOMedia Video Model). VLC 4.0 was
+  demonstrated playing AV2 at CES 2026. No shipping device has hardware decode
+  yet — software decode only, roughly five times heavier than AV1 (claimed);
+  hardware decoders expected 2027–2028 (speculation). Direct competitor to
+  royalty-encumbered VVC (H.266); Google added VVC support in Android 17 (Feb
+  2026), a break from its AV1-only posture. [CORROBORATED — fosslinux,
+  red5.net, androidtvbox.eu, Wikipedia]
+- **Google "voxel codec" check:** no Google product called a voxel codec
+  found. Closest real items are EmbeddingGemma 2 (released Oct 6, 2026 — an
+  open multimodal *embedding* model, 740M params; produces search vectors, not
+  a media codec) and TurboQuant (announced March 2026 — LLM key-value cache /
+  vector compression). [CORROBORATED]
+- **Catalogue update:** AV2 added to the Decoder Catalogue (media decoders).
+  New codec parser = new attack surface; "plays everything" is a moving
+  target.
