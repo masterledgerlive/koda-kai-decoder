@@ -77,3 +77,30 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
   [CORROBORATED — CNX Software and Open Source For You]
 - **Catalogue update:** both entries added to the Decoder Catalogue under
   "Protocol & language decoders".
+
+## 2026-10-12 13:58 EDT — Language decoders (rotation #4)
+- **Apollo: first foundation LLM for Ancient Greek.** The Austrian Academy of
+  Sciences, together with Mistral AI and SAIL Reply, released "Apollo" — the
+  first advanced LLM built for Ancient Greek. Trained on roughly 600 million
+  words of Ancient Greek, it fills missing words and passages in fragmentary
+  texts, identifies word gaps, dates documents, and weighs historical context,
+  always offering multiple candidates so a human scholar keeps the final
+  call. In reconstruction tests on real papyrus it hit around 80%; in a blind
+  study, international experts rated its suggestions at least as good as
+  human-scholar reconstructions in 77% of cases and better in 16-20%. Free
+  for academic use. Decoder significance: a language with no native speakers
+  becomes machine-readable at scale — the template for future unknown-script
+  work (the model reconstructs statistically; it does not establish truth).
+  [CORROBORATED — multiple independent outlets]
+- **SPMTNet: structural-prior deep learning for Tangut script (Oct 1,
+  2026).** A peer-reviewed paper in npj Heritage Science (DOI
+  10.1038/s40494-026-03012-6) describes a multi-task framework trained on
+  XiXiaDB — whole-character images plus component annotations — that learns
+  how Tangut characters are assembled from parts (composition and spatial
+  relations) instead of matching whole-glyph appearance, outperforming
+  baselines especially on similar and rare characters. Decoder significance:
+  a general template for any character-based script — decode by structure
+  first, appearance second, exactly how the Gauntlet interrogates a foreign
+  format. [VERIFIED — paper verified at the publisher DOI]
+- **Catalogue update:** both entries added to the Decoder Catalogue under
+  "Protocol & language decoders".
