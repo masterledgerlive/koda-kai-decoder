@@ -115,3 +115,52 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
 - **PQC migration deadlines landing now.** October 2026: federal agencies must submit PQC migration plans to OMB/ONCD; December 2026: the FAR Council must publish a proposed rule on contractor PQC compliance; January 2027: all new national-security-system acquisitions must meet NSA CNSA 2.0. Under EO 14412 (June 2026) + OMB M-26-15: key establishment by end 2030, digital signatures by end 2031. No cryptographically-relevant quantum computer exists yet — the threat is future, the migration clock is present.
   [CORROBORATED — mondaq.com, keyfactor.com]
 - **Catalogue update:** the quantum track gained "IonQ real-time QEC decoder (Sep 2026)", "LR-QAOA QEC-operations benchmark (Oct 2026)", "IBM/Rutgers real-time measurement-and-reset (Nature Physics, Oct 2026)", and the PQC deadline line.
+
+## 2026-10-12 14:57 EDT — Photonic comms & power (rotation #6)
+- **Chip-scale 2D beam steering (Opto-Electronic Advances, 2026).** A hybrid
+  photonic platform demonstrated laser beam steering across a measured
+  161-degree field of view at near-diffraction-limited quality: a silicon
+  photonic chip routes light through on-chip switches to a freeform
+  micro-optical reflector that shapes a clean free-space beam — a
+  "projector" architecture instead of a phased array of tuned shifters. The
+  chip-scale steering front-end that free-space optical comms needs to leave
+  the laboratory. [CORROBORATED — peer-reviewed journal]
+- **Self-stabilizing photonic lasers (Nature Photonics, Oct 2026).**
+  Self-injection locking held across the full drive-current range cut
+  frequency noise by more than 5,000x versus the free-running laser, linewidth
+  under 10 Hz, with mode-hop-free 1.5 GHz chirps — all without active
+  control. The transmitter side of coherent optical comms, lidar, and
+  quantum sensing. [CORROBORATED — peer-reviewed]
+- **All-optical switching integrated on chip (Nature Nanotechnology, Sep
+  2026).** The first all-optical magnetization switching fully inside a
+  silicon nitride photonic circuit — light delivered through an on-chip
+  waveguide flips bits in cobalt-gadolinium ferrimagnets on picosecond
+  timescales. Light writing memory with no electrical path in the loop is a
+  storage side-channel shape our gauntlet threat library now records.
+  [CORROBORATED — peer-reviewed]
+- **Photonic spectrum slicer past 200 GBaud (Communications Engineering, Oct
+  2026).** A photonic integrated recurrent spectrum-slicing receiver pushes
+  direct-detection formats (PAM-4 / on-off keying) to some of the highest
+  symbol rates yet over dispersive fiber, with affordable detection hardware.
+  [CORROBORATED — peer-reviewed]
+- **Telecom-band quantum memory over 1 microsecond (Nano Letters, Oct 9,
+  2026).** A nanophotonic lithium-niobate platform holds multiple photons at
+  once, aimed at commercially manufacturable quantum memories for chip-based
+  quantum computers and networks. [CORROBORATED — peer-reviewed]
+- **Orbital laser power beaming tests (Oct 2026).** Star Catcher's Protostar
+  flew on SpaceX's Transporter-18 to attempt laser power transfer to a
+  free-flying CubeSat — claimed first optical power beaming between two
+  untethered spacecraft. Cowboy Space's Reason-1 aims for a first
+  orbit-to-ground laser transfer attempt in late October 2026 (30-100 W into
+  a 10-20 m spot). Until the tests fly, these are beaming tests, not
+  beaming systems. [CLAIMED — company announcements; independent reporting]
+- **Chip-scale optical cavity (Oct 6, 2026 announcement).** Infleqtion,
+  Honeywell Aerospace, and UC Santa Barbara announced a silicon-nitride
+  optical cavity prototype to stabilize lasers for atomic clocks and quantum
+  sensors — but the release carries no size, linewidth, stability, or
+  field-test numbers, so the claim is noted, not banked.
+  [CLAIMED — announcement; numbers absent]
+- **Catalogue update:** a new "Photonic comms & power" section joins the
+  public Decoder Catalogue — beam steering, self-locked lasers, on-chip
+  light-written memory, the 200 GBaud slicer, telecom quantum memory, and
+  the October orbital laser-power tests.
