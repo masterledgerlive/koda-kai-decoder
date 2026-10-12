@@ -11,6 +11,20 @@ CLAIMED / SPECULATION.*
   scanned image in about six hours — no recovered key. First real case study
   of machine-assisted cryptanalysis on an unsolved historical cipher.
   [CORROBORATED]
+- **Enigma MVUEH message (AI-broken, Sep 2026):** an 82-letter July 1941 German
+  Army signal, unsolved since 2005, fell in about two days when OpenAI's GPT-6
+  Astra — given only the open instruction "break any unsolved message" — chose
+  the target itself, cribbed "ROSENOW ROSENOW" from a related solved message,
+  wrote its own Enigma simulator and software Bombe in Python and C++, and ran
+  the search. Archive curator Frode Weierud independently validated the break;
+  his verdict: "as an old cryptanalyst, I am still in awe." The obstacles were
+  usage flaws, not the machine: an outlier wheel order, transcription errors,
+  a rare rotor turnover, and an operator typo. [CORROBORATED]
+- **WWI ADFGVX naval signal (Dec 1918, AI-broken Sep 2026):** Astra also cleared
+  a 108-year-old WWI ADFGVX message — an English cruiser arrived at Sevastopol,
+  an Allied squadron following on the 26th. Separately, cryptanalyst Jack Willis
+  solved another unresolved Enigma message with help from Anthropic's Claude
+  Opus 5 (more direct expert guidance). [CLAIMED]
 - **Enigma** (1918–1945): rotor cipher machine; broken at Bletchley Park with the
   Bombe — the lineage of breaking the "unbreakable." [VERIFIED]
 - **Lorenz cipher / Tunny**: broken via Colossus, the first programmable digital
