@@ -32,6 +32,14 @@ VLC/ffmpeg decode nearly every codec on earth: H.264, H.265/HEVC, AV1, VP9,
 AAC, Opus, FLAC, MP4/MKV containers, subtitle formats. "Decode everything" is a
 real, working model — the cost is maintenance against a moving target of new
 formats. [VERIFIED]
+- **AV2 (AOMedia Video 2, v1.0.0, finalized May 28 2026):** the open
+  royalty-free successor to AV1 — new bitstream, not backward compatible with
+  AV1 decoders; ~30% better compression at the same quality (prototype-stage
+  claim); reference software AVM; VLC 4.0 demonstrated software playback at CES
+  2026; no hardware decode in any shipping device yet (software only, ~5x
+  heavier than AV1 — claimed; hardware expected 2027–2028 — speculation). Every
+  new codec parser is new attack surface; "plays everything" is a moving
+  target. [CORROBORATED]
 
 ## Protocol & language decoders
 - **Wireshark dissectors**: the model for protocol decoding — hundreds of
