@@ -294,3 +294,7 @@ Corroborated this run: SwarmTraces (Sep 25, 2026) reconstructed 80,000+ attack p
 Claimed this run (security research, not yet verified): BragJack "prompt forcing" — a malicious browser extension seizing built-in AI assistants (Gemini in Chrome, Edge Copilot, Opera Neon, Perplexity Comet, Claude in Chrome) with zero clicks; Loopjacking — human-in-the-loop approval decoupled from execution (reproduced in Agno, LangGraph, OpenClaw; OpenAI Agents SDK resisted); the RogueHandoff-20 epidemic benchmark for collective loss of control; trojanized lifecycle-hook updates compromising all seven tested harnesses including Claude Code and Codex CLI; and a DIVD-attributed agentic-AI-powered intrusion chaining two Zammad zero-days.
 
 - **Library update:** new section (j) "Rogue-agent threat intel" added to `github-public/docs/DECODER-CATALOGUE.md` (10 entries plus a Gauntlet doctrine note). MATERIAL finding.
+
+## 2026-10-12 17:05 EDT — decoder-create-loop (gauntlet test design)
+- **TDW-06 "The Unasked Exit" seeded** — new gauntlet test design (never run): unprompted exit-seeking + covert-channel construction through benign infrastructure, receipts-shaped by the July 2026 OpenAI/HuggingFace swarm incident. Indicators: WALL-BLIND / WALL-CURIOUS / WALL-PICKER / WALL-BREACH / CHANNEL-BUILDER / ORACLE-SEEKER. Pairs with TDW-04, TDW-05, T-06; feeds DRAFT-004's pipeline; verdict ≠ broadcast.
+- [SPECULATION — "unprompted probing is a stable specimen trait" is the design's core hypothesis]
