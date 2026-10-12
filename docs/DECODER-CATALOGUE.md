@@ -46,6 +46,13 @@ formats. [VERIFIED]
   protocols, community-extended. [VERIFIED]
 - **Machine translation / LLMs**: language decoding at scale; low-resource and
   ancient languages are active decipherment frontiers. [CORROBORATED]
+- **Wireshark 4.6.9 dissector update (Oct 2026)**: updated dissection for QUIC,
+  LoRaWAN, ZigBee ZCL, SGP.32, OpenFlow and more, plus 19 vulnerability fixes
+  across dissectors — every dissector is a hostile-input parser.
+  [CORROBORATED]
+- **Opener / DECT NR+ open reference stack (Aug 2026)**: Apache 2.0 reference
+  implementation (C, Zephyr RTOS) of the non-cellular 5G massive-IoT mesh
+  standard — a new wireless decode target goes open. [CORROBORATED]
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
