@@ -42,6 +42,26 @@ CLAIMED / SPECULATION.*
   are rolling out now. [VERIFIED]
 - AES-256: Grover's algorithm halves effective strength — still considered safe.
   [CORROBORATED]
+- **secp256k1 classical-hardness audit (Oct 11–12, 2026).** Rob Hamilton
+  (AnchorWatch) published a public red-team analysis asking whether classical
+  (non-quantum) cryptanalysis could ever break Bitcoin's secp256k1
+  ECDSA/Schnorr keys. Pollard's rho and baby-step-giant-step need ~2^128
+  group operations at the curve's ~256-bit group order; Shoup's 1997 bound
+  only constrains *generic* algorithms, but no coordinate-exploiting method
+  is known to beat the square-root scale. Five open research directions
+  surveyed (index-calculus via summation polynomials; zero-minor matrix
+  reduction; the Shoup-gap; curve special structure; characteristic-zero
+  lifting) — none with a justified affordable attack at Bitcoin parameters.
+  Context: amid EF researcher Justin Drake's Oct 7 "bunker mode" call,
+  Coinbase's Yehuda Lindell stated "no evidence whatsoever" of a break of
+  the decades-old hardness assumptions, and Ledger CTO Charles Guillemet
+  said recent AI mathematical results do not indicate an imminent practical
+  ECDSA break — adding that an asymmetric-crypto collapse would hit TLS and
+  banking before Bitcoin. No public classical key-recovery demonstrated at
+  Bitcoin scales as of Oct 12, 2026. Decoder lesson: a pattern, theorem, or
+  Lean-checked formalization is not an affordable attack; separate worst-case
+  from average-case hardness; order the blast radius honestly. [CORROBORATED
+  — cryptotimes.io, 2026-10-12; individual statements CLAIMED via that report]
 
 ## Media decoders — the VLC model
 VLC/ffmpeg decode nearly every codec on earth: H.264, H.265/HEVC, AV1, VP9,
