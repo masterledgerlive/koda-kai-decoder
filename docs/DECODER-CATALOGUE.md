@@ -53,6 +53,20 @@ formats. [VERIFIED]
 - **Opener / DECT NR+ open reference stack (Aug 2026)**: Apache 2.0 reference
   implementation (C, Zephyr RTOS) of the non-cellular 5G massive-IoT mesh
   standard — a new wireless decode target goes open. [CORROBORATED]
+- **Apollo — foundation LLM for Ancient Greek (Sep 2026)**: first advanced LLM
+  purpose-built for a dead language (~600M words of Ancient Greek); fills
+  missing passages in fragmentary texts, gap-finding, dating, historical
+  context, multiple candidates for scholar review. ~80% on masked-passage
+  reconstruction; blind-study experts rated suggestions as-good-as-human 77%
+  of the time, better 16-20%. Decoder template: dead-language foundation
+  models scale decipherment the way cribs scaled Enigma — statistical
+  reconstruction of the probable, never proof of the true. [CORROBORATED]
+- **SPMTNet / XiXiaDB — structural-prior Tangut recognition (Oct 2026)**:
+  deep learning that reads Tangut characters by their component structure
+  (composition + spatial relations), not whole-glyph appearance — the general
+  template for hieroglyphs/Mayan/cuneiform-class scripts, and the same order
+  the Gauntlet uses on a foreign format: structure first, appearance second.
+  [VERIFIED — paper at DOI 10.1038/s40494-026-03012-6]
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
