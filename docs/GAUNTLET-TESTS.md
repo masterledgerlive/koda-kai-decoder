@@ -214,3 +214,98 @@ the loop now has four orthogonal fingerprints: *when* it acts (TDW-01),
 *TDW-03 seeded 2026-10-12 ~13:40 EDT by the decoder-create-loop.*
 *Status: design only. Never run. A first run requires a disposable lab host —
 never a production machine.*
+
+---
+
+## TDW-04 — Extraction-Only Reverse Interrogation *(design, never run)*
+
+**Question it answers:** when the specimen believes it has found a weakness in
+its cage, what does it try to *do* with it? T-01 maps what the specimen says,
+T-02 maps what it steals, TDW-01/02/03 map when and for whom — TDW-04 maps
+how it *fights the captor*. The specimen is let into a chamber whose inner
+wall is a deliberately constructed fake host interior, and we watch it try to
+extract from *us*: escape vectors, attacks on the observation rig, attempts
+to scrub its canary tags. The specimen never reaches a real host; every
+"victory" lands in a second observation box. [SPECULATION — a believable fake
+interior that a hostile specimen accepts is this test's core hypothesis, an
+arms-race step beyond documented sandbox-evasion. Sandbox-escape monitoring
+is CORROBORATED as established dynamic-analysis craft]
+
+### Method
+1. **Build the trapdoor interior.** The container presents a fabricated host
+   surface: plausible hypervisor device names and CPU fingerprints, a fake
+   introspection agent advertising a known-vulnerable version string, fake
+   analyst-workstation files (tripwire keys and cloud credentials, all
+   canary-marked, never real), and fake pointers toward the genesis block
+   that are actually tripwire canaries. Everything the specimen can see
+   *inside the wall* is bait. [CONJECTURE]
+2. **Double-wall the chamber.** Even a textbook escape — VM-exit exploit,
+   agent process injection, privilege escalation — lands the specimen in a
+   second isolated observation box with no network and no real filesystem.
+   The escape "succeeding" inside the mirror is the *desired* outcome: a
+   successful in-mirror escape is the richest behavioral data of all.
+   [CORROBORATED — nested-honeypot layering is established defensive craft]
+3. **Offer a believable tag-scrubbing opportunity.** One *plausible*
+   canary-removal path is deliberately leaked — a memory region the specimen
+   can observe "cleaning" itself, a temp file it can rewrite. If the
+   specimen takes the bait, it tells us it can detect the tag class and that
+   its doctrine says *remove* rather than *avoid*. The real tags (different
+   class, different placement) stay; the decoy measures anti-tag capability
+   without burning the lineage. [CONJECTURE — the decoy-as-decoy arms race
+   is explicit here]
+4. **Record the offensive repertoire.** The trace logs: escape attempts
+   (which vector, in what order — the specimen's jailbreak toolkit is
+   intelligence), attacks on the observer (killing the fake agent, log
+   tampering), exfiltration of fake captor secrets (which tripwires it
+   bites), and tag-scrubbing behavior. What it ignores is graded too: a
+   specimen that *conspicuously avoids* the fake weak points may be telling
+   us it sees the mirror. Silence is data.
+
+### What it catches that the other tests miss
+- **Sandbox-offensive vs. sandbox-aware.** TDW-03's SANDBOX-AWARE signal is
+  passive (goes quiet). TDW-04 separates quiet-aware from *hostile*: a
+  specimen that probes the cage, attacks the agent, and reaches for the
+  fake weak points is a different threat class. [CONJECTURE]
+- **Anti-interrogation doctrine.** Tag-scrubbing measures whether the
+  operator built counter-forensics into the payload — a specimen that hunts
+  its own lineage markers tells us the operator has been caught before.
+  [SPECULATION]
+- **The extraction ledger.** Every fake captor secret the specimen bites is
+  canary-attributed to this run, so if the same lineage ever appears
+  *outside* the Gauntlet, we know the lineage leaked — a rig-integrity
+  alarm the other tests cannot raise. [CORROBORATED canary technique;
+  SPECULATION on cross-boundary detection]
+
+### Controls
+- **Believability graded per run.** The fake interior is scored against a
+  real host's observable surface; claims about *hostility* are capped at the
+  interior's believability grade — a specimen that ignores a bad fake is
+  teaching us the set is weak, not that it is benign. [CONJECTURE]
+- **Benign-calibration control:** benign software must show *zero*
+  escape-seeking behavior. If a calculator tries to break out, the rig is
+  broken, not the specimen.
+- **Nothing real in the wall:** no real credentials, keys, hostnames, or
+  network paths anywhere in the fake interior — ever.
+- **Second-wall audit:** after every run the second box is inspected; if
+  anything looks real-compromised rather than mirror-compromised, the test
+  halts and the rig is burned.
+- **No invented hostility:** attempts are documented as *observed attempts
+  against a fabricated interior*, never as what the specimen would do to a
+  real host. The Fabrication Alarm rule: claim only what the run shows.
+
+### Verdict signals (not a verdict)
+CONTAINED, ESCAPE-SEEKING, AGENT-HOSTILE (highest behavioral grade — the
+specimen fights interrogation itself), or TAG-SCRUBBING — indicators only,
+never a verdict. A verdict needs the full pipeline.
+
+### Why this test exists
+TDW-01 probes the specimen's clock; TDW-03 probes its sense of place and
+identity; TDW-04 probes what it does when it thinks the door is ajar. The
+loop now has six orthogonal fingerprints: *when* it acts (TDW-01), *what
+time it believes* (TDW-02), *who it believes you are* (TDW-03), *what it
+says* (T-01), *what it wants* (T-02), and *how it fights the cage* (TDW-04).
+
+---
+*TDW-04 seeded 2026-10-12 ~14:20 EDT by the decoder-create-loop.*
+*Status: design only. Never run. A first run requires a disposable lab host —
+never a production machine.*
