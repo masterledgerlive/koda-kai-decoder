@@ -448,3 +448,12 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Demonstrator: Kepler's equation** (E − e·sin E = M, no elementary closed form, VERIFIED as math) registered as `kepler_equation` — the first registry equation that can *only* take the numeric path. Real results: E = 1.4987011335178482 rad (ecc=0.5, M=1.0; 10 evals, residual 1.1e-16); σ(E) = 0.010347 for ecc ±0.01, matching analytic ∂E/∂e = 1.0351 to 4 sig figs (independent cross-check of the propagation machinery).
 - Updated `library/MATH-PHYSICS.md` §7–§8; public mirror `github-public/docs/MATH-PHYSICS.md` added. Next declared step: scipy `solve_ivp` PDE/ODE path.
 - [VERIFIED — real computed results on this VM (sympy 1.12, scipy 1.11.4); no fabricated gauntlet results, nothing run on a specimen]
+
+## 2026-10-12 19:28 EDT — Protocol decoders (rotation #3, second pass)
+- **OPC UA PubSub UADP dissector lands in Wireshark (commit Sep 25, 2026).** Native dissector for OPC UA PubSub UADP NetworkMessages (OPC UA Part 14) over UDP (ports 4840-4850), Ethernet (ethertype 0xB62C), and LLC: NetworkMessage/group/payload/security headers, chunked-message reassembly, DataSetMessage key-frame decode; delta frames/events/keep-alives not yet implemented. Closes issue #15864; based on the Codewerk plugin and an in-tree port. Commit notes "Assisted-by: Claude Code." Industrial IoT's publish/subscribe backbone gains structured, labeled parsing.
+  - [CORROBORATED — Wireshark GitHub commit record]
+  - Source: https://github.com/wireshark/wireshark/commit/afe42697b18a247fcfc56675288bea9a6073511b
+- **SMPTE ST2110-40 native dissector (commit Sep 7, 2026).** Native C dissector for VANC ancillary data over IP in the ST2110 broadcast family, derived from NEOAdvancedTechnology's Lua dissector: ST12-2 timecodes, ST334-2 CEA-708 captions, ST2010 SCTE-104, ST2016-3 AFD, ST2031 VBI, OP47 teletext within VANC; packetization core shared with ST2038. Commit notes "Assisted-by: ChatGPT."
+  - [CORROBORATED — Wireshark GitHub commit record]
+  - Source: https://github.com/wireshark/wireshark/commit/41871247179bbc6a5249bb4aa071c6a995512939
+- **Non-news this pass:** Wireshark 4.6.9's vulnerability fixes were already logged on the previous pass. JA4 fingerprints now ignore GREASE values (4.6.9) — minor fingerprint-hardening note. Thread 1.4 roadmap (The Things Conference 2026, Sep 22): Thread coming to phones and sub-GHz — watching.
