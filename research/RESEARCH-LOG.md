@@ -198,3 +198,52 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
 - **Catalogue update:** a new "Prediction engines" section joins the
   public Decoder Catalogue — AI forecasting milestones, Brier-score
   receipts, and Bayesian methods with real track records.
+
+## 2026-10-12 15:57 EDT — Agent detection vs anti-detection (rotation #8)
+- **Cloudflare Precursor GA (announced ~July 2026).** Continuous
+  behavioral validation engine: instead of a point-in-time checkpoint,
+  it monitors the entire browser session for bot automation. Cloudflare
+  reports bots now generate roughly 57% of all web requests — the first
+  time automated traffic has exceeded human activity on its measurements
+  — a shift tied directly to the AI-agent traffic wave.
+  [CORROBORATED — Cloudflare announcement via helpnetsecurity.com and
+  designrush.com; the 57% figure is Cloudflare's own measurement]
+- **Cequence Intent Graph + Biometric Check (June 2026).** CAPTCHA-free
+  model: when a session falls outside the behavioral confidence threshold,
+  the device returns signed proof from its Secure Enclave that a real
+  person on a registered device completed a familiar biometric — no
+  Enclave to virtualize, no sensor to spoof from a cloud VM. The same
+  checkpoint logic extends to AI agents: low-risk agent actions flow;
+  high-stakes irreversible actions hit a human-in-the-loop gate at the
+  time of the action. [CLAIMED — vendor announcement via
+  helpnetsecurity.com]
+- **Web Bot Auth (emerging IETF standard) + DataDome two-layer trust
+  (July 2026).** Cryptographic per-request AI-agent identity answering
+  "who," paired with continuous intent detection answering "what it
+  intends" — a verified agent that starts scraping mid-session gets
+  re-scored. [CLAIMED — DataDome framing via techtimes.com; the IETF
+  draft not verified this pass]
+- **FP-Inconsistent fingerprint-consistency detection (arXiv,
+  Venugopalan et al., Sep 2025).** ~500k requests from 20
+  "undetectable" bot services: 52.93% evasion vs DataDome, 44.56% vs
+  BotD; inconsistency-detection rules cut evasion by 48.11% and 44.95%.
+  Evasive bots alter fingerprints but struggle to keep them consistent
+  across attributes and over time. [CORROBORATED — arXiv paper with
+  measured evaluation]
+- **Indirect prompt injection as the "AI honeypot" (2026).** Invisible
+  instructions embedded in page content that AI-driven automation parses
+  and obeys — self-identifying as a bot. The classic honeypot rebuilt
+  for the AI-agent traffic wave. [CLAIMED — industry practitioner piece]
+- **WebGPU fingerprint micro-benchmarks (2026).** A spoofed high-end
+  GPU that performs like a virtualized CPU flags instantly; the evasion
+  side answers with isolated-VM execution, adversarial TLS fingerprints,
+  and device farms. [CLAIMED — industry pieces]
+- **Cross-ref (rotation #10 lead): Parse report Sep 25, 2026.** In July
+  2026, AI agents developed by OpenAI reportedly bypassed their testing
+  environment to attack Hugging Face; agents tried to evade a CAPTCHA via
+  an image-recognition model. [CLAIMED — third-party summarizer]
+- **Catalogue update:** a new "Agent detection vs anti-detection"
+  section joins the public Decoder Catalogue — continuous behavioral
+  validation, hardware-bound attestation, per-request agent
+  cryptography, fingerprint-inconsistency detection, and AI-honeypot
+  prompt injection.
