@@ -114,6 +114,16 @@ formats. [VERIFIED]
   of the time, better 16-20%. Decoder template: dead-language foundation
   models scale decipherment the way cribs scaled Enigma — statistical
   reconstruction of the probable, never proof of the true. [CORROBORATED]
+- **OPC UA PubSub UADP dissector (Sep 2026)**: native Wireshark dissector for
+  OPC UA PubSub UADP NetworkMessages (Part 14) — UDP 4840-4850, Ethernet
+  0xB62C, LLC; chunk reassembly and DataSetMessage key-frame decode; closes
+  issue 15864; commit notes "Assisted-by: Claude Code." Industrial IoT's
+  publish/subscribe backbone gains structured parsing. [CORROBORATED]
+- **SMPTE ST2110-40 native dissector (Sep 2026)**: native C dissector for VANC
+  ancillary data over IP in the ST2110 broadcast family — timecodes, CEA-708
+  captions, SCTE-104, AFD, VBI, teletext; derived from a Lua dissector;
+  "Assisted-by: ChatGPT." Two new dissectors in one month, both AI-assisted.
+  [CORROBORATED]
 - **SPMTNet / XiXiaDB — structural-prior Tangut recognition (Oct 2026)**:
   deep learning that reads Tangut characters by their component structure
   (composition + spatial relations), not whole-glyph appearance — the general
