@@ -26,6 +26,14 @@ CLAIMED / SPECULATION.*
   flaws, not the machine. [CORROBORATED]
 - **Classical methods**: frequency analysis, Vigenère breaking (Kasiski/Babbage),
   one-time pads (unbreakable when used correctly). [VERIFIED]
+- **Venona (1943–1980):** the only mathematically unbreakable cipher ever deployed
+  — Soviet one-time pads — was broken by *reuse*: wartime pad production
+  duplicated ~35,000 key pages, and Arlington Hall/NSA analysts found the "depth
+  of two" (two messages under one pad page; subtract them and the key cancels).
+  ~2,200 translations published (declassified 1995) exposed the atomic-spy rings
+  (Klaus Fuchs, the Rosenbergs, Harry Gold) plus Hiss, White, Maclean, Hall.
+  The canonical proof that breaks come from usage flaws, not machines — the
+  Gauntlet hunts usage first. [VERIFIED]
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
