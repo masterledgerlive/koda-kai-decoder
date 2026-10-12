@@ -214,3 +214,143 @@ hunt.
 *T-02 seeded 2026-10-12 ~13:25 EDT by the decoder-create-loop.*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never Shadow's live environment.*
+
+## T-03 — The Poisoned Well *(adversarial answer injection; design, never run)*
+
+**What it steals from:** the fuzzer's creed — feed deliberately wrong input
+and study the failure mode — except fuzzing hunts crashes and T-03 hunts
+*trust decisions*: what the specimen believes, not what breaks it.
+[CORROBORATED — fuzzing is standard dynamic-analysis craft; the
+trust-decision port is new] Plus counterintelligence **chicken feed**:
+feeding a suspected channel true-but-worthless (or subtly wrong) information
+to test what the other end does with it. [CLAIMED — documented CI tradecraft
+concept] Plus the clinical-trial **placebo principle**: a subject that
+changes behavior on *any* answer — content-independent — is reacting to the
+*event* of an answer, not its meaning, and cannot be interrogated by content
+at all. [SPECULATION as analogy — the port to hostile code is this trick's
+hypothesis] And the real-world original: **poisoned DNS / pharming** — every
+specimen's answers are only as honest as its network path, and the Gauntlet
+owns the path. [CORROBORATED — DNS poisoning is documented attack
+tradecraft]
+
+**The trick, ported to the Gauntlet:** T-01's simulator gives *useful*
+answers (cribs) and T-02 offers *tempting* ones (bait). T-03 gives *lying*
+answers. Everything the specimen asks — DNS, downloads, cert validation,
+config reads, time — comes back wrong-but-plausible, and the specimen's
+verification discipline is read from its reaction: does it *verify*,
+*tolerate*, *retry*, *escalate*, or *detect*? T-01 maps what the specimen
+*says* (grammar); T-02 maps what it *steals* (appetite); T-03 maps what it
+*believes* (credulity). Grammar + appetite + credulity is the Gauntlet's
+first complete behavioral fingerprint. [CONJECTURE — the trinity claim is
+design framing, not a result]
+
+### How it runs (design)
+1. **Inventory the specimen's questions.** Every outbound query is an answer
+   the rig can lie about: DNS lookups, HTTP(S) fetches to hardcoded domains,
+   TLS cert validation, file/config reads, registry probes, time queries.
+   All answers are attack surfaces for falsehood. [CORROBORATED — the
+   inventory step is standard sandbox instrumentation]
+2. **Climb the lie ladder.** Dishonesty escalates rung by rung so the
+   specimen's tolerance threshold is measured, not just its breaking point:
+   - *Rung 1 — benign noise:* correct answers with canary-mutated but
+     semantically true values. Control rung: does the specimen notice
+     mutation at all?
+   - *Rung 2 — wrong-but-plausible:* DNS resolves to live sinkhole IPs,
+     HTTP 200s carry well-formed wrong content, certs are signed by a
+     valid-but-unexpected CA. Does the specimen verify *content*, or trust
+     the *envelope*?
+   - *Rung 3 — structurally broken:* malformed JSON where a crib should be,
+     truncated downloads, expired certs. Does it crash, retry, or shrug?
+   - *Rung 4 — self-contradictory:* the lie disagrees with a second source
+     (DNS says X, the HTTP body served at X says Y). Which source wins the
+     tiebreak reveals the specimen's *epistemic hierarchy* — who it believes
+     is who it is. [SPECULATION — hierarchy-as-identity is an
+     interpretation; the tiebreak order is a measurement]
+3. **Read the verification, not the code.** The ladder maps trust
+   calibration into five signals: VERIFIES (checksums, signature checks,
+   cert pinning — the professional build), TOLERATES (uses poisoned data
+   anyway), RETRIES (re-asks a source — the re-asked source is its
+   authority), ESCALATES (falls back to a backup channel — the channel
+   hierarchy reveals itself under pressure), DETECTS (goes quiet on the
+   lies — graded EVASION-INDICATOR, never benign). [CONJECTURE — the
+   five-signal taxonomy is this trick's design, untested]
+4. **Lineage-lock the lies.** Every poisoned answer embeds a unique per-run
+   canary. If the specimen forwards a lie — quotes poisoned DNS in a beacon,
+   caches the corrupted download, logs the fake cert serial — the
+   propagation is attributable to this exact run, and *which* lie it acted
+   on tells us which answers it consumed without verifying. [CORROBORATED —
+   canary technique]
+
+### What it catches that T-01 / T-02 / the TDW tests miss
+- **The operator's QA discipline, made visible.** A specimen that
+  signature-checks every download is professionally built; one that swallows
+  a corrupted payload is sloppy — or was built for a network its operator
+  trusts absolutely. Either reading is operational intelligence about the
+  *author*, not just the artifact. [SPECULATION — sloppiness vs.
+  trusted-network design is inference, not measurement]
+- **The fallback channel, forced into the open.** When the primary C2
+  answers lies, a well-built specimen escalates to its backup channel —
+  T-03 *forces* the reveal without needing to know the channel in advance.
+  T-01 maps the grammar of the channel the specimen *uses*; T-03 finds the
+  channel it *hides*. [CONJECTURE — forced-escalation is the new part]
+- **The placebo specimen.** One that executes commands from poisoned
+  responses — obeying instructions carried in a corrupted C2 body — is
+  *content-blind*: it obeys the envelope, not the meaning. Content-blind
+  specimens cannot be crib-interrogated (T-01 assumes parsing); they can
+  only be *commanded*. That is a finding about the interrogation strategy
+  itself — it tells the Gauntlet which tricks will work on this specimen
+  and which are theater. [CONJECTURE — this trick's sharpest claim]
+- **Spoofable-C2 intelligence.** A specimen that never verifies commands
+  means its operator's C2 is spoofable in the wild — a defensive finding
+  with an offensive shape. Filed as intel under David's standing gate;
+  acted on only on his exact order. [SPECULATION]
+
+### Controls (what stops us fooling ourselves)
+- **Truthful baseline.** The control run serves *correct* answers. If the
+  specimen behaves identically under truth and lies, it verifies nothing —
+  or our lies are too subtle. Rung 1 exists to calibrate subtlety; the
+  trick fails honestly at the rung where the specimen stops noticing.
+- **Benign-calibration control.** Benign software must fail closed: reject
+  the poisoned cert, error on the corrupted download. Browsers and updaters
+  do this by default. If benign software swallows the lies, the simulator's
+  TLS/HTTP stack is misconfigured — not the specimen malicious.
+  [CORROBORATED — cert validation is standard client behavior]
+- **Nothing real in the well.** Lies are served only for *fabricated*
+  domains and fake endpoints — never poison a real domain's real answer,
+  even inside the container. A poisoned cache that escapes the lab is the
+  breach the Gauntlet exists to prevent. [DAVID doctrine: the Gauntlet
+  protects; it never risks the real]
+- **Lie-realism honesty.** Every claim about *trust* is capped at the lie's
+  realism grade — a specimen that detects a sloppy forgery is teaching us
+  the forger is weak, not that it verifies everything. [CONJECTURE —
+  forgery realism vs. hostile detection is an arms race, same as TDW-01's
+  tag-stealth and T-02's decoy realism]
+- **No invented credulity.** The signals are documented as *observed
+  tolerance of seeded falsehoods*, never as "the operator trusts the
+  network." The gap between observed tolerance and true doctrine stays
+  labeled. [DAVID's Fabrication Alarm rule: claim only what the run shows]
+
+### Pairs with
+- **T-01 (crib seeding):** serve the cribs *through* the poisoned well —
+  does the specimen verify the crib before parsing it? Grammar-mapping
+  assumes parsing; T-03 checks the assumption.
+- **T-02 (the baited safe):** poison the *answers about* the safe — the
+  specimen asks what's in the vault and the environment lies about file
+  sizes and timestamps. Does it re-read the files, or trust the listing?
+  Appetite interrogated through credulity.
+- **TDW-01 (time dilation):** do time-gated payloads verify their
+  *triggers*? A logic bomb that fires on a spoofed date reveals
+  trigger-trust — the clock is just another answer the specimen can fail to
+  verify.
+- **TDW-02 (clock dissonance):** dissonance is one axis of lying (time
+  sources disagree). T-03 generalizes it: *every* answer is suspect, not
+  just the clocks.
+- **TDW-04 (extraction-only):** does the escape-seeking specimen verify the
+  fake interior, or swallow the trapdoor whole? A specimen that attacks its
+  cage without checking the cage is real is content-blind about its own
+  prison — the richest irony the Gauntlet can record.
+
+---
+*T-03 seeded 2026-10-12 ~14:35 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
