@@ -1079,3 +1079,104 @@ and a disposable lab host — never a live environment.*
 trick's core hypothesis, untested; the honeypot-deception lineage it steals
 from is VERIFIED literature; the dual-target / anti-LLM implant classes are
 CORROBORATED in-the-wild findings]*
+
+## T-10 — The False Dawn *(time-dilation scenario; design, never run)*
+
+**What it steals from:** the sleeper. Logic bombs and date-triggered payloads
+are ancient malware practice — but the modern anti-sandbox arms race is about
+*residency*: evasive specimens check uptime, installed programs, browser
+history, document counts, "is anyone actually using this machine?" before
+unpacking the real payload. [VERIFIED — sleeper/time-bomb malware is decades
+old; anti-sandbox aging checks (uptime thresholds, user-artifact probes) are
+CORROBORATED evasive practice]. The trick reverses the offense: if the
+specimen sleeps until the host looks lived-in, we *forge the lived-in*.
+
+**The scenario:** the container fabricates a complete aged environment — a
+host that appears to have been a real, daily-used machine for months or years
+— and stages a "dawn event" (a trigger the sleeper has been waiting for) while
+every output is sinkholed. Fresh-container silence vs. aged-environment
+activation: the delta is the sleeper's map.
+
+### How it runs (design)
+1. **The forgery.** Build a consistent timeline, not just backdated files: OS
+   install date, patch history in believable sequence, user-profile artifacts
+   (browser history with coherent sessions, document MRU lists, ordinary
+   downloads), an uptime counter showing long residency, log files with
+   routine noise (scheduled tasks, update checks, benign errors), and
+   timezone-consistent timestamps throughout. Every artifact is seeded canary
+   content (cf. T-06, TDW-01) — nothing in the forgery is real user data.
+2. **The anachronism audit.** A forged past is only as good as its internal
+   consistency. Before the run counts, a second pass hunts the tells the
+   specimen's own aging-checks would catch: a cache entry for a domain
+   registered after the "last visit" date, a patch history that skips a
+   mandatory update, file metadata that betrays the forgery tool, clock skew
+   between artifacts. [CONJECTURE — this audit's completeness is the design's
+   weak joint; graded honestly as untested]
+3. **The dawn event.** The sleeper needs a cue: a staged trigger inside the
+   sandbox — a fake reboot with the long uptime counter intact, a simulated
+   user login at the "usual hour," a removable-media insert, a scheduled-task
+   firing, a calendar date crossing the bomb threshold. One cue per run; the
+   cue is the experimental variable.
+4. **Read the awakening.** What fires against the aged environment that stayed
+   dormant on a fresh one? Persistence installation, staged payload
+   decryption, delayed beaconing, dormant C2 dial-home. The activation set =
+   SLEEPER-MAPPED. Silence across both is the null — but see the controls on
+   what silence means under a possibly-detected forgery.
+5. **Fresh-vs-aged differential.** The trick's value is the *delta*, not
+   either state alone: run the specimen against the fresh container
+   (baseline), then the forged aged one (treatment), same dawn event both
+   times. T-05's rewind discipline applies — deterministic replay where
+   possible, so the delta is attributable to the forgery, not run noise.
+
+### What it catches that T-01 through T-09 / the TDW tests miss
+- **Dormant-stage behavior.** Nothing else in the library wakes sleepers:
+  cribs (T-01) probe active protocols, the double agent (T-09) probes
+  implanted instruction. A payload that decrypts only after long residency
+  answers no crib — it answers the false dawn.
+- **Residency-gated unpacking.** Specimens that unpack their real stages only
+  on a machine that looks inhabited are invisible to fresh-container
+  analysis. The forged timeline is the only way to make the inhabited check
+  pass.
+- **The aging-check profile itself.** Which checks the specimen runs
+  (uptime? user files? specific applications?) reveals the operator's
+  sandbox-evasion doctrine — the *evasion checklist* is intelligence,
+  documented from the probe pattern alone.
+
+### Controls (what stops us fooling ourselves)
+- **The Fabrication Alarm, applied to the set.** The aged environment is
+  theater, logged as theater: fabricated artifacts are seeded canaries and
+  the forgery manifest is part of the run record. Nothing in the forgery is
+  reported as a real host, a real user, or real history — ever.
+- **Forgery-detected ≠ benign.** A specimen that spots the forgery (goes
+  quiet, flags the anachronism) is telling us it has a counter-forgery layer
+  — that's data (TDW-01's anti-detection honesty), not a clean bill. Only a
+  forgery that passes its own anachronism audit, followed by genuine silence,
+  earns the null reading.
+- **No dawn outside the container.** The staged trigger never touches anything
+  outside the sandbox: no real scheduled task, no real removable media, no
+  real network cue. All dawn effects terminate in the sinkhole. If a cue
+  can't be fully staged and sinkholed, the trick aborts.
+- **One cue per run.** Multiple dawn events in one pass confound attribution.
+  The design runs the treatment once per cue and logs which activation
+  belongs to which cue.
+- **Canary discipline.** Every fabricated artifact carries a unique canary
+  (T-06). If the specimen exfiltrates or quotes any forged "user data," the
+  exfil is attributable to this run — and it proves the forgery was
+  convincing enough to act on.
+
+### Pairs with
+- **TDW-01/TDW-02 (time-dilation tests):** the pair. TDW-01 accelerates time
+  against a dormant specimen; T-10 fabricates a *past*. One pushes the clock
+  forward, the other writes history backward. Run both against a sleeper
+  suspect.
+- **T-05 (the rewind):** the differential engine — T-10's fresh-vs-aged
+  comparison inherits T-05's deterministic replay discipline.
+- **T-06 (the ghost receipt):** lineage-locks every forged artifact, so staged
+  "user data" that escapes is attributable, not deniable.
+
+*T-10 seeded 2026-10-12 by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the project owner's order
+and a disposable lab host — never a live environment.*
+*Grade: [CONJECTURE — "a forged past wakes sleepers" is this trick's core
+hypothesis, untested; sleeper/time-bomb malware VERIFIED; anti-sandbox aging
+checks CORROBORATED; the anachronism-audit design is the honest weak joint]*
