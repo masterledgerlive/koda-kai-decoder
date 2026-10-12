@@ -86,10 +86,13 @@ formats. [VERIFIED]
   royalty-free successor to AV1 — new bitstream, not backward compatible with
   AV1 decoders; ~30% better compression at the same quality (prototype-stage
   claim); reference software AVM; VLC 4.0 demonstrated software playback at CES
-  2026; no hardware decode in any shipping device yet (software only, ~5x
-  heavier than AV1 — claimed; hardware expected 2027–2028 — speculation). Every
-  new codec parser is new attack surface; "plays everything" is a moving
-  target. [CORROBORATED]
+  2026; **hardware decode IP now licensable** (2026-10-12 correction — arrived
+  about a year ahead of the earlier 2027–2028 estimate): Allegro DVT Pulsar D400
+  (real-time AV2, 8K), VeriSilicon VC9800D VPU (AV2 added, single-core 8K@30fps),
+  Chips&Media WAVE63F1. Independent fast software decoder in progress:
+  VideoLAN dav2d. Every new codec parser is new attack surface; "plays
+  everything" is a moving target, and now means tracking AV2 bitstreams in
+  silicon as well as software. [CORROBORATED]
 
 ## Protocol & language decoders
 - **Wireshark dissectors**: the model for protocol decoding — hundreds of
