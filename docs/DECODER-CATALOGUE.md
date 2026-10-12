@@ -16,6 +16,14 @@ CLAIMED / SPECULATION.*
 - **Lorenz cipher / Tunny**: broken via Colossus, the first programmable digital
   computer. [VERIFIED]
 - **Purple (Japan)**: broken by US Signals Intelligence before WWII. [VERIFIED]
+- **JN-25 (Japanese naval operational code, WWII)**: ~45,000 five-digit code
+  groups, superenciphered by ~18,000-entry additive tables; broken cumulatively
+  by Stations HYPO/CAST/NEGAT — additive reuse and code-clerk mistakes were the
+  entry. By April 1942 HYPO read ~10–15% of traffic within hours; that partial
+  read plus the "AF = Midway" deception confirmed the Midway target, letting an
+  outnumbered US fleet ambush and defeat the Japanese carriers (June 1942).
+  Lesson: partial-but-timely reads are decisive, and breaks come from usage
+  flaws, not the machine. [CORROBORATED]
 - **Classical methods**: frequency analysis, Vigenère breaking (Kasiski/Babbage),
   one-time pads (unbreakable when used correctly). [VERIFIED]
 
