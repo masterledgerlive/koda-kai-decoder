@@ -48,3 +48,32 @@ VERIFIED / CORROBORATED / CLAIMED / SPECULATION.*
 - **Catalogue update:** AV2 added to the Decoder Catalogue (media decoders).
   New codec parser = new attack surface; "plays everything" is a moving
   target.
+
+## 2026-10-12 13:27 EDT — Protocol decoders (rotation #3)
+- **Wireshark 4.6.9 released (Oct 2, 2026).** Updated dissection support for
+  QUIC, LoRaWAN, ZigBee ZCL, SGP.32 (eSIM provisioning), OpenFlow 1.3/1.4/1.5,
+  and a long list of telecom/industrial protocols — plus 19 vulnerability
+  fixes across the dissectors and file parsers. Decoder lesson: every
+  dissector is a hostile-input parser — merely *opening a malicious capture*
+  can crash the analyst's tool, so dissectors get fuzz-tested like
+  decoders, not shipped like features.
+  [CORROBORATED — Tux Machines and Linux Today, both carrying the release
+  report]
+- **Opener: open-source DECT NR+ reference stack (Aug 27, 2026).** The Opener
+  Initiative, supported by the OpenDECT-X project and funded by Germany's
+  Federal Ministry of Research, Technology and Space, open-sourced a
+  reference implementation of the DECT NR+ (formally DECT-2020 NR) protocol
+  stack: MAC and upper layers up to Application Profiles, written in C for
+  Zephyr RTOS under the Apache 2.0 license. The standard targets massive IoT
+  (up to one million devices per square kilometre, per the spec), license-
+  exempt 1.9 GHz spectrum, non-IP and IPv6 traffic, mesh/star/p2p
+  topologies, and context-based device roles — a non-cellular 5G approach
+  with no central infrastructure. Existing stacks were proprietary; this is
+  the first freely available, modifiable, documented reference
+  implementation. Decoder significance: a new wireless mesh decode target
+  goes open, so anyone can build and fuzz dissectors for DECT NR+ frames
+  against a reference — the condition that makes protocol interrogation
+  feasible at all.
+  [CORROBORATED — CNX Software and Open Source For You]
+- **Catalogue update:** both entries added to the Decoder Catalogue under
+  "Protocol & language decoders".
