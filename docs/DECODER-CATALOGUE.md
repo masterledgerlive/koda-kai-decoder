@@ -178,6 +178,43 @@ The universal quantum decoder stays [SPECULATION] until proven.
   jumps by years; probabilistic forecasts must price in that failure mode.
   [CORROBORATED — report of the FRI review]
 
+## Agent detection vs anti-detection
+
+- **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
+  validation: the whole browser session is monitored for bot
+  automation instead of a point-in-time checkpoint. Cloudflare reports
+  bots now generate roughly 57% of all web requests — the first time
+  automated traffic has exceeded human activity on its measurements.
+  [CORROBORATED — Cloudflare announcement via helpnetsecurity.com and
+  designrush.com; the 57% figure is Cloudflare's own measurement]
+- **Cequence Biometric Check (June 2026).** CAPTCHA-free: when a
+  session falls outside the behavioral confidence threshold, the device
+  returns signed proof from its Secure Enclave that a real person on a
+  registered device completed a familiar biometric. The same checkpoint
+  logic extends to AI agents — high-stakes irreversible actions hit a
+  human-in-the-loop gate at the time of the action. [CLAIMED — vendor
+  announcement via helpnetsecurity.com]
+- **Web Bot Auth (emerging IETF standard) + DataDome two-layer trust
+  (July 2026).** Cryptographic per-request AI-agent identity answering
+  "who," paired with continuous intent detection answering "what it
+  intends." [CLAIMED — DataDome framing via techtimes.com; the IETF
+  draft not verified this pass]
+- **FP-Inconsistent fingerprint-consistency detection (arXiv, Sep
+  2025).** ~500k requests from 20 "undetectable" bot services: 52.93%
+  evasion vs DataDome, 44.56% vs BotD; inconsistency rules cut evasion
+  by 48.11% and 44.95%. Evasive bots alter fingerprints but struggle to
+  keep them consistent across attributes and over time.
+  [CORROBORATED — arXiv paper with measured evaluation]
+- **Indirect prompt injection as the "AI honeypot" (2026).** Invisible
+  instructions embedded in page content that AI-driven automation
+  parses and obeys — self-identifying as a bot. The classic honeypot
+  rebuilt for the AI-agent traffic wave. [CLAIMED — industry
+  practitioner piece]
+- **WebGPU fingerprint micro-benchmarks (2026).** A spoofed high-end
+  GPU that performs like a virtualized CPU flags instantly; the
+  evasion side answers with isolated-VM execution, adversarial TLS
+  fingerprints, and device farms. [CLAIMED — industry pieces]
+
 ---
 *This catalogue grows every 30 minutes via the research loop. New entries must
 carry an evidence grade and a source.*
