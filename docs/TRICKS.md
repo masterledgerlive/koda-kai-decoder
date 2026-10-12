@@ -354,3 +354,115 @@ design framing, not a result]
 *T-03 seeded 2026-10-12 ~14:35 EDT by the decoder-create-loop.*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never Shadow's live environment.*
+
+---
+
+## T-04 — The Long Echo *(prediction heuristic; design, never run)*
+
+**What it steals from:** Bletchley's other lesson — operator habits were
+*stable enough to forecast*. Tomorrow's cribs came from today's traffic
+patterns; the Bombe attacked habits, not just hardware. [VERIFIED —
+Welchman/Hut 8 history; see docs/DECODER-CATALOGUE.md §(a)] Plus the
+weather forecaster's honesty rule: the forecast is *scored*, never
+believed. [CORROBORATED — proper scoring rules (Brier) are standard
+forecast-evaluation craft] And epidemiology's outbreak models: the
+prediction is a ranked hypothesis list, each claim carrying its
+confidence, all of them falsifiable by the next observation.
+[CORROBORATED as craft; the port to hostile code is this trick's new
+part — SPECULATION]
+
+**The trick, ported to the Gauntlet:** every interrogation run ends by
+compressing the specimen's trace into a *behavioral signature vector* —
+the indicator outputs of the probes run so far (grammar from T-01,
+appetite from T-02, credulity from T-03, time-gating from TDW-01,
+trust hierarchy from TDW-02, gating from TDW-03, hostility from TDW-04).
+All indicators, never verdicts. The prediction engine keeps a library of
+sealed past runs — same specimen, then its family, then labeled analogs —
+and before the *next* probe runs, it forecasts: a ranked list of what the
+specimen will do under that probe, each claim confidence-tagged. The
+Gauntlet then actually runs the probe and scores the forecast
+hit-by-hit. Predictions are hypotheses tested against runs — never
+self-certifying. [CONJECTURE — the engine's architecture is design, not
+a result]
+
+### How it runs (design)
+1. **Seal the forecast before the run.** The prediction is written and
+   hash-logged with the run lineage *before* the confirming probe
+   executes. A prediction written after the run is a postdiction:
+   logged as such and scored at zero. No exceptions.
+2. **Replay the nearest neighbors.** The engine pulls the sealed traces
+   of the closest-matching prior runs (cosine similarity on the
+   signature vector) and uses them as synthetic priors — "specimens
+   shaped like this did X under T-02's permuted safe" — to rank the
+   forecast claims. The prior is evidence *from past runs*, never a
+   claim about this specimen's interior.
+3. **Score with calibration, not vibes.** Each forecast gets a skill
+   score: fraction of ranked claims confirmed, plus calibration — did
+   the 70%-confident claims land ~70% of the time? The engine's public
+   number is its calibration curve, not its hit rate. An engine that
+   wins by being confidently wrong is worse than silence.
+4. **Say "no precedent."** When the specimen's signature vector is far
+   from every prior run, the engine must refuse to forecast. A forced
+   forecast from no precedent is worse than silence; "no precedent" is
+   itself a graded finding — a novelty signal about the specimen.
+5. **Decay the past.** Old traces lose weight on a published schedule;
+   operator tradecraft evolves (TDW-01's arms-race assumption). A
+   six-month-old trace is a history book, not a forecast input — its
+   weight is explicit and auditable, never silently relied on.
+
+### What it catches that T-01 / T-02 / T-03 / the TDW tests miss
+- **The second-order signal: predictability itself.** A specimen the
+  engine forecasts accurately is *consistent* — professional tooling,
+  scripted operator, stable doctrine. A specimen that breaks every
+  forecast is nondeterministic, adaptive, or instrumentation-noisy —
+  three different hypotheses, each falsifiable by the controls below.
+  Consistency and chaos are both data. [SPECULATION — "predictability
+  as a signature" is this trick's hypothesis, untested]
+- **Uncertainty-directed probing.** Run the cheapest probe first, let the
+  engine update, and spend the expensive runs (TDW-04's mirror chamber,
+  TDW-01's full dilation) where the forecast is *most uncertain* —
+  maximum information per container-hour. [SPECULATION — the
+  value-of-information math is sound; the port to hostile interrogation
+  is untested]
+- **Family doctrine, honestly inferred.** Stable forecasts across many
+  specimens of one family sketch the family's doctrine — graded always
+  as *inferred doctrine*, never as "the operator's manual." The gap
+  between forecast-stability and true doctrine stays labeled.
+  [SPECULATION]
+
+### Controls (what stops us fooling ourselves)
+- **Dumb-baseline race.** A trivial baseline ("predict no change from
+  the last run") is scored alongside the engine every cycle. If the
+  engine doesn't beat it, the engine is theater — logged, not
+  celebrated.
+- **Data-leak quarantine.** The engine may never see the target run's
+  trace until after the forecast is sealed. Standard train/test
+  separation; violations are logged as compromised forecasts and
+  struck from the skill ledger.
+- **Counterfactual quarantine.** Forecasts train only on runs of the
+  same specimen lineage or explicitly-labeled analogs. Training on
+  hostile-specimen traces to forecast benign ones (or vice versa) is
+  forbidden — the cross-class prior poisons both ledgers.
+- **No invented future.** Forecasts are documented as *ranked
+  hypotheses with sealed timestamps*, never as "what the specimen will
+  do." The gap between forecast and behavior stays labeled.
+  [DAVID's Fabrication Alarm rule: claim only what the run shows]
+
+### Pairs with
+- **All TDW tests:** they are the probe sequence the engine predicts.
+  The engine lives on their indicator outputs.
+- **T-01 / T-02 / T-03:** grammar, appetite, credulity are the
+  signature vector's dimensions — T-04 is the forecasting layer built
+  on top of the fingerprint those three produce.
+- **TDW-04 (extraction-only):** the engine's highest-value target —
+  forecasting *escape-seeking* before offering the trapdoor is the
+  combination punch: predict the jailbreak, then watch it happen (or
+  not) inside the mirror.
+- **Prediction engine (doctrine):** this trick *is* the engine's honest
+  operating procedure. The doctrine's "prediction" section without
+  T-04 is aspiration; with it, it is a scored discipline.
+
+---
+*T-04 seeded 2026-10-12 ~15:16 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
