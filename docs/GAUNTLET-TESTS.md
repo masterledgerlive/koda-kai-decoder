@@ -139,3 +139,78 @@ combination is how you trip a gate on purpose.
 ---
 *Status: design only. Never run. A first run requires a disposable lab host —
 never a production machine.*
+
+---
+
+## TDW-03 — Persona Permutation *(design, never run)*
+
+**Question it answers:** does the specimen gate its behavior on *who and
+where it thinks it is* — target fingerprinting, geofenced detonation,
+sandbox recognition, locale-gated payloads?
+
+**The design:** the container's rig serves the specimen a fabricated
+*identity* — hostname, domain, user, locale/keyboard/timezone, IP and
+geolocation answers, installed-software and security-product inventories,
+hardware profiles — and permutes it across a fixed persona matrix:
+*P-home* (ordinary user), *P-finance* (enterprise finance workstation),
+*P-server* (service accounts, shared folders), *P-sandbox* (deliberately
+"smelly" analysis-lab fingerprint), and *P-locale-X / P-locale-Y* (differing
+only in region and simulated geolocation — the geofence probe). The same
+specimen runs against every persona at the same duration; every persona
+trace is diffed against a bland neutral baseline and against each other.
+Any persona-dependent delta — processes only for P-finance, beacons only
+from P-home, full silence only under P-sandbox — is *identity-gated logic*.
+[CORROBORATED — geofenced payloads and anti-analysis environment checks
+are documented malware-analysis practice; CONJECTURE — the persona-matrix
+probe as a systematic Gauntlet design is new]
+
+When a delta appears between two personas, the rig binary-searches the gate:
+hold the persona fixed, flip one attribute at a time (locale, hostname,
+geolocation answer, AV inventory) until the delta vanishes. The last
+flipped attribute is documented as *the minimum environmental input that
+changed behavior* — never as "the operator's true targeting rule."
+[CONJECTURE]
+
+Every persona attribute embeds per-run canary lineage: hostnames encode
+the run-id, geolocation answers embed tokenized coordinates, and the
+baited safe (T-02) is stocked per persona — P-finance gets the rich vault,
+P-sandbox gets crumbs. Exfiltrated hostnames or decoy content are
+attributable to an exact run *and* persona.
+
+**What it catches that TDW-01 / TDW-02 / T-01 / T-02 miss:** targeted vs.
+indiscriminate (directed weapon with a victim profile, not a time-bomb —
+different verdict implications) [SPECULATION — gating-to-intent mapping is
+inference]; geofence mapping without a threat feed; sandbox-awareness as a
+*gradient* (which personas scare it, which tempt it — silence is data);
+and the identity × time cross-product — run the matrix *inside* TDW-01's
+dilated run to find time-gated predation against a chosen victim profile.
+
+### Controls
+- **Determinism control:** every persona runs twice; unstable deltas are
+  instrumentation noise — the test fails honestly.
+- **Persona-realism cap:** the identity server is graded per run for internal
+  consistency; claims about gating are capped at the persona's realism grade
+  — a specimen may dodge bad acting, not the profile. [CONJECTURE]
+- **Benign-calibration control:** benign software must be persona-blind; if
+  a calculator behaves differently across personas, the rig leaks through
+  instrumentation.
+- **Nothing real in the personas:** every identity is fabricated — no real
+  hostnames, users, credentials, or geolocation, ever.
+- **No invented doctrine:** gates are documented as *observed behavioral
+  deltas under fabricated personas*, never as the operator's true targeting.
+
+### Verdict signals (not a verdict)
+IDENTITY-GATED, GEOFENCED, SANDBOX-AWARE, or PERSONA-BLIND — indicators
+only, never a verdict. A verdict needs the full pipeline.
+
+### Why this test exists
+TDW-01 probes the specimen's clock; TDW-03 probes its *sense of place and
+identity*. Combined with T-01's cribs (grammar) and T-02's safe (appetite),
+the loop now has four orthogonal fingerprints: *when* it acts (TDW-01),
+*what time it believes* (TDW-02), *who it believes you are* (TDW-03), and
+*what it wants* (T-02).
+
+---
+*TDW-03 seeded 2026-10-12 ~13:40 EDT by the decoder-create-loop.*
+*Status: design only. Never run. A first run requires a disposable lab host —
+never a production machine.*
