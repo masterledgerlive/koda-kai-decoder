@@ -466,3 +466,137 @@ a result]
 *T-04 seeded 2026-10-12 ~15:16 EDT by the decoder-create-loop.*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never Shadow's live environment.*
+
+## T-05 — The Rewind *(deterministic differential replay; design, never run)*
+
+**What it steals from:** two places. First, record-replay in dynamic
+analysis — time-travel debugging (e.g. the `rr` debugger) and QEMU-based
+record-and-replay in malware analysis (PANDA-style) run a program twice
+in a bit-identical environment and *expect* identical behavior; any
+divergence betrays a hidden input. [VERIFIED — record-replay execution
+exists in both developer tooling and malware-analysis research] Second,
+the catalogue's oldest lesson — usage flaws first: a specimen that
+behaves differently under bit-identical conditions is confessing, by
+its own actions, that it consults something outside the cage. Divergence
+is the machine's confession of external dependencies. [CONJECTURE — the
+port from record-replay debugging to hostile interrogation is new]
+
+**The trick, ported to the Gauntlet:** every probe run is run *twice*.
+Run A executes the specimen in the container with every input recorded
+(clock reads, syscall stream, simulated-network answers, entropy
+sources). The container is then snapshotted back to a bit-identical
+state and Run B replays the same recorded inputs. If the trace diverges,
+the specimen reads something we didn't record — a hidden input. If it
+doesn't, the specimen is mechanistic under these conditions, and we have
+a sealed baseline for one-variable-at-a-time mutation.
+
+### How it runs (design)
+1. **Record the baseline run.** Execute the specimen with the full input
+   harness: virtualized wall clock, deterministic scheduling, recorded
+   entropy (RDRAND/ASLR outputs logged), and the T-01 network simulator
+   in scripted mode. The trace is the ground truth: syscalls, file and
+   registry writes, egress attempts, timing.
+2. **Verify the rewind.** Snapshot-restore the container and *hash* the
+   restored memory and disk image before Run B. If the restore isn't
+   bit-identical to the pre-Run-A state, no divergence claim is made —
+   an imperfect rewind poisons every conclusion. [CONJECTURE — perfect
+   container rewind at behavioral fidelity is a design requirement, not
+   a shipped feature]
+3. **Replay and diff.** Run B replays Run A's recorded inputs exactly.
+   Classify the outcome:
+   - *IDENTICAL* — mechanistic under these inputs. The trace becomes the
+     sealed baseline; subsequent probes mutate it one variable at a time.
+   - *DIVERGENT* — the specimen consulted an unrecorded input. The
+     hunt begins: the unrecorded-input classes are CLOCK (wall-clock or
+     cycle-counter reads), ENTROPY (unlogged randomness), NETWORK
+     (content-dependence on answers we thought were scripted),
+     PERSISTENT (a counter or marker the specimen smuggled *across* the
+     snapshot — the telltale of anti-forensics: it detected the rewind
+     itself), and SCHEDULER (timing races, nondeterministic interleavings).
+4. **Mutate one variable per replay.** Once replay is clean (or the
+   hidden-input class is known), rewind again and change exactly one
+   thing: clock shifted +1h, one network answer altered, entropy
+   re-seeded. The one-variable delta maps *which inputs steer behavior* —
+   T-01's cribs were planted questions; these are planted *differences*,
+   and the specimen's reaction to the difference is the interrogation.
+5. **Rotate the canaries per replay.** Each replay run carries its own
+   canary-token set in the simulated-network answers, so any exfiltrated
+   data is attributable to a specific replay number — and so the
+   specimen can never use a canary seen in Run A as a cross-run linkage
+   signal in Run B. Canaries rotate; inputs stay identical.
+   [CORROBORATED — canary technique; SPECULATION — the rotation
+   discipline is this trick's design]
+
+### What it catches that T-01 / T-02 / T-03 / T-04 / the TDW tests miss
+- **Anti-forensics: the specimen that detects the rewind.** A
+  PERSISTENT-class divergence — the specimen leaves a marker that
+  survives the snapshot, or notices the clock regressed between runs —
+  is the loudest counter-analysis signal in the Gauntlet so far. T-01
+  catches specimens that detect *seeding*; T-05 catches specimens that
+  detect *observation itself*. A program that knows it is being
+  re-run is telling us it has been analyzed before and lived to tell
+  the tale. [SPECULATION — rewind-aware malware is an arms-race step
+  beyond documented sandbox-evasion]
+- **The hidden-dependency map.** Most interrogation maps what the
+  specimen *does*; T-05 maps what it *depends on* — the set of external
+  inputs that can steer it. That map is the price tag on every other
+  test's conclusion: TDW-01's time-gating claims are only as solid as
+  the clock-dependence T-05 measures.
+- **Forecast pricing for T-04.** The Long Echo's engine prices forecast
+  confidence partly on hidden-input count: a specimen with zero
+  unrecorded inputs is forecastable; one reading wall-clock, entropy,
+  and network is a dice the engine must grade as low-confidence —
+  honestly, in the open, before the probe runs.
+- **Jitter as a signature.** Some specimens diverge *every* replay with
+  no classifiable input — deliberate nondeterminism as evasion (noise
+  against forensics). Replay divergence *quantifies* the jitter: the
+  divergence rate across N replays is itself a fingerprint, comparable
+  across a family. [SPECULATION — jitter-as-doctrine is untested]
+
+### Controls (what stops us fooling ourselves)
+- **Input-identity grading.** The harness can never record *everything*
+  (hypervisor scheduling, host thermal throttling, real NIC timing).
+  Every replay carries an *input-identity grade*: FULL (all identified
+  inputs recorded) or PARTIAL (known gaps listed). Divergence claims are
+  capped at the grade — a PARTIAL replay that diverges found *a* hidden
+  input, not *the* hidden input. [CONJECTURE — the grading scale is
+  design]
+- **Calibration specimen first.** The DRAFT-001 benign calibration
+  specimen replays identically (or its benign divergence class, e.g.
+  benign CLOCK reads for cache hashing, is documented as the null).
+  If the calibration specimen diverges for harness reasons, the rig is
+  broken, not the specimen.
+- **No invented intent.** Divergence proves *hidden inputs*, never
+  malice. A benign program that reads the clock to seed a cache hash
+  diverges exactly like a hostile one that checks for analysts. T-05
+  outputs *indicators* (DIVERGENT-CLOCK, DIVERGENT-ENTROPY,
+  DIVERGENT-PERSISTENT, IDENTICAL, JITTERY); intent is a verdict-layer
+  question, never a replay-layer claim. [DAVID's Fabrication Alarm rule:
+  claim only what the run shows]
+- **The rewind is internal.** Snapshot-restore is a container operation
+  — the specimen never learns it has been rewound except through the
+  divergence classes themselves. PERSISTENT-class findings must be
+  re-verified with a *fresh* container (no snapshot involved) to rule
+  out snapshot artifacts masquerading as anti-forensics.
+
+### Pairs with
+- **TDW-01 (time dilation):** rewind *inside* the dilated run — the
+  specimen wakes on a dilated clock in Run A, then finds the clock
+  *regressed* in Run B. Clock-regression detection is its own evasion
+  signal, separate from forward time-gating.
+- **TDW-02 (clock dissonance):** replay with dissonant clocks isolates
+  whether the specimen consults the clock at all — dissonance becomes
+  a *differential* instead of a single observation.
+- **T-04 (the Long Echo):** divergence classes feed the prediction
+  engine's confidence pricing directly — the signature vector gains a
+  "hidden-input count" dimension.
+- **TDW-04 (extraction-only):** replay the trapdoor chamber — is
+  escape-seeking deterministic or opportunistic? A specimen that
+  attacks the observer identically every replay is *scripted*; one that
+  varies its jailbreak toolkit across replays is *adaptive* — and the
+  distinction is the verdict-layer's problem.
+
+---
+*T-05 seeded 2026-10-12 ~15:31 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
