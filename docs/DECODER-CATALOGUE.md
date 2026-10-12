@@ -96,6 +96,48 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   [CORROBORATED]
 The universal quantum decoder stays [SPECULATION] until proven.
 
+## Photonic comms & power
+
+- **Chip-scale free-space beam steering (Opto-Electronic Advances, 2026).**
+  MIT/SMART team: two-dimensional steering across a measured 161-degree field
+  of view at near-diffraction-limited quality — a silicon photonic chip routing
+  light through on-chip switches to a freeform micro-optical reflector,
+  instead of a phased array of tuned shifters. A chip-scale steering front-end
+  is what free-space optical comms needs to leave the lab bench.
+  [CORROBORATED — peer-reviewed journal]
+- **Self-stabilizing photonic lasers (Nature Photonics, Oct 2026).** Reichler
+  et al: self-injection locking held across the full drive-current range cut
+  frequency noise by more than 5,000x versus the free-running laser, with
+  linewidth under 10 Hz and mode-hop-free 1.5 GHz chirps — all without active
+  control. Ultralow-noise self-stabilizing lasers are the transmitter side of
+  coherent optical comms, lidar, and quantum sensing.
+  [CORROBORATED — peer-reviewed]
+- **All-optical switching integrated on chip (Nature Nanotechnology, Sep
+  2026).** Eindhoven/LioniX: first all-optical magnetization switching fully
+  inside a silicon nitride photonic circuit — light delivered through an
+  on-chip waveguide flips bits in cobalt-gadolinium ferrimagnets on
+  picosecond timescales. Light writing memory with no electrical path is a
+  storage side-channel shape the gauntlet keeps in its threat library.
+  [CORROBORATED — peer-reviewed]
+- **Photonic spectrum slicer past 200 GBaud (Communications Engineering, Oct
+  2026).** Southampton-led team (DOI 10.1038/s44172-026-00801-6): a photonic
+  integrated recurrent spectrum-slicing receiver pushes direct-detection
+  formats (PAM-4 / on-off keying) to some of the highest symbol rates yet
+  over dispersive fiber, with affordable detection hardware.
+  [CORROBORATED — peer-reviewed]
+- **Telecom-band quantum memory over 1 microsecond (Nano Letters, Oct 9,
+  2026).** Goldschmidt's group: nanophotonic lithium-niobate platform holding
+  multiple photons at once, aimed at manufacturable quantum memories for
+  chip-based quantum computers and networks.
+  [CORROBORATED — peer-reviewed]
+- **Orbital laser power beaming tests (Oct 2026).** Star Catcher Protostar
+  flew on SpaceX's Transporter-18 to attempt laser power transfer to a
+  free-flying CubeSat — claimed first optical power beaming between two
+  untethered spacecraft. Cowboy Space's Reason-1 aims for a first
+  orbit-to-ground laser transfer test in late October 2026 (30-100 W into a
+  10-20 m spot). Until the tests fly, these are beaming tests, not beaming
+  systems. [CLAIMED — company announcements; independent reporting]
+
 ---
 *This catalogue grows every 30 minutes via the research loop. New entries must
 carry an evidence grade and a source.*
