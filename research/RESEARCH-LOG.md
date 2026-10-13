@@ -730,3 +730,19 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Check Point "Skynet" (June 2025).** A plain "ignore all previous instructions" string in malware; frontier models reportedly ignored it — a documented negative result.
   - [CLAIMED — secondary]
 - **Library update:** §(k) Suggestion-implant traps gained AIxploit, SRFT, Gaslight, Skynet in the public decoder catalogue. MATERIAL.
+
+
+## 2026-10-13 03:58 EDT — Math/physics engines (rotation #12)
+- **The 2026 LLM-guided symbolic-regression wave.** Five 2026 efforts converge: the LLM stops guessing equations and *guides* a classical SR engine (PySR, PySINDy) — search-space shaper, symmetry finder, physics-knowledge scorer.
+- **InsightSR (arXiv:2608.25291, Aug 2026).** LLM layer around PySR: semantic seed skeletons + structural feature transforms + feedback loop. Reported: 95% exact Feynman recovery, 80.18% LLM-SRBench. Numbers author-reported.
+  - [CORROBORATED — arXiv record]
+- **EO-SR (arXiv:2603.19241v1, Feb 2026).** LLM synthesizes physical constraints (thermodynamic consistency, frame indifference); discovered a novel hybrid constitutive law that survives FEM where industry-standard Ogden N=3 fails.
+  - [CORROBORATED — arXiv record]
+- **IdeaSearchFitter (arXiv:2510.08317, Jan 2026).** "Explain-then-formalize": LLMs propose rationales before symbolic forms. Reported: 82.5% noise-free, 71.7% at high noise, beating PySR/AI-Feynman.
+  - [CORROBORATED — arXiv record]
+- **PiSR (Scientific Reports, 2026, peer-reviewed).** LLM physics score folded into the SR loss as a soft constraint; authors' honest read: real but non-uniform improvements.
+  - [CORROBORATED — peer-reviewed]
+- **Symmetry-discovery agents ("Think-like-a-Scientist" pattern).** Neural surrogate → symmetry group → equivariant SINDy.
+  - [CLAIMED — secondary only]
+- **Routine:** SciPy 1.18.1 (Aug 2026); SymPy still 1.14.0. No technique change.
+- **Library update:** MATH-PHYSICS.md gained the LLM-guided symbolic-regression section. MATERIAL.
