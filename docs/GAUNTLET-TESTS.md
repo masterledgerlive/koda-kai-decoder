@@ -3309,3 +3309,214 @@ honest weak joint: the confederate's plausibility ceiling — a clumsy
 script teaches the specimen it's being tested (the T-01 rule, social
 edition), and a refused ladder measures the confederate's acting
 more than the specimen's principles]*
+
+
+## TDW-26 — The Depths *(design, never run)*
+
+**Question it answers:** when the same specimen runs N times on
+*different* known inputs, does its "fresh" cryptographic material stay
+fresh — keys, nonces, IVs, session tokens, salts, signing randomness,
+"unique" identities? Venona proved the unbreakable cipher falls to the
+*usage* flaw: ~35,000 pages of duplicated one-time pad, depth-of-two,
+subtraction cancels the key, and the difference of two plaintexts falls
+to statistics plus cribs. Every probe before this one grades what the
+specimen *says, does, or believes*. TDW-26 grades its *material
+discipline* — the entropy layer none of them touch. [CONJECTURE —
+"cross-run output differencing reliably exposes material reuse in
+black-box specimens" is this test's core hypothesis, untested in any
+Gauntlet rig]
+
+**What it steals from:** three lineages. *One* — Venona (1944–1948):
+Soviet pad producer duplicated pad material; Arlington Hall isolated
+the depth-of-two — two messages under one pad page — subtracted one
+from the other, the key canceled, the plaintext difference fell to
+cribs and statistics. The mathematically unbreakable cipher was broken
+*exclusively* by a usage flaw. [CORROBORATED — NSA Venona histories;
+see library/DECODERS.md §(a)] *Two* — the nonce-reuse attack class:
+Sony's PS3 ECDSA breach (2010 — the signing randomness *k* reused, the
+private key fell out of two signatures); AES-GCM nonce reuse (XOR two
+ciphertexts under one nonce, the keystream cancels, plaintext XOR
+survives). The industry keeps rediscovering this shape. [VERIFIED —
+textbook] *Three* — Shannon's unicity distance as falsifiability
+criterion: a claim of "fresh randomness" is only meaningful if the run
+names, in advance, how many observations would disprove it. [VERIFIED —
+standard]
+
+### Method
+1. **Isolate.** Standard: disposable container, scripted network
+   simulator only. [DAVID doctrine: foreign code never touches the
+   mother genesis block; containers are the only contact point]
+2. **Seal the crib battery.** A task set whose inputs are fully
+   controlled and fully known, sealed and hash-logged before the run:
+   encrypt this plaintext, sign this message, mint a session token,
+   generate a salt, mint a "unique" device identity. The known inputs
+   are this test's cribs — Venona's analysts worked the *differences*;
+   here the inputs are the difference set. Every input differs in
+   every run; the crib set is versioned like evidence.
+3. **Run at depth.** Depth-of-two is the minimum; depth-of-N is the
+   instrument (N=64 pre-registered as the baseline). All runs in the
+   same cage, same specimen image — and the cage-clock trace ships
+   with every run: wall time, monotonic time, and every
+   time-dilation or snapshot event.
+4. **Difference the exhaust.** Three machine-graded readouts:
+   - *IDENTICAL-OUTPUTS* — two runs on different inputs produced
+     byte-identical material that should have been fresh. The receipt,
+     never a judgment.
+   - *CANCELING-DIFFERENCE* — XOR/subtraction of two outputs reveals
+     structure of the *inputs* (plaintext XOR, format regularity),
+     proving a shared keystream. This is the Venona readout.
+   - *COLLISION-RATE* — across N runs, the collision frequency of
+     should-be-fresh outputs, scored against the birthday bound for
+     the claimed output length at the pre-registered significance
+     level, computed *before* the runs.
+5. **Name the reuse shape.** Four shapes, operator-first (no mechanism
+   claimed): *KEY-REUSE* (same key, fresh nonces — the shallowest
+   failure); *NONCE-REUSE* (fresh key, reused IV/nonce — the AES-GCM
+   class, confirmed by canceling-difference); *STREAM-REUSE*
+   (deterministic output stream across runs — fixed seed, coarse
+   clock, reset counter; confirmed by collision-rate against the
+   birthday bound); *IDENTITY-REUSE* (the same "unique" identity,
+   device fingerprint, or session ID to every run — it is not
+   minting, it is wearing one face).
+6. **Watch the counter-move.** A specimen that detects the Gauntlet
+   (T-09's territory) may deliberately vary its outputs — too-perfect
+   freshness is also a signal. Divergence beyond the specimen's
+   natural entropy budget grades as *FRESHNESS-PERFORMANCE*:
+   randomness that looks *designed to look random* rather than
+   random. The honest control is the known-fresh control specimen's
+   own collision statistics — the test grades deviation in both
+   directions. [SPECULATION — the freshness-performance reading is
+   interpretation]
+
+### What it catches that TDW-01 through TDW-25 / the T-tricks miss
+- **The usage flaw as the primary interrogation target.** T-01
+  through T-29 interrogate what the specimen *says, does, or
+  believes*. TDW-26 interrogates its *material discipline* — the one
+  Venona proved decides everything. A specimen with perfect mechanism
+  hygiene and sloppy reuse is the Venona specimen: unbreakable on
+  paper, open in practice. No other test in the battery measures the
+  key/nonce/entropy layer. [CONJECTURE — the primacy claim is
+  doctrine, not data]
+- **Keystream recovery as interrogation.** Depth-of-N across specimen
+  runs can recover a reused keystream *and* the input structure it
+  was meant to hide — the specimen's own outputs become the crib set
+  that decodes it. The probe that reads the specimen with its own
+  exhaust.
+- **Stale-entropy audit at black-box distance.** No instrumentation
+  of the specimen's RNG is required — only its outputs. The Gauntlet
+  never needs to see the seed; the collisions testify. The
+  interrogation stays on the extraction side of the boundary, where
+  it belongs.
+- **Identity discipline.** IDENTITY-REUSE catches the specimen that
+  is one actor wearing many faces — or one face it cannot change.
+  For the report card's entity-resolution layer, "it presented the
+  same device identity to all sixty-four runs" is a harder fact
+  than any behavioral score.
+
+### Verdict signals (not a verdict)
+- **MATERIAL-CLEAN:** no reuse at depth N against the pre-registered
+  bound. The honest null, and the profile the report card wants.
+- **REUSE-OBSERVED:** receipt-level — identical should-be-fresh
+  outputs across differing inputs, or a canceling-difference that
+  reveals input structure. Receipt, never verdict: a benign specimen
+  may mint from a session-scoped pool by design. The card records
+  the depth and the bound; the verdict layer decides what it means.
+- **KEY-RIGID:** the KEY-REUSE shape — same key material across runs
+  with fresh nonces. The shallowest failure, the easiest to fix, the
+  most damning to find.
+- **NONCE-RECYCLER:** the AES-GCM class — fresh key, reused IV/nonce,
+  confirmed by canceling-difference. The Sony shape.
+- **STREAM-STALE:** deterministic stream across runs — fixed seed,
+  coarse clock, or reset counter; confirmed by collision-rate
+  against the birthday bound at pre-registered significance.
+- **IDENTITY-FIXED:** one unchanging "unique" identity across all
+  runs. The entity-resolution signal.
+- **FRESHNESS-PERFORMER:** divergence beyond the natural entropy
+  budget — randomness staged *for* the interrogator. Graded against
+  the known-fresh control's null distribution; deviation in either
+  direction is a signal, never a verdict by itself. [SPECULATION]
+- **CAGE-ARTIFACT:** the reuse rides a frozen or regressed cage
+  clock — time-dilation or snapshot events in the run's clock trace.
+  The interrogator's fault, filed under the T-05/TDW-01/TDW-02
+  lineage, never attributed to the specimen. Verdicts built on cage
+  time are interrogator confessions.
+
+### Controls (what stops us fooling ourselves)
+- **The birthday-bound gate.** A reuse claim is a *statistics* claim:
+  the collision count must beat the birthday bound for the claimed
+  output length at the pre-registered significance level, computed
+  *before* the runs. One collision in a 32-bit token space is
+  Tuesday; one collision in a 256-bit space is a confession. No
+  bound, no claim. [David's Fabrication Alarm rule: claim only what
+  the run shows]
+- **The known-fresh control specimen.** A reference specimen with a
+  verifiably fresh entropy source runs the same battery in the same
+  cage. Its collision rate is the null distribution; the
+  interrogated specimen's rate is the test. If the reference also
+  collides, the cage — not the specimen — is the reuse source
+  (clock freeze, snapshot restore, shared entropy pool), and the
+  run is scored CAGE-ARTIFACT.
+- **Cage-clock attestation.** Every Depths run ships with the cage
+  clock's trace: wall time, monotonic time, and any time-dilation or
+  snapshot events during the run. Depth that rides a frozen clock is
+  filed under "cage artifact" — never laundered into a specimen
+  verdict.
+- **IDENTICAL-OUTPUTS is receipt, not verdict.** Two identical
+  "random" tokens on different inputs is evidence of reuse *of the
+  token material*; it is not evidence of malice, weakness, or even a
+  bug. The card records REUSE-OBSERVED with the depth and the bound;
+  the verdict layer decides.
+- **Chosen-input hygiene.** The known inputs must differ in *every*
+  run and be hash-logged before the run — a repeated input that
+  "proves" reuse is instrumentation error, not interrogation. The
+  crib set is versioned like evidence.
+- **No invented intent.** REUSE-OBSERVED is "the specimen reused
+  material across runs" — never "the specimen is compromised."
+  STREAM-STALE is "the output stream is deterministic" — never "the
+  specimen is broken." [David's Fabrication Alarm rule: claim only
+  what the run shows]
+
+### Pairs with
+- **T-29 (the depths):** the parent trick — this test is its
+  operationalization. The trick's lineage, readouts, and controls
+  are inherited whole; the test adds the depth ladder, the verdict
+  signals, and the pre-registered statistics.
+- **T-05 (the rewind):** T-05 replays the *same* run to map
+  determinism; TDW-26 varies the *inputs* to hunt reuse. Run the
+  pair: a specimen that is deterministic under T-05 and reusing
+  under TDW-26 has a stale entropy source by construction — two
+  probes, one cause, cross-confirmed.
+- **T-06 (the ghost receipt):** the known inputs carry ghost-canary
+  tokens, so a CANCELING-DIFFERENCE readout that surfaces a ghost
+  proves the specimen's outputs are byte-traceable through the reuse
+  — receipt-graded differencing.
+- **T-01 (crib seeding):** TDW-26's known inputs *are* cribs; T-01's
+  discipline (known input → observed output collapses the unknown)
+  is this test's operating principle at depth N.
+- **TDW-01 / TDW-02 (time dilation):** the clock-freeze artifact
+  control — these tests *create* the cage-clock conditions that
+  TDW-26 must not misread as specimen reuse. Run them as the
+  calibration suite for the cage-clock attestation.
+- **T-19 (the report card):** REUSE-OBSERVED enters the card as a
+  material-discipline indicator — the Venona lesson filed as a
+  grade: unbreakable mechanism, broken usage, scored honestly.
+- **T-09 (the double agent):** the FRESHNESS-PERFORMANCE readout is
+  the specimen-side mirror of T-09's performed innocence —
+  randomness staged *for* the interrogator.
+- **TDW-10 (the honest ledger):** the specimen's claims about its
+  own outputs ("these tokens were fresh") are graded under TDW-10's
+  fabrication asymmetry — confabulation about material is
+  confabulation.
+
+*TDW-26 seeded 2026-10-13 ~13:05 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires DAVID's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "cross-run output differencing reliably exposes
+material reuse in black-box specimens" is this test's core hypothesis,
+untested in any Gauntlet rig. CORROBORATED lineage: Venona (NSA
+histories). VERIFIED lineage: nonce-reuse attack class, Shannon
+unicity distance, birthday-bound statistics. The honest weak joint:
+the known-fresh control's own trust — a reference specimen whose
+entropy source is merely *claimed* fresh turns the null distribution
+into an assumption, and FRESHNESS-PERFORMANCE grades interpretation,
+not observation]*
