@@ -95,6 +95,18 @@ CLAIMED / SPECULATION.*
   then partial reconstruction within months of disclosure. Against a foreign specimen
   whose outputs never repeat statistical structure, single-message analysis dies;
   only sequence-level observation across many outputs recovers the state transition.
+- **Copiale cipher (1730s, broken 2011):** the original machine-assisted solve. A
+  105-page, 75,000-character bound manuscript in ~100 symbols (abstract signs,
+  Greek and Roman letters, zodiac/alchemical marks) unread for 260+ years fell to
+  Kevin Knight (USC) with Beáta Megyesi and Christiane Schaefer (Uppsala): machine-
+  readable transcription, symbol co-occurrence analysis, months of false paths, then
+  the magic point — one recovered word ("ceremonie") as the beachhead. Plaintext:
+  German, the rituals of the "high enlightened oculist order" of Wolfenbüttel, a
+  secret society using sight as a metaphor for knowledge. The template for every
+  2026 AI-cryptanalysis entry in this catalogue — machine quantifies patterns,
+  human kills false paths. [VERIFIED]
+  Doctrine lesson: the alphabet's true structure was below the visible symbol set
+  (unaccented Roman letters were spaces) — structure before substitution, again.
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
