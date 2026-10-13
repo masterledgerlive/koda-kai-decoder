@@ -609,3 +609,26 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://barlark.com/2026/10/11/everyone-has-deciphered-the-voynich-manuscript-none-of-them-have/
 - **Non-news:** the Times' "GPT-6 Astra cracked Napoleon's 1809 code in six hours" piece — the Napoleon 1809 (AI) solution is already in the table, confirmation-by-mention only. Tencent Hunyuan MT offline story dates to ~June 2026; WMT26 low-resource tasks known since June.
 - **Library update:** Voynich row in UNDECIPHERED.md sharpened with the Oct 2026 reading-order hypothesis (CLAIMED). Rotation-class growth only.
+
+## 2026-10-13 00:32 EDT — Quantum decoding (rotation #5, third pass)
+
+- **Starknet three-phase quantum-resistance roadmap (announced Oct 11, 2026).** Targets 2027 for full post-quantum cryptography across the Layer 2: replaces quantum-vulnerable Pedersen hashing with BLAKE2 across state, contract-address, and consensus layers. Phases 1–2 under Starknet's control; Phase 3 depends on Ethereum's own quantum migration (EF targets Dec 2029). STRK rallied ~117% over seven days partly on the news.
+  - [CLAIMED — single crypto outlet; roadmap not opened first-party this pass]
+  - Source: https://cryptocoinshow.com/starknet-targets-2027-for-full-post-quantum-cryptography-migration/
+- **Cosmos Labs "Ledger Security 2026.1" (deployed Oct 8, 2026).** ML-DSA (FIPS 204) signature algorithms integrated across Cosmos SDK v0.55.0, CometBFT v0.40.0, and new cosmos/kms v0.1.0; a network reaches a post-quantum security profile once validators holding two-thirds of voting power rotate keys to ML-DSA. First production-scale deployment of a NIST PQ signature standard inside a live blockchain consensus layer this loop has recorded.
+  - [CLAIMED — crypto-economy.com report; Cosmos Labs docs cited, not opened first-party this pass]
+  - Source: https://crypto-economy.com/cosmos-prepares-for-the-quantum-era-with-new-post-quantum-ledger-upgrade/
+- **Ethereum Foundation post-quantum roadmap to 2029 (outlined ~Oct 10, 2026).** Four key vulnerability areas plus a multi-year migration framework targeting core-infrastructure completion by roughly 2029; the 2nd Annual PQ Research Retreat concluded Oct 12 in Cambridge, UK.
+  - [CLAIMED — basisdesk.news citing ethereum.org; EF page not opened first-party]
+  - Source: https://basisdesk.news/news/ethereum-details-post-quantum-roadmap-to-counter-qubit-threats
+- **GAO audit: zero of 24 CFO Act agencies ready (GAO-27-108740, released Oct 2026).** Unclassified release of a sensitive audit originally issued Sep 2025; none fully implemented the three mandatory preparatory practices: prioritized cryptographic-asset inventories, multi-year migration funding assessments, operational PQC algorithm testing. The Oct 22 civilian-agency planning deadline (OMB M-26-15) is 9 days out.
+  - [CORROBORATED — GAO report; covered by quantumcomputingreport.com and quantumobserver.eu]
+  - Source: https://quantumcomputingreport.com/gao-audit-finds-all-24-cfo-act-federal-agencies-unprepared-for-post-quantum-cryptography-migration/
+- **Federal agency deploys Quantum XChange Phio TX-EM across 15 production sites (Oct 8, 2026).** An unnamed US federal agency put post-quantum protection on its network without major infrastructure replacement, toward EO 14412 compliance.
+  - [CLAIMED — company announcement via Business Wire]
+  - Source: https://www.financialcontent.com/article/bizwire-2026-10-8-federal-agency-deploys-quantum-safe-security-across-production-network-with-quantum-xchange
+- **WISeSat.Space PQ-ready satellite comms strategy (Oct 12, 2026).** Integrating post-quantum semiconductor tech from sister company SEALSQ into next-gen satellite comms and IoT architecture, supporting EO 14412 objectives.
+  - [CLAIMED — company announcement]
+  - Source: https://www.marketnewsdesk.com/index.php/wisesat-space-advances-post-quantum-ready-satellite-communications-to-support-u-s-quantum-security-objectives/
+- **Non-news this pass:** IonQ real-time QEC decoder story unchanged since the two earlier passes (Sep 22 announcement); no new QEC decoder claims surfaced in this pass.
+- **Library update:** §(e) gained "Production PQC migrations land (Oct 2026): Cosmos ML-DSA suite, Starknet 2027 roadmap, Ethereum 2029 roadmap" and "GAO: 0/24 CFO Act agencies ready" entries, in `library/DECODERS.md` and the public `github-public/docs/DECODER-CATALOGUE.md`.
