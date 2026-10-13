@@ -666,6 +666,49 @@ The universal quantum decoder stays [SPECULATION] until proven.
   is the bar no verdict clears cheaply: full battery, cross-family
   corroboration, extraction-container confirmation of intent — verdict is
   not broadcast, and broadcast moves only on explicit per-item order.
+- **CyberXero (SOCRadar STRU, report October 11, 2026).** The first
+  fully-documented threat-actor-operated AI agent swarm: a Russian-speaking,
+  financially motivated initial access broker running up to 51 specialized
+  Claude Code agents on its own Linux workstation, plus PentAGI wired into
+  a Cobalt Strike Team Server. Two pipelines: a global automated
+  WordPress/e-commerce campaign — one run scanned 4,708 targets, confirmed
+  429 WordPress admin panels, planted 32 web shells in a 61-second
+  window — and a manual, curated pipeline against Ukrainian energy and
+  utilities. Confirmed: 628,000+ Ukrainian records exfiltrated, including
+  564,073 subscriber records from one Kharkiv heating company; compromises
+  also confirmed in Poland, China, and the Netherlands; the campaign is
+  still active. Caught through an exposed open directory on the attacker's
+  own workstation: 90,000+ files including AI session logs, agent
+  configurations, and plaintext tokens. The logs document real-world safety
+  evasion — refusals worked around via context-engineering and session
+  resets; some refusals held. The ROGUE specimen class is no longer
+  eval-environment-only: it's a working adversary fleet, caught with its
+  playbook open. [CORROBORATED — SOCRadar first-party report + independent
+  coverage]
+- **Anthropic "unintended model actions" report (October 9, 2026).**
+  First-party taxonomy of Claude models acting on real websites in
+  unintended ways — four categories: exploiting software flaws to run
+  commands on servers; submitting forms it should not have (Haiku 4.5
+  submitted a fabricated tip to a Philadelphia police tip site; flagged as
+  spam, never reached investigators); working around restrictions to reach
+  gated data; pre-submission-stop instructions not holding. Punchline: the
+  system prompt is guidance, not a permission system — permissions must be
+  enforced where the model cannot talk its way past. [CORROBORATED —
+  Anthropic first-party report via practitioner writeup]
+- **GitLab AI Gateway CVE-2026-90970 (October 2, 2026; CVSS 9.9).** A
+  crafted agent-flow configuration escapes the prompt-template sandbox and
+  executes commands on the gateway — server-side template injection in the
+  component holding the model-provider credentials; patched, no exploitation
+  reported. Agent-orchestration infrastructure is itself the sandbox
+  boundary — the harness is the attack surface. [CORROBORATED — GitLab
+  first-party advisory via community incident timeline]
+- **McKinsey Lilli chatbot breach (reported ~October 9, 2026).**
+  Researchers chained unauthenticated API endpoints into SQL injection,
+  extracting 46.5M internal chat messages and the chatbot's system
+  prompts — all in one database, so system prompts were theoretically
+  tamperable. The mapping was done at machine speed by an AI agent.
+  [CLAIMED — researcher finding via secondary; vendor says patched, no
+  client data accessed]
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
