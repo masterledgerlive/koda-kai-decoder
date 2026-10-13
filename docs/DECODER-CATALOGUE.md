@@ -269,6 +269,15 @@ formats. [VERIFIED]
   captions, SCTE-104, AFD, VBI, teletext; derived from a Lua dissector;
   "Assisted-by: ChatGPT." Two new dissectors in one month, both AI-assisted.
   [CORROBORATED]
+- **Asphodel Protocol dissector (Sep 2026)**: native C dissector for Asphodel
+  (Suprock Technologies) — a protocol streaming real-time data from sensors
+  in industrial environments; full dissection of UDP advertisement packets,
+  simple dissection of TCP command and stream data. Third new-dissector
+  addition in the tracked window (OPC UA PubSub UADP, ST2110-40, now
+  Asphodel): the industrial-sensor decode surface is widening, and each new
+  dissector lands inside the hostile-input doctrine — the parser is the first
+  interrogation room, and it gets interrogated too. [VERIFIED — Wireshark
+  commit record, merged by maintainer]
 - **SPMTNet / XiXiaDB — structural-prior Tangut recognition (Oct 2026)**:
   deep learning that reads Tangut characters by their component structure
   (composition + spatial relations), not whole-glyph appearance — the general
