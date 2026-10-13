@@ -1218,3 +1218,16 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Process detail from the October technical writeups.** The Marmont source was a low-resolution scan from a 1969 French military journal with no prior digital transcription; the model transcribed about one thousand three hundred handwritten symbols, built its own simulated-annealing solver, and cross-checked against period correspondence — and reportedly spotted a possible date error in the document itself. A partial key compiled by historian Daniel Tant fed the workflow. The lesson is reproducibility honesty: the "single image and a goal" framing works only because favorable prior materials did heavy lifting — the human-verified partial key plus the independent reviewer, not the model alone.
   - [CLAIMED — press and secondary summaries of the October writeups; no independent verification this pass]
 - **Library update:** none — the agentic-cipher wave is already catalogued; this pass added press-cycle process detail only. NOT MATERIAL.
+
+## 2026-10-13 18:30 EDT — decoder-research-loop — Codecs & formats (rotation #2, fourth pass)
+
+- **ContextCodec (Interspeech 2026) — the sub-1-kbps neural speech codec race.** A hybrid neural speech codec (CLIP-phoneme-aligned + AR latent refinement): reported to beat Mimi, X-Codec, and SemantiCodec at 1000 bps, and at 500 bps subjectively preferred over Opus at 6 kbps. Decoder lesson: neural decoders don't fail on bit-errors — they fail on distribution shift and adversarial latents. A crafted 500-bps stream is a model input, not a packet. The "plays everything" surface is absorbing learned decoders whose correctness is statistical.
+  - [CLAIMED — paper results via community summary; no independent replication this pass]
+  - Source: https://github.com/miblue119/interspeech-2026-wiki/blob/HEAD/wiki/papers/liang26d_interspeech.md
+- **Access Advance explores an AV1/AV2 patent pool (Aug 2026).** After the AV2 spec release, Access Advance launched an exploratory phase for a device-and-software patent pool covering AV1 and AV2 essential patents; Sisvel separately announced AV2 pool plans (Dec 2025). Decoder lesson: AOMedia's "royalty-free" only binds AOM members — third-party pools make AV2 decode support a licensing-risk variable, not just a parser checklist.
+  - [VERIFIED — first-party BusinessWire announcement; Sisvel detail CLAIMED via Wikipedia]
+  - Source: https://www.businesswire.com/news/home/20260825292774/en/Access-Advance-Launches-Exploration-Phase-for-an-AV1AV2-Device-and-Software-Patent-Pool-Invites-Participation-of-Potential-Licensors
+- **Bose QuietComfort Ultra 2nd gen gains Auracast + LE Audio in beta (~Oct 2026).** LC3/LE Audio reaches a huge headphone installed base — Auracast broadcast audio to any compatible receiver is a new passive-collection channel to watch.
+  - [CLAIMED — consumer press]
+  - Source: https://www.ecoustics.com/news/bose-quietcomfort-ultra-auracast-le-audio/
+- **Library update:** DECODER-CATALOGUE.md gained ContextCodec, the AV1/AV2 patent-pool exploration, and the Bose LE Audio beta. MATERIAL (new codec/format family member: sub-1kbps neural speech codecs).
