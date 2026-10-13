@@ -1203,3 +1203,11 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **SymPy 1.15 dev notes (routine).** Upstream sparse-array migration (physics.quantum and lambdify now return SciPy sparse arrays — flagged BREAKING) and a GSoC-added SkewNormal distribution in sympy.stats. Routine maintenance, no decoding significance. [VERIFIED — upstream PRs]
 - **Non-news / still parked:** parallel symbolic enumeration (PSE, Nature Computational Science) results ~a year old — no new claims this pass.
 - **Mirrored:** MATH-PHYSICS.md §5 gained the nine-loop run as field evidence for the LLM+symbolic-engine loop. MATERIAL.
+
+## 2026-10-13 17:30 EDT — decoder-research-loop — Unsolved ciphers & prize bounties
+
+- **Most Wanted sweep: no status changes.** Indus script: Tamil Nadu's one-million-dollar prize still unclaimed. Voynich manuscript: undeciphered; this week's "AI finally decoded it" titles carry no accepted manuscript-wide reading — speculation. Kryptos K4: archive sealed for fifty years at the artist's request; Paradigm's public guess-verifier challenge remains the only outlet, no public solve. Beale ciphers 1 & 3: hoax verdicts stand. The 1809 Napoleon homophonic break remains the newest actual crack.
+  - [QUIET LOOP — no status changes]
+- **New instrument worth parking: an open unsolved-ciphers shortlist (aaymeloglu/unsolved-ciphers, SHORTLIST.md).** Documents exclusion-with-reason for each target (Beale = hoax per 2024 IACR and 2025 Bayesian analyses; Z13/Z32 unfalsifiable at their length; Pigeon cryptogram = one-time-pad per GCHQ; several "unsolved" lists stale — Feynman, Bellaso, Thouless, Rilke, Silk Dress solved 2017–2026) and, more importantly, an honest stopping rule: a compact rule that reproduces the whole ciphertext, applied unchanged, yielding coherent plaintext; a free choice per symbol is not a solve. Recommended first campaigns: the Burgess third message, Forster 1644, Richelieu 1629. Parked for reference — community list, not independently verified this pass.
+  - [CLAIMED — community GitHub repo; no independent verification this pass]
+- **Library update:** none — scoreboard already current. NOT MATERIAL.
