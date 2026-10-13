@@ -77,8 +77,19 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   puzzles, launched June 2026 after the venture firm Paradigm bought Jim
   Sanborn's Kryptos archive for $962,500 at RR Auction (November 2025).
   [CORROBORATED — reporting and Wikipedia] Plot twist: the K4 plaintext was
-  recovered from Sanborn's Smithsonian papers *before* the sale; the encryption
-  method itself is still not publicly established. [CORROBORATED]
+  recovered from Sanborn's Smithsonian papers *before* the sale (Kobek/Byrne,
+  archival research, Sept 2025; authenticated by Sanborn, who explicitly
+  distinguished the discovery from a decryption) — plaintext recovered, cipher
+  *method* still publicly unsolved, worksheets private.
+  [CORROBORATED — Sep 2026 investigative assessment] The strongest open tool:
+  K4 and K5 share 97 characters, the same method, and positioned plaintext
+  words, so a depth-of-two attack would eliminate the key — but K5's
+  ciphertext is not public and the K4 plaintext is sealed until 2075.
+  Open computational state (nitsuah/kryptos): index of coincidence 0.0361
+  (random-like); 26 families eliminated with positive controls; the audit
+  reframe is procedural — Sanborn learned non-mathematical systems from
+  Scheidt, so attack the construction steps, not a cipher taxonomy.
+  [CORROBORATED — public repos]
 - **Retired, not active:** the RSA Factoring Challenge (1991–2007).
   [VERIFIED — literature] The Beale "treasure" carries no verified bounty —
   treasure-hunting speculation, not a prize. [DOCTRINE note]
@@ -148,7 +159,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Linear A | ~1800 BCE | Unsolved | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
-| Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3) | none verified |
+| Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
 | Shugborough | 1748 | Unsolved | — |
 | D'Agapeyeff | 1939 | Unsolved (author forgot) | — |
 | Pigeon NURP.40.TW.194 | 1944 | Unsolved (likely OTP) | — |
@@ -156,8 +167,8 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
-| Voynich manuscript | 1400s | Unsolved | — |
-| Kryptos K4 | 1990 | Plaintext recovered 2025; method unestablished | $1k/puzzle (Paradigm) |
+| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading | — |
+| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075) | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
 | MVUEH Enigma | 1941/2026 | Solved 2026 (agent) | — |
