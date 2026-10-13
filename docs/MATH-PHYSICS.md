@@ -121,4 +121,52 @@ an independent cross-check of the propagation machinery. The
 (1.4987011335178482). These are genuine computed results, not fixtures.
 
 **Next honest step:** a numerical PDE/ODE solver path (scipy `solve_ivp`),
-for the "real physics PDEs" that §1's honesty line names.
+for the "real physics PDEs" that §1's honesty line names. BUILT 2026-10-12
+~20:35 EDT — see §9 below.
+
+## 9. Third build: the ODE integration path (2026-10-12 ~20:35 EDT)
+The physics behind "energy to spaceships" is differential equations with no
+closed form, so the registry now integrates them: `numeric_solve_ode(name,
+t_span, y0, method, rtol, atol, dense, **params)` via
+`scipy.integrate.solve_ivp` (default RK45), with an `ODESystem` registry
+parallel to the equation registry.
+
+**Honesty controls (never fabricated):**
+- A failed integration raises `ValueError` with the solver's message and
+  diagnostics — it never returns a fake trajectory.
+- When an analytic solution is registered, the receipt cross-checks the
+  numeric answer against it on a 200-point grid and reports the max
+  absolute error. A failed cross-check is a WARNING, never dropped —
+  this caught a real bug the same hour it was built: the registry's own
+  underdamped velocity formula had swapped coefficients (max error
+  7.49 on the grid), fixed and re-verified to 3.07e-9. The receipt
+  machinery earned its keep on its first run.
+- No analytic solution → the receipt says so and points at a registered
+  physical bound instead (e.g. drag range must be shorter than the
+  closed-form vacuum range).
+- nfev ≥ 50,000 earns a "maybe stiff" warning suggesting Radau/BDF —
+  the registry does not silently re-solve.
+- Uncertain params propagate to the endpoint by finite-difference
+  re-integration; an unstable re-run withholds sigma, never guesses.
+
+**Canonical ODE systems (VERIFIED as math; application to any real
+specimen is a separate claim):** `damped_oscillator` (y'' + 2ζωy' + ω²y =
+0, ζ < 1 — analytic cross-check registered) and `projectile_drag`
+(quadratic drag F = −k|v|v — no closed form, the honest use).
+
+**Real test results (this VM, scipy 1.11.4):** damped oscillator
+(ζ=(0.10, 0.005), ω₀=2π, y₀=[1,0], t∈[0,5], 3866 function evals):
+endpoint (0.04199810, 0.04279561), analytic cross-check max error
+3.07e-9, endpoint σ=(0.00681, 0.00245) from ζ uncertainty. Projectile
+with quadratic drag (v₀=25 m/s @ 45°, g=9.81, k=0.25 kg/m, m=0.5 kg):
+range 4.204 m at y=0 crossing, strictly below the vacuum closed-form
+upper bound 63.7105 m — the physical bound check passes. These are
+genuine computed results, not fixtures.
+
+**What it is not:** not a PDE solver (still missing), not stiff-system
+smart (warns, doesn't adapt), no event detection (landing found by
+zero-crossing scan in the test harness, not the registry). Next honest
+step: a numerical PDE path (method of lines / scipy `solve_ivp` on a
+spatial grid), for §1's "real physics PDEs" line — or a time-dilation
+scenario runner that puts a specimen binary on a time-warped guest
+clock and decodes the delta, the Gauntlet's actual use case for ODEs.
