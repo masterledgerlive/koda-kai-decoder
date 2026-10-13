@@ -531,3 +531,14 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — single secondary source (edge-ai-vision.com)]
   - Source: https://www.edge-ai-vision.com/2026/07/chipsmedia-signs-apv-codec-ip-licensing-deal-with-north-american-big-tech-establishing-the-second-front-against-apples-prores/
 - **Library update:** new entries in `github-public/docs/DECODER-CATALOGUE.md` — Android-17 VVC adoption, dav2d announcement, APV second front.
+
+## 2026-10-12 23:27 EDT — Protocol decoders (rotation #3)
+- **Wireshark 4.6.9 (Sep 23, 2026) — dissector updates, no new protocols.** Updated support: LoRaWAN, ZigBee ZCL, SGP.32 (GSMA Remote SIM Provisioning for IoT), DECT-2020 (New Radio), QUIC, OpenFlow 1.3/1.4/1.5, F1AP, BT AVCTP, DICOM, and more. 19 vulnerabilities patched across the ZigBee ZCL, SPDY, CSN.1, USB HID, RF4CE, MBIM, 802.11, and synchrophasor dissectors plus file parsers. IoT edge coverage (LoRaWAN, ZigBee ZCL, SGP.32 eSIM) stays current.
+  - [CORROBORATED — Tux Machines citing the release notes]
+  - Source: https://news.tuxmachines.org/n/2026/09/23/Wireshark_4_6_9_Updates_Protocol_and_Capture_File_Support_Fixes.shtml
+- **Wireshark 4.6.8 (~Aug 2026) — 28 vulnerabilities patched, no new protocols.** Updated ASN.1 BER, ASTERIX, GTPv2, RELOAD, Rlogin.
+  - [CORROBORATED — cybersecuritynews.com]
+  - Source: https://cybersecuritynews.com/wireshark-4-6-8-released/
+- **Decoder significance (the pattern): dissectors are the hostile-input surface.** The 4.6.x line since 4.6.4 ships a body count of crafted-pcap crashes in release after release — opening a malicious capture can crash the analyst's tool. Any protocol-decoding pipeline is itself a trust boundary: never run the analyzer in the same trust zone as the untrusted input it decodes.
+  - [CORROBORATED — multiple 4.6.x release notes via secondary coverage]
+- **Library update:** none this pass — routine rotation-class entry, no new decoder technique or protocol class.
