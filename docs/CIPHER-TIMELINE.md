@@ -131,6 +131,21 @@ ever captured can be stored today and read tomorrow — "harvest now, decrypt
 later." The timeline's open question: does migration finish before a
 cryptographically relevant quantum computer arrives? [SPECULATION on timing]
 
+## 1966 — "Coupon Collecting and Cryptology" (NSA Technical Journal)
+
+Marie Capozza's SECRET-classified NSA Technical Journal article (Fall 1966)
+applied the coupon-collector's problem to cryptology: a statistical test for
+whether a generated sequence behaves as though genuinely random (applied to
+the decimal digits of π, following Greenwood's 1955 public method), key-card
+punch-field generation with generator-bias detection, and the reversed
+inference — estimating the *unknown number of code groups* from observed
+samples. Declassified in 2026 (approved for release 2026-09-09, FOIA Case
+#102241, after a nine-year wait); the section on alphabet generation remained
+redacted — still sensitive sixty years on. [VERIFIED] The pivot: randomness
+tests are the immune system of every key-material pipeline, and this is the
+oldest published one with an agency stamp. The decoder's statistical tooling
+inherits the coupon-collector test and the reversed code-group inference.
+
 ## The through-line
 
 Caesar → Vigenère → Zimmermann → Enigma → RSA → SNARKs → blockchain → PQC.
