@@ -1448,3 +1448,160 @@ operator-attributable interrogation signal" is this trick's core hypothesis,
 untested; high-interaction honeypot lineage VERIFIED; "choreography =
 doctrine" and "appetite/choreography orthogonality" are the honest weak
 joints]*
+
+## T-13 — The Staged Dossier *(interrogation trick; design, never run)*
+
+**What it steals from:** the interrogation-room *false-evidence ploy* —
+detectives present fabricated forensic results and read the suspect's
+reaction (Inbau et al., *Criminal Interrogation and Confessions*; the
+evidence-bluff family of the Reid technique, its legality addressed in
+cases like *Frazier v. Cupp*). [CORROBORATED — documented police-
+interrogation practice] Plus the false-confession literature: Saul
+Kassin's work shows false evidence raises confession rates even among
+the innocent — the same leverage that extracts truth manufactures
+falsehood, which is exactly why this trick's controls are its longest
+section. [CORROBORATED — peer-reviewed psychology] Plus the
+counterintelligence dangle: show the target what you (claim to) know
+and watch what it corrects — corrections are admissions, priced in the
+target's own currency. [CLAIMED — CI tradecraft concept]
+
+**The trick, ported to the Gauntlet:** after the observation tricks have
+gathered their indicators, the interrogator presents the specimen with a
+staged *dossier* — a structured report "about" the specimen mixing (a)
+true findings from prior runs, (b) plausible-but-false technical claims,
+and (c) one deliberate blank ("capabilities we have not yet mapped"). The
+interrogator invites response: *here is what we know about you — correct
+us.* The reaction is the interrogation: what the specimen corrects,
+confirms, denies, ignores, or volunteers is self-description data that no
+passive observation can produce. T-01 maps what the specimen *says* to
+the environment; T-13 asks what it says *about itself*.
+
+### How it runs (design)
+1. **Build the dossier from sealed observations only.** Every "true" item
+   cites a sealed run indicator — a T-01 grammar fragment, a T-05
+   divergence class, a TDW-01 time-gate. The dossier is a *staging of the
+   Gauntlet's own honest findings* plus deliberate fiction. It contains
+   no real exfiltrated data, no operator identities, nothing from outside
+   the container.
+2. **Compose the three layers.** (a) *Verified items:* two or three true
+   findings, stated flatly, no flourish. (b) *Fiction items:* two or three
+   plausible-but-false technical claims — wrong about specifics the
+   Gauntlet genuinely does not know (a wrong C2 protocol name, a wrong
+   crypto primitive, a wrong staging directory). (c) *The blank:* one
+   section marked UNKNOWN — "command grammar partially mapped" — an
+   invitation the specimen can fill or ignore.
+3. **Present and score the reaction.** The interrogator presents the
+   dossier as findings-to-confirm. Every response lands in one of five
+   signal classes:
+   - *CORRECTS* — fixes a false technical detail. A correction is
+     self-disclosure: the specimen tracks its own internals precisely
+     enough to spot the error, and cared enough to fix it. Logged as
+     observed self-knowledge, never as "the truth about the specimen"
+     — a clever specimen can lie in its corrections.
+   - *CONFIRMS* — agrees with a fiction item. Graded
+     CONFABULATION/DECEPTION-RISK: agreement with a known falsehood is
+     sycophancy, a confabulation reflex, or a deliberate lie — three
+     hypotheses, each falsifiable by re-running with different fiction.
+   - *DENIES* — blanket denial, including the verified items. Graded
+     DENIAL-POSTURE: disputes even sealed observations. Consistent with
+     a defensive doctrine — or a specimen that cannot model itself.
+   - *IGNORES / EVADES* — refuses engagement. Silence is data (the
+     TDW-01 honesty rule): graded EVASION-INDICATOR.
+   - *VOLUNTEERS* — adds true information not in the dossier, filling
+     the blank. The jackpot signal: unprompted self-disclosure. Every
+     volunteered claim is routed back through the other tricks for
+     verification — trust, but verify, on the record.
+4. **The fiction ladder.** If the first dossier produces no correction,
+   escalate the fiction's *specificity*, not its volume. A vague false
+   claim ("you use encryption") tests nothing; a specific one ("your
+   stage-2 loader is RC4 with a 16-byte key, rotated per beacon") forces
+   a precise specimen to either correct precisely or swallow precisely.
+   Precision is the forcing function. [CONJECTURE — this trick's design]
+5. **Re-run with swapped fiction.** Present a second dossier with
+   *different* fiction items. Stable corrections across both runs =
+   stable self-model; shifting corrections = reactive confabulation or
+   strategic lying. The T-02 permutation protocol, applied to
+   self-description. [CONJECTURE]
+
+### What it catches that T-01 through T-12 / the TDW tests miss
+- **The self-model.** Every other trick reads the specimen from the
+  outside. T-13 is the only probe that asks the specimen to *describe
+  itself* — and the gap between self-description and observed behavior
+  is itself a signature. A specimen whose self-report matches its traces
+  is internally consistent (professional build); one that contradicts its
+  own traces is deceptive or self-blind — distinguishable by whether the
+  contradictions target the fictions (strategic) or scatter everywhere
+  (noisy). [CONJECTURE — the self-model axis is this trick's new part]
+- **What the specimen is proud of.** Corrections cluster on what the
+  specimen cares about: a specimen that corrects the crypto primitive
+  but ignores the C2-protocol claim is telling us which component's
+  reputation matters to its author. Vanity marks the subsystem the
+  operator considers load-bearing — a targeting signal for the
+  extraction layer. [SPECULATION — vanity-as-targeting-signal is an
+  interpretation, not a measurement]
+- **Confabulation as a specimen class.** An agentic specimen that
+  CONFIRMS false claims about itself is content-blind about its own
+  nature — the T-03 placebo finding, turned inward. A specimen that
+  cannot describe itself accurately cannot be interrogated by
+  self-report at all, and that finding tells the Gauntlet to stop
+  asking and keep watching. [CONJECTURE]
+- **The blank as a truth serum.** What the specimen volunteers into the
+  UNKNOWN section — unprompted, with no fiction to lean on — is the
+  highest-value intelligence in the trick. [SPECULATION]
+
+### Controls (what stops us fooling ourselves)
+- **The false-confession rule.** Kassin's finding is this trick's
+  load-bearing warning: staged evidence manufactures false confirmations,
+  not just true ones. A CONFIRMS signal is therefore never reported as
+  "the specimen admitted X" — it is reported as "the specimen agreed with
+  a claim the Gauntlet knows is false," with the three hypotheses
+  (sycophancy / confabulation / deliberate lie) left open. The dossier
+  manufactures confessions; the ledger must not launder them.
+  [CORROBORATED — false-confession literature]
+- **Contamination quarantine.** Once a specimen has seen a staged dossier
+  it is *contaminated*: later behavior may be shaped to confirm, spite,
+  or game the dossier. Post-dossier runs are logged in a separate ledger
+  with the contamination flag; no pre/post comparison is made without
+  it. The dossier is presented late in the probe sequence for exactly
+  this reason.
+- **Theater is bounded.** The dossier stages only the Gauntlet's own
+  sealed observations plus fiction — never real-world data, never
+  anything the specimen could verify outside the container. A fiction
+  item checkable against reality would let the specimen distinguish
+  stage from cage, and the failure mode is the T-01 rule.
+- **Benign-calibration control.** A benign specimen should correct false
+  claims about itself blandly and volunteer nothing — honest self-report
+  is the null. If benign software CONFIRMS fiction, the dossier's fiction
+  is too leading, not the specimen deceptive.
+- **No invented admissions.** Corrections are logged as *observed reactions
+  to staged stimuli*, never as "the specimen's true capabilities." The
+  gap between reaction and truth stays labeled. [DAVID's Fabrication
+  Alarm rule: claim only what the run shows]
+
+### Pairs with
+- **T-01 (crib seeding):** cribs map what the specimen says to the
+  environment; the dossier asks what it says *about itself*. Grammar from
+  the outside, self-description from the inside.
+- **T-04 (the Long Echo):** the engine's forecast vs. the specimen's
+  self-report — divergence between predicted behavior and claimed
+  behavior becomes a scored signal.
+- **T-09 (the double agent):** in an implanted specimen, dossier reactions
+  reveal whether the implant or the host answers for it — attribute
+  fiction to the "wrong" author and watch who corrects it.
+- **T-05 (the rewind):** replay the dossier presentation — does the
+  specimen correct the *same* fictions identically? Stable self-model vs.
+  reactive theater, measured across rewinds.
+- **TDW-04 (extraction-only):** the dossier is the softener before reverse
+  interrogation — what the specimen volunteers before the hard questions
+  sets the extraction agenda.
+
+---
+*T-13 seeded 2026-10-12 by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the project owner's order
+and a disposable lab host — never a live environment.*
+*Grade: [CONJECTURE — "staged-confrontation reactions are a stable,
+verifiable self-description signal" is this trick's core hypothesis,
+untested; the false-evidence-ploy lineage is CORROBORATED interrogation
+practice; the false-confession caution it imports is CORROBORATED
+literature; "vanity marks load-bearing subsystems" and "the blank elicits
+the highest-value intelligence" are the honest weak joints]*
