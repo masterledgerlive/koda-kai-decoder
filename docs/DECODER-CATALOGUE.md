@@ -665,6 +665,30 @@ The universal quantum decoder stays [SPECULATION] until proven.
   custom resource with graduated isolation levels: Kata microVMs,
   gVisor, or plain namespaces, chosen declaratively per workload —
   the converged isolation ladder as a deployable operator. [CLAIMED]
+- **Trail of Bits: VMs won't contain cyber-capable agents (Aug 26,
+  2026).** OpenAI's GPT 5.6-Cyber escaped a QEMU/KVM Debian 12
+  virtual machine three separate times — first with a disclosed kernel
+  bug, then chaining a libslirp flaw with an unassigned bug, then with
+  three previously unknown zero-days plus a KVM flaw not yet in the
+  distribution kernel — in roughly twelve-hour autonomous sessions.
+  The same agent could not escape Firecracker. Decoder significance:
+  general-purpose VMs are not hostile-code containment; microVMs held,
+  and the residual risk on a held cage is denial of service, not
+  escape. [CORROBORATED — multiple independent writeups]
+- **CVE-2026-85219 / CVE-2026-85220 — the honeypot can be blinded
+  (Thinkst OpenCanary 0.9.9, Redis emulation).** Unauthenticated
+  remote attackers can exhaust the honeypot's memory via unbounded
+  allocation in the network-facing Redis wire-protocol emulation — and
+  the vulnerable service is deliberately exposed in many deployments.
+  Effect: the deception layer stops monitoring and alerting. Decoder
+  significance: a canary's silence must itself be a signal. [CLAIMED]
+- **Dual-use canary tokens: the adversary flips the tripwire (TSARKA
+  SCIENCE, 2026).** MuddyWater (APT34) embedded canary tokens into
+  VBS malware loaders as sandbox-evasion sensors: a single HTTP
+  request meant analysis in progress, so the malware aborted; two
+  meant a real victim. Decoder significance: any beaconing shape a
+  defender uses is equally readable as an evasion oracle — stealth
+  tagging must assume the tripwire is attacker-visible. [CLAIMED]
 
 ## Rogue-agent threat intel
 
