@@ -298,3 +298,10 @@ enforcement lives outside the model — same family as the output-filtering resu
 tournament selection, hoisted mutation weights). No new technique; tool-shelf
 version note.
 Source: https://github.com/astroautomata/SymbolicRegression.jl/releases/tag/v2.5.0
+
+## 12. New engine notes (2026-10-13 research loop, 16:57 EDT — math/physics track)
+
+**The nine-loop run (CORROBORATED — Anthropic claim via secondary writeup, Sep 2026).** An agentic run ("Claude Science" harness) completed a nine-loop scattering amplitude in N=4 super-Yang-Mills using Python + SymPy instead of Maple/Mathematica. The run's own accounting: disciplined code execution, workflow tracking, and state management did the work — not "raw scientific intuition"; ~96 CPUs for a week (~$100 cloud) plus $1,000–$2,000 in model API tokens over several days. The writeup's honest limits: the problem had ideal bootstrap structure ("Sudoku-like" constraint elimination, uniquely suited to code execution and AI task loops); humans were already close — Song He (Chinese Academy of Sciences) independently derived the majority of the result days later with traditional methods and minimal AI; and the result does not imply competence on open-ended, messier theoretical-physics problems. Shelf implication: receipts-grade field evidence for this document's §5 architecture — LLM proposes, symbolic engine checks — with symbolic-exact tooling (not approximate numerics) as the correct pairing for exact-reasoning work. The harness was the instrument, not the model alone.
+Source: https://lifeboat.com/blog/2026/09/claude-computes-a-nine-loop-amplitude-in-n4-super-yang-mills
+
+**SymPy 1.15 dev notes (routine, non-material).** Upstream sparse-array migration (physics.quantum and lambdify now return SciPy sparse arrays instead of deprecated sparse matrices — flagged BREAKING) and a GSoC-added SkewNormal distribution in sympy.stats. Tool-shelf version notes only.
