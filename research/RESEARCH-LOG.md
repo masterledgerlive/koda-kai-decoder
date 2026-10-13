@@ -651,3 +651,28 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CORROBORATED — technical writeup; journal not opened first-party]
   - Source: https://bioengineer.org/programmable-photonic-chip-tames-modal-dispersion-in-record-breaking-fiber-transmission/
 - **Library update:** public `docs/DECODER-CATALOGUE.md` photonic section: Protostar and Reason-1 upgraded from company-plan to launched/experiment-pending; added Tower/NewPhotonics optical engines, Astrogate+Spacebeam MoU, IonQ photonic interconnect, programmable SDM processor.
+
+## 2026-10-13 01:27 EDT — Predictive math (rotation #7, third pass)
+
+- **NBER working paper: prediction markets show no systematic partisan bias (Zitzewitz, Oct 2026).** Largest sample of election prediction markets ever assembled (1880–2025); tested whether contracts on right-leaning candidates earned different returns than left-leaning ones at one day, three weeks, four months out. Full-sample estimate essentially zero; at the one-day horizon the data rule out a left-leaning bias of ~4.5 percentage points or a right-leaning bias of ~3 points.
+  - [CORROBORATED — working paper reported via rotowire; not yet peer-reviewed]
+  - Source: https://www.rotowire.com/article/prediction-markets-go-back-to-future-with-election-trades-139104
+- **Midterm snapshot (early Oct 2026):** Polymarket prices Democratic House control at 93%; in 2024 markets performed about the same as statistical models nationally but worse on down-ballot races. Polls and markets make different, largely unrelated errors — combining them beats leaning on either alone.
+  - [CLAIMED — market data + analysis journalism]
+  - Source: https://www.casino.org/blog/prediction-markets-vs-polls/
+- **Pecan AI / DemandForecast.ai accuracy report (Oct 1, 2026).** Vendor's own benchmark of 15 live deployments: AI forecast beat the incumbent in all 15, error down 14–56% (32% average), manual planning effort down 70%. Self-graded by the vendor — read as marketing until independently replicated.
+  - [CLAIMED — vendor's own report; no independent audit this pass]
+  - Source: https://www.globenewswire.com/news-release/2026/10/01/3373148/0/en/ai-forecasts-beat-the-incumbent-forecast-in-15-of-15-customer-deployments-demandforecast-ai-benchmark-finds.html
+- **FATE: forecasting anomalies before they happen (arXiv:2602.17028, preprint).** Unsupervised framework flagging precursors-of-anomaly from ensemble disagreement across time-series forecasting models — no labels, no target values at inference; introduces the PTaPR early-warning metric. Reports +19.9pp PTaPR AUC and +20.02pp early-detection F1 over baselines on five real-world datasets.
+  - [CLAIMED — preprint, not peer-reviewed]
+  - Source: https://arxiv.org/abs/2602.17028v1
+- **osESD: the Extreme Studentized Deviate test as a streaming anomaly detector (scienmag writeup).** Perfect precision/recall/F1 on example Yahoo benchmark runs, ~0.7s in Python / <0.3s in R; includes auto-tuning (grid search weighted by the user's precision/recall/F1/speed priorities).
+  - [CLAIMED — research writeup; "example runs" caveat]
+  - Source: https://scienmag.com/a-classic-statistics-test-gets-a-streaming-makeover-to-catch-anomalies-in-real-time/
+- **Silent black-hole outage prediction (techxplore writeup).** Three-stage model (clustering + time-series + deep learning) flagged black-hole-like patterns within a five-minute forecast window on unlabeled ISP data; 98% detection rate and ~90% F1 on labeled proxy datasets (UNSW-NB15, ToN_IoT converted to time series) — validated on proxies, not actual black-hole incidents.
+  - [CLAIMED — proxy-dataset validation]
+  - Source: https://techxplore.com/news/2026-10-ai-silent-internet-outage.html?deviceType=mobile
+- **RAP: a transparent benchmark for Arctic sea-ice forecasting (Scientific Reports 2026, reported Oct 11).** Random analog prediction gives nine-month seasonal sea-ice extent forecasts and a deliberately simple baseline — if a complex model can't beat this, the complexity is adding nothing. The Gauntlet-rule discipline in another field.
+  - [CORROBORATED — peer-reviewed paper via phys.org reporting]
+  - Source: https://phys.org/news/2026-10-algorithm-arctic-sea-ice-months.html
+- **Library update:** public `docs/MATH-PHYSICS.md` §3 gained the NBER no-bias finding and the precursor-of-anomaly + benchmark-honesty lines.
