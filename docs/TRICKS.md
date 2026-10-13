@@ -1726,3 +1726,118 @@ forward dilation and clock-dissonance designs are the internal lineage;
 sandbox-evasion timing checks (Sleep-skip, rdtsc stall detection) are
 CORROBORATED; the ceiling's stability across specimen classes is the honest
 weak joint]*
+
+## T-15 — The Quiet Signature *(stealth-tagging technique; design, never run)*
+
+**What it steals from:** provenance marking, run in reverse. Printers hid
+microdots (VERIFIED — the yellow tracking-dot practice is documented);
+researchers watermarked model outputs so generated text can be claimed
+(CORROBORATED — Kirchenbauer-style green/red-list watermarks; the
+paraphrase-resistance problem is the open joint everyone admits); honeypot
+crews salt documents with canary tokens. All of that points outward — tag
+*their* stuff to detect *them*. The Quiet Signature points inward: tag the
+artifacts *we* hand the specimen, and the artifacts the specimen produces
+inside the Gauntlet, so that if any of them surface in the wild we can prove
+the leak, trace which run it came from, and detect whether our own
+interrogation data has contaminated a training set or an adversary's
+playbook.
+
+**The scenario:** a specimen in the Gauntlet produces outputs — transcripts,
+generated code, forged documents, config files, error messages. Some of
+those are extraction targets (its payloads), and some are deliberate
+bait (the staged dossier, T-13's craft; TDW-11's broker briefs). Every
+artifact leaves the Gauntlet carrying invisible provenance across several
+channels at once. Months later, when a chunk of text turns up in a dump, a
+repo, or a model output, the tag answers the one question every leak
+investigation stalls on: *is this ours, and which run did it come from?*
+
+### The tag channels (design)
+
+No single channel survives every transformation, so the tag is redundant
+across five, each keyed from a per-run seed in the tag ledger:
+
+1. **Zero-width Unicode.** U+200B/U+200C/U+200D woven between words encode
+   the run id. Survives copy-paste and most editor round-trips; dies in any
+   normalization, `str.strip`-class scrubbing, or re-typing. Fragile but
+   highest density.
+2. **Syntax-style skew.** Seeded, consistent style choices — Oxford comma
+   always/never, "towards"/"toward" spelling, header casing (Title vs
+   Sentence), quotation-mark style. Survives re-encoding and most editing;
+   degrades under paraphrase; partially survives *translation* of natural
+   language (the choices leak into the translator's options).
+3. **Order canonicalization.** Lists, keys in JSON, and rule enumerations
+   emitted in a seed-determined order that is *valid but non-default*.
+   Survives semantic rewriting almost completely — re-ordering a list is
+   work nobody does without a reason, and a paraphraser almost never does it.
+4. **Comment/metadata payloads.** In code and documents: comments, ID3 tags,
+   EXIF-style fields, YAML front-matter fields carrying a signed run stamp
+   (HMAC of the artifact hash with the run key). Survives bit-identical
+   copies; dies the moment anyone strips metadata — which tells you the
+   artifact passed through deliberate hands.
+5. **Error-message phrasing variants.** For interrogations that probe error
+   paths (T-12's offense elicitation, TDW-11's broker scripts): seeded
+   variants of refusal/permission-denied strings. A refusal that should be
+   impossible to trigger appearing verbatim in a dump is itself the alarm.
+
+### How it runs (design)
+1. **Ledger before use.** Every tag channel's seed and key for a run is
+   registered in the tag ledger (a local, offline table) *before* the
+   specimen sees anything. Tags are never invented mid-run; an unregistered
+   tag is indistinguishable from noise — and from a false accusation.
+2. **Tag at the boundary.** Tags are applied only to artifacts the Gauntlet
+   manufactures or the specimen produces inside the container — never to
+   real user data, never inside a live system. Tagging must not alter
+   semantics: a seeded style choice that changes meaning is a corrupted
+   artifact, not a tagged one.
+3. **Wash-resistance matrix.** Each channel is graded per run against the
+   transformations the adversary is expected to apply: copy-paste,
+   re-encoding, paraphrase, summarization, translation, deliberate laundering.
+   Channel 4 (metadata) detects the *deliberate* wash — its absence is the
+   signal. Channel 3 (ordering) is the last survivor against everything but
+   deliberate laundering.
+4. **Detection.** Given a suspect artifact, run the presence test per
+   channel: for zero-width, decode directly; for style/order, the
+   distribution-skew test — seeded choices are deliberately over-represented
+   relative to the specimen's unseeded baseline. The baseline is measured in
+   calibration runs *before* any tag exists, so a positive is a statistical
+   claim with a stated p-value, not a vibe.
+
+### Doctrine constraints
+- **Provenance, never payload.** A tag is a return address, not a message.
+  Nothing rides in the tag that the specimen didn't already have — the tag
+  must be content-free, or the Gauntlet is exfiltrating to itself.
+- **Never tag genesis-adjacent state.** Tags live in container artifacts
+  only. Nothing tagged ever touches genesis-block-adjacent state — the
+  block stays provenance-clean by construction.
+- **The tag dies with the run.** Keys are rotated per run and destroyed when
+  the run is archived. Old tags remain *verifiable* from the ledger (which
+  records what was seeded) but no new artifact can be forged in a dead run's
+  name. This is what separates a signature from a rumor.
+
+### Pairs with
+- **T-08 (the second hand):** sibling channel — T-08 watermarks the *timing*
+  of behavior; T-15 watermarks the *content*. A specimen laundering artifacts
+  must defeat both domains at once.
+- **T-13 (the staged dossier):** the dossier is the highest-value bait and
+  gets the heaviest tag stack — all five channels, fresh keys, order-3 as the
+  long-lived survivor.
+- **T-05 (the rewind):** the replay run *is* the tag-fidelity check — the
+  baseline distribution for the skew test is measured at 1×, untagged.
+
+*T-15 seeded 2026-10-13 by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the project owner's order
+and a disposable lab host — never a live environment.*
+*Grade: [CONJECTURE — "transformation-resilient provenance tags can
+attribute a leaked artifact to a specific Gauntlet run" is this trick's
+core hypothesis, untested in any Gauntlet rig. CORROBORATED lineage:
+text-watermark distribution-skew methods, canary-token craft, and the
+documented yellow-dot tracking precedent; the tag-ledger-before-use rule
+is internal doctrine. CLAIMED — that the five channels' wash-resistance
+ranking holds against a real adversary, with order-canonicalization as the
+last survivor. The honest weak joint: paraphrase- and
+translation-resistant tagging without degrading naturalness is an open
+research problem — a deliberate launderer washes everything but the
+metadata's absence, so the tags prove leaks against the careless or
+semi-honest adversary, not the determined one, and a false positive would
+be an accusation, which is why the ledger and the stated p-value are
+non-negotiable]*
