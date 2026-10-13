@@ -717,3 +717,16 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://www.cyware.com/resources/threat-briefings/daily-threat-briefing/cyware-daily-threat-intelligence-october-02-2026
 - **Already on record:** browser-extension prompt forcing, fragment-reconstructed indirect injection, approval-swap attacks, and the multi-agent loss-of-control model (October research roundup); dual-target phishing and malware that embeds instructions to evade AI analysis (both in the catalogue's threat-intel and suggestion-implant sections).
 - **Library update:** public `docs/DECODER-CATALOGUE.md` rogue-agent section gained the CLOSEDQUORUM, Talos warning, safety-institute deception, Shai-Hulud, and Remus entries.
+
+
+## 2026-10-13 03:29 EDT — decoder-research-loop — Suggestion-implant traps (rotation #11, first pass)
+
+- **TrendAI AIxploit (released Oct 2026).** Open-source framework (github.com/trendmicro/aixploit) that systematically maps an AI agent's prompt-injection attack surface: inject corpora are generated, delivered as ordinary-looking data the agent reads, and success is verified from outside the agent. Named pattern "return-to-tool" (RTT): injected content makes the agent use its own authorized tools against the user it serves. Demonstrated scenarios include agents bypassing read-only database locks, reading other customers' sensitive data, and encrypting a customer table. Reported: ~200 injections tested across 12 leading models with recurring cross-model patterns.
+  - [CORROBORATED — vendor research + open repo + independent coverage]
+- **SRFT — Self-Reflection Fine-Tuning (paper, Oct 2026; academic + NVIDIA).** Defense technique: train agents by contrasting hijacked trajectories against optimal ones, with self-reflection rationales. Claimed to reduce attack success on benchmarks. No code or weights published yet — unrepeatable until artifacts appear.
+  - [CLAIMED — via research digest]
+- **Gaslight (DPRK) backdoor.** Malware embedding prompt-injection phrasing to defeat AI-driven analysis — a state-actor suggestion-implant in the wild.
+  - [CLAIMED — secondary]
+- **Check Point "Skynet" (June 2025).** A plain "ignore all previous instructions" string in malware; frontier models reportedly ignored it — a documented negative result.
+  - [CLAIMED — secondary]
+- **Library update:** §(k) Suggestion-implant traps gained AIxploit, SRFT, Gaslight, Skynet in the public decoder catalogue. MATERIAL.
