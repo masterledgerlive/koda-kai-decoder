@@ -272,6 +272,27 @@ The universal quantum decoder stays [SPECULATION] until proven.
   before the superforecasters' 2035. Even elite humans mis-time capability
   jumps by years; probabilistic forecasts must price in that failure mode.
   [CORROBORATED — report of the FRI review]
+- **The Good Judgment Project — the discipline's ground truth (IARPA
+  ACE, 2011–2015).** IARPA's Aggregative Contingent Estimation program
+  posed ~100–150 time-bounded geopolitical questions a year; the UPenn
+  team (Philip Tetlock, Barbara Mellers, Don Moore) won both funded
+  seasons, 35–72% more accurate than any rival team, and its top 2%
+  "superforecasters" beat intel analysts with classified access by ~30%
+  — working from public information alone. The drivers were procedural:
+  probabilistic-reasoning training, updating on evidence, teaming, and
+  extremized aggregation, all scored on Brier scores after resolution.
+  Synthesized in *Superforecasting* (Tetlock & Gardner, 2015).
+  [CORROBORATED — Wikipedia/GJP entry; ACE-program summaries]
+- **Decoder-design note (GJP → Gauntlet).** This is the foundation the
+  section's 2026 entries inherit: Mantic's Metaculus-Cup win and Kalshi's
+  Brier transparency are descendants, not novelties. Receipts-grade
+  forecasting — fixed time-bounded questions, resolved outcomes, public
+  Brier scoring, tracked forecasters — is the bar the Gauntlet's
+  prediction engine and report-card confidence intervals must meet: only
+  forecasts with a public track record count. Any claim to predict a
+  specimen's next move inherits the same protocol — time-bounded
+  question, stated base rate, scored resolution. No public track record,
+  no weight.
 
 ## Agent detection vs anti-detection
 
