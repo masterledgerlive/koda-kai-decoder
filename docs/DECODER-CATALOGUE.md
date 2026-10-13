@@ -107,6 +107,20 @@ CLAIMED / SPECULATION.*
   human kills false paths. [VERIFIED]
   Doctrine lesson: the alphabet's true structure was below the visible symbol set
   (unaccented Roman letters were spaces) — structure before substitution, again.
+- **Great Cipher of Louis XIV (~1680s, broken 1893):** the nomenclator that stood
+  two centuries. Antoine and Bonaventure Rossignol's system — ~587 numbers, each a
+  French syllable, with nulls blunting frequency analysis and deliberate traps,
+  including a code group telling the decryptor to ignore the *previous* one. The
+  method died with its inventors; archive documents sat unreadable until
+  Commandant Étienne Bazeries spent ~3 years on it and realized the numbers were
+  syllables, not letters — the repeated 124-22-125-46-345 became *les ennemis*
+  ("the enemies") and the cipher fell. One decrypt touched the Man in the Iron
+  Mask mystery. [VERIFIED]
+  Doctrine lesson: (1) the carrier fought the analyst — nulls and traps pre-poisoned
+  the decryptor's reading, the 17th-century shape of 2026 filter-biasing implants;
+  (2) the tokenization assumption was the lock — correct statistics aimed at
+  letters could never see syllables, so interrogate tokenization before statistics;
+  (3) the crib breaks first — a guessed fragment, not bulk statistics.
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
