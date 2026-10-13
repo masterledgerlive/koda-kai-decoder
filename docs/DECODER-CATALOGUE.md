@@ -307,6 +307,19 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   keys registered against decentralized identities (accounts as DIDs, keys as
   credentials); users never moved assets. The template for post-quantum key
   rotation without asset custody. [CLAIMED — company press release]
+- **Alice & Bob NVQLink GPU decoding of LDPC-cat codes (Oct 13, 2026).**
+  First implementation decoding LDPC-cat codes on GPUs via NVIDIA's NVQLink,
+  using synthetic data — proof of concept, not real-time decoding yet.
+  Decoding gets more efficient as syndromes decode in parallel. Second vendor
+  in two months pushing the classical-decode bottleneck as the fault-tolerance
+  pacing item — decoding, not qubits. [CORROBORATED — company release via
+  HPCwire; synthetic-data caveat is the release's own]
+- **Google "virtual error cancellation" (Oct 13, 2026, arXiv).**
+  Post-computation error mitigation: compare a fast decoder with an accurate
+  offline decoder over saved error-correction records to re-weight measurement
+  contributions — no new calibration experiments, no circuit changes.
+  Claimed 1,000-fold-plus suppression in simplified noise simulations, not
+  yet on hardware. [CLAIMED — preprint via secondary writeup; sim-only]
 - **Migration deadlines tighten (Sep 2026).** Malaysia's National Security
   Council: the only ASEAN Tier 1 PQC-ready state. EU: NIS Cooperation Group
   recommends member-state PQC migration strategies by end of 2026; DORA
