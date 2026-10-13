@@ -48,6 +48,19 @@ CLAIMED / SPECULATION.*
   (Klaus Fuchs, the Rosenbergs, Harry Gold) plus Hiss, White, Maclean, Hall.
   The canonical proof that breaks come from usage flaws, not machines — the
   Gauntlet hunts usage first. [VERIFIED]
+- **The VIC cipher (1950s) — the hand cipher that never fell to cryptanalysis.**
+  Soviet agent Reino Hayhanen (codename VICTOR) used a pencil-and-paper system
+  — straddling checkerboard substitution, mod-10 chain addition from a
+  lagged-Fibonacci keystream, then a disrupted double transposition — arguably
+  the most complex hand cipher ever deployed. It surfaced in 1953 on microfilm
+  inside a hollowed-out nickel (the Hollow Nickel Case) and resisted all
+  cryptanalytic attempts until Hayhanen defected in 1957 and described it to
+  the FBI. David Kahn called it "the finest and most advanced mnemonic cipher
+  ever made public" and "effectually unbreakable without prior knowledge of the
+  system." The doctrine lesson: Venona broke the unbreakable via a usage flaw;
+  VIC survived cryptanalysis and fell to source compromise — so the Gauntlet's
+  interrogation order is **operator first, usage second, mechanism third**.
+  [CORROBORATED]
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
