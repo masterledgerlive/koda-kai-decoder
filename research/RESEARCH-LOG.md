@@ -801,3 +801,11 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Indus "credit registry" hypothesis (2026, Sangam Talks series).** New non-linguistic hypothesis: the Indus script as a cashless institutional credit registry, 66.9% of numerals acting as tier-markers — a fresh entry in the non-linguistic camp (Farmer-Sproat-Witzel lineage). No peer review visible. [SPECULATION]
 - **Self-graded decipherment repos rejected on intake (standing floor).** Two GitHub repos claim 90–99% "deciphered" across 20 scripts or musical/chakra frequency maps; both grade their own confidence tables. Rejected on intake per the Oct 2026 discipline pair — SPECULATION until an external judge grades them.
 - **Library update:** `docs/UNDECIPHERED.md` — Linear A row gained the Di Mino claim (CLAIMED, review pending); `docs/DECODER-CATALOGUE.md` §(d) gained the offline-MT wave + Linear A method note. MATERIAL.
+
+## 2026-10-13 06:57 EDT — decoder-research-loop — Quantum decoding (rotation #5)
+
+- **DARPA QBI Stage C: IonQ + IBM advance.** DARPA revealed the two companies moving to Stage C of its Quantum Benchmarking Initiative — IonQ (citing 99.99% two-qubit gate fidelity) and IBM. IonQ's September real-time quantum error-correction decoder demo on a single off-the-shelf CPU is the decoder half of the fault-tolerance race: the classical decode bottleneck is the pacing item. [CLAIMED — company statements via trade press]
+- **MetaMUI post-quantum mainnet hard fork (Sep 13, 2026).** Falcon-512 keys registered against decentralized identities (accounts as DIDs, keys as credentials) so users never moved assets to new accounts — key rotation decoupled from asset custody, a migration pattern worth watching. [CLAIMED — company press release]
+- **Malaysia Tier 1 ASEAN PQC readiness (Sep 15, 2026).** National Security Council confirmed Malaysia as the only ASEAN Tier 1 state for PQC migration readiness. [CORROBORATED — national news agencies]
+- **EU regulatory push.** NIS Cooperation Group: member states to adopt PQC migration strategies by end of 2026; DORA state-of-the-art crypto requirements for financial entities; ESMA digital-innovation supervisory priority from 2027. [CORROBORATED]
+- **Library update:** `docs/DECODER-CATALOGUE.md` quantum section gained the QBI Stage C entry, the MetaMUI migration pattern, and the deadline fill. MATERIAL.
