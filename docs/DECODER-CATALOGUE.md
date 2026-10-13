@@ -154,6 +154,9 @@ formats. [VERIFIED]
   of any future machine decipherment: what would prove it false?
   [CLAIMED — method described in interview; paper not peer-reviewed]
 
+- **Di Mino's Linear A workflow (Jun 2026) — AI-accelerated archival decipherment**: the claimed Linear A decipherment (see UNDECIPHERED.md) enters the catalogue as a technique — Claude Code running Python scripts as an exhaustive cross-referencing engine over digitized inscription databases, compressing months of manual comparison into real-time iteration so human linguistic intuition becomes instantly testable evidence. Same template as the 2026 AI codebreaker wave (MVUEH, Marmont): AI reads the archive and builds the tool; deterministic machinery plus human scholars do the breaking. [CLAIMED — secondary reporting; academic review pending]
+- **Offline machine translation wave (Sep–Oct 2026) — the stealth language decoder**: Tether TranslatePsy-AfriSLM (open-source, offline, 19 African languages, 0.8/2/4B parameters; vendor claims it beat 122B-class systems on FLORES-200/BOUQuET/SMOL), Tencent Hunyuan MT (440 MB offline; internal benchmarks claim it beats Google Translate in 33 languages), Google TranslateGemma (open, 4/12/27B, 55 languages), Microsoft Harrier-OSS-v1 (Mar 2026, open-weight embeddings, 107 languages, MTEB v2 SOTA). On-device offline translation is a translation layer with no cloud trace, field-deployable on mid-range phones. Vendor benchmarks stay CLAIMED; the architecture fact (works with no connectivity) is the capability to track.
+
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
 optimization) — not a universal "decode all information" engine. Active research:
