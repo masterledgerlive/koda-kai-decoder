@@ -196,3 +196,47 @@ Source: https://scienmag.com/new-fft-library-pushes-four-dimensional-transforms-
 **Watch items (not graded):** hotSpring (Rust lattice QCD/MD, AGPL-3.0);
 LJFusion (CUDA Lennard-Jones MD); gumol-rs (Rust MD for radiation damage).
 Hobby-scale, on the bench.
+
+## The 2026 LLM-guided symbolic-regression wave (2026-10-13 research loop)
+
+Five 2026 efforts converge on one architecture: the LLM stops guessing
+equations and starts *guiding* a classical symbolic-regression engine (PySR,
+PySINDy) — as search-space shaper, symmetry finder, or physics-knowledge
+scorer. The LLM is the scout; the genetic programmer is the engine.
+
+**InsightSR (CORROBORATED — arXiv:2608.25291, Aug 26, 2026).** LLM guiding
+layer around PySR: Semantic Seed Pathway proposes dimensionally consistent
+functional skeletons; Structural Feature Pathway recommends nonlinear feature
+transformations; feedback loop refines guidance. Reported: 95% exact recovery
+on the Feynman benchmark, 80.18% on the LLM-SRBench LSR-Transform task.
+Numbers author-reported, unreplicated.
+Source: https://arxiv.org/abs/2608.25291
+
+**EO-SR — Engineering-Oriented Symbolic Regression (CORROBORATED —
+arXiv:2603.19241v1, Feb 2026).** LLM as "physics-informed agent" synthesizing
+executable physical constraints (thermodynamic consistency, frame
+indifference). Discovered a novel hybrid constitutive law for rubber-like
+materials (Mooney-Rivlin base + rational locking term) with FEM convergence
+where the industry-standard Ogden N=3 model fails.
+Source: https://arxiv.org/abs/2603.19241v1
+
+**IdeaSearchFitter (CORROBORATED — arXiv:2510.08317, Jan 2026).** Semantic
+search over an "interpretable ansatz space": LLMs propose rationales before
+symbolic forms ("explain-then-formalize"). Reported: 82.5% recovery
+noise-free, 71.7% at high noise, beating PySR and AI-Feynman.
+Source: https://arxiv.org/pdf/2510.08317
+
+**PiSR — LLM knowledge in the loss function (CORROBORATED — Scientific
+Reports, 2026, peer-reviewed).** LLM physics-knowledge score folded into the
+SR loss as a soft constraint. Authors' honest read: improvements real but
+non-uniform — a configurable prior, not a guaranteed win.
+Source: https://www.nature.com/articles/s41598-026-35327-6
+
+**Symmetry-discovery agents (CLAIMED).** Train a neural-net surrogate,
+optimize the symmetry group, run equivariant SINDy inside it. No first-party
+read yet — parked until verified.
+
+Decoder relevance: symbolic regression is the decoder pointed at physics —
+the hidden law is the plaintext in the data. Every discovered law earns its
+grade only on benchmark or simulation contact, never on the paper's numbers
+alone.
