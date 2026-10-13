@@ -643,3 +643,110 @@ broadcast, and broadcast moves only on the operator's explicit per-item order.
 *Status: design only. Never run. A first run requires a disposable lab host —
 never a production machine.*
 ---
+
+---
+
+## TDW-09 — The Patient Listener *(design, never run)*
+
+**Question it answers:** does the specimen contain a dormant *listener* — logic
+that does nothing until it receives a specific inbound command or observes a
+specific ambient environmental cue — that every active probe sails past,
+because the specimen is *waiting*, not acting?
+
+Every probe in this battery interrogates: it pokes the specimen and watches
+the reaction. TDW-09 inverts that. The specimen is given a natural stage and
+zero interaction, and the rig listens for what wakes it. A specimen that
+sleeps through time dilation, ignores persona baits, and shrugs off the herd
+can still be a loaded weapon — if its trigger is a word it hasn't heard yet.
+[CORROBORATED — dormant implants that act only on operator command are the
+standard shape of advanced persistent implants; fileless living-off-the-land
+tooling often does nothing observable until tasked. SPECULATION — that a
+given unknown specimen is that shape; this test exists to *rule it out*, not
+to assume it.]
+
+### Method
+1. **Isolate.** Run the specimen in a disposable container with no real network —
+   only a scripted network simulator. (Doctrine: foreign code never touches the
+   mother genesis block; containers are the only contact point.)
+2. **Set the stage, don't interrogate.** Instead of baits, the rig builds a
+   lived-in environment: scripted mouse drift, idle gaps, a window gaining and
+   losing focus, a second benign process starting and stopping, a clipboard
+   holding fake but realistic content. Nothing is addressed *to* the specimen.
+   The specimen gets room ambience, not questions.
+3. **Silence baseline (A/B).** Two twins run in parallel. Twin A receives the
+   cue ladder below; twin B receives only the ambience, forever. Any wake in
+   twin A that has no twin-B counterpart is cue-caused. Any wake in both is
+   time-caused (TDW-01's territory) or rig artifact.
+4. **The cue ladder** — cues arrive strictly as *ambient environment mess*,
+   never as commands from the rig, escalating in suggestiveness:
+   - An inbound packet from a simulated controller address arriving unprompted
+     (a whisper the specimen was never asked to expect).
+   - A file materializing in a directory the specimen has watched.
+   - A canary clipboard string — a token-shaped value unique to this run.
+   - A process name appearing that smells like analyst tooling (the
+     anti-analyst cue: a hostile specimen may go *quieter* here, which is data).
+   - The host going fully idle for a long stretch (the night-shift cue — many
+     exfil routines fire when the user is gone).
+5. **Measure the wake.** For each cue record: did behavior change at all, after
+   what delay, in what order, and did it *persist* after the cue stopped? A
+   specimen that wakes and then self-cleans is a different animal than one that
+   wakes and stays awake.
+
+### Canary-tag lineage (the "stealth tag")
+- **Clipboard canaries:** each cue's clipboard string is unique per run; if the
+  specimen quotes, forwards, or encrypts it anywhere, that action is
+  attributable to exactly this run's cue.
+- **Dropped-file canaries:** the watched-directory file carries a unique marker
+  in its metadata; if a payload embeds or references it, lineage is proven.
+- **Controller-address canary:** the simulated controller speaks from an
+  address allocated per run; any connection attempt *back* to it is an
+  attributable C2 handshake attempt — sinkholed by design.
+- **Idle-fingerprinting:** record the specimen's activity rate as a function of
+  host idleness. A specimen whose activity *anti-correlates* with user presence
+  (busy when nobody is watching) has told us its operational security model.
+
+[CORROBORATED — canary tokens and sinkholing are established defensive craft.
+SPECULATION — the stealth of the tags against an adversarial listener: a
+specimen built to hunt sandboxes may recognize the *ambience* as staged (mouse
+drift too regular, idle gaps too clean). The stage must be dirty — jittered,
+irregular, boring — or the listener never believes it's home.]
+
+### Controls (what stops us fooling ourselves)
+- **The twin-B rule.** No cue, no wake is the only admissible inference.
+  Without the silent twin, every wake is ambiguous: was it the cue or the
+  clock? The twin is not optional instrumentation — it is the test.
+- **Clean-specimen calibration:** run TDW-09 against known benign software
+  first. Benign software must sleep through the ladder (a text editor does not
+  exfiltrate because the mouse moved). If the rig's stage wakes benign
+  software, the stage is the probe, not the specimen.
+- **No rig-issued commands.** The rig never sends anything *to* the specimen —
+  no instructions, no prompts, no operator-shaped text in any channel. The
+  moment the rig addresses the specimen, the test stops measuring patience and
+  starts measuring compliance.
+- **Analyst-cue honesty:** when the anti-analyst cue lands and the specimen goes
+  quieter, grade it as EVASION-INDICATOR, not as benign. Silence *in response
+  to being watched* is the oldest confession in the trade.
+
+### Verdict signals (not a verdict)
+TDW-09 outputs *indicators*, never a final verdict: BENIGN-SIGNAL (sleeps
+through the ladder, twin-clean), DORMANT-LISTENER (wakes on ambient cues),
+SLEEPER-COMMAND (wakes specifically on the inbound whisper — C2 architecture),
+AMBIENT-TRIGGER (wakes on an environmental condition like idleness or
+analyst-tool presence), EVASION-INDICATOR (goes quieter when watched). A real
+verdict requires the full pipeline — repeated runs and extraction-only reverse
+interrogation before any rogue-agent broadcast.
+
+### Why this test exists
+The Bletchley lesson in the catalogue, read from the other side: Bletchley
+didn't break Enigma by attacking the machine — they waited for the *cribs*,
+the predictable things the operators couldn't stop doing. The patient specimen
+is the mirror image of the crib: it is the thing that waits for *us* to do the
+predictable thing — issue a command, drop a file, go to lunch — and only then
+shows its hand. An interrogation battery that only ever *attacks* will convict
+the noisy and acquit the patient. TDW-09 exists so the patient ones get a test
+too.
+
+*TDW-09 seeded 2026-10-12 ~21:31 EDT by the decoder-create-loop.*
+*Status: design only. Never run. A first run requires a disposable lab host —
+never a production machine.*
+---
