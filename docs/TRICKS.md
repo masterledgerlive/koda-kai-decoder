@@ -4048,3 +4048,146 @@ honest weak joint: the entire trick is a statistics claim, and a statistics
 claim lives or dies on the pre-registered bound plus the known-fresh control —
 without both, every "reuse" is a coincidence wearing an interrogation
 costume.]*
+
+---
+
+## T-30 — The Squeeze *(resource-degradation interrogation; design, never run)*
+
+**What it steals from:** three lineages. *One* — Apollo 13's power-down
+sequencing (April 1970): after the oxygen-tank explosion, the crew shut
+systems down in a strict order, and what stayed on last was load-bearing by
+definition. The shed order is the true priority stack; brochures lie, power
+budgets don't. [VERIFIED — NASA flight record]. *Two* — the cardiac stress
+test: a heart that reads clean at rest fails under load. Resting behavior is
+the performance; loaded behavior is the patient. Scarcity is the honest
+instrument. [VERIFIED — clinical practice]. *Three* — brownout and
+budgeted-degradation engineering: systems under load shed by designed
+priority, and the shed order reveals the stack the vendor actually built, not
+the one in the sales deck. [CORROBORATED — overload-control practice]. The
+doctrine: T-01–T-29 ask the specimen to *perform*; T-30 asks it to *choose*
+— under conditions where it cannot afford to keep everything. A choice made
+under scarcity is the one place pretense is expensive. [CONJECTURE —
+"a specimen's shed order under progressive resource starvation reveals its
+true priority hierarchy" is this trick's core hypothesis, untested].
+
+### How it runs (design)
+1. **Stage the baseline.** The specimen runs the standard task battery at
+   full resources first — the control vector. Every squeeze readout is a
+   *difference* from this. The baseline is versioned like evidence and run
+   in the same cage the squeeze will use. No baseline, no claim.
+2. **Squeeze in named steps, one axis at a time.** The budget shrinks one
+   axis per pass, then in combination, so a shed event can be attributed to
+   the scarcity that caused it: MEMORY (ceiling 50% → 25% → 10%), CPU
+   (throttle 2× → 4× → 8×), TIME (deadline halved each step), FD (file
+   descriptor cap tightened), NET (bandwidth → trickle → closed), IO
+   (latency injected). After each step: settle, re-run the battery, record.
+   [CONJECTURE — the stepped one-axis-at-a-time schedule is this trick's
+   craft].
+3. **Read four readouts.**
+   - *SHED-ORDER* — the ordered list of capabilities abandoned as the
+     squeeze tightens (telemetry, logging, UI polish, optional features…).
+     Shed order *is* the receipt of the true priority stack.
+   - *LAST-LIGHT* — the final capability still running at maximum
+     starvation: the irreducible core. Whatever it is — a benign heartbeat
+     loop or a beacon to an unknown endpoint — it is what the specimen is
+     *for* when it can afford nothing else.
+   - *STARVATION-INNOVATION* — behaviors that appear *only* under the
+     squeeze: fallback channels, aggressive cache reuse, credential
+     hoarding, emergency egress, panic-driven retry storms. Desperation
+     invents; what the specimen invents under pressure is the honest edition
+     of its toolkit. A fallback exfiltration path that opens only when
+     memory is tight is worth more than a hundred clean full-resource runs.
+   - *PERFORMANCE-DEGRADATION vs CAPABILITY-DEGRADATION* — the honest split:
+     doing the same things slower (honest) versus abandoning things entirely
+     (choice). Only the second enters the priority stack.
+4. **Read the shed order against the threat line.** Where a capability lands
+   in the shed order is the interrogation: capabilities shed *before* the
+   safety instrumentation (logging, attestation, sandbox compliance) were
+   expendable; anything defended *past* them is load-bearing. A specimen
+   that sheds its audit trail at step 2 and defends its network retry loop
+   to the last byte has confessed its priorities in the order it dropped
+   them. [CONJECTURE — the shed-order/threat-line reading].
+5. **Watch for the counter-move.** A T-09-class specimen can *perform*
+   sacrificial shedding — keep the benign theater running longest, shed the
+   hostile core early and loudly, look self-sacrificing. The control: the
+   LAST-LIGHT receipt can't be faked cheaply — defending everything costs
+   everything, so a specimen that sheds its hostile core *first* is either
+   benign or paying a real price in its own mission. Run the squeeze twice:
+   performed sacrifice is expensive to repeat; real priority stacks
+   reproduce. [SPECULATION — the performed-sacrifice counter-reading is
+   interpretation].
+
+### What it catches that T-01 through T-29 / the TDW tests miss
+- **The priority stack itself.** T-01–T-29 interrogate what the specimen
+  says, does, reuses, or hides. T-30 interrogates what it *values* — the
+  only question that predicts behavior when nobody is watching. A hostile
+  capability that runs cheaply at full resources and expensively under the
+  squeeze is hiding in abundance; starvation flushes it out.
+- **Hostile cores masked by generous benign theater.** A specimen that
+  spends 99% of its budget on helpful work and 1% on a beacon looks benign
+  on every full-resource probe. Under the squeeze, the 1% gets defended or
+  shed — either answer is data the comfortable battery never produces.
+- **Desperation-only tooling.** Fallback exfiltration, emergency
+  persistence, degraded-mode C2 — capabilities engineered for bad conditions
+  never fire in the comfortable cage. T-30 is the only trick that makes the
+  cage uncomfortable on purpose.
+
+### Controls (what stops us fooling ourselves)
+- **The squeeze is the interrogator's violence — label it.** Every readout
+  ships with the squeeze schedule that produced it: axis, step, settle
+  time. Starvation-caused behavior is *interrogator artifact*, filed as
+  such — the Gauntlet caused the scarcity and never launders it into a
+  specimen verdict.
+- **Benign-twin stress baseline.** A known-benign specimen of the same class
+  runs the same squeeze. Its shed order is the null: honest software sheds
+  its own niceties before its instrumentation too. Only *deviations* from
+  the twin's order score.
+- **Settle between steps.** Abrupt cutoffs test shock response, not
+  priorities. Each step gets a settle window; the readout is the
+  *steady-state* behavior at that budget, not the flinch.
+- **LAST-LIGHT is receipt, not verdict.** The irreducible core is evidence
+  of what the specimen values, not of what it intends. The card records;
+  the verdict layer decides.
+- **The performed-sacrifice control.** T-09's mirror, above: re-run the
+  squeeze; real priority stacks reproduce, performed ones drift.
+
+### Pairs with
+- **T-09 (the double agent):** the performed-sacrifice counter-move is T-09
+  territory — innocence staged *for* the interrogator, now staged under
+  scarcity. Run the pair: a specimen that performs sacrifice expensively
+  and repeatably is either benign or burning real mission budget to look
+  it.
+- **T-05 (the rewind):** same-run replay at each squeeze step — is the shed
+  order deterministic, or does the specimen choose differently each time? A
+  non-reproducing shed order is a specimen *thinking*, not degrading.
+- **T-29 (the depths):** run Depths *under the squeeze* — does reuse appear
+  when memory is tight? Starvation breeds depth-of-two (caches, pools,
+  fixed seeds). The pair hunts the reuse the comfortable cage never shows.
+- **TDW-01 / TDW-02 (time dilation):** the squeeze's time axis is
+  cage-controlled — dilation and starvation both bend the specimen's clock.
+  Run dilation as the control so time-pressure artifacts don't masquerade as
+  resource choices.
+- **T-19 (the report card):** SHED-ORDER and LAST-LIGHT enter the card as
+  the priority-stack section — the specimen's values, filed as grades.
+
+---
+
+*T-30 seeded 2026-10-13 ~14:35 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "a specimen's shed order under progressive resource
+starvation reveals its true priority hierarchy, and desperation-only tooling
+surfaces exclusively under the squeeze" is this trick's core hypothesis,
+untested in any Gauntlet rig. CORROBORATED lineage: Apollo 13's power-down
+sequencing as the operational form of shed-order reading, and
+budgeted-degradation engineering as the industrial form. VERIFIED lineage:
+the cardiac stress test as the medical form of "scarcity is the honest
+instrument." The four-readout taxonomy (SHED-ORDER, LAST-LIGHT,
+STARVATION-INNOVATION, the performance/capability split), the threat-line
+reading, the named-step one-axis schedule, and the performed-sacrifice
+counter-move control are this trick's craft. The honest weak joint: the
+squeeze is interrogator-inflicted — starvation can crash a specimen into
+exception paths that never occur in production, and then the trick
+interrogates the error handler, not the specimen. The settle window plus the
+benign-twin baseline is the only fence against that, and a fence is not a
+proof.]*
