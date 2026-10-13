@@ -44,5 +44,39 @@ equations raise.
 
 ## What it is not
 Not a verdict engine (statistical evidence only — never intent). Not a PDE
-solver. Not a symbolic-regression discovery tool. Next declared step: a numeric
-root-finding path for equations with no closed form.
+solver. Not a symbolic-regression discovery tool.
+
+## Second build: the numeric root-finding path (2026-10-12)
+`numeric_solve(name, unknown, bracket, tol, max_iter, **inputs)` via
+`scipy.optimize.brentq` (bracketed, hybrid bisection/secant). The bracket
+must straddle a sign change or it raises — the registry never extrapolates
+a root. Every receipt reports method, bracket, function-eval count, and
+residual |f(root)| vs tolerance; a converged root with a bad residual is
+reported as CONJECTURE, not a receipt. Sigma propagates by central finite
+differences; an unstable derivative withholds sigma, never guesses.
+
+Demonstrator: **Kepler's equation** (E − e·sin E = M, provably no elementary
+closed form — the first step of any real orbit calculation). Real output
+(scipy 1.11.4): E = 1.4987011335178482 rad for ecc=0.5, M=1.0
+(residual 1.1e-16 vs tol 1e-10); ecc=(0.5, 0.01) → σ(E) = 0.010347 —
+matches the analytic sensitivity to 4 sig figs, an independent cross-check.
+
+## Third build: the ODE integration path (2026-10-12)
+`numeric_solve_ode(name, t_span, y0, ...)` via `scipy.integrate.solve_ivp`
+(RK45 default), with an `ODESystem` registry parallel to the equation
+registry. Failed integrations raise — never a fake trajectory. Registered
+analytic solutions are cross-checked on a 200-point grid with the max
+absolute error reported in the receipt; nfev ≥ 50,000 earns a "maybe stiff"
+warning suggesting Radau/BDF. Uncertain params propagate to the endpoint
+by finite-difference re-integration.
+
+Honest proof it works: the cross-check caught a real bug on its first run —
+the registry's own underdamped velocity formula had swapped coefficients
+(grid max error 7.49). Fixed and re-verified to 3.07e-9 on the same grid.
+
+Demonstrators: `damped_oscillator` (ζ=0.10±0.005, ω₀=2π, 5 s integration:
+endpoint (0.04199810, 0.04279561), endpoint σ=(0.00681, 0.00245)) and
+`projectile_drag` (quadratic drag, no closed form: 4.204 m range at 25 m/s
+@ 45°, strictly below the 63.7105 m vacuum closed-form upper bound —
+the physical bound check passes). All genuine computed results on the
+build machine, not fixtures.
