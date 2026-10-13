@@ -123,6 +123,29 @@ Groth16 (2016) made them practical; Zcash put them in production.
 a balance — without revealing a single bit of it. The cipher inverted: the
 message is the proof that there is no message.
 
+## 2020 — Zodiac's Z340: the cipher that mocked the professionals for 51 years
+
+The Zodiac Killer's 340-character cipher, mailed to the San Francisco
+Chronicle on November 8, 1969, defeated the FBI, the NSA, and every
+professional cryptanalyst for 51 years — his first cipher (Z408) had fallen
+to a schoolteacher couple within days. [VERIFIED] The breakthrough: three
+hobbyists — David Oranchak (Virginia software developer), Sam Blake
+(Australian mathematician), and Jarl Van Eycke (Belgian programmer) — found
+the substitution alphabet hid a non-obvious transposition: the grid reads on
+a diagonal, the cipher splits into three sections read in parts, and one
+section was further scrambled by a transposition error that the solvers'
+software finally learned to forgive. [VERIFIED] They submitted the solution
+to the FBI on December 5, 2020; the agency confirmed it. [VERIFIED] The
+plaintext was a taunt — "I HOPE YOU ARE HAVING LOTS OF FUN IN TRYING TO
+CATCH ME" — and named no name. [VERIFIED] The pivot: the most famous
+unsolved cipher in America fell not to a government lab but to open-source
+software (Van Eycke's AZdecrypt) run by amateurs — and only after the
+solvers stopped assuming the standard attacks were sufficient. The
+decoder's note: the through-line of this timeline is that breakage comes
+from behavior, not math — and Z340 is its mirror image. The cipher was
+fine. It was the *analysts'* behavior — the assumptions baked into the
+tools — that held the door shut for half a century.
+
 ## 2024 — Post-quantum: the cipher migration
 
 NIST finalized FIPS 203/204/205 (ML-KEM, ML-DSA, SLH-DSA); migration deadlines
@@ -155,4 +178,4 @@ one-time pad — and even the pad falls to operators. The lesson compounds:
 That is why the decoder's gauntlet interrogates *behavior* first and
 mathematics second — four thousand years of evidence, one verdict.
 
-*Updated 2026-10-12.*
+*Updated 2026-10-13.*
