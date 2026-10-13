@@ -1997,3 +1997,86 @@ while counter-telemetric ones do; the benign-calibration control is where
 that claim gets tested or dies. The honest weak joint: distinguishing
 strategic adaptation from robust error-handling is the same arms race as
 every other trick — the placebo pair is the discipline, not the proof]*
+
+---
+
+## T-17 — The Changing Sky *(geo-telemetry interrogation; design, never run)*
+
+**What it steals from:** geofencing malware and Cold War ELINT. Real malware
+carries victim-selection logic — families that refuse to run on certain
+locales, skip CIS countries, abort when the keyboard layout is wrong. ELINT
+operators mapped a radar's engagement envelope by rotating probe signatures
+and recording what responded. T-17 does the same to a specimen: rotate the
+*environment's claimed geography* and map the behavioral envelope.
+
+**The trick:** the container controls every geo sensor — egress IP
+geolocation, system timezone, locale, keyboard layout, regional DNS
+resolver, and the country codes of resolved domains. Between runs, only
+these change. Same clock, same fake network, same planted files. Any
+behavioral delta across profiles is victim-selection logic, extracted
+without touching the code.
+
+### How it runs (design)
+1. **Build the profile ladder.** N profiles spanning, e.g.: en-US/Eastern
+   (US egress), ru-RU/Moscow (CIS egress), zh-CN, fa-IR, uk-UA, de-DE,
+   pt-BR. Each profile is internally consistent: timezone ↔ locale ↔
+   keyboard ↔ resolver country all agree.
+2. **Baseline-score each profile identically.** Same behavioral scorecard —
+   beacon cadence, file touches, registry reads, exfil attempts, sleep
+   durations — one per profile.
+3. **Delta-map the envelope.** Behavior present in some profiles and
+   suppressed in others = the allowed/forbidden-victim map. A specimen that
+   runs hot on en-US and goes dark on ru-RU is telling us the operator's
+   safe-harbor geography — often their own.
+4. **Run the impossible profile (the placebo).** One profile deliberately
+   disagrees with itself (Moscow timezone, en-US locale, Brazilian egress
+   IP, Japanese resolver). A specimen that runs anyway is doing naive
+   single-field matching. A specimen that aborts on the impossible profile
+   is *cross-referencing* its telemetry — a sophistication marker worth its
+   own verdict line. [CONJECTURE — this distinction is this trick's design]
+
+### What it catches that code-reading misses
+- **Staged exclusions vs. real ones.** A claimed "won't run in X" is cheap
+  to write and cheap to fake. T-17 doesn't read the claim; it watches the
+  actual suppression pattern, which is where the operator's real doctrine
+  lives. A family whose geofence is a checkbox but whose beacon cadence is
+  identical everywhere has *cosmetic* selection. [CONJECTURE]
+- **The abort itself as attribution.** Refusing to run on a locale is the
+  malware world's oldest signature move. A refusal *pattern* across the
+  ladder is an operator fingerprint — comparable across specimens without
+  ever unpacking one. [CORROBORATED — locale-based evasion is documented
+  in the wild; the ladder-as-fingerprint is this trick's design]
+- **Doctrine leaks.** Which profile triggers *different* behavior (not just
+  suppression — slower beaconing on one geo, alternate C2 domain on
+  another) maps per-victim playbooks: who gets the quiet channel and who
+  gets the loud one. [CONJECTURE]
+
+### Controls (what stops us fooling ourselves)
+- **Per-profile canary tags.** Every profile embeds its own canary token so
+  mixed or delayed exfil is attributable to the run that planted the bait,
+  not the run where it fired.
+- **Fingerprint discipline.** Everything outside the geo vector is
+  byte-identical between runs (machine name, MAC, install age — uptime /
+  install-age checks are the adversary's cheapest sandbox detector). If the
+  sandbox looks factory-fresh the specimen may be reacting to *that*, not
+  the geography.
+- **The specimen may check our lies.** A specimen that queries an external
+  truth source (public-IP API, NTP) can detect the spoofed geography — and
+  then our sensor-control assumption is broken. That detection is itself
+  data (it validates its telemetry = counter-telemetry sophistication), but
+  the ladder's delta map dies honestly if it happens.
+- **Benign calibration.** Ordinary legitimate software also branches on
+  locale (language packs, CDN endpoints, pricing regions). A benign
+  calibration specimen must run the ladder first, so the verdict card
+  doesn't mistake internationalization for geofencing.
+
+*T-17 seeded 2026-10-13 ~02:50 EDT by the decoder-create-loop.*
+*Status: design only. Never run. Grade: [CONJECTURE — the core hypothesis
+("rotating claimed geography across otherwise-identical runs maps the
+specimen's victim-selection envelope without code inspection") is
+untested. CORROBORATED lineage: locale/keyboard-layout evasion documented
+in the wild, ELINT probe-response envelope mapping as the port method. The
+honest weak joint: the trick assumes container-controlled sensors; a
+specimen that validates geography against external truth breaks the
+assumption and turns the run into a counter-telemetry observation
+instead]*
