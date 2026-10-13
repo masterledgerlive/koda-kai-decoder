@@ -170,3 +170,26 @@ step: a numerical PDE path (method of lines / scipy `solve_ivp` on a
 spatial grid), for §1's "real physics PDEs" line — or a time-dilation
 scenario runner that puts a specimen binary on a time-warped guest
 clock and decodes the delta, the Gauntlet's actual use case for ODEs.
+
+## New engine notes (2026-10-12)
+
+**DyME (CORROBORATED).** Distributed engine automating thousands of protein
+molecular-dynamics simulations: pdb4amber prep, guided setup wizard
+(solvation, neutralization, boundary conditions, ensemble), anchor-point
+mutagenesis with clustering, pre-launch GPU-hour budgeting — the first
+cohesive bulk-MD campaign platform. Decoder relevance: the bulk "what could
+happen" oracle at thousand-fold scale.
+Source: https://scienmag.com/dyme-a-new-engine-automates-thousands-of-protein-simulations-for-molecular-design/
+
+**FFTM (CORROBORATED — SoftwareX 2026, Evstigneev, GPL-3).** Portable
+distributed three- and four-dimensional FFTs across multi-GPU systems:
+vendor-agnostic (CUDA + HIP), autotuned, dense Cartesian real-to-complex /
+complex-to-real, with reproducible capsules and checksum manifests. Already
+in use on an all-Fourier turbulence project. Known limits: one MPI rank per
+GPU, no sparse/nonuniform transforms. Decoder relevance: the spectral
+primitive for coupled 3D/4D computation at the scale the Gauntlet needs.
+Source: https://scienmag.com/new-fft-library-pushes-four-dimensional-transforms-across-multi-gpu-supercomputers/
+
+**Watch items (not graded):** hotSpring (Rust lattice QCD/MD, AGPL-3.0);
+LJFusion (CUDA Lennard-Jones MD); gumol-rs (Rust MD for radiation damage).
+Hobby-scale, on the bench.
