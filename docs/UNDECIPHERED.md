@@ -108,7 +108,19 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   the claim ships with an explicit falsifiability criterion — if it fails,
   we learn how cryptanalytic rigor fails on this corpus.
 - **Linear A** (Minoan Crete, ~1800 BCE) — Linear B, its sister script, was
-  cracked by Ventris in 1952; Linear A still waits. [VERIFIED]
+  cracked by Ventris in 1952; Linear A still waits. Tom Di Mino (June 2026)
+  claims a systematic decipherment via Claude-Code-accelerated cross-referencing
+  of digitized inscriptions: 408-word dictionary, 40 "proposed" phonetic values,
+  9-page grammar in five months; Semitic ("nawaya" = to dwell) reading reviving a
+  1957 theory. Cambridge and Rutgers reviewing. [VERIFIED unsolved; the claim is
+  CLAIMED — secondary reporting]
+- **Di Mino method note (the technique entry).** The workflow is what belongs in
+  the catalogue: Claude Code running Python scripts as an exhaustive
+  cross-referencing engine over inscription databases, compressing months of
+  manual comparison into real-time iterations so a human's linguistic intuition
+  becomes instant testable evidence. Same template as the 2026 AI codebreaker
+  wave (MVUEH, Marmont cipher): AI reads the archive and builds the tool;
+  deterministic machinery plus human scholars do the breaking.
 - **Rongorongo** (Easter Island), **Phaistos Disc** (~1700 BCE, 241 stamped signs,
   45 distinct symbols), **Rohonc Codex** — all unverified, all unclaimed by any
   accepted solution. [VERIFIED unsolved]
@@ -162,7 +174,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Target | Era | Status | Bounty |
 |---|---|---|---|
 | Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; weekly claimant emails continue; no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
-| Linear A | ~1800 BCE | Unsolved | — |
+| Linear A | ~1800 BCE | Unsolved; Di Mino claim (Jun 2026, 408-word dictionary via Claude Code, "proposed" values) under academic review | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
 | Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
