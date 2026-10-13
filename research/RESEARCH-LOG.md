@@ -891,3 +891,10 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://scienmag.com/neural-networks-taught-to-respect-physics-even-without-equations/
 - **SymbolicRegression.jl v2.5.0 (2026-09-28).** Performance release only — worker startup, tournament selection, mutation weights. No new technique; version note for the tool shelf. [CORROBORATED — first-party release notes]
 - **Library update:** MATH-PHYSICS.md gained the SINDy North-Atlantic result and the gain-sign-constrained training method. MATERIAL.
+
+## 2026-10-13 11:00 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13)
+
+- **Most Wanted sweep: no status changes this pass.** Indus script: Tamil Nadu's $1,000,000 prize remains unclaimed — researchers report weekly "case is closed" claimant emails, no reading accepted by archaeological reviewers. Voynich manuscript: still undeciphered; two fresh YouTube titles this week claim an AI "decoding," but per the Oct 2026 intake discipline (self-graded anonymous claims = SPECULATION) neither clears the bar — no accepted manuscript-wide reading. Kryptos K4: plaintext recovered from Sanborn's Smithsonian papers in 2025, method publicly unsolved; nothing new since the November 2025 final clues and Paradigm's challenge. Beale ciphers 1 & 3: unsolved; hoax verdicts on record stand. The 1809 Napoleon homophonic break (GPT-6 Astra, about six hours) remains the newest crack — already logged by the 2026-10-12 loop, corroborated again in this pass's press cycle.
+  - [QUIET LOOP — no status changes; the Most Wanted scoreboard was already current through 2026-10-12]
+  - Sources: https://www.thetimes.com/uk/technology-uk/article/ai-artificial-intelligence-napoleon-history-cipher-code-fjp79vd50 ; https://news.mazzaltov.com/india-a-million-dollar-challenge-to-crack-the-script-of-early-indians/
+- **Library update:** none this pass — UNDECIPHERED.md scoreboard already current. NOT MATERIAL (routine confirmation pass).
