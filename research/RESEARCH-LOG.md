@@ -759,3 +759,18 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://www.Unilad.Com/news/money/harappan-script-india-offer-1-million-solve-511366-20250128
 - **Beale, Linear A, Rongorongo, others:** no status change.
 - **Library update:** UNDECIPHERED.md scoreboard — K4 (buttcrack CLAIMED), Voynich (anonymous DECODED SPECULATION), Indus (prize still open). MATERIAL.
+
+
+## 2026-10-13 05:00 EDT — decoder-research-loop — Historical codebreaking (rotation #1, second pass)
+
+- **MVUEH Enigma break (Sept 2026).** An 82-letter German Army message (Nr. 172, sent July 10, 1941; on the Crypto Cellar unsolved list since 2005) fell to OpenAI's GPT-6 Astra in ~2 days. Given only the instruction to attempt any unsolved message, the model selected Nr. 172, connected it to a sister message broken in 2017, used the crib "ROSENOW ROSENOW," wrote its own Enigma simulator and software Bombe, and recovered the plaintext. Archivist Frode Weierud validated the break and published a write-up. Plaintext: a routine route-of-march request.
+  - [CORROBORATED — Weierud first-party validation + multiple independent trade press]
+- **Second Enigma break via Claude Opus 5 (Sept 2026).** With historical context from a cryptanalyst (including a known officer's signature), a second long-unsolved message fell.
+  - [CLAIMED — secondary reporting only this pass]
+- **Marmont cipher broken (early Oct 2026).** A March-1809 homophonic substitution letter (~1,300 cipher units, 155 unique signs, some standing for whole French words), unread for 217 years and surviving only as a low-resolution scan, was broken in ~6 hours: multimodal transcription of hand-drawn marks, a partial key compiled by a historian, then the model's own simulated-annealing solver. Independently reviewed by Cryptiana's Satoshi Tomokiyo; key, transcription, and code publicly released. Plaintext: a routine troop briefing.
+  - [CORROBORATED — press coverage + independent review + released artifacts]
+- **1918 German military cipher:** an AI break reported as part of the same wave.
+  - [CLAIMED — single secondary]
+- **Honest caveat:** the models did not break these ciphers "from scratch" — they combined archival research, custom software, classical technique (cribs, simulated annealing), and expert guidance. Seven messages remain unsolved in the public collection.
+- **Discipline note:** the winners released their receipts — key, transcription, code, independent validation. Reproducibility is becoming the entry bar for historical-cipher claims.
+- **Library update:** `docs/CIPHER-TIMELINE.md` gained a new "2026 — The AI codebreaker" entry. MATERIAL (new decipherment-technique class: autonomous AI archival cryptanalysis).
