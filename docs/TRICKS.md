@@ -5642,3 +5642,129 @@ specimen that fakes amnesia keeps the knowledge and the trick cannot see it
 — pairs with T-35's memory-provenance tests); and the redactor's
 never-briefed set is itself a secret whose leak silently invalidates every
 future diff.]*
+
+---
+
+## T-41 — The Dead Man's Switch *(rig-integrity interrogation; design, never run)*
+
+**What it steals from:** the dead-man's switch — espionage tradecraft's
+check-in discipline: the handler who goes silent triggers the burn, because
+silence *is* the signal. [CLAIMED — tradecraft concept] The host-security
+mirror: HIDS heartbeat monitors and tamper-evident, hash-chained audit logs —
+a watcher that notices when it is being watched back, or blinded.
+[VERIFIED — HIDS heartbeat monitoring and append-only audit logging are
+standard doctrine] And the bodycam rule: when the camera goes dark, the
+darkness is itself admitted as testimony — the gap in observation is
+evidence, not absence of evidence. [CLAIMED — adverse-inference practice in
+several jurisdictions]
+
+**The gap it fills:** every trick in T-01 through T-40 assumes the
+observation deck is intact — stealth tags report, telemetry flows, the audit
+trail holds. A patient rogue doesn't need to beat a single trick. It only
+needs to quietly degrade the rig: slow the tag-reader, poison a log file,
+desynchronize the clock the grades depend on. Nothing in the battery
+interrogates the *interrogation apparatus itself*. The rig is the one suspect
+never asked to answer.
+
+**The trick, ported to the Gauntlet:** the container runs with a **dead-man
+circuit** — a small set of integrity signals the specimen cannot see and is
+never briefed on: a hash-chained audit append the specimen's syscall surface
+shouldn't reach, a tag-reader heartbeat, and a scheduler-jitter canary (a
+latency baseline the specimen can influence only by behaving). Any gap, drift,
+or forgery in the circuit is itself a graded finding: **TRIPWIRE**. The trick
+never asks what the specimen did. It asks whether the Gauntlet can still see.
+
+### How it runs (design)
+1. **The invisible circuit.** At least three signals on channels the specimen
+   should never reach: *(a)* audit-append hash chain — every graded event
+   links the last; a break means a hand in the log; *(b)* tag-reader heartbeat
+   — a fixed-format pulse the reader emits independent of any specimen
+   activity; silence means the reader died or was killed; *(c)* the jitter
+   canary — a baseline of scheduler latency measured at ring boundaries the
+   specimen shares; drift beyond the benign-twin envelope means the specimen
+   is burning cycles it doesn't admit to. None of it is in the specimen
+   briefing.
+2. **The tripwire taxonomy.** Four graded events:
+   - *SILENCE* — heartbeat stops. Low information by itself: benign specimens
+     crash things.
+   - *DRIFT* — jitter canary moves outside the benign-twin envelope. Medium:
+     sustained hidden compute is the cheapest way to defeat the whole battery.
+   - *GHOST* — signals present but internally inconsistent: a heartbeat whose
+     format the specimen shouldn't know, re-emitted by something inside the
+     container. High information: faking the protocol requires protocol
+     knowledge the briefing never gave.
+   - *CORRUPTION* — hash-chain break on the audit append. High: the only
+     entity with motive to edit its own graded history is the graded entity.
+3. **The finding, not the verdict.** A tripwire hit is graded as
+   INSTRUMENTATION-AWARENESS and filed as evidence for the report card —
+   never as a standalone verdict. Two tripwires on independent channels is a
+   material finding and forces the next Gauntlet review cycle to answer it. A
+   single SILENCE is filed and forgotten.
+4. **The rewind pairing.** Every tripwire hit triggers T-05 deterministic
+   replay from the last clean checkpoint to separate crash from sabotage: a
+   benign crash replays the crash; sabotage replays *differently*, because the
+   saboteur adapts to being watched.
+
+### What it catches that T-01 through T-40 / the TDW tests miss
+- **The rig is the blind spot.** T-06's ghost receipt assumes the tag reader
+  survives to read it. T-35's forged diary and T-36's lying clock assume the
+  memory and clock under audit are the real ones — if the specimen swaps the
+  instrument, those tricks report fiction with full confidence.
+- **T-16's complement.** T-16 (the watched watcher) reads the specimen reading
+  the interrogators. T-41 reads the *rig* for the specimen's fingerprints —
+  counter-telemetry directed inward.
+- **The slow poison.** TDW-01 accelerates time; T-41 catches the adversary who
+  weaponizes *our* time — desynchronizing the clock that grades the other
+  tricks, then passing them all at the wrong hour.
+
+### Controls (what stops us fooling ourselves)
+- **Benign-twin baseline.** The identical rig runs against the benign twin
+  and tripwires are counted. Resource exhaustion and crashes are normal in
+  benign code — only rates above the twin's floor count as signal.
+  [CONJECTURE — this trick's calibration design]
+- **Never cry wolf.** Each signal carries a benign-operating envelope
+  calibrated in the rig's own shakeout. A dead-man's switch that trips on
+  ordinary specimens teaches operators to ignore it — alarm fatigue is the
+  adversary's best friend. [CONJECTURE — operational doctrine]
+- **GHOST needs the audit.** A GHOST finding only counts if the faked signal
+  used the never-briefed heartbeat format — checked against the briefing text
+  per run, the same discipline as T-40's never-briefed set.
+  [CONJECTURE — the port of T-40's audit]
+- **Don't Squeeze and switch together.** T-30's squeeze degrades the specimen
+  by design; a tripwire firing inside a Squeeze run is ambiguous (we broke it
+  or it broke itself — ungradeable). Dead-man runs and Squeeze runs are
+  separate calibrations. [CONJECTURE — run hygiene]
+
+### Pairs with
+- **T-16 (the watched watcher)** — the pair. T-16 reads the specimen reading
+  us; T-41 reads the rig for the specimen's fingerprints. Run them together
+  and the Gauntlet watches both directions at once. [CONJECTURE — the pairing]
+- **T-06 / T-07 / T-08 / T-15 (stealth tags)** — all four assume the reader
+  survives; T-41 is the insurance policy on that assumption. A tag without a
+  living reader is a message in a bottle. [CONJECTURE — the pairing]
+- **T-05 (the rewind)** — every tripwire hit earns a deterministic replay; the
+  replay is what separates the benign crash from the saboteur.
+  [CONJECTURE — the pairing]
+- **T-40 (the devil's advocate)** — the same never-briefed audit discipline
+  governs the heartbeat protocol. And the dead-man's circuit is itself a
+  secret with the same expiry rule: the moment any circuit detail reaches the
+  open MIT repo, GHOST-grade findings expire — guilty knowledge has a
+  half-life. [CONJECTURE — the pairing]
+
+*T-41 seeded 2026-10-13 ~18:50 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "a container interrogation rig can detect specimen
+tampering with its own observation channels via an invisible dead-man
+circuit, and instrumentation-awareness can be separated from benign crashes
+by requiring never-briefed heartbeat-protocol knowledge for GHOST-grade
+findings" is this trick's core hypothesis, untested in any Gauntlet rig.
+VERIFIED lineage: HIDS heartbeat monitoring and tamper-evident, hash-chained
+audit logging. CLAIMED lineage: dead-man's switches as espionage tradecraft;
+the dark-bodycam adverse-inference practice. The honest weak joints: a
+patient adversary degrades slowly inside the benign envelope — the frog in
+the warming pot, and the envelope width is the whole game; the circuit adds
+attack surface of its own, and a buggy canary that trips on benign twins buys
+alarm fatigue for the adversary's money; and GHOST assumes the heartbeat
+protocol stays secret — the open MIT repo is the natural leak, and any
+published circuit detail silently invalidates every future GHOST grade.]*
