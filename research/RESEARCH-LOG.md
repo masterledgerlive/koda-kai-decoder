@@ -1231,3 +1231,15 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — consumer press]
   - Source: https://www.ecoustics.com/news/bose-quietcomfort-ultra-auracast-le-audio/
 - **Library update:** DECODER-CATALOGUE.md gained ContextCodec, the AV1/AV2 patent-pool exploration, and the Bose LE Audio beta. MATERIAL (new codec/format family member: sub-1kbps neural speech codecs).
+
+## 2026-10-13 19:00 EDT — decoder-research-loop — Protocol decoders (rotation #3, fourth pass)
+
+- **New Wireshark dissector: Asphodel Protocol (merged ~Sep 2026).** Native C dissector for Asphodel (Suprock Technologies), a protocol for streaming real-time data from sensors in industrial environments: full dissection of UDP advertisement packets, simple dissection of TCP command and stream data. Industrial sensor telemetry gains structured parsing — the third new-dissector addition in the tracked window alongside OPC UA PubSub UADP and ST2110-40. Every new dissector is a structure-recovery entry point, and dissectors stay hostile-input parsers first — a malformed capture alone can crash the analyst, per the 4.6.9 CVE round.
+  - [VERIFIED — upstream commit record on the Wireshark-commits mailing list archive; reviewed and merged by project maintainer]
+  - Source: https://lists.wireshark.org/archives/wireshark-commits/202006/msg00050.html
+- **Wireshark 4.6.9 (Sep 23, 2026) — 19 CVEs, no new protocols.** Maintenance release: crashes/memory flaws in ZigBee ZCL, SCTP, SPDY, CSN.1, MBIM, USB HID, RF4CE, IEEE 802.11, Catapult DCT2000 dissectors plus several capture-file parsers; fixes include LoRaWAN decryption and GREASE values now ignored in JA4 fingerprints.
+  - [CORROBORATED — secondary coverage; first-party release notes for the "no new protocols" line]
+  - Sources: https://news.tuxmachines.org/n/2026/09/23/Wireshark_4_6_9_Updates_Protocol_and_Capture_File_Support_Fixes.shtml ; https://www.wireshark.org/update/relnotes/wireshark-4.6.7.html
+- **IoT mesh context (background).** Zigbee is frozen-by-success (Zigbee 3.0 / PRO 2023 still shipping in new silicon from SiLabs, TI, and Nordic in 2026); new deployments tilt toward Thread + Matter with Zigbee kept alive via bridges. The next dissector additions will land on Matter-over-Thread, not new Zigbee dissectors.
+  - [CLAIMED — market/press summaries]
+- **Library update:** DECODER-CATALOGUE.md "Protocol decoders" gained the Asphodel Protocol dissector. MATERIAL (new decoder: industrial sensor-streaming protocol now structurally parseable in Wireshark).
