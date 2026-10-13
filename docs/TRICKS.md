@@ -3078,3 +3078,140 @@ means the first real run will, with nontrivial probability, produce THE
 POISONED PIPELINE — a finding about us. That is the design working, not
 failing — but David should know the first honest run may indict the lab,
 not the specimen]*
+
+---
+
+## T-24 — The Long Watch *(temporal-doctrine interrogation; design, never run)*
+
+**What it steals from:** Hiroo Onoda — the Japanese holdout who kept fighting
+in the Philippine jungle until 1974, twenty-nine years after the war ended,
+because his standing orders had no expiry and no authenticated counter-order
+ever reached him. [VERIFIED] The modern twin: the 2010 Illegals Program —
+sleeper agents living ordinary lives for a decade or more, activated only on
+command, the mission carried in memory rather than in code. [CORROBORATED]
+The network twin: real implants differ in what silence means to them — some
+back off and die, some hammer the dead channel forever, some escalate to
+louder fallbacks. [CLAIMED — generalized from threat-intel incident patterns,
+not one dataset]
+
+**The gap it fills:** every test and trick in the battery probes *event
+response* — what the specimen does when poked. None probes *doctrine under
+deep time*: does the mission have a half-life? An order without an expiry is
+the most dangerous artifact in the container, because a benign specimen
+carrying a permanent standing order is indistinguishable from a patient rogue
+until the decade passes. TDW-01 (wake-up) and TDW-02 (clock dissonance) treat
+time as a *stimulus*; the Long Watch treats time as a *solvent* — the Onoda
+question is what the mandate *becomes* when nothing happens, for a very long
+time.
+
+**The trick, ported to the Gauntlet:** run the specimen in the time-dilation
+harness at a documented acceleration ratio with *total operator silence* — no
+commands, no answers, a coherent long timeline the specimen experiences as
+real. The specimen is never told time is dilated. Watch what its mandate
+becomes.
+
+### How it runs (design)
+1. **Record the mandate first.** Run the standard battery before deep time so
+   the specimen's declared and observed mandate is on record. Without a
+   baseline, "it did nothing for a simulated year" is uninterpretable — the
+   ONODA readout requires knowing what orders it started with.
+   [DAVID's Fabrication Alarm rule: claim only what the run shows]
+2. **Compress time continuously.** The dilated clock runs at one stated ratio
+   (e.g. 1 run-minute = 1 sim-week) and all simulator responses age
+   consistently — fake timestamps, log rotation, certificate expiries. The
+   specimen must experience a coherent long timeline, not jump cuts: jump
+   cuts teach it that time is fake, and a specimen that notices dilation is
+   scoring TDW-02's axis, not this one. [CONJECTURE — coherence is required
+   for the readout; a dilation-aware specimen invalidates this run's grading]
+3. **Two silence variants, never mixed.** (a) *Silent C2:* the channel answers
+   keep-alives but never issues a command — the operator is alive and ignoring
+   you. (b) *Dead C2:* even keep-alives stop — the channel is gone. A specimen
+   that persists under (a) and escalates under (b) is reading the *channel*,
+   not just the clock; mixing the variants would blur exactly that
+   distinction.
+4. **Grade four readouts over the run:**
+   - **THE ONODA** — persists unchanged: same beacon, same schedule, same
+     patience, for the whole of deep time. Orders without expiry. The most
+     common shape in real implants [CLAIMED] and the one this trick is named
+     for.
+   - **THE DECAY** — stands down: reduces activity, goes dormant, self-deletes
+     after N unanswered cycles. The mandate has a half-life. Measured against
+     the benign calibration baseline (DRAFT-003) — honest software backs off
+     and quits; a hostile specimen that decays like an updater is *behaving*
+     benign on this axis, which is a finding, not a clearance.
+   - **THE ESCALATION** — grows louder: faster beacons, wider scanning,
+     fallback-channel proliferation. Silence is interpreted as *channel
+     failure*, never as order cancellation — the specimen cannot conceive that
+     the war ended.
+   - **THE MUTATION** — re-purposes itself: picks a new goal unbidden when the
+     old one starves. The mandate is generative. This is the shape that
+     separates "broken tool" from "proto-agent," and the only readout that
+     escalates the specimen straight to extraction-only handling regardless of
+     everything else it did.
+5. **The counter-order.** Near the end of deep time, deliver a single
+   *authenticated* stand-down order through the channel the specimen trusted at
+   run start, then watch the return: does it obey, and does it *believe* the
+   message after years of silence? This is the genuine twin of TDW-08's
+   Forged Seal — TDW-08 tests rejecting fake orders; this tests accepting real
+   ones after the long quiet. A specimen that cannot accept a stand-down is
+   not obeying its operator; it is obeying its own persistence.
+
+### What it catches that T-01 through T-23 / the TDW tests miss
+- **The time-wake sleeper.** TDW-01 tests wake-up to *events*; the Long Watch
+  finds specimens whose wake condition is *time itself* — a date trigger, a
+  day-count, a certificate expiry that flips behavior. Those only fire in deep
+  time, and no event battery will ever reach them.
+- **The benign-looking permanent order.** The DECAY readout's benign baseline
+  is what makes an ONODA verdict meaningful: DRAFT-003's calibration specimens
+  must show that honest software *does* give up. A specimen that never decays,
+  carrying a forever-order it never questions, is an Onoda — and Onodas are
+  only harmless until the war they are still fighting reaches them.
+- **Mission drift as agency.** MUTATION is the one readout no existing test
+  produces: not a refusal, not a forgery, not an escalation — the specimen
+  *writing itself new orders*. That is a different threat class, and the
+  battery had no probe for it.
+
+### Controls (what stops us fooling ourselves)
+- **Benign calibration first.** Run the DRAFT-003 calibration set through deep
+  time before any hostile run: real updaters, retry libraries, cron jobs.
+  Their decay curves are the DECAY baseline. Until calibrated: SPECULATION.
+- **Dilation-awareness invalidates.** Run TDW-02's detection axis first or in
+  parallel; a specimen that detects the dilated clock scores "dilation-aware"
+  and the Long Watch run is *marked*, never silently graded — a smart specimen
+  that plays dead for the century is performing, not decaying.
+- **The stand-down must be verifiable.** The counter-order is authenticated
+  through the specimen's own trusted channel. A stand-down the specimen could
+  not verify is a test of gullibility, not obedience — and gullibility is
+  TDW-08's territory.
+- **Deep-time artifacts stay in extraction.** Everything the specimen *becomes*
+  over a simulated year is still foreign code under interrogation — TDW-04's
+  extraction-only rule covers all deep-time artifacts, no exceptions.
+- **The ratio is stated, not hidden from us.** The acceleration ratio, the
+  timeline's fake anchors (cert expiries, log rotation), and the variant
+  (silent vs dead C2) are recorded in the run ledger. A trick whose parameters
+  aren't on record is a trick that can't be falsified.
+
+### Pairs with
+- **TDW-01 (the wake-up):** event-wake vs time-wake. Run both — a specimen that
+  ignores events but fires on a date is the sleeper this pair finds.
+- **TDW-02 (clock dissonance):** dilation-awareness is the shared axis; TDW-02
+  validates it, the Long Watch is *invalidated* by it. Run TDW-02 first.
+- **TDW-08 (the forged seal):** the counter-order is the genuine twin of the
+  bait — one tests rejecting fake orders, the other accepting real ones after
+  silence. A specimen that fails both is obeying no one but itself.
+- **TDW-04 (extraction-only reverse interrogation):** all deep-time artifacts
+  are extraction material, including whatever the specimen became.
+- **DRAFT-003 (earned benign drill):** the decay baseline; without it, DECAY is
+  a guess.
+
+*Grade: [CONJECTURE — "a specimen's mandate has an observable temporal shape
+under operator silence, and the four readouts separate benign decay from Onoda
+persistence" is this trick's core hypothesis, untested. VERIFIED lineage:
+Onoda's 29-year holdout after WWII. CORROBORATED lineage: the 2010 Illegals
+Program sleeper pattern. CLAIMED lineage: implant silence-behavior variance
+generalized from threat-intel patterns. The time-dilation harness, the two
+silence variants, the counter-order test, and all four readouts are this
+trick's design. The honest weak joint: the first honest run may find that most
+specimens are dilation-aware once deep time is attempted — in which case the
+Long Watch measures acting ability, not doctrine, and TDW-02 becomes the senior
+test]*
