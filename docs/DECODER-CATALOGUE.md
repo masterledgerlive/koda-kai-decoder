@@ -491,6 +491,32 @@ The universal quantum decoder stays [SPECULATION] until proven.
   Russia-aligned group's downloader added sandbox evasion: event-log
   uptime checks and operating-system install age, commercial
   obfuscation, and a retry timer. [CLAIMED — ESET via secondary]
+- **CVE-2026-80521 — AF_UNIX garbage-collector use-after-free escapes
+  default containers to host root (DepthFirst, Sep 22, 2026).** A race
+  in the new strongly-connected-component garbage collector (kernel
+  6.10+, backported to 6.1.141+/6.6.93+) lets an unprivileged process
+  inside a default Docker or Kubernetes container reach host root;
+  standard seccomp, user namespaces, and dropped capabilities do not
+  stop it because AF_UNIX is allowed everywhere. Public proof of
+  concept targets Ubuntu 26.04. Upstream fixed in 7.2/7.1.10 on Aug 6;
+  Ubuntu shipped no patched kernel for 24.04 or 26.04 as of early
+  October. The vulnerable collector is detectable from inside a
+  container with a kallsyms check. Third container escape this year
+  after Copy Fail and Fragnesia. Decoder significance: containers hold
+  only for trusted code — hostile code needs microVMs; the kallsyms
+  check becomes a receipt-grade cage pre-flight. [CORROBORATED —
+  researcher report via trade press; public PoC]
+- **cagecheck (declaw-ai, open tool).** Auto-detects a sandbox's
+  isolation boundary — hardware microVM, gVisor syscall interception,
+  or kernel-namespace containers — and runs the matching escape
+  battery. May 2026 runs against seven providers: hardware-boundary
+  providers scored one to two failures, namespace-container providers
+  failed two to five checks including host-filesystem reads. [CLAIMED —
+  project README with dated results]
+- **setec (zeroroot-ai, open project).** Kubernetes-native Sandbox
+  custom resource with graduated isolation levels: Kata microVMs,
+  gVisor, or plain namespaces, chosen declaratively per workload —
+  the converged isolation ladder as a deployable operator. [CLAIMED]
 
 ## Rogue-agent threat intel
 
