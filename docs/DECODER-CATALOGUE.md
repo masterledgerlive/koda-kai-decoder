@@ -76,6 +76,22 @@ CLAIMED / SPECULATION.*
   Lean-checked formalization is not an affordable attack; separate worst-case
   from average-case hardness; order the blast radius honestly. [CORROBORATED
   — cryptotimes.io, 2026-10-12; individual statements CLAIMED via that report]
+- **HAWK-256 withdrawn after AI-assisted key-recovery break (Jul 2026).**
+  An attack reducing HAWK-n key recovery to SVP in dimension n/2 + 1 cut
+  HAWK-512 from 2^150 to ≤2^108 gates, with an end-to-end HAWK-256 key
+  recovery in hours on one server. HAWK was the only lattice scheme among
+  the nine NIST additional-signature round-3 candidates (IR 8610); it was
+  withdrawn Jul 29, 2026. The break was found by Claude (Mythos Preview)
+  with minimal human guidance, independently verified, and scoped: Falcon
+  and ML-DSA unaffected. Same program: a "Möbius Bridge" technique made a
+  7-round AES-128 attack ~200–800× faster (reduced rounds, not a full AES
+  break). FIPS 206 (FN-DSA) still in draft; NIST's FIPS 206 team now plans
+  to mandate fixed-point arithmetic (no floats in the standard) with a
+  single KAT-matchable signing procedure. Decoder lesson: the first
+  AI-originated cryptanalytic kill in a standards process; open evaluation
+  worked — the candidate died before deployment. Crypto-agility beats faith
+  in any single algorithm. [CORROBORATED — THN/freenode.net/sitg-consulting
+  citing the primary pqc-forum posts, 2026-10-13]
 
 ## Media decoders — the VLC model
 VLC/ffmpeg decode nearly every codec on earth: H.264, H.265/HEVC, AV1, VP9,
