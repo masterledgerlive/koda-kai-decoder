@@ -37,6 +37,27 @@ Bazeries broke it in the 1890s. [VERIFIED] The human error: the cipher outlived
 everyone who remembered it was breakable; secrecy as a strategy has an expiry
 date.
 
+## 1799/1822 — The Rosetta Stone: the crib carved in three scripts
+
+A black basalt slab pulled from a demolished fort wall at Rosetta (Rashid),
+Egypt, in 1799 by Napoleon's troops — a decree for Ptolemy V (196 BCE) cut in
+three scripts: Egyptian hieroglyphs, Demotic cursive, and Ancient Greek.
+[VERIFIED] Thomas Young (1814–1819) cracked the first mechanics: cartouches
+enclose royal names — match the hieroglyph cartouche against the Greek
+ΠΤΟΛΕΜΑΙΟΣ and the "Ptolemy" group of signs reads P-T-O-L-E-M-Y — and showed
+the scripts mixed phonetic signs with ideographs. [VERIFIED] Jean-François
+Champollion completed it in September 1822: hieroglyphs are a *mixed system*
+— phonetic signs spelling sounds, ideographs carrying meaning, determinatives
+sorting them — unlocked with Coptic, the living descendant of the Egyptian
+tongue, as the spoken key. [VERIFIED — the Académie des Inscriptions reading,
+September 27, 1822; the "Je tiens mon affaire" collapse anecdote CORROBORATED
+but never independently sourced] The pivot: a dead language came back to
+life — three thousand years of Egyptian writing became readable in a decade.
+The decoder's note: this is the canonical *parallel-text crib* — known
+plaintext (the Greek) aligned against unknown symbols — the same cribbing
+discipline Bletchley ran on Enigma and the Gauntlet runs on foreign code.
+When the same formula repeats in two languages, the repetition is the key.
+
 ## 1822/1885 — The Beale ciphers: the cipher that never paid
 
 Three ciphers supposedly describing a buried treasure in Virginia; only the
@@ -222,7 +243,7 @@ problem that had stood twenty years is the honest headline.
 
 ## The through-line
 
-Caesar → Vigenère → Zimmermann → Enigma → RSA → SNARKs → blockchain → PQC.
+Caesar → Rosetta → Vigenère → Zimmermann → Enigma → RSA → SNARKs → blockchain → PQC.
 Every era believed its cipher would hold. Every era was wrong except the
 one-time pad — and even the pad falls to operators. The lesson compounds:
 **the cipher is never stronger than the habits of the people who use it.**
