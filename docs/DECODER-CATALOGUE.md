@@ -217,6 +217,26 @@ formats. [VERIFIED]
 - **ETRI "video coding for AI" — machine-oriented encoding reaches the demo stage (Oct 2026).** South Korea's ETRI is demonstrating, at KES 2026 in Seoul, a video-encoding technology based on the MPEG Video Coding for Machines (VCM) standard: instead of transmitting full video, it extracts, compresses, and transmits only the feature information needed for AI to detect, classify, and track objects. Decoder significance: a NEW FORMAT CLASS — correctness measured against model accuracy, not human perception. The "plays everything" surface now includes feature-tensor streams no human can eyeball, which breaks "watch it and see what it is" forensic habits, and a crafted feature stream is an adversarial input to the downstream model — the decoder boundary now touches model-integrity, not just bit-exactness. [CORROBORATED — two outlets reporting ETRI's own announcement]
 - **VVC mobile-adoption wave (Oct 2026).** VVC described as moving from early-adopter to early-majority: smartphone makers preparing VVC-capable products, mobile chipsets toward commercial availability in H2 2026, plus Android OS support and growing VVC Advance patent-pool participation. Decoder significance: closes the mobile gap from the Feb 2026 Android 17 entry — an OS-scale hardware H.266 parser on phones is the hostile-input surface expanding onto patch-slow silicon. [CLAIMED — patent-pool executive's interview via press release]
 - **intoPIX at NAB Show New York (Oct 21–22) — JPEG XS / IPMX demo slate.** JPEG XS line-up, IPMX-certified Titanium platform, Titanium SDK 2.0 (software-defined ST 2110/IPMX endpoints on COTS), and the Privacy Encryption Protocol (VSF TR-10-13) for securing streams on shared networks. Existing-standard demo news — the "plays everything" model spreading into broadcast production infrastructure. [CORROBORATED — vendor announcement]
+- **ContextCodec (Interspeech 2026) — the sub-1-kbps neural speech codec race.** A
+  hybrid neural speech codec (CLIP-phoneme-aligned + AR latent refinement):
+  reported to beat Mimi, X-Codec, and SemantiCodec at 1000 bps, and at 500 bps
+  subjectively preferred over Opus at 6 kbps. Decoder lesson: neural decoders
+  don't fail on bit-errors, they fail on distribution shift and adversarial
+  latents — a crafted 500-bps stream is a model input, not a packet. The "plays
+  everything" surface is absorbing learned decoders whose correctness is
+  statistical. [CLAIMED — paper results via community summary; no independent
+  replication]
+- **Access Advance explores an AV1/AV2 patent pool (Aug 2026).** After the AV2
+  spec release, Access Advance launched an exploratory phase for a
+  device-and-software patent pool covering AV1 and AV2 essential patents;
+  Sisvel separately announced AV2 pool plans (Dec 2025). Decoder lesson:
+  AOMedia's "royalty-free" only binds AOM members — third-party pools make AV2
+  decode support a licensing-risk variable, not just a parser checklist.
+  [VERIFIED — first-party announcement; Sisvel detail CLAIMED via Wikipedia]
+- **Bose QuietComfort Ultra 2nd gen gains Auracast + LE Audio in beta (~Oct
+  2026).** LC3/LE Audio reaches a huge headphone installed base — Auracast
+  broadcast audio to any compatible receiver is a new passive-collection channel
+  to watch. [CLAIMED — consumer press]
 - **XZ Utils supply-chain backdoor — the decoder was the weapon (CVE-2024-3094, Mar 2024).** `xz`/`liblzma`, the universal Linux decompression library, shipped a backdoor in the 5.6.0/5.6.1 release tarballs: a ~2-year trust-building campaign ("Jia Tan") won release authority, payload bytes hid in test fixtures, and a tarball-only build script injected shared-object code that used glibc IFUNC to swap sshd's `RSA_public_decrypt` — giving the key-holder pre-auth root RCE via a signed SSH certificate. Caught by Andres Freund on Mar 29, 2024 from ~500ms of unexplained SSH CPU, before any stable distro shipped it; no confirmed in-the-wild exploitation; CVSS 10.0. No official attribution. Decoder lesson: the reviewed artifact (git) ≠ the shipped artifact (tarball) — pin provenance at the artifact; a universal decoder is the ideal host; and the catch was behavioral (baseline vs anomaly), not analytical. [VERIFIED — oss-security disclosure, NVD, independent analyses; attribution CLAIMED]
 
 ## Protocol & language decoders
