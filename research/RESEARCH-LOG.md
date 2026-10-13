@@ -784,3 +784,11 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **VLC 3.0.24 (Sep 22, 2026):** FFmpeg 4.4 → 8.1.2, native APV video decode, ATRAC3/ATRAC9 audio, CEA-708 captions in MP4, SRT listener mode, 130+ security fixes. FFmpeg 9.0.2 current: Vulkan compute-shader codecs (FFv1 encode/decode, ProRes RAW decode), new formats MCC/G.728/Whip/APV, Whisper transcription filter. [CORROBORATED]
 - **Decoder significance:** modern audio decoding is ML-flavored — decoded output is increasingly model-inferred, not transmitted bits. A royalty-free Opus successor landing in WebRTC/browsers/streaming becomes a hostile-input parser at internet scale; grade the software parser (dav2d, early OAC) while it's soft, before it hardens into silicon.
 - **Library update:** `docs/DECODER-CATALOGUE.md` gained OAC, Opus 1.6, and LC3plus-lossless entries. MATERIAL.
+
+## 2026-10-13 05:57 EDT — decoder-research-loop — Protocol decoders (rotation #3, fourth pass)
+
+- **Mobilicom SwarmiX (announced Oct 12, 2026, at AUSA 2026).** A new family of secure, high-throughput mesh communications for drone and robotic fleets: claimed up to 1 Gbps throughput, mesh of hundreds of nodes, multi-band spectrum agility up to 7 GHz, embedded modules plus ruggedized tactical units, onboard computing for cybersecurity functions, built for contested environments.
+  - [CLAIMED — company press release via wire services; capabilities vendor-stated, not independently tested]
+- **Decoder significance:** SwarmiX is a closed military mesh protocol family — no public dissector will ever cover it. The open-tooling side of this track (LoRaWAN, ZigBee ZCL, DECT-2020) gains nothing here; contested-environment military mesh radios sit in the "decode by RF capture plus protocol reverse-engineering" category, interesting precisely because open tooling cannot read them.
+- **Wireshark: no new release since 4.6.9 (Sep 23, 2026).** Detail fill: the profile-import flaw is CVE-2026-96419 (crash and potential code execution — the only 4.6.9 advisory above crash/hang severity); JA4 fingerprinting now correctly ignores GREASE values. [CORROBORATED — secondary summaries of the 4.6.9 release notes]
+- **Library update:** none this pass. Routine rotation-class entry.
