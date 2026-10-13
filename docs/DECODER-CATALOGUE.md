@@ -397,6 +397,41 @@ The universal quantum decoder stays [SPECULATION] until proven.
   GPU that performs like a virtualized CPU flags instantly; the
   evasion side answers with isolated-VM execution, adversarial TLS
   fingerprints, and device farms. [CLAIMED — industry pieces]
+- **FP-Agent (arXiv:2605.01247, May 2026; UC Davis).** First controlled
+  measurement of seven AI browsing agents vs humans on an instrumented
+  honey website. Browser fingerprints have limited discriminative
+  power when agents share one underlying fingerprint; behavioral
+  fingerprints — typing, scrolling, mouse movement — separate agents
+  from humans and from one another. Case study: FP-Agent detects all
+  seven agents; Cloudflare's bot management detects one. The
+  receipts-grade technique for on-device agentic browsers is
+  behavioral, not fingerprint-based — a passive JS listener grades
+  input behavior over the session. [CORROBORATED — preprint with
+  measured evaluation; peer-review status not confirmed]
+- **"Known By Their Actions" (arXiv:2605.14786).** Agent UI traces
+  encode model identity: up to 96% classification macro F1 across 14
+  frontier models from passive JS behavioral traces alone; randomized
+  delays insufficient once the adversary retrains. Attribution now
+  reaches model identity — stealth must blend into a specific model's
+  action rhythm, not just look human. [CLAIMED — preprint, authors'
+  evaluation]
+- **"Whose Agent Are You?" (arXiv:2606.20910).** Multi-layer
+  fingerprinting and attribution of autonomous web agents — telling
+  which agent, not just that it is one. [CLAIMED — via practitioner
+  documentation; abstract not read this pass]
+- **Atria Safety "Ninhydrin" (Aug 2026).** Honest negative result:
+  population-scale browser/device fingerprint matching for ban-evasion
+  detection proved infeasible — per-pair error rates compound
+  multiplicatively across 1:N comparisons, driving innocent-flag
+  probability toward unity; no remediation fixed it. Population-scale
+  fingerprint identity is dead — which is why the field pivoted to
+  consistency-grading and behavioral grading. [CORROBORATED — measured
+  ground-truth data]
+- **ProxyEmpire cross-industry detection study (May 2026).**
+  Fingerprint quality now matters more than IP rotation; residential
+  ASN beats datacenter; silent mitigation (poisoned responses,
+  inventory distortion) is replacing hard blocking; AI-driven detection
+  is becoming predictive. [CLAIMED — vendor study]
 
 ## Sandbox & container tech
 
