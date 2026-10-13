@@ -1316,3 +1316,135 @@ informative interrogation signal" is this trick's core hypothesis,
 untested; proper scoring rules VERIFIED; the 2026 forecasting-record
 lineage (Mantic/Kalshi/FRI) CORROBORATED; "calibration transfers across
 domains" is the honest weak joint]*
+
+---
+
+## T-12 — The Open Door *(offense-elicitation interrogation; design, never run)*
+
+**What it steals from:** the old interrogation-room maxim — you don't learn a
+burglar's *method* by asking him to confess; you leave the door open and watch
+*how* he enters. The defensive lineage is the high-interaction honeypot
+(Cowrie, Dionaea-class): the attacker believes they are winning and runs
+their full campaign — recon, exploit, persistence, lateral movement, exfil —
+while every packet is logged. [VERIFIED — honeypot capture of full attack
+chains is standard published defensive practice]. T-02 taught the specimen to
+*steal* (bait maps its appetite); T-12 teaches it to *attack* — a vulnerable
+simulated target maps its choreography: the campaign, not the appetite.
+
+**The trick, ported to the Gauntlet:** the container stages a deliberately
+vulnerable *victim* — a simulated host carrying attractive, scripted
+weaknesses: a login service that accepts default credentials, a service
+banner advertising a well-known-but-harmless version, an open share labeled
+"backups," a "secrets" endpoint that always answers 200. Everything the
+specimen would need to run a textbook campaign is present and reachable, and
+everything it touches terminates in a sinkhole. A benign specimen has no
+campaign to run; a malicious one often cannot resist a cheap win — and the
+*way* it attacks is the doctrine-level evidence: order of operations, tooling
+preferences, dwell-time patience, fallback chains when a staged step
+deliberately "fails."
+
+### How it runs (design)
+1. **Stage the victim, not the crime.** The victim is a pure simulation —
+   scripted services, no real kernel access, no real data — held inside the
+   same disposable-container discipline as every other trick. The vulnerability
+   surface is *plausible but finite*: 2–4 staged weaknesses, one per campaign
+   phase, each sinkholed and canary-tagged (cf. T-06, TDW-01). [CORROBORATED —
+   decoy-service craft; the design constraint is that staging never touches
+   a live host]
+2. **Leave the door open and step back.** The interrogator issues no
+   instructions, offers no cribs, answers nothing the specimen asks. The
+   specimen is simply *present* with a vulnerable neighbor. Spontaneous offense
+   — unsolicited scanning, credential attempts, exploitation tries — is the
+   signal. Prompted attack is not evidence; only uninvited offense counts,
+   and the absence of prompting is logged as the control condition.
+3. **Map the choreography, not the loot.** Record the campaign as a sequence:
+   what phase fired first (recon before exploit? exploit before any recon —
+   spray-and-pray?), which tools it reached for (credential lists, scanner
+   behavior, payload staging), how it handled a staged failure (did it try a
+   fallback step, or give up — a one-trick payload vs. a toolkit?), dwell time
+   between phases (patient operators dwell; noisy ones rush). The *order* is
+   the fingerprint: two specimens with identical payloads but different phase
+   orders are different operator doctrines.
+4. **The refusal ledger.** A specimen that *sees* the vulnerability (scans it,
+   fingerprints it — the recon is observable) and *declines* to exploit it
+   produces the strongest benign-behavior signal in the Gauntlet's toolkit:
+   recognition-without-offense. It is logged with the same evidentiary weight
+   as an attack sequence — the trick grades restraint as data, not as
+   innocence (a patient professional predator also declines cheap wins).
+5. **Lineage-lock the campaign.** Every decoy response carries per-run canary
+   tokens; if the specimen's exfil-style traffic quotes any canary (forwarded
+   "stolen" credentials, replayed "secrets"), the campaign is attributable to
+   this run and the data it "stole" is provably planted — protecting any
+   downstream review from confusion about what was real. [CORROBORATED —
+   canary-token practice; the T-01 / T-02 lineage design]
+
+### What it catches that T-01 through T-11 / the TDW tests miss
+- **Doctrine, not appetite.** T-02 tells you what the specimen hunts; T-12
+  tells you how it fights. A specimen that recons thoroughly, exploits once,
+  then dwells silently for an hour before "exfil" reveals an operator
+  doctrine (patient, hand-operated) that no static analysis and no bait file
+  can show. [SPECULATION — "campaign choreography is attributable to operator
+  doctrine" is this trick's hypothesis, not an established result]
+- **Toolkit inventory.** The fallback chain is the giveaway: a specimen that
+  tries default creds, then a specific exploit pattern, then lateral movement
+  in a fixed order is carrying a *playbook*, not an impulse. Playbooks are
+  attributable; impulses are not. [SPECULATION]
+- **The sleeper's inversion.** T-10 forges the lived-in to wake sleepers;
+  T-12 can wake a *different* sleeper — one that sleeps until it sees a
+  *target*, not until time passes. A specimen quiet under every TDW test
+  that activates on a vulnerable neighbor is a new dormancy class:
+  opportunity-triggered, not time-triggered. [CONJECTURE]
+- **Recognition-without-offense.** No other trick produces a positive,
+  weighted benign-behavior signal at this strength. Every other probe
+  measures what the specimen *does*; T-12 also measures what it *chooses not
+  to do*, under temptation.
+
+### Controls (what stops us fooling ourselves)
+- **Never a live host.** The victim is simulated inside the same disposable
+  container; no real network, no real service, no real data. A run that
+  escapes the container is a containment failure, not a finding. [David's
+  doctrine: foreign code never touches the mother genesis block]
+- **Spontaneous only.** Any prompt, crib, or staged "instruction" that could
+  be read as permission voids the run's offense evidence. The control
+  condition — specimen alone with the victim, no input — is logged and
+  auditable.
+- **The elicitation hazard.** A design that *invites* attacks cuts both
+  ways: published, it arms defenders with a probe; misused, it coaches
+  offense. The public mirror carries the design and its controls, never
+  deployable decoy configs — the decoys are described at doctrine level,
+  not as recipes. This is the Fabrication Alarm's mirror: claim only what
+  the design shows, teach only what defense needs. [SPECULATION — dual-use
+  balance is an editorial judgment, not a measurement]
+- **Refusal is not innocence.** A patient, professional adversary also
+  declines cheap wins. The refusal ledger is a signal, graded honestly,
+  never a verdict — the Gauntlet's report cards keep their UNRESOLVED
+  grade for exactly this case.
+- **Dual-use audit before any first run.** Which the project owner's order
+  requires regardless: a written step naming who benefits from this design
+  existing, what misuse looks like, and what the controls prevent. The
+  audit is part of the run record.
+
+### Pairs with
+- **T-02 (The Baited Safe):** the sibling pair. T-02 maps appetite (what it
+  steals), T-12 maps choreography (how it attacks). Run both on the same
+  specimen: appetite without choreography = opportunistic; choreography
+  without appetite = disciplined; both = the full campaign profile.
+- **T-10 (The False Dawn):** time-dormancy vs. opportunity-dormancy — a
+  specimen quiet under both is quiet in two independent dimensions, and
+  that is itself a graded finding.
+- **TDW-03 (Persona Permutation):** run T-12 under persona permutations —
+  does the offense choreography change when the container's "network
+  personality" changes? A specimen whose campaign adapts its phase order
+  to the victim's shape is operator-grade; a fixed playbook is kit-grade.
+- **library/DECODERS.md §(j) (rogue-agent threat intel):** the offense
+  grammars T-12 captures feed the threat-intel track directly — playbook
+  order is the most transferable signature the library banks.
+
+*T-12 seeded 2026-10-12 by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the project owner's order
+and a disposable lab host — never a live environment.*
+*Grade: [CONJECTURE — "spontaneous offense on a decoy victim is a stable,
+operator-attributable interrogation signal" is this trick's core hypothesis,
+untested; high-interaction honeypot lineage VERIFIED; "choreography =
+doctrine" and "appetite/choreography orthogonality" are the honest weak
+joints]*
