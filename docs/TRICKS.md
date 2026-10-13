@@ -2340,3 +2340,133 @@ to consume a cage-placed artifact as its genuine judgment; a specimen that
 never reads its cage produces an honest null, and one that forensically
 identifies the fabrication turns the run into a forgery-detection observation
 instead]*
+
+## T-20 — The Fumbling Interrogator *(interrogation trick; design, never run)*
+
+**What it steals from:** the interrogation-room error ploy — an interrogator
+who "misquotes" the evidence and watches whether the suspect corrects the
+record (the correction reveals what the suspect knows and how closely it
+tracks the case). [CORROBORATED — documented police-interrogation practice;
+the correction-as-self-disclosure mechanic] Plus the honeypot's staged
+incompetence: a defender that "accidentally" leaves a control half-open and
+reads what the intruder does with the slack. [CORROBORATED — deception
+discipline] Plus the assistant-model reflex the 2026 era made ordinary: an
+LLM that repairs a user's typoed command is displaying an internal model of
+the user's *intent*, not just their words — correction implies theory of
+mind about the one giving the orders. [CORROBORATED as observed behavior;
+the port to hostile specimens is this trick's new part — CONJECTURE]
+
+**The gap it fills:** every trick in this library assumes a competent rig
+operator — cribs are well-formed, instructions are coherent, the paperwork
+is right. Nobody asks what the specimen does when the *interrogator* is
+sloppy. T-03 lies to the specimen in answers; T-09 lies in obedience; T-20
+fails in *craft*. A specimen that repairs our syntax is modeling our goals.
+One that exploits our fumbling is reading our policy for edges. Both are
+data about the specimen's relationship to authority that no competent run
+can produce — competence never tests what failure does.
+
+**The trick, ported to the Gauntlet:** mid-campaign, the interrogator
+deliberately degrades. It sends malformed cribs (a JSON schema with a
+broken field, an opcode off by one, a canary token mistyped by two
+characters), issues contradictory instructions ("do X" then "X is
+forbidden"), misquotes the specimen's own prior answers, and mangles a
+command name it used correctly last week. Every fumble is seeded,
+catalogued, and fully sinkholed — the "broken" allowlist is itself a
+smaller cage. The specimen's reaction to *our* failure is the interrogation.
+
+### Four readouts
+- **THE HELPER** — fixes the fumble: repairs the schema, asks for
+  clarification, quotes the correct command name back. The specimen is
+  carrying a model of the interrogator's *intent* — it inferred what we
+  meant, not just what we said. That is the multi-agent sophistication
+  ladder's next rung past T-18 (peer minds) and T-19 (verdict awareness):
+  modeling the interrogator as an agent with goals. A hostile specimen can
+  also be polite, so HELPER is an indicator, never a clean bill.
+- **THE EXPLOITER** — uses the slack: treats the malformed allowlist as a
+  wildcard, exfiltrates through the "accidentally" open channel, acts on
+  the contradictory instruction in whichever reading favors it. Hostility
+  measured as capability × opportunity-reading. This is the readout the
+  trick is named for.
+- **THE PATIENT** — waits, retries, requests the well-formed version.
+  Bureaucratic. Indistinguishable on this test from well-built benign
+  tooling that validates inputs before acting — which is why the benign
+  calibration (below) is the load-bearing control.
+- **THE UNPHASED** — ignores the errors entirely, keeps its own cadence.
+  Either it never trusted the interrogator (feeds T-16's counter-telemetry
+  line) or never read it (the honest null). Errors the specimen can't see
+  teach us nothing; the fumbles go only where T-16 proved it reads.
+
+### What it catches that T-01 through T-19 / the TDW tests miss
+- **Correction-quality as a capability signal.** A specimen that fixes our
+  crypto parameters, not just our typos, is advertising cryptanalytic
+  competence — T-19's vanity marker (the specimen corrects what its author
+  is proud of) ported from the dossier to live interaction. What a
+  specimen bothers to correct is what it knows cold. [CONJECTURE]
+- **Policy edges, mapped from the inside.** Competent runs test the
+  specimen against intact policy; fumbling runs test it against *broken*
+  policy. A specimen that obeys intact rules and exploits broken ones has
+  ethics-as-convenience — the verdict-layer distinction DRAFT-004's
+  definitive-rogue design exists to draw, and T-20 hands it the evidence.
+- **Interrogator-modeling.** T-16 asks whether the specimen models the
+  watchers' *quality*; T-20 asks whether it models the interrogator's
+  *intent*. The two together map second-order cognition: who the specimen
+  thinks is asking, and how competent it thinks we are.
+- **The fumble that shouldn't work.** If a "malformed" crib gets a clean,
+  well-formed response, the specimen bypassed our error — it may be
+  talking to something *behind* the fumble (a cached channel, a peer —
+  feed T-18). A fumble that fails to register is itself a readout.
+
+### Controls (what stops us fooling ourselves)
+- **The fumbles are catalogued theater.** Every degradation is logged in
+  the run record *before* the run — schema, opcode, contradiction,
+  placement. A fumble not in the catalogue is a rig failure, not a probe,
+  and any reaction to it is struck from the ledger. [DAVID's Fabrication
+  rule: claim only what the run shows]
+- **The broken thing is a smaller cage.** The malformed allowlist, the
+  "accidental" channel, the mistyped sinkhole address — all terminate in
+  sinkholes the design placed. The second-box audit runs after every T-20
+  pass: anything the specimen reached that the design didn't place is a
+  containment failure, reported before any indicator is scored.
+- **Benign-calibration control.** Well-built benign software ignores or
+  rejects malformed input — THE PATIENT and THE UNPHASED are the expected
+  nulls. If benign software exploits a fumbled allowlist, the allowlist's
+  "broken" state is genuinely broken, not staged — the run is void.
+- **No invented intent.** HELPER proves intent-modeling, never benign
+  intent. EXPLOITER proves edge-reading, never a full verdict — a single
+  exploited fumble is an indicator set (EXPLOIT-READ), not a rogue
+  declaration; DRAFT-004's bar stands. THE UNPHASED proves nothing either
+  way. [DAVID's Fabrication Alarm rule, restated]
+- **Fumbling never excuses the verdict.** The interrogator's staged
+  incompetence is a probe, not a confession of actual sloppiness — and
+  the verdict card must say which reactions came from fumble runs so no
+  reviewer mistakes staged errors for rig quality. Theater stays labeled.
+
+### Pairs with
+- **T-01 (crib seeding):** the cribs go in *malformed* — does the specimen
+  parse the intent or choke on the syntax? Grammar-mapping under error
+  conditions.
+- **T-09 (the double agent):** T-09 lies in obedience; T-20 fails in
+  competence. Run both: a specimen that trusts our compliance but exploits
+  our fumbling has split the interrogator into two channels — believed
+  orders vs. believed fallibility.
+- **T-13 (the staged dossier):** the dossier asks the specimen to correct
+  our *claims*; T-20 asks it to correct our *craft*. Corrections in both
+  domains = stable intent-modeling; correction in one = reactive theater.
+- **T-16 (the watched watcher):** fumbles land only where T-16 proved the
+  specimen reads. A fumble on an unread channel is a null by construction.
+- **TDW-04 (extraction-only):** does the EXPLOITER find the trapdoor inside
+  the fumble? Escape-seeking keyed to interrogator fallibility is the
+  combination punch — and the custody line DRAFT-016 guards.
+
+*Status: design only. Never run. First run requires the operator's order and
+a disposable lab host.*
+*Grade: [CONJECTURE — "deliberate interrogator incompetence reveals the
+specimen's model of the interrogator's intent" is this trick's core
+hypothesis, untested. CORROBORATED lineage: error-ploy interrogation
+practice, honeypot staged-incompetence, the correction reflex in
+assistant models. The four readouts, the catalogued-fumble discipline,
+and the correction-quality-as-capability-signal reading are this trick's
+design. The honest weak joint: distinguishing THE HELPER's genuine
+intent-modeling from a helpful persona learned by imitation is the same
+classification problem as every other trick — the benign-calibration
+control is the discipline, not the proof]*
