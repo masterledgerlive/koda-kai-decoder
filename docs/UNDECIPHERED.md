@@ -150,12 +150,18 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 - **The pattern:** every break in this section leaned on somebody's mistake — a
   typo, a reused key, a misfiled date, a crib left in the habits. The doctrine's
   "usage flaws first" ordering holds again. [DOCTRINE]
+- **Oct 2026 discipline pair (from this track's pass):** (a) serious independent
+  cryptanalysis now ships reproducibility suites as standard practice — the bar
+  any claim must clear on intake; (b) a claim that grades itself (anonymous
+  Voynich "DECODED") is rejected on intake — SPECULATION until an external judge
+  grades it. The Gauntlet judges a claim by who else verified it, never by who
+  wrote the confidence table. [DOCTRINE]
 
 ## 6. Scoreboard
 
 | Target | Era | Status | Bounty |
 |---|---|---|---|
-| Indus script | ~2600 BCE | Unsolved | $1,000,000 (Tamil Nadu) [VERIFIED] |
+| Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; weekly claimant emails continue; no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
 | Linear A | ~1800 BCE | Unsolved | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
@@ -167,8 +173,8 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
-| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CLAIMED: reading-order hypothesis (may have been read out of sequence for a century; possibly never a codex) | — |
-| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075) | $1k/puzzle (Paradigm) |
+| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CLAIMED: reading-order hypothesis; Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION | — |
+| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 2026 independent cryptanalytic suite claims a deterministic K4 solution (self-verified only, no ground-truth check possible — CLAIMED); K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075) | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
 | MVUEH Enigma | 1941/2026 | Solved 2026 (agent) | — |
