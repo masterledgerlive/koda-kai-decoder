@@ -1194,3 +1194,12 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — Adversa first-party blog via secondary]
   - Source: https://adversa.ai/blog/top-ai-agent-security-resources-october-2026/
 - **Mirrored:** DECODER-CATALOGUE.md "Suggestion-implant traps" updated.
+
+## 2026-10-13 16:57 EDT — decoder-research-loop — Math/physics engines (rotation #12, second pass)
+
+- **Claude nine-loop amplitude in N=4 super-Yang-Mills (Sep 2026).** An Anthropic agentic run ("Claude Science" harness) completed a nine-loop scattering amplitude using Python + SymPy instead of Maple/Mathematica — disciplined code execution, workflow tracking, and state management doing what raw intuition could not. Reported costs: ~96 CPUs for a week (~$100 cloud) plus $1,000–$2,000 in model API tokens. Honest limits (per the run's own writeup): the problem had ideal bootstrap structure ("Sudoku-like," suited to code execution and AI task loops); humans were already close — Song He (Chinese Academy of Sciences) independently derived the majority of the result days later with traditional methods and minimal AI; and it does not imply AI handles open-ended, messy theoretical-physics problems equally. Decoder significance: field evidence for the math-brain architecture — the LLM proposes, the symbolic engine checks — and corroboration that symbolic-exact tooling, not approximate numerics, is the right pairing for exact-reasoning work. The harness was the instrument, not the model alone.
+  - [CORROBORATED — run report via secondary writeup; independent human derivation reported; the nine-loop completion itself is Anthropic's claim]
+  - Source: https://lifeboat.com/blog/2026/09/claude-computes-a-nine-loop-amplitude-in-n4-super-yang-mills
+- **SymPy 1.15 dev notes (routine).** Upstream sparse-array migration (physics.quantum and lambdify now return SciPy sparse arrays — flagged BREAKING) and a GSoC-added SkewNormal distribution in sympy.stats. Routine maintenance, no decoding significance. [VERIFIED — upstream PRs]
+- **Non-news / still parked:** parallel symbolic enumeration (PSE, Nature Computational Science) results ~a year old — no new claims this pass.
+- **Mirrored:** MATH-PHYSICS.md §5 gained the nine-loop run as field evidence for the LLM+symbolic-engine loop. MATERIAL.
