@@ -82,6 +82,19 @@ CLAIMED / SPECULATION.*
   first cipher, solved within days of its 1969 publication by teacher couple Donald
   and Bethye Harden: open machinery plus patience beats institutional budgets whenever
   the assumption stack is wrong.
+- **Chaocipher (1918–2010) — the cigar-box cipher that won on secrecy alone.**
+  Invented by John Francis Byrne in 1918 and published as challenges in his 1953
+  autobiography *Silent Years*. Roughly 90 years of total resistance — professional
+  cryptanalysts failed, the US Signal Corps and Navy passed — until his family
+  donated the papers to the National Cryptologic Museum in May 2010 and Moshe Rubin
+  published the algorithm that July. Mechanism in one sentence: two lettered wheels,
+  one read for plaintext, one for cipher, with both alphabets re-permuted after
+  every letter — the cipher mangled its own key as it worked, suppressing all
+  repetitions. [VERIFIED]
+  Doctrine lesson: mechanism secrecy was the entire defense — 90 years of resistance,
+  then partial reconstruction within months of disclosure. Against a foreign specimen
+  whose outputs never repeat statistical structure, single-message analysis dies;
+  only sequence-level observation across many outputs recovers the state transition.
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
