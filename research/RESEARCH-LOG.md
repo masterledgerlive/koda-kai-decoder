@@ -676,3 +676,13 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CORROBORATED — peer-reviewed paper via phys.org reporting]
   - Source: https://phys.org/news/2026-10-algorithm-arctic-sea-ice-months.html
 - **Library update:** public `docs/MATH-PHYSICS.md` §3 gained the NBER no-bias finding and the precursor-of-anomaly + benchmark-honesty lines.
+
+
+## 2026-10-13 01:57 EDT — decoder-research-loop — Agent detection vs anti-detection (rotation #8, second pass)
+
+- **Securonix Advanced Behavioral Analytics with AEBA (announced Oct 12, 2026).** Agent and Entity Behavior Analytics flags when an enterprise AI agent uses an unexpected tool, accesses data outside its purpose, or changes its operating pattern — evaluated alongside identity, authority, data use, asset sensitivity, timing, and threat context; paired with classic user/entity behavior analytics. Consequential response actions require human approval. [CLAIMED — company announcement]
+  - Source: https://www.hpcwire.com/aiwire/2026/10/12/securonix-introduces-advanced-behavioral-analytics-to-detect-human-and-ai-driven-threats/
+- **Incognia AI Agent Detection (announced Oct 7, 2026).** For financial institutions: signed-request verification, agent-origin classification, bot/automation detection. Core insight: the *agent* and the *action* are evaluated as two distinct entities — a legitimate agent's transaction may still be unauthorized. Adds Web Behavioral Biometrics (mouse movements, keyboard interactions, copy-and-paste). [CLAIMED — company announcement]
+  - Source: https://www.prnewswire.com/news-releases/incognia-launches-ai-agent-detection-for-financial-institutions-302900044.html
+- **Parked (opinion):** one practitioner's "CAPOA — Completely Automated Proof of Agency" framing (identity + authentication + continuous agency read) — graded SPECULATION; revisited only if a real deployment surfaces.
+- **Library update:** §(h) gained Securonix AEBA and Incognia AI Agent Detection entries in `DECODERS.md` and the public `DECODER-CATALOGUE.md`. MATERIAL (agent-detection technique class).
