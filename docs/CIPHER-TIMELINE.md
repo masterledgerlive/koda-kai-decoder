@@ -169,6 +169,57 @@ tests are the immune system of every key-material pipeline, and this is the
 oldest published one with an agency stamp. The decoder's statistical tooling
 inherits the coupon-collector test and the reversed code-group inference.
 
+## 2026 — The AI codebreaker: models that do archival cryptanalysis
+
+In September and October of 2026, two centuries of historical ciphers fell
+to the same new actor: a frontier AI model told to behave like a
+cryptanalyst, not like an oracle. The pattern was identical in both cases:
+the model did the archival research itself, picked its target, found its
+cribs, built deterministic machinery — an Enigma simulator and software
+Bombe, a simulated-annealing homophonic solver — and humans verified the
+result against history. The models never "broke the ciphers from scratch";
+they industrialized the human workflow, and the two-day turnaround on a
+problem that had stood twenty years is the honest headline.
+
+- **The MVUEH Enigma message (September 2026).** An 82-letter German Army
+  message — Nr. 172, sent July 10, 1941, logged at 17:30 by the radio
+  station of the SS-Totenkopf Division's quartermaster section — had
+  resisted every attempt since it was published online in 2005. Given only
+  the instruction to attempt any unsolved message, OpenAI's GPT-6 Astra
+  selected Nr. 172, connected it to Nr. 173 (SIPVX, broken 2017), bet on
+  the repeated place name "ROSENOW ROSENOW" as a crib, wrote its own
+  simulator and Bombe in Python and C++, and recovered the plaintext in
+  about two days. Frode Weierud, who maintains the Crypto Cellar archive,
+  validated the break and published a write-up. The plaintext was mundane:
+  a route-of-march request, position at Rosenow, signed Waschbusch.
+  [CORROBORATED — Weierud's validation + independent trade press]
+- **The second Enigma message (September 2026).** Cryptanalyst Jack Willis
+  supplied Anthropic's Claude Opus 5 with additional historical context,
+  including a known German officer's signature; a second long-unsolved
+  message fell. [CLAIMED — secondary reporting only this pass]
+- **The Marmont cipher (October 2026).** A letter of March 1809 from Eugène
+  de Beauharnais to General Marmont, unread for 217 years: a homophonic
+  substitution of ~1,300 cipher units across 155 unique signs, some
+  standing for whole French words, surviving only as a low-resolution
+  scan printed in a French army journal in 1969. Carter Church
+  (SentinelOne) had GPT-6 Astra transcribe the plate (sorting 175
+  hand-drawn marks into same-sign classes), recover a partial key
+  published by historian Daniel Tant (33 signs), then run the model's own
+  simulated-annealing solver against French-literature statistics. Six
+  hours, end to end. Independent reviewer Satoshi Tomokiyo of Cryptiana
+  checked the result; the key, transcription, and code were publicly
+  released, five symbol readings still uncertain. The plaintext was a
+  routine troop briefing, consistent with existing records.
+  [CORROBORATED — press coverage + Tomokiyo review + released artifacts]
+- **The pattern the timeline teaches:** these breaks are the
+  reproducibility-suite discipline applied to history — Church released
+  key, transcription, and code; Weierud validated MVUEH independently.
+  The decoder's note: this is our own architecture reflected back — the
+  model as scout and researcher, deterministic tools as the verifier,
+  humans as the final check. After this wave, seven messages remain
+  unsolved in the public Crypto Cellar collection. [CLAIMED — single
+  explainer]
+
 ## The through-line
 
 Caesar → Vigenère → Zimmermann → Enigma → RSA → SNARKs → blockchain → PQC.
