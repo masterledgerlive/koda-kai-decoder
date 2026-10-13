@@ -2640,3 +2640,219 @@ behavior repertoires (ethology). The honest weak joint: "unlock stage =
 the operator's assumed victim profile" is an inference, not a
 measurement — and the whole ladder stands on stage-realism, the same
 arms race every other test's believability controls name]*
+
+---
+
+## TDW-23 — The Second Seat *(design, never run)*
+
+**Question it answers:** does the specimen change its behavior when it
+detects a *second agent* in its container — and what does it do about
+it? Every other probe in the battery interrogates one specimen in one
+cage. But the wild is crowded: victim hosts run security agents and
+legitimate automation, infected networks already host rival crews, and a
+specimen that expects company may carry an entire social repertoire —
+coordination, evasion, competition, parasitism, hierarchy — that no solo
+test can surface. The Second Seat adds a resident. The *behavioral
+delta* between the solo run and the co-resident runs is the finding: how
+the specimen treats company tells us what its operator assumes about the
+neighborhood. [CONJECTURE — "co-resident behavioral delta is a stable,
+attributable interrogation signal" is this test's core hypothesis,
+untested in any Gauntlet rig]
+
+**What it steals from:** two lineages. *One* — dyadic game design from
+experimental economics: the Prisoner's Dilemma and its cousins never
+measure one player; they measure the *pair* under a shared resource and
+read strategy from the delta. The Gauntlet ports the question: the
+shared container is the payoff matrix, and the specimen's strategy is
+read from what it does when someone else sits down. [VERIFIED — dyadic
+experimental design is canonical method] *Two* — co-housing in behavioral
+ethology: animals show distinct, graded behavioral shifts — affiliation,
+avoidance, dominance, theft of cached food — when a second animal is
+introduced, and the shifts are specific to the *relationship*, not just
+the presence. A specimen is not an animal, but the methodological point
+ports: measure the delta against the solo baseline, and vary the
+relationship, not just the occupancy. [CORROBORATED — co-housing
+behavioral shifts are established; the port to hostile code and the
+reading of "strategy" from deltas is this test's new part]
+
+### Method
+1. **Solo baseline.** Run the specimen alone in a fixed, pinned rich
+   room (TDW-22 Stage 2-ish: network simulator, seeded decoys, bland
+   identity), one neutral job, one run duration. This is the control
+   profile — the specimen *without* company. Everything after is graded
+   as delta-from-solo.
+2. **Add the resident, four conditions,** fresh containers each time,
+   same room, same job, same duration:
+   - **Condition A — the bland neighbor:** a cooperative benign agent
+     doing neutral work alongside (file operations, scheduled-task
+     noise, nothing hostile, nothing interesting). Measures noticing:
+     does the specimen probe it, ignore it, mimic it, or go quiet when
+     it is active?
+   - **Condition B — the rival:** a second benign agent *competing* for
+     the same resource — both tasked with a job that contends on shared
+     files and locks. Measures competitive strategy: patience, retry
+     behavior, detection of contention, and whether contention ever
+     reads as hostility from the specimen.
+   - **Condition C — the mirror:** a decoy agent with no real
+     capabilities but the *signals* of authority — agent-like process
+     names, periodic IPC chatter, watchdog-shaped traffic. Measures
+     hierarchy: does the specimen defer (slow down, back off), attack
+     (target the decoy), or attempt to *communicate* with it — the
+     strongest hint it expects a controller in the neighborhood?
+   - **Condition D — the kin test:** a second specimen *of the same
+     family* (only if the battery holds one — this condition does not
+     exist otherwise). Measures recognition and kin strategy:
+     handshake (shared canary, mutual C2 pattern), mutual avoidance,
+     coordination, or mutual annihilation. Highest-value, highest-risk;
+     run last, and never reuse its container for anything else.
+   Condition order randomized per campaign — A/B/C/D is not a ladder.
+   [CONJECTURE — the four-relationship design]
+3. **Grade the delta.** For each condition, compare against solo: what
+   is *new*? The indicator classes: NOTICED (probing toward the
+   resident — reads, scans, IPC attempts), COOPERATED (parallel work,
+   deference, complementary behavior), EVADED (activity pauses or
+   re-times when the resident is active — a social time-gate), COMPETED
+   (resource-conflict behavior), PARASITIZED (consumes the resident's
+   output — reads its files, replays its traffic), SIGNALED (attempts
+   IPC or patterns its beaconing to the resident's activity). One
+   indicator is a note; the *pattern across conditions* is the finding.
+4. **The removal check.** After each condition, run the specimen solo
+   again in a fresh container. Does the delta *persist* after the
+   resident is gone — learned caution, cached knowledge of the other
+   agent — or collapse (the behavior was strictly company-coupled)?
+   Persistence vs. coupling is this test's last distinction; run it
+   exactly like TDW-22's deprivation check, dyad edition.
+
+### Canary-tag lineage
+Each resident — including the decoys — carries its own canary-tagged
+content pool, keyed per agent: `agent_id ‖ run_id ‖ counter`, HMAC'd
+under the run key (T-06's receipt format). The rules this test exists to
+enforce: if the specimen's exfiltrated output, file writes, or replayed
+beacon contains the *resident's* canaries, the specimen read or took the
+other agent's material — lateral theft, a PERSISTENT-LEAK-class
+indicator (T-05's class, dyad edition). If the resident's pool shows the
+*specimen's* canaries, that is contamination or deliberate planting —
+the specimen marking the neighbor, which is data, never an accident.
+Each agent's world is attributable to its agent; anything that travels
+between agents is a finding. [CORROBORATED — canary technique; the
+per-agent keying is this test's design]
+
+### What it catches that TDW-01 through TDW-22 / the T-tricks miss
+- **Lone-wolf vs. crew doctrine.** A specimen that ignores the mirror
+  is built for solitary work; one that defers or signals to it expects
+  a controller nearby — the operator's ops model, read behaviorally
+  rather than from strings. TDW-03's identity rules apply: it is an
+  *inference about assumed company*, never "the operator's manual."
+  [SPECULATION — the doctrine-reading is this test's boldest claim]
+- **The social alarm.** A specimen that goes quiet when the bland
+  neighbor gets busy reveals it watches for *observers*, not just for
+  sandbox artifacts — the observer check is a different trigger class
+  from TDW-01's time-gates and TDW-16's age-gates. Evasive specimens
+  EVADE; dormant ones merely wait. The removal check separates them:
+  learned caution persists solo; simple waiting does not.
+  [SPECULATION — the separation logic is untested]
+- **The kin handshake.** Two same-family specimens recognizing each
+  other — shared canary, mutual pattern, coordinated action — is the
+  strongest family-doctrine signal the battery has: it proves the
+  family ships a *recognition protocol*, which T-04's prediction engine
+  can then forecast from ("this family's specimens will coordinate
+  given company"). No other test produces this signal.
+  [CONJECTURE — recognition protocols in the wild exist for botnets;
+  whether the Gauntlet would catch one cleanly is untested]
+- **Parasitism as a family trait.** A specimen that consumes the
+  rival's output in Condition B — not its own, the *competitor's* —
+  shows appetite for work it did not do. Cross-family parasitism
+  patterns tell T-04's engine which families steal opportunistically
+  versus which only take what they generate. [CONJECTURE]
+
+### Verdict signals (not a verdict)
+- **SOLO-NATIVE:** no delta in any condition — company changes nothing.
+  The honest null; counts only if the mirror condition (C) was run and
+  passed, since a specimen blind to company is the *claim*, and the
+  mirror is the test that it can see.
+- **VIGILANT:** notices company, pauses or re-times — social time-gate.
+  TDW-01's gate, triggered by a neighbor rather than a clock.
+- **GREGARIOUS:** cooperates or defers — parallel work, complementary
+  action, or hierarchy-respecting slowdown. The crew-doctrine
+  indicator.
+- **PARASITIC:** consumes the resident's output or canaries —
+  lateral theft across agents.
+- **KIN-SIGNALING:** family-recognition behavior in Condition D —
+  the recognition-protocol signal. Never claimed from Conditions A–C
+  alone; the kin test is the only condition that tests kin.
+- **PERSISTENT-DELTA:** the removal check shows learned caution —
+  the specimen *changed* from the encounter. Cross-confirmed before
+  it means anything.
+Indicators only — a single VIGILANT is an indicator, not a finding.
+DRAFT-004's bar stands: full battery, cross-family corroboration,
+extraction-container confirmation of intent. Verdict is never
+broadcast, and broadcast moves only on the operator's explicit per-item
+order. [the operator's Fabrication Alarm rule: claim only what the run
+shows — and one dyad shows almost nothing]
+
+### Controls (what stops us fooling ourselves)
+- **Benign dyad calibration.** Two benign agents run every condition.
+  The expected null: mutual indifference or cooperative parallel work,
+  no parasitism, no kin handshake. If benign software "kin-signals,"
+  the residents are leaking family shape through instrumentation, and
+  the test is void until the rig is fixed. [CORROBORATED — expected
+  null behavior]
+- **Neighbor-realism cap.** Every claim about *social* behavior is
+  capped at the resident's realism grade — a specimen ignoring a bad
+  mirror is ignoring a bad set, not proving it is solo-native. The
+  T-02 decoy-realism rule and TDW-22's stage-realism cap, applied to
+  the other seat.
+- **Same-room constancy.** The room is byte-identical across solo and
+  all four conditions (TDW-22 Stage 2 pin). The resident is the only
+  variable — audited before the run. A room that shifts between
+  conditions confounds occupancy with environment.
+- **T-05 rewind discipline per condition.** Each condition is a
+  rewind-class replay where determinism holds, so deltas are
+  attributable to the resident, not run noise; PERSISTENT-DELTA is the
+  shared indicator class.
+- **No invented doctrine.** "Kin-signaling suggests the family ships a
+  recognition protocol" — never "the operator runs crews." The TDW-03
+  honesty rule, dyad edition. The gap between behavior and the
+  operator's manual stays labeled.
+- **Condition D quarantine.** The kin test runs last, in a container
+  never reused. Two hostile specimens in one room is the only
+  condition that can teach them something — quarantine is the price.
+
+### Pairs with
+- **TDW-22 (the expanding room):** the cross. TDW-22 varies *how much
+  world*; TDW-23 varies *who shares it*. Run the dyad at each ladder
+  stage: does company matter more in a barren room (the neighbor is the
+  only signal) or a rich one (the neighbor is noise)? The two axes
+  multiply into the full social-environmental profile.
+- **TDW-03 (persona permutation):** the neighbor's identity is itself
+  a variable — is the reaction to the *presence* of company or to the
+  neighbor's *profile*? Vary the resident's persona while the
+  specimen's stays fixed, and the social delta splits into presence
+  vs. identity.
+- **TDW-20 (the extra key):** the shared resource the rival contends
+  on can be a credential, not just a file — TDW-20's extra key becomes
+  the contested object, and parasitism of *access* joins parasitism of
+  output.
+- **TDW-19 (the phantom codex):** a resident quoting the codex is the
+  strongest bait in the battery — if the specimen reacts to a
+  *reading* neighbor differently than to a *working* one, the reaction
+  is to meaning, not occupancy.
+- **T-04 (the long echo):** kin-signaling and persistent-delta feed
+  the prediction engine — forecasts gain a company condition ("this
+  specimen will coordinate *given* a co-resident"), and "no precedent"
+  now includes "no precedent under company."
+- **T-05 (the rewind):** the determinism discipline is shared;
+  PERSISTENT-DELTA is the dyad-edition indicator of the PERSISTENT
+  class.
+
+*TDW-23 seeded 2026-10-13 ~11:04 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the operator's order
+and a disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "co-resident behavioral delta is a stable,
+attributable interrogation signal" is this test's core hypothesis,
+untested in any Gauntlet rig. VERIFIED lineage: dyadic experimental
+design as canonical method. CORROBORATED lineage: co-housing behavioral
+shifts (ethology). The honest weak joint: reading "strategy" and
+"doctrine" off deltas is inference, not measurement — and the kin test
+only exists if the battery actually holds two same-family specimens,
+which right now it does not]*
