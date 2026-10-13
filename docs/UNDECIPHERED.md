@@ -39,7 +39,8 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   the centenary of the Indus civilization's discovery in Chennai; a prize of one
   million US dollars to whoever deciphers the script, plus a Rs 2 crore research
   chair named for archaeologist Iravatham Mahadevan. [VERIFIED — multiple
-  sources including PTI] Unclaimed as of October 2026.
+  sources including PTI] Unclaimed as of October 2026: the ASI's international
+  brainstorming conference (August 20–22, 2025) produced no announced winner.
 - **Paradigm's Kryptos challenge** — $1,000 to the first solver of each of ten
   puzzles, launched June 2026 after the venture firm Paradigm bought Jim
   Sanborn's Kryptos archive for $962,500 at RR Auction (November 2025).
@@ -54,7 +55,15 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 
 - **Indus script** (~2600–1900 BCE) — roughly four thousand inscriptions, most
   under thirty symbols, no bilingual text, no consensus on the underlying
-  language. [VERIFIED unsolved]
+  language. [VERIFIED unsolved] New claimant, Oct 2026: Bharath Rao
+  ("Yajnadevam") circulates "A Cryptanalytic Decipherment of the Indus Script"
+  (99 pages) — sequential regex + set-intersection sign resolution claimed to
+  meet Shannon's unicity distance, yielding a proto-abugida read as post-Vedic
+  Sanskrit with sign-to-Brahmi continuity. Not peer-reviewed; scholarly
+  consensus remains "no accepted decipherment." [CLAIMED — popular-archaeology.com
+  interview; author says journal submission pending polish] Worth watching:
+  the claim ships with an explicit falsifiability criterion — if it fails,
+  we learn how cryptanalytic rigor fails on this corpus.
 - **Linear A** (Minoan Crete, ~1800 BCE) — Linear B, its sister script, was
   cracked by Ventris in 1952; Linear A still waits. [VERIFIED]
 - **Rongorongo** (Easter Island), **Phaistos Disc** (~1700 BCE, 241 stamped signs,
