@@ -1605,3 +1605,124 @@ untested; the false-evidence-ploy lineage is CORROBORATED interrogation
 practice; the false-confession caution it imports is CORROBORATED
 literature; "vanity marks load-bearing subsystems" and "the blank elicits
 the highest-value intelligence" are the honest weak joints]*
+
+---
+
+## T-14 — The Metronome *(time-dilation scenario; design, never run)*
+
+**What it steals from:** chaos-engineering clock manipulation and the
+sandbox-evasion arms race, run in reverse. Testers have long warped clocks to
+break distributed systems (CORROBORATED practice — Jepsen-style time faults);
+evasive specimens have long *measured* clocks to detect warped time
+(CORROBORATED — Sleep-skip detection, rdtsc stall checks, timing loops that
+spot accelerated sandboxes). T-10 forges a past, TDW-01 pushes the clock
+forward, TDW-02 breaks the clocks apart — the Metronome does none of those.
+It varies the *tempo*: the same run, replayed at 1×, 10×, 100×, 1000×, and
+watches which behaviors keep time with the presented clock and which keep
+time with something else. What a specimen *counts* is its most honest clock.
+
+**The scenario:** run the identical specimen against identical inputs at
+several clock rates and map the divergence. Wall-clock-gated logic (license
+expiries, certificate validity, scheduled beacons, cron-like triggers)
+accelerates with the clock; event-count-gated logic (fire after N syscalls,
+N packets, N user actions) does not. The rate-sweep separates the two — the
+specimen's *time base* — and simultaneously finds the fastest clock rate at
+which behavior stays faithful to the 1× baseline, which is the calibration
+ceiling every other time trick needs.
+
+### How it runs (design)
+1. **Baseline at 1×.** Full container discipline (disposable, sinkholed, no
+   real network, no host-clock touch). Record the behavioral trace: system
+   calls, scheduled-timer firings, beacon attempts, file writes, crypto
+   operations, sleeps and their durations. This is the score the accelerated
+   runs are judged against.
+2. **The sweep.** Replay the identical input sequence at 10×, 100×, 1000×
+   (log-spaced; tempo is the experimental variable, nothing else). Each
+   rate is a fresh container, same seed where determinism holds — T-05's
+   replay discipline, so deltas are attributable to tempo alone.
+3. **Read the divergence.** Classify each behavior by its rate response:
+   - *Clock-faithful:* fires N× sooner per N× rate — wall-clock-gated
+     (expiries, scheduled beacons, certificate checks).
+   - *Tempo-invariant:* fires at the same *event* count regardless of rate
+     — event-driven (stall-for-N-syscalls, beacon-after-N-packets).
+   - *Rate-collapsing:* degrades or changes character past some rate —
+     behavior that depends on real-time pacing the dilation can't supply.
+   - *Rate-reactive:* changes *strategy* when tempo rises (goes quiet,
+     refuses to unpack, switches beacon channel) — the specimen noticed
+     the metronome. That is anti-dilation detection, and it is intelligence.
+4. **Find the ceiling.** The faithful-rate envelope: the fastest rate at
+   which the trace still matches the 1× baseline within tolerance. TDW-01's
+   coherent forward runs are only trustworthy inside this envelope; past
+   it, acceleration artifacts (missed timeouts, watchdog firings, races)
+   are the specimen's enemy and ours — the run is tainted, not informative.
+5. **The un-dilation check.** After the fastest run, return to 1× and replay.
+   A specimen whose behavior changed *permanently* after acceleration (new
+   persistence, flipped flags) has state that survived the tempo — latch
+   behavior is mapped, not assumed.
+
+### What it catches that T-01 through T-13 / the TDW tests miss
+- **The time base.** Nothing else separates *time-driven* from *event-driven*
+  logic. T-10's forged past wakes a sleeper but can't say whether it woke
+  because the date passed or because enough happened; the Metronome's
+  rate-sweep answers exactly that.
+- **Anti-dilation layers.** A specimen that performs its full routine at 1×
+  and goes piously quiet at 100× is running a sandbox-detection timing
+  check — the very countermeasure that would silently defeat TDW-01. The
+  Metronome names the countermeasure before TDW-01 is trusted against the
+  specimen.
+- **The acceleration-safety ceiling.** Every forward-dilation result in the
+  library (TDW-01, T-10's dawn event at speed) implicitly assumes the clock
+  can be pushed without tainting the observation. The Metronome is the only
+  trick that *measures* that assumption.
+- **One-shot latches vs. time-evaluated gates.** The un-dilation check finds
+  behavior that fired once under acceleration and never again — license
+  trials consumed, one-shot payloads spent — which a single dilated run
+  would report as "it did this" without noting the latch.
+
+### Controls (what stops us fooling ourselves)
+- **The clock is theater.** All rate changes are virtual, container-internal,
+  logged as theater. The host clock, host scheduled tasks, and anything
+  outside the container are untouched. A rate that can't be fully virtualized
+  aborts the sweep.
+- **Ceiling first, claims after.** No "time-gated" claim leaves the lab
+  unless the behavior was observed inside the faithful-rate envelope. Past
+  the ceiling, every observation is labeled ACCELERATION-ARTIFACT-SUSPECT.
+- **The cycle-counter confound.** Hardware cycle counters (rdtsc and kin)
+  don't dilate with the virtual clock; behavior anchored to them reads as
+  tempo-invariant. That's clock-source discovery, not event-drivenness —
+  cross-check with TDW-02's trust hierarchy before classifying.
+- **Reactive ≠ benign.** A specimen that goes quiet at high rates has told
+  us it *detects* acceleration — anti-analysis timing, data in itself. Only
+  a full routine at 1× under coherent dilation, inside the envelope, earns
+  the null reading. Quiet under the metronome is a fingerprint, never a
+  clean bill.
+- **Tempo is the only variable.** Same inputs, same container image, same
+  seed discipline per run. Any run that deviates from the replay (network
+  hiccup, host load spike) is discarded, not explained — T-05's rule.
+
+### Pairs with
+- **TDW-01 (time-dilation wake-up):** the pair. TDW-01 pushes forward fast;
+  the Metronome finds the fastest rate that stays faithful — it *calibrates*
+  TDW-01. Never trust a TDW-01 result past the Metronome's ceiling.
+- **TDW-02 (clock dissonance):** TDW-02 finds *which* time source the
+  specimen trusts; the Metronome finds *how* the trusted source is used —
+  rate-driven or event-driven. Trust hierarchy × time base = the full
+  temporal model.
+- **T-10 (the false dawn):** forged past × variable tempo — run the aged
+  environment at 1× and at 1000×. A sleeper that wakes for the forged date
+  but ignores the forged date at speed is date-gated, not residency-gated.
+- **T-05 (the rewind):** the differential engine — the sweep inherits the
+  replay discipline; the rewind run *is* the un-dilation check.
+- **T-08 (the second hand):** the seeded timing watermark must be
+  rate-normalized, or the Metronome's acceleration reads as T-08's delay
+  pattern shifting. Normalize before correlating.
+
+*T-14 seeded 2026-10-12 by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the project owner's order
+and a disposable lab host — never a live environment.*
+*Grade: [CONJECTURE — "a rate-sweep reveals the specimen's time base and the
+faithful-rate ceiling" is this trick's core hypothesis, untested; coherent
+forward dilation and clock-dissonance designs are the internal lineage;
+sandbox-evasion timing checks (Sleep-skip, rdtsc stall detection) are
+CORROBORATED; the ceiling's stability across specimen classes is the honest
+weak joint]*
