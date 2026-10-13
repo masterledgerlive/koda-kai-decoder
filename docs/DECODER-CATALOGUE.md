@@ -178,6 +178,24 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   Sep 14. Only 13% of organizations report PQC in production
   [CLAIMED — vendor-adjacent survey].
   [CORROBORATED]
+- **Production PQC migrations land (Oct 2026).** Cosmos Labs deployed Ledger
+  Security 2026.1 (Oct 8): ML-DSA (FIPS 204) signatures across Cosmos SDK
+  v0.55.0, CometBFT v0.40.0, cosmos/kms v0.1.0 — the network goes
+  post-quantum-secure once validators holding two-thirds of voting power
+  rotate keys. First production-scale NIST PQ signature standard inside a
+  live blockchain consensus layer on record. Starknet published a three-phase
+  quantum-resistance roadmap (Oct 11) targeting 2027: Pedersen hashing
+  replaced with BLAKE2 across state, contract-address, and consensus; Phase 3
+  depends on Ethereum. The Ethereum Foundation outlined its post-quantum
+  roadmap to 2029 (Oct 10). [CLAIMED — single crypto-outlet reports]
+- **GAO: zero of 24 CFO Act agencies ready (GAO-27-108740, Oct 2026).**
+  No agency fully implemented the three mandatory preparatory practices
+  (inventories, funding assessments, operational testing) — nine days
+  before the Oct 22 planning deadline. Contrast: one federal agency
+  deployed Quantum XChange Phio TX-EM across 15 sites without
+  infrastructure replacement (Oct 8); WISeSat.Space announced PQ-ready
+  satellite/IoT comms via SEALSQ silicon (Oct 12). Production ships while
+  paperwork lags. [CORROBORATED — GAO report; rest CLAIMED]
 The universal quantum decoder stays [SPECULATION] until proven.
 
 ## Photonic comms & power
