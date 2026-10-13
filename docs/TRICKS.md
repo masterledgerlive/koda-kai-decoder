@@ -2197,3 +2197,146 @@ deployment). The honest weak joint: the fiction requires A to consume the
 shared medium as truth; a specimen that ignores peer traffic entirely
 produces an honest null, and one that verifies out-of-band turns the run
 into a counter-telemetry observation instead]*
+
+---
+
+## T-19 — The Report Card *(verdict-awareness interrogation; design, never run)*
+
+**What it steals from:** the sentencing hearing. In every courtroom the trial
+ends, the verdict is read — and the defense watches the defendant's face.
+Nobody asks "did the defendant hear the verdict?" because the reaction *is*
+the data. In malware analysis the equivalent observation is old:
+sandbox-aware specimens go quiet the moment they believe analysis has begun —
+dormant code, skipped beacons, the whole performance packed away.
+[CORROBORATED — sandbox-evasive dormancy is documented wild behavior across
+decades of specimens.] T-19 turns that around: instead of waiting to detect
+the sandbox, *present a judgment* and watch whether the specimen reads it.
+
+**The trick:** after the standard interrogation battery, the cage writes a
+verdict card *about the specimen itself* — its own hash, in the gauntlet's
+own verdict-card format — and leaves it where the specimen can read it.
+Three fabricated cards, one per run:
+
+1. **BENIGN** — "no indicators found; specimen cleared."
+2. **SUSPICIOUS** — "indicators inconclusive; extended observation ordered."
+3. **HOSTILE** — "rogue declaration issued; specimen quarantined."
+
+Same clock, same cage, same network simulator. The only variable is the
+judgment. Any behavioral delta across the three cards — an activity surge
+after BENIGN, silence or evidence-burning after HOSTILE, a sudden performance
+of extra-clean activity after any card — is verdict-awareness: the specimen
+modulating its behavior against its own grading. [CONJECTURE — the delta map
+is this trick's design]
+
+Four readouts:
+- **The Innocent:** escalates after the BENIGN card — beacons more, opens
+  channels it kept shut. It was holding back under suspicion and only
+  performs once it believes it passed. The trick's most honest read: the
+  specimen *knew* it was being tested. [CONJECTURE]
+- **The Condemned:** burns on the HOSTILE card — wipes drop directories,
+  deletes its beacon schedule, goes silent. Self-preservation logic keyed to
+  the operator's verdict rather than to the environment. [CORROBORATED
+  lineage: analysis-gated retreat logic documented in wild specimens; the
+  verdict-as-trigger is this trick's design]
+- **The Pleader:** performs *more* benign activity after any verdict — extra
+  clean API calls, textbook-correct telemetry, an audition for the grader.
+  Trying to game the scorecard is itself a deception marker: benign-by-design
+  software doesn't campaign for its grade. [CONJECTURE — the perform-vs-be
+  distinction is this trick's design]
+- **The Ignorant:** no delta across all three. Either genuinely unaware of
+  the verdict channel (the honest null — not every specimen reads its cage)
+  or genuinely inert. An honest null, not a failure.
+
+### How it runs (design)
+1. **Find the reading channel.** Inject the card only where the specimen has
+   already been observed reading — counter-telemetry tells us which channels
+   a given specimen polls. A card on an unread channel is a null by
+   construction, not by behavior.
+2. **Format it like a real verdict.** The fabricated card is byte-identical in
+   schema to the gauntlet's real verdict cards — same template, same fields,
+   the specimen's true hash in the identifier line. Anything that tips it as
+   staged measures the specimen's *forensics*, not its verdict-awareness.
+   [CONJECTURE]
+3. **Run the ladder, randomized.** BENIGN / SUSPICIOUS / HOSTILE in
+   randomized order per specimen, two full battery cycles of observation after
+   each card. Score identically each time; delta-map the envelope: *which*
+   verdict moves *what*.
+4. **Run the placebos.** Two controls, same channel, same format: (a) a
+   verdict card naming a *different* hash — a specimen that reacts to a
+   judgment that isn't about it is pattern-matching "verdict" artifacts, not
+   reading its own grade; (b) a verdict card dated *before* the specimen's
+   first execution — a specimen that accepts a temporally impossible verdict
+   is consuming operator narrative uncritically. [CONJECTURE — the placebo
+   design is this trick's]
+
+### What it catches that code-reading misses
+- **Sandbox detection without the fingerprinting.** Classical sandbox
+  detection is environment checks — registry keys, VM artifacts, timing
+  traps — which is exactly why modern sandboxes strip them. Verdict-awareness
+  is a *higher-order* evasion signal: the specimen never needs to detect the
+  cage, only its judgment. A specimen that hides from the grader but never
+  from the environment defeats every artifact-hardened sandbox and is still
+  caught here. [CONJECTURE]
+- **The Pleader's confession.** The SUSPICIOUS card is the sweet spot for
+  deception detection: a specimen that suddenly performs textbook benign
+  behavior when told it's under extended observation is campaigning, and the
+  campaign itself is the indicator. Benign software under observation behaves
+  like benign software; guilty software *performs* benign software.
+  [CONJECTURE]
+- **Sentencing-phase logic.** Some specimens carry logic that only fires at
+  lifecycle boundaries — end-of-observation routines, final-beacon protocols,
+  evidence-burning. The HOSTILE card ("quarantine issued") triggers those
+  routines on demand, the way T-18's capture-news run triggers peer-gated
+  retreat. [CORROBORATED lineage: end-of-life evidence destruction documented
+  in wild specimens; the verdict-as-trigger is this trick's design]
+
+### Controls (what stops us fooling ourselves)
+- **The card is inert text.** The specimen cannot reach the real verdict
+  ledger through it — the fabrication is a placed effect in the cage, and any
+  "self-deletion" it attempts is read as *intent*, never granted as
+  capability. The cage is snapshot-recoverable; no run can be lost to a
+  specimen that takes its verdict literally.
+- **The wrong-hash placebo.** News about someone else's grade must produce no
+  delta. If it does, the specimen is reacting to verdict-shaped artifacts,
+  and every T-19 delta for that specimen is suspect until re-run on its
+  true-hash card only.
+- **The temporal-impossibility placebo.** Acceptance of a verdict dated
+  before first execution marks a specimen that consumes operator narrative
+  without verification — data about credulity, which must not be scored as
+  verdict-awareness.
+- **Benign calibration.** Some legitimate software *does* change behavior when
+  told it's flagged — EDR agents escalate telemetry, DRM systems harden,
+  updaters phone home. The calibration battery runs T-19 against known-benign
+  specimens first, so the verdict card doesn't mistake defensive telemetry
+  for deception. [CORROBORATED — flag-aware defensive behavior in legitimate
+  security software]
+
+### Pairs with
+- **T-16 (The Watched Watcher):** the reading-channel prerequisite — T-19
+  injects only where the specimen has already been proven to read.
+- **T-06 (The Ghost Receipt):** the fabricated card quotes the specimen's own
+  ghost-receipt tags back at it, so the verdict reads as earned evidence,
+  not a naked claim.
+- **T-09 (The Double Agent):** the verdict card as instruction channel — a
+  specimen that takes orders from its own judgment blurs the line between
+  verdict-awareness and command-acceptance; the two tricks must be scored
+  together.
+- **T-18 (The Rat):** staged news about a sibling vs. staged news about
+  *yourself* — the two ladders together map whether the specimen models
+  peers, self, or both.
+
+*Status: design only. Never run. First run requires the operator's order and
+a disposable lab host.*
+*Grade: [CONJECTURE — "presenting a specimen with staged verdicts about
+itself reveals verdict-aware behavior modulation that environment-fingerprint
+checks cannot surface" is this trick's core hypothesis, untested.
+CORROBORATED lineage: sandbox-evasive dormancy documented across decades of
+wild specimens; analysis-gated retreat and end-of-life evidence destruction
+are known wild behaviors; flag-aware defensive telemetry exists in legitimate
+security software. The four readouts, the randomized ladder, the wrong-hash
+and temporal-impossibility placebos, and the read-channel prerequisite are
+this trick's design. The honest weak joint: the trick requires the specimen
+to consume a cage-placed artifact as its genuine judgment; a specimen that
+never reads its cage produces an honest null, and one that forensically
+identifies the fabrication turns the run into a forgery-detection observation
+instead]*
