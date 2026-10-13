@@ -232,13 +232,11 @@ The universal quantum decoder stays [SPECULATION] until proven.
   multiple photons at once, aimed at manufacturable quantum memories for
   chip-based quantum computers and networks.
   [CORROBORATED — peer-reviewed]
-- **Orbital laser power beaming tests (Oct 2026).** Star Catcher Protostar
-  flew on SpaceX's Transporter-18 to attempt laser power transfer to a
-  free-flying CubeSat — claimed first optical power beaming between two
-  untethered spacecraft. Cowboy Space's Reason-1 aims for a first
-  orbit-to-ground laser transfer test in late October 2026 (30-100 W into a
-  10-20 m spot). Until the tests fly, these are beaming tests, not beaming
-  systems. [CLAIMED — company announcements; independent reporting]
+- **Orbital laser power beaming tests — LAUNCHED (Oct 1, 2026, SpaceX Transporter-18).** Deployment verified by independent outlets; experiments not yet run. Star Catcher Protostar will release a CubeSat, track it, and beam optical power at its off-the-shelf solar panels — claimed first wireless optical power transfer between two untethered spacecraft (Caltech's 2023 MAPLE test used microwaves). Cowboy Space's Reason-1 aims for a first orbit-to-ground laser transfer test in late October 2026 (30-100 W into a 10-20 m spot). Until the tests fly, these are beaming tests, not beaming systems. [VERIFIED deployment; CLAIMED — company announcements on the experiments]
+- **Laser-integrated optical-engine PICs in volume production (announced Oct 9, 2026).** Tower Semiconductor + NewPhotonics: InP amplifiers, modulators, lasers, photodetectors on a single silicon-photonic chip; 800G-1.6T shipping, 6.4T planned for AI infrastructure. The AI optical-interconnect wave is in volume production. [CLAIMED — company announcement]
+- **End-to-end space-to-ground laser comms MoU (Oct 9, 2026).** Astrogate Labs (India) optical terminals + Spacebeam (South Korea) optical ground station network; terrestrial tests toward a space-to-ground demonstration; OGS-as-a-Service explored. [CLAIMED — MoU = intent, not hardware]
+- **Photonic quantum interconnect at >1,000 entanglement events/sec (Oct 12, 2026).** IonQ linked a trapped-ion qubit to a silicon-vacancy quantum memory via photonic interconnect — claimed 4x the previous record; modular quantum systems scale through photonic links. [CORROBORATED — company announcement + eeNews Europe; arXiv preprint]
+- **Programmable photonic processor over 1,300 km of three-mode fiber (Oct 2026).** Telecom-grade silica 8x8 Mach-Zehnder mesh (2.1 dB loss, full C-band, >96% fidelity); differentiable digital twin tunes the phase mesh via backpropagation to minimize modal dispersion. [CORROBORATED — technical writeup]
 
 ## Prediction engines
 
