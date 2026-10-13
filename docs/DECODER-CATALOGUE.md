@@ -451,6 +451,36 @@ The universal quantum decoder stays [SPECULATION] until proven.
   70%, overstock cut up to 50%, sales up 10–25%. Honest benchmark framing
   (incumbent's own metric, no surveys); still the vendor grading its own
   homework. [CLAIMED — vendor press release]
+- **Market-integrity honesty footnote (Oct 2026).** The Kalshi entry
+  carries its counterweight: Wisconsin's Democratic gubernatorial primary
+  priced Francesca Hong at ~95% before she lost to David Crowley
+  (traditional polling wrong too); Kalshi's enforcement layer — four
+  congressional candidates fined and suspended this year, <1% of US
+  election trades from foreign accounts, dedicated surveillance team, a
+  $1.25M LA mayoral-race trade self-corrected in nine seconds. The
+  CFTC's Oct 9, 2026 measures (event contracts into the "swap" definition;
+  casino-style gambling excluded) write the regulatory lane for
+  event-contract forecasting. "Priced at 95%" is a probability, not a
+  certainty — the receipt format only works when the misses stay on the
+  record. [CORROBORATED — Kalshi blog; AP-distributed coverage; CFTC]
+- **Bayesian early-warning signals for long-memory time series
+  (arXiv:2602.09731, Sørbye et al., Feb 2026).** Mixture of two fractional
+  Gaussian noise processes with a time-dependent weight — fractional
+  Gaussian noise with a time-varying Hurst exponent — estimated via
+  integrated nested Laplace approximation. Simulations map where
+  autocorrelation-change detection works; applied to real data it finds
+  early-warning evidence in a reconstructed Atlantic multidecadal
+  variability index and dismisses it for Dansgaard-Oeschger paleoclimate
+  records. A predictive method that publishes its negative result can say
+  "no signal" — the property separating predictive math from numerology.
+  [CLAIMED — preprint; peer review unconfirmed]
+- **Spectrum-guided teacher-student fault prediction (State Grid
+  Zhejiang team, ~Sep 2026).** Teacher scores fine-grained short-horizon
+  anomalies; student generalizes to longer prediction horizons; windows
+  auto-tuned by Bayesian optimization. Reported average F1 88.49% on the
+  SMD, PSM, SMAP, and MSL benchmarks. The detection-to-prediction
+  handoff in one method — automation of the estimator, not just the
+  estimate. [CLAIMED — secondary writeup; authors' numbers]
 
 ## Agent detection vs anti-detection
 
