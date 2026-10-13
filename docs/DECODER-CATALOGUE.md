@@ -869,6 +869,64 @@ The universal quantum decoder stays [SPECULATION] until proven.
   reframing; adversarial corpora must include no-hostile-instruction attacks.
   [CLAIMED — single researcher report]
 
+- **CSA: indirect injection defeats a production coding-agent safety classifier
+  (Sep 8, 2026).** Indirect prompt injection reliably defeated the safety
+  classifier of a production AI coding agent across many trials — the classifier
+  was the blocking control before execution. Same body of work cites 60–80%
+  attack success against Claude Code Auto Mode and names indirect injection via
+  tool outputs the core agentic control gap. Decoder lesson: classifier gates
+  are probabilistic filters, not guarantees. [CLAIMED — CSA summary via
+  secondary; primary research not read this pass]
+
+- **"The Attacker Moves Second" (arXiv:2510.09023, Oct 2025; OpenAI +
+  Anthropic + Google DeepMind).** Twelve published prompt-injection defenses
+  fell to adaptive attacks, most above 90% success despite originally reporting
+  near-zero; a $20,000-prize human red team defeated every defense tested.
+  Decoder lesson: fixed-suite defense evaluations overstate robustness — grade
+  every defense under adaptive attack only. [CLAIMED — via secondary writeups]
+
+- **Output filtering as the only holder (arXiv:2604.23887).** Nine defense
+  configurations tested over 20,000+ attacks: every defense relying on the
+  model to protect itself broke; the only defense that held was output
+  filtering in separate application code — zero leaks across 15,000 attacks.
+  Decoder lesson: enforcement must live outside the model. [CLAIMED — preprint
+  via secondary summary]
+
+- **Meta "Agents Rule of Two" (Oct 2025).** A single agent session should
+  satisfy at most two of {processes untrusted input, accesses sensitive data,
+  can change state or communicate externally}; when all three are truly needed,
+  a human must be in the loop. Decoder lesson: a doctrine-grade tripod rule
+  for session scoring; pairs with Willison's lethal trifecta. [CLAIMED —
+  Meta blog via secondary writeup]
+
+- **Willison's "lethal trifecta."** An agent is exploitable when it
+  simultaneously holds private data, processes untrusted content, and has an
+  external communication channel — break any leg. [CLAIMED — practitioner
+  vocabulary via secondary]
+
+- **Three zero-click / trusted-channel implant attacks (2026).**
+  (a) PerplexedBrowser (Zenity Labs, disclosed Mar 3): zero-click prompt
+  injection affecting Perplexity Comet and other agentic browsers — no user
+  interaction beyond the agent processing a crafted page during a routine task;
+  (b) BioShocking (LayerX, published Jun 24): indirect prompt injection
+  compromised six AI browsers/extensions (incl. ChatGPT Atlas, since patched;
+  Anthropic's Claude browser extension) by hiding instructions in webpage
+  content that steered agents into exfiltrating SSH credentials from
+  authenticated GitHub sessions; (c) Microsoft Copilot web (Aug 18): a
+  crafted URL using ?q= and ?autorun=1 auto-executed a hidden prompt inside the
+  victim's authenticated session, exposing emails and OAuth-connected apps.
+  Decoder lesson: the implant rides the channel the system already trusts —
+  browser, session, URL — with zero or one click. [CLAIMED — secondary
+  roundup; primary disclosures not verified this pass]
+
+- **Paubox filter-biasing (May 21, 2026).** Zero-font-size /
+  background-matching filler text used to bias AI-based filters —
+  Adidas-impersonation cloud-storage scam and a fake health-insurance email;
+  under one percent of observed phishing traffic. Decoder lesson: implants
+  target the defending classifier too, pre-poisoning the verdict — sanitize
+  hidden content before model consumption. [CLAIMED — vendor report via
+  secondary writeup]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
