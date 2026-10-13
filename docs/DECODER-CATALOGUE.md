@@ -151,9 +151,14 @@ formats. [VERIFIED]
 Quantum advantage is **problem-specific** (factoring, search, simulation,
 optimization) — not a universal "decode all information" engine. Active research:
 quantum error correction, quantum machine learning, quantum cryptanalysis.
-- **IonQ real-time QEC decoder (Sep 2026).** Company claims the first end-to-end
-  real-time quantum error correction decoder on one standard CPU; dual-decoder
-  architecture, circuits simulating up to 408 logical qubits. [CLAIMED]
+- **IonQ real-time QEC decoder (Sep 22, 2026 — details sharpened this pass).**
+  Dual-decoder architecture on a single off-the-shelf CPU; tested on simulated
+  circuits up to 408 logical qubits, 88 memory blocks and magic state factories,
+  31.5 million operations, 0.02% stretch time under standard noise. Carried by
+  multiple outlets. Honest caveat: validated on simulated data, not a live
+  system. Same week: Superion 256 announced as the first on-premise QPU at
+  NVIDIA's Accelerated Quantum Research Center.
+  [CORROBORATED as an announcement; claims company-sourced]
 - **LR-QAOA QEC-operations benchmark (Oct 2026).** Jülich preprint; 10 QPUs from
   IBM, IQM, Quantinuum; Quantinuum Helios-1 led, 91-data-qubit tests; a readiness
   gauge before full error-correction experiments. [CORROBORATED]
@@ -161,9 +166,13 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   Rutgers/IBM: ~5,000 two-qubit ops + ~5,000 measurement-and-reset cycles,
   sharp chaos-to-control transition — the feedback capability QEC requires.
   [CORROBORATED]
-- **PQC deadlines landing now.** Oct 2026: federal agency migration plans due;
-  Dec 2026: FAR Council proposed contractor-compliance rule; Jan 2027: CNSA 2.0
-  for new national-security-system buys (EO 14412 / OMB M-26-15).
+- **PQC deadlines landing now.** Oct 22, 2026: civilian agency migration plans due
+  to OMB/ONCD (the 120-day clock from OMB M-26-15); Dec 19, 2026: FAR Council
+  proposed contractor-compliance rule; Jan 1, 2027: CNSA 2.0 for new
+  national-security-system buys (EO 14412). Key establishment by end 2030,
+  digital signatures by end 2031. GSA federal PQC Summit Sep 16; EU roadmap FAQ
+  Sep 14. Only 13% of organizations report PQC in production
+  [CLAIMED — vendor-adjacent survey].
   [CORROBORATED]
 The universal quantum decoder stays [SPECULATION] until proven.
 
