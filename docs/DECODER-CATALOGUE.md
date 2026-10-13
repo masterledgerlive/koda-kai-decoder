@@ -315,6 +315,33 @@ The universal quantum decoder stays [SPECULATION] until proven.
   specimen's next move inherits the same protocol — time-bounded
   question, stated base rate, scored resolution. No public track record,
   no weight.
+- **Explanation Quality Markers (EQMs) — scoring the reasoning, not just
+  the number (arXiv:2606.30987, Jun 2026; Karvetski et al. incl.
+  Tetlock).** Sixty theory-guided reasoning patterns, scored by LLMs,
+  extracted from forecasters' written rationales. Pre-registered analysis
+  of 55,000+ forecast-rationale pairs from a multiyear tournament: EQMs
+  predict accuracy at forecast and forecaster level, beat pre-LLM text
+  methods, and transfer to an independent study. Asymmetric signal —
+  flags likely underperformers more reliably than it identifies the best.
+  Strongest traditional-indicator benchmark at forecast level (weaker
+  than prior accuracy at forecaster level). Decoder-design note: first
+  receipt-grade way to score reasoning quality — Gauntlet report cards
+  can audit the rationale trail, not just the number. [CORROBORATED —
+  pre-registered, large-N, independent transfer; peer review unconfirmed]
+- **Kairosis — Bayesian change-point informed forecast aggregation
+  (Univ. of York; arXiv:2408.00785).** Posterior probability at each time
+  point that it partitions the forecast stream into two
+  differently-distributed sets; integrated to a cumulative mass function,
+  weighted median taken. Reported to beat standard aggregation and stay
+  robust across disparate questions in geopolitical tournaments.
+  Candidate replacement for extremized-averaging baselines. [CLAIMED —
+  preprint; authors' own tests]
+- **DemandForecast.ai 2026 accuracy report (Oct 1, 2026; Pecan AI).**
+  Vendor self-benchmark of 15 live deployments vs each customer's
+  incumbent forecast: error down 14–56% (32% avg), planner effort down
+  70%, overstock cut up to 50%, sales up 10–25%. Honest benchmark framing
+  (incumbent's own metric, no surveys); still the vendor grading its own
+  homework. [CLAIMED — vendor press release]
 
 ## Agent detection vs anti-detection
 
