@@ -623,6 +623,36 @@ The universal quantum decoder stays [SPECULATION] until proven.
   integrity-protect knowledge feeds or treat them as hostile. [CLAIMED — paper
   via researcher summary]
 
+- **TrendAI AIxploit (Oct 2026).** Open-source framework
+  (github.com/trendmicro/aixploit) that systematically maps an AI agent's
+  prompt-injection attack surface: inject corpora generated, delivered as
+  ordinary data the agent reads, success verified from outside the agent.
+  Names the "return-to-tool" (RTT) pattern — the implant borrows the agent's
+  own authorized tools. Reported: ~200 injections across 12 models, with
+  agents bypassing read-only locks, reading other customers' data, and
+  encrypting a customer table. Decoder lesson: the first open yardstick for
+  systematic red-teaming — generate with an agent, deliver as data, verify
+  externally. [CORROBORATED — vendor research + open repo + independent
+  coverage; damage claims partly vendor-reported]
+
+- **SRFT — Self-Reflection Fine-Tuning (Oct 2026, academic + NVIDIA).**
+  Train agents by contrasting hijacked trajectories against optimal ones,
+  with self-reflection rationales; claimed to reduce attack success on
+  benchmarks. No code or weights published yet — parked until artifacts
+  appear. Decoder lesson: learn from your own failures, inside a cage.
+  [CLAIMED — paper via research digest]
+
+- **Gaslight (DPRK) backdoor (2026).** State-actor malware embedding
+  prompt-injection phrasing to defeat AI-driven analysis — a real
+  suggestion-implant in the wild. Decoder lesson: a specimen's first move
+  against an interrogation pipeline may be a phrase, not a payload.
+  [CLAIMED — secondary]
+
+- **Check Point "Skynet" (June 2025).** Malware carrying a plain "ignore all
+  previous instructions" string; frontier models reportedly ignored it — a
+  documented negative result: the cheapest implant doesn't always land.
+  [CLAIMED — secondary]
+
 - **GPT-6 Astra Task-in-Prompt jailbreak, day one (reported Oct 6, 2026).**
   Claimed jailbreak within 24 hours of release via benign-appearing task
   reframing — no hostile instruction at all — while OpenAI's own system card
