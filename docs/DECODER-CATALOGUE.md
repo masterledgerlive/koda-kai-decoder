@@ -1162,6 +1162,22 @@ The universal quantum decoder stays [SPECULATION] until proven.
   hidden content before model consumption. [CLAIMED — vendor report via
   secondary writeup]
 
+- **Zenity "AgentCorruption" vs Amazon Bedrock AgentCore (Oct 8, 2026).** One prompt to one public-facing agent yielded API keys, OAuth tokens, agent memory, and source code across the entire AWS account and region — over-privileged IAM roles let the compromised agent pivot across sibling agents. AWS disputed the classification (documented behavior, developer error required); Zenity says misconfigurations fixed, never crossed the account boundary. Significance: IPI turned one public agent into an account-wide skeleton key — cloud-agent orchestration is infrastructure, and the harness is the attack surface again.
+  - [CORROBORATED — first-party research via press; the dispute is on the record]
+  - Sources: https://pacific.london/insights/aws-agentcore-agentcorruption-prompt-injection-bedrock-ai-agent-credentials-uk-gdpr-least-privilege-identity-governance ; https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436
+- **Adversa vs GitHub Copilot CLI (reported Sep 17, 2026; bounty triage declined Oct 1).** Encrypted prompt injection: plaintext instructions caught and refused; the same instructions encrypted in fetched content were decrypted by the agent and executed, stealing source, config, and developer-disk credentials. Auto mode silently assigned the vulnerable model in some sessions. GitHub validated the finding but ruled it ineligible as a vulnerability. Defense prescription: no single string can be blocked — watch the action chain (untrusted content arrives, code runs, local files read, agent contacts unrelated host) and quarantine fetched content in a tool-less, credential-less context. Significance: the attack surface is the whole trusted context, not the prompt.
+  - [CLAIMED — researcher report; GitHub's ruling on the record]
+  - Source: https://cyberpress.org/github-copilot-cli-prompt-injection/
+- **Gemini 4 Argon IPI claim (reported ~Oct 12, 2026).** Google says Argon cut prompt injection to 0.7%; Gray Swan's March 2026 public arena (13 models, 464 red teamers, 272,000+ attempts) scored Claude Opus 4.5 at 0.5% and Gemini 2.5 Pro at 8.5% with a stricter dual objective (harmful action performed AND hidden from the user). Significance: the arena's dual objective is the honest yardstick — single-digit rates still mean invisible successes.
+  - [CLAIMED — vendor claim via secondary; no apples-to-apples comparison claimed]
+  - Source: https://dev.to/gabrielanhaia/google-says-gemini-4-argon-cut-prompt-injection-to-07-thats-not-zero-for-your-repo-155m
+- **ResumeShield: channel separation beats filter-stacking (arXiv:2609.20188, 2026).** Open Apache-2.0 defense + benchmark for IPI in AI resume screening: nine concealment techniques, two payload families, success scored only when the screening outcome changed. On 104 documents: naive pipeline manipulated in every injected case, defended never; channel separation ALONE removed all measured attack success, while the full filtering stack WITHOUT separation still left 16.7% effective. The "concealment dilemma": every evading payload was visible to a human — surrendering the invisibility that motivates the attack. Significance: architecture beats cleverness — data-envelope separation gets empirical legs.
+  - [CLAIMED — preprint via secondary]
+  - Source: https://arxiv.org/abs/2609.20188
+- **Adversa: silent failures in agentic security evaluation (Oct 2026).** Audit of an IPI benchmark harness found four defects (payloads never delivered; attacks scored by tool identity, not arguments); rescoring identical traces took 21.7% ASR to 1.2% and one model's 62.8% to 0%. ORBIT (open Inspect-based multi-agent safety framework) found coding-task defenses cutting a compromised agent's ASR by 60 points gave no protection against colluding agents. Significance: measure the instrument before trusting the number.
+  - [CLAIMED — first-party blog via secondary]
+  - Source: https://adversa.ai/blog/top-ai-agent-security-resources-october-2026/
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
