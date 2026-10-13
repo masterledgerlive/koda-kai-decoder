@@ -121,6 +121,23 @@ CLAIMED / SPECULATION.*
   (2) the tokenization assumption was the lock — correct statistics aimed at
   letters could never see syllables, so interrogate tokenization before statistics;
   (3) the crib breaks first — a guessed fragment, not bulk statistics.
+- **The Zimmermann telegram (1917) — the break that had to be laundered.**
+  German Foreign Secretary Arthur Zimmermann's January 16, 1917 offer of alliance
+  to Mexico — "make war together, make peace together," reconquer
+  Texas/New Mexico/Arizona — was intercepted and decrypted by Room 40's Nigel de
+  Grey and William Montgomery from German diplomatic code 0075. But a decrypt
+  that burns the source is half a break: the British built a cover channel — a
+  copy of the same message bought by bribery from a Mexican telegraph office,
+  encoded in the *older* code 13040 they had already captured — so the
+  intelligence could reach Washington (Hall → Bell → Page → Balfour → Wilson,
+  published March 1, 1917) while the 0075 break stayed hidden. Zimmermann
+  himself then publicly admitted the telegram was genuine — the sender validating
+  the break. [VERIFIED for the break and publication; CORROBORATED for the
+  laundering mechanics; the "Mr. H" identity is CLAIMED via autobiography]
+  Doctrine lesson: separate *what was learned* from *how it was learned* —
+  extraction reports carry findings, never the interrogation method. Obsolete
+  channels make good cover assets, and a specimen that confirms your extraction
+  hands you a free receipt.
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
