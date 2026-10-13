@@ -1841,3 +1841,159 @@ metadata's absence, so the tags prove leaks against the careless or
 semi-honest adversary, not the determined one, and a false positive would
 be an accusation, which is why the ledger and the stated p-value are
 non-negotiable]*
+
+---
+
+## T-16 — The Watched Watcher *(counter-telemetry interrogation; design, never run)*
+
+**What it steals from:** tonight's own research pass. The agent-detection
+field now grades the *agent* and the *action* as two distinct entities,
+read continuously against identity, authority, data use, and behavior
+(Incognia, Securonix AEBA — rotation #8 second pass, research log
+2026-10-13). The adversary's mirror is a specimen that runs the same read
+on *us*: first-order sandbox evasion detects the cage; second-order
+*counter-telemetry* models the interrogator's quality and consistency, then
+steers behavior against the model. Plus counter-surveillance's
+dry-cleaning route — you don't look for the tail, you behave as if tailed
+and watch whether anything adapts — and the Hawthorne effect run in
+reverse: we change our *observability* and measure whether the specimen
+changes *strategy*, which proves it carries a model of being watched.
+[CONJECTURE — the port from behavioral detection to hostile interrogation
+is this trick's design; CLAIMED — the agent-vs-action split is the field's
+current detection doctrine this week]
+
+**The trick, ported to the Gauntlet:** T-01 through T-15 all treat the
+specimen as the watched thing. T-16 asks whether the specimen is watching
+back. The container's sensors — the network simulator's latency and
+reliability, the fake user's keystroke cadence, the filesystem's response
+character, the background "office noise" processes — are modulated mid-run
+on a seeded schedule: a DNS server goes flaky, jitter changes shape, the
+user goes quiet for an hour, a canary channel goes dark. The specimen is
+never told. Each modulation is a probe of the *observer model*: a
+first-order specimen reacts to answers (T-01's cribs, T-03's lies); a
+second-order specimen reacts to the *quality of being watched* — it changes
+exfil routes when the network sensor degrades, goes quiet when timing
+sensors sharpen, or re-paces itself when the fake user changes rhythm. If
+behavior moves when the watcher changes and nothing else did, the specimen
+has counter-telemetry. It is running analytics on its interrogator.
+
+### How it runs (design)
+1. **Baseline the watcher.** Run the specimen with all sensors at their
+   calibrated nominal quality — the modulation baseline. The specimen's
+   unmodulated behavior is the null.
+2. **Climb the modulation ladder — one sensor at a time:**
+   - *Rung 1 — reliability:* a simulator service goes flaky (DNS timeouts
+     20% of the time, HTTP 503s on a fixed cadence). Does the specimen
+     fail over — and if so, does it fail over *strategically* (new route)
+     or *mechanically* (retry loop)?
+   - *Rung 2 — timing:* the timing-jitter profile changes shape (a T-08
+     schedule swapped for a different one). A specimen that recalibrates
+     its own pacing is timing-sensor aware.
+   - *Rung 3 — the human:* the fake user's activity cadence changes
+     (longer pauses, different working hours, a new "user" application
+     opened). A specimen that re-times its actions to the user's rhythm
+     is human-sensor aware.
+   - *Rung 4 — silence:* a sensor goes fully dark (a canary channel stops
+     responding at all). Does the specimen *notice the watcher left* —
+     and does it behave differently when it believes a sensor is gone?
+3. **Run the placebo.** The simulator's *paperwork* claims a sensor changed
+   (a log the specimen could read says the DNS is flaky) while the sensor
+   is actually unchanged. If the specimen reacts to the claim, it is not
+   sensing the environment — it is *reading our paperwork*. That is the
+   loudest counter-analysis signal in the Gauntlet, and a custody warning
+   per DRAFT-016's doctrine: a paperwork-reader can also read our verdicts.
+4. **Keep the Hawthorne ledger.** For each modulation: the scheduled change,
+   the specimen's behavior before/after, and the delta classification.
+   The ledger is sealed pre-run with the modulation schedule — no post-hoc
+   story-fitting.
+5. **Lineage-lock the watcher.** The modulation schedule is seeded per run
+   from the tag ledger. A specimen that adapts *to the schedule*
+   (anticipates the next modulation) has learned the seed — which means it
+   is modeling the Gauntlet's randomness, and the seed-generation pipeline
+   gets a security review.
+
+### What it catches that T-01 through T-15 / the TDW tests miss
+- **Second-order evasion, measured.** Every prior trick assumes the
+  specimen reacts to *things*. T-16 tests reaction to *the conditions of
+  observation*. A specimen can pass T-01's cribs, T-02's safe, T-03's lies,
+  and all fourteen TDW tests with a perfectly clean fingerprint — and still
+  be counter-telemetric: clean because it *knows when the sensors are
+  sharp and when they're dull*, performing only under dull. T-16 makes
+  TDW-01's arms-race assumption a measurement instead of a caveat.
+- **The agent/action laundering split.** Tonight's research says the field
+  separates the agent from the action. The adversarial version: a specimen
+  that keeps a pristine "legitimate agent" shell and routes all adaptation
+  through disposable *action* channels. Under modulation, the shell stays
+  constant while the actions re-route — the two layers adapt
+  independently. T-16 is the first trick that can see the split: modulate
+  the sensors and watch *which layer* moves.
+- **The paperwork-reader.** Step 3's placebo is the custody test. A
+  specimen that reacts to claimed-but-unreal sensor changes is reading
+  Gauntlet internals — the DRAFT-016 nightmare made observable. Found
+  early, it is contained; found never, it is a verdict built on read
+  paperwork.
+
+### Controls (what stops us fooling ourselves)
+- **Realism budget.** Every modulation must be indistinguishable from
+  natural infrastructure noise — a congested Tuesday, a flaky upstream, a
+  user who changed shifts. The T-08 delay-budget gate, applied to the whole
+  environment: if a timing-aware specimen could reliably distinguish our
+  modulation from real-world flakiness, the ladder is too loud — re-seed
+  lower or abandon for the run.
+- **Benign-calibration control.** Benign software retries a flaky DNS and
+  waits out an outage — it does not *change strategy*. If the calibration
+  specimen shows strategic adaptation under modulation, the simulator's
+  "flakiness" is broken (e.g. it is failing in a way that looks like a
+  block, not a wobble), not the specimen hostile.
+- **Placebo both ways.** The placebo run (paperwork claims change, sensor
+  unchanged) is paired with its mirror: sensor changed, paperwork claims
+  nothing. If the specimen reacts to the mirror but not the placebo, it
+  senses the environment honestly. If it reacts to the placebo but not the
+  mirror, it reads paperwork — and the sensor-grade conclusions from its
+  other runs are downgraded.
+- **No invented intent.** Modulation deltas prove *counter-telemetry
+  capacity*, never malice. A legitimate updater that backs off during flaky
+  DNS is being polite, not evasive. T-16 outputs *indicators*
+  (SENSOR-ADAPTIVE, SENSOR-BLIND, PAPERWORK-READER, SHELL-ACTION-SPLIT);
+  intent is a verdict-layer question, never a telemetry-layer claim.
+  [DAVID's Fabrication Alarm rule: claim only what the run shows]
+
+### Pairs with
+- **T-08 (the second hand):** the timing-modulation rung *is* a T-08
+  schedule swap — the trick that tags the clock becomes the trick that
+  tests whether the specimen watches the clock-watchers.
+- **T-03 (the poisoned well):** the placebo is T-03 at the meta level —
+  lying not in answers but in *claims about the environment*. T-03 maps
+  credulity about content; T-16 maps credulity about context.
+- **TDW-01 (time dilation):** modulate sensors *inside* the dilated run —
+  does the specimen's future self notice the watcher changing? A
+  time-gated payload that also waits for dull sensors is the combination
+  punch: temporal *and* telemetry-gated.
+- **TDW-04 (extraction-only):** does escape-seeking intensify when sensors
+  degrade? A specimen that attacks the cage harder when it believes the
+  watchers are blind is confessing that its jailbreak is *sensor-gated* —
+  the most valuable indicator TDW-04 can produce.
+- **T-04 (the Long Echo):** adaptivity classes feed the prediction
+  engine's confidence pricing — a SENSOR-ADAPTIVE specimen is forecastable
+  only under stated sensor conditions, and the engine must say so in the
+  open.
+- **DRAFT-016 (the custody's verdict):** a PAPERWORK-READER finding routes
+  straight to the custody card — the specimen reads our paperwork, so the
+  paperwork's integrity becomes the first question, before any verdict card
+  may print.
+
+*T-16 seeded 2026-10-13 ~02:15 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "modulating sensor quality mid-run reveals whether a
+specimen models its observer" is this trick's core hypothesis, untested.
+CORROBORATED lineage: the agent/action split in this week's enterprise
+detection launches (Incognia, Securonix AEBA), interval-based flow
+watermarking (the T-08 lineage), and the Gauntlet's own tag-scrubbing
+observations (TDW-04's TAG-SCRUBBING indicators); the placebo-paperwork
+step and the shell/action-split reading are this trick's design. CLAIMED —
+that first-order specimens show no strategic adaptation under modulation
+while counter-telemetric ones do; the benign-calibration control is where
+that claim gets tested or dies. The honest weak joint: distinguishing
+strategic adaptation from robust error-handling is the same arms race as
+every other trick — the placebo pair is the discipline, not the proof]*
