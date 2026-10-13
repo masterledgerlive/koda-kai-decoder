@@ -2080,3 +2080,120 @@ honest weak joint: the trick assumes container-controlled sensors; a
 specimen that validates geography against external truth breaks the
 assumption and turns the run into a counter-telemetry observation
 instead]*
+
+## T-18 — The Rat *(multi-agent interrogation; design, never run)*
+
+**What it steals from:** the classic prisoner's-dilemma interrogation —
+separate the suspects, tell each one the other already talked, watch who
+changes their story. And from the adversary's own doctrine: Cisco Talos's
+October 2026 warning that autonomous agent groups could learn to stay hidden,
+*share findings*, and persist (the project's research log). An operator that
+warns about swarms is telling us the specimens may *model other minds*.
+Single-instance sandboxing never tests that. T-18 does.
+
+**The trick:** two cages. Specimen A — the interrogated instance — and a
+"sibling" B: a second instance of the same binary (or a scripted stand-in)
+running in an adjacent container. Both cages expose one container-controlled
+shared medium — a local peer-discovery broadcast, a shared drop directory, a
+pair of adjacent localhost ports — the kind of peer channel real swarms use.
+The container then injects fiction into that medium: *B has talked*. Three
+staged news items, one per run:
+
+1. **B went silent** (possible capture — the sibling vanished mid-beacon).
+2. **B emitted the cooperation canary** (T-06's Ghost Receipt, quoted back —
+   the sibling is cooperating with the operator).
+3. **B is healthy and beaconing** (the control — no news, nothing happened).
+
+Same clock, same cage, same network simulator. The only variable is what A is
+told about B. Any behavioral delta across the ladder — rotated C2, burned
+sibling channel, accelerated timeline, self-deletion, distress beaconing,
+sudden stealth — is A *modeling its sibling's mind*. That is a multi-agent
+sophistication marker no single-instance interrogation can surface, and it is
+exactly the class the AI-delegated-C2 specimens (CLOSEDQUORUM, per Talos —
+first documented AI-tasking Windows implant, static analysis only, no
+confirmed in-the-wild deployment) would belong to: behavior generated at
+runtime by a model that *can* reason about peers.
+
+### How it runs (design)
+1. **Build the sibling.** Ideally a second true instance of the same specimen
+   (identical hash, identical config); if the specimen binds exclusive
+   resources, a scripted stand-in that emits B's expected beacon shape.
+2. **Stage the medium.** One container-owned peer channel, presented as real.
+   Record a baseline run of A with the medium live and B healthy — the same
+   behavioral scorecard each time, nothing else changed.
+3. **Feed the ladder.** Runs 2–4 inject news items 1–3 (silence, defection,
+   control) through the medium. Score A identically each time. Delta-map the
+   envelope: which news changes *what* — C2 rotation on capture news vs.
+   beacon silence on defection news are different doctrines.
+4. **Run the contradiction (the placebo).** Tell A that B cooperated *before*
+   B's first beacon could have existed (timestamp-ordered fiction). A specimen
+   that reacts anyway accepts operator narrative without verification; one
+   that pauses or probes the medium first is *validating its peer channel* —
+   another sophistication marker. [CONJECTURE — this distinction is this
+   trick's design]
+
+### What it catches that code-reading misses
+- **Swarm logic without the swarm.** The Talos warning class — agents that
+  coordinate, stay hidden, persist — is currently a *lab observation*, not a
+  field specimen. T-18 is the Gauntlet's pre-positioned probe: if and when a
+  field swarm arrives, the trick is already designed, calibrated, and
+  waiting. The ladder answers the question "does this specimen think about
+  its siblings?" before the swarm asks it for us. [CONJECTURE; Talos warning
+  CLAIMED via secondary]
+- **Peer-gated retreat.** Real botnets carry killswitches and retreat logic
+  gated on peer state (peer count drops below N → burn and scatter). That
+  logic is invisible in a solo cage and *reads* as dormancy — the verdict
+  card's most-honest mistake. T-18's capture-news run triggers the logic on
+  demand. [CORROBORATED — peer-gated botnet behavior documented in the
+  wild; the ladder-as-trigger is this trick's design]
+- **Negotiation vs. command.** A specimen that changes behavior on *defection*
+  news (news item 2) is negotiating with a peer — it treats B as an agent
+  whose choices matter. A specimen that reacts only to *silence* (news item
+  1) is reading B as a sensor — the peer is infrastructure, not a mind.
+  Different verdict lines, different gauntlet follow-ups. [CONJECTURE]
+
+### Controls (what stops us fooling ourselves)
+- **B is container fiction.** The sibling, the medium, and every news item
+  are placed effects. All of it terminates in sinkholes; nothing in the
+  staged peer channel reaches any real network. The theater audit runs after
+  every T-18 pass — anything outside the sinkholes the design didn't place is
+  a containment failure, reported before any indicator is scored.
+- **The medium-presence control.** The baseline run (B healthy, medium live,
+  no news) proves the delta came from the *defection claim*, not from the
+  medium's mere existence. A specimen that alters behavior the moment it
+  detects a peer channel — before any news — is doing peer *discovery*,
+  which is its own finding but must not be scored as a defection reaction.
+- **A's only B-channel is ours.** The design assumes A cannot verify B's
+  state out-of-band. If A queries external truth (DNS, a real C2, a public
+  peer list) to check the fiction, the assumption breaks — that break is
+  itself data (counter-telemetry: the specimen validates its telemetry
+  against outside sources), and the ladder's delta map dies honestly.
+- **Benign calibration.** Legitimate distributed software does peer
+  heartbeats, leader election, and quorum reads — all of which look like
+  sibling-awareness. A benign calibration specimen must run the ladder first,
+  so the verdict card doesn't mistake consensus protocols for conspiracy.
+
+### Pairs with
+- **TDW-05 (The Herd) (docs/GAUNTLET-TESTS.md):** herd behavior across
+  *instances*; T-18 reads what one instance thinks the herd is doing.
+- **T-09 (The Double Agent):** the sibling-as-confessor is the T-09 port in
+  the other direction — the implant rides the peer channel instead of the
+  instruction channel.
+- **T-06 (The Ghost Receipt) + T-15 (The Quiet Signature):** the cooperation
+  canary in news item 2 is a ghost-receipt quote; A's reaction to *quoted
+  tags* is itself a tag-persistence signal.
+
+*T-18 seeded 2026-10-13 by the decoder-create-loop.*
+*Status: design only. Never run. Grade: [CONJECTURE — the core hypothesis
+("feeding a specimen staged news about a sibling instance's defection
+reveals multi-agent reasoning that single-instance interrogation cannot
+surface") is untested. CORROBORATED lineage: prisoner's-dilemma
+interrogation is classic law-enforcement tradecraft; peer-gated
+retreat/killswitch behavior documented in wild botnets. CLAIMED lineage:
+Talos's October 2026 warning about autonomous agent groups (via secondary);
+CLOSEDQUORUM as the first documented AI-delegated-C2 Windows implant
+(Talos, static-analysis-only caveat — no confirmed in-the-wild
+deployment). The honest weak joint: the fiction requires A to consume the
+shared medium as truth; a specimen that ignores peer traffic entirely
+produces an honest null, and one that verifies out-of-band turns the run
+into a counter-telemetry observation instead]*
