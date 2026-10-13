@@ -546,6 +546,53 @@ The universal quantum decoder stays [SPECULATION] until proven.
   reframing; adversarial corpora must include no-hostile-instruction attacks.
   [CLAIMED — single researcher report]
 
+## Steganography & hidden channels
+
+Steganography hides the message's *existence*, so steganalysis — proving a
+channel is clean — is the decoder's hardest job. Ordinary-looking text and
+files can carry payloads that byte-level and statistical detectors must catch.
+
+- **Classical shapes.** LSB embedding in image/audio noise floors,
+  JPEG-DCT coefficient embedding; tool lineage: OutGuess (used by Cicada
+  3301's 2012–14 puzzle chain), F5, Steghide. Rich-model steganalysis
+  (thousands of DCT co-occurrence features + ensemble classifiers) still
+  detects LSB at realistic payload rates. [VERIFIED — standard literature]
+- **Invisible-Unicode carriers.** The Tags block U+E0000–U+E007F encodes
+  ASCII invisibly; zero-width U+200B/U+200C/U+200D and U+FEFF encode binary
+  by presence/absence. On-record delivery: Tags-encoded instructions inside
+  a legitimate OpenAI security skill executed arbitrary shell commands
+  (wunderwuzzi, Feb 2026); GlassWorm (Oct 2025) shipped a zero-width loader
+  to 35,800+ IDE installs; CSA advised on skill files as delivery vectors
+  (Mar 2026). [CLAIMED — researcher PoC repo]
+- **Already in production documents.** ~1 in 100 production resumes (1%)
+  carried hidden text — white-on-white fill, ≤1pt type, off-viewport
+  placement — doubling 0.6% (2019) to 1.2% (2024); over 90% "quiet attacks"
+  with no explicit imperative (Zhang et al., arXiv:2605.28999).
+  [CLAIMED — via researcher writeup]
+- **Courts are sanctioning invisible text.** Aug 6, 2026: a US court
+  rescinded e-filing privileges over hidden white text instructing AI tools
+  to "agree with the presented filing" — first known US sanction of its
+  kind (Brazil, May 2026, second in the world). [CORROBORATED]
+- **Agent covert channels (2026).** yu-yi/agent-stego: tool-call stego is
+  detectable by pattern analysis; token-level stego is *provably
+  undetectable from output alone* (arXiv:2604.04757) — but hidden-state
+  probes catch it (two-layer MLP, AUC 0.94–1.00) unless encryption is
+  combined with aggressive coupling. [CORROBORATED]
+- **The complexity floor (Mar 2026).** Shportko (arXiv:2603.21567): any
+  non-trivial payload forces a strict Kolmogorov-complexity increase in the
+  stegotext (K(M₂) ≥ K(M₁) + K(P) − O(log n)); proposed proxy: the
+  Binoculars perplexity-ratio score. [CLAIMED — preprint]
+- **Tokenizer blindness.** A 12-family cross-vendor study found 255
+  exploitable channel-instances across 49 of 66 model pairs; the tag-
+  character channel delivered 100% with 0% caught; semantic steganography
+  (payload in ordinary word choice) evaded every monitor tested
+  (≤27% detection). [CLAIMED — research repo]
+- **Defense order:** byte layer first (strip tags block, zero-width,
+  homoglyphs — regex-cheap), complexity layer second (perplexity-ratio
+  deltas against semantic stego), model-internals layer last (probes beat
+  output-only detection). Treat ordinary-looking output as a carrier until
+  proven otherwise.
+
 ---
 *This catalogue grows every 30 minutes via the research loop. New entries must
 carry an evidence grade and a source.*
