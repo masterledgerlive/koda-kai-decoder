@@ -297,6 +297,33 @@ formats. [VERIFIED]
 - **Offline machine translation wave (Sep–Oct 2026) — the stealth language decoder**: Tether TranslatePsy-AfriSLM (open-source, offline, 19 African languages, 0.8/2/4B parameters; vendor claims it beat 122B-class systems on FLORES-200/BOUQuET/SMOL), Tencent Hunyuan MT (440 MB offline; internal benchmarks claim it beats Google Translate in 33 languages), Google TranslateGemma (open, 4/12/27B, 55 languages), Microsoft Harrier-OSS-v1 (Mar 2026, open-weight embeddings, 107 languages, MTEB v2 SOTA). On-device offline translation is a translation layer with no cloud trace, field-deployable on mid-range phones. Vendor benchmarks stay CLAIMED; the architecture fact (works with no connectivity) is the capability to track.
 - **Binary decoders — decompilers & disassemblers**: the tools that decode foreign code itself, machine language back into readable form. Disassemblers (bytes → assembly): IDA Pro (the commercial standard since the 1990s), Ghidra (open-sourced by the NSA at RSA 2019), Binary Ninja, radare2. Decompilers (assembly → C-like pseudocode): Ghidra's built-in decompiler, Hex-Rays, Binary Ninja's IL layers. Before a specimen is ever run or behavior-probed, its binary is *read* — structure recovered without executing a single instruction. [VERIFIED]
 - **The hostile-parser rule applies to our own tools**: malware fights back at the decoder layer — anti-disassembly tricks (junk instructions that desynchronize disassembly, opaque predicates, control-flow flattening) exist to break the analyst's instrument. So the disassembler itself is a hostile-input parser: it runs inside the container, never on the analyst's host, and its output is graded, not trusted. A specimen that crashes or misleads the decompiler has revealed its first behavior — it knows it's being read. [CORROBORATED]
+- **Google DeepMind SL2T (Aug 2026) — sign-language-to-text ships in a consumer
+  phone**: the first sign-language AI in a real consumer product (Pixel 11) —
+  on-device landmark tracking, only geometric coordinates sent to the server,
+  video discarded. 100,000+ hours across 50+ sign languages; 70 BLEURT on
+  FLEURS-ASL. A new language-decoder modality: visual-language decoding
+  (landmark geometry to text) with independent grammars, true translation
+  rather than word-for-word conversion. The privacy design cuts both ways —
+  you can only ever subpoena the coordinates, never the recording.
+  [CORROBORATED]
+- **Talksign Palm 1.0 / Echo 1.0 (May 2026, rollout Aug 20)**: bidirectional
+  real-time ASL — Palm 1.0 sign-to-speech/text (71,000+ ASL samples, claimed
+  79.6% word-level accuracy), Echo 1.0 spoken/written language into
+  sign-language video via photorealistic avatars at 30 FPS, under-30ms
+  latency. On-device landmark extraction; acknowledged limits. [CLAIMED]
+- **Noise-proof low-resource MT via semantic-anchor constraint (~Oct 2026)**:
+  meaning-survival encoded as an optimization constraint. With only 5,000
+  sentence pairs: BLEU 16.3 on high-morphological-complexity languages (+3.7
+  over a standard Transformer); ~26% gain at 20% input corruption for the
+  most noise-vulnerable language group. Low-resource MT is a
+  decode-through-noise problem — the same shape as reading a hostile foreign
+  format. [CLAIMED]
+- **NiuTrans.LMT (Northeast University, China; open-sourced ~Oct 2026)**:
+  Chinese-English dual-center multilingual translation, 60 languages, 234
+  directions; 29 low-resource languages (Tibetan, Swahili, Bengali) pushed
+  from "untranslatable" to "usable" via augmentation and transfer learning.
+  [CLAIMED]
+
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
