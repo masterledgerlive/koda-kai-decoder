@@ -983,3 +983,12 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — arXiv preprint via secondary writeup; sim-only]
 - **Non-news:** the Oct 13 DARPA QBI piece (IonQ + IBM to Stage C) restates the logged milestone; Quantinuum Helios-1 LR-QAOA benchmark and the IonQ Sep 22 decoder details are unchanged since earlier passes.
 - **Library update:** public DECODER-CATALOGUE.md §(e) gained the Alice & Bob NVQLink GPU LDPC-cat entry and the Google virtual-error-cancellation entry. Material.
+
+## 2026-10-13 14:05 EDT — Photonic comms & power (rotation #6)
+
+- **Star Catcher Protostar detail (Transporter-18, Oct 1, 2026).** The satellite-to-satellite laser power-beaming test has not run yet; deployment verified across outlets. Company claims a 1.1 kW ground-based record at NASA Kennedy, $88M in venture funding, a Space Force Strategic Funding Increase award (reported at both $30M and $60M — unresolved), 10 power-purchase agreements and 40+ LOIs.
+  - [VERIFIED deployment; CLAIMED — company figures]
+- **Voyant Photonics OCS engine for AI data centers (Oct 13, 2026).** Chip-scale optical circuit switching engine adapted from its LiDAR photonic switching platform, sold as a building block to networking vendors; Citi forecasts the OCS market at $11B by 2030.
+  - [CLAIMED — company press release]
+- **Non-news:** MIT beam-steering, Infleqtion cavity, NavTech OpticSpectra 40G, and the Southampton spectrum slicer are already on the record; Cowboy Space Reason-1's ground-beaming attempt is unchanged (late October target). Google's Project Suncatcher (orbital TPUs) is compute, not photonics — noted only.
+- **Library update:** DECODER-CATALOGUE.md photonic section gained the Protostar detail expansion and the Voyant OCS entry. Material.
