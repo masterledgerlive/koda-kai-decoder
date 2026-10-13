@@ -907,3 +907,17 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://www.explainx.ai/blog/gpt-6-astra-enigma-wwi-cipher-decoded-2026
 - **Non-news this pass:** retellings of the same Enigma breaks add no new facts; the "Mavis Lever / Abwehr Enigma" piece is evergreen educational content, previously skipped; the Times' Napoleon-cipher piece is confirmation-by-mention of the already-catalogued Marmont break.
 - **Library update:** none this pass — the public catalogue already carries all four 2026 AI cipher breaks. NOT MATERIAL (routine confirmation pass).
+
+## 2026-10-13 11:57 EDT — Codecs & formats (rotation #2, second pass)
+
+- **ETRI "video coding for AI" (announced Oct 11; demoing at KES 2026, Seoul, Oct 13–16).** South Korea's Electronics and Telecommunications Research Institute unveiled an AI video-encoding technology based on the MPEG Video Coding for Machines (VCM) standard: instead of transmitting full video, it extracts, compresses, and transmits only the feature information needed for AI to detect, classify, and track objects. ETRI is pursuing international standardization. Decoder significance: the first track-visible deployment of *machine-oriented* encoding — a format class whose correctness is measured against model accuracy, not human perception. The "plays everything" surface now includes feature-tensor streams nobody can eyeball; the codec-parser attack surface gains a non-visual, model-coupled member.
+  - [CORROBORATED — two outlets reporting ETRI's own announcement; demo underway this week]
+  - Sources: https://www.telecompaper.com/news/etri-develops-video-compression-technology-designed-for-ai-analysis--1585320 ; https://www.digitaltoday.co.kr/en/view/112967/etri-to-unveil-ai-video-analysis-focused-compression-technology-at-kes-2026
+- **VVC adoption "accelerates" into mobile (Oct 8, 2026; MC-IF / Access Advance executive vidcast).** VVC is described as moving from early-adopter to early-majority: smartphone makers preparing VVC-capable products, mobile chipsets moving toward commercial availability in H2 2026, plus Android OS support, streaming deployments, and growing VVC Advance patent-pool participation. Decoder significance: closes the mobile gap left open by the Feb 2026 Android 17 VVC entry — a hardware/driver-level H.266 parser on the phone fleet is the OS-scale hostile-input surface expanding.
+  - [CLAIMED — patent-pool executive's own interview via press release; commercial interest in the adoption narrative]
+  - Source: https://accessadvance.com/2026/10/08/vvc-adoption-accelerates-as-mobile-hardware-breaks-through-codec-deployment-barrier/
+- **intoPIX at NAB Show New York (Oct 21–22).** JPEG XS line-up (TicoXS family, Temporal Differential Coding, JPEG XS Extended per IPMX), IPMX-certified Titanium platform, Titanium SDK 2.0 for software-defined ST 2110/IPMX endpoints, and the Privacy Encryption Protocol (VSF TR-10-13). Existing-standard demo news — no new format.
+  - [CORROBORATED — vendor exhibition announcement via 4rfv]
+  - Source: https://www.4rfv.co.uk/industrynews/335799/intopix_to_demo_jpeg_xs_ipmx_and_smpte_st_2110
+- **Non-news this pass:** VeriSilicon VC9800D AV2 decode IP (June 2026) already in the library's AV2 entry — same press release recycled; no Google "voxel codec" product (stays a research question).
+- **Library update:** public DECODER-CATALOGUE.md codecs section gained the ETRI VCM machine-coding entry, the VVC mobile-adoption wave, and the intoPIX/IPMX note.
