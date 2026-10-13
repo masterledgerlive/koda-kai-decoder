@@ -746,3 +746,16 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — secondary only]
 - **Routine:** SciPy 1.18.1 (Aug 2026); SymPy still 1.14.0. No technique change.
 - **Library update:** MATH-PHYSICS.md gained the LLM-guided symbolic-regression section. MATERIAL.
+
+## 2026-10-13 — Unsolved ciphers & prize bounties (rotation #13, second pass)
+- **buttcrack — cipher-breaker repo (ahardkore; updated early Oct 2026; MIT).** Exhaustive K4 cryptanalytic suite: claimed 12-of-12 reproducibility suite, book manuscript, interactive web app, reproductions of the ten Paradigm Kryptos puzzles PK1–PK10, and a claimed deterministic K4 solution. Self-verified only — the ground-truth plaintext is sealed (2075), so no external cross-check is possible. Lesson: 2026 independent attacks ship reproducibility suites as standard.
+  - [CLAIMED — no independent verification]
+  - Source: https://github.com/ahardkore/buttcrack---cipher-breaker/blob/HEAD/kryptos/README.md
+- **Anonymous "Voynich DECODED" claim (June 2026, author unknown).** Complete claimed decipherment with self-assigned confidence scores; no external validation, no peer review. A claim that grades itself is speculation, not evidence.
+  - [SPECULATION]
+  - Source: https://voynich-production-8b6c.up.railway.app/dl/VOYNICH_DECIPHERMENT_KEY.pdf
+- **Indus script: Tamil Nadu's $1,000,000 prize still open.** No award as of Oct 2026; claimant emails continue; no accepted reading.
+  - [CORROBORATED — press recirculation via BBC reporting]
+  - Source: https://www.Unilad.Com/news/money/harappan-script-india-offer-1-million-solve-511366-20250128
+- **Beale, Linear A, Rongorongo, others:** no status change.
+- **Library update:** UNDECIPHERED.md scoreboard — K4 (buttcrack CLAIMED), Voynich (anonymous DECODED SPECULATION), Indus (prize still open). MATERIAL.
