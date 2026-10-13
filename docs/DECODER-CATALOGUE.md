@@ -130,6 +130,13 @@ formats. [VERIFIED]
   template for hieroglyphs/Mayan/cuneiform-class scripts, and the same order
   the Gauntlet uses on a foreign format: structure first, appearance second.
   [VERIFIED — paper at DOI 10.1038/s40494-026-03012-6]
+- **The Indus attack as decoder template (Oct 2026)**: a new claim to have
+  deciphered the Indus script (see UNDECIPHERED.md) matters for its method,
+  not its conclusion — it treats decipherment as a cryptanalytic attack with
+  an explicit falsifiability criterion (Shannon's unicity distance), naming
+  the conditions under which it is wrong. The decoder-grade question to ask
+  of any future machine decipherment: what would prove it false?
+  [CLAIMED — method described in interview; paper not peer-reviewed]
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
