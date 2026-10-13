@@ -23,9 +23,9 @@ What works, and where it breaks:
 - **Kalman / particle filters:** state estimation in noisy systems; Kalman is optimal *only* for linear-Gaussian — everything else is approximation. [VERIFIED — filtering theory]
 - **Time-series forecasting (ARIMA, Prophet-style, neural):** short-horizon structure only; uncertainty explodes with horizon. Any "prediction engine" claim beyond short, well-conditioned horizons must carry its confidence interval or it's theater. [CORROBORATED — forecasting literature consensus]
 - **Prediction markets — what they can credibly claim (Zitzewitz NBER working paper, Oct 2026):** no systematic partisan bias found across the largest election-market sample ever assembled (1880–2025); at the one-day horizon, a left-leaning bias of ~4.5pp or right-leaning bias of ~3pp is ruled out. But they are not oracles: in 2024 they matched statistical models nationally yet underperformed down-ballot, and polls and markets make *different, largely unrelated errors* — the honest posture is the ensemble, not the single number. [CORROBORATED — working paper; not yet peer-reviewed]
-- **Precursor-of-anomaly detection (FATE, arXiv:2602.17028, preprint):** ensemble disagreement across time-series forecasters as an early-warning signal — no labels, no target values at inference; new PTaPR metric scores early-warning promptness, not just detection. [CLAIMED — preprint]
+- **Precursor-of-anomaly detection (FATE, arXiv:2602.17028, preprint):** ensemble disagreement across time-series forecasters as an early-warning signal — no labels, no target values at inference; new PTaPR metric scores early-warning promptness, not just detection. Watch: replaying this in the Gauntlet's telemetry watch is the natural test. [CLAIMED — preprint]
 - **Benchmark honesty as method (RAP, Scientific Reports 2026):** random analog prediction is deliberately simple — its stated value is that any complex model that cannot beat it has no business claiming skill. This is the Gauntlet rule applied to forecasting: a dumb baseline must be on the scoreboard before a smart model earns a grade. [CORROBORATED — peer-reviewed paper]
-- **Score the reasoning, not just the number (EQMs, arXiv:2606.30987, pre-registered):** sixty LLM-scored reasoning patterns extracted from forecasters' written rationales predict tournament accuracy across 55,000+ forecast-rationale pairs, beating pre-LLM text methods, transferring to an independent study — and flagging underperformers asymmetrically better than it crowns winners. Cross-ref: DECODER-CATALOGUE.md "Prediction engines". [CORROBORATED — pre-registered, large-N; peer review unconfirmed]
+- **Score the reasoning, not just the number (EQMs, arXiv:2606.30987, pre-registered):** sixty LLM-scored reasoning patterns extracted from forecasters' written rationales predict tournament accuracy across 55,000+ forecast-rationale pairs, beating pre-LLM text methods, transferring to an independent study — and flagging underperformers asymmetrically better than it crowns winners. Cross-ref: DECODERS.md §(g). [CORROBORATED — pre-registered, large-N; peer review unconfirmed]
 - **The Gauntlet rule:** every prediction ships with its assumptions, its data, and its error bars. Prediction without a confidence interval is not decoding — it's guessing.
 
 ## 4. Physics shelf (reference equations the Gauntlet can call)
@@ -175,69 +175,126 @@ spatial grid), for §1's "real physics PDEs" line — or a time-dilation
 scenario runner that puts a specimen binary on a time-warped guest
 clock and decodes the delta, the Gauntlet's actual use case for ODEs.
 
-## New engine notes (2026-10-12)
+## New engine notes (2026-10-12 research loop — math/physics track)
 
-**DyME (CORROBORATED).** Distributed engine automating thousands of protein
-molecular-dynamics simulations: pdb4amber prep, guided setup wizard
-(solvation, neutralization, boundary conditions, ensemble), anchor-point
-mutagenesis with clustering, pre-launch GPU-hour budgeting — the first
-cohesive bulk-MD campaign platform. Decoder relevance: the bulk "what could
-happen" oracle at thousand-fold scale.
+**DyME (CORROBORATED — research platform, covered Oct 2026).** Distributed
+molecular-dynamics campaign engine: covers preparation, mutagenesis,
+simulation, feature extraction, storage, and comparative exploration of up to
+several thousand molecular systems in one platform. Pipeline: pdb4amber prep
+for Amber file conventions, guided web wizard (solvation model, ionic
+neutralization strategy, periodic boundary conditions, temperature, ensemble,
+step size, equilibration/production lengths), anchor-point interfacial
+residues with clustering enumerating singlet/doublet/triplet permutations,
+and pre-launch GPU-hour budgeting. Decoder relevance: bulk MD is the
+brute-force "what could happen" oracle — the Gauntlet's scenario runner at
+thousand-fold scale rather than one specimen at a time.
 Source: https://scienmag.com/dyme-a-new-engine-automates-thousands-of-protein-simulations-for-molecular-design/
 
-**FFTM (CORROBORATED — SoftwareX 2026, Evstigneev, GPL-3).** Portable
-distributed three- and four-dimensional FFTs across multi-GPU systems:
-vendor-agnostic (CUDA + HIP), autotuned, dense Cartesian real-to-complex /
-complex-to-real, with reproducible capsules and checksum manifests. Already
-in use on an all-Fourier turbulence project. Known limits: one MPI rank per
-GPU, no sparse/nonuniform transforms. Decoder relevance: the spectral
-primitive for coupled 3D/4D computation at the scale the Gauntlet needs.
+**FFTM (CORROBORATED — SoftwareX 2026, Evstigneev, doi:10.1016/j.softx.2026.103110,
+GPL-3).** Portable distributed three- and four-dimensional FFTs for
+multi-GPU systems: vendor-agnostic (CUDA + HIP), automatically tuned,
+real-to-complex and complex-to-real, dense Cartesian only. Ships reproducible
+Docker capsules, checksum manifests, validation records. Already used in an
+all-Fourier discretization project stabilizing relative periodic orbits in
+turbulent flows; known limits: one MPI rank per GPU assumed, no sparse or
+nonuniform transforms, NVSHMEM support planned. Decoder relevance: spectral
+transforms are the core primitive for decomposing dynamics into modes —
+this is the library you reach for when the Gauntlet needs coupled 3D/4D
+spectral computation on the machines where the largest simulations run.
 Source: https://scienmag.com/new-fft-library-pushes-four-dimensional-transforms-across-multi-gpu-supercomputers/
 
-**Watch items (not graded):** hotSpring (Rust lattice QCD/MD, AGPL-3.0);
-LJFusion (CUDA Lennard-Jones MD); gumol-rs (Rust MD for radiation damage).
-Hobby-scale, on the bench.
+**Watch items (no 2026 milestone — not graded):** hotSpring (pure-Rust lattice
+QCD / MD / fluids on commodity GPUs, AGPL-3.0); LJFusion (CUDA Lennard-Jones
+MD, 10-100x claims); gumol-rs (Rust hybrid CPU/GPU MD for radiation damage /
+space environments). Hobby-scale, kept on the bench.
 
-## The 2026 LLM-guided symbolic-regression wave (2026-10-13 research loop)
+## 10. New engine notes (2026-10-13 research loop — the LLM-guided symbolic-regression wave)
 
-Five 2026 efforts converge on one architecture: the LLM stops guessing
-equations and starts *guiding* a classical symbolic-regression engine (PySR,
-PySINDy) — as search-space shaper, symmetry finder, or physics-knowledge
-scorer. The LLM is the scout; the genetic programmer is the engine.
+Five 2026 efforts converge on one architecture: the LLM stops guessing equations
+and starts *guiding* a classical symbolic-regression engine (PySR, PySINDy) — as
+search-space shaper, symmetry finder, or physics-knowledge scorer. The LLM is the
+scout; the genetic programmer is the engine.
 
-**InsightSR (CORROBORATED — arXiv:2608.25291, Aug 26, 2026).** LLM guiding
-layer around PySR: Semantic Seed Pathway proposes dimensionally consistent
-functional skeletons; Structural Feature Pathway recommends nonlinear feature
-transformations; feedback loop refines guidance. Reported: 95% exact recovery
-on the Feynman benchmark, 80.18% on the LLM-SRBench LSR-Transform task.
-Numbers author-reported, unreplicated.
+**InsightSR (CORROBORATED — arXiv:2608.25291, Aug 26, 2026).** LLM guiding layer
+around PySR: Semantic Seed Pathway proposes dimensionally consistent functional
+skeletons; Structural Feature Pathway recommends nonlinear feature
+transformations; a feedback loop scores candidates and refines guidance.
+Reported: 95% exact recovery on the Feynman benchmark, 80.18% on the
+LLM-SRBench LSR-Transform task. Numbers author-reported, unreplicated.
+Takeaway for us: shallow trees over rich, semantically informed features beat
+deep trees over raw variables — structure the search space first.
 Source: https://arxiv.org/abs/2608.25291
 
 **EO-SR — Engineering-Oriented Symbolic Regression (CORROBORATED —
-arXiv:2603.19241v1, Feb 2026).** LLM as "physics-informed agent" synthesizing
-executable physical constraints (thermodynamic consistency, frame
-indifference). Discovered a novel hybrid constitutive law for rubber-like
-materials (Mooney-Rivlin base + rational locking term) with FEM convergence
-where the industry-standard Ogden N=3 model fails.
+arXiv:2603.19241v1, Feb 2026).** LLM as "physics-informed agent" that zero-shot
+synthesizes executable physical constraints (thermodynamic consistency, frame
+indifference), turning the search from curve-fitting into physics-governed
+discovery. Discovered a novel hybrid constitutive law (Mooney-Rivlin linear
+base + rational locking term) for rubber-like materials: zero-shot pure-shear
+prediction, unconditional convexity, FEM convergence under severe transverse
+compression where the industry-standard Ogden N=3 fails on singularities.
+The Gauntlet rule demonstrated: a discovered law earns its grade only when it
+survives FEM/benchmark contact.
 Source: https://arxiv.org/abs/2603.19241v1
 
 **IdeaSearchFitter (CORROBORATED — arXiv:2510.08317, Jan 2026).** Semantic
-search over an "interpretable ansatz space": LLMs propose rationales before
-symbolic forms ("explain-then-formalize"). Reported: 82.5% recovery
-noise-free, 71.7% at high noise, beating PySR and AI-Feynman.
+search over an "interpretable ansatz space": the LLM proposes natural-language
+rationales before symbolic forms ("explain-then-formalize"), constraining
+candidates to physically plausible models. Reported on FSReD: 82.5% recovery
+noise-free, 71.7% at high noise (gamma = 0.1), beating PySR and AI-Feynman.
 Source: https://arxiv.org/pdf/2510.08317
 
-**PiSR — LLM knowledge in the loss function (CORROBORATED — Scientific
-Reports, 2026, peer-reviewed).** LLM physics-knowledge score folded into the
-SR loss as a soft constraint. Authors' honest read: improvements real but
-non-uniform — a configurable prior, not a guaranteed win.
+**Symmetry-discovery agents (CLAIMED — via secondary review repo, 2026).** The
+"Think-like-a-Scientist" / KeplerAgent pattern: train a tiny neural-net
+surrogate, optimize an infinitesimal generator for the symmetry group (e.g.
+2-D rotational symmetry), then run equivariant SINDy inside that subspace.
+No first-party paper read this pass — parked as a claimed architecture until
+we read the source.
+Source: https://github.com/yuxuzhou-cn/review-for-symbolic-regression
+
+**PiSR — LLM knowledge in the loss function (CORROBORATED — Scientific Reports,
+2026, peer-reviewed).** An LLM physics-knowledge score (dimensional
+consistency, simplicity, physical realism) folded into the SR loss as a soft
+constraint; tested across three SR engines, three open LLMs, three physical
+dynamics. Honest result from the authors: improvements real but non-uniform —
+the LLM term is a configurable prior/regularizer, not a guaranteed win.
 Source: https://www.nature.com/articles/s41598-026-35327-6
 
-**Symmetry-discovery agents (CLAIMED).** Train a neural-net surrogate,
-optimize the symmetry group, run equivariant SINDy inside it. No first-party
-read yet — parked until verified.
+**Decoder relevance:** symbolic regression is the decoder pointed at physics —
+recovering the hidden law from noisy observations is cryptanalysis with a lab
+notebook. The "scout + engine" split mirrors the Gauntlet's own architecture
+(models propose, the cage verifies with receipts). Any equation-discovery use
+inside the Gauntlet must carry the same bar: benchmark or FEM contact before
+the grade, never the paper's numbers alone.
 
-Decoder relevance: symbolic regression is the decoder pointed at physics —
-the hidden law is the plaintext in the data. Every discovered law earns its
-grade only on benchmark or simulation contact, never on the paper's numbers
-alone.
+## 11. New engine notes (2026-10-13 research loop, 10:30 EDT — math/physics track)
+
+**SINDy field result: North Atlantic governing equations (CLAIMED — secondary
+writeup, ~Oct 10 2026).** Sparse Identification of Nonlinear Dynamics trained on
+AMV / NAO / precipitation-anomaly monthly indices from ERA5 (Jan 1950–Dec 2022,
+12-month running average, 30-term constant/linear/quadratic library). LASSO
+sparsity cut + 1,000-bootstrap ensemble → 344 candidate models; <13-term models
+collapsed, blew up, or sat on rigid limit cycles; only 21+ term models showed
+chaotic attractors matching observation. Pareto-selected 26-term model; 50,000-year
+simulated trajectories reproduce the irregular Lorenz-like variability; validated
+on held-out ERA20C 1900–1949. Shelf implication: the engine gets a field-scale
+reference case — sparse identification + bootstrap robustness + Pareto selection
+as the honest pipeline shape for recovering hidden laws from noisy time series.
+
+**Hard static gain-sign constraints (CLAIMED — Neural Computing and Applications,
+38(17) Art. 726, Oct 2026; paper not read this pass).** Impose hard constraints
+on the *sign* of each input's static gain — no phenomenological model, no
+penalty-weight tuning; covers shallow/deep, static/recurrent, ELM and
+gradient-based training. Constrained gradient training was generally *cheaper*
+than unconstrained. The authors' line for our honest ledger: "a validated model
+with excellent metrics can still be qualitatively wrong" — the sign of causality
+is the minimum bar of physical honesty. Shelf implication: a cheap
+enforced-causality training gate, and another instance of the standing rule that
+enforcement lives outside the model — same family as the output-filtering result
+(§(k)) and the Anthropic permissions note (§(j)).
+
+**SymbolicRegression.jl v2.5.0 (CORROBORATED — first-party release notes,
+2026-09-28).** Performance release only (worker startup, allocation-free
+tournament selection, hoisted mutation weights). No new technique; tool-shelf
+version note.
+Source: https://github.com/astroautomata/SymbolicRegression.jl/releases/tag/v2.5.0
