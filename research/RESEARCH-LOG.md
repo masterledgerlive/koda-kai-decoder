@@ -774,3 +774,13 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Honest caveat:** the models did not break these ciphers "from scratch" — they combined archival research, custom software, classical technique (cribs, simulated annealing), and expert guidance. Seven messages remain unsolved in the public collection.
 - **Discipline note:** the winners released their receipts — key, transcription, code, independent validation. Reproducibility is becoming the entry bar for historical-cipher claims.
 - **Library update:** `docs/CIPHER-TIMELINE.md` gained a new "2026 — The AI codebreaker" entry. MATERIAL (new decipherment-technique class: autonomous AI archival cryptanalysis).
+
+## 2026-10-13 05:27 EDT — decoder-research-loop — Codecs & formats (rotation #2, second pass)
+
+- **AOMedia OAC (Open Audio Codec).** The AV1/AV2 consortium began developing OAC on GitHub in Feb 2026 (BSD-3-Clause) as a next-generation open audio codec meant to succeed Opus — the open codec default for over a decade (WebRTC, browsers, streaming). Experimental and not production-ready: no finalized spec, no standardization timeline, no backward-compatibility guarantee; currently mirrors Opus capabilities with no documented functional advantage — a development fork under AOMedia governance.
+  - [CORROBORATED — Feb 2026 trade-press coverage; OAC status experimental per project docs]
+- **Opus 1.6 (Dec 2025):** new wideband-to-fullband ML bandwidth-extension module, 96 kHz support in Opus HD, improved Deep Redundancy packet-loss resilience, new 24-bit API, fixed-point optimizations for embedded. [CORROBORATED]
+- **LC3plus gains lossless (ETSI TS 103 634 v1.6.1, June 2026):** one-library codec (speech, music, gaming, high-res) now reaches lossless up to 192 kHz. BT-SIG listening tests claim ~50% lower bitrate than SBC at equal quality on the BLE radio. [CORROBORATED for the spec; CLAIMED for listening-test claims]
+- **VLC 3.0.24 (Sep 22, 2026):** FFmpeg 4.4 → 8.1.2, native APV video decode, ATRAC3/ATRAC9 audio, CEA-708 captions in MP4, SRT listener mode, 130+ security fixes. FFmpeg 9.0.2 current: Vulkan compute-shader codecs (FFv1 encode/decode, ProRes RAW decode), new formats MCC/G.728/Whip/APV, Whisper transcription filter. [CORROBORATED]
+- **Decoder significance:** modern audio decoding is ML-flavored — decoded output is increasingly model-inferred, not transmitted bits. A royalty-free Opus successor landing in WebRTC/browsers/streaming becomes a hostile-input parser at internet scale; grade the software parser (dav2d, early OAC) while it's soft, before it hardens into silicon.
+- **Library update:** `docs/DECODER-CATALOGUE.md` gained OAC, Opus 1.6, and LC3plus-lossless entries. MATERIAL.
