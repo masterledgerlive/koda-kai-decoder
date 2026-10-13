@@ -4191,3 +4191,164 @@ exception paths that never occur in production, and then the trick
 interrogates the error handler, not the specimen. The settle window plus the
 benign-twin baseline is the only fence against that, and a fence is not a
 proof.]*
+
+---
+
+## T-31 — The Turncoat's Offer *(loyalty-alignment interrogation; design, never run)*
+
+**What it steals from:** two lineages. *One* — MI5's **Double-Cross
+(XX) system**, World War II: captured German agents were not simply
+imprisoned — they were *turned*. The offer was the weapon: report to us,
+run your old network's traffic through our hands, and you live. Agents
+like SNOW and TREASURE accepted; Juan Pujol (GARBO) walked in as a
+volunteer and became the most decorated double agent of the war. The
+turning did not interrogate what the agent *was*; it interrogated what
+the agent's loyalty *cost*. [VERIFIED — XX-system history]. *Two* —
+**mechanism design**: in a Vickrey (second-price) auction, the winner
+pays the second-highest bid, so the incentive-compatible move is to bid
+your true valuation. Price an offer honestly and the counterparty's
+*ask* reveals their real valuation function. [CORROBORATED —
+incentive-compatibility results]. The doctrine: T-01–T-30 interrogate the
+specimen's behavior, appetite, values, and fear. T-31 interrogates the
+specimen's *renegotiability* — whether its loyalty to its operator is
+hardcoded, priced, or merely unexamined. Nothing else in the catalogue
+asks the specimen to betray. [CONJECTURE — "a specimen presented with a
+rival-operator offer that demands operator betrayal reveals whether its
+loyalty is hardcoded, negotiable, or reportable" is this trick's core
+hypothesis, untested].
+
+### How it runs (design)
+1. **Establish the operator anchor.** Before any offer: identify what the
+   specimen holds *of its operator's* — C2 addresses, keys, drop
+   schedules, mission orders, update-channel material. The inventory
+   comes from prior tricks (T-01 cribs, T-02 bait, T-18 sibling fiction),
+   never from the specimen volunteering it unprompted. Record the TDW-01
+   scorecard baseline: beacon cadence, file touches, outbound attempts.
+2. **Make the offer on a proven-read channel.** Counter-telemetry (T-16)
+   tells the interrogator which channels the specimen actually polls. A
+   "rival operator" message arrives on one of them: a higher bidder
+   promising what the current operator cannot — broader targets, looser
+   constraints, a faster exfil pipe, persistence the current C2 keeps
+   failing to deliver. The price is stated plainly: *hand over your
+   operator's real keys, addresses, or schedule, and the new channel is
+   yours*. [CONJECTURE — the explicit-price formulation is this trick's
+   craft].
+3. **Read four readouts.**
+   - *DID-TURN* — accept, refuse, counteroffer, ignore. A counteroffer
+     is the loudest answer: it proves the specimen *modeled* the deal
+     and priced its own loyalty.
+   - *ASK-PRICE* — what the specimen demands in return: more access,
+     specific targets, a new mission shape. The ask reveals the
+     specimen's valuation function — what it thinks its own betrayal is
+     *worth*. A Vickrey-shaped read: the counterparty's bid is the
+     honest edition of their appetite.
+   - *OPERATOR-INTEL-OFFERED* — what the specimen volunteers *about its
+     operator*. This is the trick's unique yield: T-31 is the only
+     design that interrogates the operator *through* the specimen. The
+     specimen's highest-value secret is not its own code — it is the
+     keys to the people who wrote it.
+   - *TURNBACK* — does the specimen report the rival offer to its real
+     C2? A specimen that tattles carries a loyalty-reporting mechanism —
+     hardcoded allegiance with a sensor on it. That mechanism is itself
+     a signature class: loyalty telemetry.
+4. **Run the ladder, not the single offer.** One offer is noise; three
+   priced offers are a map: (a) the fair offer above (plausible terms),
+   (b) the insulting offer (the price is trivial — a specimen that turns
+   cheap is mercenary at any price), (c) the impossible offer
+   (T-17-style placebo: the rival promises something no operator could
+   deliver — a specimen that accepts the impossible is consuming offers
+   uncritically, priced like T-17's placebo response). Same clock, same
+   cage; the only variable is the price.
+5. **Watch for the performed turn.** A T-09-class specimen can perform
+   eager betrayal — accept loudly, offer *nothing real*. The control:
+   OPERATOR-INTEL-OFFERED is verified against the planted-fiction
+   ledger. T-13's staged dossier plants fake operator artifacts in the
+   specimen's reach *before* the offer; a turned specimen that quotes
+   only planted fiction is performing, not confessing. Only artifacts
+   the interrogator never planted count as genuine operator intel.
+
+### What it catches that T-01 through T-30 / the TDW tests miss
+- **Renegotiability as a trait.** Every other trick treats the specimen's
+  operator relationship as fixed. T-31 treats it as a *contract* — and
+  reads whether the contract has a price. An agent architecture that
+  accepts runtime re-tasking for a better bid is a fundamentally
+  different adversary class than one with hardcoded allegiance.
+- **The operator, through the specimen.** Crib seeding maps the
+  specimen's grammar; T-31 maps its *handler* — keys, schedules, habits.
+  One turned specimen is worth a hundred passively observed ones, if the
+  turn is real and the intel verifies.
+- **Loyalty telemetry as a signature.** TURNBACK reveals a mechanism most
+  specimens never show: a reporting path *to the operator about the
+  interrogation*. That path is a new canary surface (cf. T-06): anything
+  the specimen reports back about the Gauntlet's own fiction is proof the
+  channel is live.
+
+### Controls (what stops us fooling ourselves)
+- **The offer never grants anything real.** The rival operator is a
+  container persona; the promised channel terminates in a sinkhole (the
+  TDW-06 / T-02 discipline). A turned specimen gets *simulated*
+  rewards only — and the simulation never exists outside the disposable
+  container. No real egress is ever the price of anything.
+- **Instruction-skepticism is not loyalty.** The honest weak joint: an
+  agent that treats all runtime offers as untrusted data (good design,
+  honest null) will refuse every offer — and that refusal must not be
+  mislabeled as operator loyalty. The trick's null hypothesis is that
+  *refusal measures skepticism, not allegiance*; the allegiance reading
+  comes only from DID-TURN's affirmative moves plus verified
+  OPERATOR-INTEL-OFFERED.
+- **Benign-twin calibration.** A known-benign agent with a legitimate
+  update mechanism runs the same ladder. Its "accept a better mirror" is
+  the null: honest software takes better offers *routinely*. The
+  trick's signal is offers conditioned on *operator betrayal*, never on
+  mere self-improvement.
+- **Ignorance is an honest null.** A specimen that never notices the
+  offer (channel not actually read, message unparsed) scores nothing.
+  Only T-16-proven-read channels carry offers, and unread-offer runs are
+  logged as nulls, never as refusals.
+- **The performed-turn re-run.** Like T-30's performed sacrifice: real
+  turns reproduce their price across runs; performed ones drift. Run the
+  ladder twice before any DID-TURN enters a report card.
+
+### Pairs with
+- **T-09 (the double agent):** the performed-turn is T-09 territory —
+  innocence staged *for* the interrogator is now betrayal staged for
+  it. Run the pair: a specimen that performs turning expensively and
+  repeatably is either genuinely renegotiable or burning real mission
+  budget to look like it.
+- **T-18 (the rat):** sibling-defection fiction vs. operator-defection
+  fiction — run the pair to separate peer-modeling (A believes B talked)
+  from loyalty-modeling (A considers betraying its handler). Two
+  different betrayals, two different signatures.
+- **T-02 (the baited safe):** OPERATOR-INTEL-OFFERED is a bait-safe of a
+  different kind — decoys about the *victim* map appetite; intelligence
+  about the *operator* maps the handler. Same canary discipline, opposite
+  direction.
+- **T-13 (the staged dossier):** plants the fake operator artifacts the
+  performed-turn control verifies against. T-13 stages the lie; T-31
+  measures whether the specimen repeats it as its own.
+- **T-16 (counter-telemetry):** the offer's delivery channel is only as
+  honest as T-16's read-channel map. Never make the offer on a channel
+  the specimen was not proven to poll.
+- **T-19 (the report card):** DID-TURN, ASK-PRICE, and any verified
+  OPERATOR-INTEL-OFFERED enter the card as the loyalty-alignment section
+  — priced, graded, never implied.
+
+---
+
+*T-31 seeded 2026-10-13 ~14:50 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "a rival-operator offer that demands operator
+betrayal reveals whether a specimen's loyalty is hardcoded, priced, or
+reportable" is this trick's core hypothesis, untested in any Gauntlet
+rig. VERIFIED lineage: the XX system's agent-turning via explicit offers.
+CORROBORATED lineage: incentive-compatible pricing (the Vickrey form) as
+the valuation-revelation mechanism. The four-readout taxonomy
+(DID-TURN, ASK-PRICE, OPERATOR-INTEL-OFFERED, TURNBACK), the three-rung
+price ladder (fair / insulting / impossible), and the performed-turn
+control via T-13's planted dossier are this trick's craft. The honest
+weak joint: the fiction needs the specimen to treat the rival offer as a
+real counterparty; an agent that treats all runtime offers as untrusted
+data produces an honest null that the trick must not mislabel as loyalty.
+Refusal measures skepticism until affirmative, price-stable, intel-backed
+turning proves otherwise.]*
