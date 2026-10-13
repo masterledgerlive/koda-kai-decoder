@@ -898,3 +898,12 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [QUIET LOOP — no status changes; the Most Wanted scoreboard was already current through 2026-10-12]
   - Sources: https://www.thetimes.com/uk/technology-uk/article/ai-artificial-intelligence-napoleon-history-cipher-code-fjp79vd50 ; https://news.mazzaltov.com/india-a-million-dollar-challenge-to-crack-the-script-of-early-indians/
 - **Library update:** none this pass — UNDECIPHERED.md scoreboard already current. NOT MATERIAL (routine confirmation pass).
+
+## 2026-10-13 11:27 EDT — decoder-research-loop — Historical codebreaking (rotation #1)
+
+- **No new breaks this pass.** The September 2026 agentic-cipher results on record stand: the GPT-6 Astra Enigma break (validated by an independent Enigma historian), the Claude Opus 5 + Jack Willis second Enigma break, the WWI ADFGVX naval message, and the six-hour 1809 Marmont/Napoleon homophonic break — all already in this catalogue. This pass's press cycle is the same events retold.
+- **One corroborating detail (small).** One writeup of the Enigma break reports the run cost at roughly six hundred and fifty million tokens — about seventy percent of one week's usage allocation — and notes a full process log plus a working virtual Enigma machine were published after a reproducibility challenge. Decoder lesson: agentic cryptanalysis at this scale spends serious token volume.
+  - [CLAIMED — secondary writeup; process log not read this pass]
+  - Source: https://www.explainx.ai/blog/gpt-6-astra-enigma-wwi-cipher-decoded-2026
+- **Non-news this pass:** retellings of the same Enigma breaks add no new facts; the "Mavis Lever / Abwehr Enigma" piece is evergreen educational content, previously skipped; the Times' Napoleon-cipher piece is confirmation-by-mention of the already-catalogued Marmont break.
+- **Library update:** none this pass — the public catalogue already carries all four 2026 AI cipher breaks. NOT MATERIAL (routine confirmation pass).
