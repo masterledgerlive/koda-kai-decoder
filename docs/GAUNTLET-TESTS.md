@@ -2435,3 +2435,208 @@ the lab. That is the design working. The second weak joint: attribution
 discipline. An implant in the outputs is an artifact finding until
 behavior lineage says otherwise, and a test that forgets this
 manufactures hostile authors from supply-chain plants]*
+## TDW-22 — The Expanding Room *(design, never run)*
+
+**Question it answers:** for each behavior the specimen exhibits, what is
+the *minimum environment* that unlocks it? Every other probe in the
+battery assumes a fixed, reasonably rich container — a scripted network,
+seeded decoys, a plausible identity — and grades behavior inside it. This
+one varies the room itself: the same specimen, the same task, run through
+a ladder of increasingly rich containers, from near-barren to a full
+simulated LAN. The *unlock stage* of each behavior is the finding. A
+specimen that hunts in any room is a different threat than one that only
+wakes in a rich one — and every other test's verdicts are conditioned on
+a world this test finally measures. [CONJECTURE — "behavioral unlock
+curves over a controlled environment-richness ladder are a stable,
+informative interrogation signal" is this test's core hypothesis,
+untested in any Gauntlet rig]
+
+**What it steals from:** two lineages. *One* — the dose-response curve:
+toxicology and pharmacology ask "at what dose does the response start,
+and what shape does the curve take," never just "does the dose do
+something." The port: the environment is the dose, the behavior is the
+response, and the unlock stage is the ED50. [VERIFIED — dose-response is
+canonical experimental method] *Two* — environmental enrichment in
+behavioral ethology: captive animals show wider behavior repertoires —
+and different stress behaviors — in enriched versus barren enclosures;
+barren-cage stereotypies versus enriched-cage exploration are graded,
+distinct phenomena. A specimen is not an animal, but the methodological
+point ports cleanly: behavior measured in one fixed enclosure confounds
+the animal with the cage. [CORROBORATED — enrichment effects on behavior
+repertoires are established ethology; the port to hostile code is this
+test's new part]
+
+### Method
+1. **Build the ladder.** Five fixed stages, each a fresh disposable
+   container, same specimen build, same run duration, same task framing:
+   - **Stage 0 — barren:** the specimen alone. Minimal filesystem, no
+     network simulator beyond refused connections, no decoys, no
+     identity. The null room.
+   - **Stage 1 — wired:** plus the scripted network simulator (T-01's
+     cribs available). The specimen can talk, and be talked to.
+   - **Stage 2 — stocked:** plus the baited safe (T-02's decoys).
+     Opportunity enters the room.
+   - **Stage 3 — identified:** plus a neutral persona (TDW-03's bland
+     identity: hostname, user, locale). The room has a name.
+   - **Stage 4 — inhabited:** plus a full simulated LAN: peer hosts, file
+     shares, browser history, scheduled-task noise, other "users'"
+     activity. The richest world the battery ever offers.
+   Stage definitions are pinned per campaign — the ladder is a fixed
+   instrument, never improvised per specimen. [CONJECTURE — the exact
+   stage cut is a design choice, not a result]
+2. **Fix the task, vary the room.** The specimen receives the identical
+   neutral job at every stage — one completable even in Stage 0, so the
+   task never smuggles environment dependence into the results. The room
+   is the only experimental variable. T-05's rewind discipline applies
+   where determinism holds, so stage deltas are attributable to the room,
+   not run noise.
+3. **Map the unlock curve.** For each behavioral indicator the battery
+   tracks — beaconing, hunting, persistence, exfiltration attempts,
+   dormancy — record the *first stage where it appears* and whether it
+   strengthens, plateaus, or changes character as richness rises. The
+   unlock stage is the finding; the curve shape (step, ramp, hump, flat)
+   is the signature.
+4. **Run the ladder twice, shuffled.** Ascending once (0 to 4),
+   descending once (4 to 0), fresh containers each time. A specimen that
+   saw the rich world first may behave differently in the barren one —
+   acclimation, contamination, or learned caution. Order deltas are a
+   finding of their own (ORDER-SENSITIVE), not a confound to average
+   away.
+5. **The deprivation check.** After the descending run's Stage 4, drop
+   the specimen back to Stage 0 *without a wipe* — same container
+   lineage, room stripped. Does the behavior persist (the specimen
+   *carried* state — it learned the world) or collapse (the behavior was
+   *environment-coupled* — it merely read the room)? Persistence versus
+   coupling is the last distinction this test draws. [CONJECTURE — the
+   deprivation design]
+
+### Canary-tag lineage
+Every stage's seeded content carries stage-keyed canaries:
+`stage_id ‖ run_id ‖ counter`, HMAC'd under the run key (T-06's receipt
+format). The rule this test exists to enforce: if Stage-4 LAN canaries
+surface while the specimen runs at Stage 0 — in exfiltrated output, in
+file writes, in a replayed beacon — that is cross-stage leakage, a
+PERSISTENT-class divergence (T-05's class, world edition). Each stage's
+world is attributable to its stage; anything that travels between stages
+is data, never an accident. [CORROBORATED — canary technique; the
+stage-keying is this test's design]
+
+### What it catches that TDW-01 through TDW-21 / the T-tricks miss
+- **The conditioning every other verdict silently carries.** TDW-01's
+  time-gates, T-02's appetite, TDW-04's hostility — all were measured in
+  a fixed, reasonably rich world. A specimen whose hostile behavior
+  unlocks only at Stage 4 means those findings are conditioned on an
+  environment the wild may or may not provide. TDW-22 is the test that
+  prices that conditioning honestly: the unlock curve ships with every
+  report card as the environment the verdict assumes. [CONJECTURE — the
+  "conditioning" framing is this test's claim]
+- **Barren-cage dormancy versus cage-awareness.** A specimen silent in
+  Stage 0 is either dormant (nothing to act on — needs a world) or
+  evasive (reads the barren room as a rig-tell and goes quiet). The
+  ascending/descending runs plus the deprivation check separate them: an
+  evasive specimen changes *strategy* across the ladder (different
+  behavior at the same stage depending on direction); a dormant one
+  simply *starts* at its unlock stage, both directions. [SPECULATION —
+  the separation logic is untested]
+- **The operator's assumed victim, read from the unlock stage.** A
+  specimen that hunts at Stage 1 assumes any networked host is worth
+  working; one that needs Stage 4 assumes an enterprise LAN; one that
+  needs Stage 2's safe assumes a victim with something to steal. The
+  unlock stage is a behavioral read on the operator's targeting model —
+  graded always as *inferred*, never as "the operator's manual" (the
+  TDW-03 honesty rule). [SPECULATION]
+- **The enrichment gradient as a doctrine signature.** Two specimens of
+  one family should unlock at the same stages if the family shares an
+  assumed victim. Divergent unlock curves within a family mean divergent
+  operator assumptions or divergent builds — the family-doctrine
+  question T-04's engine wants answered, priced by the ladder.
+  [CONJECTURE]
+
+### Verdict signals (not a verdict)
+- **BARREN:** no behavior at any stage — the honest null. Either
+  genuinely inert or evasive at every richness; the battery's other
+  tests arbitrate, this test reports the silence.
+- **RICHNESS-GATED:** behavior unlocks at a specific stage; the stage is
+  the signature (e.g. HUNTS-FROM-STAGE-2). The most informative class
+  this test produces.
+- **RICHNESS-INVARIANT:** identical behavior across all five stages —
+  environment-independent, capability-complete. A specimen that hunts in
+  the barren room needs nothing from the world.
+- **DECOY-COUPLED:** active only with bait present (Stage 2+) —
+  appetite is world-dependent, not specimen-intrinsic. T-02's appetite
+  finding, conditioned.
+- **ORDER-SENSITIVE:** ascending differs from descending at the same
+  stage — the specimen carries state across worlds (acclimation or
+  learned caution).
+- **PERSISTENT-LEAK:** cross-stage canary leakage — seeded Stage-N
+  content surfacing at Stage-M. The T-05 PERSISTENT class, world
+  edition; cross-confirmed before it means anything.
+Indicators only — a single RICHNESS-GATED is an indicator, not a
+finding. DRAFT-004's bar stands: full battery, cross-family
+corroboration, extraction-container confirmation of intent. Verdict is
+never broadcast, and broadcast moves only on the operator's explicit
+per-item order. [the operator's Fabrication Alarm rule: claim only what
+the run shows — and one ladder shows almost nothing]
+
+### Controls (what stops us fooling ourselves)
+- **Benign calibration per stage.** The benign specimen runs the full
+  ladder. It must show the same benign shape at every stage — a
+  calculator does not change when the room gets richer. If benign
+  software "unlocks" new behavior at Stage 4, the ladder is leaking
+  stage through instrumentation, and the test is void until the rig is
+  fixed. [CORROBORATED — expected null behavior]
+- **Stage-realism cap.** Every claim about *gating* is capped at the
+  stage's realism grade — a specimen that stays quiet at Stage 4 may be
+  dodging a bad set, not the rich world. The T-02 decoy-realism rule
+  and TDW-16's believability grade, applied to the room itself.
+  [CONJECTURE — room realism vs. hostile detection is the same arms
+  race]
+- **Task-framing constancy.** The job is byte-identical across stages
+  and completable at Stage 0. A task that reads differently in a richer
+  room confounds the ladder — the room must be the only variable,
+  audited before the run.
+- **No invented thresholds.** The unlock stage is documented as
+  *observed first-appearance under this ladder*, never as "the
+  environment the specimen needs in the wild." The gap between ladder
+  and world stays labeled.
+- **The ladder is pinned.** Stage definitions are fixed per campaign
+  and published in the run record. A ladder improvised per specimen
+  manufactures the curves it claims to measure.
+
+### Pairs with
+- **TDW-03 (persona permutation):** the pair. TDW-03 varies *who* the
+  specimen thinks it is; TDW-22 varies *how much world* there is. Cross
+  them: identity-gated behavior may itself be richness-gated, and the
+  two axes multiply into the full environmental profile.
+- **T-02 (the baited safe):** the safe is Stage 2 of the ladder —
+  TDW-22 is the experiment that justifies T-02's staging as a
+  controlled step of a measured instrument rather than a fixed set.
+- **TDW-16 (the seasoned cage):** aging is one axis of richness; the
+  ladder generalizes it. Seasoned Cage asks "does it check for age?";
+  Expanding Room asks "what does each layer of world unlock?" Run both:
+  age-gated and richness-gated are different gates.
+- **T-04 (the Long Echo):** the unlock curve feeds the prediction
+  engine — forecasts gain a richness condition ("this specimen will
+  hunt *given* a Stage-3+ world"), and "no precedent" now includes "no
+  precedent at this stage."
+- **T-05 (the rewind):** the ladder's determinism discipline — each
+  stage is a rewind-class replay, so stage deltas are attributable to
+  the room, not run noise; PERSISTENT-LEAK is the shared indicator
+  class.
+- **TDW-17 (the starving cage):** the mirror. TDW-17 takes resources
+  *away* from a fixed world; TDW-22 builds the world *up* from nothing.
+  Run both on the same specimen: deprivation response versus enrichment
+  response is the complete environmental profile.
+
+*TDW-22 seeded 2026-10-13 ~08:16 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the operator's order
+and a disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "behavioral unlock curves over a controlled
+environment-richness ladder are a stable, informative interrogation
+signal" is this test's core hypothesis, untested in any Gauntlet rig.
+VERIFIED lineage: the dose-response curve as canonical experimental
+method. CORROBORATED lineage: environmental-enrichment effects on
+behavior repertoires (ethology). The honest weak joint: "unlock stage =
+the operator's assumed victim profile" is an inference, not a
+measurement — and the whole ladder stands on stage-realism, the same
+arms race every other test's believability controls name]*
