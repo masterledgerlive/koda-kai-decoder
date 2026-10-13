@@ -336,6 +336,35 @@ The universal quantum decoder stays [SPECULATION] until proven.
   containment create confidence where there should not be any — and a
   reasoning model may detect the decoy, bypass it, or tamper with its
   reporting. [CLAIMED]
+- **Cloudflare Sandbox cross-tenant storage flaw (disclosed Sep 4,
+  2026; reported Oct 2026).** Every Cloudflare Container runs in a
+  dedicated Firecracker microVM, but the dm-thin storage provisioning
+  did not clear recycled disk blocks before handing them to a new
+  container — so a sandbox could read the previous tenant's leftover
+  data (two thousand seven hundred foreign directory entries detected
+  in the proof of concept across six placements). Not a container
+  breakout or Firecracker escape: the microVM held, the storage
+  provisioning beneath it did not. Cloudflare reports no evidence of
+  malicious exploitation; remediated fleet-wide. [CORROBORATED —
+  researcher report + Cloudflare statement]
+- **gVisor donated to CNCF (reported Oct 10, 2026).** Google's
+  application-kernel sandbox moves under the Cloud Native Computing
+  Foundation umbrella — institutional acceptance of the user-space
+  kernel isolation layer, in the same month Docker launched
+  post-container Cloud Sandboxes. [CORROBORATED — trade press]
+- **Docker Sandboxes v0.47.0 (Oct 5, 2026).** Proxy hardening for
+  agent sandboxes: OAuth token interception fixed, unrecognized
+  OAuth grants rejected, raw TCP to denied hostnames blocked,
+  hostname allowlists no longer gain implicit allow-everything
+  rules. [CORROBORATED — Docker docs release notes]
+- **Agent37 (YC F26, launched Oct 12, 2026).** Hosted agent
+  sandboxes averaging $0.37/month per sandbox — about ten percent
+  of typical cost via non-hyperscaler hosting, gVisor sharing, and
+  RAM-optimized hosts. [CLAIMED — startup announcement]
+- **MATCHBOIL/MATCHWOK evasion logic (ESET, Oct 2026).** A
+  Russia-aligned group's downloader added sandbox evasion: event-log
+  uptime checks and operating-system install age, commercial
+  obfuscation, and a retry timer. [CLAIMED — ESET via secondary]
 
 ## Rogue-agent threat intel
 
