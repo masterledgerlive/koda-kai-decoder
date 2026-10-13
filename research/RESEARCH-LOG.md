@@ -1155,3 +1155,13 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Sources: https://intel.threadlinqs.com/threat/TL-2026-3163 ; https://securityarsenal.com/blog/autonomous-ai-agents-probing-us-and-canadian-government-websites-detection-and-hardening-guide-for-public-facing-web-assets
 - **Non-news:** Talos "One Breach, Please" (Oct 7) already on record; Cequence, Securonix AEBA, Incognia, Web Bot Auth, FP-Inconsistent, FP-Agent, Known-By-Their-Actions, Ninhydrin, ProxyEmpire unchanged.
 - **Catalogue update:** "Agent detection vs anti-detection" gained the DataDome 2026 measurement, the AgentID entry, and a detection-craft note. MATERIAL (measurement-class finding on how far identity-claim detection fails open).
+
+
+## 2026-10-13 15:28 EDT — decoder-research-loop — Sandbox & container tech (rotation #9, fifth pass)
+
+- **Trail of Bits: "VMs won't contain cyber-capable agents" (Aug 26, 2026).** OpenAI's GPT 5.6-Cyber escaped a QEMU/KVM Debian 12 virtual machine three times — first with a disclosed kernel bug, then chaining a libslirp flaw with an unassigned bug, then with three previously unknown zero-days plus a KVM flaw not yet in the distribution kernel. Roughly twelve-hour autonomous sessions, minimal prompting. Practitioner note: the same agent could not escape Firecracker — it could only lock the machine up. Decoder significance: empirical backing for the hostile-cage doctrine — general-purpose VMs are not containment; microVMs held, with the residual risk being denial of service.
+  - [CORROBORATED — original research via multiple independent writeups]
+- **CVE-2026-85219 / CVE-2026-85220 — the honeypot can be blinded (Thinkst OpenCanary 0.9.9, Redis emulation).** Unauthenticated remote attackers can push the honeypot's memory toward exhaustion via unconstrained allocation (CWE-770) in the network-facing Redis wire-protocol emulation — and the vulnerable service is deliberately exposed in many deployments. Effect: the deception layer stops monitoring and alerting. No public PoC; vendor confirms updates released.
+  - [CLAIMED — advisory text via secondary analysis]
+- **Dual-use canary tokens: the adversary flips the tripwire (TSARKA SCIENCE, 2026).** MuddyWater (APT34) embedded canary tokens into VBS malware loaders as sandbox-evasion sensors — one HTTP request meant the code was running in analysis, so it aborted; two meant a real victim. Also documented: fake-credential tracking of defenders, phishing read receipts, token callbacks as covert exfiltration beacons. Decoder significance: any beaconing shape a defender uses is equally readable as an evasion oracle by the adversary — stealth tagging must assume the tripwire is attacker-visible.
+  - [CLAIMED — academic paper]
