@@ -93,6 +93,15 @@ formats. [VERIFIED]
   VideoLAN dav2d. Every new codec parser is new attack surface; "plays
   everything" is a moving target, and now means tracking AV2 bitstreams in
   silicon as well as software. [CORROBORATED]
+- **FFmpeg 9.0 "Lei" (Aug 2026)**: ~2,200 commits, full ABI break across all
+  seven libraries, contributions moved to Forgejo at code.ffmpeg.org. New
+  native decoders: APV, ProRes RAW, RealVideo 6.0, Sanyo LD-ADPCM, G.728;
+  animated WebP decoder + demuxer; HE-AAC 960 for DAB+; Whisper
+  speech-recognition filter (audio-to-text inside the pipeline); a new class
+  of Vulkan compute-shader codecs (FFv1 encode/decode, ProRes RAW decode)
+  running on any Vulkan 1.3 GPU. Decoder lesson: every new parser is new
+  hostile-input attack surface arriving bundled as a feature — the Gauntlet's
+  containers exist for exactly this. [CORROBORATED]
 
 ## Protocol & language decoders
 - **Wireshark dissectors**: the model for protocol decoding — hundreds of
