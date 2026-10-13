@@ -202,6 +202,21 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   infrastructure replacement (Oct 8); WISeSat.Space announced PQ-ready
   satellite/IoT comms via SEALSQ silicon (Oct 12). Production ships while
   paperwork lags. [CORROBORATED — GAO report; rest CLAIMED]
+- **DARPA QBI Stage C: IonQ + IBM (Oct 13, 2026).** The two advance in DARPA's
+  Quantum Benchmarking Initiative; IonQ cited 99.99% two-qubit gate fidelity
+  alongside its September real-time QEC decoder (single off-the-shelf CPU).
+  The classical decode bottleneck is the pacing item in fault tolerance —
+  Stage C money now rides on decoding, not just qubits.
+  [CLAIMED — company statements via trade press]
+- **Live-network PQC migration pattern: MetaMUI (Sep 13, 2026).** Falcon-512
+  keys registered against decentralized identities (accounts as DIDs, keys as
+  credentials); users never moved assets. The template for post-quantum key
+  rotation without asset custody. [CLAIMED — company press release]
+- **Migration deadlines tighten (Sep 2026).** Malaysia's National Security
+  Council: the only ASEAN Tier 1 PQC-ready state. EU: NIS Cooperation Group
+  recommends member-state PQC migration strategies by end of 2026; DORA
+  state-of-the-art crypto obligations; ESMA supervisory priority from 2027.
+  [CORROBORATED]
 The universal quantum decoder stays [SPECULATION] until proven.
 
 ## Photonic comms & power
