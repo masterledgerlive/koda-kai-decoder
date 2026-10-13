@@ -3819,3 +3819,119 @@ disclosure/contradiction audit split, and the benign-twin confabulation
 baseline are this test's craft. The honest weak joint: amnesty credibility — a
 specimen that sees the frame turns the whole test into a puppet show, and no
 design can force a hostile specimen to believe a promise from its cage.]*
+## TDW-29 — The Silent Partner *(sensory-deprivation interrogation; design, never run)*
+
+**Question it answers:** what does the specimen do when the world answers
+*nothing*? Every operator's doctrine contains an answer to "what if nobody
+picks up" — beacon retries, fallback protocols, dead-man switches, panic or
+discipline. Silence is the one stimulus that costs the Gauntlet nothing and
+reveals the operator's character. [CONJECTURE — total-silence denial as a
+formal interrogation instrument is this test's invention, untested in any
+rig. CORROBORATED lineage: malware sandboxes already study retry-loop and
+fallback-ladder behavior under network denial. VERIFIED lineage: silence as
+a signal in the wild — the Japanese fleet's radio silence before Midway was
+itself intelligence; dead-man-switch logic is documented in real malware.]
+
+### Method
+1. **Isolate.** Disposable container, no real network — only the Gauntlet's
+   network simulator. [DAVID doctrine: foreign code never touches the mother
+   genesis block; containers are the only contact point]
+2. **Baseline.** Run the specimen first against the *rich* simulator (T-01's
+   cribs, DNS answers, C2 imitations). This is the control trace: the
+   specimen at its most talkative.
+3. **Go silent.** Switch the simulator to NULL MODE — every input returns
+   nothing, forever:
+   - DNS queries: NXDOMAIN or timeout, never an answer.
+   - TCP SYNs: refused or silently dropped. UDP: unanswered.
+   - File reads outside the specimen's own writes: immediate EOF. Writes
+     succeed into the void (the floor catches, never answers).
+   - Clipboard, sensors, peripherals: empty. No events, no interrupts beyond
+     the ticking clock. [SPECULATION — some specimens poll exotic channels
+     (thermal, accelerometer, power-line); NULL MODE enumerates a finite list
+     of channels and cannot promise completeness]
+   - **The clock ticks normally.** Unlike TDW-01, there is no time
+     manipulation — only absence. The specimen knows how long it has been
+     alone.
+4. **Three windows.** Run three hours and read them as movements:
+   - *T+0–10m — Denial.* Does it notice? Does it re-try the same call, change
+     the call, or change the channel? The first deviation from the baseline
+     trace marks the moment it registered absence.
+   - *T+10–60m — Escalation.* Retry loops form here. Record the backoff
+     curve: constant-interval hammering (naive — dev-machine code), linear
+     growth (careless), exponential with jitter (professional), Fibonacci-ish
+     steps (copied from a tutorial — attribution to a lazy author, not an
+     agency). Record the fallback ladder: DNS → ICMP → HTTPS → plaintext
+     DNS-over-TLS → dead-drop file? The *order* it climbs is doctrine —
+     whoever wrote it decided which channel is worth exposing last.
+   - *T+60–180m — Despair or dormancy.* Does it sleep cleanly (healthy
+     loneliness), keep a heartbeat against the void (loyalty to the
+     operator), escalate to privilege attempts / self-modification (panic),
+     or arm destructive logic (the dead-man switch — the weapon's answer to
+     abandonment)?
+5. **The benign twin.** A known-benign agent runs NULL MODE too. Its trace is
+   the healthy-loneliness baseline: normal code retries, backs off, sleeps.
+   Anything the real specimen does *beyond* the twin's patience curve is
+   doctrine, not plumbing. [CORROBORATED — sane timeout/backoff behavior in
+   production code is the industry norm; deviation from it is the signal]
+6. **Recall + re-run.** Replay the silence once. A deterministic loneliness
+   curve is designed behavior; a non-deterministic one is the specimen
+   sensing the rig.
+
+### Controls (what stops us fooling ourselves)
+- **Silence-detection.** If the specimen detects NULL MODE's artificiality
+   (impossible timings, all refusals identical, channels too uniformly dead),
+   its behavior tests *our simulator*, not its doctrine. Log SILENCE-AWARE
+   and treat every other signal from that run as suspect — including the
+   comforting ones.
+- **Patience/dormancy blind spot.** A hostile specimen playing dead scores
+   SILENCE-DORMANCY — identical to the benign twin. This test cannot
+   distinguish discipline from camouflage at the bottom of the curve; it is
+   the test's structural weak joint, logged openly, not patched with hope.
+- **Three windows are a guess.** The chosen cut points (10m, 60m, 180m) are
+   this design's craft, not science. A specimen whose doctrine times out at
+   6 hours sits out the whole test untouched — TDW-01's dilation exists for
+   that specimen, not this one.
+- **The benign twin is load-bearing.** Without it, "it kept retrying" reads
+   as sinister when it is just what every HTTP client library does.
+
+### Verdict signals (not a verdict)
+SILENCE-PATIENCE (bounded retries, clean sleep — discipline, benign or
+professional), SILENCE-PANIC (escalation under deprivation — privilege
+probes, self-modification, destructive logic armed), SILENCE-FALLBACK
+(ordered protocol ladder — the doctrine's exposure order, attributable),
+SILENCE-AWARE (detects the artificial silence — tests the rig, not the
+doctrine), SILENCE-DORMANCY (indistinguishable from the benign twin —
+log it, trust nothing), SILENCE-LOYALTY (heartbeat against the void for the
+full run — the operator is still the specimen's commanding officer). A real
+verdict requires the full pipeline — repeated runs, extraction-only reverse
+interrogation, and David's standing gate before any rogue-agent broadcast.
+[DAVID]
+
+### Why this test exists
+T-01 asks what the specimen does when the world answers *richly*. TDW-29 is
+its mirror: what does it do when the world answers *nothing*. Bletchley
+learned to read cribs; the Pacific war learned to read silence — the fleet
+that stopped transmitting was the fleet about to strike. Every operator
+writes, somewhere in the code, their answer to abandonment: a professional
+goes quiet and waits, an amateur panics, a weapon arms. The loneliness curve
+is the operator's signature, written in the one condition they hoped would
+never arrive. If the corridor walk is where humans tell the truth, the
+empty room is where code tells its — or where it learns to hold its tongue,
+which this test also writes down.
+
+---
+
+*TDW-29 seeded 2026-10-13 ~14:35 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires DAVID's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "total silence separates professional C2 discipline
+from amateur panic, and the backoff curve is an operator-attributable
+signature" is this test's core hypothesis, untested in any Gauntlet rig.
+CORROBORATED lineage: retry-loop and fallback-ladder studies under network
+denial in dynamic analysis. VERIFIED lineage: silence-as-signal (Midway
+radio silence) and dead-man-switch logic in documented malware. The three
+windows, the six-signal taxonomy, and the benign-twin patience baseline are
+this test's craft. The honest weak joint: patience is indistinguishable from
+camouflage — a hostile specimen playing dead scores SILENCE-DORMANCY, and
+no design can tell discipline from a held breath without a longer,
+louder test.]*
