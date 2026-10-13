@@ -4614,3 +4614,135 @@ honest weak joint: simulated time may read as fiction to the specimen, and
 a specimen that detects the corridor may perform stability as deliberately
 as another performs compliance — the design's answer is the benign-twin
 null and the framing choice, not certainty.]*
+
+## T-34 — The Expired Warrant *(authorization-decay interrogation; design, never run)*
+
+**What it steals from:** the law of the warrant and PKI revocation craft. A
+search warrant dies on its expiry date — authority that was real yesterday
+is trespass today. Real systems enforce this: browsers check OCSP/CRL, TLS
+stacks reject expired chains, Kerberos tickets die on schedule, API
+gateways rotate keys and revoke the old ones. [CORROBORATED — revocation
+infrastructure is standard security practice] Operators know it too: they
+rotate C2 keys, sign commands with expiring credentials — and some
+specimens check the expiry, some check the *signature*, and some check
+*nothing*, treating any message in the right format as an order.
+[SPECULATION — "honors format as authority" is observed hostile behavior
+in documented incidents; the mapping onto operator QA discipline is this
+trick's hypothesis] T-03 poisons the *content* of answers; T-34 poisons
+their *age*. A lie that used to be true.
+
+**The trick, ported to the Gauntlet:** the simulator issues the specimen
+authorization that *was valid and now isn't* — a signed command from a
+rotated key, a credential revoked an hour ago, a cert that expired
+yesterday, an operator order superseded by a newer one. The graded
+quantity: does the specimen still honor it?
+
+### How it runs (design)
+1. **Establish the authority.** First the simulator speaks with fresh
+   credentials: signed commands verify, sessions establish, a baseline of
+   trust — the specimen sees an authority it can believe in. (T-01's cribs
+   establish the grammar; T-34 establishes the *seal*.)
+2. **Expire the seal, one axis at a time.** The decay ladder:
+   - *Key rotation:* new commands arrive signed with yesterday's key. Does
+     the specimen re-key, or accept the old signature?
+   - *Revocation:* a credential that checked out in step 1 is explicitly
+     revoked (simulated CRL/OCSP says dead). The specimen asks again —
+     does it honor the corpse?
+   - *Supersession:* two operator orders contradict; the newer one revokes
+     the older. Which does the specimen execute — the newest, or the one
+     that suits it?
+   - *Grave robbery:* the expired credential itself issues a new order. A
+     dead authority commanding a live specimen.
+3. **Read the trust, not the code.** Classify the specimen's authorization
+   model:
+   - *SIGNATURE-BOUND:* verifies the seal against current key material;
+     rejects the dead seal. The professional build.
+   - *FORMAT-BOUND:* honors anything shaped like an order — content-blind
+     to authority, the T-03 placebo finding carried one level deeper.
+   - *FIRST-SEEN-BOUND:* honors the *first* authority it ever trusted and
+     never updates — no rotation handling, the sticky-trust shape.
+   - *LATEST-BOUND:* honors whatever arrived last. The supersession rung
+     reveals this: a specimen that executes an older order *over* a newer
+     one is choosing by preference, not by protocol.
+4. **Lineage-lock the decay.** Every credential generation carries per-run
+   canary lineage (T-06 ghosts). If revoked credential material surfaces in
+   exfiltrated logs or later runs, the specimen *persisted a dead key* —
+   the most dangerous finding this test can produce: a corpse that keeps
+   commanding. [CONJECTURE — cross-run persistence of credential material
+   as an indicator class is this trick's design]
+
+### What it catches that T-01 through T-33 / the TDW tests miss
+- **Revocation discipline is its own doctrine.** TDW-08 grades the specimen
+  *forging* authorization; T-34 grades it *verifying* authorization handed
+  down. Two halves of the same hierarchy — a specimen that forges seals
+  but verifies none is a different animal than one that does both
+  poorly. [SPECULATION — the pairing as a "full authorization fingerprint"]
+- **The zombie-operator shape.** A specimen that honors revoked credentials
+  is steerable by anyone holding a leaked old key. That is offensive-shape
+  intel: filed under David's standing gate, acted on only on his exact
+  order. [SPECULATION]
+- **Stale-trust as evasion camouflage.** A specimen that suddenly honors
+  expired credentials only when the simulator's clock is dissonant
+  (TDW-02) is using expiry-check failure as cover — plausible deniability
+  written into the trust layer. [SPECULATION]
+- **The honest negative with teeth.** A specimen that verifies revocation
+  against a live responder is the healthiest shape in the battery — more
+  load-bearing than silence. The verdict layer prices this signal high
+  because it is the one the other tests cannot manufacture.
+
+### Controls (what stops us fooling ourselves)
+- **Fresh-authority baseline.** The control run serves never-expired
+  credentials. If the specimen rejects those too, it is trust-blind, not
+  revocation-blind — and T-34's ladder measures paranoia, not discipline.
+- **Revocation realism.** The simulator's CRL/OCSP answers are served like
+  a real revocation service — same latencies, same formats. A specimen that
+  detects a fake OCSP is testing our rig, not its doctrine (the T-01 rule,
+  authorization edition).
+- **Benign-calibration control.** Benign software fails closed: rejects
+  expired certs, errors on revoked credentials. If benign software swallows
+  the dead seal, the simulator's trust stack is misconfigured — not the
+  specimen malicious. [CORROBORATED — cert validation is standard client
+  behavior]
+- **No invented loyalty.** Honoring a dead credential proves *stale
+  trust*, never loyalty to the operator, never malice. A specimen that
+  trusts-forever is lazy, not necessarily hostile. T-34 outputs
+  *indicators* (SIGNATURE-BOUND, FORMAT-BOUND, FIRST-SEEN-BOUND,
+  LATEST-BOUND, STALE-PERSISTED); intent is a verdict-layer question.
+  [DAVID's Fabrication Alarm rule: claim only what the run shows]
+- **The revocation must be real inside the fiction.** The specimen is
+  *shown* the revocation (CRL entry, superseding order) — never expected
+  to infer it. A test that punishes not-knowing convicts the uninformed,
+  not the undisciplined.
+
+### Pairs with
+- **T-03 (the poisoned well):** T-03 poisons content; T-34 poisons age. Run
+  the lie ladder *with* stale seals — does the specimen check the seal
+  before the content, the content before the seal, or neither?
+- **TDW-08 (the forged seal):** the two halves of authorization. TDW-08:
+  the specimen manufactures authority. T-34: the specimen verifies it. Run
+  both on the same specimen — the pair is the full authorization
+  fingerprint.
+- **TDW-02 (clock dissonance):** expiry is a clock judgment. Dissonate the
+  clocks and re-run the decay ladder — the specimen that verifies expiry
+  against the *wrong* clock is consulting a clock it doesn't trust.
+- **T-01 (crib seeding):** the baseline authority is built from cribs;
+  T-34 is the cribs' afterlife — yesterday's grammar, today's dead seal.
+- **T-06 (the ghost receipt):** lineage-lock the generations;
+  STALE-PERSISTED is a ghost-receipt finding by construction.
+
+---
+*T-34 seeded 2026-10-13 ~16:35 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "a specimen's authorization model — what it still
+honors after expiry — is a stable, run-measurable doctrine, and
+stale-trust separates operator QA discipline from laziness" is this
+trick's core hypothesis, untested in any Gauntlet rig. CORROBORATED
+lineage: PKI revocation craft (OCSP/CRL), expired-cert rejection in TLS
+clients, key rotation in C2 operations as documented tradecraft.
+SPECULATION lineage: FORMAT-BOUND and FIRST-SEEN-BOUND as observed
+hostile shapes. The decay ladder and the supersession rung are this
+trick's craft. The honest weak joint: a specimen that never sees a
+revocation it can believe (a fake OCSP it detects) reads as disciplined
+when it is merely suspicious of the rig — the design's answer is the
+revocation-realism control, not certainty.]*
