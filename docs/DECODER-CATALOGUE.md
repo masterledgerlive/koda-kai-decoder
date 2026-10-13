@@ -854,8 +854,17 @@ files can carry payloads that byte-level and statistical detectors must catch.
   character channel delivered 100% with 0% caught; semantic steganography
   (payload in ordinary word choice) evaded every monitor tested
   (≤27% detection). [CLAIMED — research repo]
+- **Trojan Source (CVE-2021-42574).** Unicode bidirectional controls
+  (U+202A–U+202E, U+2066–U+2069) reorder *displayed* text without changing
+  byte order: a file reads one way to a reviewer and compiles another way
+  to the compiler. Demonstrated by Boucher & Anderson (Cambridge, 2021)
+  across C, C++, C#, JavaScript, Java, Rust, Go, Python; the homoglyph
+  variant (Cyrillic а for Latin a) is CVE-2021-42694. [VERIFIED —
+  Wikipedia, NVD] The same controls arrive in LLM context through ingested
+  documents and tool descriptions — display order diverges from tokenized
+  intent. Byte order is the trustworthy signal, never display order.
 - **Defense order:** byte layer first (strip tags block, zero-width,
-  homoglyphs — regex-cheap), complexity layer second (perplexity-ratio
+  homoglyphs, bidi controls U+202A–U+202F and U+2066–U+2069 — regex-cheap), complexity layer second (perplexity-ratio
   deltas against semantic stego), model-internals layer last (probes beat
   output-only detection). Treat ordinary-looking output as a carrier until
   proven otherwise.
