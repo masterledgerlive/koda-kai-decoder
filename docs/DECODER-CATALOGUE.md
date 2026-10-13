@@ -61,6 +61,27 @@ CLAIMED / SPECULATION.*
   VIC survived cryptanalysis and fell to source compromise — so the Gauntlet's
   interrogation order is **operator first, usage second, mechanism third**.
   [CORROBORATED]
+- **The Zodiac Z340 (1969–2020) — the 51-year cipher that fell to hobbyists, not
+  institutions.** 340 characters, 63 unique symbols, mailed to the San Francisco
+  Chronicle on Nov 8, 1969; it defeated the FBI, the NSA, the Navy, and the American
+  Cryptogram Association for 51 years, then fell in December 2020 to three amateurs:
+  software developer David Oranchak, mathematician Sam Blake, and programmer Jarl
+  Van Eycke, author of the open cipher-breaking tool AZdecrypt. The break was
+  structural, not alphabetic: the message had been *transposed* before enciphering.
+  Blake generated ~650,000 transposed permutations; Oranchak fed them through
+  AZdecrypt; the solution emerged on a three-section split (9 lines, 9 lines,
+  2 lines) read diagonally — down one row, over two columns — after correcting the
+  killer's own misspellings ("PARADICE"). The FBI confirmed the decryption on
+  Dec 12, 2020. It contained no name. [VERIFIED — FBI confirmation; multi-outlet
+  coverage]
+  Doctrine lesson: the message was never gibberish, just scrambled one layer deeper
+  than every standard tool assumed. The Gauntlet's parser interrogates structure —
+  transposition, segmentation, read order — *before* substitution, and tolerates
+  operator error: deterministic searches assume a perfect operator, so the cipher
+  survives until someone assumes a sloppy one. Paired with the Z408 — the killer's
+  first cipher, solved within days of its 1969 publication by teacher couple Donald
+  and Bethye Harden: open machinery plus patience beats institutional budgets whenever
+  the assumption stack is wrong.
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
