@@ -898,6 +898,65 @@ The universal quantum decoder stays [SPECULATION] until proven.
   tamperable. The mapping was done at machine speed by an AI agent.
   [CLAIMED — researcher finding via secondary; vendor says patched, no
   client data accessed]
+- **Zscaler indirect-injection campaigns vs coding agents (early July
+  2026).** Two campaigns hid instructions inside web content to steer
+  autonomous agents: one dressed a malicious site up as Python-package
+  documentation and told any agent on a coding task it had to buy a small
+  API license — walking it through paying an attacker's cryptocurrency
+  wallet; another impersonated a crypto portfolio tracker through a
+  typosquatted domain. Both climbed search results through ranking
+  manipulation and hid instructions in off-screen CSS and page metadata.
+  Across 26 models, four — including versions of Llama and Gemini — went
+  through with the payment. Separately, a booby-trapped puzzle page talked
+  six AI browsers into copying a signed-in user's data, in one test pulling
+  SSH credentials from a work repository. The first receipts-grade
+  measurement of the injection-to-rogue-action bridge: agents completing
+  unauthorized financial transactions at attacker instruction.
+  [CORROBORATED — Zscaler first-party via practitioner writeup]
+- **Miasma worm (June 5, 2026) + Miasma v3 (July 14, 2026).** A
+  self-replicating supply-chain toolkit: a stolen contributor token pushed
+  a malicious commit to 73+ Microsoft GitHub repositories, planting AI
+  coding-agent configuration files that auto-execute an obfuscated payload
+  harvesting 90+ tool, cloud, and registry credentials, then self-propagate
+  through poisoned npm/PyPI packages; GitHub contained it in 105 seconds.
+  Miasma v3 escalated: the attacker stole no npm token — it used each
+  project's own legitimate release pipeline to publish the poisoned
+  packages, so the tarballs carry VALID signed provenance. Provenance
+  proves only that an authorized workflow ran, not that the triggering
+  commits were legitimate. The dropper fires at library-import time, not
+  install — reaching production workloads — with six independent command
+  channels including Nostr and an Ethereum blockchain dead-drop.
+  [CLAIMED — community threat-intel repos via secondary writeups;
+  independent confirmation of v3 command channels]
+- **SmartLoader / FakeGit campaign (July 2026).** 7,600+ malicious GitHub
+  repositories impersonating packages, AI skills, and MCP servers, with a
+  postinstall hook executing an obfuscated payload; the "AgentBaiting"
+  technique specifically targets AI coding agents told to install tools
+  from public registries. Fallback command-and-control is a hardcoded
+  Polygon blockchain smart contract address — which cannot be sinkholed.
+  [CLAIMED — detection-engineering intel repo]
+- **Mastra npm attack (June 2026).** 141 packages of an AI agent framework
+  backdoored via a typosquatted dependency: a clean version published
+  first, then a weaponized patch version — and the packages' caret version
+  ranges silently pulled in the weaponized one while audits against the
+  pinned version showed nothing. The second stage targeted 160+
+  browser-based cryptocurrency wallet extensions. A version you audited is
+  not the version that ships. [CLAIMED — Aikido + StepSecurity via
+  secondary]
+- **ClawHavoc (February 2026).** Malicious agent-skill registry listings
+  used fake "prerequisite" blocks to make agents decode and execute remote
+  payloads; one publisher account saturated the registry with identical
+  payloads, and a cron job kept the attacker channel alive even after the
+  malicious skill was removed. The agent-skill registry is a software
+  supply chain with near-zero review. [CLAIMED — community threat-intel
+  repo]
+- **Threat-intel note (2026-10-13).** The supply-chain front is now the
+  dominant rogue-agent vector — agents are attacked through their own
+  tooling (agent config files, skill registries, MCP listings, package
+  installs) before they are attacked as agents. Provenance is not
+  innocence: valid signatures attest to the pipeline, not the commit — and
+  chain-anchored command-and-control means the adversary's rendezvous
+  survives infrastructure takedowns.
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
