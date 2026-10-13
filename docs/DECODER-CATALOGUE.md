@@ -555,6 +555,33 @@ The universal quantum decoder stays [SPECULATION] until proven.
   ASN beats datacenter; silent mitigation (poisoned responses,
   inventory distortion) is replacing hard blocking; AI-driven detection
   is becoming predictive. [CLAIMED — vendor study]
+- **DataDome 2026 defense-gap measurement (published Sep 22, 2026).**
+  21,000+ popular websites tested against 10 bot/AI traffic types:
+  65.3% failed to block or challenge ANY of the ten; only 2.4%
+  blocked or challenged all ten; 5.5% stopped every basic bot; 3.1%
+  stopped every real-browser bot; top-1,000 sites unprotected at 64.4%.
+  Spoofed AI agents: spoofing up 45% Feb-Jul 2026; 80% of agents do not
+  properly identify themselves; 7 in 10 sites let a spoofed agent
+  through — and stops mostly came from static known-agent-name rules,
+  not verification. The identity-claim layer fails open across most of
+  the web; claiming a legitimate agent name costs nothing.
+  [CORROBORATED — vendor study via news coverage]
+- **AgentMail AgentID (~Oct 2026).** Per-agent email inboxes plus
+  key-based AgentID sign-in at accepting apps — agent-native identity
+  plumbing. The vendor's own table admits CAPTCHAs, SMS codes, and
+  consent screens remain unsolved ("the test exists to stop software").
+  Future agents arrive with verifiable cryptographic identity but no
+  proof of humanity. [CLAIMED — vendor blog]
+- **Detection-craft note (Oct 2026).** Cisco Talos TL-2026-3163
+  (agent-swarm warning): detection centers on mundane high-volume
+  signals — SQL-injection spikes, automated-request surges, Python/curl
+  user agents, DNS beaconing — with the goal of raising attacker cost
+  in time, tokens, and compute. securityarsenal's guide for agents
+  probing government sites: return 404 not 403 (403 confirms
+  existence; agents iterate on it); rate-limit at the edge; close the
+  enumerated exposure surface first. Silent mitigation replacing hard
+  blocking. [CLAIMED — Talos via threadlinqs summary; practitioner
+  guide]
 
 ## Sandbox & container tech
 
