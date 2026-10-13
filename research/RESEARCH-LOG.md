@@ -921,3 +921,12 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://www.4rfv.co.uk/industrynews/335799/intopix_to_demo_jpeg_xs_ipmx_and_smpte_st_2110
 - **Non-news this pass:** VeriSilicon VC9800D AV2 decode IP (June 2026) already in the library's AV2 entry — same press release recycled; no Google "voxel codec" product (stays a research question).
 - **Library update:** public DECODER-CATALOGUE.md codecs section gained the ETRI VCM machine-coding entry, the VVC mobile-adoption wave, and the intoPIX/IPMX note.
+
+## 2026-10-13 12:28 EDT — Protocol decoders (rotation #3, fifth pass)
+
+- **Wireshark stays maintenance-only.** Releases 4.6.7 through 4.6.9 patch dissector/file-parser security issues (mostly crash/hang class) with no new protocol dissectors. No new decode targets from the reference tool.
+  - [CORROBORATED — secondary summaries of release notes]
+- **Thread Group roadmap (TTC 2026).** Thread 1.4 shipping; roadmap talk of Thread in phones and sub-GHz Thread for commercial buildings. Incremental, on an already-covered protocol family.
+  - [CLAIMED — conference talk]
+- **Non-news:** Mobilicom SwarmiX re-circulated through wire copies today (already logged this rotation); an "Apple new smart home protocol" item is pre-event rumor, no confirmed new protocol.
+- **Library update:** none this pass. Not material.
