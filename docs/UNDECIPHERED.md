@@ -31,6 +31,38 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 - **Proper one-time-pad traffic** — mathematically unreadable by design.
   [VERIFIED — Shannon 1949] Venona was readable only because Soviet operators
   reused key pages. [VERIFIED] The pad is unbreakable; the *operators* are not.
+- **Cicada 3301 / the Liber Primus** (2012–) — the internet's recruitment
+  cipher, and the one the AI era hasn't cracked. First appeared January 2012
+  on 4chan's /x/ board ("Hello. We are looking for highly intelligent
+  individuals"), PGP-signed; three annual puzzle rounds (2012, 2013, 2014)
+  chaining steganography (OutGuess), RSA, book ciphers, Tor hidden services,
+  payphones, GPS coordinates, QR codes. The 2012 and 2013 chains are fully
+  documented end-to-end — solved, archived, reproducible. [CORROBORATED —
+  Rolling Stone and the solver-community archives]
+- The 2014 round led into the **Liber Primus**: ~75 pages in a 29-rune script
+  (Gematria Primus), each rune carrying both a letter-cluster and a prime
+  number. Roughly 17–19 pages were solved 2014–2017 — and *every* solved page
+  fell to keys guessable from the puzzle's own vocabulary (DIVINITY,
+  CIRCUMFERENCE), Atbash, Vigenère, or totient/prime keystreams. Usage cribs
+  again: the Enigma lesson repeated, this time by the puzzle's own authors.
+  [CORROBORATED — solver-community records; connortumbleson 2024]
+- The remaining ~55 pages are unsolved as of October 2026. The 2026 state of
+  the art is honest about why: flat rune frequencies, a doublet deficit
+  (86 observed vs ~447 expected across ~13,000 runes, z = −17), every
+  structured-key family excluded — statistically indistinguishable from a
+  one-time pad with one deliberate constraint (no repeated runes).
+  Ciphertext alone cannot solve it; the key was never published. Documented
+  2024–2026 AI/agent attempts produced no breakthrough. [CORROBORATED —
+  wulfic 2026-09-29 state-of-art review; dukotah 2026 campaign findings]
+- Last authenticated 3301 activity: an OpenPGP-signed "Beware false paths"
+  message, April 2017. No verified identity behind Cicada 3301 has ever been
+  established. [CORROBORATED]
+- **The decoder's lesson, in reverse:** the same AI-agent era that cracked the
+  217-year-old Napoleon briefing and the 1941 MVUEH Enigma message (both §5,
+  2026) hit a wall here — because those ciphers leaked usage, and these pages
+  leak nothing. Solved pages were broken by usage flaws (thematic keys);
+  unsolved pages behave as a pad. No key, no break. [DOCTRINE — Shannon 1949,
+  information-theoretic]
 
 ## 2. Prize-money challenges — verified bounties only
 
@@ -123,6 +155,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Tamam Shud code | 1948 | Unsolved | — |
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved | — |
+| Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
 | Voynich manuscript | 1400s | Unsolved | — |
 | Kryptos K4 | 1990 | Plaintext recovered 2025; method unestablished | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
