@@ -632,3 +632,22 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://www.marketnewsdesk.com/index.php/wisesat-space-advances-post-quantum-ready-satellite-communications-to-support-u-s-quantum-security-objectives/
 - **Non-news this pass:** IonQ real-time QEC decoder story unchanged since the two earlier passes (Sep 22 announcement); no new QEC decoder claims surfaced in this pass.
 - **Library update:** §(e) gained "Production PQC migrations land (Oct 2026): Cosmos ML-DSA suite, Starknet 2027 roadmap, Ethereum 2029 roadmap" and "GAO: 0/24 CFO Act agencies ready" entries, in `library/DECODERS.md` and the public `github-public/docs/DECODER-CATALOGUE.md`.
+
+## 2026-10-13 00:57 EDT — Photonic comms & power (rotation #6, third pass)
+
+- **The orbital power-beaming wave is actually in orbit (VERIFIED launch, experiments pending).** Both October power-beaming missions actually flew: Star Catcher's Protostar rode SpaceX's Transporter-18 from Vandenberg on Oct 1, 2026, and will release a CubeSat, then track it and beam concentrated optical power at its off-the-shelf solar panels. If it works: first wireless optical power transfer between two free-flying spacecraft (Caltech's 2023 MAPLE test used microwaves, not light). Cowboy Space's Reason-1 flew on the same rideshare with a kilowatt-class laser + telescope + beam steering; the company aims to attempt the first orbit-to-ground laser power transfer as early as late October 2026, targeting a 10–20 m ground spot with ~30–100 W. Star Catcher holds 10 commercial power-purchase agreements and a $60M Space Force award, and is building a follow-on satellite.
+  - [VERIFIED — Transporter-18 deployment for both; CLAIMED — the beaming experiments have not yet run; "first ever" is company language]
+  - Sources: https://interestingengineering.com/innovation/new-prototype-to-test-worlds-first-wireless-power-transfer-between-two-spacecraft ; https://highways.today/2026/10/01/cowboy-space-orbital-power-beaming/ ; https://www.prnewswire.com/news-releases/star-catcher-prepares-orbital-power-beaming-demonstration-for-launch-302889921.html
+- **Tower Semiconductor + NewPhotonics: laser-integrated optical-engine PICs in high-volume shipment (announced Oct 9, 2026).** InP amplifiers, modulators, lasers, photodetectors on a single silicon-photonic chip; volume production today covers 800G–1.6T, 6.4T planned for AI infrastructure.
+  - [CLAIMED — company announcement]
+  - Source: https://www.insidermonkey.com/news/can-tower-semiconductor-tsem-ride-the-ai-optical-interconnect-wave-1846772/
+- **Astrogate Labs (India) + Spacebeam (South Korea) MoU on end-to-end space-to-ground laser comms (Oct 9, 2026).** Optical communication terminals + optical ground station network; terrestrial tests → space-to-ground demonstration planned; Optical Ground Station-as-a-Service model explored.
+  - [CLAIMED — MoU = intent, not hardware]
+  - Source: https://www.technologue.in/news/ad7c947ca4/astrogate-labs-and-spacebeam-sign-strategic-partnership-to-advance-end-to-end-space-to-ground-laser-communications
+- **IonQ photonic quantum interconnect — >1,000 entanglement events/sec (announced Oct 12, 2026).** Trapped-ion qubit linked to a silicon-vacancy quantum memory via photonic interconnect; claimed 4× the previous trapped-ion record; detailed in an arXiv preprint.
+  - [CORROBORATED — company announcement + eeNews Europe; preprint not opened first-party this pass]
+  - Source: https://www.eenewseurope.com/en/ionq-demonstrates-world-first-quantum-memory-interconnect/
+- **Programmable photonic processor tames modal dispersion — 1,300 km over three-mode fiber (bioengineer.org).** Telecom-grade silica chip with an 8×8 Mach-Zehnder mesh (2.1 dB loss, full telecom C-band, >96% fidelity); differentiable digital twin tunes the phase mesh via backpropagation to minimize differential mode delay per span.
+  - [CORROBORATED — technical writeup; journal not opened first-party]
+  - Source: https://bioengineer.org/programmable-photonic-chip-tames-modal-dispersion-in-record-breaking-fiber-transmission/
+- **Library update:** public `docs/DECODER-CATALOGUE.md` photonic section: Protostar and Reason-1 upgraded from company-plan to launched/experiment-pending; added Tower/NewPhotonics optical engines, Astrogate+Spacebeam MoU, IonQ photonic interconnect, programmable SDM processor.
