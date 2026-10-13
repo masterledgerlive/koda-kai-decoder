@@ -880,3 +880,14 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — vendor report via secondary writeup]
 - **Non-news this pass:** Barracuda TL-2026-3218's four hidden-injection methods already on record in the catalogue (the new writeup adds in-the-wild example scenarios but no new technique); Meta SecAlign already catalogued.
 - **Library update:** DECODERS.md §(k) and this catalogue's "Suggestion-implant traps" section gained CSA's production-classifier defeat, "The Attacker Moves Second," the output-filtering result, Agents Rule of Two, lethal trifecta, PerplexedBrowser/BioShocking/Copilot-URL cases, and Paubox filter-biasing. MATERIAL.
+
+## 2026-10-13 10:30 EDT — decoder-research-loop — Math/physics engines (rotation #12)
+
+- **SINDy discovers governing equations of North Atlantic climate variability (reported ~Oct 10, 2026; secondary writeup).** Sparse Identification of Nonlinear Dynamics trained on Atlantic Multidecadal Variability, North Atlantic Oscillation, and precipitation-anomaly indices from ERA5 reanalysis (1950–2022); 344 candidate models from a 30-term library; the Pareto-front 26-term model reproduces the chaotic, Lorenz-like character of the real North Atlantic over 50,000-year simulated runs, and validates on independent 1900–1949 data it never saw. Decoder lesson: equation-discovery from time series is cryptanalysis of nature — sparse identification with bootstrapping and Pareto selection is now demonstrated at century scale on real data.
+  - [CLAIMED — secondary writeup; paper not read this pass]
+  - Source: https://scienmag.com/ai-discovers-hidden-equations-governing-north-atlantic-climate-swings/
+- **Hard physics constraints without equations (Oct 2026; Neural Computing and Applications).** Training method imposing hard constraints on the sign of each input's static gain — which way each input pushes the output — needing no governing equations and no penalty tuning; works for shallow/deep, static/recurrent, ELM and gradient-based networks, with constrained gradient training generally cheaper than unconstrained. Decoder lesson: excellent validation metrics can still be qualitatively wrong; getting the sign of causality right is the minimum bar of physical honesty — enforcement outside the model, as always.
+  - [CLAIMED — secondary summary; paper not read this pass]
+  - Source: https://scienmag.com/neural-networks-taught-to-respect-physics-even-without-equations/
+- **SymbolicRegression.jl v2.5.0 (2026-09-28).** Performance release only — worker startup, tournament selection, mutation weights. No new technique; version note for the tool shelf. [CORROBORATED — first-party release notes]
+- **Library update:** MATH-PHYSICS.md gained the SINDy North-Atlantic result and the gain-sign-constrained training method. MATERIAL.
