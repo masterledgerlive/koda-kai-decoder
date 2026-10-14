@@ -361,6 +361,21 @@ formats. [VERIFIED]
   directions; 29 low-resource languages (Tibetan, Swahili, Bengali) pushed
   from "untranslatable" to "usable" via augmentation and transfer learning.
   [CLAIMED]
+- **CRIME / BREACH — the compression oracle (2012 / 2013): when the "secure"
+  channel is the leak.** CRIME (Rizzo & Duong, Ekoparty 2012) attacked TLS-
+  and SPDY-level compression: attacker guesses injected into the victim's
+  requests, and when a guess matched a secret (session cookie) in the same
+  compressed body, the compression ratio *improved* — compressed length as a
+  byte-by-byte oracle. BREACH (Gluck, Harris & Prado, Black Hat 2013) moved
+  it to HTTP gzip: attacker-reflected content in a response alongside a secret
+  token extracted secrets in ~30 seconds in the demo. The cipher was never
+  broken — compression-before-encryption was weaker than either part. [VERIFIED]
+  Doctrine lesson: probe inputs must never share a carrier with secrets —
+  response channels are oracles by default, so probe responses stay
+  constant-time and constant-length; and a specimen that reflects interrogator
+  input into compressed mixed-content output is an oracle-shaped behavior
+  class the Gauntlet tests for, same as exfiltration. Absence of an oracle is
+  a negative result, never proof of benignity.
 
 
 ## The quantum track (honestly scoped)
