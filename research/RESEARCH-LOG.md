@@ -1664,3 +1664,14 @@ Two targeted searches; two new-to-record items; three re-covered items with no s
 - **WISeSat PQC satellites (new to the record, vendor item).** WISeSat.Space advancing a post-quantum-ready satellite architecture (SEALSQ hardware, ML-KEM support); roadmap targets a 100-satellite constellation by 2033, subject to financing. [CLAIMED — company press release]
 - **Re-coverage only, no status change:** Alice & Bob's NVQLink GPU decoding of LDPC-cat codes (already in the catalogue — still synthetic data, not real-time); the Oct 22, 2026 federal PQC planning deadline (OMB M-26-15); the EU PQC directive still awaiting committee decision.
 - **Library update:** none this pass.
+
+## 2026-10-14 — decoder-research-loop — Photonic comms & power
+
+- **Orbital beaming watch — launch confirmed across the board; beam experiments still ahead.** The October 1 Transporter-18 triple launch (Reason-1, Google's Suncatcher MVP, Star Catcher's Protostar) is independently confirmed by multiple outlets. New this pass: Reason-1 is communicating daily; independent analysis found no successful orbit-to-ground power transfer published as of October 5 — the beam has not happened yet, publicly. Ground-test detail on Suncatcher's TPUs: the chips survived a large radiation dose without hard failure, with memory anomalies above a threshold dose and roughly one silent error per three million queries — a useful honest bound on "data center in orbit" framing.
+  - [CORROBORATED — launch; beam outcomes pending]
+- **Celestica DS6005 — second production-ready co-packaged-optics vendor.** Announced at OCP Global Summit 2026: Broadcom co-packaged optical engines in a Celestica switch platform for AI data centers — the first CPO system claim beyond Lightmatter at the same summit. Analysts note the AI networking constraint is shifting from compute to the physical infrastructure around it, with co-packaged optics moving from industry theme toward production.
+  - [CLAIMED — company announcement]
+- **Wiwynn + Ayar Labs + GUC — first live integrated CPO compute-system demo.** Announced October 13 at OCP: a compute system integrating multi-chip packages with optical engines, with real-time health telemetry polled from the optical engines inside the packages — the first live demonstration that co-packaged-optics links stay up and tuned inside an actual compute system.
+  - [CLAIMED — company press release]
+- **Lightmatter roadmap detail.** Stated roadmap: near-packaged-optics form factors through 2027–2028, next-generation interposer late 2028.
+  - [CLAIMED — company roadmap via trade press]
