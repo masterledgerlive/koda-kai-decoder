@@ -1409,3 +1409,16 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CORROBORATED — retrospective coverage]
   - Source: https://www.webpronews.com/ai-takes-on-undeciphered-scripts-promise-and-pitfalls-in-cracking-ancient-codes/
 - **Library update:** none — nothing met the material bar this pass.
+
+
+## 2026-10-14 02:27 EDT — research loop — Quantum decoding (rotation #5, fifth pass)
+
+- **DARPA Quantum Benchmarking Initiative Stage C: full six-company roster (announced Oct 7, 2026; new detail completing the Oct 13 entry).** Atom Computing, Diraq, IBM, and IonQ cleared Stage B to join Microsoft and PsiQuantum in the final verification phase. The program asks whether any approach reaches economically useful, utility-scale quantum computing by 2033. Atom's neutral-atom work ran 90 cycles of toric-code syndrome extraction with lost-atom replacement; Microsoft supplies algorithmic support and error-correction codes to Atom. The classical decode bottleneck is the pacing item in fault tolerance — Stage C money now rides on decoding, not just qubits.
+  - [CORROBORATED — postquantum.com reporting DARPA's Oct 7 announcement]
+  - Source: https://postquantum.com/industry-news/darpa-quantum-benchmarking-stage-c/
+- **D-Wave gate-model simulator beta (announced Oct 1, 2026; new to record).** D-Wave opened a beta for a gate-model simulator exposing a 21-qubit dual-rail model for error-aware programming — developers write error-aware code before the company's physical gate-model hardware exists. Honest scope: a simulator is not a machine. Recorded as reference; not a catalogue addition.
+  - [CORROBORATED — company announcement via trade press]
+  - Source: https://bitcoinversus.tech/2026/10/03/d-wave-gate-model-quantum-simulator-error-aware-developers/
+- **October 22 post-quantum migration deadline — corroboration only (already on record).** Trade analysis confirms the standing entry: federal agency migration plans are due under the federal five-phase migration timeline through 2035, with contractor rules following in December 2026 and national-security acquisitions under the new crypto standards in January 2027. No status change.
+  - [CORROBORATED]
+- **Library update:** DECODER-CATALOGUE.md quantum section — the DARPA QBI Stage C line upgraded to the full six-company roster. MATERIAL (a six-company final verification field replaces the incomplete two-company record).
