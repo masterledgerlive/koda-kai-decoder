@@ -890,6 +890,20 @@ The universal quantum decoder stays [SPECULATION] until proven.
   specimen that rejects the setup once rejects it every time. Pairs
   with the MATCHBOIL and MuddyWater entries above. [CORROBORATED —
   vendor research via trade press]
+- **Vercel Sandbox KVM zero-day — guest-to-host root disclosed Oct 3,
+  2026.** Researcher Paulos Yibelo disclosed a full virtual-machine escape
+  (guest to host root) in industry-standard hypervisors; Vercel confirmed
+  the report came through its Sandbox bug-bounty program, named KVM as the
+  affected hypervisor, and paid the program's maximum fifty thousand
+  dollars. Vercel's sandboxes isolate untrusted AI-agent code inside
+  Firecracker microVMs — the microVM boundary is the primary host-protection
+  layer. As of Oct 6: no exploit chain, affected versions, CVE identifier,
+  or public patch disclosed; responsible disclosure in motion. Decoder
+  significance: this is the KVM layer the Trail of Bits finding above leaned
+  on — the host kernel is the layer the microVM hides but never removes.
+  Containment must be layered, not single-wall. [CORROBORATED — Vercel's
+  confirmation via independent press; exploit chain undisclosed, no patch on
+  record]
 
 ## Rogue-agent threat intel
 
