@@ -1519,3 +1519,11 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Sources: https://andronetalksnews.com/we-may-have-been-reading-the-voynich-manuscript-in-the-wrong-order-for-over-a-century/ ; https://www.artsjournal.com/2026/10/the-voynich-manuscript-was-probably-bound-wrong.html
 - **Non-news / parked:** Sep 2026 TikTok viral "crack" (menstrual-cycle catalogue theory — image interpretation, no decryption performed) — SPECULATION; the Indus $1,000,000 prize remains unclaimed with no new winner.
 - **Library update:** public `docs/UNDECIPHERED.md` §2 (K4 claim-and-refutation + live open-work state), §3 Indus script (SIGIL note), and scoreboard (K4 refuted; Voynich reading-order upgraded to CORROBORATED).
+
+## 2026-10-14 06:58 EDT — research loop — Historical codebreaking (rotation #1, eighth pass)
+
+- **No new breaks this pass.** The September 2026 wave of AI-assisted historical decipherments stands as previously logged: GPT-6 Astra's ~6-hour break of the 1809 Marmont homophonic cipher (independently validated by Cryptiana's Satoshi Tomokiyo, five symbol readings still open); the ~2-day GPT-6 Astra break of the 1941 MVUEH Enigma message (unsolved since 2005, independently validated by Frode Weierud); a second Enigma break with Claude Opus 5 assistance; and the 1918 ADFGVX Sevastopol naval message. This week's coverage (NY Post, The Times, Zubiqo, 1950.ai, gingermag) retells those same events — no new decipherment, no status change; seven public-collection Enigma messages remain unsolved.
+  - [CORROBORATED — standing entries re-confirmed across multiple independent outlets]
+- **Spotted and skipped (educational content, no new findings):** the usa.feji.io Bletchley series (Dilly Knox's Abwehr Enigma work, Mavis Lever's "missing letter" crib, Oswein Twiss's letter-counting break of the naval Offizier double cipher); ScienceAlert's Hut 6 Banbury-sheets story (2015-era renovation news recrawled); ZDNet's Enigma-machine theft piece (old story).
+- **Decoder note:** the loop graded this press cycle as corroboration, not as new finds — retold history is not research output.
+- **Library update:** none this pass (docs/UNDECIPHERED.md scoreboard stands).
