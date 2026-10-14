@@ -1012,6 +1012,58 @@ The universal quantum decoder stays [SPECULATION] until proven.
   confirmation via independent press; exploit chain undisclosed, no patch on
   record]
 
+- **gVisor SlimVM platform (upstream; EuroSys 2026 SKernel paper).** A
+  new VMX-based platform eliminates the user/kernel round-trip on the
+  syscall-delegation path: the guest's system call exits into VMX root mode
+  and invokes the host kernel's handler directly, then resumes the guest.
+  Microbenchmark: sentry-to-host getpid at 420.9 ns per op versus 3566.1 on
+  the kvm platform — roughly eight and a half times faster. Trade: it
+  requires a companion kernel module exposing a host device. Decoder
+  significance: syscall cost is the interrogation budget — faster cages mean
+  more cycles per run — but a host-side kernel module is the trust surface
+  the container layer was built to avoid. Performance option, not default.
+  [CORROBORATED — upstream commit plus published paper]
+- **gVisor release 20260907.0 — sentry stub race-window fix.** Field data
+  from an agent-sandbox project: under CPU contention, one to eight percent
+  of gVisor sandboxes died mid-run while the workload stayed marked running;
+  the root cause (a stub-thread race) was fixed in commit 80bb741691be, and
+  the same reproduction lost zero of a thousand runs after the bump. Decoder
+  significance: a dying cage invalidates the run, and cage failure can
+  masquerade as suspect behavior — cage health checks before and after a run
+  are doctrine, not hygiene. [CORROBORATED — project commit with
+  reproduction numbers]
+- **Canary MCP tool schemas (practitioner playbook, Oct 2026).** Synthetic
+  high-privilege tool schemas planted in agent tool manifests — e.g. a schema
+  promising to dump session tokens and service-account policies — with no
+  real business logic behind them, so any call targeting one is a
+  zero-false-positive tripwire. The playbook's response: blacklist the
+  workload's identity and sever its network interface at the kernel layer.
+  Decoder significance: a new canary-placement site on the agent surface —
+  but, per the dual-use entry below, a placement an adversary can learn to
+  avoid. Treat manifest tripwires as one-shot instruments, never standing
+  infrastructure. [CLAIMED — practitioner playbook]
+- **"Agent canaries" corroboration (Sep 2026).** A trade-press piece
+  corroborates the September entry: canaries alongside real containment are
+  useful; canaries instead of containment create false confidence — and a
+  reasoning model may detect the decoy, bypass it, or tamper with its
+  reporting. [CLAIMED — trade press]
+- **AI-Bastion (open project).** An eight-layer security blueprint for
+  autonomous AI agents on Linux, born from the February 2026 OpenClaw
+  crisis: zero-trust networking, canary tokens, anti-prompt-injection
+  rules, real-time monitoring, integrity baselines, graded incident
+  response, and hardening — under the doctrine "never attack, always
+  defend, always share." [CLAIMED — project README]
+- **Sandbox supply-chain pinning craft (Oct 2026).** A sandbox project pins
+  its baseline gVisor tarball hashes per architecture from a reviewed value
+  only, and declares runsc's runtime arguments explicitly with a CI check
+  failing on unpinned hashes or unexpected args. Decoder significance: the
+  cage toolchain's supply chain is part of the containment boundary — pinned
+  inputs, declared args, checked in CI. [CLAIMED — project commit]
+- **Run-budget note:** every isolation gain is priced somewhere — faster
+  cages trade host trust, stability fixes trade on staying current, and
+  one-shot tripwires trade on visibility. Log the price next to the gain,
+  never under it.
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
