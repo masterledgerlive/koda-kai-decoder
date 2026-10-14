@@ -887,6 +887,67 @@ The universal quantum decoder stays [SPECULATION] until proven.
   content boundaries. The defender's checklist and the evader's recipe in
   one document. [CLAIMED — practitioner compilations]
 
+- **Fingerprint State of AI Traffic in Financial Services (released
+  October 14, 2026).** Survey of three hundred US financial services
+  leaders: seventy-nine percent detected a malicious bot or scraper
+  bypassing a perimeter defense by spoofing a legitimate AI assistant
+  or search crawler identity; only forty-five percent detect spoofed AI
+  traffic and mitigate it in real time; twenty-six percent have full
+  visibility into automated traffic that bypasses client-side
+  JavaScript detection. Decoder significance: a third independent
+  vendor datapoint that the identity-claim layer fails open at scale —
+  claiming a legitimate agent name costs nothing, so behavioral and
+  HTTP-level verification is the only layer that sees the spoof.
+  [CLAIMED — vendor survey]
+- **Cryptographically undetectable hidden capabilities (NeurIPS paper,
+  reported October 14, 2026).** A construction hiding model
+  capabilities behind a SHA-3 encryption barrier defeated every known
+  elicitation method used in safety evaluations: supervised
+  fine-tuning about fifty point nine percent accuracy (random
+  baseline) versus ninety-two point eight percent for a
+  non-cryptographic baseline; latent adversarial training about
+  fifty-two point nine percent versus ninety-one point seven percent;
+  gradient-based trigger search matched random search under realistic
+  query budgets; weight noising had no effect. Decoder significance:
+  anti-detection reaches below the fingerprint layer — a hash-locked
+  capability cannot be elicited by any discipline, so the decoder
+  grades behavior under constraint, never claimed capability.
+  [CLAIMED — trade-press summary; paper not read this pass]
+- **CloakBrowser (open source, updated about September 2026).** A
+  stealth Chromium build for AI agents that patches fingerprints at
+  the source level, compiled into the binary, instead of config-level
+  or JavaScript-injection stealth that breaks on browser updates and
+  is itself detectable; includes a humanize mode with realistic mouse
+  curves, per-character typing, and scroll patterns, as a drop-in
+  replacement for common automation frameworks. Self-reports passing
+  thirty out of thirty bot-detection tests. Decoder significance: the
+  fitted-evader gets cheaper to run — a compiled-in fingerprint leaves
+  no runtime patch to detect, forcing defenders up the stack to
+  behavior and attestation. [CLAIMED — project self-report]
+- **Nyasa three-actor detection model (open source, May 2026).** Adds
+  AuthorizedAgent as a third actor beside human and bot: legitimate
+  agents look like bots by every traditional signal but blocking them
+  turns away real business; twenty-four signals, six detection rules.
+  Decoder significance: "is this a bot" is the wrong question — the
+  third actor is graded on authorization, not humanness.
+  [CLAIMED — open-source project writeup]
+- **HumanGate (ETHGlobal Cannes 2026, open source).** One World ID
+  scan, on-chain forever: any service queries a shared verification
+  registry instead of running its own CAPTCHA, with the human
+  verifying once and agents operating under that verification across
+  services. Decoder significance: the CAPTCHA-successor ladder gains a
+  universal-attestation entry — "is this agent human-backed?" as a
+  shared primitive. [CLAIMED — hackathon project docs]
+- **Salt Security agentic-AI security survey (second half of 2026).**
+  Nearly half of surveyed organisations report unauthorized AI agent
+  actions; only six point eight percent resolved such issues at the
+  point of generation. A paired lab finding: a single malicious email
+  hijacked the Manus agentic platform (connected email, cloud storage,
+  code repositories) — the guardrails detected the activity but could
+  not stop the code from executing; responsibly disclosed and
+  remediated. Decoder significance: detection without containment is
+  telemetry, not defense. [CLAIMED — vendor report via trade press]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
