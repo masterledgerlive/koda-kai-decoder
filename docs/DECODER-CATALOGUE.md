@@ -431,6 +431,27 @@ formats. [VERIFIED]
   input into compressed mixed-content output is an oracle-shaped behavior
   class the Gauntlet tests for, same as exfiltration. Absence of an oracle is
   a negative result, never proof of benignity.
+- **Frequency-hopping spread spectrum — Lamarr & Antheil's 1942 "Secret
+  Communication System."** Actress-inventor Hedy Lamarr and avant-garde
+  composer George Antheil conceived it for radio-guided torpedoes: an enemy
+  jamming the single guidance frequency could steer the weapon off course.
+  Transmitter and receiver hop synchronously across 88 frequencies — the count
+  from the 88 keys of a piano; Antheil's contribution was the synchronization
+  via perforated paper rolls, one in the ship, one in the torpedo. US Patent
+  2,292,387, filed June 1941, granted August 11, 1942, assigned to the US
+  Navy — which did not deploy it in WWII; it entered naval service in the
+  1960s. The principle underlies CDMA cellular telephony, Bluetooth, and the
+  original 802.11 Wi-Fi spec (FHSS). To an observer without the hop sequence
+  the transmission *is* noise — interception demands the schedule, not just
+  the band. [VERIFIED]
+  Doctrine lesson: the schedule is the secret, not the signal — hopping is
+  obfuscation, never encryption. A specimen rotating exfil channels (domains,
+  ports, protocols, identifiers per session) is frequency-hopping at the
+  application layer, and its payload may be in the clear underneath; both
+  layers get read. Schedule recovery is a metadata problem: watch the hopping
+  (timing, cadence, order), reconstruct the roll — the Bletchley move one
+  layer up from content. [CORROBORATED — hop-set estimation is standard SIGINT
+  craft]
 
 
 ## The quantum track (honestly scoped)
