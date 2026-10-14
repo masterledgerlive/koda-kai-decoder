@@ -310,6 +310,25 @@ formats. [VERIFIED]
   2026).** LC3/LE Audio reaches a huge headphone installed base — Auracast
   broadcast audio to any compatible receiver is a new passive-collection channel
   to watch. [CLAIMED — consumer press]
+- **Pure-Rust ffmpeg rewrite gains AV2 decode — with a measured hostile-input
+  caveat (remade_ffmpeg_rs, updated ~Oct 8, 2026).** A pure-Rust ffmpeg
+  reimplementation registers a decode-only AV2 path via `rusty_av2d 0.2.8` —
+  AV2 there is explicitly research-preview (no conformance vectors; correctness
+  pinned against the AVM reference; bitstream may still change). The load-bearing
+  measurement, from the project's own docs: debug builds ABORT on malformed AV2
+  input (an unchecked subtraction trips Rust's overflow checks; the fuzz sweep
+  takes the process down in a way `catch_unwind` cannot contain), while release
+  builds decode byte-identically to the reference and survive the fuzz sweep.
+  Decoder lesson: memory-safety is not crash-safety — a pure-Rust parser can
+  still abort the process on hostile bytes, so sandbox the AV2 path for
+  untrusted input. [CLAIMED — project's own compatibility docs]
+- **AV2 gets a GPU encoder path into FFmpeg (jboero/clave).** A Vulkan-GPU AV2
+  encoder (`libclave_av2`) plus a thin FFmpeg wrapper registering
+  `AV_CODEC_ID_AV2` — the encode side of AV2 goes GPU-compute-native through a
+  single-author Rust project, where "plays everything" once required consortium
+  effort. Caution from the project's own docs: the still-image fourccs are
+  project-local, the bitstream surface is experimental — decode AV2 only from
+  pinned, known-good sources until the spec settles. [CLAIMED — project docs]
 - **XZ Utils supply-chain backdoor — the decoder was the weapon (CVE-2024-3094, Mar 2024).** `xz`/`liblzma`, the universal Linux decompression library, shipped a backdoor in the 5.6.0/5.6.1 release tarballs: a ~2-year trust-building campaign ("Jia Tan") won release authority, payload bytes hid in test fixtures, and a tarball-only build script injected shared-object code that used glibc IFUNC to swap sshd's `RSA_public_decrypt` — giving the key-holder pre-auth root RCE via a signed SSH certificate. Caught by Andres Freund on Mar 29, 2024 from ~500ms of unexplained SSH CPU, before any stable distro shipped it; no confirmed in-the-wild exploitation; CVSS 10.0. No official attribution. Decoder lesson: the reviewed artifact (git) ≠ the shipped artifact (tarball) — pin provenance at the artifact; a universal decoder is the ideal host; and the catch was behavioral (baseline vs anomaly), not analytical. [VERIFIED — oss-security disclosure, NVD, independent analyses; attribution CLAIMED]
 
 - **QR codes & 2D symbology — the printed-media decoder (1994; Denso Wave, Masahiro Hara's team).** Built for factory parts-tracking speed: three finder patterns (corner position-detection squares) let a camera read the code from any rotation; versions 1–40 scale from 21×21 to 177×177 modules. The decode survives damage because the payload rides Reed–Solomon error correction over GF(256) — invented 1960 by Irving S. Reed and Gustave Solomon — at four levels (L/M/Q/H: ~7/15/25/30% of codewords recoverable), the same code family that protects CDs, DVDs, and satellite links. Standardized as ISO/IEC 18004. Open reference decoders: ZXing ("Zebra Crossing", Apache 2.0, born at Google 2006, 1D+2D formats), zbar, quirc. [VERIFIED — canonical public record]
