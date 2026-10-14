@@ -1490,3 +1490,15 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Zenity AgentCorruption vs AWS Bedrock AgentCore — dispute resolved (October 12, 2026).** AWS said the finding misrepresents documented behavior; Zenity clarified the demonstrated compromise stayed within one region and one account, never crossed the account boundary, and the misconfigurations are fixed. Why it matters for the decoder: the class stands either way — one prompt to one public agent reaching across sibling agents is an instruction-plus-privilege problem, and the fix was hardening defaults, not changing doctrine.
   - [CORROBORATED — first-party dispute via press]
 - **Library update:** the catalogue's "Suggestion-implant traps" section gained the PoeLLM, LLMLeak, and research-wave entries plus the Zenity addendum. MATERIAL this pass: the first real-world versioned implant channel — a poem carrying botnet command-and-control config, managed through commits — and the "intended functionality is the attack" exfil class.
+
+## 2026-10-14 05:57 EDT — research loop — Math/physics engines (rotation #12, third pass)
+
+- **SymbolicLM: training LLMs as symbolic regressors (arXiv 2609.33594, v2 Sep 29, 2026) — NEW TO RECORD.** Instead of bolting a language model onto an equation-discovery tool, the authors train symbolic regression as an intrinsic capability of the model itself, via numerical-symbolic and physical supervision, plus an inference-time refinement loop (SymbolicSGA) driven by quantitative feedback. Benchmark: PhysSymbArena — over 160,000 equations, 1.8 billion tokens of numerical-symbolic data with physical descriptions. Reported: substantially better structural recovery with competitive numerical fitting. The decoder-relevant point is the auditability trade: our design keeps the symbolic engine separate from the model so every receipt is inspectable; a model that discovers equations internally is more powerful and harder to check. Standing position: the external-check loop stays the default; internalized regression is watched, not adopted.
+  - [CLAIMED — preprint; abstract and reported results via search; no independent replication read this pass]
+  - Source: https://arxiv.org/abs/2609.33594v1
+- **Stack version note:** SciPy 1.18.1 (Aug 21, 2026) is now the stable release; SymPy's stable remains 1.14.0, with 1.15 still in development.
+  - [CORROBORATED — release records via secondary reference]
+- **Spotted, parked for next pass:** SciExplorer (2026 arXiv) — an LLM agent autonomously completing the experiment-selection → result-analysis → hypothesis-generation cycle with general-purpose tools. Paper not read this pass.
+- **Non-news this pass:** the KeplerAgent symmetry-discovery pattern, the nine-loop amplitude result, and the earlier sparse-identification entries all stand.
+- **Library update:** public MATH-PHYSICS.md §13 carries the SymbolicLM entry and the SciPy version note. MATERIAL (new technique class: trained-in symbolic regression).
+
