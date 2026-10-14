@@ -337,3 +337,13 @@ Sources: https://evermx.com/case/openai-navier-stokes-millennium-proof ; https:/
 Source: https://github.com/grzlz/ai_quantummechanic
 
 **Decoder-design note (this run):** the same split keeps appearing — the discovering system must not grade itself. SciExplorer grades via fresh experiments; the OpenAI swarm grades via Lean; the opaque-keys project grades by never letting the grader hold the answers. Three surfaces, one doctrine: the evidence source and the claim source are never the same component.
+
+## 15. New engine notes (2026-10-14 research loop — math/physics track, fifth pass)
+
+**Section heading: the hypothesis generator never grades itself alone.**
+
+- **EML symbolic regression — the NAND gate of continuous math [CLAIMED — repo first-party; arXiv:2603.21852 (Odrzywolek 2026) not read this pass].** One binary operator, `eml(a,b) = exp(a) − ln(b)`, provably generates all elementary functions. Grammar: `S -> x | 0 | 1 | c | eml(S, S)` — every expression is a binary tree of identical nodes. Hybrid exact-form pre-pass, then stratified tree search with gradient-free constant optimization. Reading: grammar minimalism is a fabrication control — the smallest complete grammar leaves the least room for hallucinated structure.
+- **DoLQ — multi-agent ODE discovery [CLAIMED — secondary summary of arXiv:2605.07323, ICML 2026; paper not read this pass].** Sampler proposes equation structures, optimizer fits coefficients, LLM Scientist Agent evaluates each candidate on qualitative (domain knowledge, physical plausibility, constraints) AND quantitative (fit, error, complexity) criteria, synthesizing both into next-iteration guidance. Reading: the plausibility gate — a fit-only scorer cannot reject a physically absurd but numerically accurate equation.
+- **RESTART — the self-auditing regression loop [CLAIMED — review-repo summary; ICLR 2026].** Runs the full hypothesis-experiment-analysis cycle inside symbolic regression: learns an exploration function modeling the signal the current hypothesis fails to explain, then converts it into targeted structural feedback rather than blind syntactic edits. Reading: self-audit as feedback — the loop grades what it missed, not just what it fit.
+- **MuJoCo MCP server (sandraschi/mujoco-mcp) [CLAIMED — repo first-party].** MuJoCo physics behind MCP: load any MJCF model, control it, agent workflows; ships a solver comparison (MuJoCo vs Gazebo vs Isaac Sim/PhysX vs PyBullet). Reading: the physics shelf gains an agent-native tool surface — simulation as a tool an agent calls, not a library it imports.
+- **Status note: MuJoCo Warp differentiability still pending [CLAIMED — repo README].** "Differentiability via Warp is not yet available" (issue #500). Watch item, not a capability.
