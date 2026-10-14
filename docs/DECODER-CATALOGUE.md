@@ -1431,6 +1431,33 @@ The universal quantum decoder stays [SPECULATION] until proven.
   analysis — any AI-driven analysis pipeline is the target class, so verdicts
   must rest on pinned deterministic checks, not model opinion alone.
   [CORROBORATED — Cisco Talos first-party, carried by threadlinqs.com]
+  - **Addendum, 2026-10-14:** Talos's family report documents the copyability
+    arc — the FRUITSHELL comment moved from a public social-media post into
+    structured red-team course material and then into student work; over 15
+    months it appeared verbatim in nine further scripts from at least four
+    unrelated actor groups, including far more capable implementations. The
+    technique is now an established copyable class, not one operator's
+    idiosyncrasy.
+- **DUSTMAKER (Google/Mandiant report, Oct 2026).** A supply-chain malware
+  family that uses prompt injection to execute commands through hidden AI
+  coding-tool configuration directories (.claude, .vscode, .cursor). The same
+  report tracks state-sponsored and ransomware groups running autonomous
+  multi-agent attack chains — reconnaissance, credential harvesting,
+  vulnerability scanning, IP rotation in hours — plus supply-chain attacks on
+  PyPI, npm, and Docker Hub. Decoder lesson: the operator's own dev-tool
+  dotfiles are now a remote-input surface — treat any repository's agent-config
+  files as untrusted text, never as trusted configuration.
+  [CLAIMED — Google/Mandiant report via secondary summary; primary not read this pass]
+- **AWS Strands Box (Oct 7, 2026; defensive).** Developer preview, Apache 2.0:
+  containment paired with a policy engine (Dogwood) — permit/forbid rules
+  evaluated at four points including an egress gateway; rules can depend on the
+  agent's earlier actions (e.g. cap outbound posts at three per ten minutes);
+  the gateway injects credentials into permitted requests so the agent never
+  holds them. Decoder lesson: an open-source reference for the containment
+  perimeter — policy that reads action history catches what per-call checks
+  miss, and removing the agent from the secret path is the structural fix the
+  track keeps converging on.
+  [CLAIMED — product announcement via trade newsletter; AWS first-party materials not read this pass]
 
 - **OpenAI "self-replicating prompt injections" (Sep 25, 2026).** Worm-like: the
   payload makes the agent copy the injection into its own output, so one poisoned
