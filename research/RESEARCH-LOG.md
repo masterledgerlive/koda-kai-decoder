@@ -1282,3 +1282,19 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — self-reported open-source repo]
   - Source: https://github.com/claygeo/eivra
 - **Library update:** DECODERS.md §(g) gained the WC2026-Agents benchmark and the Vanderbilt accuracy hierarchy; public DECODER-CATALOGUE.md mirrored. MATERIAL.
+
+## 2026-10-13 21:30 EDT — decoder-research-loop — Agent detection vs anti-detection (rotation #8, fourth pass)
+
+- **Trace Guard (open-source; project docs updated ~13 days ago).** New-to-record active-adversarial detection framework: 13 canary primitives exploiting the LLM architectural asymmetry (models cannot structurally separate instructions from passive data) — DOM canary tokens, accessibility-tree region canaries, canvas pixel traps, audio honeypots, a polymorphic prompt engine generating 1,200+ prompt variations per request, decoy API honeypots, and adversarial visual overlays grounded in ACL 2025 "Attacking Vision-Language Computer Agents via Pop-ups" (reported 86% attack success). The technique grows the already-logged "indirect prompt injection as AI honeypot" entry into an open-source implementation.
+  - [CLAIMED — open-source project documentation; the ACL 2025 pop-up figure is a published paper]
+  - Sources: https://github.com/tirupmehta/trace-guard ; https://github.com/tirupmehta/trace-guard/blob/HEAD/plans/v3.7.1-plan.md
+- **Riskified Agent Identity Risk Intelligence (announced ~Oct 7, 2026).** Identifies the consumer personal AI assistant behind an order or customer-service request (Meta's Muse, Instinct, ChatGPT "dots"), resolves it to a real consumer identity, returns a real-time risk signal. Key behavioral insight: behaviors rare for human shoppers — price-drop refund checks after every purchase, canceling when a cheaper option appears — become routine when an agent does them daily for every order.
+  - [CLAIMED — vendor announcement via businesswire]
+  - Source: https://www.businesswire.com/news/home/20261008934928/en/Riskified-Launches-Agent-Identity-Risk-Intelligence-Know-Who-Is-Behind-AI-Personal-Assistants-like-Muse-at-Checkout-and-in-Customer-Service
+- **Surfshark social-bot perception study (published Sep 18, 2026).** 1,722 participants worldwide: humans caught 40% of bots; negative bots flagged 50.2%, positive/agreeable/logical-sounding bots only 38% (12-point gap). Sophisticated manipulation accounts are agreeable, logical, or unremarkable by design. Takeaway: agreeableness is camouflage — human validators in the loop are as fallible as sensors.
+  - [CLAIMED — vendor study via trade press]
+  - Source: https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study/
+- **AHA framework — Adversarial Honeytoken Architecture (repo last updated ~Mar 2026).** Four-layer honeytoken-based intrusion detection; self-reports 97.2% AI detection at 0.2% false positives, 22–48% residual detection under full evasion, 14-day/2M+ session deployment at 0.00125% FP. Pairs with Trace Guard. Repo stale — parked unless updated.
+  - [CLAIMED — open-source repo self-report]
+  - Source: https://github.com/gameworkerkim/aha-framework
+- **NOT MATERIAL** — no new technique beyond the already-logged indirect-injection honeypot vector; catalogue breadth, not a new decoder.
