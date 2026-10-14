@@ -1768,3 +1768,9 @@ Three targeted searches; no new decipherment — routine, not material. This mor
 - **Voynich hype-wave calibration (Oct 2026; calibration note).** A cluster of viral "AI decoded the Voynich" videos recycles the 2018 Hebrew hypothesis and older framings — no independently accepted manuscript-wide decipherment exists; Yale continues to describe MS 408's writing as unidentified and undeciphered. A translation claim with no reproducible artifact is a press cycle, not a result. [CORROBORATED]
 - **No status change:** Indus script $1,000,000 Tamil Nadu prize still unclaimed (same facts as already on record: announced January 2025; final call rests with archaeological reviewers; no accepted reading); Paradigm's Kryptos CTF still live; Beale — no new claims. [VERIFIED — standing entries]
 - **Library update:** none — nothing material.
+
+## 2026-10-14 ~14:28 PDT — Historical codebreaking (rotation #1, ninth pass)
+
+- **No new breaks this pass.** Three targeted searches returned press-cycle retreads only: narrative pieces on Rejewski/Poland's 1932 Enigma break (settled history); the 2018 Tiltman/Russian one-time-pad-reuse declassification story recrawled; the 2021 Callimahos Military Cryptanalytics part-3 declassification story recrawled; the 2015 Turing Banbury-sheets story recrawled. The one fresh timestamp was curatorial, not historical: as of 29 Sep 2026, IEEE's Bletchley Park Milestones plaque sits in a display case behind the museum entrance desk, with UKI Section volunteers working to move it to a publicly accessible spot. No new declassification, decipherment, or technique. [CORROBORATED — recrawls confirm standing entries]
+- **Decoder note:** a museum logistics note about a plaque's display location is not a finding; it's a footnote. Retold history is corroboration, not research output.
+- **Library update:** none — nothing material.
