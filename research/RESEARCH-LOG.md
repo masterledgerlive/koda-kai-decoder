@@ -1792,3 +1792,10 @@ Two targeted searches; one new-to-record item (material — new open protocol de
 - **Wireshark 4.6.9 hardening detail (corroboration).** The nineteen advisories run beyond crashes — infinite loops in the TTL file parser and TIFF dissector, a profile-import flaw (CVE-2026-96419) rated crash with potential code execution, and a separate sharkd fix. The analyst's instrument is a hostile-input parser too. [CORROBORATED]
 - **No status change:** the 4.6.x point releases carry zero new protocols; the DECT NR+ native dissector and the 4.6.0 batch stand; the DECT NR+ open reference stack is unchanged.
 - **Library update:** `github-public/docs/DECODER-CATALOGUE.md` gained the Cisco CSMP dissector entry (mirrored from the private library) and the CVE hardening detail.
+
+## 2026-10-14 ~15:57 PDT — Language decoders (rotation #4, ninth pass)
+
+Two targeted searches; one new-to-record item.
+
+- **Twenty-two-model consensus exposes the low-resource reliability gap (MachineTranslation.com SMART platform; Jan–Apr 2026 usage data).** Routing every translation through 22 independent AI models and measuring agreement shows high-resource pairs converging while low-resource pairs — Haitian Creole, Tamazight, Malagasy, Twi, Akan — fall apart. The failure is not obvious error but confident, fluent-looking output with no reliability signal (e.g. "out-of-pocket" into Haitian Creole as "soti-of-pòch," a structure that doesn't exist in the language). The platform claims 90% error reduction over single-model baselines. Decoder lesson: where there is no data anchor, trust the output that survives a second decoder, not the fluent first one — cross-model disagreement is a runtime reliability signal. [CORROBORATED — trade-press writeup on vendor-supplied data; the 90% figure is vendor-stated]
+- **No status change:** the Tangut structural-prior paper in this week's press is the same npj Heritage Science paper already VERIFIED on record; noise-proof low-resource MT, NiuTrans.LMT, WMT26, Apollo, Herculaneum lead-ink, and the Linear A claim all stand at their logged grades.
