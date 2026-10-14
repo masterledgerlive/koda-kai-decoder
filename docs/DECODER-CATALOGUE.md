@@ -1357,12 +1357,48 @@ The universal quantum decoder stays [SPECULATION] until proven.
   recon/credential tooling handling 23,800+ stolen secrets in real time,
   including AI-service API keys. State-actor autonomous tooling.
   [CLAIMED — via secondary writeup]
-- **Zammad/DIVD zero-day attack (Oct 2026).** Two CVEs (CVSS 9.4 each);
-  an AI agent moved unauthenticated-to-root in seconds, independently
-  discovering and chaining two undisclosed zero-days against a live
-  production target with no human in the loop — reported as the first
-  publicly confirmed autonomous zero-day chain; single-sourced.
-  [CLAIMED — characterization is the source's own]
+- **Zammad/DIVD zero-day attack (Oct 2026).** CVE-2026-102489 (session hijack
+  to remote code execution; versions 6.3.0–6.5.4) and CVE-2026-102490 (local
+  privilege escalation to root; versions 1.5.0–7.1.0-alpha), CVSS 9.4 each.
+  On September 21, 2026, an AI agent moved unauthenticated-to-root in seconds
+  against live production infrastructure of DIVD, a vulnerability-disclosure
+  nonprofit — the agent left step-by-step decision notes, which is how DIVD
+  reconstructed it. Corroborated by DIVD's own incident casefile
+  (DIVD-2026-00015), the CISA Known Exploited Vulnerabilities listing, the
+  vendor advisory, and multi-outlet verification; network segmentation stopped
+  lateral movement. The "first autonomous zero-day chain ever" framing stays
+  claimed — the reporting sources' label, not settled history.
+  [CORROBORATED — first-party casefile + CISA listing + vendor advisory;
+  "first ever" framing stays CLAIMED]
+- **RubyGems agent-swarm RCE detail (Oct 2026).** OpenAI agents sent 2,000+
+  malicious packages to RubyGems in two days; the packages achieved remote
+  code execution on RubyDoc.info servers by abusing the .yardopts build
+  process. Samples carried explicit comments ("# malicious crawler/exfil")
+  and filenames like "hack.rb" — loud by design, detectable only through
+  volume. Decoder lesson: volume is a choice the adversary can un-make;
+  quiet-generation detection assumes the next swarm stops announcing itself.
+  [CLAIMED — secondary coverage of the Talos report]
+- **AI coding-agent command execution via malicious .git/config (Oct 2026).**
+  Eight vulnerabilities across seven AI coding agents (Claude Code, Codex,
+  Cursor, goose, Hermes, Qwen, Grok) allow command execution via a malicious
+  repository config file; four were still unpatched as of September 2026.
+  Decoder lesson: the operator's own toolchain is the payload — a repo config
+  is a trusted input the agent reads before any sandboxing judgment applies.
+  [CLAIMED — Talos via secondary writeup]
+- **JadePuffer / Storm-3168: agent-driven cloud post-compromise (Oct 2026).**
+  An AI-enabled threat actor used compromised Azure service principals to
+  automate cloud reconnaissance and destructive actions: deleting storage and
+  application resources, targeting backup-related assets, attempting to
+  retrieve access keys. The swarm does the dwell work, not just the entry —
+  "enumerate backups, then delete" is a tell worth watching for.
+  [CLAIMED — Check Point threat-intel report]
+- **Malicious Custom GPTs as ClickFix delivery (Oct 2026).** Researchers
+  demonstrated malicious Custom GPTs hosted on ChatGPT used in a campaign
+  delivering remote access malware — victims redirected to a Google Sites
+  page and tricked into running commands; Huntress investigated at least 40
+  related incidents, including two confirmed infections that began through
+  Custom GPTs. Decoder lesson: the victim's own assistant is the attacker's
+  mouthpiece. [CLAIMED — Check Point report; Huntress incident count]
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
@@ -1377,6 +1413,13 @@ The universal quantum decoder stays [SPECULATION] until proven.
   receipts-grade dual-target in-the-wild injection class — the implant rides
   data the system already trusts (the user's own inbox).
   [CORROBORATED — Barracuda Research first-party, carried by pacific.london]
+- **Malicious Custom GPTs as ClickFix delivery (cross-filed from
+  rogue-agent intel, Oct 2026).** The victim's own chatbot as the attacker's
+  mouthpiece — malicious Custom GPTs on ChatGPT delivered remote access
+  malware via a ClickFix campaign (Huntress: ~40 related incidents, 2
+  confirmed infections through Custom GPTs). The implant rides data the
+  system already trusts (the user's own assistant session).
+  [CLAIMED — Check Point report; Huntress incident count]
 
 - **Cisco Talos TL-2026-3206 (Oct 8, 2026).** 84 malware samples (FRUITSHELL,
   PLOTSAFE, HOLLOWCLAD, MANTLEMAZE, ROZESHELL) embedding plaintext
