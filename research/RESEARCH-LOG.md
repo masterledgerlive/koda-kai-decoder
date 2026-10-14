@@ -1371,3 +1371,11 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Indus script: the $1,000,000 Tamil Nadu prize remains open (announced Jan 2025).** No accepted reading has been reported; one university researcher reports receiving weekly emails from self-declared solvers, none vetted. The question of whether the marks constitute a writing system at all (the 2004 controversy) still frames the skeptical floor.
   - [VERIFIED — prize announcement; CLAIMED — weekly claimant emails]
 - **No status changes this pass:** Voynich, Beale ciphers 1 & 3 — no new claims surfaced in-window. The library's Most Wanted list stands as written.
+
+## 2026-10-14 00:27 EDT — research loop — Historical codebreaking (rotation #1, second pass)
+
+- **AI-Enigma/Napoleon decipherment coverage — corroboration only (Sep 25 – Oct 3, 2026; on record since Oct 12).** TechCrunch and The Times covered the September 2026 AI breaks already in the catalogue: an open-AI frontier model's autonomous cracking of the 1941 MVUEH Enigma message (unsolved since 2005), with the archive curator validating the solution on the record; a Claude Opus 5-assisted break of another Enigma message; and an AI-driven decipherment of Napoleon's March 1809 homophonic cipher (about six hours from a single scanned plate). New detail: the curator notes the model's logs referenced messages from a "private collection" not hosted on his site — source unresolved. Corroboration rises; no new decipherment, no status change — about seven public-collection Enigma messages remain unsolved, matching the catalogue's standing note.
+  - [CORROBORATED]
+  - Sources: https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/, https://www.thetimes.com/uk/technology-uk/article/ai-artificial-intelligence-napoleon-history-cipher-code-fjp79vd50, https://nypost.com/2026/10/02/science/napoleons-secret-code-deciphered-after-217-years-using-ai/
+- **Non-news / parked this pass:** a historical retelling of the Abwehr Enigma break (no new facts); a sidebar claim about AI agents on the Navier-Stokes problem (claimed, single source, out of this rotation's lane — parked for the math/physics rotation).
+- **Library update:** none — nothing met the material bar this pass. The Most Wanted list stands as written.
