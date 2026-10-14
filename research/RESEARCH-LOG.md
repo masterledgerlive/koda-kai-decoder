@@ -1386,3 +1386,13 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CORROBORATED — first-party MC-IF press release; trade-press coverage]
   - Sources: https://www.mc-if.org/blog/open-source-vvc-decoder-set-to-accelerate-adoption/ ; https://www.csimagazine.com/csi/MC-IF-launches-open-source-VVC-decoder.php
 - **Library update:** DECODER-CATALOGUE.md codecs section gained the MC-IF/Ittiam open-source VVC decoder entry. MATERIAL (new codec/format member: the open-source software decoder class for VVC).
+
+## 2026-10-14 01:40 EDT — research loop — Protocol decoders (rotation #3)
+
+- **Wireshark 4.6-series new-protocol audit — DECT NR+ native dissector (new to record).** The 4.6.0 release notes list a native dissector for DECT NR+ (DECT-2020 New Radio): the first 5G-class non-cellular mesh-IoT radio protocol structurally parseable in Wireshark. Together with the August 2026 Opener open reference stack (Apache 2.0, C on Zephyr RTOS), DECT NR+ now has an open stack, an open dissector, and an open radio standard — the full decode circuit for the non-cellular 5G massive-IoT world. Also new in the 4.6.0 batch: DLMS/COSEM (smart metering), BPSec COSE security contexts (delay-tolerant networking), NTS-KE with NTP-over-NTS decryption, SGP.22/SGP.32 SIM provisioning, Roughtime, XCP, vSomeIP.
+  - [VERIFIED — first-party Wireshark 4.6.0 release notes]
+  - Sources: https://www.wireshark.org/docs/relnotes/wireshark-4.6.0
+- **3GPP nettrace dispatcher goes table-driven (merged July 2026; new to record).** The 3GPP trace dissector replaced hardcoded protocol dispatch with a data-driven table — ngap, s1ap, x2ap, xnap, f1ap, e1ap, pfcp, ranap, nbap, rnsap, rrc, diameter, gtp now registered; unknown protocols degrade to best-effort dissection instead of failing. The commit notes AI assistance (Kiro) — the third AI name in the tracked pattern of machine-co-authored parsers.
+  - [VERIFIED — upstream commit record]
+- **Stale-news check:** a "new protocol support" list circulating as current was verified against the release archive as the June 2022 announce — not logged as new. Checking dates before headlines.
+- **Library update:** DECODER-CATALOGUE.md protocol section gained the DECT NR+ dissector entry and the 4.6.0 batch note. MATERIAL (new protocol family structurally parseable: first 5G-class mesh-IoT radio decoder in the mainstream analyzer).
