@@ -414,12 +414,16 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   listing, $10M PIPE led by SEALSQ, 9 active LEO satellites, 100-satellite
   "Quantum Spatial Orbital Cloud" roadmap by 2033). Production ships while
   paperwork lags. [CORROBORATED — GAO report; rest CLAIMED]
-- **DARPA QBI Stage C: IonQ + IBM (Oct 13, 2026).** The two advance in DARPA's
-  Quantum Benchmarking Initiative; IonQ cited 99.99% two-qubit gate fidelity
-  alongside its September real-time QEC decoder (single off-the-shelf CPU).
+- **DARPA QBI Stage C: full six-company roster (announced Oct 7, 2026).** Atom
+  Computing, Diraq, IBM, and IonQ cleared Stage B to join Microsoft and
+  PsiQuantum in the final verification phase of DARPA's Quantum Benchmarking
+  Initiative — the program asks whether any approach reaches economically
+  useful, utility-scale quantum computing by 2033. Atom's neutral-atom work
+  ran 90 cycles of toric-code syndrome extraction with lost-atom replacement;
+  Microsoft supplies algorithmic support and error-correction codes to Atom.
   The classical decode bottleneck is the pacing item in fault tolerance —
   Stage C money now rides on decoding, not just qubits.
-  [CLAIMED — company statements via trade press]
+  [CORROBORATED — postquantum.com reporting DARPA's Oct 7 announcement]
 - **Live-network PQC migration pattern: MetaMUI (Sep 13, 2026).** Falcon-512
   keys registered against decentralized identities (accounts as DIDs, keys as
   credentials); users never moved assets. The template for post-quantum key
