@@ -350,7 +350,11 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   national-security-system buys (EO 14412). Key establishment by end 2030,
   digital signatures by end 2031. GSA federal PQC Summit Sep 16; EU roadmap FAQ
   Sep 14. Only 13% of organizations report PQC in production
-  [CLAIMED — vendor-adjacent survey].
+  [CLAIMED — vendor-adjacent survey]. Cloudflare's Sep 29 migration account
+  (internal AI tool "CryptoLabe" hunting crypto in its own code) found a
+  certificate carried inside an HTTP header where a larger PQ certificate
+  could hit size limits; the team also doubted its scans had found every use
+  of crypto. The migration fails in the parser plumbing, not the math.
   [CORROBORATED]
 - **Production PQC migrations land (Oct 2026).** Cosmos Labs deployed Ledger
   Security 2026.1 (Oct 8): ML-DSA (FIPS 204) signatures across Cosmos SDK
@@ -368,7 +372,9 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   before the Oct 22 planning deadline. Contrast: one federal agency
   deployed Quantum XChange Phio TX-EM across 15 sites without
   infrastructure replacement (Oct 8); WISeSat.Space announced PQ-ready
-  satellite/IoT comms via SEALSQ silicon (Oct 12). Production ships while
+  satellite/IoT comms via SEALSQ silicon (Oct 12; GlobeNewswire: Nasdaq
+  listing, $10M PIPE led by SEALSQ, 9 active LEO satellites, 100-satellite
+  "Quantum Spatial Orbital Cloud" roadmap by 2033). Production ships while
   paperwork lags. [CORROBORATED — GAO report; rest CLAIMED]
 - **DARPA QBI Stage C: IonQ + IBM (Oct 13, 2026).** The two advance in DARPA's
   Quantum Benchmarking Initiative; IonQ cited 99.99% two-qubit gate fidelity
