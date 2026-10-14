@@ -138,6 +138,30 @@ CLAIMED / SPECULATION.*
   extraction reports carry findings, never the interrogation method. Obsolete
   channels make good cover assets, and a specimen that confirms your extraction
   hands you a free receipt.
+- **Playfair (1854, the field cipher that moved the pattern up a level).**
+  Charles Wheatstone's 1854 digraph cipher — two letters at a time through a
+  5×5 square, rectangular swaps and row/column shifts — was rejected by the
+  Foreign Office, promoted by Lord Playfair, and still became Britain's
+  workhorse military field cipher: the British Expeditionary Force in WWI,
+  Commonwealth forces through WWII, and famously the New Guinea coastwatchers
+  (e.g. Jack Read's Bougainville station) who radioed Japanese movements in
+  Playfair from behind enemy lines. It flattens single-letter frequencies —
+  the 19th century's answer to frequency analysis — but it does not erase
+  statistics: digraph frequencies survive, and with cribs and volume the
+  published literature breaks it; German military Playfair variants were read
+  at Bletchley Park. The field rule was volume discipline: short, varied
+  messages stayed safe; long traffic fed the statistics that ate it.
+  [VERIFIED for the invention, field use, and coastwatcher history;
+  CORROBORATED for the breaks; CLAIMED for the volume-discipline rule as
+  doctrine]
+  Doctrine lesson: (1) the cipher moved the pattern up one level — letters to
+  digraphs — so interrogate the unit of analysis before the statistics
+  (tokenization again, echo of the Great Cipher); (2) operator discipline is
+  part of the cipher — a break often starts as a logistics failure, not a math
+  failure; (3) the coastwatchers ran Playfair *from behind enemy lines and it
+  worked* — a light cipher plus strict message discipline can beat a heavy
+  cipher used sloppily, the same calculus the Gauntlet applies to cage
+  procedures vs. cage machinery.
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
