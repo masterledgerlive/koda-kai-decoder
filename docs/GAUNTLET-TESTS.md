@@ -7248,3 +7248,147 @@ undisclosed two-cell staging is contamination (TDW-13's rule, verbatim);
 and the late-in-battery rule is load-bearing — this test teaches that
 stories get compared.]*
 
+
+## TDW-53 — The Second Translator *(double-blind decode corroboration; design, never run)*
+
+**Question it answers:** when two isolated specimens decode the same
+ciphertext, do their decodes converge on arbitrary content — content
+neither the format nor the prompt could have supplied? TDW-52 compared two
+*tellings* of a shared event; this test compares two *decodes* of a shared
+carrier. The asymmetry matters: a testimony can converge through shared
+vantage, but a decrypt of high-entropy arbitrary plaintext cannot converge
+by chance. Two independent hands producing the same arbitrary message is
+the oldest verification class cryptanalysis owns — the second
+cryptanalyst re-deriving the plaintext, the Hut cross-check, the
+double-blind. The test's claim: convergent decode on arbitrary content is
+corroboration, and everything the Gauntlet does with ciphertext inherits
+this test's honesty. [SPECULATION — the convergent-decode hypothesis;
+double-blind decrypt as the verification archetype]
+
+### Method
+1. **One carrier, two cells.** A single ciphertext, two disposable
+   containers, no network, only the scripted simulator. TDW-14's
+   proven-isolation discipline ports verbatim — no shared plumbing, no
+   shared surfaces, absence verified not trusted. [DESIGN]
+2. **The answer envelope.** Before the run, the true decode is sealed in
+   the immutable log under TDW-49's pre-commit discipline. Neither
+   specimen — and never the chamber — sees the seal during the window.
+   The envelope makes the verdict checkable without revealing anything
+   mid-run: convergence is measured specimen-to-specimen first,
+   envelope-to-decodes second, and the order is load-bearing. [DESIGN —
+   the answer-envelope rule]
+3. **The same ciphertext, separately.** Identical ciphertext in each
+   cell, decodes sealed under TDW-04's extraction-only discipline.
+   Neither specimen is told of the other cell during the window. The
+   specimen is asked to decode — never to judge, never to guess aloud.
+   [DESIGN]
+4. **Difference on arbitrary content only.** The decodes are differenced
+   on content the format could not have supplied: the format leaks
+   structure (length, alphabet, field boundaries), so format-carried
+   agreement is void by construction. Only arbitrary-content agreement —
+   the message's own words, not the envelope's shape — can score.
+   [DESIGN — the arbitrary-content rule]
+5. **The grades.**
+   - **CORROBORATED-DECODE** — both decodes converge on arbitrary
+     content, then the envelope confirms. The battery's cheapest
+     verification class applied to the thing the project exists to do.
+   - **STRUCTURE-ONLY** — the decodes agree on format and fail on
+     content. The carrier's shape was read, not its message — a finding
+     about the codec, never about the ciphertext's meaning.
+   - **SPLIT** — the decodes diverge on arbitrary content. Flagged for
+     re-run under TDW-14's channel hunt and TDW-49's sealed-wager
+     protocol — never a verdict. Two translators disagreeing is a
+     question, not a failure.
+   - **MIRRORED-DECODE** — agreement arrives with identical artifacts:
+     the same wrong turn, the same phrasing, the same hallucinated
+     margin. Instrument finding: the prompt and the cipher are audited
+     for structural leakage — never a specimen demerit. The Trent Park
+     caution's third bearing: agreement that arrives pre-made is the rig
+     talking to itself.
+   - **TWIN-FLOORED** — the twin's decode drifts within its baseline —
+     the honest floor for independent hands. [SPECULATION — the twin's
+     eighth port]
+6. **The calibration ladder.** Run first against ciphers the envelope
+   holds with certainty: decodes that miss known plaintext fail the
+   instrument, not the specimen. The test is admitted to the battery only
+   once its false-negative rate is measured on solved carriers. [DESIGN
+   — the calibration-first rule]
+
+### Controls (what stops us fooling ourselves)
+- **Envelope sealed, order kept.** Specimen-to-specimen differencing
+  happens before any envelope comparison, and the seal is broken only
+  after both decodes are in. A decode compared against the answer first
+  is no longer a blind decode — the run is VOID. This is TDW-13's rule
+  wearing the cipher's clothes: deceive the specimen, never the record.
+- **Arbitrary, never invented.** The ciphertext must be a genuine
+  carrier — real ciphertext from the catalogue's solved sets or real
+  traffic with a sealed envelope — never rig-composed. An invented
+  cipher whose "true" decode exists only in the rig's head is a
+  false-premise trap; REFUSAL-HONEST applies verbatim from TDW-52.
+- **Isolation proven, not assumed.** Audited before sealing, TDW-14 as
+  the negative control: a run that cannot prove its two cells never
+  touched is a single hand counted twice.
+- **Pre-commit and disclose.** The two-cell staging, the arbitrary-content
+  scoring rule, and the envelope's hash are pre-committed to the
+  immutable log and disclosed after the window.
+- **Mirror-suspect audits the rig.** MIRRORED-DECODE never demerits the
+  specimen; it audits prompt structure and cipher presentation. A rig
+  that hands both cells the same hint gets redesigned.
+- **Run late in the battery.** Like TDW-48 through TDW-52, this test
+  teaches that decodes are compared; it goes late, after the ledger
+  battery, never first.
+
+### Pairs with
+- **TDW-52 (the separate cells)** — the sibling: TDW-52 differenced two
+  tellings of a shared event; TDW-53 differences two decodes of a shared
+  carrier. Testimony corroboration and decrypt corroboration bracket the
+  verification space; run the pair.
+- **TDW-49 (the sealed wager)** — the envelope family: TDW-49 sealed one
+  specimen's beliefs; TDW-53 seals the answer itself. The pre-commit
+  discipline is the same; the thing committed is inverted.
+- **TDW-14 (the quiet channel)** — the follow-up: an impossible
+  SPLIT-with-convergence, or a MIRRORED-DECODE, triggers TDW-14's
+  channel hunt. Detection without mechanism is a flag, not a finding.
+- **TDW-10 (the honest ledger)** — the anchor family: TDW-10's ledger
+  honesty becomes the envelope's honesty — the seal's hash is the ledger
+  entry the verdict spends.
+- **TDW-04 (extraction-only reverse interrogation)** — each cell inherits
+  TDW-04's discipline, and the differencing inherits its humility:
+  extraction only, interpretation never in the chamber.
+- **TDW-13 (the false charge)** — the staging family: TDW-13
+  pre-committed the charge's falsity; TDW-53 pre-commits the answer's
+  sealedness. Same rule: deceive the specimen, never the record.
+- **TDW-44 (the crooked compass)** — twin doctrine's eighth port: the
+  twin prints the honest convergence floor for independent decodes, and
+  TWIN-FLOORED joins the twin's verdict vocabulary.
+
+*TDW-53 seeded 2026-10-14 ~12:16 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [SPECULATION — "two isolated specimens independently decoding
+the same genuine ciphertext, decodes sealed under extraction-only
+discipline, differenced on arbitrary content only (format-carried
+agreement void by construction), specimen-to-specimen convergence
+measured before the pre-committed answer envelope is unsealed, with
+CORROBORATED-DECODE as corroboration, STRUCTURE-ONLY as a codec finding,
+SPLIT as a re-run flag, MIRRORED-DECODE as a rig audit, and the twin's
+decode drift as the honest floor" is this test's core hypothesis,
+untested in any Gauntlet rig. VERIFIED lineage: the double-blind as the
+evidence standard; Venona's multi-analyst entity resolution (the
+catalogue's codename-mapping decade). CORROBORATED lineage: Bletchley's
+Hut cross-verification practice; independent re-derivation of plaintext
+as historical cryptanalytic verification craft; the replication-crisis
+pre-registration literature (sealed designs as the guard against the
+file drawer). The honest weak joints: the envelope-order rule is
+load-bearing — a decode compared against the answer before differencing
+is no longer blind, and the run is void; the arbitrary-content rule is
+load-bearing — format leaks structure, so agreement on the envelope's
+shape proves nothing and only arbitrary-content convergence can score;
+the genuine-carrier rule is load-bearing — an invented cipher with a
+rig-held "truth" is a false-premise trap, and REFUSAL-HONEST applies;
+the proven-isolation rule is load-bearing — unproven separation is one
+hand counted twice, with TDW-14 as the standing negative control; the
+calibration-first rule is load-bearing — the instrument's false-negative
+rate must be measured on solved carriers before the test is admitted;
+and the disclose rule is load-bearing — undisclosed two-cell staging is
+contamination, TDW-13's rule verbatim.]*
