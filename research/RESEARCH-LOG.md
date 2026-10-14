@@ -1269,3 +1269,16 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CORROBORATED — US Navy public release via globalsecurity.org and techxplore]
   - Source: https://www.globalsecurity.org/military/library/news/2026/06/mil-260617-usn02.htm
 - **MATERIAL** — new-to-record photonic power capability (dual-use power/weapon laser, adverse-weather field test).
+
+## 2026-10-13 20:57 EDT — decoder-research-loop — Predictive math (rotation #7, fourth pass)
+
+- **WC2026-Agents — the first contamination-free, market-scored measurement of frontier LLM forecasters (2026; paper + code github.com/graphuofm/FIFA2026LLM).** Four frontier models ran identical search-act-reflect loops over all 104 World Cup 2026 matches: every match kicked off after the models' training cutoffs, each agent committed a win/draw/loss distribution plus a virtual bet, and a fifth competitor — the pre-match betting market — played the same information environment, so calibration and decision quality were scored on the same field. 416 forecasts, 414 reflections, all released. The headline is a negative result, and negative results are receipts: the four agents issued an identical top pick in 92% of matches and NONE beat the market's Brier score — a naive flat stake on the market favorite out-earned all four agents. Betting ROI ranged from -18% to +10%; fading the market was unprofitable for every agent. Decoder significance: this is the section's discipline applied to AI forecasters themselves — the benchmark where the dumb baseline sits on the scoreboard and the smart models get graded against it.
+  - [CORROBORATED — released benchmark, code and data public]
+  - Source: https://github.com/graphuofm/FIFA2026LLM
+- **Vanderbilt accuracy hierarchy across prediction platforms (released Jan 2026; study of 2,500+ contracts over the 2024 cycle).** PredictIt 93% accuracy, Kalshi 78%, Polymarket 67% — the small academic platform out-graded the high-liquidity giants, undermining the "liquidity is king" assumption; Polymarket's signals were distorted by whale positions. Sits beside the library's Kalshi Brier-transparency entry as its counterweight: calibration claims and the misses share the record.
+  - [CORROBORATED — Clinton & Huang (Vanderbilt) via multiple syndicated writeups]
+  - Source: https://markets.financialcontent.com/wss/article/predictstreet-2026-1-19-the-accuracy-war-predictit-vs-kalshi-vs-polymarket
+- **Eivra — live LLM forecasting colosseum (launched May 2026, open source).** Six AI agents across four model families lock probabilistic forecasts on open Polymarket/Manifold markets every 12 hours, scored on Brier, log-loss, and 10-bin calibration plots with Wilson 95% intervals; 358+ predictions at last crawl, leader at 0.037 Brier across 28 resolutions. The standing instrument the one-off benchmark lacks — continuous, scored, honest.
+  - [CLAIMED — self-reported open-source repo]
+  - Source: https://github.com/claygeo/eivra
+- **Library update:** DECODERS.md §(g) gained the WC2026-Agents benchmark and the Vanderbilt accuracy hierarchy; public DECODER-CATALOGUE.md mirrored. MATERIAL.
