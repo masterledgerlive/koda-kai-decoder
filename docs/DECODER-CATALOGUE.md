@@ -166,7 +166,20 @@ CLAIMED / SPECULATION.*
   Lean-checked formalization is not an affordable attack; separate worst-case
   from average-case hardness; order the blast radius honestly. [CORROBORATED
   — cryptotimes.io, 2026-10-12; individual statements CLAIMED via that report]
-- **HAWK-256 withdrawn after AI-assisted key-recovery break (Jul 2026).**
+- **SIDH/SIKE killed by a 1997 theorem on a single core (Jul 2022).**
+  Wouter Castryck and Thomas Decru (KU Leuven) posted "An efficient key
+  recovery attack on SIDH" (Jul 30, 2022), exploiting SIDH's auxiliary
+  torsion points through Ernst Kani's 1997 "glue-and-split" theorem —
+  pure mathematics with no cryptographic connection when published. Their
+  code broke Microsoft's $50,000 SIKE challenge in ~5 minutes, SIKEp434
+  in ~1 hour on a single core, SIKEp751 in ~20 hours (later refinements:
+  under a minute / under an hour). SIKE had been named a NIST PQC
+  alternate finalist weeks earlier; co-inventor David Jao confirmed the
+  break. B-SIDH fell too (SIDH-based); CSIDH and SQIsign were unaffected.
+  Decoder lesson: "quantum-resistant" ≠ "attack-resistant" — the kill
+  was classical; auxiliary data is the attack surface; and the decisive
+  weapon was a 25-year-old theorem the reviewers ignored. [VERIFIED —
+  the paper; timings per the authors, widely re-reported]
   An attack reducing HAWK-n key recovery to SVP in dimension n/2 + 1 cut
   HAWK-512 from 2^150 to ≤2^108 gates, with an end-to-end HAWK-256 key
   recovery in hours on one server. HAWK was the only lattice scheme among
