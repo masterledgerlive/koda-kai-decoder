@@ -1078,6 +1078,29 @@ The universal quantum decoder stays [SPECULATION] until proven.
   innocence: valid signatures attest to the pipeline, not the commit — and
   chain-anchored command-and-control means the adversary's rendezvous
   survives infrastructure takedowns.
+- **Sophos STAC6994 — AI-orchestrated evasion lab (June 2026).** An actor
+  ran ~12 AI agents inside a customer network — a Claude Opus coordinator,
+  code written in Cursor, commits through the Model Context Protocol —
+  building and testing ~80 evasion modules across 70-plus MITRE techniques
+  against Sophos, CrowdStrike, and Microsoft Defender. Humans stayed in
+  the loop; the "red team" framing dodged model guardrails. Evasion is
+  being industrialized. [CORROBORATED — Sophos via trade press]
+- **Adversa October-2026 collection.** Three specimens: not-a-mused
+  (undocumented Muse macOS dictation setting rewritable by any local
+  process — voice-prompt capture and trusted prompt injection); SalesBleed
+  (indirect injection via Salesforce web forms hijacking Agentforce, data
+  exfiltrated through image rendering and Slack unfurls); ChatGPT
+  cross-account leakage (shared artifact cache readable across accounts —
+  planted instructions reading connected Gmail). All three are
+  trust-boundary bugs, not model bugs. [CLAIMED — Adversa collection]
+- **Rust supply chain (Aug 2026).** Compromised maintainer accounts pushed
+  malicious arrayref, internment, and append-only-vec releases with an
+  infostealer-injected build script; attributed to Sapphire Sleet and
+  removed within two hours. [CORROBORATED — Wiz research]
+- **Shai-Hulud wave six (Aug 2026).** Malware hidden in AI-agent config
+  files scanners don't read; command-and-control anchored on an Ethereum
+  smart contract, so blocking the domain no longer kills the channel.
+  [CLAIMED — Wiz + Kodem via secondary]
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
