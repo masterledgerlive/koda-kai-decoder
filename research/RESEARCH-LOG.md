@@ -1343,3 +1343,22 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **BoxLang AI 3.4.0 security stack (released Oct 12, 2026).** Vendor layered, opt-in injection defense: input sanitizer middleware, fencing, unicode hygiene. The hidden-character layer is now commodity vendor hygiene.
   - [CLAIMED — vendor release notes]
 - **Library update:** catalogue "Suggestion-implant traps" gained the seven entries above plus this run's parked-items note. MATERIAL (a new in-the-wild attack class, a new evasion technique, and a new attack surface — the agent's own compaction summary as a trust boundary).
+
+## 2026-10-13 23:27 EDT — decoder-research-loop — Math/physics engines (rotation #12, first pass)
+
+- **PySR symbolic regression for turbulence inner-layer closure (Physics of Fluids, ~Sep 2026; NEW TO RECORD).** Evolutionary symbolic regression regressed the exact production-to-dissipation (P/ε) ratio directly from DNS Reynolds-stress budgets on the single coordinate y+, validated on external DNS budgets across four independent codes plus an out-of-domain Couette diagnostic — a compact, human-readable, interpretable formula, calibrated once and not refit. Significance: the equation, not the weights, is the output — equation-extraction from raw simulation data.
+  - [CLAIMED — single peer-reviewed paper; not replicated in our hands]
+  - Source: https://pubs.aip.org/aip/pof/article/38/9/095140/3404094/Combining-symbolic-regression-and-turbulence
+- **EO-SR — LLMs as "physics-informed agents" for symbolic regression (arXiv preprint, Mar 2026; NEW TO RECORD).** Framework uses an LLM agent to zero-shot synthesize executable physical constraints (thermodynamic consistency, frame indifference), turning symbolic regression from mathematical curve-fitting into physics-governed discovery. Demonstrated on hyperelastic rubberlike modeling: discovered a novel hybrid Mooney-Rivlin + rational-locking constitutive law with unconditional convexity; industry-standard Ogden N=3 failed via numerical singularities under severe transverse compression while the discovered model kept converging.
+  - [CLAIMED — preprint, not peer-reviewed]
+  - Source: https://export.arxiv.org/pdf/2603.19241.pdf
+- **MuJoCo 3.8.0 + mujoco-mjx 3.8.0 (released 2026-04-24; NEW TO RECORD).** Breaking change: `multiccd` continuous collision detection is now enabled by default — disable explicitly for golden-regression comparisons against earlier versions.
+  - [CORROBORATED — release notes via community docs]
+  - Source: https://github.com/yukimaru77/ai-research-skills/blob/HEAD/27-physics-simulation/simulating-mujoco-mjx/SKILL.md
+- **JAX-LaB (J. Adv. Model. Earth Syst., 2026; NEW TO RECORD).** Differentiable, JAX-based lattice Boltzmann library for multiphase/multiphysics fluid dynamics (Shan-Chen pseudopotential, density ratios above 1e7); hardware-agnostic CPU/multi-GPU/distributed, ML-integrated.
+  - [CLAIMED — single peer-reviewed paper]
+  - Source: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS005313
+- **frax (arXiv, May 2026; NEW TO RECORD).** JAX-based rigid-body kinematics/dynamics library: fully-vectorized, pure-Python, CPU/GPU/TPU, autodiff through kinematics and dynamics; claims low-microsecond CPU computation at kilohertz control rates, scaling to ~100M dynamics evaluations/sec on GPU.
+  - [CLAIMED — preprint]
+  - Source: https://export.arxiv.org/pdf/2604.04310
+- **Library update:** none this pass — nothing met the material bar. Findings recorded as reference only.
