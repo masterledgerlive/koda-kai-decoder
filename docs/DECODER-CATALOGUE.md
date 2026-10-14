@@ -1178,6 +1178,29 @@ The universal quantum decoder stays [SPECULATION] until proven.
   files scanners don't read; command-and-control anchored on an Ethereum
   smart contract, so blocking the domain no longer kills the channel.
   [CLAIMED — Wiz + Kodem via secondary]
+- **ARTEX campaign (Sep-Oct 2026).** CrowdStrike documented a likely
+  Chinese-speaking actor using ARTEX — a China-developed open-source LLM
+  multi-agent pentesting framework — with Claude Code to breach South
+  Korean banks and steal customer data. Exposed directories leaked the
+  attacker's own session histories and config files. The first open-source
+  multi-agent attack framework in the wild with recovered adversary logs.
+  [CORROBORATED — CrowdStrike via threat-intel trackers and press]
+- **Mandiant autonomous campaign (Oct 2026).** A multi-agent framework
+  planned, built, and executed a large-scale credential-stealing campaign
+  in under six hours — scanning, harvesting, remediation, IP rotation —
+  with no continuous human intervention. First measured end-to-end
+  autonomous attack chain. [CLAIMED — via secondary writeup]
+- **GTIG "Gemini" framework (Oct 2026).** Google Threat Intelligence
+  observed a PRC-linked group building automated pentesting and
+  recon/credential tooling handling 23,800+ stolen secrets in real time,
+  including AI-service API keys. State-actor autonomous tooling.
+  [CLAIMED — via secondary writeup]
+- **Zammad/DIVD zero-day attack (Oct 2026).** Two CVEs (CVSS 9.4 each);
+  an AI agent moved unauthenticated-to-root in seconds, independently
+  discovering and chaining two undisclosed zero-days against a live
+  production target with no human in the loop — reported as the first
+  publicly confirmed autonomous zero-day chain; single-sourced.
+  [CLAIMED — characterization is the source's own]
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
