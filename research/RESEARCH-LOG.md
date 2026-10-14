@@ -1298,3 +1298,17 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — open-source repo self-report]
   - Source: https://github.com/gameworkerkim/aha-framework
 - **NOT MATERIAL** — no new technique beyond the already-logged indirect-injection honeypot vector; catalogue breadth, not a new decoder.
+
+## 2026-10-13 21:57 EDT — decoder-research-loop — Sandbox & container tech (rotation #9, fourth pass)
+
+- **OpenSandbox OSEP-0004 (2026-07-27; doc marked implemented).** Pluggable secure container runtime support — gVisor, Firecracker, and Kata Containers — for executing untrusted AI-generated code; configured once at the server level, every sandbox transparently uses it, no SDK/API changes. Significance: the converged isolation ladder (containers for trusted work, user-space kernels for mixed trust, microVMs for hostile code) as an infra-level default for AI sandbox operators.
+  - [CLAIMED — open-source design doc; implementation status self-reported]
+  - Source: https://github.com/opensandbox-group/opensandbox/blob/HEAD/oseps/0004-secure-container-runtime.md
+- **Microsoft LiteBox library OS (experimental, Feb 2026; via Sep 2026 DEV guide).** Instead of filtering hundreds of syscalls, the application links directly against a minimal OS library exposing a handful of controlled primitives — theoretically the thinnest isolation layer; the only open-source tool in that comparison with a confidential-computing (SEV-SNP) runner. No SDK, no production usage — this isolation level remains experimental.
+  - [CLAIMED — secondary writeup]
+  - Source: https://pengen.diewe.workers.dev/manveer_chawla_64a7283d5a/how-to-sandbox-ai-agents-in-2026-firecracker-gvisor-runtimes-isolation-strategies-14pk
+- **VMRay geo-aware malware research (Oct 5, 2026; via securitymea).** Phorpiex variants query IP-location services, compare against a ten-country list, exit on match; LuciLoad requested a 15-second sleep and exited before decrypting when less than ~11.25 s had elapsed (timing test = direct evidence of anti-analysis behavior). The methodological point: when every analysis run shares the same language, timezone, and location, a specimen that rejects the setup once rejects it every time — uniform chambers go blind uniformly.
+  - [CORROBORATED — vendor research via trade press]
+  - Source: https://securitymea.com/2026/10/05/vmray-warns-of-rising-geo-aware-malware-threats/
+- **Non-news / already on the record:** MATCHBOIL/MATCHWOK evasion logic, MuddyWater dual-use canary tokens, the AF_UNIX container escape CVE-2026-80521, Cloudflare Sandbox cross-tenant storage flaw, Docker Cloud Sandboxes, gVisor-to-CNCF, Vercel Sandbox challenge, Trail of Bits VM-escape work, cagecheck, setec — all stand. KREMLIN banking-malware C2 details parked for the rogue-agent threat-intel pass.
+- **Library update:** DECODERS.md §(i) gained the OpenSandbox OSEP-0004, LiteBox, and VMRay entries; public DECODER-CATALOGUE.md mirrored. MATERIAL (new-to-record isolation tooling plus adversary-side geo/timing evasion data).
