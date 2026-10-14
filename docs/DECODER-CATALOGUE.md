@@ -803,6 +803,30 @@ The universal quantum decoder stays [SPECULATION] until proven.
   meant a real victim. Decoder significance: any beaconing shape a
   defender uses is equally readable as an evasion oracle — stealth
   tagging must assume the tripwire is attacker-visible. [CLAIMED]
+- **OpenSandbox OSEP-0004 (open-source design doc, 2026-07-27,
+  marked implemented).** Pluggable secure container runtime —
+  gVisor, Firecracker, or Kata Containers — for executing untrusted
+  AI-generated code, configured once at the server level; all
+  sandboxes transparently use it, no SDK/API changes. Significance:
+  the converged isolation ladder as an infra-level default for AI
+  sandbox operators. [CLAIMED]
+- **Microsoft LiteBox library OS (experimental, Feb 2026).** Instead
+  of filtering hundreds of syscalls, the application links against
+  a minimal OS library exposing a handful of controlled primitives —
+  theoretically the thinnest isolation layer; the only open-source
+  tool in that comparison with a confidential-computing (SEV-SNP)
+  runner. No SDK, no production usage yet. [CLAIMED — secondary
+  writeup]
+- **VMRay geo-aware/timing evasion research (Oct 5, 2026).** Phorpiex
+  variants query IP-location services, compare against a ten-country
+  list, and exit on match; LuciLoad requested a fifteen-second sleep
+  and exited before decrypting when less than about eleven and a
+  quarter seconds had elapsed — a timing test as direct evidence of
+  anti-analysis behavior. The methodological point: when every
+  analysis run shares the same language, timezone, and location, a
+  specimen that rejects the setup once rejects it every time. Pairs
+  with the MATCHBOIL and MuddyWater entries above. [CORROBORATED —
+  vendor research via trade press]
 
 ## Rogue-agent threat intel
 
