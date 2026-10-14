@@ -473,6 +473,20 @@ formats. [VERIFIED]
   craft]
 
 
+- **Cisco CSMP Wireshark dissector (Oct 2026)** — a vendor-published open
+  dissector for the CoAP-carried smart-grid mesh management plane: decodes
+  CoAP RFC 7252 and CoAP draft-12, layered packet tree (CoAP header, metadata,
+  token, options, URI path, payload, CSMP TLVs, known Protobuf fields),
+  searchable `csmp.*` display filters, and Expert Information diagnostics for
+  framing faults. Known TLV IDs decode via schema; unknown TLVs are kept as
+  raw bytes for later analysis, and new TLVs can be added without rebuilding
+  Wireshark. Covers Wi-SUN and Connected Grid Mesh stack modes. Doctrine
+  lesson: a vendor-opened interrogation window into a utility-mesh control
+  plane — the grid's management traffic goes field-readable — and the
+  raw-bytes fallback is the honest-parser shape: decode what you know,
+  preserve what you don't. [CLAIMED — vendor first-party README]
+
+
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
 optimization) — not a universal "decode all information" engine. Active research:
