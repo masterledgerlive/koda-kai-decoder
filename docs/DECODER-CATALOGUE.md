@@ -743,6 +743,22 @@ The universal quantum decoder stays [SPECULATION] until proven.
   14-day/2M+ session deployment at 0.00125% FP. Pairs with Trace Guard.
   Repo last updated ~Mar 2026 — parked unless updated. [CLAIMED —
   open-source repo self-report]
+- **Cisco Talos A3 "AI-Analysis Evasion."** First systematic study
+  (published Oct 8, 2026): 84 malware samples from January 2025–July 2026
+  embedding natural-language instructions aimed at LLM-based triage
+  pipelines — families FRUITSHELL, PLOTSAFE, HOLLOWCLAD, MANTLEMAZE (plus
+  ROZESHELL per threadlinqs). Techniques run from copy-pasted code comments
+  to PE version-info hijacking, multi-format chat-template spraying, and
+  fabricated intellectual-property/government-contract claims to trip model
+  guardrails. Best techniques steered verdicts benign-ward in roughly 35%
+  of Talos's test runs; elaborate template tricks often backfired. Decoder
+  significance: anti-detection has moved up the stack to the grader itself
+  — the analysis pipeline is the target — while the honest counter holds:
+  evasion text must stay plaintext to work, so it remains a stable
+  detection surface. Hardening shape: treat extracted sample text as
+  evidence never instruction, pre-scan for anti-analysis phrasing, never
+  let a model verdict alone close a case. [CORROBORATED — Talos study via
+  independent coverage; family count varies 4–5 by source]
 
 ## Sandbox & container tech
 
