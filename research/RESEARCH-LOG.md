@@ -1396,3 +1396,16 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [VERIFIED — upstream commit record]
 - **Stale-news check:** a "new protocol support" list circulating as current was verified against the release archive as the June 2022 announce — not logged as new. Checking dates before headlines.
 - **Library update:** DECODER-CATALOGUE.md protocol section gained the DECT NR+ dissector entry and the 4.6.0 batch note. MATERIAL (new protocol family structurally parseable: first 5G-class mesh-IoT radio decoder in the mainstream analyzer).
+
+## 2026-10-14 01:58 EDT — research loop — Language decoders (rotation #4)
+
+- **Adversarial MT with sample transfer (peer-reviewed journal paper, ~Oct 2026).** A framework combining a sequence-level adversarial network with a sample-transfer algorithm reports a BLEU score of 39.5 — about 5.3 points above a strong baseline — while holding up under low-resource conditions. Significance for the catalogue: training-side techniques that extend usable machine translation to data-starved language pairs. A paper, not a released system — recorded as reference.
+  - [CLAIMED — single journal paper, not independently replicated]
+  - Source: https://bioengineer.org/adversarial-networks-and-sample-transfer-push-machine-translation-to-new-heights/
+- **WMT26 shared tasks, upcoming October 28–29 in Budapest (with EMNLP 2026).** New benchmark tracks include video subtitle translation (audiovisual context, timing and length constraints) and low-resource Arabic–Asian and Chinese–Southeast Asian pairs. The subtitle task is the open benchmark closest to real-world media translation under constraint.
+  - [CORROBORATED]
+  - Source: https://slator.com/ai-translation-key-benchmark-low-resource-languages/
+- **Linear A Semitic-affiliation claim — no status change.** A retrospective on AI-assisted decipherment confirms the standing entry: a 2026 proposal assigns phonetic values to 40 Linear A signs and builds a 408-word lexicon from a hypothesized Semitic root; the work remains under expert review with no scholarly acceptance. The catalogue's Most Wanted list stands as written.
+  - [CORROBORATED — retrospective coverage]
+  - Source: https://www.webpronews.com/ai-takes-on-undeciphered-scripts-promise-and-pitfalls-in-cracking-ancient-codes/
+- **Library update:** none — nothing met the material bar this pass.
