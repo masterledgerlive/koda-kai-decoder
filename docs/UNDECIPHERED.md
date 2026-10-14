@@ -28,6 +28,31 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   admitted he had forgotten the method, and it was dropped from later editions.
   [VERIFIED] Likely killed by its own author's hand — possibly a transcription
   error — rather than by any analyst. [CORROBORATED reading of the evidence]
+- **Dorabella cipher** (1897) — Edward Elgar's enciphered note to Dora Penny
+  (the 23-year-old stepdaughter of a family friend), slipped into the envelope
+  with his wife Alice's thank-you letter of July 14, 1897, after the Elgars
+  stayed at the Wolverhampton Rectory. 87 characters over 3 lines, ~24 distinct
+  symbols built from one to three semicircles oriented in 8 directions; a small
+  dot after the fifth character on the third line. [VERIFIED — Wikipedia] Penny
+  never deciphered it; the note sat in a drawer forty years, surfaced in her
+  1937 memoir *Edward Elgar: Memories of a Variation*, and the original is now
+  lost. [VERIFIED] Two years later Elgar named Variation X of his *Enigma*
+  Variations (Op. 36) "Dorabella" for her — the man who left the most famous
+  unsolved musical cipher also wrote the most famous Enigma in classical music.
+  [VERIFIED] Penny denied there was ever a shared private code between them —
+  they wrote to each other in plain English — so the key died with Elgar alone.
+  [CORROBORATED — thevintagenews / memoir reporting] Still unsolved as of
+  October 2026: a 2026 self-published GitHub "DECODED" claim (OriginNeuralAI,
+  "103 million evaluations," all-rights-reserved repo, no peer review) has no
+  accepted reading and no independent verification — treated as CLAIMED until
+  the field says otherwise [DOCTRINE]; and an independent long-running
+  investigation (bugfishtm, updated ~Sep 2026) has ruled out a regular rotating
+  key (p = 0.0003) and plain English substitution (z = −7.5 to −9.6) — the note
+  is still unread. [CORROBORATED — the repo's own published results]
+- **The decoder's lesson, in 87 symbols:** Dorabella is the Liber Primus
+  problem in miniature — a custom alphabet with no crib, no bilingual, and a
+  ciphertext too short for frequency to grip. Usage cribs can't touch it and
+  statistics can't either. [DOCTRINE — information-theoretic]
 - **Proper one-time-pad traffic** — mathematically unreadable by design.
   [VERIFIED — Shannon 1949] Venona was readable only because Soviet operators
   reused key pages. [VERIFIED] The pad is unbreakable; the *operators* are not.
@@ -195,7 +220,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Pigeon NURP.40.TW.194 | 1944 | Unsolved (likely OTP) | — |
 | Tamam Shud code | 1948 | Unsolved | — |
 | McCormick notes | 1999 | Unsolved | — |
-| Dorabella | 1897 | Unsolved | — |
+| Dorabella | 1897 | Unsolved; Oct 2026 CLAIMED: self-published "DECODED" GitHub claim (unverified, no peer review); indep. analysis rules out rotating key + plain substitution, note still unread | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
 | Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CLAIMED: reading-order hypothesis; Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION | — |
 | Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 2026 independent cryptanalytic suite claims a deterministic K4 solution (self-verified only, no ground-truth check possible — CLAIMED); K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075) | $1k/puzzle (Paradigm) |
