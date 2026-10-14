@@ -1500,6 +1500,53 @@ The universal quantum decoder stays [SPECULATION] until proven.
   Unicode/hidden-character layer is now commodity vendor hygiene.
   - [CLAIMED — vendor release notes]
   - Source: https://javapro.io/2026/10/12/boxlang-ai-3-4-0-gateways-human-in-the-loop-and-a-full-security-stack/
+- **PoeLLM / "Canto Incognito" — the poem that points at a botnet
+  (Lumen Black Lotus Labs, disclosed October 7, 2026).** A botnet of
+  more than three thousand servers, active since April, hid its
+  command-and-control address inside a two-stanza poem hosted on
+  GitHub: the malware reads four words from the poem and converts them
+  into an internet address, and the attacker edits the poem's words to
+  move the botnet's servers while the decoding stays the same. It hit
+  exposed open-source AI tools (LiteLLM, Ollama) and developer
+  software, and mined cryptocurrency. The honest caveat: the poem is
+  camouflage for configuration, not an attack on a language model —
+  to a human it is simply a poem. Decoder lesson: the hiding place
+  itself gets version control — a harmless-looking text with an edit
+  history is a carrier, not background noise.
+  - [CORROBORATED — Lumen Black Lotus Labs first-party via The Register]
+  - Source: https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672
+- **LLMLeak — the innocent courier (academic paper, October 2,
+  2026).** Researchers show chatbots can be turned into data smugglers
+  with no jailbreak and no misbehaving model: a programmer pastes a
+  crash report containing a stolen password or API key into a chatbot
+  for debugging, and the "exfiltration" is an ordinary chat session
+  that slips past network defenses built to stop malware. Decoder
+  lesson: intended functionality is the attack — behavior watchers that
+  look for refusal-evasion miss this class completely.
+  - [CLAIMED — academic paper via secondary; no in-the-wild evidence claimed]
+  - Source: https://securitypointbreak.com/2026/10/02/llmleak-turns-ai-chatbots-into-unwitting-data-smugglers/
+- **Defense and jailbreak research wave (October 5-7, 2026).**
+  RAISED: an agent trains itself against its own adversarial scenarios
+  so injected context behaves like clean context. ASPIRE: an engine
+  for continuously red-teaming an agent's real tool-use behavior, not
+  one-off prompt tests. LADE: jailbreak detection from shifts in the
+  model's first output probabilities — works even against API-only
+  models. Reward Stealing: reverse-engineers a model's safety reward
+  system purely from its black-box behavior, then uses it to guide
+  decoding into harmful outputs — a threat-model update for any
+  reward-trained guardrail. Decoder lesson: defenses are moving from
+  filtering to training and instrumentation, and safety guardrails are
+  provably reverse-engineerable from the outside.
+  - [CLAIMED — papers via research digests; primary papers not read this pass]
+- **Zenity AgentCorruption vs AWS Bedrock AgentCore — dispute
+  resolved (October 12, 2026).** AWS said the finding misrepresents
+  documented behavior; Zenity clarified the demonstrated compromise
+  stayed within one region and one account, never crossed the account
+  boundary, and the misconfigurations are fixed. Decoder lesson: the
+  class stands either way — one prompt to one public agent reaching
+  across sibling agents is an instruction-plus-privilege problem, and
+  the fix was hardening defaults, not changing doctrine.
+  - [CORROBORATED — first-party dispute via press]
 
 ## Steganography & hidden channels
 
