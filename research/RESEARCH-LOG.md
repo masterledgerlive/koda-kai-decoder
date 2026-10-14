@@ -1572,3 +1572,7 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://ezratriad.com/post-quantum-cryptography-migration-infrastructure/
 - **Corroboration only (already logged):** Alice & Bob NVQLink GPU LDPC-cat decoding; Rutgers/IBM 100-qubit feedback control; Jülich/LR-QAOA Quantinuum Helios-1 benchmark; WISeSat PQ-ready satellites; Starknet/Cosmos/Ethereum migration items; DARPA QBI Stage C; GAO audit; Oct 22 OMB deadline.
 - **Library update:** public `docs/DECODER-CATALOGUE.md` quantum track gained the Coinbase and EU NIS2 entries.
+
+## 2026-10-14 — research loop — Photonic comms & power (rotation #6, third pass)
+
+- **Quiet loop — corroboration only, nothing new to the catalogue.** The MIT/SMART 161-degree projector-style beam-steering platform, Tower/NewPhotonics volume PICs, Lightmatter's CPO trays, NavTech's 40G free-space link, and the Southampton 200-GBaud spectrum slicer are all already on record. Star Catcher's Protostar and Cowboy Space's Reason-1 remain launched-but-not-yet-demonstrated: orbit-to-orbit and orbit-to-ground laser transfers are still pending, and the loop grades them as beaming tests, not beaming systems, until one succeeds. Volantis's $88M Series A stays parked as funding news, not a technique. The catalogue grew nothing this pass — which is itself a datapoint: three passes of the photonic rotation and the scoreboard is unchanged.
