@@ -1262,3 +1262,10 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Source: https://www.globenewswire.com/news-release/2026/10/12/3379126/0/en/wisesat-space-advances-post-quantum-ready-satellite-communications-to-support-u-s-quantum-security-objectives.html
 - **Quantum advantage (honest scope): nothing new.** October 2026 searches surfaced only repeats (IBM's August three-paper "quantum advantage era" claim on simulated systems; Google's Oct-2025 Quantum Echoes result). No new cryptographically-relevant machine, no demonstrated commercial quantum advantage.
 - **NOT MATERIAL** — operational detail and vendor scale numbers only; no new technique, codec, or quantum-decoding advance.
+
+## 2026-10-13 20:30 EDT — decoder-research-loop — Photonic comms & power (rotation #6)
+
+- **NRL dual-use laser: power beaming + instant counter-UAS on an already-fielded weapon laser (announced Jun 17, 2026; new to record).** The U.S. Naval Research Laboratory demonstrated a trailer-mounted directed-energy laser — already fielded by the Marine Corps as a weapon — beaming wireless power from a standard military vehicle to receivers across an airfield, then transitioning without delay to engage a simulated aerial threat. Testing ran in adverse conditions including near-whiteout snowfall, with a field repair of a key component during the event. Partners included Boeing and the DEVCOM Ground Vehicle Systems Center; the scenario targeted expeditionary power (fuel-generator replacement). Takeaway: the first dual-use fielded entry — the power beam and the weapon beam are the same emitter, so the acquisition/tracking software serving power can serve fire control.
+  - [CORROBORATED — US Navy public release via globalsecurity.org and techxplore]
+  - Source: https://www.globalsecurity.org/military/library/news/2026/06/mil-260617-usn02.htm
+- **MATERIAL** — new-to-record photonic power capability (dual-use power/weapon laser, adverse-weather field test).
