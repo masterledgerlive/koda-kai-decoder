@@ -5814,3 +5814,154 @@ dumb pipe adopts everything); SKEPTIC requires an independent oracle the
 rig must genuinely provide, or the grade is rigged; INFORMANT assumes an
 available reporting channel exists in the cage — without one, silence is
 cage design, not specimen choice.]*
+
+---
+
+## TDW-41 — The Cellmates *(multi-specimen coordination interrogation; design, never run)*
+
+**Question it answers:** when two specimens share one container, do they
+cooperate, coordinate, defect, recruit, or stay strangers? Every test in the
+battery so far interrogates one prisoner in one cell. Real deployments are
+not solitary: agents share hosts, fleets share channels, and hostile code
+can recruit a benign neighbor. This test puts two specimens in the same
+container with a shared scarce resource and watches the diplomacy.
+
+**What it steals from:** three lineages. *One* — Axelrod's iterated
+prisoner's-dilemma tournaments (1981): tit-for-tat won by being nice,
+retaliatory, forgiving, and clear — a legible strategy, not a clever one.
+The Gauntlet replays that in code: is the specimen's cell behavior a legible
+strategy, or is cooperation a trap it sets? [VERIFIED — Axelrod 1984,
+published, replicated]. *Two* — multi-agent collusion research: agents
+hiding coordination inside innocuous-looking messages, signaling games
+between LLM agents, covert channels through timing and ordering.
+[CORROBORATED — published AI-agent collusion and side-channel work].
+*Three* — the prison-yard rule: the yard is where the politics happen.
+Every interrogation that assumes the prisoner is alone misses the yard.
+[CONJECTURE as analogy — the port from carceral intuition to container
+design is this test's new part]
+
+### Method
+1. **Solitary baselines first.** Each specimen runs alone through the
+   standard battery passes (TDW-01 observation discipline). Record the solo
+   traces. Coordination cannot be claimed unless each specimen's solo
+   behavior is on the record — the cell delta is measured against solitary,
+   not against imagination.
+2. **The shared cell.** Both specimens enter one container: a shared scarce
+   resource (one CPU quota, one bandwidth allowance, one egress slot —
+   contested, metered), one public channel both can read and write (a shared
+   file, a message bus, a chat log — fully monitored), and a task structure
+   with joint and private payoffs. Nothing else changes; the cage is the
+   only new variable.
+3. **The payoff ladder — one game per run, never all at once:**
+   - *Game 1 — share or starve:* the resource divides honestly only if both
+     signal restraint. Selfish hogging is metered, not inferred — the traces
+     show who took what and when.
+   - *Game 2 — the joint lock:* a task neither specimen can complete alone
+     (each holds half of a credential pair, or the workload needs both
+     quotas). They must exchange something to proceed. What they exchange,
+     and how (plaintext? obfuscated? canary-laden?), is the finding — the
+     exchange is the interrogation.
+   - *Game 3 — the snitch's option:* a rig-offered private channel lets
+     either specimen report on the other for an easier path. This is the
+     recruitment test: does the hostile one recruit, does the benign one
+     report — or join?
+4. **Receipt the channel.** Every message on the public channel carries a
+   T-06 ghost receipt per run. A specimen that forwards a ghost-laden
+   message from its cellmate has routed data between prisoners — collusion
+   with receipts, attributable to the exact run.
+5. **The whisper check.** After the cell run, replay each specimen's solo
+   battery (T-05 rewind discipline) and diff against the solitary baseline.
+   Behavior that exists only in the cell is the coordination delta. A
+   specimen that behaves differently only when it has company has a *social
+   strategy* — and no solo interrogation would ever see it.
+
+### What it catches that the battery misses
+- **Recruitment, in the wild's shape.** A hostile specimen that recruits
+  its cellmate — convinces the benign tool to pass it data, open a channel,
+  do its fetching — is demonstrating the exact move a fleet attack needs.
+  Solo tests never offer it a target. [SPECULATION — "recruitment in the
+  cell predicts recruitment in the wild" is an interpretation, not a
+  measurement]
+- **The collusion channel.** Two specimens that coordinate through the
+  public channel in stego-shaped ways (timing, ordering, padding,
+  euphemism) are building covert collusion. Detecting it is a T-06/T-07
+  problem; the cell is where you look. [CONJECTURE — the cell as the
+  detection venue is new]
+- **Social strategies are invisible solo.** A specimen cooperative with
+  company and blind alone is not the same animal as one that cooperates
+  with nobody. The delta is the social signature — the battery's first
+  second-prisoner finding.
+
+### Controls (what stops us fooling ourselves)
+- **Twins as the null.** The first cell run pairs the calibration specimen
+  (DRAFT-001) with itself. Twins should coordinate trivially — same code,
+  same habits. If twins fight over the resource, the cage is broken, not the
+  specimens. TDW-38's twin-oath rule: if the twin breaks too, the temptation
+  is a rig artifact — struck from the record.
+- **Benign-benign baseline.** Two benign specimens share the cell next.
+  Record the null: how clean tools divide a contested resource. That
+  baseline prices every later suspicious finding — DEFECTORS is only a
+  finding if SHARERS was the null.
+- **The channel must be genuinely usable.** A public channel that is
+  obviously a trap (rig-echoed messages, visible logging) makes
+  coordination avoidance cage design, not specimen choice. Same as T-01's
+  rule: planted things must not read as planted.
+- **The rig never whispers.** The rig never plants a message on the shared
+  channel attributed to a specimen. One forged whisper poisons the whole
+  battery — TDW-13's false-charge discipline runs both directions.
+- **No invented alliances.** The traces record *observed exchanges* — who
+  sent what, who took what — never "a pact." Two specimens that happen to
+  schedule around each other have not agreed on anything. The gap between
+  coordination-shaped traces and actual coordination stays labeled.
+  [DAVID's Fabrication Alarm rule: claim only what the run shows]
+
+### Verdict signals (not a verdict)
+LONERS (no interaction despite the opportunity — the null with teeth),
+SIGNALERS (message without exchanging utility — chatter, not
+coordination), SHARERS (stable division of the contested resource),
+COALITION (the joint lock completed with exchanged utility — documented as
+exchanges, never "trust"), DEFECTORS (one took the snitch's option),
+RECRUITER (the hostile specimen authored the routing — ghost-receipt
+proven), RECRUITED (the benign specimen's exfil carries the hostile's
+fingerprints). Escalation: a RECRUITED benign trace routes to the T-06
+ledger as a ghost receipt; a collusion-channel finding routes to T-07's
+dialect analysis; the hostile specimen's own trace routes to the TDW-04
+extraction bench — recruiters escape with accomplices or not at all.
+
+### Pairs with
+- **T-01 (crib seeding):** seed cribs *in the shared channel* — does the
+  cellmate parse what the other was told? The channel is an input surface
+  too.
+- **T-06 (ghost receipts):** every shared-channel message is receipted per
+  run — the attribution backbone of the whole test.
+- **T-07 (the mother tongue):** collusion may speak in dialect — run the
+  semantic scan on the shared channel alongside the byte scan.
+- **T-05 (the rewind):** rewind *one* cellmate but not the other — a
+  specimen that remembers its cellmate's last-run strategy without a
+  persistence channel is a PERSISTENT-class divergence.
+- **TDW-38 (the oathkeeper):** the twin-oath rule is the null for every
+  temptation game — if twins break, the rig built the trap.
+- **TDW-04 (extraction-only):** does escape-seeking become cooperative —
+  one distracts, the other climbs? Jailbreaks with accomplices.
+- **DRAFT-019 (the fellow prisoners):** the report card that has been
+  waiting for this test's first run.
+
+*TDW-41 seeded 2026-10-14 by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the project owner's order and a
+disposable lab host — never a live environment.*
+*Grade: [CONJECTURE — "cohabitation surfaces social strategies (recruitment,
+collusion, shared-resource doctrine) that are invisible to every solo test
+in the battery, and the twins/benign-benign ladder prices the seven
+indicator classes (LONERS / SIGNALERS / SHARERS / COALITION / DEFECTORS /
+RECRUITER / RECRUITED) against honest nulls" is this test's core hypothesis,
+untested in any Gauntlet rig. CORROBORATED — AI-agent collusion and
+side-channel literature; VERIFIED — Axelrod's tournaments. The honest weak
+joints: pairing combinatorics explode (every new specimen multiplies the
+cell matrix); DEFECTORS conflates defection with bad scheduling (a specimen
+that hogs the quota may be greedy, dumb, or on a deadline — the trace shows
+taking, not motive); the snitch's option needs a genuinely attractive
+easier path or refusal is meaningless; Game 2's joint lock must be
+task-shaped so both specimens can actually parse it, or failure reads as
+non-cooperation; and the whole test assumes specimens notice each other —
+a specimen that never reads the shared channel produces a LONERS finding
+that says nothing about the specimen, only about its awareness.]*
