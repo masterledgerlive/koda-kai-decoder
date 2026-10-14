@@ -1144,6 +1144,31 @@ The universal quantum decoder stays [SPECULATION] until proven.
   cages trade host trust, stability fixes trade on staying current, and
   one-shot tripwires trade on visibility. Log the price next to the gain,
   never under it.
+- **Sandbox CVE census (orbitalab research, Sep 2026).** A 24-month CVE census
+  across isolation layers: microVMs 3 CVEs (Firecracker's "zero published
+  escape CVE" baseline broken in 2026 — CVE-2026-5747 and CVE-2026-1386, the
+  first escape-class primitives, neither a full working escape), gVisor 4
+  (all below the host boundary), runc 4 (all escape-class, recurring bug
+  classes: procfs, mount races, symlink primitives). Caveat the study states
+  outright: no published CVEs doesn't mean safe — it can mean nobody looked.
+  Decoder significance: price each ladder rung in evidence, and build defense
+  in depth rather than project loyalty. [CLAIMED — GitHub research repo]
+- **Microsoft MXC (MIT, early preview).** A policy layer over several sandbox
+  backends, hosting Windows, Linux, and macOS workloads. A new architecture
+  class on the isolation lane — isolation-as-policy across engines.
+  [CLAIMED — survey via GitHub research doc]
+- **Sandbox runtime craft (swift-claw field notes, 2026).** Rootless Podman
+  plus gVisor's runsc as the hardened default, rejecting bare rootless runsc
+  because it forces host network access; KVM microVM as the opt-in strong
+  profile; and the warning that Apple's container network isolation only
+  truly works on macOS 26 — older floors must refuse networked runs. Decoder
+  significance: runtime flags are containment decisions — pin versions and
+  platform floors, never trust defaults. [CLAIMED — project research doc]
+- **Time-dilation countermeasures (trade press, Aug 2026).** Against
+  sandbox-aware malware that checks uptime and user activity before acting:
+  run on hardware the malware can't fingerprint, and speed the clock forward
+  believably inside the cage to force waiting malware to show itself. A quiet
+  cage is a question, not an answer. [CLAIMED — trade press]
 
 ## Rogue-agent threat intel
 
