@@ -1362,3 +1362,12 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - [CLAIMED — preprint]
   - Source: https://export.arxiv.org/pdf/2604.04310
 - **Library update:** none this pass — nothing met the material bar. Findings recorded as reference only.
+
+## 2026-10-13 23:57 EDT — research loop — Unsolved ciphers & prize bounties (rotation #13)
+
+- **Kryptos K4 status consolidation (~Sep–Oct 2026).** A September 2026 investigative assessment settles the public record: K4's plaintext was recovered in 2025 through archival research and authenticated by the sculptor, who distinguished that discovery from decryption; the cipher itself — the actual mechanism producing the 97 ciphertext letters — remains publicly unsolved in the cryptanalytic sense. Paradigm, revealed in June 2026 as the anonymous buyer of the sculptor's archive for $962,500, continues to run a public capture-the-flag challenge ($1,000 per puzzle) treating K4 as a live target. Open-source sweeps continue: one active project documents ~26 ruled-out hypothesis families with an index of coincidence of 0.0361, and a March 2026 audit reports ~950 attack scripts and 670 billion+ configurations tested with no credible decryption path found. Significance for the catalogue: deterministic decryption from the 97 letters alone, without the physical keying template or the sealed private archive, remains out of reach.
+  - [CORROBORATED]
+  - Sources: https://www.forfoxs.com/2026/09/kryptos-k4-cia-code-was-foundbut-was-it.html, https://github.com/nitsuah/kryptos, https://en.wikipedia.org/wiki/Kryptos
+- **Indus script: the $1,000,000 Tamil Nadu prize remains open (announced Jan 2025).** No accepted reading has been reported; one university researcher reports receiving weekly emails from self-declared solvers, none vetted. The question of whether the marks constitute a writing system at all (the 2004 controversy) still frames the skeptical floor.
+  - [VERIFIED — prize announcement; CLAIMED — weekly claimant emails]
+- **No status changes this pass:** Voynich, Beale ciphers 1 & 3 — no new claims surfaced in-window. The library's Most Wanted list stands as written.
