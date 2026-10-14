@@ -107,6 +107,28 @@ shortage" message). The ambush that followed broke Japanese naval power.
 [VERIFIED] The pivot: cryptanalysis as *offense* — not just reading the enemy's
 mail, but forging the envelope. The ancestor of every baited-safe trick.
 
+## 1942 — The Navajo code talkers: the code Japan never broke
+
+The Marine Corps recruited 29 Navajo men in 1942 to build a battlefield code
+out of their own unwritten language: code words for letters, units, and
+weapons — birds for aircraft, fish for ships — memorized, never written down,
+growing past 400 phrases with multiple words per common letter to defeat
+pattern analysis. [VERIFIED] At Iwo Jima, six code talkers sent more than 800
+messages in 48 hours without a single error — "Were it not for the Navajos,
+the Marines would never have taken Iwo Jima," said Maj. Howard Connor, the
+5th Marine Division signal officer. [VERIFIED] The Japanese captured a Navajo
+soldier, Joe Kieyoomia, and ordered him to translate intercepted
+transmissions: he heard Navajo and could read nothing — knowing the language
+was not enough; you had to know the code. [CORROBORATED] Japanese
+intelligence records show cryptographers who had broken US diplomatic ciphers
+never broke this one [CLAIMED], and it stayed classified until 1968 — the
+talkers couldn't tell their families what they'd done, though it was quietly
+used again in Korea and Vietnam. [VERIFIED] The pivot: the unbreakable channel
+wasn't math, it was *shared human knowledge with no algorithm and no machine
+to capture* — decoding it meant extracting a codebook that existed only in
+memory, so the Gauntlet's extraction doctrine targets the memorized codebook,
+never the carrier language.
+
 ## 1944 — Pigeon NURP.40.TW.194: the message that never got through
 
 A pigeon cipher, likely D-Day-related, unreadable to this day — assessed as
