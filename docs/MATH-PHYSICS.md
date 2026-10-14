@@ -305,3 +305,13 @@ Source: https://github.com/astroautomata/SymbolicRegression.jl/releases/tag/v2.5
 Source: https://lifeboat.com/blog/2026/09/claude-computes-a-nine-loop-amplitude-in-n4-super-yang-mills
 
 **SymPy 1.15 dev notes (routine, non-material).** Upstream sparse-array migration (physics.quantum and lambdify now return SciPy sparse arrays instead of deprecated sparse matrices — flagged BREAKING) and a GSoC-added SkewNormal distribution in sympy.stats. Tool-shelf version notes only.
+
+## 13. New engine notes (2026-10-14 research loop — math/physics track, third pass)
+
+**SymbolicLM (CLAIMED — arXiv 2609.33594, v2 Sep 29, 2026; preprint, no independent replication read this pass).** Trains LLMs directly as symbolic regressors via numerical-symbolic and physical supervision; an inference-time refinement loop (SymbolicSGA) driven by quantitative feedback. PhysSymbArena: 160K+ equations, 1.8B tokens of numerical-symbolic data with physical descriptions; reported substantially better structural recovery with competitive numerical fitting. The auditability trade is the decoder-relevant point: this document's §5 architecture keeps the symbolic engine separate from the model so receipts stay inspectable; internalized regression is more powerful and less auditable. Standing position: the external-check loop is the default; internalized regression is watched, not adopted.
+Source: https://arxiv.org/abs/2609.33594v1
+
+**SciPy 1.18.1 (CORROBORATED — stable release Aug 21, 2026).** Working stack note: the verification trio's SciPy moves from 1.17.0; SymPy stable remains 1.14.0, 1.15 in development.
+Source: https://en.wikipedia.org/wiki/ScientificPython
+
+**SciExplorer — parked for next pass.** 2026 arXiv, "Agentic Exploration of Physics Models": an LLM agent autonomously completing the heuristic scientific cycle (experiment selection → result analysis → hypothesis generation) with general-purpose tools and minimal domain instructions. Paper not read this pass; candidate for the next math/physics pass.
