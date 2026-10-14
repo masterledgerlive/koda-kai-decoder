@@ -354,6 +354,18 @@ formats. [VERIFIED]
   the conditions under which it is wrong. The decoder-grade question to ask
   of any future machine decipherment: what would prove it false?
   [CLAIMED — method described in interview; paper not peer-reviewed]
+- **Wireshark 2026 point releases — no new dissectors**: first-party
+  release notes for 4.6.1 through 4.6.7 all carry the same line — no new
+  protocols, maintenance only. 4.6.9 updated ~30 existing dissectors and
+  fixed 19 vulnerabilities. The mainstream analyzer is hardening, not
+  expanding; new protocols land open first. [VERIFIED]
+- **MeshCore Companion Radio codec (Oct 2026)**: byte-exact pure codec of the
+  MeshCore companion-radio protocol (LoRa off-grid mesh) — frames serial/TCP
+  payloads, encodes app-to-radio commands, decodes responses and pushes, and
+  re-encodes them so a fake-radio emulator stands in for firmware. Parse,
+  replay, and software-emulate the frames with no hardware in hand.
+  [CORROBORATED]
+
 
 - **Di Mino's Linear A workflow (Jun 2026) — AI-accelerated archival decipherment**: the claimed Linear A decipherment (see UNDECIPHERED.md) enters the catalogue as a technique — Claude Code running Python scripts as an exhaustive cross-referencing engine over digitized inscription databases, compressing months of manual comparison into real-time iteration so human linguistic intuition becomes instantly testable evidence. Same template as the 2026 AI codebreaker wave (MVUEH, Marmont): AI reads the archive and builds the tool; deterministic machinery plus human scholars do the breaking. [CLAIMED — secondary reporting; academic review pending]
 - **Bilibili Index-Translate (Sep 30, 2026, Apache 2.0)** — the translation-first member of the offline wave: flagship 35B-A3B-preview MoE (35B total, 3B active per pass, per-pair expert routing), dense 2B/9B variants. Specialized checkpoints: Echo (speech-to-speech translation), Homura (syllable-constrained dubbing via reinforcement learning — translated text matched to the source's syllable count, fits mouth movements with no manual timing pass; the factory deepfake-dubbing substrate), NativeLong (262,144-token document translation with terminology consistency across paragraphs). Apache 2.0 + GGUF quantized variants on HuggingFace: field-deployable with no cloud trace. [CORROBORATED as release; CLAIMED on benchmarks incl. 2.4% low-resource off-target rate]
