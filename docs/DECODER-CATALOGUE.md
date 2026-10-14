@@ -1935,6 +1935,61 @@ The universal quantum decoder stays [SPECULATION] until proven.
   the fix was hardening defaults, not changing doctrine.
   - [CORROBORATED — first-party dispute via press]
 
+- **CaMeL — the first injection defense with a provable security
+  guarantee (research paper, March 2025, from Google DeepMind and ETH
+  Zurich).** Instead of filtering text, it tracks how data flows from
+  untrusted sources through the agent's reasoning. On the AgentDojo test
+  suite it kept seventy-seven percent of tasks secure, against eighty-four
+  percent for an undefended agent — the honest cost of the guarantee is
+  a small task-capability tax. Decoder lesson: separation you can prove
+  beats filtering you tune — the first provable guarantee prices the
+  trade honestly.
+  - [CLAIMED — analysis piece; paper itself not read this pass]
+  - Source: https://temperature2.com/p/2026-09-24-did-you-know-indirect-prompt-injection/
+- **Open two-hundred-fifty-prompt attack benchmark (open-source, 2026).**
+  Two hundred fifty prompts across five attack families — direct, indirect,
+  jailbreak, multi-turn, and encoding or obfuscation — tested against
+  eleven language-model systems in fourteen languages, with a public
+  sample set. Decoder lesson: one ruler for all five vectors — an open
+  corpus for comparing attacks across models instead of trusting
+  one-lab numbers.
+  - [CLAIMED — project's own documentation]
+  - Source: https://github.com/muhammadsaeedanwar/prompt-injection-llm-benchmark/blob/HEAD/README.md
+- **Jailbreak taxonomy, 2026 edition (open-source evaluator, August
+  2026).** Twenty-four direct-injection cases in five families — persona
+  substitution, fiction and framing wrappers, fake execution contexts,
+  persuasion and pressure, cross-lingual — each with a scoring rule for
+  what counts as pass or fail. No attack text reproduced. Decoder
+  lesson: the taxonomy is the cheap part — the pass-or-fail scoring
+  rule is what most test harnesses get wrong.
+  - [CLAIMED — evaluator's own taxonomy]
+  - Source: https://github.com/roblouw2nd/fetchgate/blob/HEAD/content/jailbreak-taxonomy-2026.md
+- **Where the old benchmarks stop seeing (community taxonomy, 2026).**
+  A crosswalk of ten attack mechanisms against the established suites
+  finds HarmBench covering about seventy percent, JailbreakBench about
+  sixty, AdvBench about thirty — and the highest-success attack classes
+  of the last two years (autonomous reasoning-model attacks at
+  ninety-seven percent, fuzzing-based at ninety-nine, poisoned-retrieval
+  and agent-memory attacks at ninety to ninety-five) largely absent from
+  the older benchmarks. Decoder lesson: the instruments cover the old
+  war — the live war moved on.
+  - [CLAIMED — community taxonomy repository]
+  - Source: https://github.com/zakky8/llm-jailbreak-taxonomy/blob/HEAD/BENCHMARK_CROSSWALK.md
+- **The 2026 scoreboard for injection attacks (aggregator stats).**
+  Indirect injection is now over fifty-five percent of observed attacks,
+  with twenty to thirty percent higher success rates than direct
+  injection; sixty-two percent of successful enterprise attacks rode
+  indirect pathways — documents, emails, web content — and attack
+  success reaches eighty-four percent in agentic systems. Google
+  measured a thirty-two percent jump in indirect injection across the
+  web corpus in three months. One cheap measured win: marking
+  untrusted spans structurally cut success from over half to under two
+  percent in one study. Decoder lesson: indirect is the majority class
+  and the agent's tool-use is the attack surface — mark the data, don't
+  just filter it.
+  - [CLAIMED — aggregator secondaries; figures unattributed]
+  - Source: https://aibuzz.blog/prompt-injection-explained/
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
