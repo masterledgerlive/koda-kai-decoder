@@ -450,6 +450,7 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **PowerLight — kilowatt-class laser power beaming to a fielded military UAS (April 2026).** CENTCOM-sponsored flights at Shaw AFB: autonomous system tracked and delivered wireless power to the Kraus Hamdani K1000ULE (Group 2 UAS) at up to 5,000 ft. First claimed power-beaming to an operational military drone platform. [CORROBORATED — company press release; test results vendor-stated]
 - **Nokia multi-PON fiber line card (Oct 2026; GA 2027).** First 16-port card running GPON/10G/25G/50G PON on every port (Quillion chipset); up to 50 Gbps fiber access. [CLAIMED — company press release]
 - **NavTech OpticSpectra 40G — Indian FSO system (Oct 9, 2026).** 40 Gbps free-space optical link for backhaul/defence where fibre can't be laid. [CLAIMED — company announcement]
+- **NRL dual-use laser — power beaming + instant counter-UAS on an already-fielded weapon laser (demo announced Jun 17, 2026).** Trailer-mounted Marine Corps-directed-energy laser beamed wireless power across an airfield, then switched without delay to a simulated aerial threat — tested in near-whiteout snowfall, with in-field repair during the event. First dual-use fielded entry: the power beam and the weapon beam are the same emitter; the acquisition/tracking stack serving power can serve fire control. [CORROBORATED — US Navy release via globalsecurity.org/techxplore]
 
 ## Prediction engines
 
