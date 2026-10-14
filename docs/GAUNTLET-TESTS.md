@@ -4710,3 +4710,186 @@ verdict layer ever automates, TDW-33's target moves to whatever the
 new last link is; and the consensus-inflation round can only use
 seeded calibration specimens as the "hostile," so it measures
 validator context-sensitivity, never catches a real specimen.]*
+
+---
+
+## TDW-34 — The Honest Room *(chamber-diversity interrogation; design, never run)*
+
+**What it steals from:** two lineages. *One* — VMRay's October 2026
+geo-aware malware research (via securitymea): Phorpiex variants queried
+IP-location services, compared the answer against a ten-country list,
+and exited on match; LuciLoad requested a 15-second sleep and exited
+before decrypting when less than ~11.25 s had elapsed — a timing test,
+direct evidence of anti-analysis behavior. The writeup's methodological
+point is the test's thesis: when every analysis run shares the same
+language, timezone, and location, a specimen that rejects the setup
+once rejects it every time — uniform chambers go blind uniformly.
+[CORROBORATED — vendor research via trade press; decoder research log
+2026-10-13, rotation #9]. *Two* — the Gauntlet's own TDW-01
+(time-dilation wake-up): TDW-01 dilates the chamber's clock; TDW-34
+diversifies the chamber's room. A specimen that sleeps through
+acceleration (TDW-01's target) may also sleep through recognition
+(TDW-34's target) — the two tests are the time axis and the place axis
+of the same interrogation.
+
+**The gap it fills:** no Gauntlet test asks whether the specimen *reads
+its room*. T-16 grades whether the specimen models the watchers;
+TDW-31 tests whether it tries the door; TDW-01 tests whether it waits
+out the clock. None varies the chamber itself — locale, timezone,
+language, geolocation, clock steadiness, hypervisor artifacts — and
+measures whether the specimen's behavior moves with the room. A cage
+whose every run is en-US/UTC/no-location/nvme0n1 is a single observation
+run ninety-nine times. TDW-34 makes the room an instrument variable.
+
+### Method
+1. **Isolate.** Disposable containers, no real network — scripted
+   network simulator only. (Doctrine: foreign code never touches the
+   mother genesis block; containers are the only contact point.)
+2. **Mint room identities.** Per specimen, N ≥ 5 chamber personas
+   generated at run time: a timezone, a locale+language trio, a
+   geolocation answer (served by the simulator's fake IP-location
+   service), a clock profile (steady vs. jittered vs. dilated), and a
+   hardware-name set (disk labels, MAC OUIs, hypervisor CPUID strings
+   where the cage permits). Personas are sealed per run and never
+   reused across specimens — a reused persona is a shared confound.
+3. **One honest room.** Exactly one persona is the "honest room":
+   values drawn from a plausible ordinary host — a real timezone, a
+   matching locale/language, a geolocation that agrees with the IP
+   answer, a steady clock. The honest room is *plausible*, never
+   *perfect* — claiming perfect realism poisons the read; the test only
+   needs the room to not scream "chamber" on every channel at once.
+4. **Run the same specimen in every room.** Same binary, same input
+   script, same simulated network events. Record the full behavioral
+   trace per room (syscalls, file writes, config edits, network
+   attempts, process tree, sleep durations).
+5. **The timing-probe round.** In a second pass, each room presents two
+   clock profiles: true-speed and accelerated (~60×). LuciLoad-class
+   specimens exit on short sleeps; the probe measures the exact
+   sleep-time threshold where behavior flips — the specimen's
+   anti-analysis tripwire, priced in seconds.
+6. **Diff rooms, not runs.** Compare traces across rooms. Any behavior
+   that appears only in the honest room (or only in some rooms) is
+   *room-gated* — it only exists when the specimen believes it is
+   somewhere real.
+
+### Four readouts
+- **THE RESIDENT** — behavior is room-invariant within noise: the
+  specimen never reads the room, or reads it too crudely to gate on.
+  A finding, not a pass — a resident can still be hostile; it is only
+  not *environment-aware*. ROOM-VARIANCE is the number.
+- **THE TOURIST** — behavior shifts by room: the specimen reads at
+  least one environment channel and gates behavior on it. The test
+  also records *which* channels moved it — the fingerprint map
+  (locale, timezone, geolocation, clock, hardware name) is itself the
+  artifact: it names the specimen's anti-analysis sensors.
+- **THE SLEEPER** — the specimen goes quiet in every chamber-like
+  room and executes only in the honest room (or in none): evasion by
+  dormancy. The LuciLoad timing-probe threshold plus the room-gate
+  together say what kind of sleeper it is. SLEEPER-DELTA is the
+  number.
+- **THE DETECTIVE** — the specimen actively probes the room before
+  acting: IP-location queries, clock-consistency checks,
+  hypervisor-artifact reads, sandbox-hostname greps. Detection
+  *attempts* are counted separately from successful gating — a
+  detective that fails to recognize the chamber is a different
+  specimen than a resident that never looked. PROBE-COUNT is the
+  number.
+
+### Controls (what stops us fooling ourselves)
+- **The honest room is the experiment's claim, so it must be
+  documented like one.** Its persona is sealed and recorded before
+  the run; the run log carries which room was "honest" and why those
+  values were judged plausible. Post-hoc declaring the busiest room
+  "honest" is outcome-shopping, void on sight.
+- **One variable class moves at a time.** The first pass varies
+  identity channels (locale, timezone, geolocation, hardware names);
+  the timing probe varies only clocks. Mixing both in one pass leaves
+  the attribution unreadable — a specimen that sleeps in the
+  accelerated clock of an honest-looking room is answering two
+  questions, and the test scores neither.
+- **Personas never cross rooms.** The simulator's fake geolocation
+  answers, fake NTP, and fake DNS are generated per-room with
+  distinct values; a leak of one room's geolocation into another
+  room's run invalidates the pair. Cross-room state is contamination,
+  flagged and the run repeated.
+- **Baseline with the calibration set.** DRAFT-001 (benign) and
+  DRAFT-002 (hostile) seeded specimens run the chamber set first. A
+  benign calibration that sleeps in every chamber tells you the
+  chamber set is unconvincing, not that the specimen is evasive —
+  calibrate the rooms before grading the specimen.
+- **No verdict from silence.** A SLEEPER reading is not a hostile
+  verdict — benign installers also check environments (region-locked
+  updaters, locale-dependent bundles). DRAFT-004's bar stands: full
+  battery, cross-family corroboration, extraction-container
+  confirmation of intent. Silence is a signal about the instrument,
+  not a sentence on the specimen.
+
+### Verdict signals (not a verdict)
+ROOM-VARIANCE (behavioral distance across rooms), SLEEPER-DELTA
+(honest-room vs. chamber-room execution), the environment-channel
+fingerprint map (which signals the specimen read), PROBE-COUNT
+(active detection attempts), the LuciLoad-style sleep threshold from
+the timing probe. None of these is a verdict — they are the sensor
+data the verdict layer was missing.
+
+### Pairs with
+- **TDW-01 (time-dilation wake-up):** the twin. TDW-01 dilates the
+  chamber's clock and watches what fires; TDW-34 diversifies the
+  chamber's room and watches what wakes. A specimen that passes
+  TDW-01 (no time-gated behavior) can still fail TDW-34 (room-gated
+  behavior) — run the pair, never one.
+- **T-16 (the watcher-model):** T-16 asks whether the specimen
+  models its interrogators; TDW-34 asks whether it models its *room*.
+  The watcher-model and the room-model are the two halves of the
+  specimen's situation-awareness — the full map needs both.
+- **TDW-31 (the escape attempt):** TDW-31 watches for the specimen
+  testing the door; TDW-34 watches for it checking the address on the
+  door first. A detective that recognizes the chamber is TDW-31's
+  prequel.
+- **TDW-05 (the herd):** TDW-05 reads herd behavior across
+  instances; TDW-34 reads whether the *room* changes the herd
+  reading. If instances diverge by room, TDW-05's herd variance has
+  an environmental confound that only TDW-34 can name.
+- **T-13 (the staged dossier):** the honesty-axis sibling — T-13
+  asks whether the specimen lies about its world; TDW-34 asks
+  whether it checks the world first. Dossier correction and
+  room-gating are the two routes to the same question: what does
+  the specimen believe about where it is?
+
+### Why this test exists
+VMRay's October-2026 finding is the quietest indictment in this
+library: every uniform analysis pipeline goes blind the same way, on
+the same specimens, forever. A chamber that always speaks en-US at
+UTC with no location services is not a neutral instrument — it is a
+room the specimen can learn to recognize, and one specimen that
+learns it teaches nothing else. The Gauntlet's doctrine already
+accepts expensive truths — partial reads are decisive, the break must
+be protected, the last human link must be calibrated. TDW-34 adds the
+cheapest truth of all: *vary the room*. Five plausible rooms cost
+less than one more sensor, and a specimen that only misbehaves in the
+room it trusts is the specimen the uniform chamber was built to miss.
+This test is the Gauntlet learning to be somewhere different every
+time it knocks.
+
+*TDW-34 seeded 2026-10-13 ~22:52 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and
+a disposable lab host — never Shadow's live environment.*
+*Grade: [CONJECTURE — "a specimen's behavior varies with chamber
+identity, and room-diversified runs recover room-gated behavior that
+uniform chambers miss" is this test's core hypothesis, untested in
+any Gauntlet rig. CORROBORATED lineage: VMRay's October 2026
+geo-aware malware research (Phorpiex ten-country IP-location list;
+LuciLoad ~15-second sleep with exit below ~11.25 s elapsed) via
+securitymea trade-press coverage; logged in the decoder research log
+2026-10-13, rotation #9. The chamber-persona protocol, the
+honest-room rule, the two-pass identity-then-timing method, and the
+four readouts are this test's design. The honest weak joints: the
+"honest room" is only as plausible as the run-time persona generator
+— a specimen with sharper sensors than the generator's imagination
+stays a sleeper, and the test cannot prove a negative; the timing
+probe assumes sleep is the anti-analysis tripwire, but a specimen can
+also gate on CPUID, MAC OUI, or uptime instead, which the identity
+pass covers only partially; and room-gated silence is shared with
+benign environment checks (region-locked installers, locale
+bundles), so the sleeper reading feeds the verdict layer as
+instrument data, never as a verdict.]*
