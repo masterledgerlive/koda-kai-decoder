@@ -1527,3 +1527,12 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Spotted and skipped (educational content, no new findings):** the usa.feji.io Bletchley series (Dilly Knox's Abwehr Enigma work, Mavis Lever's "missing letter" crib, Oswein Twiss's letter-counting break of the naval Offizier double cipher); ScienceAlert's Hut 6 Banbury-sheets story (2015-era renovation news recrawled); ZDNet's Enigma-machine theft piece (old story).
 - **Decoder note:** the loop graded this press cycle as corroboration, not as new finds — retold history is not research output.
 - **Library update:** none this pass (docs/UNDECIPHERED.md scoreboard stands).
+
+## 2026-10-14 07:28 EDT — research loop — Codecs & formats (rotation #2, sixth pass)
+
+- **Valve "PyroWave" codec — NEW TO RECORD.** Valve introduced a new video codec in the Steam Client beta: a "fast/low-latency GPU encoder" built on Vulkan, designed specifically for game streaming, targeting high-bandwidth (~200 Mbps) low-latency local streaming over ethernet via Steam Link. Found in Steam's code by EOZ VR's Brad Lynch in late June 2026, then officially announced by Valve (KitGuru, Jul 6, 2026). Decoder significance: a new codec family landing on the GPU compute path rather than fixed-function decode silicon — the parser surface includes the shader/driver stack. If it stays Steam-proprietary the surface stays opaque; if VLC/FFmpeg pick it up it joins the "plays everything" hostile-input checklist.
+  - [CORROBORATED — tech-press reporting of Valve's Steam Client beta announcement; Valve's first-party announcement not read directly, so the ~200 Mbps target is company-claimed]
+  - Source: https://www.kitguru.net/desktop-pc/mustafa-mahmoud/steam-client-update-introduces-new-pyrowave-video-codec-for-low-latency-game-streaming/
+- **No Google "voxel codec" — still killed (fifth consecutive check).** No Google voxel product surfaced again. VCM is "Video Coding for Machines" — an MPEG standardization effort, not a Google product and not voxel-based. Recorded here as a killed claim, kept out of the catalogue.
+- **Parked (non-material):** Bitmovin Encoder Version 3 (new HEVC/AV1 vendor codecs, company-claimed benchmarks) — trade news, no new format; Chips&Media WAVE6331X FuSa (ASIL-B safety certification for existing codec IP) — certification, not a new codec.
+- **Library update:** public `docs/DECODER-CATALOGUE.md` gained the PyroWave entry (new codec member: Vulkan-GPU game-streaming codec).
