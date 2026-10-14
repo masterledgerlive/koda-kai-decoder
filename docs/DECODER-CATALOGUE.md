@@ -609,6 +609,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - [CORROBORATED — released benchmark, code and data public]
 - **Vanderbilt accuracy hierarchy across prediction platforms (released Jan 2026).** Clinton & Huang analyzed 2,500+ contracts over the 2024 cycle: PredictIt 93% accuracy, Kalshi 78%, Polymarket 67% — the small academic platform out-graded the high-liquidity giants, undermining the "liquidity is king" assumption; Polymarket's signals were distorted by whale positions. Calibration claims and the misses share the record.
   - [CORROBORATED — syndicated writeups of the Vanderbilt study]
+- **SBBE — Bayesian Benford's-law anomaly screening (Patterns, 2026).** A Bayesian framework for anomaly detection in drug-discovery data built on Benford's law (DOI 10.1016/j.patter.2026.101683): the expected leading-digit distribution serves as the prior, deviations graded with calibrated uncertainty, flagging hidden irregularities in large numerical collections — field-agnostic, an automated quality-control tool for data-driven research. The first Benford-Bayesian method in the track: a published anomaly screener that carries its uncertainty on the record is the shape an honest evidence-grade system wants for its own inputs.
+  - [CORROBORATED — peer-reviewed journal paper via phys.org writeup; no independent replication on record]
+- **Prediction-market short-horizon underreaction (Lee, Lee & Lee, Journal of Behavioral and Experimental Finance, 2026).** 41.8 million transactions across 1,496 professional basketball and football games matched against play-by-play probability benchmarks: traded prices underreacted to scoring information over short periods — new information did not always enter the price at once. Counterweight to the calibration story: markets are receipt-grade over the long run but sluggish in the moment; any live-price reading that assumes instant truth is reading a lagged signal.
+  - [CORROBORATED — peer-reviewed journal study via heartlandcollegesports writeup]
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
