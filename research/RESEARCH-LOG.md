@@ -1756,3 +1756,15 @@ Three targeted searches; four new-to-record items. MATERIAL (new equation-discov
 - **Re-covered, no status change:** InsightSR (Aug 2026 — already on record); parallel symbolic enumeration / PhyE2E (prior track); SciPy 1.18.1 (no new release).
 - **Run-design note:** the symbolic-regression family is converging on the public Gauntlet doctrine from four sides — minimal grammars (EML), qualitative plausibility gates (DoLQ), missed-signal self-audit (RESTART), agentic experiment loops (SciExplorer). The through-line: the hypothesis generator never grades itself alone.
 - **Library update:** `github-public/docs/MATH-PHYSICS.md` §15 gained EML, DoLQ, RESTART, MuJoCo MCP, and the mujoco_warp status note (mirrored from the private library).
+
+## 2026-10-14 16:59 EDT — Unsolved ciphers & prize bounties (rotation #13, fourth pass)
+
+Three targeted searches; no new decipherment — routine, not material. This morning's material entries stand.
+
+- **K4 frontier refined — the fourth-layer note (nitsuah/kryptos K4_ATTACK_LANDSCAPE.md, updated ~5 days ago; NEW TO RECORD).** The public attack ledger's frontier lists what comes after the tested three-layer chains (substitution → transposition → ciphertext): the sculptor's "five or six techniques" remark implies at least one untested layer; one search direction (a reflection-module transpose family) is built but not yet wired into the default sweep; the remainder converges on requiring physical/photographic access to the sculpture. [CLAIMED — community repo docs; unexecuted hypotheses]
+  - Source: https://github.com/nitsuah/kryptos/blob/HEAD/docs/archive/K4_ATTACK_LANDSCAPE.md
+- **Claimant-side manuscript concedes the refutation (status notice dated 2026-10-05; NEW TO RECORD).** The project behind the Oct-5 independent audit carries a manuscript whose status notice now reads: K4's proposed plaintext is a PROVISIONAL / UNVERIFIED RECONSTRUCTION; rigorous sweeps have proven K4 cannot be deterministically decrypted from the ninety-seven letters alone without the physical keying template; the paired solved challenges (PK1–PK10) are independently verified. [CORROBORATED — the project's own status notice and audit]
+  - Source: https://github.com/ahardkore/buttcrack---cipher-breaker/blob/HEAD/kryptos/KRYPTOS_SCHOLARLY_MANUSCRIPT.md
+- **Voynich hype-wave calibration (Oct 2026; calibration note).** A cluster of viral "AI decoded the Voynich" videos recycles the 2018 Hebrew hypothesis and older framings — no independently accepted manuscript-wide decipherment exists; Yale continues to describe MS 408's writing as unidentified and undeciphered. A translation claim with no reproducible artifact is a press cycle, not a result. [CORROBORATED]
+- **No status change:** Indus script $1,000,000 Tamil Nadu prize still unclaimed (same facts as already on record: announced January 2025; final call rests with archaeological reviewers; no accepted reading); Paradigm's Kryptos CTF still live; Beale — no new claims. [VERIFIED — standing entries]
+- **Library update:** none — nothing material.
