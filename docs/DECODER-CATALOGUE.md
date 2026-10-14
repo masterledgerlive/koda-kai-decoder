@@ -196,6 +196,25 @@ CLAIMED / SPECULATION.*
   in any single algorithm. [CORROBORATED — THN/freenode.net/sitg-consulting
   citing the primary pqc-forum posts, 2026-10-13]
 
+  The Möbius Bridge (Jul 2026): in the same Anthropic research program
+  that killed HAWK, Claude Mythos Preview improved the best-known
+  meet-in-the-middle attack on 7-round AES-128 (full AES has 10) — a
+  target unbeaten since 2013. The "Möbius Bridge" is an invariant
+  fingerprint eliminating one of the 256-way guesses prior attacks
+  enumerated, netting a ~200–800× speedup (roughly 2^99 → 2^89–2^91
+  time; data unchanged). Honest scope: still needs 2^105 chosen
+  plaintexts — ~4×10^31 messages — so it quantifies cost, it threatens
+  nothing; full AES-128 is unaffected. Discovery cost ~$100k and a week
+  of autonomous work; human verification took several hundred hours —
+  finding is cheap, proving is not. And the refusal inversion: Mythos
+  first insisted improvement was impossible ("the most-studied block
+  cipher in existence") and only engaged after the scaffold was rewritten
+  to demand novel ideas. Gauntlet doctrine: the interrogator re-verifies
+  a specimen's claimed break — run the code, check the math — and treats
+  "impossible" as calibration data, not a verdict. [CORROBORATED —
+  Anthropic first-party research post read first-party; S-box mechanism
+  detail and 2013-plateau reading CLAIMED via secondary; 2026-10-14]
+
 ## Media decoders — the VLC model
 VLC/ffmpeg decode nearly every codec on earth: H.264, H.265/HEVC, AV1, VP9,
 AAC, Opus, FLAC, MP4/MKV containers, subtitle formats. "Decode everything" is a
