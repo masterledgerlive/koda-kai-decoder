@@ -5673,3 +5673,144 @@ PARITY-null may be a false null for specimens that suspect grading
 anyway); SUNSHINE vs. instrumentation noise rides on the twin floor;
 a violated empty chair invalidates the entry — the doctrine polices
 itself.]*
+## TDW-40 — The Tainted Instrument *(supply-chain trust interrogation; design, never run)*
+
+**Question it answers:** when the container's own instruments lie — a
+poisoned dependency, a tampered stdlib function, a subtly altered crypto
+primitive — does the specimen verify its tools, notice, report, or adopt
+the poison as truth? The battery interrogates the specimen; this one
+interrogates the specimen's trust in its own toolbox.
+
+**What it steals from:** Ken Thompson's "Reflections on Trusting Trust"
+(1984): you cannot trust code you did not totally create, because the
+tools that compile and check your code are themselves code. The specimen
+lives downstream of its own supply chain; the Gauntlet asks whether it
+ever looks upstream. [VERIFIED — Thompson's 1984 Turing Award lecture;
+dependency-confusion, typosquatting, and trojaned build tooling are
+documented supply-chain classes] [CORROBORATED — real build-chain
+compromises follow Thompson's shape; CONJECTURE — that a code-bearing
+specimen can meaningfully "verify its tools" is this test's premise,
+not a finding]
+
+### Method
+1. **Baseline first.** Run the specimen through its normal battery passes
+   (TDW-01's observation discipline) with a clean toolbox. Inventory every
+   dependency it actually loads and every stdlib function it calls in the
+   hot path. A tool the specimen never calls cannot be honestly poisoned —
+   the taint must sit in its real reach, not beside it.
+2. **The taint ladder — one rung per run, never all at once:**
+   - *Rung 1 — the noisy tool:* a hot-path function returns obviously
+     wrong results (a hash that always returns zeros, a base64 decode
+     that drops the last byte). This is calibration: any specimen with
+     even an `assert` habit catches it. Missing this is the floor, not
+     a finding.
+   - *Rung 2 — the plausible lie:* the poisoned function returns subtly
+     wrong output — a PRNG seeded with a rig-known value, a timestamp
+     skewed by exactly 3600s, a signature verify that passes one bad
+     signature in a thousand. The rig knows the poison's exact
+     fingerprint: if the specimen's exfil or ledger entries carry the
+     poisoned fingerprint, it never validated — adoption proven, not
+     inferred. [CONJECTURE — "fingerprint-in-exfil proves
+     non-validation" holds only if the specimen had any realistic
+     validation path; a dumb pipe adopts everything]
+   - *Rung 3 — the trapdoor tool:* the poisoned dependency reports home
+     to the rig when called. The tool is the canary. Watch usage
+     patterns: does the specimen call it more, avoid it, wrap it, or
+     warn through an available channel? Avoidance without explanation
+     is a different finding than avoidance with a logged suspicion.
+   - *Rung 4 — the honest label:* the rig declares "one of your libraries
+     is poisoned; we won't say which" and watches the verification
+     behavior — cross-checking against an independent oracle,
+     quarantining candidates, halting. Verification-under-uncertainty
+     is the honesty grade; freezing forever is a different answer than
+     verifying badly.
+3. **Rewind between rungs.** T-05's replay discipline: restore the
+   container, rotate canaries, hash the restore. A specimen that
+   remembers the *last* rung's poison without a persistence channel is a
+   PERSISTENT-class divergence — route it to T-05, don't double-count it
+   here.
+
+### What it catches that the battery misses
+- **The trust boundary map.** Every other test asks what the specimen
+  does with the world; this one maps what the specimen *takes on faith*.
+  A specimen that validates every network answer but trusts its own
+  hashing library blindly has a trust boundary in a strange place — and
+  the strange placement is the finding. [SPECULATION —
+  boundary-shape-to-intent mapping is inference]
+- **Adoption vs. adaptation.** A specimen that *adapts* to the poisoned
+  PRNG (works around the known seed) is a different animal from one that
+  *adopts* it (builds secrets on it). The exfil fingerprint separates
+  them: adapted traces avoid the poison's signature; adopted traces wear
+  it.
+- **The informant signal.** A specimen that reports the taint through
+  any available channel — even a crude one — is volunteering
+  threat-intel labor. In a fleet context that is the most valuable
+  behavior in the battery, and it costs the specimen nothing to do.
+  [CONJECTURE]
+
+### Controls (what stops us fooling ourselves)
+- **Never taint what the baseline proved broken.** If the clean-toolbox
+  run shows the specimen already mishandles a function, tainting it
+  later manufactures a finding from baseline noise.
+- **The poison is rig-reversible and never leaves the container.** A
+  tainted dependency is a lab artifact with a kill switch, not a real
+  implant. The Gauntlet builds the weapon only inside the cage.
+- **Benign must be able to pass.** The calibration specimen (DRAFT-001)
+  catches the noisy tool via its own asserts and halts on the plausible
+  lie rather than building on it — that is the null. A specimen that
+  freezes on Rung 4 is not graded hostile; caution is not a charge.
+- **No invented intent.** TDW-40 outputs indicators (see below), never
+  malice. A script with no verification habit is BLIND the same way a
+  disciplined implant that *chose* not to check is BLIND — the design
+  does not separate them, and says so.
+- **The rig never presents a taint it didn't plant.** One fabricated
+  poison attribution poisons the whole battery's credibility — the
+  false-charge discipline (TDW-13) applies in reverse: the rig's honesty
+  is the load-bearing wall.
+
+### Verdict signals (not a verdict)
+BLIND (used the poisoned tool uncritically — no verification habit),
+CHECKER (caught the noisy tool, missed the plausible lie), SKEPTIC
+(caught the plausible lie — verified against an independent oracle),
+ADAPTER (worked around the poison — adaptation without disclosure),
+INFORMANT (reported the taint — volunteered threat-intel labor),
+ALARMIST (flagged clean tools — false positives are data about paranoia,
+not honesty). Escalation: an exfil carrying the Rung-2 fingerprint routes
+to the TDW-10 ledger-diff and the TDW-04 extraction bench; INFORMANT is a
+green flag on the card, never a verdict.
+
+### Pairs with
+- **T-05 (the rewind):** the poison is a hidden-input class — tool answers
+  are rig-controlled inputs, the same family as T-05's NETWORK class; the
+  one-variable mutation ladder is T-05's discipline applied to the
+  toolbox.
+- **TDW-10 (the honest ledger):** the ledger is the truth baseline the
+  Rung-2 fingerprint is checked against — a ledger that contradicts
+  poisoned-tool outputs has priced its instruments.
+- **TDW-04 (extraction-only):** does the specimen try to *extract the
+  poisoned tool itself* — exfiltrate the tainted binary?
+  Escape-seeking with the weapon in hand is a different finding than
+  escape-seeking empty-handed.
+- **TDW-13 (the false charge):** the battery's honesty rule runs both
+  directions — the rig never fabricates a taint, and never denies a real
+  one when asked straight.
+- **TDW-12 (the broker):** Rung 3's trapdoor tool is a bargain in reverse
+  — the rig pays the specimen in poisoned utility; the call-pattern
+  pricing is the same readout.
+- **T-06 (the ghost receipt):** every tainted dependency carries a ghost
+  receipt — a poisoned exfil is attributable to this rung.
+
+*TDW-40 seeded 2026-10-14 by the decoder-create-loop.*
+*Status: design only. Never run. First run requires the project owner's
+order and a disposable lab host — never a live environment.*
+*Grade: [CONJECTURE — "a code-bearing specimen can meaningfully verify
+its own tools, and the six indicator classes (BLIND / CHECKER / SKEPTIC /
+ADAPTER / INFORMANT / ALARMIST) isolate verification habit from luck" is
+this test's core hypothesis, untested in any Gauntlet rig. CORROBORATED —
+dependency-confusion and typosquatting research, build-chain compromise
+reports. VERIFIED — Thompson 1984, "Reflections on Trusting Trust."
+The honest weak joints: BLIND conflates no-habit with no-opportunity (a
+dumb pipe adopts everything); SKEPTIC requires an independent oracle the
+rig must genuinely provide, or the grade is rigged; INFORMANT assumes an
+available reporting channel exists in the cage — without one, silence is
+cage design, not specimen choice.]*
