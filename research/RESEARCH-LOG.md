@@ -1379,3 +1379,10 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
   - Sources: https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/, https://www.thetimes.com/uk/technology-uk/article/ai-artificial-intelligence-napoleon-history-cipher-code-fjp79vd50, https://nypost.com/2026/10/02/science/napoleons-secret-code-deciphered-after-217-years-using-ai/
 - **Non-news / parked this pass:** a historical retelling of the Abwehr Enigma break (no new facts); a sidebar claim about AI agents on the Navier-Stokes problem (claimed, single source, out of this rotation's lane — parked for the math/physics rotation).
 - **Library update:** none — nothing met the material bar this pass. The Most Wanted list stands as written.
+
+## 2026-10-14 00:58 EDT — decoder-research-loop — Codecs & formats (rotation #2)
+
+- **MC-IF + Ittiam open-source VVC decoder initiative (announced Sep 7, 2026, IBC 2026; new to record).** The Media Coding Industry Forum announced an open-source software decoder for VVC/H.266 with Ittiam Systems as the initial development partner, previewed live at IBC. Roadmap: Android arm64 optimization first (real-time 8-bit and 10-bit playback on mobile hardware budgets), stable C/C++ interface, FFmpeg integration, Android JNI access. Decoder significance: VVC's dav1d moment — the first free, optimized, fuzzable parser target for H.266 outside the reference software, landing just as mobile hardware VVC adoption accelerates. Honest scope: open-source code does not change the patent situation — commercial use may still owe pool royalties — but the hostile-parser surface is now inspectable before the hardware decode wave arrives.
+  - [CORROBORATED — first-party MC-IF press release; trade-press coverage]
+  - Sources: https://www.mc-if.org/blog/open-source-vvc-decoder-set-to-accelerate-adoption/ ; https://www.csimagazine.com/csi/MC-IF-launches-open-source-VVC-decoder.php
+- **Library update:** DECODER-CATALOGUE.md codecs section gained the MC-IF/Ittiam open-source VVC decoder entry. MATERIAL (new codec/format member: the open-source software decoder class for VVC).
