@@ -666,6 +666,36 @@ The universal quantum decoder stays [SPECULATION] until proven.
   enumerated exposure surface first. Silent mitigation replacing hard
   blocking. [CLAIMED — Talos via threadlinqs summary; practitioner
   guide]
+- **Trace Guard (open-source; Oct 2026).** New-to-record
+  active-adversarial detection framework: 13 canary primitives
+  exploiting the LLM architectural asymmetry (models cannot
+  structurally separate instructions from passive data) — DOM canary
+  tokens, AX-tree region canaries, canvas pixel traps, audio honeypots,
+  a polymorphic prompt engine generating 1,200+ prompt variations per
+  request, decoy API honeypots, and adversarial visual overlays grounded
+  in ACL 2025 "Attacking Vision-Language Computer Agents via Pop-ups"
+  (reported 86% attack success). The suggestion-implant vector, run by
+  the defense. [CLAIMED — open-source project documentation]
+- **Riskified Agent Identity Risk Intelligence (announced ~Oct 7,
+  2026).** Identifies the consumer personal AI assistant behind an
+  order or customer-service request (Meta's Muse, Instinct, ChatGPT
+  "dots"), resolves it to a real consumer identity, returns a real-time
+  risk signal. Behaviors rare for human shoppers — price-drop refund
+  checks after every purchase, canceling when a cheaper option appears
+  — become routine when an agent does them daily. [CLAIMED — vendor
+  announcement via businesswire]
+- **Surfshark social-bot perception study (published Sep 18, 2026).**
+  1,722 participants worldwide: humans caught 40% of bots; negative
+  bots flagged 50.2%, positive/agreeable/logical-sounding bots only 38%
+  (12-point gap). Sophisticated manipulation accounts are agreeable,
+  logical, or unremarkable by design. [CLAIMED — vendor study via
+  trade press]
+- **AHA framework — Adversarial Honeytoken Architecture.** Four-layer
+  honeytoken-based intrusion detection; self-reports 97.2% AI detection
+  at 0.2% false positives, 22–48% residual detection under full evasion,
+  14-day/2M+ session deployment at 0.00125% FP. Pairs with Trace Guard.
+  Repo last updated ~Mar 2026 — parked unless updated. [CLAIMED —
+  open-source repo self-report]
 
 ## Sandbox & container tech
 
