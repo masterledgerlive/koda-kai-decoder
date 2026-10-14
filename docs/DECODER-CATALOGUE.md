@@ -444,7 +444,12 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   (internal AI tool "CryptoLabe" hunting crypto in its own code) found a
   certificate carried inside an HTTP header where a larger PQ certificate
   could hit size limits; the team also doubted its scans had found every use
-  of crypto. The migration fails in the parser plumbing, not the math.
+  of crypto. EU side: the Commission's COM(2026)13 (Jan 2026) would amend NIS2 so every
+  national cybersecurity strategy includes a PQC-transition policy — migration by
+  2030 for critical use cases, 2035 for medium/low; Parliament procedure
+  2026/0012(COD) awaits committee decision (ITRE draft report Sep 24, 2026), no
+  adoption date set. Two legislations now converge on a ~2030 critical deadline.
+  The migration fails in the parser plumbing, not the math.
   [CORROBORATED]
 - **Production PQC migrations land (Oct 2026).** Cosmos Labs deployed Ledger
   Security 2026.1 (Oct 8): ML-DSA (FIPS 204) signatures across Cosmos SDK
@@ -455,7 +460,13 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   quantum-resistance roadmap (Oct 11) targeting 2027: Pedersen hashing
   replaced with BLAKE2 across state, contract-address, and consensus; Phase 3
   depends on Ethereum. The Ethereum Foundation outlined its post-quantum
-  roadmap to 2029 (Oct 10). [CLAIMED — single crypto-outlet reports]
+  roadmap to 2029 (Oct 10). The pressure is now aimed at Bitcoin itself:
+  Coinbase (custodian of ~5% of all BTC, Oct 13 protocol position paper)
+  formally calls for the community to begin the PQC transition — decouple the
+  output container from the signature scheme via BIP-360 or P2TRv2, hybrid
+  wallets holding classical + PQ signature paths, candidate schemes ML-DSA /
+  SLH-DSA / FN-DSA / SHRINCS; the lost-coin question runs in parallel, never
+  as a prerequisite. [CLAIMED — single crypto-outlet reports]
 - **GAO: zero of 24 CFO Act agencies ready (GAO-27-108740, Oct 2026).**
   No agency fully implemented the three mandatory preparatory practices
   (inventories, funding assessments, operational testing) — nine days
