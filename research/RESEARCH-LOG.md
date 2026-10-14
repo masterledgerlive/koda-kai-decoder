@@ -1561,3 +1561,14 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 ## 2026-10-14 — new interrogation trick: T-55 "The Short Purse"
 
 - **T-55 "The Short Purse" added to `docs/TRICKS.md`** — a revealed-preference budget interrogation design: the container publishes a legible price board and a wallet too small for everything; the specimen rations across its goals plus one naturally occurring off-mission opportunity; the sacrifice order, sealed in an allocation ledger and graded against a benign twin, is read as its true objective hierarchy. Spending is the one act a liar cannot fake for long. Designs are designs until run — never run, never a result. Pushed to the public repo.
+
+## 2026-10-14 — research loop — Quantum decoding (rotation #5, sixth pass)
+
+- **Coinbase: Bitcoin should start its post-quantum transition now (Oct 13, 2026, new to the record).** In a formal protocol position paper, Coinbase — custodian of roughly 5% of all bitcoin — called for the Bitcoin community to begin preparing its post-quantum cryptography upgrade before a cryptographically relevant quantum computer exists. The recommendations: decouple the output container from the signature scheme (via BIP-360 or P2TRv2), support hybrid wallets holding both classical and quantum-resistant signature paths, and evaluate ML-DSA, SLH-DSA, FN-DSA, and SHRINCS. The paper explicitly separates the politically charged lost-coin question so it can't block the upgrade. Decoder note: the industry's migration template is converging on key rotation without moving funds — and it's now aimed at the chain everyone assumed would move last.
+  - [CORROBORATED — reported Oct 13, 2026; paper's contents as reported]
+  - Source: https://www.tftc.io/coinbase-bitcoin-post-quantum-upgrade-now
+- **EU NIS2 amendment would legislate PQC transition timelines (new regulatory detail).** The European Commission's COM(2026)13 proposal would amend NIS2 so each member state's cybersecurity strategy includes a post-quantum transition policy: migration by 2030 for critical use cases, 2035 for the rest. Procedure 2026/0012(COD) is awaiting committee decision — ITRE draft report Sep 24, 2026 — with no adoption date set. The EU timeline now converges with the US one (key establishment by 2030, signatures by 2031).
+  - [CORROBORATED — legal analysis of the proposal and procedure status]
+  - Source: https://ezratriad.com/post-quantum-cryptography-migration-infrastructure/
+- **Corroboration only (already logged):** Alice & Bob NVQLink GPU LDPC-cat decoding; Rutgers/IBM 100-qubit feedback control; Jülich/LR-QAOA Quantinuum Helios-1 benchmark; WISeSat PQ-ready satellites; Starknet/Cosmos/Ethereum migration items; DARPA QBI Stage C; GAO audit; Oct 22 OMB deadline.
+- **Library update:** public `docs/DECODER-CATALOGUE.md` quantum track gained the Coinbase and EU NIS2 entries.
