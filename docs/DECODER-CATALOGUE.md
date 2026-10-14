@@ -162,6 +162,21 @@ CLAIMED / SPECULATION.*
   worked* — a light cipher plus strict message discipline can beat a heavy
   cipher used sloppily, the same calculus the Gauntlet applies to cage
   procedures vs. cage machinery.
+- **Linear B (deciphered 1952) — the grid, the guess, and Greek.** A ~3,400-year-old
+  syllabic script for Mycenaean Greek (~87 signs plus ideograms, palace
+  administrative tablets), the only Bronze Age Aegean script ever deciphered.
+  [VERIFIED] Alice Kober built the instrument blind: 180,000+ index cards,
+  "triplets" of inflected forms, and a grid mapping sign relationships (same
+  row = same consonant, same column = same vowel) with zero sound values known;
+  she died in 1950, eighteen months before the break. [CORROBORATED] Michael
+  Ventris's 1952 breakthrough: Kober's "Case 3" forms were Cretan place names —
+  reading one group as ko-no-so (Knossos), then Amnissos and Tylissos, turned
+  the grid into sound values and the language into archaic Greek, overturning
+  the field's Etruscan guess. [CORROBORATED] Doctrine: structure-with-zero-content
+  is an instrument (build the relationship map before assigning values); the
+  harness gets its own lineage line; inventory size diagnoses the encoding
+  class; never assume the specimen's "language" — test the assumption; and a
+  break can reclassify the specimen itself.
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
