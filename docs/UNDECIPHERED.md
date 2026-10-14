@@ -115,6 +115,28 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   reframe is procedural — Sanborn learned non-mathematical systems from
   Scheidt, so attack the construction steps, not a cipher taxonomy.
   [CORROBORATED — public repos]
+- **Claim and refutation (Oct 2026).** An early-October "deterministic K4
+  solution" claim — self-verified, no ground-truth check possible — was
+  dismantled by an independent audit
+  (ahardkore/buttcrack---cipher-breaker, `K4_CLAIM_STATUS_AUDIT_2026-10-05.md`):
+  the headline "R = (C − P) mod 26 passes 97/97" is a tautology (R is
+  *defined* as C−P — uniformly random 97-letter strings "pass" too); the only
+  named mechanism (R = r + gate, gate ∈ {0,1}) reproduces the ciphertext at
+  chance (8/96 positions in its best index convention, chance predicts ~7.4);
+  the substitution cards were back-solved *from* the plaintext, fitting 97/97
+  by construction. The claimant's own site (solvekryptos.com) downgraded the
+  claim to "internally consistent, not independently recovered from public
+  data." [CORROBORATED — public audit with computed tables; claimant's own
+  downgrade] The project's intake rule proved out live: a claim that grades
+  itself is not a verification.
+- **Live open work (Oct 2026).** jcolinpatrick/kryptos — every single-layer
+  model keeping plaintext letter *i* under carved letter *i* has failed, and
+  a rearrangement alone cannot work (carved text has 2 E's where the
+  authenticated plaintext needs 3, so a substitution layer exists); live
+  frame is substitution combined with rearrangement; width-31 running-key +
+  grid-turn pre-registered Oct 4, 2026 and closed negative. Sanborn's public
+  "two systems" remark is carried as hearsay-grade under a pseudo-clue-pack
+  admission standard. [CORROBORATED — public repo]
 - **Retired, not active:** the RSA Factoring Challenge (1991–2007).
   [VERIFIED — literature] The Beale "treasure" carries no verified bounty —
   treasure-hunting speculation, not a prize. [DOCTRINE note]
@@ -132,6 +154,19 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   interview; author says journal submission pending polish] Worth watching:
   the claim ships with an explicit falsifiability criterion — if it fails,
   we learn how cryptanalytic rigor fails on this corpus.
+  Counterweight (~Aug 2026): "On the Non-Specificity of Statistical Measures
+  Used in Script Decipherment" (arXiv 2608.02999v1) — SIGIL, a deterministic
+  generative system, produces seal-like inscriptions for a fictional
+  administrative world where every text has meaning (dedication, office,
+  entitlement, administrative event, with the semantic derivation stored
+  beside it) but no text has linguistic encoding. A constructive
+  counterexample to reading conditional entropy, block entropy,
+  rank-frequency laws, positional restrictions, predictability, network
+  structure, and classifier output as signs of language — administrative and
+  emblematic practice generates the same statistical signatures. Directly
+  engages dictionary/pattern-matching proposals like Yajnadevam's above:
+  statistics cannot diagnose language; a decipherment must be self-proving.
+  [CLAIMED — preprint; abstract/results via search; primary not read]
 - **Linear A** (Minoan Crete, ~1800 BCE) — Linear B, its sister script, was
   cracked by Ventris in 1952; Linear A still waits. Tom Di Mino (June 2026)
   claims a systematic decipherment via Claude-Code-accelerated cross-referencing
@@ -222,8 +257,8 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved; Oct 2026 CLAIMED: self-published "DECODED" GitHub claim (unverified, no peer review); indep. analysis rules out rotating key + plain substitution, note still unread | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
-| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CLAIMED: reading-order hypothesis; Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION | — |
-| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 2026 independent cryptanalytic suite claims a deterministic K4 solution (self-verified only, no ground-truth check possible — CLAIMED); K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075) | $1k/puzzle (Paradigm) |
+| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION | — |
+| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075) | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
 | MVUEH Enigma | 1941/2026 | Solved 2026 (agent) | — |
