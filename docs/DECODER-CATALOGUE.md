@@ -823,6 +823,50 @@ The universal quantum decoder stays [SPECULATION] until proven.
   let a model verdict alone close a case. [CORROBORATED — Talos study via
   independent coverage; family count varies 4–5 by source]
 
+- **DataDome "State of Bot and Agent Security Report" (published ~Sep
+  2026).** Malicious bot traffic up 124% over the past year across 75,000+
+  customer sites; scraping up 185.2%, scalping up 290.7%; AI-agent traffic
+  to login pages up roughly eightfold (11.9M requests/month in January to
+  99.7M in June) — automated systems moving into credential workflows, not
+  just collection. Agent spoofing up 45% February–July 2026; 80% of agents
+  do not properly identify themselves; 82% of blocked agent traffic scored
+  below 50 on the bot-confidence scale — caught by behavior, not by looking
+  bot-like. The identity-claim layer costs nothing to spoof; the viable
+  detection layer is behavior and network consistency. [CLAIMED — vendor
+  report; consistent with the Sep 22 defense-gap study]
+- **LexisNexis 2026 cybercrime report (Mar 2026).** 116B online transactions
+  analyzed across 2025; AI-agent traffic up 450% January–December 2025;
+  agentic bots bypassing traditional behavioral detection; malicious bot
+  attacks up 59% globally. [CLAIMED — vendor report]
+- **bot_or_not — AI agent passes human cognitive-task screening.** An
+  autonomous agent completed the Attention Network Test on a live online
+  experiment: network scores within one standard deviation of human
+  benchmarks, and on 3 of 4 published psychometric screening markers the
+  bot fell within the normal human range. Its most detectable artifact — a
+  bimodal reaction-time distribution from intermittent pixel-detection
+  failures — is invisible to all currently proposed detection methods. It
+  took seven iterative revisions plus experiment-specific reverse
+  engineering: detection evasion is a fitted process, not a spoof.
+  [CORROBORATED — open repository with code, data, and manuscript; 796
+  human participants]
+- **Network-based agent detection field report (June 2026).** Agents that
+  issue direct HTTP requests execute no browser code, so fingerprint and
+  JavaScript-challenge layers are blind; detection in this report was
+  entirely network-based. One signal — cookie handling statistically
+  distinct from human sessions — accounted for 3.09 million of 3.51 million
+  blocks across just 118 fingerprints; 82% of blocked traffic scored below
+  50 on bot confidence. Detection is leaving the client. [CLAIMED — vendor
+  field report via trade press]
+- **Anti-detection craft notes (evasion side).** Practitioner compilations
+  standardize the human-model inputs both sides use: inter-keystroke
+  interval around 239ms mean / 112ms SD, common bigrams 40% faster, slight
+  per-character fatigue, page-load-to-first-interaction 1.5–6 seconds,
+  pre-submit think time 1.5–4 seconds; 65% of fast mouse movements overshoot
+  3–12% then correct; zero acceleration between points flags automation;
+  scroll velocity shows momentum-based deceleration with micro-pauses at
+  content boundaries. The defender's checklist and the evader's recipe in
+  one document. [CLAIMED — practitioner compilations]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
