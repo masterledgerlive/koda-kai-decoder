@@ -562,6 +562,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
   handoff in one method — automation of the estimator, not just the
   estimate. [CLAIMED — secondary writeup; authors' numbers]
 
+- **WC2026-Agents — LLM forecasters scored against the market they read (2026; paper + code github.com/graphuofm/FIFA2026LLM).** Four frontier models ran identical search-act-reflect loops over all 104 World Cup 2026 matches — contamination-free by construction, each agent committed a win/draw/loss distribution plus a virtual bet, and the pre-match betting market played the same information environment as a fifth competitor. 416 forecasts, 414 reflections, all released. The headline is a negative result, and negative results are receipts: the four agents issued an identical top pick in 92% of matches and NONE beat the market's Brier score — a naive flat stake on the market favorite out-earned all four. ROI ranged from -18% to +10%; fading the market was unprofitable for every agent. Decoder-design note: the benchmark-honesty rule (a dumb baseline sits on the scoreboard before a smart model earns a grade) enforced on the very models the decoder runs on.
+  - [CORROBORATED — released benchmark, code and data public]
+- **Vanderbilt accuracy hierarchy across prediction platforms (released Jan 2026).** Clinton & Huang analyzed 2,500+ contracts over the 2024 cycle: PredictIt 93% accuracy, Kalshi 78%, Polymarket 67% — the small academic platform out-graded the high-liquidity giants, undermining the "liquidity is king" assumption; Polymarket's signals were distorted by whale positions. Calibration claims and the misses share the record.
+  - [CORROBORATED — syndicated writeups of the Vanderbilt study]
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
