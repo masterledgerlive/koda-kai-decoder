@@ -113,17 +113,28 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   of digitized inscriptions: 408-word dictionary, 40 "proposed" phonetic values,
   9-page grammar in five months; Semitic ("nawaya" = to dwell) reading reviving a
   1957 theory. Cambridge and Rutgers reviewing. [VERIFIED unsolved; the claim is
-  CLAIMED — secondary reporting]
-- **Di Mino method note (the technique entry).** The workflow is what belongs in
-  the catalogue: Claude Code running Python scripts as an exhaustive
-  cross-referencing engine over inscription databases, compressing months of
-  manual comparison into real-time iterations so a human's linguistic intuition
-  becomes instant testable evidence. Same template as the 2026 AI codebreaker
-  wave (MVUEH, Marmont cipher): AI reads the archive and builds the tool;
-  deterministic machinery plus human scholars do the breaking.
+  CLAIMED — secondary reporting, no first-party read]
+- **Di Mino method note (the technique entry).** What belongs in the decoder
+  catalogue is the workflow, not the verdict: Claude Code running Python scripts
+  as an exhaustive cross-referencing engine over inscription databases,
+  compressing months of manual comparison into real-time iterations so a human's
+  linguistic intuition becomes instant testable evidence. Same template as the
+  2026 AI codebreaker wave (MVUEH, Marmont cipher): AI reads the archive and
+  builds the tool; deterministic machinery plus human scholars do the breaking.
 - **Rongorongo** (Easter Island), **Phaistos Disc** (~1700 BCE, 241 stamped signs,
   45 distinct symbols), **Rohonc Codex** — all unverified, all unclaimed by any
   accepted solution. [VERIFIED unsolved]
+- **Byblos pseudo-hieroglyphic script** (~1800–1500 BCE, Byblos, Lebanon) —
+  roughly ten short inscriptions (stone tablets, bronze spatulas, a bronze
+  plaque), excavated by Maurice Dunand from 1928 and first published in 1945
+  (*Byblia Grammata*); about 114 distinct signs, written right-to-left.
+  Sign-count lands squarely in the syllabary band — too many for a pure
+  alphabet, too few for a logography — but no bilingual text exists, the corpus
+  totals only a few hundred signs, and no accepted decipherment has ever been
+  produced. It sits in the same \"big five\" as Linear A, the Indus script,
+  Rongorongo, and Cretan hieroglyphs. [VERIFIED unsolved; sign-count and
+  discovery facts CORROBORATED — standard epigraphic literature; Dunand's own
+  count was 114]
 - **What "deciphered" even means here:** without a bilingual text, a proposed
   solution must be self-proving. The field is full of crank claims with
   keyboards — treat every announcement as CLAIMED until independently validated.
@@ -175,6 +186,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 |---|---|---|---|
 | Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; weekly claimant emails continue; no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
 | Linear A | ~1800 BCE | Unsolved; Di Mino claim (Jun 2026, 408-word dictionary via Claude Code, "proposed" values) under academic review | — |
+| Byblos script | ~1800–1500 BCE | Unsolved; ~114 signs, ~10 inscriptions, no bilingual; syllabary by sign-count, no accepted reading | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
 | Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
