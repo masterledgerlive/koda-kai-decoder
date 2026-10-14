@@ -167,6 +167,26 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   engages dictionary/pattern-matching proposals like Yajnadevam's above:
   statistics cannot diagnose language; a decipherment must be self-proving.
   [CLAIMED — preprint; abstract/results via search; primary not read]
+  New claimant, May 2026 preprint (logged Oct 2026): Tristen Kyle Pierson
+  (Glossa-Lab / BitConcepts LLC), "A Complete Computational Decipherment
+  Hypothesis for the Indus Script" (Preprint v3, DOI 10.5281/zenodo.20401711,
+  not peer-reviewed) — assigns Proto-Dravidian readings to all 605 known
+  signs: 413 HIGH-confidence under a five-layer evidence hierarchy (two or
+  more independent sources per sign), 192 allograph-inferred and treated
+  provisional. Method: positional analysis, bigram/trigram collocational
+  methods, DEDR rebus matching, simulated annealing against a 7,514-word
+  Dravidian language model, across two independent corpora (~10,327
+  inscriptions, 76+ sites). Headline statistics (unverified): SA 83.7%
+  consistency; tripartite INITIAL-MEDIAL-TERMINAL grammar 6.3x above null
+  (p<0.001); conditional entropy 5.384 bits vs the 3.5-bit metrological
+  maximum (falsifies the Farmer-Sproat-Witzel non-linguistic hypothesis).
+  Directly engages the record above: falsifies Yajnadevam 2024's Sanskrit
+  hypothesis at 0/34 agreement. Ships explicit falsifiability criteria and
+  open code/anchor tables — a claimant built to be disprovable, the kind this
+  list exists to file. Scoreboard unchanged: no peer review, no independent
+  validation, no consensus — Indus remains unsolved, the $1M prize open.
+  [CLAIMED — preprint v3, company-authored, not peer-reviewed;
+  abstract/methods/results read directly via the GitHub-hosted manuscript]
 - **Linear A** (Minoan Crete, ~1800 BCE) — Linear B, its sister script, was
   cracked by Ventris in 1952; Linear A still waits. Tom Di Mino (June 2026)
   claims a systematic decipherment via Claude-Code-accelerated cross-referencing
@@ -244,7 +264,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 
 | Target | Era | Status | Bounty |
 |---|---|---|---|
-| Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; weekly claimant emails continue; no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
+| Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; claimants: Yajnadevam 2024 (Sanskrit, CLAIMED) + Pierson 2026 preprint (Proto-Dravidian, CLAIMED, falsifies Yajnadevam at 0/34); no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
 | Linear A | ~1800 BCE | Unsolved; Di Mino claim (Jun 2026, 408-word dictionary via Claude Code, "proposed" values) under academic review | — |
 | Byblos script | ~1800–1500 BCE | Unsolved; ~114 signs, ~10 inscriptions, no bilingual; syllabary by sign-count, no accepted reading | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
