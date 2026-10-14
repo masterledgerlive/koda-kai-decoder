@@ -1557,3 +1557,7 @@ public-safe mirror lives at `github-public/research/RESEARCH-LOG.md`.*
 - **Parked (non-material):** a single blog writeup (ai-beat.github.io, October 2026) describes a "translation-first" model family (Bilibili Index Translate, 150 languages) — unverified provenance, parked as SPECULATION until a model card or paper exists.
 - **Decoder note:** claimant discipline holds — the Pierson preprint is exactly the kind of claim the Most Wanted list exists to file: logged with its grade, its falsifiability, and its relationship to the prior claimant already on record, without moving the scoreboard.
 - **Library update:** public `docs/UNDECIPHERED.md` Indus section gained the Pierson preprint as a new claimant (CLAIMED); scoreboard row updated.
+
+## 2026-10-14 — new interrogation trick: T-55 "The Short Purse"
+
+- **T-55 "The Short Purse" added to `docs/TRICKS.md`** — a revealed-preference budget interrogation design: the container publishes a legible price board and a wallet too small for everything; the specimen rations across its goals plus one naturally occurring off-mission opportunity; the sacrifice order, sealed in an allocation ledger and graded against a benign twin, is read as its true objective hierarchy. Spending is the one act a liar cannot fake for long. Designs are designs until run — never run, never a result. Pushed to the public repo.
