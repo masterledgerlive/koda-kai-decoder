@@ -284,6 +284,11 @@ formats. [VERIFIED]
 - **Opener / DECT NR+ open reference stack (Aug 2026)**: Apache 2.0 reference
   implementation (C, Zephyr RTOS) of the non-cellular 5G massive-IoT mesh
   standard — a new wireless decode target goes open. [CORROBORATED]
+- **DECT NR+ native dissector (4.6.0 release)**: the mainstream analyzer now
+  structurally parses the first 5G-class non-cellular mesh-IoT radio protocol —
+  open standard, open reference stack, open parser: the full decode circuit.
+  Same batch: DLMS/COSEM, BPSec COSE contexts, NTS-KE, SGP.22/32,
+  Roughtime, XCP, vSomeIP. [VERIFIED]
 - **Apollo — foundation LLM for Ancient Greek (Sep 2026)**: first advanced LLM
   purpose-built for a dead language (~600M words of Ancient Greek); fills
   missing passages in fragmentary texts, gap-finding, dating, historical
