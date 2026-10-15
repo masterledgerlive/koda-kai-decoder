@@ -2411,3 +2411,22 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   wheel order, M-138's was strip selection, M-209's was the cage pinned in
   by the operator's fingers that morning. Operator first, usage second,
   mechanism third — here all three rungs were one person.
+- **Crypto AG / Operation Rubicon (1970–2018) — the vendor-owned cipher.**
+  The Swiss cipher firm Crypto AG — founded by Boris Hagelin, designer of the
+  M-209's pin-and-lug mechanism — was secretly owned by the CIA and West
+  Germany's BND from about 1970. Its encryption devices were deliberately
+  weakened so the services could read them effortlessly; rigged gear sold to
+  more than 120 countries, and in the 1980s up to 40% of the world's secret
+  diplomatic correspondence traveled through it. The CIA's own history called
+  it "the intelligence coup of the century." Exposed February 2020 by the
+  SRF/ZDF/Washington Post investigation; a later Swiss parliamentary inquiry
+  found Switzerland's own intelligence service had known since 1993 and used
+  the weakened gear itself rather than warning customers.
+  [VERIFIED — the 2020 joint investigation and the Swiss parliamentary report]
+- **Decoder lesson (Crypto AG → Gauntlet):** key custody has a zeroth rung —
+  the vendor. The factory held the master drawings, so no cryptanalysis was
+  ever needed. Interrogation order becomes provenance, operator, usage,
+  mechanism: who built the specimen is asked first, and a specimen's trust
+  signals (neutral host, reputable vendor, open audit) are claims, never
+  clearance. And the Swiss service reading the weakened gear itself is why
+  the Gauntlet assumes the chamber's host is listening.
