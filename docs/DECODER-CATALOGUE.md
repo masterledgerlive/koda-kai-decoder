@@ -2606,3 +2606,21 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   admits failure teaches nothing. Its near-loss to a stolen truck is the
   custody ladder's last rung: the strongest cipher can still be lost to a
   truck.
+
+- **The American Black Chamber (1919–1929) — the codebreakers America killed on
+  moral grounds.** Herbert Yardley's civilian Cipher Bureau broke the Japanese
+  diplomatic code in time for the 1921 Washington Naval Conference, reading
+  Tokyo's instructions to its delegates (Japan's bottom-line 10:7 naval ratio)
+  so the US delegation could hold to 5:3. Kahn calls it the chief contribution
+  of Yardley's career; he got the Distinguished Service Medal. Then Secretary of
+  State Stimson shut the Bureau down on October 31, 1929: "Gentlemen do not read
+  each other's mail." The irony: Stimson as Secretary of War in WWII relied
+  heavily on decrypted enemy comms. Worse, the shutdown leaked the methods —
+  Yardley sold Japan what he knew in 1930, then published it in *The American
+  Black Chamber* (1931), alerting an estimated 19 nations. [VERIFIED closure and
+  quote; CORROBORATED conference read; CLAIMED for the 1930 sale]
+- **Decoder lesson (Black Chamber → Gauntlet):** a decrypt capability dies by
+  policy in a day and rebuilds over a decade — keep the capability institutional,
+  never tied to one administrator's ethics. And shutting an interrogation
+  capability without a continuity plan is a leak, not a shutdown: the operators
+  walk out with the methods in their heads.
