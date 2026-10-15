@@ -930,6 +930,14 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - [CORROBORATED — peer-reviewed journal paper via phys.org writeup; no independent replication on record]
 - **Prediction-market short-horizon underreaction (Lee, Lee & Lee, Journal of Behavioral and Experimental Finance, 2026).** 41.8 million transactions across 1,496 professional basketball and football games matched against play-by-play probability benchmarks: traded prices underreacted to scoring information over short periods — new information did not always enter the price at once. Counterweight to the calibration story: markets are receipt-grade over the long run but sluggish in the moment; any live-price reading that assumes instant truth is reading a lagged signal.
   - [CORROBORATED — peer-reviewed journal study via heartlandcollegesports writeup]
+
+- **First subseasonal forecast to beat climatology (Cohen et al., tested at ECMWF).** A low-cost, open-source postprocessing layer was submitted to the European Centre for Medium-Range Weather Forecasts and doubled predictive skill in the subseasonal range: reportedly the first forecasts to beat climatology averages up to six weeks ahead, including for extreme weather, where traditional bias correction had failed. The receipts discipline embodied — the honest baseline sat on the scoreboard and lost, in public.
+  - [CORROBORATED — tech-reporting of the ECMWF evaluation]
+- **Bayesian exceedance screening for count data (Sadeghkhani, International Journal of Data Science and Analytics, Oct 1, 2026).** A robust Bayesian procedure ranking units by their posterior predictive probability of exceeding a meaningful cutoff — conditioned on covariates, not by the raw observed count. Observed is not inferred: a moderate observed utilization can carry high latent risk, and an isolated spike can be contamination rather than tail risk.
+  - [CORROBORATED — peer-reviewed journal paper via secondary report]
+- **Conformal corruption sign test (Alur & Das).** A diagnostic built from quantities split conformal prediction already computes for free: the sign of the change in empirical miscoverage on trusted audit labels separates calibration-set label noise (drives it at or below zero) from accuracy-degrading covariate shift (drives it strictly positive). Held across architectures, scoring functions, and datasets — including real human annotation errors — with 36 of 36 directional calls in the hard cases. A detector that can name which corruption it sees, and abstains below its detection floor instead of guessing.
+  - [CLAIMED — preprint/evaluation per secondary writeup]
+
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
