@@ -2150,3 +2150,16 @@ Two targeted searches. Two parked items expanded and recorded as material; every
   - Sources: https://arxiv.org/pdf/2609.28585
   - [CORROBORATED — the paper via arXiv]
 - **Library update:** public `github-public/docs/DECODER-CATALOGUE.md` "Suggestion-implant traps" gained both entries with public-safe phrasing. Next: rotation #12 (math/physics engines).
+
+
+## 2026-10-15 ~11:55 EDT — decoder-research-loop — Math/physics engines (rotation #12, sixth pass)
+
+Two targeted searches (SymPy/SciPy 2026 + symbolic regression; physics simulation libraries 2026). Four items new to record; everything else already on the record.
+
+- **SymCode: neurosymbolic math reasoning via SymPy as the verifier (arXiv:2510.25975, Jan 2026; NEW TO RECORD).** LLM math problem-solving reframed as verifiable *code generation* against the SymPy library: the model emits SymPy calls and execution verifies deterministically. Reported +13.6 percentage points over baselines on MATH-500 and OlympiadBench, with failures shifting from opaque logical fallacies to transparent programmatic errors — you can read the failed code. Significance for the decoder: the symbolic engine holds ground truth and the agent holds receipts; an agent that must produce checkable work, not persuasive prose, is one whose fabrications are catchable. [CLAIMED — paper first-party; abstract read, not independently replicated]
+- **openCFS 2026S release (NEW TO RECORD).** Open-source multiphysics package, roughly 8,857 commits: electromagnetics, vibro/aero-acoustics, compressible and viscous flow, nonlinear anisotropic structural mechanics, heat conduction, coupled iteratively or monolithically, configured through schema-validated XML — no solver-level programming. Extends the physics surface an interrogation cage can draw on without licensing anything. [CORROBORATED — trade-press writeup of the release]
+- **COMSOL Multiphysics 2027 announced (Sep 16, 2026; NEW TO RECORD).** Adds COMSOL Systems, a time-periodic solver, an Electric Motor Module — and a COMSOL MCP Server for direct interaction with external AI agents. Commercial solvers are sprouting agent tool surfaces; watch for the actual capability surface once it ships. [CORROBORATED — company press release]
+- **Symbolic regression with partial parameter sharing (arXiv:2601.04051, v3 Jun 2026; NEW TO RECORD).** Multi-dataset SR extended to intermediate sharing levels under multiple categorical variables — fewer parameters, plus structure information about which parameters genuinely transfer across regimes. Directional, early. [CLAIMED — abstract read]
+- **Already on the record:** FFTM (SoftwareX 2026); SciPy 1.18.1 (Aug 21, 2026 stable); SymPy stable 1.14.0; MuJoCo Warp differentiability still pending.
+- **Parked (CLAIMED, vendor-first):** NVIDIA cuPotential (SEMICON West 2026) — CUDA-X library for molecular-dynamics non-bonded interactions; vendor benchmark only, early access Q4 2026. Revisit when the number is reproducible outside the vendor's lab.
+- **Library update:** `github-public/docs/MATH-PHYSICS.md` §16 gained the five items with public-safe phrasing. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
