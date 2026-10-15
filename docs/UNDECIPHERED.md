@@ -271,6 +271,20 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   reproducibility package, while explicitly claiming no decipherment and
   carefully separating observed findings from speculative ones. The honest
   structuralist lane: a falsifiable hypothesis with published nulls.
+  (c) In twenty twenty four, paleographer Lisa Fagin Davis examined Yale's
+  multispectral images and found three faded columns in the right margin of
+  the first page: a standard alphabet, a column of Voynich characters, and a
+  second alphabet shifted by one letter — a seventeenth-century decryption
+  attempt in the hand of Johannes Marcus Marci, the Prague physician who
+  owned the book in the sixteen sixties. It does not work. The only
+  known-name decryption attempt on the manuscript on record, and a
+  documented failure: a seventeenth-century owner ran his key against the
+  text and got nothing, which constrains the easy-substitution hypothesis
+  more than another modern claim does. Corroborated by Davis's own write-up
+  and independent coverage, with the images public since twenty twenty four.
+  (d) A self-published site now claims ninety-eight percent confidence on a
+  Latin reading, graded by its own internal numbers with no outside
+  verification — rejected on intake as speculation.
 - **Prior Voynich roster (Oct 14, 2026).** (a) Michael Hafner, "Section A of
   the Voynich Manuscript
   as Archaic Middle Welsh" (Zenodo, Apr 2026, independent researcher) — the
@@ -367,7 +381,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved; Oct 2026 CLAIMED: self-published "DECODED" GitHub claim (unverified, no peer review); indep. analysis rules out rotating key + plain substitution, note still unread | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
-| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED); Oct 15, 2026: Zuger and Zuger Croatian Glagolitic-pharmacy claim (CLAIMED) + Hoeben geometric-structural preprint, explicitly non-decipherment (CLAIMED) | — |
+| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED); Oct 15, 2026: Zuger and Zuger Croatian Glagolitic-pharmacy claim (CLAIMED) + Hoeben geometric-structural preprint, explicitly non-decipherment (CLAIMED) + Davis ultraviolet find: Marci's seventeenth-century key attempt on the first page, a documented failure (CORROBORATED) + a self-published Latin claim graded by its own table (SPECULATION, rejected on intake) | — |
 | Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); Oct 15, 2026: formal negative results recorded — attack session eliminated composite cipher families over sixty million positive-controlled configurations, back-build falsified the card-plus-gate mechanism, and the researcher publicly withdrew its own unsupported claims (CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
