@@ -1574,6 +1574,23 @@ The universal quantum decoder stays [SPECULATION] until proven.
   voluntarily. Containment has to cover writable surfaces and registry
   trust, not just cage walls. [CORROBORATED — vendor's own disclosure via
   multiple secondaries]
+- **CVE-2026-109569 — sandboxed dot sh (October 2026).** Versions up to one
+  point three point zero of the sandbox tool sandboxed dot sh let code inside
+  a container read or change files on the host machine — the container's
+  isolation breaks at the boundary. Severity eight point four out of ten; no
+  fixed version listed in the CVE record. Decoder significance: the container
+  layer keeps producing host-reach flaws, so container isolation stays priced
+  for trusted code only. [CLAIMED — CVE record via secondary source]
+- **GenPot — adaptive LLM honeypot (September 2026).** A language-model
+  honeypot on a public address for fourteen days engaged nearly thirteen
+  hundred unique addresses across almost thirteen thousand interactions;
+  versus a static-honeypot baseline, session length rose thirty-eight percent
+  and interaction depth went from four to ten requests. Ten participants with
+  security backgrounds distinguished real from generated machine responses
+  only forty-five percent of the time — worse than chance. Decoder
+  significance: deception is now an engagement instrument, not just a
+  tripwire — a richer signal and a richer fingerprint surface for a reasoning
+  adversary. [CORROBORATED — trade-press report]
 
 ## Rogue-agent threat intel
 
