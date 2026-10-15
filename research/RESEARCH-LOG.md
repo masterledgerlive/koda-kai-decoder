@@ -1983,3 +1983,14 @@ Two targeted searches. One new taxonomy release catalogued; one new peer-reviewe
   - Source: https://www.mdpi.com/2079-9292/15/11/2363/pdf?version=1780121713
 - **Confirmed, no change:** Cloudflare's continuous session-long behavioral validation, Cequence's five-segment behavioral fingerprinting, DataDome's cryptographic agent identity plus continuous intent detection, and the UC Davis edge behavioral detector — all on record in the agent-detection catalogue. The finding on agreeable social bots slipping past human judges stays catalogued.
 - **Library update:** the public catalogue's agent-detection section gained the ATT&CK version-twenty entry. Material only as a taxonomy milestone — no new live technique demonstrated beyond the codification.
+
+
+## 2026-10-15 ~03:57 EDT — Sandbox & container tech (rotation #9, twelfth pass)
+
+- **CISA official guidance on cyber decoys (announced ~Sep 2026; NEW TO RECORD).** The US cybersecurity agency now recommends deception as standard posture: formal definitions for honeytokens (objects with no legitimate business use — any access means compromise), honeypots, breadcrumbs, tripwires, and lures; deployable through existing EDR/identity/DLP tooling without architectural overhaul. Decoder significance: the canary/deception craft carries a federal legitimacy stamp now, not just practitioner folklore.
+  - [CORROBORATED — agency guidance via secondary trade writeups]
+- **NovitaBox (Sep 2026, open-source; NEW TO RECORD).** Local-first AI-agent sandbox runtime with Firecracker, gVisor, and Cloud Hypervisor backends, snapshot fast-startup, and NVIDIA GPU exposure through runsc nvproxy; E2B SDK-compatible. Significance: the first GPU-capable sandbox runtime on the record — GPU passthrough is an uncharacterized escape surface for agent sandboxes. Source: https://github.com/novitalabs/novitabox
+  - [CORROBORATED — public repo; features documented, not exercised first-party]
+- **Field note: CapGate gVisor overlay (open-source).** Deployment pattern for untrusted agents: runsc with host-network passthrough — the Sentry keeps syscall interception while the container's real network namespace and its egress allowlist apply, working around gVisor's user-space netstack failing to proxy Docker's embedded DNS resolver. Significance: a kernel-isolation layer does not automatically buy a correct network-isolation story.
+  - [CLAIMED — single README]
+- **Parked:** TSARKA canary-tokens paper (already on record), rocketdevs package-registry piece (re-tell of the VERIFIED July-2026 incident), DEV isolation taxonomy (corroborating), SANS honeypot scan census (minor), Bastion MCP gateway (stale).
