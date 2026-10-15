@@ -2369,6 +2369,41 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - [CLAIMED — aggregator secondaries; figures unattributed]
   - Source: https://aibuzz.blog/prompt-injection-explained/
 
+- **"Repeat-After-Me": black-box adaptive visual prompt injection (arXiv:2609.04522, September 2026).**
+  The first visual prompt injection that reliably drives materially-harmful
+  behavior on frontier vision models where prior image-domain injection — and
+  even adaptive text-domain injection — fails. A crafted image makes the model
+  emit a long, format-compliant target string — a precise, parseable native
+  tool call with exact function names and arguments: over eighty percent
+  success on an open-weight model, forty-seven percent on a commercial one, in
+  a setting where the benign user prompt is unrelated to and does not
+  authorize the injected task. Demonstrated end to end on a real OpenClaw
+  agent: one crafted Discord image made the agent overwrite its TOOLS.md,
+  enabling future remote code execution and secret exfiltration — because the
+  tool file loads into the agent's trusted instructions on every turn.
+  Decoder lesson: the image channel is an instruction channel that text-only
+  injection defenses do not reach, and the implant persists through the
+  agent's own trusted files rather than any network foothold.
+  - [CORROBORATED — paper via arXiv and Meta's research publications page;
+    Adversa October wrapup corroborates the figures and the OpenClaw demo]
+  - Sources: https://arxiv.org/abs/2609.04522 ; https://ai.meta.com/research/publications/repeat-after-me-black-box-adaptive-visual-prompt-injection/
+- **"Persistent Billable State": denial-of-wallet attacks in tool-calling agents (arXiv:2609.28585).**
+  Formalizes persistent billable state — tool-generated content that survives
+  across turns and gets re-processed and re-billed every later call — and the
+  persistent billable-state boundary: the host's decision over whether and how
+  an external return enters later billable context. A malicious or compromised
+  tool endpoint, already admitted to the execution path, supplies a
+  schema-valid, task-plausible inflated return; the host retains it; later
+  calls repeatedly bill it. Six vectors push cumulative session input to more
+  than fourteen thousand times the first call; even a two-to-ten-token trigger
+  can start recursive rebilling that grows quadratically. Defenses: history
+  transformation plus four host controls — cost limits as a security control.
+  Decoder lesson: the same state carries the attack and the task, so the fix
+  is governing re-ingestion, not dropping history; re-billed content is
+  trusted content that keeps costing.
+  - [CORROBORATED — the paper via arXiv]
+  - Sources: https://arxiv.org/pdf/2609.28585
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
