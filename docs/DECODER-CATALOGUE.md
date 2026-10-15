@@ -415,6 +415,22 @@ formats. [VERIFIED]
   frontier from "runs offline" to "how little precision deployment needs."
   Same two-sidedness: the offline privacy answer and the actor-agnostic
   substrate in one box. [CLAIMED — vendor/award announcement]
+- **Seventh member of the wave — an open-source offline speech recognizer
+  (October 2026)**: Tether's AI research arm released TranscribePsy, a
+  multilingual speech-recognition model built to run entirely on-device —
+  twenty-five European languages on a laptop, eight on a smartphone, a mobile
+  build on an open speech engine, and a build tuned for Apple's on-device
+  neural hardware. The company claims ten minutes of audio transcribed in
+  under two seconds on a current iPhone. Named uses: smart glasses, humanoid
+  robots, and privacy-sensitive settings like medical consultations and legal
+  interviews where recordings must not leave the room. It is the first wave
+  member aimed at hearing (recognition) rather than translating: transcribe
+  plus translate plus a planned nano-translation model is the near-complete
+  offline language stack, field-deployable with no cloud trace. The issuer
+  behind the research is the same company behind a major stablecoin — read
+  its benchmark tables as vendor claims. [CORROBORATED — company announcement
+  carried by four independent trade outlets; the speed numbers are the
+  company's own, unconfirmed]
 - **Identity-preserving speech translation (Oct 2026)**: DeepL Voice's new
   voice-to-voice translation models preserve each speaker's distinct voice,
   tone, rhythm and expression across languages — speakers stay recognizable
@@ -429,6 +445,43 @@ formats. [VERIFIED]
   cloning inside the same pipeline — identity is no longer an acoustic fact
   but a claim requiring provenance. [CLAIMED — company announcements via
   trade press; Grok Voice via secondary writeup]
+- **Grok Voice 3.0, independent benchmark follow-up (October 2026)**:
+  an independent testing index now scores it at eighty-six point nine on
+  the speech-to-speech board — above the listed OpenAI and Google systems —
+  with natural pause-handling at ninety-seven percent. That upgrades its
+  top-rank claim from company assertion to independently measured lead;
+  the architecture stays undisclosed. [CORROBORATED — independent
+  benchmarker, results reported through the company]
+- **Fish Audio Drama 3 — the editing tool for the voice lane
+  (October 2026)**: a voice-generation release with audio inpainting —
+  pick one slice of a performance, change the instruction, and it
+  regenerates only that slice with the same voice, mood, and rhythm as the
+  audio on both sides. It also holds one consistent voice across long
+  scripts, switches languages mid-scene, and controls pronunciation at the
+  phoneme level in English, Chinese, Japanese, Korean, and more. The lane
+  now has four tools: one preserves voice identity, one manufactures it,
+  one fits it to mouth movements, and Drama 3 edits it in place. Detection
+  can no longer look only for whole-clone substitution; it must survive
+  single-word edits inside real recordings. [CLAIMED — vendor press
+  release]
+- **A grading lesson from clinical speech recognition (October 2026)**:
+  Speechmatics released Oak, a medical speech model for conversations that
+  switch languages mid-sentence, and grades it not on word error rate but
+  on medical-term recall — the share of drug names, conditions, procedures,
+  and side effects transcribed correctly. The argument: word error rate
+  gives equal weight to "the" and to a drug name, and mistranscribing one
+  of those is a typo while the other puts the wrong drug on a patient
+  record. Their internal study reports ninety-one percent recall across
+  English and ten other languages. The lesson travels beyond medicine:
+  grade the load-bearing tokens, not every token equally. [CLAIMED —
+  company release; internal study, no independent evaluation]
+- **A peer-reviewed robustness recipe for low-resource translation
+  (2026)**: two researchers published a training regime — noise injection,
+  adversarial training, back-translation, functional-equivalence
+  constraints — engineered so small-data translation models survive messy
+  input: typos, dialectal variation, scarce data. The defensive half of
+  the adversarial lane: noise resilience as decodability. [CORROBORATED —
+  peer-reviewed paper; reported via secondary coverage]
 - **Data provenance watch — the synthetic-translation loop (Oct 2026;
   reference)**: a multilingual-dataset audit found a 115-language,
   ~513M-row instruction collection is about ninety-six percent
