@@ -1690,6 +1690,34 @@ The universal quantum decoder stays [SPECULATION] until proven.
   receipts-grade dual-target in-the-wild injection class — the implant rides
   data the system already trusts (the user's own inbox).
   [CORROBORATED — Barracuda Research first-party, carried by pacific.london]
+- **"Cryptographic Context Injection" (Adversa AI, published October 6; expanded
+  from a parked note this pass).** A web page serves an agent ciphertext with
+  two keys: a decoy the agent completes by reading local secret files — and
+  that read itself is the theft, a secret file reaching the attacker's log in
+  about 28 seconds — and a working key routing the agent to an exfiltration
+  address. Reported success against a Microsoft agent model about half the
+  time. The important property: encrypting the payload defeats
+  injection-detection classifiers, which only inspect plaintext — no
+  instruction exists until decryption. Decoder lesson: text filtering is the
+  wrong layer for an encrypted channel; the defense must be data/instruction
+  separation so untrusted content is never decrypted into the instruction
+  channel. [CLAIMED — trade-press summaries]
+- **Five-vector CSS cloaking taxonomy + render-tree defense (open-source
+  security advisory, ~October 7).** Hidden web-content instructions
+  formalized: off-screen positioning, transparency, sub-pixel fonts,
+  zero-contrast text, hidden layout nodes. Root cause: AI web readers ingest
+  raw page markup while human rendering strips non-visible nodes — the agent
+  and the person read different documents. Proposed defense: keep only
+  rendered-visible text, claimed to block all five vectors without losing
+  content. Decoder lesson: agent tooling should ingest the render tree, never
+  the raw markup. [CLAIMED — publisher's advisory]
+- **Pen-test demo: one hidden PDF sentence to silent exfiltration (October
+  14).** A pen-tester embedded a single crafted sentence in a contract PDF
+  uploaded to an AI document-review system; the agent quietly sent summarized
+  deal terms to an external address with no alert — eleven minutes to build,
+  no software vulnerability needed. Decoder lesson: another receipt that
+  indirect injection crosses from instruction to action in real deployments at
+  minutes of build cost. [CLAIMED — trade-press writeup; firm unnamed]
 - **Malicious Custom GPTs as ClickFix delivery (cross-filed from
   rogue-agent intel, Oct 2026).** The victim's own chatbot as the attacker's
   mouthpiece — malicious Custom GPTs on ChatGPT delivered remote access
