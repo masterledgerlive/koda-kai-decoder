@@ -1276,6 +1276,32 @@ The universal quantum decoder stays [SPECULATION] until proven.
   confirmation via independent press; exploit chain undisclosed, no patch on
   record]
 
+- **CISA official decoy/honeytoken guidance (announced about September 2026).**
+  The US cybersecurity agency gives the deception vocabulary formal
+  definitions: honeytokens are objects with no legitimate business use — any
+  access means compromise; honeypots are realistic-but-limited systems with
+  intentional weaknesses; breadcrumbs steer attackers toward decoys; tripwires
+  alert on interaction; lures attract attention. Deployable through existing
+  endpoint and identity tooling with no architectural overhaul. Decoder
+  significance: the canary craft carries a federal legitimacy stamp —
+  deception is now recommended posture for critical infrastructure, not
+  practitioner folklore. [CORROBORATED — agency guidance via secondary
+  writeups; cisa.gov page not opened first-party]
+- **NovitaBox (September 2026, open-source).** A local-first AI-agent sandbox
+  runtime with Firecracker, gVisor, and Cloud Hypervisor backends, snapshot
+  fast-startup, and graphics-processor exposure through the runsc proxy;
+  E2B-compatible API. Decoder significance: the first GPU-capable sandbox
+  runtime on the record — most agent sandboxes are CPU-only, and GPU
+  passthrough is an uncharacterized escape surface worth a dedicated watch.
+  [CORROBORATED — public repo; features documented, not exercised first-party]
+- **Field note: CapGate gVisor overlay (open-source).** A deployment pattern for
+  untrusted agents: runsc with host-network passthrough — the sandbox keeps
+  syscall interception while the container's real network namespace and its
+  egress allowlist apply, working around the user-space netstack failing to
+  proxy Docker's embedded DNS resolver. Decoder significance: a
+  kernel-isolation layer does not automatically buy a correct
+  network-isolation story — the resolver gap is the kind of seam an adversary
+  probes. [CLAIMED — single README]
 - **gVisor SlimVM platform (upstream; EuroSys 2026 SKernel paper).** A
   new VMX-based platform eliminates the user/kernel round-trip on the
   syscall-delegation path: the guest's system call exits into VMX root mode
