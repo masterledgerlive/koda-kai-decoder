@@ -2313,3 +2313,30 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   weights, published papers) is not an open book: interrogation attacks key
   rotation discipline, not the diagram — which is why the Gauntlet's canary
   keys rotate per chamber and never cross the interrogation boundary.
+
+- **The M-138 strip cipher (1933 → wartime) — the M-94's paper descendant.**
+  About 1933 the US Army began experiments on a flat strip-cipher form with
+  variable alphabets as a successor to the M-94's fixed cylinder; William F.
+  Friedman filed a patent application in his own name in October 1939
+  (assigned to the Government, placed in the secret category in July 1940).
+  The device was a slotted aluminum board holding 30 paper strips selected
+  from a set of 100, each strip bearing a scrambled alphabet — the daily key
+  was the selection and the order, about 7.8×10^57 possible selections.
+  Roughly 5,000 devices were manufactured under War Department contracts; the
+  Strip Cipher System carried a large share of US Army, Navy, and State
+  Department secret and confidential traffic through the war — the Army's
+  backup for SIGABA and the primary system for posts, camps, stations, and
+  attaché circulars. The design lineage reaches back to Parker Hitt's 1916
+  Fort Sill model: cardboard, two slots, 1/8-inch paper strips — the strip
+  principle public in his manual for two decades before the hardware.
+  [CORROBORATED]
+- **Decoder lesson (M-138 → Gauntlet):** the M-94 doctrine printed on paper —
+  mechanism last, key custody first. The mechanism was Friedman's own
+  patent-pending design, fully documented, yet the system served through a
+  world war because the paper was the custody surface: a hundred strips to
+  print, store, guard, and select from daily. The Gauntlet ports it as a
+  discipline: a chamber's canary key is the strip selection of the day, the
+  interrogator never sees today's pick, ephemeral key material is destroyed
+  at chamber close, and the destruction is itself an immutable record event
+  — a destruction receipt — so "we burned it" is auditable, never a
+  hand-wave.
