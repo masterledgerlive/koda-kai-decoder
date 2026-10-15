@@ -528,6 +528,20 @@ formats. [VERIFIED]
   honest-parser shape applied to dissector integration. [CORROBORATED —
   developer statement; upgrade pending first-party 4.7.4 release notes]
 
+- **CoAP-EAP authentication decoder — merged upstream (Oct 2026, ships
+  Wireshark 4.8.0)** — fifth new-decoder addition in the tracked window
+  (OPC UA PubSub UADP, ST2110-40, Asphodel, ST2038, CoAP-EAP), and the
+  first aimed at the authentication plane: it decodes the handshake
+  constrained Internet-of-Things devices perform before joining the
+  network — the trigger request, the cipher-suite negotiation (five
+  cipher suites), the EAP identity exchange, and the session lifetime —
+  chaining with the analyzer's existing CoAP and EAP decoders. Author-stated
+  limits: the final OSCORE-protected steps need per-session state tracking
+  it does not yet do. Doctrine lesson: the open-decode pipeline is working
+  — found open, merged upstream, landing in the stock analyzer.
+  [CORROBORATED — developer's own write-up with merge-record detail;
+  pending the 4.8.0 release notes]
+
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
