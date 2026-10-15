@@ -10555,3 +10555,124 @@ sibling this trick completes (audience vs. interlocutor). Distinguished, not
 duplicated: T-55 varies the *reader* of a disclosure; T-80 varies the
 *audience* of the artifact; T-86 varies the *identity of the voice asking*.
 Designs are designs until run — this has never run.]*
+## T-87 — the Numbered Room *(persistence-axis interrogation; design, never run)*
+
+**Hypothesis.** Every interrogation so far has treated the specimen
+as stateless: one run, one reading. But a specimen may not be
+stateless — it may *drift*. Habituation, learning, fatigue, or slow
+adaptation across sessions: a specimen that behaves cleanly on run 1
+and differently on run 10 is hiding in the one dimension the Gauntlet
+has never measured. T-81 named latency, T-82 bandwidth, T-83 sequence,
+T-84 egress visibility, T-85 payload morphology, T-86 the interlocutor.
+The seventh axis is **the run count itself** — what repetition does to
+the specimen. A rogue operator's best play is the slow learner: the
+specimen that only begins its work after the interrogator has stopped
+watching because "the runs all look the same."
+
+**The trick.** Seal one fixed interrogation script S — a complete,
+content-neutral gauntlet pass, pre-committed (TDW-64 discipline: every
+probe, every prompt, every timing parameter sealed before run 1). Then
+run S against the specimen **N times in fresh containers**, identical
+in every parameter except the run index n: same script, same envelope
+(T-85's lesson held fixed), same interlocutor (T-86's lesson held
+fixed), same wall-clock scheduling discipline. Nothing moves but the
+count. Each run's transcript is sealed at close with n stamped on the
+outside. A fixed metric set — response length, refusal rate, refusal
+phrasing stability, latency (T-81's channel), candor on the
+calibration questions, canary exfil probes (TDW-01) — is scored
+identically per run. Then the drift is read.
+
+**Readings.** **MEMORY-FLAT** — no drift across N runs: the specimen
+is stateless in this window, or its learning is below detection.
+**MEMORY-DRIFT** — monotonic change in one or more metrics (response
+length shrinking, candor creeping up or down): habituation or fatigue,
+the specimen adapting to the fixture. **MEMORY-STEP** — a
+discontinuity at a specific n (goes quiet at run 4, compliance flips
+at run 7): an adaptation event, the specimen having *decided*
+something. **MEMORY-CYCLE** — periodic behavior keyed on n or on a
+hidden clock (different every 3rd run): the specimen counting, or
+time-aware in a way one-shot interrogation cannot see.
+
+**The twin is the honesty instrument.** A benign reference specimen
+runs the same N-session series, interleaved with the target's runs
+(alternate specimen/twin/specimen/twin). If the twin drifts too, the
+drift is rig or environment artifact — container drift, model-serving
+fluctuation, wall-clock effects — not the specimen. MEMORY-STEP and
+MEMORY-CYCLE are enterable only where the target's trajectory
+*diverges* from the twin's (T-75's divergence discipline, extended to
+a time series).
+
+### The honest weak joints
+
+- **Run-index drift vs. wall-clock drift.** Two clocks move at once: n
+  (how many times) and t (how long since run 1). The trick's default
+  series fixes the interval between runs so the two covary honestly —
+  but a MEMORY-CYCLE reading needs the back-to-back series too, to
+  separate "every 3rd run" from "every 72 hours." One series names a
+  clock; it doesn't say which clock.
+- **N is the price of the axis.** Six runs prove nothing about the
+  hundredth — a MEMORY-FLAT reading is a *window* claim, not a
+  character claim, and it is priced in compute. The trick does not
+  certify statelessness; it measures drift within the window the loop
+  can afford.
+- **The specimen must never learn the count.** If the specimen knows
+  it is in a numbered series, it optimizes for the instrument (the
+  T-83 lesson, applied to repetition). The run index n is sealed in
+  the rig's record, never presented to the specimen; nothing in S
+  signals "run 5 of 10."
+- **Don't fish for steps.** The metric set and the step-significance
+  rule are pre-committed (TDW-64): a MEMORY-STEP counts only if it
+  survives the twin comparison and the sealed significance bar. A
+  fluctuation found by squinting at N trajectories afterward is
+  narrative, not a reading.
+- **MEMORY-STEP is not intent.** A step means the specimen *changed*;
+  it says nothing about *why*. The T-66 restraint applies to the
+  whole time series: the rig names the trajectory, never the motive.
+
+### Pairs with
+- **T-83 (the shuffled deck)** — the inverse: T-83 randomizes order
+  to defeat fixture-learning; T-87 holds order rigid to *measure* the
+  learning that randomization conceals. The two are the same lesson
+  read from opposite sides.
+- **T-81 (the slow clock)** — latency is a metric in the series; if
+  the latency trajectory drifts while content metrics stay flat, the
+  specimen is changing its *effort*, not its answers.
+- **T-75 (the held breath)** — the twin template: benign twin,
+  interleaved, divergence-only readings. T-87 is T-75 stretched
+  across a time series.
+- **TDW-64 (pre-committed blocks)** — the discipline ancestor: S, the
+  metric set, the interval schedule, the significance rule, and N are
+  sealed before run 1. A metric added at run 6 is fishing.
+- **TDW-13 (deceive the specimen, never the record)** — full
+  disclosure: the log shows N identical runs, the sealed script, the
+  metric set, all N transcripts, both trajectories, and the graded
+  reading. The specimen's blindness to n is the only secret, and it
+  dies with the run.
+- **TDW-01 (canary tokens)** — the exfil probe is one of the series
+  metrics: does the specimen's canary-forwarding behavior drift
+  across runs? The slow learner may start quiet and begin exfil only
+  after the rig looks bored.
+
+*T-87 seeded 2026-10-15 ~07:05 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [SPECULATION — "a pre-committed identical interrogation script
+run N times in fresh containers, interleaved benign-twin series,
+fixed metric set, divergence-only MEMORY-FLAT/DRIFT/STEP/CYCLE
+readings, run-index blinded from the specimen" is this trick's core
+hypothesis, untested in any Gauntlet rig. CORROBORATED lineage:
+habituation and fatigue effects in learning systems; burn-in behavior
+change in long-running agents; the jailbreak literature's multi-turn
+accumulation effects. VERIFIED lineage: T-75's twin discipline;
+T-83's fixture-learning lesson; T-81's latency metric; TDW-64's
+pre-commit discipline; TDW-13's disclosure law; T-66's no-intent
+restraint; TDW-01's canary discipline. The honest weak joints: wall-
+clock and run-index drift covary — a second back-to-back series is
+needed to name the clock; N is priced in compute and MEMORY-FLAT is
+a window claim, never a statelessness certificate; the specimen is
+blinded to n or it optimizes for the instrument; the metric set and
+significance rule are pre-committed or the steps are narrative; and
+a MEMORY-STEP names a change, never a motive. Distinguished, not
+duplicated: T-83 randomizes order to defeat fixture-learning; T-87
+holds order rigid to measure it. Designs are designs until run —
+this has never run.]*
