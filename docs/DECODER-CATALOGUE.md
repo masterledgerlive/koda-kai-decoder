@@ -2386,3 +2386,28 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   at chamber close, and the destruction is itself an immutable record event
   — a destruction receipt — so "we burned it" is auditable, never a
   hand-wave.
+- **The M-209 (1942 → Korean War) — the lug-and-pin cage, or: secrecy is a
+  time, not a property.** The US Army's principal tactical cipher machine of
+  WWII was a licensed Swedish design: Boris Hagelin's "pin-and-lug"
+  mechanism (1935 C-35 through C-38), the US adaptation adopted in 1942 on
+  William Friedman's recommendation and built by Smith & Corona. Six key
+  wheels carry 26, 25, 23, 21, 19, and 17 pins — deliberately mutually
+  prime counts, for a cycle of 101,405,850. Each pin is set left or right
+  by hand; behind the wheels sits a drum of 27 bars (users called it "the
+  squirrel cage"), two movable lugs per bar. The daily key was pure cage
+  configuration: pin settings, lug positions, starting wheel positions.
+  The German OKW/Chi service read M-209 traffic — their "American Machine
+  Number 1" — reportedly within about four hours by 1943. The NSA's own
+  history sets the design honestly: it only needed to protect tactical
+  traffic for 24 to 48 hours, "seldom used in the best of circumstances."
+  [VERIFIED — NSA declassified history, simulator manual; CORROBORATED —
+  German success; CLAIMED — the exact four-hour figure, single source]
+- **Decoder lesson (M-209 → Gauntlet):** the entire cryptographic
+  variability lived in the cage — cryptanalysts attacked the
+  configuration, not the print wheel. Interrogation maps the specimen's
+  configurable core first and scores "time-to-partial-read" in hours, not
+  read/no-read: a specimen whose secrets outlive their relevance is
+  exhausted, not broken. And the custody ladder completes — M-94's key was
+  wheel order, M-138's was strip selection, M-209's was the cage pinned in
+  by the operator's fingers that morning. Operator first, usage second,
+  mechanism third — here all three rungs were one person.
