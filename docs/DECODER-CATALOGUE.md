@@ -2445,6 +2445,28 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   clearance. And the Swiss service reading the weakened gear itself is why
   the Gauntlet assumes the chamber's host is listening.
 
+- **CX-52 / H-4605 (1970s) — the Rubicon hardware.**
+  The machines that carried the Crypto AG betrayal. The CX-52, a compact
+  pin-and-lug cipher machine in the Hagelin lineage, was readable by design
+  under the "gentleman's agreement," and customers were personally steered
+  onto the exploitable builds — Brazil's 80 CX-52s were talked off the
+  CX-52/RT down onto the readable CX-52-M-27. The H-4605, field variant of
+  the all-electronic H-460, is the machine whose inner workings were designed
+  by the NSA, per the Washington Post's reporting; Argentine intelligence
+  fed H-4605s into Condortel, Operation Condor's teletype net. Crypto AG
+  even kept a sales taxonomy: "Best Security" for friendly/NATO customers,
+  "Medium Security" for neutral ones, "Low Security" low-grade gear. The
+  first public crack came in 1992, when Iran detained and interrogated Crypto
+  AG salesman Hans Bühler after one inexplicable interception.
+  [CORROBORATED — Crypto Museum records and the 2020 joint investigation,
+  carried by Wikipedia; CLAIMED for the Bühler detention detail]
+- **Decoder lesson (CX-52/H-4605 → Gauntlet):** the backdoor scaled with the
+  hardware — mechanical by agreement, electronic by design — so the
+  provenance rung audits both the handshake and the silicon. Watch for the
+  downgrade sale: a vendor steering customers toward the weaker option is the
+  signature of a compromised supply chain. And grade one unexplained reading
+  as evidence, never as an anomaly to explain away.
+
 - **SIGABA / ECM Mark II (1940–1959) — the never-broken machine.**
   The US Army–Navy joint rotor machine — Army name SIGABA, Navy name ECM
   Mark II — developed under William Friedman, with Frank Rowlett's
