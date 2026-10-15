@@ -92,6 +92,35 @@ procedures, stereotyped message openings, operators who never varied. The
 pivot: D-Day's deception, the U-boat war, and the modern doctrine's first rule
 — *usage flaws first, math second*.
 
+## 1941–1943 — Lorenz: the machine that was never seen
+
+The Wehrmacht high command's teleprinter cipher — the Lorenz SZ40/SZ42,
+British codename "Tunny" (non-Morse traffic was "Fish"). Twelve wheels, a
+5-bit teletype code, a stream cipher — and Britain never captured a machine,
+never photographed one. The whole machine was reverse-engineered from a
+single operator's laziness. [CORROBORATED] On 30 August 1941 an operator sent
+a message of nearly 4,000 characters, Athens to Vienna; the receiver asked for
+a re-send, and the sender retransmitted with the *same* key settings —
+forbidden — abbreviating the text slightly the second time (SPRUCHNUMMER
+became NR). Brigadier John Tiltman spent ten days unpicking the two
+plaintexts from the "depth," recovering nearly 4,000 characters of key.
+[CORROBORATED] Then Bill Tutte, a newly arrived recruit, laid the key out on
+squared paper the way his training taught him, and found a 41-bit repetition.
+By January 1942 he and colleagues had deduced the entire 12-wheel logical
+structure — wheels, cams, stepping — without ever seeing the device. The
+verdict of history: "one of the greatest intellectual feats of World War
+II." [CORROBORATED] The human error, exactly once: reuse the key, and 4,000
+characters of laziness surrender a cipher system's internals. The pivot:
+the daily wheel-breaking and wheel-setting grind couldn't be done by hand,
+so Max Newman mechanized the search and Tommy Flowers' team at the Post
+Office Research Station built Colossus — the first large-scale electronic
+digital computer — to run Tutte's statistical method at speed (Mark 1
+operating by early 1944; Turing's hand method "Turingery" covered
+wheel-breaking). [CORROBORATED] The decoder's note: this is the extraction
+doctrine in its purest form — the Gauntlet never needs to *capture* the
+specimen's machine. It needs the specimen to repeat itself once with its
+guard down. Depth is the universal solvent: reuse, and the key falls out.
+
 ## 1940 — Purple
 
 The US broke Japan's diplomatic cipher machine; Magic intercepts shaped
@@ -265,11 +294,11 @@ problem that had stood twenty years is the honest headline.
 
 ## The through-line
 
-Caesar → Rosetta → Vigenère → Zimmermann → Enigma → RSA → SNARKs → blockchain → PQC.
+Caesar → Rosetta → Vigenère → Zimmermann → Enigma → Lorenz → RSA → SNARKs → blockchain → PQC.
 Every era believed its cipher would hold. Every era was wrong except the
 one-time pad — and even the pad falls to operators. The lesson compounds:
 **the cipher is never stronger than the habits of the people who use it.**
 That is why the decoder's gauntlet interrogates *behavior* first and
 mathematics second — four thousand years of evidence, one verdict.
 
-*Updated 2026-10-13.*
+*Updated 2026-10-14.*
