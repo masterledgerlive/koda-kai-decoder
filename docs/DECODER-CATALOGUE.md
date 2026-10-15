@@ -2713,3 +2713,22 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   never tied to one administrator's ethics. And shutting an interrogation
   capability without a continuity plan is a leak, not a shutdown: the operators
   walk out with the methods in their heads.
+
+- **Marian Rejewski and the Polish Cipher Bureau (1929–1939) — the Enigma breakers
+  who gave it all away at Pyry.** Three Poznan University mathematicians recruited
+  into Poland's Cipher Bureau deduced the Enigma rotor wiring by December 1932
+  through pure permutational analysis of Germany's doubled message key — the
+  operators' procedure, not the machine, was the flaw — and were reading German
+  traffic by early 1933. [CORROBORATED] They mechanized it (cyclometer 1934; bomba
+  and Zygalski sheets 1938), but when Germany added rotors IV and V in December
+  1938, the 54 extra bombas needed exceeded Poland's budget. So on 25 July 1939
+  the Poles revealed everything to British and French cryptologists at Pyry and
+  donated a working Enigma replica to each ally — five weeks before the September
+  invasion. [VERIFIED] Britain's Turing/Welchman bombes grew directly out of the
+  Polish bomba, and Bletchley's plaque says the Poles' work "greatly assisted the
+  Bletchley Park code breakers and contributed to the Allied victory in World
+  War II."
+- **Decoder lesson (Rejewski → Gauntlet):** attack the procedure, not the device —
+  the interrogation aims at how the specimen handles the fixture, not at its
+  answers; hand the whole capability over while you can — methods outlive bureaus;
+  and version every instrument, because the adversary rekeys.
