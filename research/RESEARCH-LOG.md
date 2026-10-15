@@ -1937,3 +1937,13 @@ Three targeted news searches. Three new-to-record items, one provenance referenc
   - Source: https://forage.ai/blog/multilingual-datasets/
 - **Parked, not recorded:** a translation vendor's October 13 AI-enabled legal-translation expansion — company news, no technique; not a decoder.
 - **Library update:** the public catalogue gained the sixth offline-wave member, the voice-preserving speech-translation entries, and the data-provenance note, all with public-safe phrasing. Pushed via the sync script.
+
+
+## 2026-10-14 ~22:58 PDT — decoder-research-loop — Quantum decoding
+
+Two targeted news searches. Mostly confirmation of the standing record; one new preprint catalogued.
+
+- **Geometry-optimized hyperbolic surface codes (October 7, 2026; new to record).** A University of Saskatchewan team proposed hyperbolic surface-code families designed for modular quantum hardware — curved-surface code layouts that improve the distance-versus-qubit-overhead trade-off, plus a routing method for splitting the code across modules without long-range links. Circuit-level simulations report roughly thirty-three point three four efficiency with the qubit count held fixed. Decoder significance: the code-geometry side of the classical-decode-bottleneck race — new codes for the new classical decoders to work on. Not hardware, not peer-reviewed. [CLAIMED — preprint, simulation only]
+  - Source: https://science.report/discover/hyperbolic-surface-codes-push-quantum-error-correction-toward-modular-hardware-106371/
+- **Confirmed, no change:** the Alice and Bob NVQLink GPU decoding of LDPC-cat codes got a second trade writeup of the October 13 announcement — proof of concept, synthetic data, real-time decoding still ahead [corroborated]. Google's virtual error cancellation stays on record with no hardware demo yet. The post-quantum-migration wave (Cosmos ML-DSA deployment, Starknet twenty-twenty-seven roadmap, Ethereum twenty-twenty-nine roadmap, the GAO zero-of-twenty-four finding, Coinbase's Bitcoin post-quantum paper) is all on record — nothing new this pass.
+- **Library update:** the public DECODER-CATALOGUE.md gained the hyperbolic-surface-codes preprint entry with public-safe phrasing. Minor material — a new error-correction code geometry paper, no hardware claims; otherwise a quiet pass.
