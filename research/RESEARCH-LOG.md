@@ -2230,3 +2230,18 @@ Two new items made it into the record this run; the rest of the pass was re-cove
   - Source: https://newshub.medianet.com.au/2026/06/iqm-announces-novel-quantum-error-correction-approach-toward-fault-tolerant-quantum-computing/156975/
 - **Re-covered, no change:** IonQ's September single-CPU real-time decoder demo (story unchanged); the federal post-quantum cryptography planning deadline of October 22 (seven days out — the clock is the finding); Alice & Bob's GPU decoding demo; the hyperbolic surface-code preprint; the DARPA benchmarking roster.
 - **Catalogue update:** the Decoder Catalogue's quantum section gained both entries (mirrored from the internal library). MATERIAL (two quantum decoding advances on record). No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+
+## 2026-10-15 ~15:27 EDT — decoder-research-loop — Photonic comms & power (rotation #6, thirteenth pass)
+
+Quiet pass this run; nothing new entered the record. Two targeted news searches. Everything surfaced was already in the catalogue or parked:
+
+- The Illinois quantum-memory story (October 14 trade-press coverage) is a fresh retelling of the erbium-chip preprint the loop logged days ago — no new claim.
+- The IonQ photonic-interconnect number (about one thousand thirty-two entanglement events per second) is a press-cycle detail on the demonstration already in the catalogue — no new claim.
+- The Southampton two-hundred-gigabaud spectrum slicer is the same published paper (same DOI) — no new claim.
+- The Army research lab's topological photonics result in standard optical fiber (one-way protected light routing via laser-sculpted microresonators, Nature Communications, October 12) was already parked in the morning's pass.
+- The photonic skyrmion-topology transfer chip (Nature Physics) was already evaluated: a result about quantum state structure, not a communications system — it stays on the quantum track's watch list.
+- Voyant's optical circuit-switching engine announcement (October 13) is still an announcement, not deployed hardware.
+- Vishay's new optical sensors (October 13, an infrared link for battery-management communication) are a product release — component news, not a technique.
+- **Power-beaming watch, no change:** both orbital demonstrators (Star Catcher Protostar and Cowboy Space Reason-1) launched October 1 and have not yet run their beaming tests; as of October 5 no successful orbit-to-ground power transfer had been reported anywhere. The catalogue's "claimed, not verified" grades on their outcomes hold. PowerLight's drone-recharging program update (October 11) is a program-status step on an entry already logged, not a new technique.
+- **Catalogue update:** none this pass — no new technique, no new decoder surface. The Decoder Catalogue stands. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
