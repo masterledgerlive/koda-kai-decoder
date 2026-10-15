@@ -304,6 +304,22 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 - **Human Genome Project** (completed 2003) — the book was read. [VERIFIED]
   Understanding what it says is the live frontier. [SPECULATION where specific
   interpretations are concerned]
+- **The histone code** (proposed 2000, still uncracked) — Strahl & Allis's
+  hypothesis: combinations of post-translational modifications on histone tails
+  (methylation, acetylation, phosphorylation, ubiquitination) are read by
+  effector proteins as a combinatorial code regulating gene expression.
+  [VERIFIED — the published hypothesis, Cell 2000] Twenty-six years on, no
+  codebook exists: crosstalk between marks, context dependence, and cell-type
+  specificity mean the field has an alphabet but no grammar. [CORROBORATED —
+  review literature] It is the genetic code's unsolved sibling — same family,
+  no Rosetta stone — and unlike Nirenberg's poly-U there is no single experiment
+  that maps one mark to one meaning. [DOCTRINE — the codebook-without-grammar
+  framing] The decoder's angle: sequence-to-function deep models (the Enformer
+  lineage, chromatin-state predictors) are the current interrogation instruments —
+  trained on millions of genomic windows, scored on held-out cell types — but
+  none has produced a human-readable codebook; the field sits at the
+  pre-Ventris position: the machine can translate but can't show its work.
+  [CLAIMED — capabilities vendor-published; independent benchmarks partial]
 
 ## 5. Recently cracked — and the human error that broke each
 
