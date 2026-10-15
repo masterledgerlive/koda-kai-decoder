@@ -618,6 +618,15 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   contributions — no new calibration experiments, no circuit changes.
   Claimed 1,000-fold-plus suppression in simplified noise simulations, not
   yet on hardware. [CLAIMED — preprint via secondary writeup; sim-only]
+- **Geometry-optimized hyperbolic surface codes (October 7, 2026).**
+  A University of Saskatchewan team proposed hyperbolic surface-code families
+  designed for modular quantum hardware — curved-surface code layouts that
+  improve the distance-versus-qubit-overhead trade-off, plus a routing method
+  for splitting the code across modules without long-range links.
+  Circuit-level simulations report roughly thirty-three point three four
+  efficiency with the qubit count held fixed. New code geometry for the new
+  classical decoders to chew on. [CLAIMED — preprint, simulation only; not
+  peer-reviewed]
 - **Migration deadlines tighten (Sep 2026).** Malaysia's National Security
   Council: the only ASEAN Tier 1 PQC-ready state. EU: NIS Cooperation Group
   recommends member-state PQC migration strategies by end of 2026; DORA
