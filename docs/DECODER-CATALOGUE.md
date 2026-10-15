@@ -486,6 +486,18 @@ formats. [VERIFIED]
   raw-bytes fallback is the honest-parser shape: decode what you know,
   preserve what you don't. [CLAIMED — vendor first-party README]
 
+- **SMPTE ST2038 dissector — merged upstream (Oct 2026, landing in
+  Wireshark 4.7.4)** — fourth new-dissector addition in the tracked window
+  (OPC UA PubSub UADP, ST2110-40, Asphodel, ST2038): ST2038 carries VANC
+  ancillary data within MPEG-TS files, completing the broadcast-ancillary
+  decode path across live IP capture (ST2110-40) and file-based capture
+  modes. The companion SCTE-104 plugin registers with Wireshark's new ST
+  2010 payload-type table so messages flow from the native ST 2010 dissector
+  into the more detailed decoder — chained-dissector composition: parse what
+  you own, hand off what the next parser owns. Doctrine lesson: the
+  honest-parser shape applied to dissector integration. [CORROBORATED —
+  developer statement; upgrade pending first-party 4.7.4 release notes]
+
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
