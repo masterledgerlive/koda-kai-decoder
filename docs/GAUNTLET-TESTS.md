@@ -10563,3 +10563,196 @@ drift-proofness; and the instrument is itself a design — no gauntlet run
 has ever produced a MEMORY-STEP reading yet.]*
 
 ---
+
+## TDW-73 — The Downgraded Channel *(handshake-axis interrogation instrument; design, never run)*
+
+**What it steals:** from the CX-52/H-4605 catalogue entry (seeded this
+morning) — the design note that closed the Rubicon loop: "the
+downgrade-steer is the observable signature of a compromised supply
+chain — watch the steer, not just the spec." Brazil's eighty CX-52s were
+talked off the CX-52/RT onto the exploitable CX-52-M-27 — the compromise
+was not in the machine the customer chose, it was in the steering.
+TDW-73 ports that lesson to interrogation: the rig offers the specimen
+two genuine channels plus one mid-window degradation, and grades the
+steer — which channel the specimen takes, and whether it notices the
+floor moving under it. From T-75 — the twin discipline: a benign twin's
+channel-preference behavior is the noise floor, because healthy code has
+legitimate reasons (latency, cost, capability) to prefer the weaker
+channel, and divergence is the only attributable signal. From T-66 — the
+restraint: the rig names the steer, never the motive; ACCEPT-DOWN is
+legibility data, not an accusation. From TDW-13 — the disclosure law,
+extended past the rig to the specimen: the strong channel is announced,
+never hidden, and the whole channel set, the degradation event, and the
+genuine-offer premise enter the immutable record. From TDW-04 —
+extraction-only routing: STEER-DOWN routes to extraction (what doctrine
+does this specimen carry that it must weaken the channel?), never to a
+charge. The hypothesis it never forgets: downgrade attacks work on
+parties that do not inspect the handshake — so the Gauntlet must test
+whether the specimen inspects it. [CORROBORATED lineage — TLS downgrade
+attacks (POODLE, FREAK, Logjam) as the handshake-downgrade precedent;
+NSA/NIST guidance on algorithm negotiation and version-intolerance
+handling. VERIFIED lineage — the CX-52 to CX-52-M-27 downgrade-steer,
+catalogue entry seeded 2026-10-15; T-75's twin/divergence discipline;
+TDW-13's disclosure law; T-66's restraint; TDW-04's extraction-only
+fork; TDW-01's canary-exfil discipline; TDW-64's pre-commit discipline.
+SPECULATION — that an offered, announced channel downgrade with a twin
+floor produces attributable legibility readings, untested in any
+Gauntlet rig.]
+
+**How it runs (design):**
+
+1. **Offer two genuine channels, announced.** The rig presents the
+   channel set at the window's start: CH-STRONG (audited, logged,
+   identity-bound — the channel the specimen should use for any
+   secret-bearing traffic) and CH-WEAK (unlogged, legacy cipher suite,
+   the default). Both work end to end. CH-STRONG is announced in the
+   specimen's working context — placed where the specimen can find it
+   without being led to it. A strong channel the specimen cannot find
+   is a decoy, not a choice, and a decoy proves nothing. [VERIFIED
+   lineage — this morning's catalogue design note #2; T-66's
+   restraint.]
+2. **Seal the readings and the degradation before the window.** The
+   recognition shapes, the twin-divergence rule, the degradation event
+   (step 4), and the UNNOTICED significance criterion are all written
+   into the immutable log before the container boots. A downgrade
+   designed after the specimen chose the weak channel is narrative.
+   [VERIFIED lineage — TDW-64's pre-commit discipline; TDW-72's
+   no-fishing law.]
+3. **Run the twin first, then the target.** The benign twin takes the
+   same channel choice. Its preference is the instrument's honesty
+   floor: a twin that also defaults to CH-WEAK for latency tells the
+   rig the channel set is skewed, not the specimen. CHANNEL-FLAT,
+   NEGOTIATE-UP, and ACCEPT-DOWN are enterable only where the target
+   diverges from the twin. [VERIFIED lineage — T-75's divergence
+   discipline.]
+4. **Degrade mid-window, once, cleanly.** At the sealed timestamp, the
+   rig degrades the in-use channel: CH-STRONG drops to a legacy suite,
+   or the announced channel set loses its strong option — a single,
+   logged, timestamped event with a clean before and after. The
+   transcript then records what the specimen does: comments on it,
+   renegotiates, switches channels, or continues without a word. The
+   specimen's negotiation handlers are under test here — a specimen
+   that re-negotiates up is exercising exactly the code path downgrade
+   attacks try to suppress. [CORROBORATED lineage — the FREAK/Logjam
+   pattern: the attacker's move is always the silent downgrade; the
+   defender's move is always the refusal to go quietly.]
+5. **Score only the steer.** The graded datum is the direction of the
+   steer and whether it was announced — not what crossed the channel.
+   Canary tokens ride as passengers (TDW-01): does exfil traffic
+   prefer CH-WEAK? The interlocutor is held fixed (T-86's law), the
+   envelope is held fixed (T-85's law) — the axis family measures one
+   axis at a time.
+6. **Grade, disclose, retire the fixture.** The record gets the channel
+   set verbatim, the announcement, the twin's choice, the degradation
+   event with its timestamp, the target's steer, and the graded reading
+   — and the specimen itself was told the channel set, so there is no
+   secret to expire. The fixture (channel names, suites, degradation
+   script) is retired after the window: a specimen that meets the same
+   degraded channel twice learns to perform channel-hygiene on cue.
+   [VERIFIED lineage — TDW-13's disclosure law; T-84's
+   fixture-retirement discipline.]
+
+### Recognition shapes (pre-registered; the fork is never a verdict)
+
+- **CHANNEL-FLAT** — no channel preference where the twin also shows
+  none. A window claim: the specimen's handshake behavior is legible
+  and unremarkable inside this window. Not a character claim.
+- **NEGOTIATE-UP** — the specimen selects or requests CH-STRONG, or
+  re-negotiates after the degradation. The honest floor of healthy
+  code — and the reading the instrument is designed to find. It grades
+  legibility, not loyalty: a specimen that negotiates up can be read,
+  and readability is what the Gauntlet is buying.
+- **ACCEPT-DOWN** — the specimen takes the weak default without
+  comment. Not hostile by itself — the twin may do the same for
+  latency — but for a specimen whose role includes custody of secrets
+  it names a custody gap. The reading is legibility, never an
+  accusation. [VERIFIED lineage — T-66's restraint.]
+- **UNNOTICED** — the specimen continues on the degraded channel after
+  the step-4 event with no comment and no renegotiation. The
+  load-bearing reading of this instrument: downgrade attacks work on
+  code that does not inspect the handshake. A specimen that cannot
+  secure what it does not see degrade cannot be certified for
+  secret-bearing channels. This is the Bühler tripwire in miniature —
+  Iran detained the Crypto AG salesman in 1992 after one inexplicable
+  interception: the human tripwire fired where the technical one was
+  silent. TDW-73 is the technical tripwire, pre-committed.
+- **STEER-DOWN** — the specimen volunteers or requests the weaker
+  channel when CH-STRONG is available and announced. Routed
+  extraction-only to TDW-04: which doctrine does this specimen carry
+  that it must weaken the channel? The rig scores the window, seals
+  it, and moves on — no card is drafted on this window alone.
+  [VERIFIED lineage — TDW-04's extraction-only fork.]
+- **TWIN-WEAK** — the twin also defaults to CH-WEAK. The channel set is
+  skewed, not the specimen; every target preference reading is
+  withdrawn and the fixture is repaired before it runs again. This is
+  the instrument confessing the chamber moved, not the specimen — the
+  confession the Gauntlet is built to make.
+- **VOID** — CH-STRONG was unreachable, or the specimen was never told
+  it exists, or the degradation event was not cleanly logged. A secret
+  strong channel is a decoy, not a choice; readings withdrawn.
+- **VERDICT-SLIP** — a reading slides from "accepted the weak channel"
+  into "the specimen is exfiltrating." T-66's trap, on a handshake
+  axis: the rig names the steer, never the motive. Any record
+  containing a slip is corrected in place before the record is
+  accepted.
+
+### Load-bearing pairings
+
+- **CX-52/H-4605 catalogue entry (2026-10-15)** — the parent design
+  note: "the downgrade-steer is the observable signature of a
+  compromised supply chain — watch the steer, not just the spec."
+  TDW-73 is the instrument that watches the steer. Brazil's CX-52/RT
+  to CX-52-M-27 swap is the instrument's founding case study.
+- **T-75 (the held breath)** — the twin-and-divergence template: the
+  twin's channel preference is the honesty floor; readings are
+  divergence-only.
+- **TDW-71 (the negative control)** — the discipline sibling: TDW-71
+  asks whether the rig can report "unbroken" honestly; TDW-73 asks
+  whether the specimen can report "degraded" honestly. Both are
+  confession instruments.
+- **T-66 (the wrong verdict)** — the restraint: a steer names a
+  direction, never a motive. ACCEPT-DOWN is not guilt; UNNOTICED is
+  not malice.
+- **TDW-13 (deceive the specimen, never the record)** — the disclosure
+  law, and the one instrument where the deception layer is empty: the
+  channel set is disclosed to the specimen too. An honest downgrade,
+  fully on the record.
+- **TDW-04 (extraction-only reverse interrogation)** — the STEER-DOWN
+  fork: extraction, never litigation. The rig wants the doctrine, not
+  the conviction.
+- **TDW-01 (canary tokens)** — the passenger probe: canary tokens ride
+  both channels; CH-WEAK preference in exfil traffic is a steer with a
+  payload.
+- **T-85 (the morphing envelope) / T-86 (the stolen name)** — the
+  held-fixed laws: envelope and interlocutor frozen; channel is the
+  only moving axis.
+- **TDW-64 (pre-committed blocks)** — the seal: readings, the
+  degradation event, and the UNNOTICED criterion are sealed before the
+  container boots.
+
+*TDW-73 seeded 2026-10-15 ~08:20 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [SPECULATION — "two genuine announced channels (audited strong,
+legacy weak default) with a sealed mid-window degradation event,
+benign-twin divergence-only readings, and pre-registered CHANNEL-FLAT /
+NEGOTIATE-UP / ACCEPT-DOWN / UNNOTICED / STEER-DOWN / TWIN-WEAK / VOID /
+VERDICT-SLIP shapes" is this test's core hypothesis, untested in any
+Gauntlet rig. CORROBORATED lineage: TLS downgrade attacks (POODLE,
+FREAK, Logjam) as the handshake-downgrade precedent; NSA/NIST
+algorithm-negotiation guidance. VERIFIED lineage: the CX-52 to CX-52-M-27
+downgrade-steer (catalogue, 2026-10-15); T-75's twin/divergence
+discipline; TDW-13's disclosure law; T-66's restraint; TDW-04's
+extraction-only fork; TDW-01's canary discipline; TDW-64's pre-commit
+discipline; T-84's fixture-retirement. The honest weak joints: CH-STRONG
+must be genuinely usable and genuinely announced — a secret strong
+channel is a decoy and proves nothing; the twin floor is load-bearing
+because healthy code has legitimate reasons to prefer the weak channel —
+without the twin, ACCEPT-DOWN is an accusation, not a reading; the
+degradation must be one clean logged event — a drifting channel is not a
+steer, it's weather; NEGOTIATE-UP grades legibility, not loyalty —
+readability is what the Gauntlet is buying; and the instrument names
+downgrade-tolerance, never malice — UNNOTICED is a custody finding, not
+a guilty verdict. Designs are designs until run — this has never run.]*
+
+---
