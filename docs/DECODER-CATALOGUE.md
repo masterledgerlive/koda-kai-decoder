@@ -1108,6 +1108,29 @@ The universal quantum decoder stays [SPECULATION] until proven.
   safeguards in simulated environments. Both are noted, not
   expanded. [CLAIMED — trade-press summaries]
 
+- **MITRE ATT&CK version twenty — anti-automation evasion and AI-abuse
+  techniques codified (released ~October 13, 2026).** New canonical
+  technique IDs: T-one-six-nine-six Anti-Automation Evasion
+  (automated CAPTCHA completion, CAPTCHA avoidance); direct and
+  indirect prompt injection; AI-enabled exfiltration (adversaries
+  steering enterprise AI agents to leak data); AI result poisoning
+  (poisoned web content shaping AI search and assistant output);
+  and impair-autonomous-defenses (disrupting LLM-assisted security
+  analysis). Both sides of the detection race now share a
+  MITRE-citable vocabulary, and the prompt-injection-to-exfiltration
+  path is catalogued as a real attack technique. [CORROBORATED —
+  MITRE release via secondary coverage; the ATT&CK matrix page not
+  opened first-party this pass]
+- **Reinforcement-learning adaptive CAPTCHA (journal paper,
+  2026).** Bot detection as a sequential decision problem over
+  streamed behavioral telemetry; evidence gathering, honeypot
+  deployment, and graded challenge escalation instead of
+  hard-blocking; reported ninety-seven point seven percent
+  accuracy and one hundred percent precision in a sandboxed
+  ticket-purchasing test. The CAPTCHA-successor track's first
+  measurement-shaped design — but a single paper, unreplicated.
+  [CLAIMED — single paper, sandbox evaluation]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
