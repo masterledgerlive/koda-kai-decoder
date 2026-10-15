@@ -595,6 +595,19 @@ formats. [VERIFIED]
   [CORROBORATED — developer's own write-up with merge-record detail;
   pending the 4.8.0 release notes]
 
+- **SharkDroid — Wireshark on Android (stable release, Oct 2026)** —
+  the first mobile port of Wireshark's full capture-and-dissection
+  core: the dumpcap and tshark command-line tools with every upstream
+  dissector, on rooted arm64 Android phones, plus a touch-friendly app
+  (the desktop interface is not ported — dissection results come from
+  the real tshark). The whole protocol-decoding engine now fits in a
+  handset, so field capture and dissection can happen at the deployment
+  site instead of the analyst's desk. Doctrine lesson: crafted capture
+  files that crash dissectors on the desktop are a hostile-input attack
+  surface — and that surface travels with the phone; the field handset
+  is also a parse target. [CORROBORATED — the project's own write-up
+  with release claims; pending an independent build audit]
+
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
