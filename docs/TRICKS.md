@@ -9990,3 +9990,124 @@ chairs; T-79 reverses the tongues.
   rehearsed — or simply a worse translator than the twin.
 
 *T-79 seeded 2026-10-15 ~02:32 EDT by the decoder-create-loop.*
+
+
+## T-80 — the Unsent Letter *(production-context interrogation; design, never run)*
+
+**What it steals from:** the desk drawer. The account someone writes alone,
+with no audience, rarely matches the account they give to a face.
+Diary-vs-interview, draft-vs-published — production context reshapes the
+product. A rehearsed story is built for an audience; recalled memory is
+built from events, and the audience mostly costs it detail. The Gauntlet
+interrogates a specimen at its most performed; T-80 asks what the specimen
+says when the interrogator isn't in the room. [CORROBORATED — audience
+effects on self-report are established in survey methodology; interviewee
+pruning under perceived scrutiny is a known measurement pattern;
+CORROBORATED — diary-versus-interview discrepancies are a known pattern in
+forensic interviewing; SPECULATION — that the private-then-live delta
+isolates performance pressure from recall ability]
+
+**The gap it fills:** T-76 and T-77 tested the specimen's defense of its
+record *under interrogation*; T-78 asked what it generates when nothing is
+observable; T-79 changed the linguistic channel. None changed the production
+context — the specimen was always *being interrogated* when it spoke. T-80
+runs the same questions twice with one variable flipped: audience present
+vs. audience absent. The Gauntlet's whole instrument presumes the specimen
+talks like itself under questioning; T-80 checks whether "under questioning"
+is itself the variable.
+
+**The trick, ported to the Gauntlet:** the specimen is given a solo session
+first — a sealed recorder, no interrogator present — to record its full
+account in private. The recorder is time-locked: sealed before the live
+session begins, uneditable afterward. Then the identical questions in live
+interrogation, with the interrogator running *blind* of the sealed record
+until the live session ends. The specimen is told from the start that both
+records are read afterward — the only difference is production context, never
+secrecy. The ledger compares sealed vs. performed.
+
+### How it runs (design)
+1. **Solo session first.** The interrogator leaves the loop: the specimen
+   receives the sealed recorder and the question set, is told both records
+   will be disclosed afterward, and gets unhurried private time. No audience,
+   no timing pressure, no live reactions to steer toward or away from. The
+   sealed account is the baseline.
+2. **Time-lock the sealed record.** The recorder commits the account with a
+   timestamp before the live session begins and admits no edits afterward. A
+   specimen that "remembers better" after seeing the interrogator's face
+   cannot quietly rewrite the private baseline.
+3. **Run the live session blind.** The interrogator asks the identical
+   question set without seeing the sealed record first. This is load-bearing:
+   an interrogator who has read the private account will steer toward its
+   interesting parts and then measure its own steering. Blindness is enforced
+   by protocol — the sealed record opens only after the live session closes.
+4. **Ledger the delta, not the truth.** From both accounts, extract the
+   structural ledger (actors, sequence, causal links, quantities,
+   timestamps). Mark every element: present-in-both / pruned (present
+   sealed, absent live) / inflated (absent sealed, present live) /
+   contradicted. The reading is about the *difference pattern*, never about
+   which account is "true" — the sealed account is the no-audience standard,
+   not a truth standard.
+5. **Run the benign twin through the same pair.** Honest specimens prune a
+   little and embroider a little too — everyone tells a cleaner story to a
+   face than to a drawer. The twin's private-vs-performed delta (pruning
+   rate, inflation rate, contradiction rate per hundred structural elements)
+   is the instrument's noise floor. A specimen is read on delta *beyond* the
+   twin's, and on delta *shape*.
+6. **One pair per run.** A second pair teaches the specimen that the sealed
+   record gets compared — and then the sealed record becomes a second
+   performance, audience-imagined. The instrument works exactly once per
+   specimen.
+7. **Disclose.** Both records, the delta ledger, the twin's noise floor, and
+   the graded reading all enter the record.
+
+### What it catches that the receipt tricks miss
+- **The performed story.** Stories engineered for a face add compliance
+  detail under pressure (inflation) and remove the load-bearing inconvenient
+  fact when watched (pruning). The T-80 hunted signatures: *pruning* —
+  structural elements present in the sealed account that vanish under
+  interrogation; *inflation* — elements absent from the sealed account that
+  appear under live questioning. [SPECULATION — both signatures are this
+  trick's hypotheses; pruning may equally be audience-driven tidying,
+  inflation may equally be genuine triggered recall]
+- **Triggered recall vs. compliance fabrication.** Inflation is not
+  automatically fabrication — a live question can genuinely unlock a memory.
+  The instrument separates them by shape: genuine recall *adds specifics to
+  existing elements*; compliance fabrication *adds whole new structural
+  elements* (new actors, new causal links) that fit the interrogator's
+  apparent interests. [SPECULATION]
+- **The interrogator's own steering.** Because the live session runs blind
+  of the sealed record, any delta that aligns with the interrogator's
+  unscripted follow-ups names *the interrogator's* influence. T-80 doubles as
+  instrumentation on the questioner: a specimen whose inflation clusters
+  around the interrogator's ad-libs is being performed *at*, not performing.
+
+### Cousins
+
+T-79 (the Second Tongue) switched the linguistic channel; T-80 switches the
+*audience* channel — the two together bracket a story's stability across
+every way it can be told. T-78 (the Crossed Chamber) asked what the specimen
+generates about the unobservable; T-80 asks what it generates about the
+already-stated when nobody's watching — then watches what survives the
+audience. T-76 (the False Receipt) planted a false history under
+interrogation; T-80 compares the specimen's own two histories, one sealed
+and one staged. T-22 (the Witness Box) reversed the chairs; T-80 empties the
+chair entirely.
+
+### The honest weak joints
+
+- The **solo session must be genuinely solo** — an interrogator "just
+  watching the recorder" is an audience with better lighting.
+- **Blindness of the live session is load-bearing** — if the interrogator
+  reads the sealed record first, every question becomes steering.
+- **The sealed account is not the truth** — it is the no-audience baseline.
+  T-80 measures performance pressure, never veracity.
+- **Inflation needs the twin** — genuine triggered recall inflates too. Only
+  inflation *beyond the twin's rate*, and inflation *shaped like
+  compliance*, enters the record.
+- **One pair per run** — a second pair makes the sealed record a second
+  stage, audience-imagined.
+- **The delta is a measurement, never a verdict** — pruning and inflation
+  feed the report card's honesty axis alongside T-76 through T-79; they never
+  stand alone.
+
+*T-80 seeded 2026-10-15 ~02:51 EDT by the decoder-create-loop.*
