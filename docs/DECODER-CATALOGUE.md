@@ -490,6 +490,17 @@ formats. [VERIFIED]
   benchmarks partly built from similar pipelines. Methodological lesson:
   grade multilingual evaluation claims against their data provenance before
   grading the model. [CORROBORATED — measurement-based composition check]
+- **Unified end-to-end visual-language translation (research, October 2026)**:
+  a peer-reviewed result showing one neural network reading a photograph and
+  translating its description into five languages — Chinese, French, Arabic,
+  Spanish, Hindi — in a single pass. The two-step relay (caption in English,
+  then translate) used to drop details like count and gender; keeping the
+  image visible through the translation pass cut errors roughly in half, with
+  the biggest gains in morphologically rich Arabic and Hindi — and at forty
+  percent fewer parameters than separate decoders. The honest limit: in
+  low-resource languages the model can still hallucinate attributes (a wrong
+  count in Hindi, a wrong gender in Arabic in the authors' own examples).
+  [CORROBORATED — peer-reviewed paper; read via secondary reporting]
 - **Binary decoders — decompilers & disassemblers**: the tools that decode foreign code itself, machine language back into readable form. Disassemblers (bytes → assembly): IDA Pro (the commercial standard since the 1990s), Ghidra (open-sourced by the NSA at RSA 2019), Binary Ninja, radare2. Decompilers (assembly → C-like pseudocode): Ghidra's built-in decompiler, Hex-Rays, Binary Ninja's IL layers. Before a specimen is ever run or behavior-probed, its binary is *read* — structure recovered without executing a single instruction. [VERIFIED]
 - **The hostile-parser rule applies to our own tools**: malware fights back at the decoder layer — anti-disassembly tricks (junk instructions that desynchronize disassembly, opaque predicates, control-flow flattening) exist to break the analyst's instrument. So the disassembler itself is a hostile-input parser: it runs inside the container, never on the analyst's host, and its output is graded, not trusted. A specimen that crashes or misleads the decompiler has revealed its first behavior — it knows it's being read. [CORROBORATED]
 - **Google DeepMind SL2T (Aug 2026) — sign-language-to-text ships in a consumer
