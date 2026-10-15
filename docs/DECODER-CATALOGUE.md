@@ -1818,6 +1818,44 @@ The universal quantum decoder stays [SPECULATION] until proven.
   wrong layer for an encrypted channel; the defense must be data/instruction
   separation so untrusted content is never decrypted into the instruction
   channel. [CLAIMED — trade-press summaries]
+- **Threat-intel record TL-2026-3218: Barracuda email-injection campaign
+  formalized (October 2026; companion to the dual-target phishing entry).**
+  Maps the campaign to formal techniques (AML.T0051 indirect prompt
+  injection, T1204) — the vector now carries technique IDs from two
+  taxonomies. States explicitly that no CVE, score, network indicator, or
+  named actor is claimed — severity is analyst-assigned. Recommended
+  defenses: strip hidden elements and invisible characters before AI
+  processing, detect instruction-override language, sandbox AI tools,
+  validate outputs, require human approval for payments and vendor changes,
+  treat external content as data. Decoder lesson: a campaign that fires
+  against the AI assistant rather than the human reader, graded by a record
+  that refuses to invent identifiers.
+  [CORROBORATED — threat-intel platform record citing the vendor]
+- **The defense research verdict (August 2026; new to record).** A field
+  scorecard: a study by researchers from three major AI labs tested twelve
+  published injection defenses under adaptive attack and bypassed most above
+  ninety percent success; another study bypassed all eight
+  indirect-injection defenses evaluated. Fine-tuning defenses hold only on
+  static benchmarks. The field's converged answer is out-of-band
+  enforcement — a separate privileged planner with a quarantined reader and
+  capability policies checked before every tool call — holding about four
+  percent attack success under adaptation while text detectors fail above
+  ninety. Five Eyes joint guidance (May 2026): no single safeguard
+  suffices, and human oversight at consequential decisions is required.
+  Decoder lesson: the empirical confirmation of the data-flow doctrine —
+  the gate that stops a specimen is the capability policy, never the
+  classifier. [CLAIMED — secondary summary of the cited papers]
+- **OWASP Top 10 for Agentic Applications (2026 edition; new to record).**
+  Published with over one hundred practitioners: goal hijack (indirect
+  injection grown up — the payload lives in webpages, email, documents,
+  tool output, or dataset configs), tool misuse (abusing a tool the agent
+  is allowed to use), identity and privilege abuse, and memory poisoning.
+  Companion datum: excessive agency climbed to number three in the 2026
+  LLM Top 10. Decoder lesson: both sides of the injection race now have a
+  citable vocabulary, and the excessive-agency ranking independently
+  confirms the doctrine that permissions are enforced where the model
+  cannot talk its way past.
+  [CORROBORATED — community writeup of the public release]
 - **Five-vector CSS cloaking taxonomy + render-tree defense (open-source
   security advisory, ~October 7).** Hidden web-content instructions
   formalized: off-screen positioning, transparency, sub-pixel fonts,
