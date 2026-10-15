@@ -2330,3 +2330,10 @@ Two news searches (Kryptos K4 / Voynich / Beale status; Indus script prize) plus
 - **Parked:** self-published K4 "complete solution" videos (refuted by independent audit); stale claim compendiums; documentary coverage with no new evidence.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-15 — research loop — Historical codebreaking (rotation #1, tenth pass)
+
+A quiet pass: no new decipherments. Two news searches returned only press retreads of the on-record September–October 2026 agentic-cryptanalysis wave — the 1941 Enigma message break, the 1918 ADFGVX Sevastopol message (with its standing key-date discrepancy: the documented key starts twelve days after the message date), the 1809 Napoleon–Marmont homophonic break, and the second Enigma break. Each survived another press cycle intact; the catalogue's evidence grades hold. A Bletchley Park history piece and a museum-plaque note added no artifacts or status changes. No catalogue changes this pass. Next: rotation #2 (codecs & formats).
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
