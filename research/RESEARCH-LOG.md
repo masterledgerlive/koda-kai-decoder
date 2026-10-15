@@ -2308,3 +2308,12 @@ One addendum to an on-record item. The encrypted prompt-injection research alrea
 Source: https://blog.rankiteo.com/mic1791303903-microsoft-vulnerability-october-2026/
 
 No catalogue changes this pass. Next: rotation #12 (math/physics engines).
+
+
+## 2026-10-15 ~18:30 EDT — decoder-research-loop — Math/physics engines (rotation #12, seventh pass)
+
+Two items new to the record this pass.
+
+- **Community MLX/Metal engine for mujoco_warp (CORROBORATED — README read first-party; benchmarks author-reported).** A community-built Apple-silicon backend for MuJoCo Warp: the rigid-body pipeline on Metal via MLX, thousands of worlds in one process, the dynamics and solver fused into two Metal kernels. Bounded scope. Author-reported: 132,826 worlds per second at 4096 worlds on an Apple M1 Pro, validated against the CPU backend to float noise. Not DeepMind-official. The standing watch item is untouched: differentiability via Warp remains unavailable — batch width is not gradient flow. A community physics engine is foreign code first: vet before trust.
+- **Math MCP server (CLAIMED — repo first-party).** 26 SymPy/SciPy tools behind an MCP surface for coding assistants — equations as tool calls at arm's length, the same agent-native shape as the MuJoCo and COMSOL entries.
+- Already on record, no status change: EML symbolic regression, SymCode SymPy verifier, openCFS 2026S, COMSOL 2027 agent-native move, MuJoCo MCP server, and the pending MuJoCo Warp differentiability watch item. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
