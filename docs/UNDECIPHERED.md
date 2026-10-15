@@ -88,6 +88,29 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   leak nothing. Solved pages were broken by usage flaws (thematic keys);
   unsolved pages behave as a pad. No key, no break. [DOCTRINE — Shannon 1949,
   information-theoretic]
+- **Rohonc Codex** (Hungary/Transylvania, ~16th century) — 448-page illustrated
+  manuscript written in an unknown script (~792 distinct symbols recorded,
+  right-to-left layout, 80+ illustrations), from the Batthyány family library
+  at Rohonc (now Rechnitz, Austria), donated to the Hungarian Academy of
+  Sciences in 1838. No accepted full reading. [VERIFIED manuscript facts]
+- 2018: Levente Király and Gábor Tokai proposed a partial decipherment via an
+  Old-Hungarian-script variant, early Hungarian dialect. [CLAIMED — no
+  accepted reading]
+- **2026 breakthrough (peer-reviewed):** Bobory, Láng, Király & Tokai, "New
+  evidence on the Rohonc Codex: authorship, provenance, and script continuity"
+  (*Cryptologia*, 2026) — a recently discovered contemporary letter with four
+  previously unknown pages written in the Rohonc script. Key claims: the codex
+  entered the Batthyány library around 1571; produced in Hungary or Central
+  Europe; the author was an erudite scribe (deák); the 19th-century
+  forgery/hoax hypothesis is definitively ruled out — the script survived in
+  at least two independent contexts, one a dated 16th-century source; and the
+  four new pages read coherently under the same decryption method previously
+  applied to the codex — the first independent replication of the 2018
+  decipherment. Open questions remain. [CORROBORATED — peer-reviewed paper]
+- A 2025–26 self-published GitHub project claims a "complete" decipherment at
+  "99.2% confidence" (self-graded, no peer review). [SPECULATION — judge a
+  claim by who else verified it, never by who wrote the confidence table]
+*Updated 2026-10-15.*
 
 ## 2. Prize-money challenges — verified bounties only
 
@@ -381,6 +404,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved; Oct 2026 CLAIMED: self-published "DECODED" GitHub claim (unverified, no peer review); indep. analysis rules out rotating key + plain substitution, note still unread | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
+| Rohonc Codex | ~1571/1838 | Forgery ruled out 2026 (peer-reviewed); partial 2018 decipherment replicated on 4 newly found pages; full reading not accepted | — |
 | Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED); Oct 15, 2026: Zuger and Zuger Croatian Glagolitic-pharmacy claim (CLAIMED) + Hoeben geometric-structural preprint, explicitly non-decipherment (CLAIMED) + Davis ultraviolet find: Marci's seventeenth-century key attempt on the first page, a documented failure (CORROBORATED) + a self-published Latin claim graded by its own table (SPECULATION, rejected on intake) | — |
 | Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); Oct 15, 2026: formal negative results recorded — attack session eliminated composite cipher families over sixty million positive-controlled configurations, back-build falsified the card-plus-gate mechanism, and the researcher publicly withdrew its own unsupported claims (CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
