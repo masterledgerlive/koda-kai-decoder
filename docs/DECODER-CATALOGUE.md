@@ -1200,6 +1200,21 @@ The universal quantum decoder stays [SPECULATION] until proven.
   ticket-purchasing test. The CAPTCHA-successor track's first
   measurement-shaped design — but a single paper, unreplicated.
   [CLAIMED — single paper, sandbox evaluation]
+- **Four out of five financial firms report spoofed AI traffic
+  slipping past defenses (industry survey, October 2026).** A
+  device-intelligence vendor polled three hundred US financial
+  services leaders: ninety-five percent say they are confident
+  they can tell real AI assistants from spoofed traffic, yet
+  seventy-nine percent have caught a malicious bot or scraper
+  bypassing their defenses by impersonating a legitimate AI
+  assistant or search crawler. Only forty-five percent detect
+  spoofed AI traffic and stop it in real time; barely a quarter
+  have full visibility into automated traffic that skips
+  client-side detection entirely. Doctrine lesson: the
+  confidence-versus-reality gap is now measured — and the blind
+  spot is named: client-side detection cannot see browserless
+  agent traffic. Verify at the HTTP level. [CLAIMED — the
+  vendor's own survey]
 
 ## Sandbox & container tech
 
