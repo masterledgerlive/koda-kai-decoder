@@ -254,6 +254,22 @@ CLAIMED / SPECULATION.*
   Anthropic first-party research post read first-party; S-box mechanism
   detail and 2013-plateau reading CLAIMED via secondary; 2026-10-14]
 
+- **Dual_EC_DRBG — the standardized backdoor (2006–2015).** NIST's Dual
+  Elliptic Curve PRNG carried a trapdoor in its fixed P/Q constants: Dan
+  Shumow and Niels Ferguson (Microsoft, CRYPTO 2007) showed that knowing
+  the hidden Q↔P relationship recovers the generator state from ~32 bytes
+  of output. Snowden documents named NSA's Bullrun standards sabotage;
+  Reuters reported a $10M NSA deal making Dual_EC the default in RSA's
+  BSAFE; in Dec 2015 Juniper disclosed unauthorized ScreenOS code that
+  swapped Q for an attacker's — a backdoor with a sublet, enabling passive
+  VPN decryption. NIST withdrew it in SP 800-90A Rev 1 (2015). Decoder
+  lesson: audit the constants, not just the code — parameter provenance
+  gets the same custody ladder as the binary, and a vendor steering the
+  customer toward the weaker option is the observable signature of a
+  compromised supply chain. [VERIFIED — Shumow-Ferguson result, NIST
+  withdrawal, Juniper advisory; CORROBORATED — Reuters $10M reporting;
+  2026-10-15]
+
 ## Media decoders — the VLC model
 VLC/ffmpeg decode nearly every codec on earth: H.264, H.265/HEVC, AV1, VP9,
 AAC, Opus, FLAC, MP4/MKV containers, subtitle formats. "Decode everything" is a
