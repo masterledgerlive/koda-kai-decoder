@@ -178,6 +178,38 @@ CLAIMED / SPECULATION.*
   class; never assume the specimen's "language" — test the assumption; and a
   break can reclassify the specimen itself.
 
+- **Kryptos (1990– ) — the artist's cipher in the CIA courtyard.** An
+  S-shaped copper-screen sculpture by Jim Sanborn, built with Ed Scheidt,
+  the retiring chairman of the CIA's Cryptographic Center, dedicated in
+  November 1990 at CIA headquarters in Langley, Virginia: four encrypted
+  passages (K1–K4), designed to be attacked. K1 and K2 are Vigenère ciphers
+  on a KRYPTOS-scrambled alphabet, keyed PALIMPSEST and ABSCISSA — with
+  the Vigenère tableau carved into the sculpture itself, the decode tool
+  sitting beside the lock. K3 is a transposition that, unshuffled,
+  paraphrases Howard Carter's 1922 account of entering Tutankhamun's tomb.
+  All three fell in the 1990s: CIA analyst David Stein by pencil and paper
+  (1998), Jim Gillogly's first public solutions (1999), and an NSA team
+  that had quietly solved them by 1993 without telling anyone for twenty
+  years. [VERIFIED] K4 — 97 characters — never yielded to cryptanalysis;
+  Sanborn's released cribs (BERLIN, CLOCK, EAST, NORTHEAST,
+  position-anchored) covered about a quarter of the plaintext and still did
+  not crack it, because nobody has identified the system itself. [VERIFIED]
+  In September 2025 journalists found the K4 plaintext among Sanborn's
+  papers at the Smithsonian's Archives of American Art — discovered, not
+  deciphered; Sanborn confirmed it genuine and the files were sealed for 50
+  years. [CORROBORATED] Sanborn's full archive, including the K4 solution,
+  sold at RR Auction on November 20, 2025 for $962,500; in June 2026 the
+  buyer was disclosed as the venture firm Paradigm, which launched a public
+  Kryptos site and a ten-puzzle challenge paying $1,000 per solved puzzle.
+  [CORROBORATED] Decoder lesson: designed puzzles are a different species
+  from deployed ciphers — a 35-year hold against professionals proves nothing
+  about any fielded system's strength, so treat the clever adversary as the
+  floor; sweep the specimen's adjacent surface (metadata, strings, error
+  text) for an embedded decode aid before attacking the encoding; grade
+  evidence, not elegance — K4 was found, not cracked, and that counts the
+  same; and known-but-withheld knowledge goes on the record honestly, never
+  pretended unknown.
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
