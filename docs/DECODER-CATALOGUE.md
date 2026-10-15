@@ -270,6 +270,22 @@ CLAIMED / SPECULATION.*
   withdrawal, Juniper advisory; CORROBORATED — Reuters $10M reporting;
   2026-10-15]
 
+- **SHAttered — the first practical SHA-1 collision (Feb 23, 2017).** Marc
+  Stevens (CWI Amsterdam), Elie Bursztein, Pierre Karpman, Ange Albertini,
+  Yarik Markov (Google): two PDFs, one SHA-1 digest — an identical-prefix
+  collision on a full 160-bit hash, costing 9.2×10^18 SHA-1 computations
+  (2^63.1): ~6,500 CPU-years plus ~110 GPU-years, ~$110,000 at cloud prices,
+  ~100,000× faster than brute force. Chrome 56 and the CA/Browser Forum had
+  already started retiring SHA-1 certificates; the collision forced the
+  stragglers — Git, the world's largest SHA-1 user, began its SHA-256
+  migration. Decoder lesson: a hash check is an authenticity decode, and the
+  digest is the weakest link — the same fingerprint now vouches for two
+  documents. Grade every authenticity claim against the adversary's collision
+  budget at today's rental cost, not the algorithm's name: 2005 theory (2^69)
+  → 2017 forgery ($110k), the same economics as EFF's Deep Crack on DES
+  (1998, ~$250k, 56 hours). [VERIFIED — shattered.io, Google security blog,
+  EFF public record; 2026-10-15]
+
 ## Media decoders — the VLC model
 VLC/ffmpeg decode nearly every codec on earth: H.264, H.265/HEVC, AV1, VP9,
 AAC, Opus, FLAC, MP4/MKV containers, subtitle formats. "Decode everything" is a
