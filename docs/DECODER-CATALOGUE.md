@@ -734,6 +734,24 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   efficiency with the qubit count held fixed. New code geometry for the new
   classical decoders to chew on. [CLAIMED — preprint, simulation only; not
   peer-reviewed]
+- **D-Wave dual-rail erasure-qubit gate (Nature, August 2026).** D-Wave
+  published a fast, high-fidelity two-qubit entangling gate on its dual-rail
+  superconducting architecture — about 99.9 percent fidelity at roughly five
+  hundred nanoseconds — with error detection built into the hardware.
+  Company simulations show the logical error rate falling roughly ten times
+  with each error-correction increment. The key idea: the architecture turns
+  errors into flagged, located failures ("erasures"), which classical
+  decoding software fixes far more cheaply than hidden errors — the qubit
+  hardware attacking the decoding bottleneck from the other side.
+  [CORROBORATED — peer-reviewed Nature paper; read via secondary reporting
+  this pass; figures company-sourced]
+- **IQM barbell codes (June 2026).** IQM announced a new quantum
+  error-correction code family designed around its Constellation chip layout,
+  where each qubit connects directly to twelve neighbors rather than four.
+  The company claims up to a thousand times lower logical error rates than
+  the standard surface code with up to eight times fewer physical qubits,
+  at lower hardware complexity. [CLAIMED — company announcement; no
+  peer-reviewed publication on record this pass]
 - **Migration deadlines tighten (Sep 2026).** Malaysia's National Security
   Council: the only ASEAN Tier 1 PQC-ready state. EU: NIS Cooperation Group
   recommends member-state PQC migration strategies by end of 2026; DORA
