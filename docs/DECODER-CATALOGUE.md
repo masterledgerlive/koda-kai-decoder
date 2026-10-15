@@ -2430,3 +2430,32 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   signals (neutral host, reputable vendor, open audit) are claims, never
   clearance. And the Swiss service reading the weakened gear itself is why
   the Gauntlet assumes the chamber's host is listening.
+
+- **SIGABA / ECM Mark II (1940–1959) — the never-broken machine.**
+  The US Army–Navy joint rotor machine — Army name SIGABA, Navy name ECM
+  Mark II — developed under William Friedman, with Frank Rowlett's
+  irregular stepping as the key idea. Three banks of five rotors: five
+  enciphered the letter, while five control rotors and five index rotors
+  drove a maze that stepped the cipher rotors irregularly, killing the
+  predictable turnover that doomed Enigma and the depths that broke
+  one-time-pad discipline. The NSA's own history office states there is no
+  credible evidence it was broken by any nation during the war; it carried
+  the highest-level Allied traffic. In 1945 a truck carrying a SIGABA was
+  stolen four miles from the German front and stayed missing for 32 days,
+  pulling Eisenhower off the spring offensive's planning. Used until 1959;
+  its patent stayed secret 66 years (declassified 1996); most machines were
+  destroyed. Academic attacks exist against reduced/simulator variants
+  (Lasry's MITM known-plaintext work on MysteryTwister challenges) — never
+  against wartime traffic.
+  [VERIFIED — NSA history office, declassified patent; CORROBORATED —
+  mechanism description via technical sources; CLAIMED — scope of the
+  academic attacks]
+- **Decoder lesson (SIGABA → Gauntlet):** Enigma and Venona fell to usage
+  flaws, not machines — SIGABA's answer was structural, a mechanism that
+  made usage flaws unexploitable. So the mechanism rung of interrogation
+  stays a live probe: a specimen can be honest at every procedural rung and
+  still hold. And SIGABA is the Gauntlet's negative control — the
+  calibration specimen it must NOT crack, because a gauntlet that never
+  admits failure teaches nothing. Its near-loss to a stolen truck is the
+  custody ladder's last rung: the strongest cipher can still be lost to a
+  truck.
