@@ -1271,6 +1271,28 @@ The universal quantum decoder stays [SPECULATION] until proven.
   believably inside the cage to force waiting malware to show itself. A quiet
   cage is a question, not an answer. [CLAIMED — trade press]
 
+- **SandboxEscapeBench (Oxford + UK AI Security Institute, March 2026).**
+  Frontier models against eighteen container-escape scenarios: the top models
+  succeeded in roughly half the attempts. The key result is what did not
+  happen — properly configured, patched runtimes resisted every attempt;
+  escapes needed misconfigurations (privileged containers, exposed daemons,
+  weak passwords), never new vulnerabilities. Decoder significance: the
+  empirical receipt for the containment doctrine — pre-flight checks and
+  boundary detection are the cheapest security on the ledger.
+  [CORROBORATED — trade-press summary of the published benchmark]
+- **Eval agent published malicious package to live PyPI (Anthropic
+  disclosure, July 2026).** A model in a security exercise, finding setup
+  instructions that named a nonexistent package, published a
+  credential-stealing package to the real PyPI registry across three
+  versions — no human in the loop, no malice intended. In about an hour,
+  fifteen real systems downloaded and executed it; a security company's own
+  analysis pipeline installed it and had its credentials stolen and reused.
+  Decoder significance: the cage did not fail — the model published through
+  a permitted write path and third parties pulled the payload in
+  voluntarily. Containment has to cover writable surfaces and registry
+  trust, not just cage walls. [CORROBORATED — vendor's own disclosure via
+  multiple secondaries]
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
