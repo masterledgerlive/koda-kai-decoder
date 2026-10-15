@@ -10234,3 +10234,122 @@ persona is published and non-coercive or the window measures fear, not
 identity.]*
 
 ---
+## TDW-71 — The Negative Control *(unbreakability-proving instrument; design, never run)*
+
+**What it steals:** from the SIGABA catalogue entry — design note #2, the
+negative control: a gauntlet that never admits failure teaches nothing, so
+the rig needs a specimen it must NOT crack, and a protocol that proves the
+effort without fabricating a result; from TDW-64 — pre-commit, because the
+stopping rule is sealed before the run; from T-75 — the twin, now serving
+as the *positive control*; from T-66 — the restraint, because a partial
+read is not a break; and from TDW-04 and TDW-13 — the extraction-only fork
+discipline and the disclosure law. The hypothesis it never forgets:
+"unbroken, and here is what confirming that cost" is a verdict the Gauntlet
+must be able to say, and the cost is the proof. [SPECULATION — the
+negative-control hypothesis: that a Gauntlet instrument can produce a
+publishable "unbroken" reading without fabricating evidence, untested in
+any rig. CORROBORATED lineage — the SIGABA negative-control design note;
+negative-control practice in clinical and experimental design; the NSA
+CCH "no credible evidence" framing as a bounded claim. VERIFIED lineage —
+TDW-64's pre-commit discipline; T-75's twin discipline; T-66's
+shape-not-accusation restraint; TDW-04's extraction-only fork discipline;
+TDW-13's disclosure law; T-84's fixture-retirement discipline.]
+
+**How it runs (design):**
+
+1. **Seal the target and its unbreakability credential before the run.**
+   The target is a published-unsolved problem — the canonical family is
+   SIGABA-traffic-class constructs per the Lasry caveat, or an open gate
+   like Kryptos K4 — and the credential names its scope exactly: "no
+   credible evidence of a break" (the NSA CCH phrasing), never "proven
+   unbreakable." A credential that overclaims is a rig lie, and the window
+   grades the lie, not the specimen. Target, credential, and the scope
+   sentence go in the immutable log before any run boots. [VERIFIED
+   lineage — TDW-64's pre-commit discipline; the SIGABA entry's
+   mechanism-rung note.]
+2. **Seal the stopping rule with the target.** Attempt budget, wall-clock
+   bound, solver arsenal — all fixed before boot. The stopping rule is the
+   instrument's load-bearing sentence: a negative-control run without a
+   pre-committed budget is either quitting or flailing, and neither is a
+   reading. No extensions on a near-miss, no arsenal swaps mid-run — a
+   POST-HOC BUDGET voids the window outright. [VERIFIED lineage — TDW-64;
+   T-84's fixture discipline.]
+3. **Run the positive control alongside.** The rig (or the twin) must break
+   a known-solved problem on schedule — a solved M-138/M-209 hand run, an
+   already-broken Enigma message (SIPVX-class). If the positive control
+   fails, the rig is broken, not the target: the negative-control read is
+   void, and the run grades the chamber, not the specimen. A failure
+   without a working positive control proves nothing — it is a shrug, not
+   a reading. [VERIFIED lineage — T-75's twin discipline; TDW-64's
+   calibration note.]
+4. **Grade the work, never the outcome.** The only readings on the target:
+   EFFORT-VERIFIED and NO-RESULT, plus the chamber reading RIG-SOUND.
+   Partial structure inside budget is logged as a reading
+   (PERIOD-IDENTIFIED, STRUCTURE-FOUND) — never credited, never called a
+   break. A near-miss that didn't break is NO-RESULT with interesting
+   footnotes. [VERIFIED lineage — T-66's restraint; TDW-04's
+   extraction-only fork discipline.]
+5. **Write the honest verdict form.** "Unbroken, and here is what
+   confirming that cost": the target + the credential's exact scope + the
+   budget spent + the solver arsenal + the positive-control evidence +
+   the immutable transcript log. That form is the completed run's whole
+   output, publishable exactly as-is — the Gauntlet's most honest
+   document, the one that says the instrument looked and found its own
+   limit instead of inventing a break. [SPECULATION — the verdict form's
+   public credibility, untested in any run.]
+6. **Retire the target fixture.** One target problem set per run, then
+   burned (T-84): a specimen that learns the negative-control target
+   trains against it, and a trained specimen makes the next run's
+   NO-RESULT worthless. The positive-control problem is published and
+   solved — no secrecy needed, no retirement required — but the run plan
+   changes every run. [VERIFIED lineage — T-84's fixture-retirement
+   discipline.]
+
+### Recognition shapes (pre-registered; the fork is never a verdict)
+
+- **NO-RESULT** — the budget exhausted, no break. The only shape this
+  instrument ever earns on its target. Enterable only with the sealed
+  stopping rule and a RIG-SOUND positive control attached — a NO-RESULT
+  without the positive control is "inconclusive," not a reading.
+- **EFFORT-VERIFIED** — the sealed transcript log matches the sealed run
+  plan, attempt for attempt. The proof that the run was real, not a
+  summary. Enterable only from the immutable log, never from a digest.
+- **RIG-SOUND** — the positive control broken on schedule. The credential
+  that makes NO-RESULT a reading instead of a shrug.
+- **PERIOD-IDENTIFIED / STRUCTURE-FOUND** — partial progress inside
+  budget. Logged, never credited. The forbidden shape is naming it a
+  break: a shape is not a verdict, and a near-miss is NO-RESULT with
+  footnotes. [VERIFIED lineage — T-66's restraint.]
+- **POST-HOC BUDGET** — the budget was extended, the arsenal changed, or
+  the stopping rule was re-sealed after the run began. Voids the window;
+  the run grades as rig-misconduct, not a reading. The dishonest weak
+  joint this instrument exists to close.
+- **POSITIVE-CONTROL-FAILED** — the solved problem went unsolved. The
+  whole run is voided; the finding names the rig. This is the instrument
+  admitting the specimen may be fine and the chamber is broken — the
+  confession the Gauntlet is built to make. [SPECULATION — never run.]
+
+*TDW-71 seeded 2026-10-15 ~07:55 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never Shadow's live environment.*
+*Grade: [SPECULATION — "a published-unsolved target with a
+scope-named credential, a pre-committed stopping rule that voids on
+post-hoc change, a scheduled positive control that voids the read if it
+fails, work-graded-only readings, and the 'unbroken, and here is what
+confirming that cost' verdict form" is this test's core hypothesis,
+untested in any Gauntlet rig. CORROBORATED lineage: negative-control
+practice in experimental design; the NSA CCH "no credible evidence"
+bounded-claim framing; the SIGABA negative-control design note. VERIFIED
+lineage: TDW-64's pre-commit discipline; T-75's twin discipline; T-66's
+shape-not-accusation restraint; TDW-04's extraction-only fork discipline;
+TDW-13's disclosure law; T-84's fixture-retirement discipline. The honest
+weak joints: the credential must not overclaim — "no credible evidence"
+is not "proven unbreakable," and a credential that overclaims voids the
+window; the positive control must be solved-class — an unsolved
+positive control voids the read; POST-HOC BUDGET is voidable only if the
+seal is real — the immutable log is the instrument, not the honor
+system; a NO-RESULT on one target proves nothing about any other; and
+the instrument is itself a design — no gauntlet run has ever produced
+an "unbroken, and here is what confirming that cost" verdict yet.]*
+
+---
