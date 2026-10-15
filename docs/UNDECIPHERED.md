@@ -137,6 +137,20 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   grid-turn pre-registered Oct 4, 2026 and closed negative. Sanborn's public
   "two systems" remark is carried as hearsay-grade under a pseudo-clue-pack
   admission standard. [CORROBORATED — public repo]
+- **Formal negative results (Oct 5, 2026; recorded Oct 15).** An independent
+  open researcher ran the first formal attack session against K4: crib-constrained
+  search over transposition combined with periodic polyalphabetic substitution,
+  both composition orders — eliminating the composite families across more than
+  sixty million configurations, with every elimination first validated against
+  planted ciphers the researcher created. A separate back-build falsification
+  showed the researcher's own proposed card-plus-gate mechanism fails on
+  fifteen plaintext-independent constraint pairs — random strings satisfy them
+  better than the candidate plaintext does — and that a per-position keystream
+  fits any ninety-seven-letter string, including an absurd control. The same
+  researcher publicly withdrew its own earlier unsupported solve claims, including
+  a challenge-portal match that was never submitted. The catalogue's lesson:
+  elimination with positive controls is becoming the standard of care, and a
+  mechanism that can fit anything explains nothing.
 - **New to the roster (logged Oct 14, 2026).** (a) mattklepp/k4 — a
   self-published GitHub "COMPLETE K4 SOLUTION" (documents/SOLUTION.md, ~Jun
   2026): a DES-inspired hash engine with "position-specific tuning" that
@@ -239,7 +253,26 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   discovery facts CORROBORATED — standard epigraphic literature; Dunand's own
   count was 114]
 - **Voynich manuscript** (Beinecke MS 408, parchment 1404–1438) — two new items,
-  logged Oct 14, 2026. (a) Michael Hafner, "Section A of the Voynich Manuscript
+  logged Oct 15, 2026. (a) Two researchers in Ottawa (February 2026) read the
+  script as angular Glagolitic cursive — a medieval Croatian script tradition
+  never previously considered by Voynich researchers — working from scribe
+  handwriting habits rather than letter shapes; the gallows characters become
+  standard medieval abbreviation marks for consonant clusters. The resulting key
+  produces Croatian text at about ninety-five percent morphological coverage
+  across nearly thirty-eight thousand tokens, with native-speaker validation,
+  and the contents resolve to pharmacy recipes consistent with medieval
+  Dubrovnik apothecaries. All data, code, and methods are published for
+  reproduction. The second herbal-pharmacy reading to enter the catalogue this
+  cycle. One claimant team, no peer review, no independent replication yet —
+  claimed until a second lab reproduces the key on held-out folios. (b) A
+  researcher published an exhaustive geometric and compositional structural
+  analysis (September 2026, open preprints) — over eighty-three thousand
+  register configurations and half a million pair-order tests — with a full
+  reproducibility package, while explicitly claiming no decipherment and
+  carefully separating observed findings from speculative ones. The honest
+  structuralist lane: a falsifiable hypothesis with published nulls.
+- **Prior Voynich roster (Oct 14, 2026).** (a) Michael Hafner, "Section A of
+  the Voynich Manuscript
   as Archaic Middle Welsh" (Zenodo, Apr 2026, independent researcher) — the
   herbal section read as Meddygon Myddfai-tradition herbal recipes, with four
   evidence lines: IC 0.0795 and Zipf slope 0.775 consistent with medieval Welsh,
@@ -318,11 +351,11 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved; Oct 2026 CLAIMED: self-published "DECODED" GitHub claim (unverified, no peer review); indep. analysis rules out rotating key + plain substitution, note still unread | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
-| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED) | — |
-| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION | $1k/puzzle (Paradigm) |
+| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED); Oct 15, 2026: Zuger and Zuger Croatian Glagolitic-pharmacy claim (CLAIMED) + Hoeben geometric-structural preprint, explicitly non-decipherment (CLAIMED) | — |
+| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); Oct 15, 2026: formal negative results recorded — attack session eliminated composite cipher families over sixty million positive-controlled configurations, back-build falsified the card-plus-gate mechanism, and the researcher publicly withdrew its own unsupported claims (CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
 | MVUEH Enigma | 1941/2026 | Solved 2026 (agent) | — |
 
-*Updated 2026-10-14. The newest crack gets reported with its why and its human
+*Updated 2026-10-15. The newest crack gets reported with its why and its human
 error — always.*
