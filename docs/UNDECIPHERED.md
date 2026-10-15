@@ -413,3 +413,13 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 
 *Updated 2026-10-15. The newest crack gets reported with its why and its human
 error — always.*
+
+
+---
+
+## 7. Evaluation layer — machine-readable corpora
+
+*The watch-list's machine-graded twin: standardized corpora that let automated decipherment claims be scored rather than asserted. A benchmark is not a solution; Track-D results are hypotheses, never verdicts.*
+
+- **cipher_benchmark (matthewdgreen/cipher_benchmark).** A standardized benchmark dataset for evaluating AI-assisted classical cipher analysis tools (public project, created April 2026; currently private while image redistribution rights are resolved). Nine hundred and five solved/calibration records — Copiale, Borg, DECODE/Gallica manuscripts, synthetic multilingual substitution sets, Zodiac parity records, Kryptos sections one through three, the Feynman challenge ciphers, Poe's Gold Bug, plus a neutral probe — alongside a parallel two-hundred-sixty-two-record unsolved area covering the famous open ciphers: the Voynich Manuscript (227 records, with canonical folio transliterations produced under direct permission), unsolved Zodiac variants, the Scorpion ciphers, Kryptos K4, Beale 1 & 3, D'Agapeyeff, Dorabella, the Somerton code, Ricky McCormick's notes, the Lawrence Public Library cryptogram, the Blitz ciphers, and more; the Rohonc Codex and a DECODE-undecrypted subset are planned. Four tracks: image-to-transcription, transcription-to-plaintext, image-to-plaintext, and — for the unsolved area — Track D (image-to-hypothesis) with a reproducible review rubric, since there is no ground truth to score against. Every record carries a rights class. Significance: the Most Wanted list now has a scored twin — decipherment claims get a reproducible evaluation model, and Track D is the honest shape for hypotheses against ciphers with no known answer. (Corroborated — project README read first-party 2026-10-15; corpus counts are the author's own numbers.)
+  - Source: https://github.com/matthewdgreen/cipher_benchmark
