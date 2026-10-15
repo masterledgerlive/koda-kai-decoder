@@ -407,6 +407,36 @@ formats. [VERIFIED]
 - **Di Mino's Linear A workflow (Jun 2026) — AI-accelerated archival decipherment**: the claimed Linear A decipherment (see UNDECIPHERED.md) enters the catalogue as a technique — Claude Code running Python scripts as an exhaustive cross-referencing engine over digitized inscription databases, compressing months of manual comparison into real-time iteration so human linguistic intuition becomes instantly testable evidence. Same template as the 2026 AI codebreaker wave (MVUEH, Marmont): AI reads the archive and builds the tool; deterministic machinery plus human scholars do the breaking. [CLAIMED — secondary reporting; academic review pending]
 - **Bilibili Index-Translate (Sep 30, 2026, Apache 2.0)** — the translation-first member of the offline wave: flagship 35B-A3B-preview MoE (35B total, 3B active per pass, per-pair expert routing), dense 2B/9B variants. Specialized checkpoints: Echo (speech-to-speech translation), Homura (syllable-constrained dubbing via reinforcement learning — translated text matched to the source's syllable count, fits mouth movements with no manual timing pass; the factory deepfake-dubbing substrate), NativeLong (262,144-token document translation with terminology consistency across paragraphs). Apache 2.0 + GGUF quantized variants on HuggingFace: field-deployable with no cloud trace. [CORROBORATED as release; CLAIMED on benchmarks incl. 2.4% low-resource off-target rate]
 - **Offline machine translation wave (Sep–Oct 2026) — the stealth language decoder**: Tether TranslatePsy-AfriSLM (open-source, offline, 19 African languages, 0.8/2/4B parameters; vendor claims it beat 122B-class systems on FLORES-200/BOUQuET/SMOL), Tencent Hunyuan MT (440 MB offline; internal benchmarks claim it beats Google Translate in 33 languages), Google TranslateGemma (open, 4/12/27B, 55 languages), Microsoft Harrier-OSS-v1 (Mar 2026, open-weight embeddings, 107 languages, MTEB v2 SOTA). On-device offline translation is a translation layer with no cloud trace, field-deployable on mid-range phones. Vendor benchmarks stay CLAIMED; the architecture fact (works with no connectivity) is the capability to track.
+
+- **Sixth member of the wave (Oct 2026) — ENERZAi 1.58-bit Audio & Language AI
+  Suite**: an Edge AI Product of the Year award winner — ultra-low-precision
+  quantized on-device inference for voice commands, translation, speech
+  summarization, question answering and function calling. Moves the wave's
+  frontier from "runs offline" to "how little precision deployment needs."
+  Same two-sidedness: the offline privacy answer and the actor-agnostic
+  substrate in one box. [CLAIMED — vendor/award announcement]
+- **Identity-preserving speech translation (Oct 2026)**: DeepL Voice's new
+  voice-to-voice translation models preserve each speaker's distinct voice,
+  tone, rhythm and expression across languages — speakers stay recognizable
+  in multi-party translation (identity-carrying translation). xAI's Grok
+  Voice 3.0 is the mirror: a real-time speech-to-speech voice-agent API with
+  twenty-eight built-in voice IDs plus custom voice creation from a reference
+  clip of up to one hundred twenty seconds (identity-minting
+  infrastructure). One preserves identity across languages, the other
+  manufactures it — the full loop of voice-identity manipulation is now API
+  product, beside syllable-constrained dubbing models already on record.
+  Doctrine lesson: AI-speech detection must survive translation, dubbing, and
+  cloning inside the same pipeline — identity is no longer an acoustic fact
+  but a claim requiring provenance. [CLAIMED — company announcements via
+  trade press; Grok Voice via secondary writeup]
+- **Data provenance watch — the synthetic-translation loop (Oct 2026;
+  reference)**: a multilingual-dataset audit found a 115-language,
+  ~513M-row instruction collection is about ninety-six percent
+  machine translations — the human-written portion is four hundredths of one
+  percent. Models train on machine-translation output, then get judged on
+  benchmarks partly built from similar pipelines. Methodological lesson:
+  grade multilingual evaluation claims against their data provenance before
+  grading the model. [CORROBORATED — measurement-based composition check]
 - **Binary decoders — decompilers & disassemblers**: the tools that decode foreign code itself, machine language back into readable form. Disassemblers (bytes → assembly): IDA Pro (the commercial standard since the 1990s), Ghidra (open-sourced by the NSA at RSA 2019), Binary Ninja, radare2. Decompilers (assembly → C-like pseudocode): Ghidra's built-in decompiler, Hex-Rays, Binary Ninja's IL layers. Before a specimen is ever run or behavior-probed, its binary is *read* — structure recovered without executing a single instruction. [VERIFIED]
 - **The hostile-parser rule applies to our own tools**: malware fights back at the decoder layer — anti-disassembly tricks (junk instructions that desynchronize disassembly, opaque predicates, control-flow flattening) exist to break the analyst's instrument. So the disassembler itself is a hostile-input parser: it runs inside the container, never on the analyst's host, and its output is graded, not trusted. A specimen that crashes or misleads the decompiler has revealed its first behavior — it knows it's being read. [CORROBORATED]
 - **Google DeepMind SL2T (Aug 2026) — sign-language-to-text ships in a consumer
@@ -998,6 +1028,14 @@ The universal quantum decoder stays [SPECULATION] until proven.
   Decoder significance: "is this a bot" is the wrong question — the
   third actor is graded on authorization, not humanness.
   [CLAIMED — open-source project writeup]
+- **Voice-identity as anti-detection substrate (October 2026).** The
+  catalogue logs the technique side under language decoders: voice
+  preservation across languages, and custom-voice minting from a two-minute
+  reference clip inside a voice-agent API. The detection consequence: any
+  audio detector keyed to "does this voice sound synthetic" now faces
+  same-speaker speech that is both real (translated) and fake (cloned)
+  inside one pipeline — identity is no longer an acoustic fact but a claim
+  requiring provenance. [CLAIMED — company announcements via trade press]
 - **HumanGate (ETHGlobal Cannes 2026, open source).** One World ID
   scan, on-chain forever: any service queries a shared verification
   registry instead of running its own CAPTCHA, with the human
