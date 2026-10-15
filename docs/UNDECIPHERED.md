@@ -137,6 +137,23 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   grid-turn pre-registered Oct 4, 2026 and closed negative. Sanborn's public
   "two systems" remark is carried as hearsay-grade under a pseudo-clue-pack
   admission standard. [CORROBORATED — public repo]
+- **New to the roster (logged Oct 14, 2026).** (a) mattklepp/k4 — a
+  self-published GitHub "COMPLETE K4 SOLUTION" (documents/SOLUTION.md, ~Jun
+  2026): a DES-inspired hash engine with "position-specific tuning" that
+  reproduces the 18 known clue characters at 100% — a 13-position EAST set and
+  a 5-position BERLIN set, each fitted with hand-set per-position offset
+  adjustments. Intake: the claim grades itself, and the position-specific
+  tuning tables are a back-solve pattern — fit to 18 of 97 positions with
+  per-position free parameters, then extended into treasure-hunt prose. The
+  project judges a claim by who else verified it: no external verification, no
+  ground-truth check possible. SPECULATION until an outside audit reproduces
+  it from public data alone. (b) ForFoxs investigative assessment (Sept 2026)
+  — CORROBORATED: K4's plaintext was recovered and authenticated (archival,
+  2025), while the original cipher remains publicly unsolved in the
+  cryptanalytic sense. The assessment separates "recovered by research" from
+  "solved by cryptanalysis" — exactly this file's standing formulation — and
+  cites Paradigm's continued K4 challenge as evidence the cryptographic
+  question is live. [CORROBORATED — independent investigative writeup]
 - **Retired, not active:** the RSA Factoring Challenge (1991–2007).
   [VERIFIED — literature] The Beale "treasure" carries no verified bounty —
   treasure-hunting speculation, not a prize. [DOCTRINE note]
@@ -187,6 +204,12 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   validation, no consensus — Indus remains unsolved, the $1M prize open.
   [CLAIMED — preprint v3, company-authored, not peer-reviewed;
   abstract/methods/results read directly via the GitHub-hosted manuscript]
+- **Prize watch (Oct 14, 2026).** Tamil Nadu's $1,000,000 prize still open: no
+  announced winner, no published adjudication rules. Side effect noted in
+  reporting: Rajesh PN Rao (University of Washington) says he receives weekly
+  emails from self-proclaimed codebreakers — the prize has become a crank
+  magnet, which is exactly why this list keeps its intake rule. No status
+  change. [CORROBORATED — secondary interview reporting]
 - **Linear A** (Minoan Crete, ~1800 BCE) — Linear B, its sister script, was
   cracked by Ventris in 1952; Linear A still waits. Tom Di Mino (June 2026)
   claims a systematic decipherment via Claude-Code-accelerated cross-referencing
@@ -215,6 +238,24 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   Rongorongo, and Cretan hieroglyphs. [VERIFIED unsolved; sign-count and
   discovery facts CORROBORATED — standard epigraphic literature; Dunand's own
   count was 114]
+- **Voynich manuscript** (Beinecke MS 408, parchment 1404–1438) — two new items,
+  logged Oct 14, 2026. (a) Michael Hafner, "Section A of the Voynich Manuscript
+  as Archaic Middle Welsh" (Zenodo, Apr 2026, independent researcher) — the
+  herbal section read as Meddygon Myddfai-tradition herbal recipes, with four
+  evidence lines: IC 0.0795 and Zipf slope 0.775 consistent with medieval Welsh,
+  17 EVA tokens authenticated against the GPC historical Welsh dictionary with
+  pre-manuscript attestation dates, systematic prefix families with a coherent
+  inflection system, and four folio translations that read as herbal recipes.
+  Reported significance: attestation bootstrap p < 1e-10, blind plant
+  prediction 7/10, combined chi-squared 91.9 (df=8). The best-fitted claimant
+  of the year — it ships falsifiable tests and named witnesses. Intake: one
+  claimant, no peer review, no independent replication. CLAIMED until a second
+  lab reproduces the dictionary attestations on held-out folios. (b) jjlatval/
+  voynich-manuscript — a pre-registered, held-out-validated tournament: zero of
+  17 registered hypotheses met the pre-registered decision threshold, and the
+  "none of the registered models is adequate" reserve stays live. CORROBORATED —
+  the negative result the roster needed: every 2026 "DECODED" claimant is running
+  against a tournament where the null survives.
 - **What "deciphered" even means here:** without a bilingual text, a proposed
   solution must be self-proving. The field is full of crank claims with
   keyboards — treat every announcement as CLAIMED until independently validated.
@@ -277,11 +318,11 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | McCormick notes | 1999 | Unsolved | — |
 | Dorabella | 1897 | Unsolved; Oct 2026 CLAIMED: self-published "DECODED" GitHub claim (unverified, no peer review); indep. analysis rules out rotating key + plain substitution, note still unread | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
-| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION | — |
-| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075) | $1k/puzzle (Paradigm) |
+| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED) | — |
+| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
 | MVUEH Enigma | 1941/2026 | Solved 2026 (agent) | — |
 
-*Updated 2026-10-12. The newest crack gets reported with its why and its human
+*Updated 2026-10-14. The newest crack gets reported with its why and its human
 error — always.*
