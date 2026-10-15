@@ -1,0 +1,209 @@
+# THE DIAMOND DECODER
+
+## Codename: FRACTAL MIRROR
+
+**Status: DESIGN ONLY. Nothing here has been built, grown, etched, or measured.**
+Commissioned by David Jeffords, 2026-10-15. This document is the design; the
+diamond is the future work.
+
+---
+
+## The vision, in one paragraph
+
+A quantum decoder built from diamond — not a chip with quantum parts, but the
+crystal itself as the decoder. Nitrogen-vacancy centers in the lattice hold
+superpositions in place, the diamond's rigid carbon bonds being the thing that
+holds them there. The crystal is etched into fractal superstructures so that
+every point in the lattice is a sensing site and every site has a mirror twin.
+Readout paints the lattice with Gaussian light and blasts interrogation pulses
+from every angle, collecting the scattered information tomographically. The
+diamond remembers, the fractal mirrors, the Gaussian light paints, and the
+decoder reads all points at once.
+
+---
+
+## 1. The diamonds being tested
+
+No single diamond. The design carries a substrate test matrix, because the
+lattice is the instrument and the instrument's quality is the lattice's
+quality.
+
+| Substrate | Why it is on the bench | Standing record |
+|---|---|---|
+| Isotopically engineered (111) CVD diamond, controlled 13C, low-ppb nitrogen | Cleanest host: record electron-spin coherence | **T2 = 11.2 s under dynamical decoupling** (Delft, Aug 2026, npj Quantum Information) [CORROBORATED — preprint plus trade coverage; not yet independently replicated at time of writing] |
+| Standard (100) CVD diamond | Baseline; cheapest, most available | Control substrate — every claim about the engineered diamond is scored against this one |
+| HPHT diamond | High nitrogen, dense NV ensembles | Ensemble readout testbed; coherence traded for signal |
+| Diamond membranes / diamond-on-insulator | Thin-film integration | Photonic routing layer candidate |
+| Nanodiamond | Dispersible, room-temp sensors | Surface-noise penalty documented; the "cheap and everywhere" lane |
+| SiV-center diamond (silicon vacancy) | Narrow optical line, cavity-friendly | IonQ's Oct 2026 preprint: trapped-ion ↔ SiV entanglement at 1.03 kHz, 87.9% fidelity [CLAIMED — company preprint, pre-peer-review] |
+
+**Doctrine: the twin substrate rule.** Every measurement on the engineered
+diamond runs against the standard (100) CVD control in the same session. A
+coherence gain with no control is a press release, not a finding.
+
+[VERIFIED — NV centers hold superposition at room temperature longer than
+competing solid-state platforms; the diamond bandgap (5.5 eV), thermal
+conductivity, and lattice rigidity are what make the host stable. CORROBORATED
+— the 11.2 s record and the cm-scale spin-driven displacement (Nayak et al.,
+Sci. Adv. 2026).]
+
+---
+
+## 2. Superposition, held in place by the lattice
+
+The NV center's electron spin is the qubit. The diamond lattice is the thing
+that *holds the position in place as it binds more* — David's phrasing, and it
+is physically literal:
+
+- The carbon lattice is the stiffest known crystal. An NV center does not
+  drift; it sits at a fixed lattice site, bound by the same covalent bonds
+  that make diamond diamond. Position is not maintained by fields or traps —
+  it is maintained by chemistry.
+- Isotopic purification (removing 13C nuclear spins) removes the magnetic
+  noise bath. Low-ppb nitrogen removes the electric noise bath. What remains
+  is a spin sitting in engineered silence, held by the lattice, coherent for
+  seconds.
+- The surrounding 13C nuclear spins are not just noise to remove — in the
+  engineered diamond they are a *register*. SnV/GeV work shows nuclear spins
+  around the defect holding coherence past 20 ms at cryo, addressable as a
+  multi-qubit register around each electron spin. The lattice holds the
+  qubits; the qubits hold the memory.
+
+**Doctrine: the lattice never lies about where it stood.** A trapped ion's
+position is a control problem. An NV center's position is a fact of the
+crystal. The decoder's spatial truth anchor is the lattice itself.
+
+---
+
+## 3. Crystal superstructures — fractal geometry that holds every point
+
+Bare diamond is a memory. Etched diamond is an instrument. The design carves
+the crystal into fractal superstructures:
+
+- **Fractal photonic-crystal cavities**: self-similar etch patterns —
+  the same geometry at nested scales — so that every scale of the lattice
+  hosts resonant sensing sites. A fractal antenna does not have one resonant
+  frequency; it has all of them. A fractal diamond cavity does not watch one
+  point; it watches every point at every scale.
+- **Diamond nanopillar arrays**: pillars etched around NV sites concentrate
+  the optical field and the collection efficiency. (Nanopillar NV work is
+  established; the fractal arrangement of the pillars is the design's new
+  claim.) [SPECULATION]
+- **Diamond optomechanical crystals**: mechanical resonators with Q factors
+  past one million, embedding hundreds of NV centers in a micrometer-scale
+  beam, collectively driven and read out through the co-located optical
+  cavity (UC Quantum Foundry program). The superstructure is not just etched
+  for light — it is etched for *motion*, and the motion couples the NVs
+  together. [CORROBORATED — trade writeup of the Q > 1M demonstration.]
+
+The superstructure's job: hold the measurement geometry fixed so precisely
+that "all points" is a literal statement — every NV site addressable,
+every site's position known to the lattice.
+
+---
+
+## 4. The mirror of every fractal — image and position together
+
+Every fractal site gets a mirror twin. This is the heart of the design:
+
+- Each sensing NV site is paired with a mirror site across a symmetry plane
+  of the etched superstructure. Both see the same common-mode noise —
+  thermal drift, laser jitter, stray fields. The *difference* between them
+  sees only the signal.
+- The mirror pair is read interferometrically: the two sites' fluorescence
+  is interfered, not merely subtracted. Interference gives phase, and phase
+  gives the image — not just "a field was here" but the field's shape.
+- **Image and position together**: the mirror geometry is holographic. The
+  interference pattern of a site and its mirror encodes both where the
+  signal sits in the lattice and what the signal looks like. Position from
+  the lattice; image from the mirror.
+
+**Doctrine: every point has a witness.** No site reports alone. A site whose
+mirror disagrees is a site under suspicion, not a site with data.
+
+---
+
+## 5. Gaussian painting — readout that passes and blasts all angles
+
+The readout is where David's "Gaussian painting" lives, and it has two
+movements:
+
+**The painting.** The lattice is probed with Gaussian states of light —
+squeezed vacuum, coherent pulses — and the scattered photon statistics are
+read across all optical modes simultaneously. This is the Gaussian boson
+sampling idea turned into a readout instrument: the photon-number pattern
+across the mode array *paints* the quantum state of the NV ensemble, one
+mode at a time, until the whole lattice's state is an image. [VERIFIED —
+Gaussian boson sampling is established quantum-optics practice.]
+
+**The blasting.** The interrogation does not come from one direction. Pump
+and probe pulses arrive from every angle — rotated measurement bases swept
+tomographically through the full solid angle, microwave drives phased across
+the pillar array, the optical readout basis rotated shot by shot. Each angle
+is one projection; all angles together are the reconstruction. "Passing and
+blasting all angles" is quantum state tomography with the subtlety removed:
+hit the crystal from everywhere, collect what scatters, and let the
+fractal-mirror geometry sort signal from noise.
+
+The information does not come from one measurement. It comes from *all of
+them* — every angle, every mode, every mirror pair — fused into one
+reconstruction.
+
+---
+
+## 6. The decoder, whole
+
+Put it together and the diamond is the decoder:
+
+1. **Write** — the input quantum information is encoded into the NV ensemble
+   (electron spins for speed, surrounding nuclear spins for depth).
+2. **Hold** — the lattice binds every qubit in place; isotopic engineering
+   keeps the silence; coherence times in the seconds give the decoder room
+   to think.
+3. **Mirror** — the fractal superstructure interferes every site with its
+   mirror twin; common-mode noise cancels; phase yields the image.
+4. **Paint** — Gaussian light paints the lattice state across all optical
+   modes.
+5. **Blast** — interrogation from all angles; tomographic reconstruction
+   from every projection.
+6. **Read** — all points, measured precisely, image and position together.
+
+Room temperature. One crystal. No dilution refrigerator, no ion trap, no
+vacuum chamber — the lattice is the chamber.
+
+---
+
+## 7. Evidence grades, honestly
+
+| Claim | Grade |
+|---|---|
+| NV centers hold room-temp superposition; diamond is the host | VERIFIED |
+| 11.2 s electron-spin coherence in engineered diamond (Delft, Aug 2026) | CORROBORATED (preprint; awaiting independent replication) |
+| Diamond optomechanical crystal Q > 1M with embedded NV array | CORROBORATED (trade writeup) |
+| IonQ trapped-ion ↔ SiV entanglement at 1.03 kHz, 87.9% fidelity | CLAIMED (company preprint, Oct 2026) |
+| Fractal etch geometries give multi-scale resonant sensing sites | SPECULATION (fractal antennas are real RF practice; diamond fractal cavities are the design's leap) |
+| Mirror-twin interferometric readout yields image + position | SPECULATION (differential NV readout is real; the holographic claim is design) |
+| Gaussian-painting readout reconstructs the ensemble state | SPECULATION (GBS is real; this readout architecture is not built) |
+| The whole diamond-as-decoder pipeline | CONJECTURE |
+
+**The Fabrication Alarm stands.** Every row above marked SPECULATION or
+CONJECTURE is a direction, not a result. The first diamond has not been
+grown for this purpose. The first etch has not been cut. When the test
+matrix in §1 starts producing numbers, they go in the research log with
+grades — and any row that fails moves to the refuted list, not the quiet
+list.
+
+---
+
+## 8. What gets built first
+
+When David orders the first physical step — not before — the order is:
+
+1. Procure the two control substrates: standard (100) CVD and one
+   isotopically engineered (111) sample. Characterize, don't etch.
+2. Measure baseline T2 on both. The twin-substrate rule starts on day one.
+3. Only then: first fractal etch on the control substrate. The engineered
+   diamond stays pristine until the etch recipe is proven on the cheap
+   crystal.
+
+Nothing is ordered, bought, or grown until David says so.
