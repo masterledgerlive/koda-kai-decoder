@@ -2244,3 +2244,23 @@ files can carry payloads that byte-level and statistical detectors must catch.
 *This catalogue grows every 30 minutes via the research loop. New entries must
 carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L interconnect platform (announced Oct 14, 2026, OCP Summit 2026).** Chiplet pairing driving micro-V-C-S-E-L/photodiode arrays — claimed first two-dimensional micro-V-C-S-E-L platform; modular 1.6Tbps slices scaling to 6.4Tbps near-packaged-optics / 12.8Tbps co-packaged-optics, slow-and-wide parallel NRZ lanes, roughly fifty meters of optical reach as the target, copper-like reliability as the design goal. No independently verified bandwidth, energy-per-bit, or yield figures. The AI scale-up fabric is moving from pluggable transceivers to array-scale optical chiplets — another form-factor shift in the comms fabric the decoder reads. [CLAIMED — company press release; figures company-stated only]
 - **Heterogeneous thin-film integration on silicon photonics (paper, ~Sep 2026).** Freestanding single-crystal nanomembranes transferred onto silicon/silicon-nitride chips without lattice-matching constraints: barium titanate electro-optic response above thirty times lithium niobate at over twenty-three gigahertz; gallium arsenide/gallium nitride membranes extend detection from near-ultraviolet to near-infrared; cobalt ferrite membranes enable magnet-free on-chip nonreciprocal optical isolation. One-way-on-chip optics further complicate the reversible-tap interception model. [CORROBORATED — peer-reviewed paper; trade-press report, paper not opened first-party]
+
+- **The Jefferson disk / M-94 (1790s → 1922) — the cipher that was openly
+  published and stayed secure anyway.** Thomas Jefferson described a wheel
+  cipher in the 1790s (as Secretary of State) — a paper design, apparently
+  never built in his lifetime. French cryptographer Étienne Bazeries
+  reinvented the cylinder cipher circa 1891, and US Army officer Parker Hitt
+  published the strip-cipher principle openly in his *Manual for the Solution
+  of Military Ciphers* (1916) — the algorithm was public before the hardware
+  existed. The US Army adopted the disk form as the M-94 cipher device in
+  1922: 25 aluminum wheels on a spindle, each carrying a scrambled alphabet
+  around its rim; the operator spelled the block across one row and read the
+  ciphertext off another row. The daily key was nothing but the wheel order.
+  It served into the early years of World War II. [CORROBORATED]
+- **Decoder lesson (M-94 → Gauntlet):** Chaocipher's exact inverse — it won 90
+  years on mechanism secrecy; the M-94 survived two decades of field service
+  with the mechanism public since 1916. When the mechanism is public,
+  security is pure key custody. A fully documented foreign specimen (open
+  weights, published papers) is not an open book: interrogation attacks key
+  rotation discipline, not the diagram — which is why the Gauntlet's canary
+  keys rotate per chamber and never cross the interrogation boundary.
