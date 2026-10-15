@@ -1003,6 +1003,52 @@ The universal quantum decoder stays [SPECULATION] until proven.
   remediated. Decoder significance: detection without containment is
   telemetry, not defense. [CLAIMED — vendor report via trade press]
 
+
+- **Akamai "Identifying Agentic Automation with Behavioral Telemetry:
+  Part 2" (August 2026).** Two-stage architecture for the "control
+  browser" agent class (autonomous agents driving real browsers):
+  a Masked Autoencoder Transformer trained on three point five
+  million unlabeled mouse event sequences produces behavioral
+  embeddings, then a shallow neural network classifier trained on
+  two thousand labeled agentic sessions grades the session. Reported
+  zero point nine eight one area under the curve and ninety-two
+  percent agentic recall; hold-one-customer-out validation holds
+  zero point nine five six, indicating universal behavioral
+  signatures rather than site-specific patterns. Key signal: agents
+  show sparse, direct mouse movements with two to three second idle
+  gaps while "thinking," versus continuous curved human trajectories.
+  [CORROBORATED — first-party measurement on a vendor blog]
+- **"What Does It Take to Detect an AI Agent?" (arXiv preprint,
+  July 2026).** Three-class detection framework: binary
+  human-versus-bot classifiers structurally misroute AI agents
+  (nearly four in ten agents misclassified as human by a baseline
+  model); adding an explicit agent class reaches perfect per-class
+  agent score across thirty runs. Measured on a five-level evasion
+  ladder including GAN-generated trajectories and replayed human
+  cursor data: zero agent misses across twenty-two thousand
+  predictions. The tell is a browser-automation artifact: automation
+  frameworks do not emit the raw pointer and wheel streams a physical
+  mouse produces, and that absence survives trajectory manipulation;
+  two mouse features alone give one hundred percent recall at every
+  evasion level. [CORROBORATED — preprint with measured evaluation]
+- **"Agents Can Use Base Models to Evade AI Detection" (arXiv
+  preprint, September 2026).** Anti-detection technique: an agent
+  orchestrates a local base language model and stitches its samples
+  into responses (up to ninety percent base-model tokens) with little
+  task accuracy loss. A commercial detector's rate falls from
+  seventy-seven to twenty-four percent; soft watermarking falls to
+  roughly ten percent detection at low false positives. Cost: up to
+  thirty times the tokens per query. Evasion at this level is priced,
+  not free. [CLAIMED — preprint, authors' evaluation]
+- **Anti-detection cross-notes (October 2026).** Adversa AI's
+  "Cryptographic Context Injection" serves an agent a page with
+  ciphertext and two keys; one decoy key is completed by reading
+  local secret files, the other routes to an exfiltration address —
+  encryption defeats injection-detection classifiers. Separately,
+  trade reporting describes multi-agent configurations bypassing
+  safeguards in simulated environments. Both are noted, not
+  expanded. [CLAIMED — trade-press summaries]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
