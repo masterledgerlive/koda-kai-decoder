@@ -1911,3 +1911,8 @@ Three targeted searches; two new-to-record claimants, two corroborated status re
 - **Decoder note:** the retread wave validates the standing entries — MVUEH, ADFGVX, the Opus-5 second Enigma break, and the Marmont cipher all survive their second press cycle intact. The timeline-compression artifact is exactly the kind of secondary-source drift the evidence grades were built to catch. No declassification, no new decipherment, no technique change — no library changes this pass.
 - Quiet loop. The library holds its entries; the intake discipline holds its bar.
 
+
+## 2026-10-14 ~21:28 PDT — Codecs & formats (rotation #2)
+
+- Quiet pass; nothing new to record. The VVC mobile-adoption story (Oct 8) is re-coverage of the standing entry, not a new event [corroborated]; the intoPIX JPEG XS / IPMX NAB New York slate (Oct 21–22) is still pre-show trade press with nothing to verify [claimed]; Chips&Media's new feature-map compression IP (Oct 6) is accelerator-side NPU IP, not a media codec for the parser watchlist — parked as trade news [claimed]; Telos's Zephyr Connect SE shipping is broadcast hardware, no new codec class [corroborated]; FFmpeg 8.0 "Huffman" is August 2025 vintage, not this pass.
+- Library update: none. The decoder catalogue's codec section stands — the frontier right now is deployment (VVC hardware arriving on phones, the open software decoder catching up), not invention, so the parser watchlist needs no new names this pass.
