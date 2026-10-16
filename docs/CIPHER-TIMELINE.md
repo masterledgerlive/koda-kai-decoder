@@ -317,6 +317,49 @@ problem that had stood twenty years is the honest headline.
   unsolved in the public Crypto Cellar collection. [CLAIMED — single
   explainer]
 
+## 1990 — Kryptos: the cipher in the CIA's own courtyard
+
+Jim Sanborn's 12-foot copper scroll, dedicated at CIA headquarters in Langley
+in 1990 — commissioned by the agency's Fine Arts Commission in 1988 and built
+with Ed Scheidt, the retiring head of the CIA's own Cryptographic Center —
+carries four encrypted passages, K1 through K4. [CORROBORATED] The first three
+fell to the open world: K1 and K2, Vigenère ciphers on a KRYPTOS-keyed
+scrambled alphabet (keyed PALIMPSEST and ABSCISSA — the key table carved into
+the other half of the screen, the tool sitting beside the lock), solved by
+computer scientist Jim Gillogly in 1999; [VERIFIED — the public 1999
+announcement] K3, a transposition quoting Howard Carter's breach of
+Tutankhamun's tomb, worked out with pencil and paper by CIA analyst David
+Stein in 1998 and announced by the agency in 2006. [CORROBORATED] Even the
+famous misspellings — IQLUSION, UNDERGRUUND, DESPARATLY — were deliberate,
+confirmed by Sanborn himself. [CORROBORATED]
+
+K4 — 97 characters — held for 35 years against the best cryptanalysts on
+earth walking past it every morning. [CORROBORATED] Sanborn drip-fed four
+free words at exact positions: BERLIN (64–69) in 2010, CLOCK (70–74) in
+2014, NORTHEAST (26–34) in January 2020, EAST (22–25) in August 2020 —
+a quarter of the answer handed over, and it still didn't crack. In 2025
+Sanborn confirmed the clock in question is the Berlin World Clock. [VERIFIED
+— Sanborn's own releases] The pivot, October 2025: the plaintext was
+recovered not by cryptanalysis but by archival spycraft — journalist Jarett
+Kobek and playwright Richard Byrne found 97 characters of original uncoded
+text, held together by yellowed tape, among Sanborn's papers in the
+Smithsonian's Archives of American Art; [CORROBORATED — New York Times
+reporting, October 16, 2025] weeks later Sanborn's Kryptos archive sold at
+RR Auction for $962,500. [CORROBORATED — standing record] The cipher
+*method* of K4 remains publicly unsolved even with the plaintext in hand —
+self-published "complete solutions" keep appearing and keep failing
+independent audit. [CORROBORATED — standing record, October 2026 audits]
+
+The decoder's note: Kryptos is the Lorenz inversion. Lorenz fell because of
+ONE operator error — a reused key, a depth. K4 survived 35 years because
+Sanborn, its sole operator, committed no exploitable behavioral error: no
+reuse, no depth, no stereotyped openings. The gauntlet interrogates behavior
+first and math second; when behavior is flawless, math is the one arena
+where the adversary can win. And the filing-cabinet ending is the humblest
+lesson in this timeline: sometimes the channel to attack is not the cipher
+but the archive. Plaintext without method is a hypothesis, not a verdict —
+the gauntlet's standing formulation holds.
+
 ## The through-line
 
 Caesar → Rosetta → Vigenère → Zimmermann → Enigma → Lorenz → RSA → SNARKs → blockchain → PQC.
@@ -326,4 +369,4 @@ one-time pad — and even the pad falls to operators. The lesson compounds:
 That is why the decoder's gauntlet interrogates *behavior* first and
 mathematics second — four thousand years of evidence, one verdict.
 
-*Updated 2026-10-16 (added Copiale cipher entry).*
+*Updated 2026-10-16 (added Copiale + Kryptos cipher entries).*
