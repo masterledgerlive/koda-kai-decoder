@@ -210,6 +210,36 @@ CLAIMED / SPECULATION.*
   same; and known-but-withheld knowledge goes on the record honestly, never
   pretended unknown.
 
+- **The Hebern rotor machine (1917–1921) — the ancestor that shipped its own
+  obsolescence.** Edward Hugh Hebern, a California building contractor jailed
+  in 1908 for stealing a horse, claimed the time inside gave him the
+  cipher-machine idea: rotor drawings in 1917, a working model in 1918, US
+  patent 1,510,441 applied for March 31, 1921 and issued September 30, 1924
+  (patented in six more countries). He was the fourth of four independent
+  rotor-machine inventors inside four years — Scherbius filed February 23,
+  1918, Koch and Damm in October 1919, Hebern in March 1921 — so this entry
+  grades him an independent co-inventor, not a first, despite the "just
+  barely" folklore. [VERIFIED — patent dates; CORROBORATED — the four-filing
+  roll] The first machine was a single circuit rotor between two 26-contact
+  endplates, wired in reciprocal pairs and stepped one position per letter,
+  coupled to a solenoid-operated typewriter — repeating after 26 letters, weak
+  by design but no weaker than the era's hand systems; later three- and
+  five-rotor variants exist, and twelve machines are known to survive.
+  [CORROBORATED — Computer History Museum] Hebern sold $1M in shares and built
+  a $386,000 Gothic factory in Oakland for 1,500 employees (the building still
+  stands at 829 Harrison Street). The Navy's chief civilian cryptographer
+  Agnes Driscoll worked with him in the mid-1920s; William Friedman
+  confidentially found substantial weaknesses — Hebern was never told, and
+  government sales stayed limited. The Navy later solved a five-rotor Hebern
+  on a challenge basis, then moved to its own development — the road that ends
+  at SIGABA; fifteen years on, Hebern's company sued for ~$50 million and
+  likely settled for a few thousand. [CORROBORATED] Decoder lesson: test the
+  known break first — a specimen echoing a broken ancestor opens with the
+  ancestor's kill-shot, not a fresh theory; negative verdicts go on the public
+  record, never into a confidential file, because withheld knowledge becomes
+  someone's exploit budget; and audit before you buy — the company was
+  capitalized and factory-built before any serious cryptanalysis existed.
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
