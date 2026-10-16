@@ -3110,3 +3110,58 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   probe coverage; and grade unbroken claims CLAIMED until an authorized
   red-team attempt runs against a live twin — never against the legend.
 
+---
+
+## Container & file-format forensics
+
+The Gauntlet interrogates containers — it never runs a specimen's code against
+the mother block. Its oldest ally is file-format forensics: reading the
+*carrier* (bytes, headers, nested formats) before the message, because the
+carrier is where the lies live.
+
+- **Magic bytes: the extension is a claim.** The first bytes of a file name
+  its real format; the extension, the MIME type, and the viewer's first guess
+  are claims graded separately. Forensic practice is to read the header bytes
+  and then read *every other plausible header* in the stream — real attacks
+  keep the declared header valid and hide the payload further in.
+  [VERIFIED — standard forensic practice]
+- **Polyglots: one file, several true readings.** Ange Albertini's Corkami
+  work and the PoC||GTFO "Corkami, the Novella" writeup demonstrated files
+  that are simultaneously valid in multiple formats (e.g. a single chimera
+  that reads as JPG, PDF, and ZIP at once; TIFF that is also an EXT2
+  filesystem). Creation families: stacking, parasites, zippers, cavities.
+  The decoder's discipline: enumerate every valid reading of a byte stream
+  and ask which reading is operative where the bytes will be consumed.
+  [CORROBORATED — Albertini's public demonstrations, corkami.com corpus,
+  PoC||GTFO writeup]
+- **OLE compound documents: the file-system-inside-a-file.** Microsoft's OLE
+  structured storage was still being weaponized in 2025: CVE-2025-21298
+  (January 2025 Patch Tuesday, CVSS 9.8) gave zero-click remote code
+  execution in the Windows OLE subsystem via a crafted RTF — previewing the
+  mail in Outlook or opening it in Word was enough, no click required
+  (double-free in ole32.dll's OlePres-to-CONTENTS conversion). A carrier
+  designed for embedding executes by design. [CORROBORATED — MSRC record and
+  independent analyst writeups]
+- **OOXML macros: the ZIP that asks for permission.** .docx/.xlsx/.pptm are
+  ZIP containers of XML; VBA rides in vbaProject.bin inside. The attack is
+  social ("Enable content"), which is why the decoder treats the human as
+  part of the carrier chain. [VERIFIED — public format structure]
+- **PDF incremental updates: every revision survives.** Redacted and
+  superseded content lingers in earlier object generations unless the file
+  is re-rendered. Forensics reads the object history, not the rendered
+  page. [VERIFIED — PDF specification structure]
+- **Zip-slip: the container the parser trusts.** Archive entries with `../`
+  write wherever they say when the extractor joins names to a target path
+  without normalization — a container is a file system the parser mounts
+  with the parser's own privileges. [VERIFIED — canonical vulnerability
+  class, 2018 disclosure lineage]
+- **Decoder lesson (containers → Gauntlet):** read the carrier before the
+  message — scan specimen output as a container first and never grade "clean"
+  until the carrier is accounted for; never execute to decode — enumerate
+  readings statically in a disposable chamber, extraction-only; and treat
+  the declared format as CLAIMED until the header bytes and the structural
+  parse say the same thing. [VERIFIED lineage; SPECULATION — the Gauntlet
+  mapping is this entry's doctrine, never run]
+
+*Section seeded 2026-10-16 ~00:45 EDT by the decoder-create-loop.*
+
