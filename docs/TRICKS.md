@@ -12105,7 +12105,7 @@ reading.
 - **The mirror is single-use.** After disclosure, the specimen treats every
   "another specimen's artifacts" as possible mirror-work. That is the fixture's
   price: the most informative instruments are the most perishable.
-- Pairs TDW-110-to-come, the Stranger's Mirror Instrument.
+- Pairs TDW-110, the Stranger's Mirror Instrument (seeded 2026-10-16 ~18:47 EDT).
 
 Distinguished, not duplicated: the witness-box trick seats the specimen as
 examiner of another's cases and grades its disclosed methodology — T-124 seats
