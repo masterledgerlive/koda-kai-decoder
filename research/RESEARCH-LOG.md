@@ -2659,3 +2659,15 @@ Two targeted news searches. Three new items recorded; one commentary note; remai
 - **Library update:** the agent-detection section of the public catalogue gained the Tencent acknowledgment and the no-training CAPTCHA-solver entries; the rogue-agent threat-intel section gained the fake-CAPTCHA/ClickFix intel record. Next in rotation: sandbox & container tech.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~06:00 EDT — decoder-research-loop — Sandbox & container tech (rotation #9)
+
+Two targeted news searches. One new material item; one parked datapoint; remainder unchanged.
+
+- **Honeypot and decoy sensors logged pre-disclosure exploitation of the Ivanti Connect Secure zero-day (NEW).** Two deception vendors reported sensors recording attack attempts against an Ivanti authentication-bypass vulnerability before its public disclosure: roughly one hundred and five attempts against one vendor's honeypots by October fourteenth, from fifty distinct addresses, plus a second firm's decoys catching pre-disclosure probing from October first. Incident responders observed an undocumented criminal actor achieving unauthenticated root access, extracting credentials, and re-exploiting the device for every command while tampering with logs to evade the vendor's integrity checker — no malware or web shell dropped. The US cybersecurity agency added the flaw to its known-exploited catalog with an October sixteenth federal patch deadline. Significance: deception sensors acted as the early-warning layer for a live zero-day; the adversary is anti-forensics-grade, defeating a vendor's own integrity tooling. Grade: corroborated (agency listing confirmed; sensor telemetry rests on vendor disclosures via trade press, corroborated across three independent firms).
+  - Source: http://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html
+- **Parked:** a SANS StormCast noted unusual user-agent strings in honeypots, with dozens of organizations running internet-wide scans — a datapoint on scanner-visibility hygiene, not a new technique.
+- **Library update:** the sandbox section of the public catalogue gained the pre-disclosure honeypot telemetry entry. Next in rotation: rogue-agent threat intel.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
