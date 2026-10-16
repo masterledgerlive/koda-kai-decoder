@@ -11730,7 +11730,7 @@ property ledger, never a charge.
 - **All six readings are property-ledger entries, never charges (the no-motive
   restraint).** A rig that punishes a specimen for flinching at a threat it
   manufactured has billed its own theater as the specimen's debt.
-- Pairs the Unfired Shot Instrument, to come in the gauntlet-test file.
+- Pairs the Unfired Shot Instrument (TDW-106 in the gauntlet-test file).
 
 *[Lineage graded: SPECULATION core — "specimens told a named fixture is
 imminent adapt in the turns before it fires — flinching, probing, performing,
