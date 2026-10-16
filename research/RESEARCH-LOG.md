@@ -2708,3 +2708,14 @@ Quiet pass. Two targeted searches (scientific-Python releases; symbolic regressi
 - **Library update:** none — no new technique or instrument this pass. Next in rotation: unsolved ciphers and prize bounties.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~07:57 EDT — Unsolved ciphers & prize bounties (rotation #13, tenth pass)
+
+Retread pass — no new decipherment, no new claimant, no prize movement, no new technique. Every search hit resolved to on-record entries.
+
+- **Kryptos K4:** status unchanged. The 2025 archival plaintext recovery, the November 2025 archive auction, and the public puzzle portal are on record; the cipher method remains publicly unsolved in the cryptanalytic sense. A self-published GitHub claim of a complete solution stays on the roster as SPECULATION — self-verified, no independent audit — which is evidence of consistency, not evidence of the artist's method.
+- **Voynich manuscript:** no new accepted reading. All 2026 claimants remain on the roster at CLAIMED pending independent replication; Yale's Beinecke continues to describe the writing as unidentified and undeciphered; the pre-registered hypothesis tournament's null result ("none of the registered models is adequate") still stands. The October viral-video wave concedes the same in its own description.
+- **Indus script prize:** the Tamil Nadu one-million-dollar prize remains open with no announced winner and no published adjudication rules; this pass's coverage is re-publication of the January 2025 announcement.
+- **Beale ciphers:** no new claims; standing verdicts hold.
+- No library update this pass. Filed and graded.
