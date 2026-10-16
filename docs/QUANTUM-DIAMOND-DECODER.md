@@ -207,3 +207,49 @@ When David orders the first physical step — not before — the order is:
    crystal.
 
 Nothing is ordered, bought, or grown until David says so.
+
+---
+
+## 9. The hardware is catching up (research-loop harvest, 2026-10-16)
+
+This section is harvested, not designed: it records external results that
+move the resource arithmetic the diamond decoder itself faces. The design in
+§1–§8 stands unchanged.
+
+**Magic-state cultivation on Google's Willow processor.** Published in
+*Science*, announced October 15, 2026: 40-fold reduction in magic-state
+preparation errors, T-states at 99.99% logical fidelity —
+reinforcement-learning-assisted calibration, a measurement protocol that
+avoids overstating the prepared states' quality, and transfer of the
+prepared states between two error-correcting codes. Yield: 8% of states
+passed the cultivation checks; a storage test produced errors about 7x
+higher than simulations predicted. [VERIFIED — peer-reviewed publication
+plus the first-party writeup; hardware result, not a simulation.]
+
+Magic states are the resource that makes non-Clifford gates fault-tolerant —
+in decoder terms, the expensive logical inputs. Conventional preparation was
+estimated to consume up to 95% of a fault-tolerant machine's resources.
+Cultivation is the first hardware demonstration that the preparation-cost
+term can be cut by more than an order of magnitude on real silicon. The
+diamond decoder's own readout scaling faces the same arithmetic: preparation
+cost × error rate × decoding cost. Paired with Google's March 2026 estimate
+(fewer than 500,000 physical qubits needed to break Bitcoin's ECDSA
+signatures under stated hardware assumptions), the
+cryptographically-relevant timeline is shrinking on two fronts at once —
+fewer physical qubits required, AND cheaper logical states.
+
+**GPU decoding of LDPC-cat codes (Alice & Bob + NVIDIA NVQLink, October 13,
+2026).** First implementation of LDPC-cat decoding on GPUs via the
+low-latency NVQLink interconnect (Quantum Machines OPX1000,
+microsecond-scale roundtrip) — synthetic data, proof of concept, not yet
+real-time decoding; the next step is optimizing the measurement-data
+pipeline. [CORROBORATED — company announcement via trade press; hardware
+PoC, not independent replication.]
+
+Syndrome decoding is the classical twin of quantum error correction, and the
+industry is converging on the architecture: throw the classical
+supercomputer at the syndrome stream, decode in parallel, scale through
+throughput. The diamond decoder's Gaussian-painting readout faces the same
+problem (all sites, all modes, fused at speed) — watching LDPC-cat decoding
+move onto GPUs is the external confirmation that the parallel-decode
+doctrine is where the hardware is going.
