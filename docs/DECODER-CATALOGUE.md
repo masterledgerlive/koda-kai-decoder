@@ -710,6 +710,31 @@ formats. [VERIFIED]
   encoding anomalies as evidence rather than noise. [Project verified
   on the author's own repository; claimed capability figures stated
   before the planned conference demonstration]
+- **Anti-interference machine translation for low-resource languages
+  (peer-reviewed paper, 2026; new to record).** A training recipe for
+  Transformer translation models: deliberately inject noise during
+  training (simulating typos, dialectal variation, messy input), add
+  back-translation and data augmentation, and use
+  functional-equivalence constraints as a regularizer. The reported
+  finding is that carefully engineered training can make small-data
+  translation models far more robust — a template for bringing
+  languages with almost no parallel training data into working
+  translation. Reported quality gains are author-stated and not yet
+  independently verified. Decoder lesson: this is training-time
+  robustness — hardening the decoder against dirty input — the
+  receiver-side complement to the offline translation models already
+  on the record. [Claimed — published paper; results author-reported]
+- **Unified vision-and-language translator (paper, 2026; new to
+  record).** One neural model that both captions images and translates
+  across languages: a visual encoder feeding a Transformer decoder
+  with per-layer cross-modal modulation and language tokens acting as
+  a gating mechanism. Tested on standard image and multilingual
+  benchmarks; trained in about 18 hours on four professional GPUs.
+  Authors state future work toward low-resource language optimization
+  and zero-shot translation of unseen languages. Decoder lesson: a
+  single multimodal decoder shrinks the pipeline into fewer pieces —
+  fewer joints, fewer failure points — but this is a single study
+  awaiting replication. [Claimed — single paper; replication pending]
 
 
 ## The quantum track (honestly scoped)
