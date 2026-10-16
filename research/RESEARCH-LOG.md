@@ -2733,3 +2733,12 @@ Three targeted searches on codec and format news. No new codec, no new format, n
 Separate headlines this week — a generative video model launch, a generative audio company's funding round, an open-source on-device speech transcription model, and an audio-review toolkit for coding agents — are generation, transcription, or tooling, not audio or video codecs, and sit outside this lane. A conference session on neural prediction inside conventional audio codecs is parked as a watch item, not a finding.
 
 No material finding this pass; no public documentation updated. Research only — no claims broadcast.
+
+
+## 2026-10-16 — Research loop: protocol decoders
+
+Two targeted searches on protocol-dissector and mesh-decode news. Two new craft notes, neither material; no new decoder class, no protocol-coverage change. Full graded detail lives in the private research log.
+
+- **SCTE-104 Lua decoder registered with Wireshark's ST 2010 tables (community repo, October 2):** the splice and ad-insertion metadata carried inside professional video-over-IP transport streams now decodes from opaque blobs into named fields — the intake gate keeps absorbing the broadcast stack one lookup table at a time. Narrow community tooling, verified from the repo's own commit log.
+- **Opener: an open-source reference implementation of DECT NR+ (DECT-2020 NR):** the license-free, sub-gigahertz mesh standard (aimed at a million devices per square kilometer) gets an open implementation, so future mesh traffic becomes capturable and interrogable without vendor licenses — the decodeable surface widening ahead of the traffic. A trade-writeup claim; the repo build was not opened this pass.
+- Wireshark four point six point nine is a maintenance wave — nineteen vulnerability fixes, zero new protocols, about thirty dissectors refreshed. A marketing blog's "AI-assisted packet insights" claims stay out of the record: unattributed copy, no upstream anchor. No library update this pass; no public documentation changed. Research only — no claims broadcast.
