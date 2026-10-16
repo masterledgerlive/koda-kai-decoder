@@ -313,6 +313,7 @@ CLAIMED / SPECULATION.*
   control first (both surviving reputations live there); and always ask where
   the key physically lived — a punched card is a supply chain, not a
   computation. [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
+- **The Kryha machine (1924–25)** — the "absolutely indecipherable" mechanical cipher that fell in 2 hours 41 minutes: Alexander von Kryha's machine, marketed across Europe as unbreakable; in 1933 the North American rights-holder ($100,000) challenged the Army's newborn SIS with a 200-word cryptogram, and William Friedman solved it the same afternoon — receipt-stamped 11:12 AM "commenced work," 2:43 PM "solved," less a 50-minute lunch — without machine aids. [VERIFIED — army.mil challenge record] Gauntlet takeaway: a vendor's "unbreakable" is a free test protocol — accept the challenge, timestamp the break, return the keys; hype is priced against the clock, never the brochure. [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
