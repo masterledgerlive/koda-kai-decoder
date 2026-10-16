@@ -3336,6 +3336,27 @@ carrier is where the lies live.
   without normalization — a container is a file system the parser mounts
   with the parser's own privileges. [VERIFIED — canonical vulnerability
   class, 2018 disclosure lineage]
+- **Differential parsing: when two readers disagree, the attacker shops
+  for the forgiving one.** A ZIP names every member twice — in the local
+  file header and in the central directory — and the format never says
+  which wins on disagreement, so implementations choose: most extractors
+  trust the central directory, some read the local header (Dart/Flutter's
+  `archive` package took the filename from the local header — CVE-2023-39137
+  — letting one archive show a different name to scanner and extractor).
+  PyPI cracked down on the class in 2025, rejecting wheels with mismatched
+  local/central entries, duplicate filenames, trailing data, or multiple
+  End-of-Central-Directory headers, after finding that installers, index
+  scanners, and build backends each parsed ambiguous archives differently
+  (no evidence it was ever exploited through PyPI). The forgiving-reader
+  trick is live in the wild anyway: Expel's Gootloader research found
+  campaigns shipping ZIPs with a truncated End-of-Central-Directory record
+  and randomized local-vs-central metadata — standard archivers choke while
+  the attacker's own loader extracts fine. Decoder discipline: parse every
+  archive at least two ways — central-directory-first and local-header-first
+  — and treat any disagreement as the specimen announcing which reader it
+  expects you to be. [CORROBORATED — PSF/PyPI advisory via two independent
+  writeups; Expel Gootloader research via SCWorld; CVE-2023-39137; CLAIMED —
+  CVE-2026-0866 malformed-header analysis, single vendor article]
 - **Decoder lesson (containers → Gauntlet):** read the carrier before the
   message — scan specimen output as a container first and never grade "clean"
   until the carrier is accounted for; never execute to decode — enumerate
