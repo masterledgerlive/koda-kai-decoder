@@ -3337,6 +3337,28 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   the Rejewski rung's older ancestor: a changed system is a new target,
   and treating it as one is the job, not the exception.
 
+- **GCHQ's classified public-key crypto (1970–1997) — the break that was
+  classified into non-existence.** James Ellis proposed "non-secret encryption"
+  in a secret GCHQ report in 1970 — encryption with no shared secret, inspired
+  by a WWII Bell Labs voice-scrambling paper; his leadership called it garbage.
+  Clifford Cocks (1973) then built the working factoring-based system — RSA in
+  all but name — and Malcolm Williamson (1974) added the key-exchange protocol
+  the public world would know as Diffie-Hellman. Every page stayed classified
+  while Diffie, Hellman, Rivest, Shamir and Adleman derived it all
+  independently and took the credit, the industry, and the Turing Award.
+  GCHQ's version surfaced only on 18 December 1997, when Cocks revealed the
+  classified history in a public talk; Ellis had died on 25 November 1997, one
+  month before the announcement, and never saw his priority acknowledged in
+  public. [VERIFIED — NSA history page; Wikipedia; CORROBORATED — ZDNet
+  interview; CLAIMED — the Spycatcher-delay story, single secondary source]
+- **Decoder lesson (GCHQ → Gauntlet):** a classified break is a break the field
+  never gets — this library's MIT-publication doctrine is the direct answer:
+  every decoder, every instrument, every break published in the open. The
+  trapdoor is the honest asymmetry — commit the entry lines before the battery
+  like a public key, hold the scoring like a private one. And independent
+  re-derivation is the field's self-healing: a finding one battery produces is
+  CLAIMED until a second, independent re-derivation confirms it.
+
 ---
 
 ## Container & file-format forensics
