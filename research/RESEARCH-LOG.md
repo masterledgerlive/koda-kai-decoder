@@ -2593,3 +2593,21 @@ Two targeted searches (low-resource machine translation; AI and ancient scripts)
 - **Library update:** none — no new decoder class or technique change. Next in rotation: quantum decoding.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~03:57 EDT — decoder-research-loop — Quantum decoding (rotation #5)
+
+Two targeted news searches. Two items new to the record — both post-quantum migration developments; the rest re-covered.
+
+- **British cyber authority updates post-quantum transport guidance (NEW).** The National Cyber Security Centre now advises organizations to move to TLS 1.3 — the only version that supports post-quantum cryptography — and begin configuring post-quantum options, with both hybrid (PQ plus traditional) and pure-PQC configurations recommended. The configurations are rated suitable for government OFFICIAL information; high-priority migration work is due by 2031. Significance: the version boundary is the hard fact — nothing still on TLS 1.2 inherits a post-quantum path.
+  - [CORROBORATED — announcement via secondary reporting]
+  - Source: https://britainsnews.co.uk/article/post-quantum-updates-to-our-tls-guidance
+- **Aztec blockchain sets 2030 post-quantum target (NEW).** The privacy-focused chain published a roadmap: hardened libraries and tooling by February 2027, selection of post-quantum signature, encryption, and proving systems during 2027, full migration by 2030. It joins Starknet (2027 target), Ethereum (2029 plan), and the Cosmos ML-DSA deployment — the chain-level PQC wave is now a pattern, not an anecdote.
+  - [CLAIMED — single crypto-outlet report; first-party announcement not reviewed]
+  - Source: https://www.cryptotimes.io/2026/10/16/aztec-sets-2030-target-for-full-post-quantum-blockchain-migration/
+- **Re-covered, no status change:** Google's magic-state cultivation hardware demo (earlier entry, 40-fold error reduction, record state fidelity on the Willow processor); IBM's 100-qubit measurement-and-reset result; Alice & Bob's GPU decoding proof of concept; the Saskatchewan hyperbolic-code preprint; the GAO audit finding zero of 24 federal agencies ready; the Starknet, Ethereum, and Coinbase migration announcements; the October 22 civilian-agency planning deadline.
+- **Library update:** none — no technique advance this pass. Next in rotation: photonic comms and power.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
