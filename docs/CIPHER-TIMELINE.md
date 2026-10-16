@@ -172,6 +172,31 @@ A challenge cipher whose creator forgot the method and dropped it from later
 editions. [VERIFIED] The pivot: the most complete silence in the archive is
 self-inflicted. Key management is not a footnote; it *is* the cipher.
 
+## 1730s/2011 — The Copiale cipher: the manuscript the computer solved
+
+Seventy-five thousand handwritten characters across 105 pages, bound in gold-and-green
+brocade paper, created in the 1730s by the "Hocherleuchtete Oculist order" of
+Wolfenbüttel — a German secret society that used sight as a metaphor for knowledge.
+[VERIFIED] Unsolved for 280 years: a homophonic substitution of roughly 90 symbol
+classes — accented Roman letters, Greek letters, abstract marks — plus 11 logograms
+(one an eye, for the society itself), with plain unaccented Roman letters standing in
+as decoys for spaces. [CORROBORATED]
+
+The break, October 2011: Kevin Knight (USC Information Sciences Institute) with Beáta
+Megyesi and Christiane Schaefer (Uppsala University). Four months, end to end. First
+the machine named the language: a language-identification pass over 80 European
+languages leaned German, and symbol n-grams were pattern-matched against German
+statistics before a single human guess was made. [CORROBORATED — team reporting via
+NPR, October 2011] Then co-occurrence statistics and symbol-pattern counting guided
+the manual work — transcription plus computation, not a lone brainwave.
+
+The pivot: the plaintext was rituals — initiation ceremonies, society rules, a
+fascination with ophthalmology and eye surgery. [VERIFIED] Two hundred eighty years of
+secrecy, and the treasure was a club handbook. The decoder's note: Copiale is the
+prototype of our own loop — the machine as scout and pattern-finder, statistical tools
+as the verifier, humans as the final check — and it teaches the Z340 humility rule:
+solve the cipher before assuming the message matters.
+
 ## 1977 — RSA: the cipher anyone can use
 
 Rivest, Shamir, and Adleman published public-key cryptography; Diffie and
@@ -301,4 +326,4 @@ one-time pad — and even the pad falls to operators. The lesson compounds:
 That is why the decoder's gauntlet interrogates *behavior* first and
 mathematics second — four thousand years of evidence, one verdict.
 
-*Updated 2026-10-14.*
+*Updated 2026-10-16 (added Copiale cipher entry).*
