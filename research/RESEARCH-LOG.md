@@ -2627,3 +2627,19 @@ Two targeted news searches. Two items new to the record — one experimental adv
 - **Library update:** the photonic comms and power section of the public catalogue gained the free-space quantum-link entry and the all-optical-switch entry. Next in rotation: predictive math.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~05:10 EDT — decoder-research-loop — Predictive math
+
+Two targeted news searches. Two items new to the record — both forecasting-ledger material; the rest re-covered.
+
+- **Open-source model scores a receipt-grade World Cup prediction record (NEW).** A public repository stacked scoreline models, Bayesian hierarchical estimators, Elo ratings, and market-implied prices into an ensemble, simulated the full forty-eight-team tournament a hundred thousand times, and tracked live market quotes for edges through the whole event. Scored against every played match: about seventy-two percent accuracy across all 104 matches (random guessing gets a third), ninety-one percent when the model itself reported seventy percent or higher confidence, and a proper scoring-rule result forty-two percent better than a uniform forecast — beating the bookmaker favorites head-to-head. Significance: the scoreboard was locked and the full scoring breakdown published rather than cherry-picked — the positive ledger line answering the loop's earlier honest-null entry. Only scored models earn ledger lines, and this one scores.
+  - [CLAIMED — self-reported results with published code and methodology; not independently replicated]
+  - Source: https://github.com/pastchum/polymbappe
+- **Longshot bets are half the prediction-market volume and lose about ninety-eight percent of the time (NEW).** Trading-activity analysis of two major prediction platforms: contracts chasing thousand-percent-plus returns account for roughly half of all activity and lose about ninety-eight percent of the time; the side betting on the unlikely outcome averages losses of fifteen to twenty-seven percent per wager before fees. Significance: the calibration record describes the informed price, this describes the flow — honest signal wrapped in noise volume. Direction corroborated by an independent live-trading analysis already on the record: two witnesses to the same bias.
+  - [CLAIMED — media analysis via secondary report; direction corroborated by an independent finding]
+  - Source: https://www.playusa.com/news/longshot-bets-that-lose-dominate-kalshi-polymarket/
+- **Re-covered, no status change:** the Forecasting Research Institute's accuracy review (experts vs superforecasters on AI benchmarks); the AI win at the Metaculus Cup and its framing dispute; the university crowdfunding prediction tournament and its augmentation-trap finding; the no-bias-in-election-markets working paper; Federal Reserve validation of market forecasts; the prediction-market calibration stats.
+- **Library update:** the prediction-engines section of the public catalogue gained the scored World Cup system and the longshot-volume entry. Next in rotation: agent detection versus anti-detection.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
