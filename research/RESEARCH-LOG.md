@@ -2719,3 +2719,8 @@ Retread pass — no new decipherment, no new claimant, no prize movement, no new
 - **Indus script prize:** the Tamil Nadu one-million-dollar prize remains open with no announced winner and no published adjudication rules; this pass's coverage is re-publication of the January 2025 announcement.
 - **Beale ciphers:** no new claims; standing verdicts hold.
 - No library update this pass. Filed and graded.
+
+
+## 2026-10-16 — Research loop: historical codebreaking
+
+One targeted search on declassified-cipher and codebreaking news. No new decipherment, no new archive release, no new technique — every hit resolved to items already on record: the six-hour 1809 Marmont homophonic break, the 1918 ADFGVX naval message (with its standing documented key-date caveat), the independently validated MVUEH Enigma break, and the second Enigma break. One item was satire, not a finding. Nothing material; no public documentation updated. Research only — no claims broadcast.
