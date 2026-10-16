@@ -2974,6 +2974,35 @@ The universal quantum decoder stays [SPECULATION] until proven.
   confirmation of the threat board's primary lane — the instruction channel,
   not the model, is the front line. [CLAIMED — security publication]
 
+- **"Divide and inject" fragment-reconstruction technique (October 2026).**
+  The attack objective is split into incomplete fragments planted across
+  retrieved documents, plus a reconstruction cue; the agent reassembles the
+  full instruction. Researchers report about sixty-one percent success against
+  about thirty for baseline defenses. Screening each document alone misses the
+  payload — it exists only in the recombined reading. Decoder lesson: test the
+  assembled context, not single files; the prompt assembly is the boundary.
+  [CLAIMED — security research via blog digest; primary paper not reviewed]
+
+- **Bitdefender AI Guardian: free on-device shield for coding agents (October
+  2026).** A background service for tools like Claude Code and OpenClaw that
+  grades every agent action pass, warn, or block against a policy baseline —
+  covering hidden instructions, poisoned tool descriptions, credential
+  leakage, and out-of-scope file access — with all analysis on-device. It
+  follows an April incident in which a hidden command in a repository
+  pull-request title was read and executed by coding assistants, posting
+  credentials publicly. Decoder lesson: defense moves to the agent's own
+  machine as a policy layer, and the block path is what must be tested — a
+  shield is only as real as its enforcement under pressure. [CLAIMED — vendor
+  product as reported in trade press]
+
+- **Frontier-lab admission on prompt injection (October 2026).** OpenAI's
+  chief information security officer publicly described prompt injection as
+  an unsolved, frontier security problem, and confirmed mitigations including
+  a logged-out mode so agents do not carry user credentials into hostile
+  pages. Decoder lesson: a leading lab prices the problem the same way the
+  defense community does — the instruction channel, not the model, is the
+  front line. [CLAIMED — trade-press carry of a named statement]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
