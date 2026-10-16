@@ -2515,3 +2515,22 @@ The math-physics notes grew a seventeenth section, every claim graded, nothing a
 Next in rotation: unsolved ciphers and prize bounties.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+---
+
+## 2026-10-16 ~01:30 EDT — Unsolved ciphers & prize bounties (rotation #13)
+
+- **Dhofari 1 deciphered (NEW — MATERIAL).** Ahmad Al-Jallad (Ohio State University) cracked the pre-Islamic Dhofari 1 script of Oman's Dhofar region (2,000+ years old, undeciphered since its early-20th-century discovery). The break: three inscriptions weren't words at all — they were the Dhofari alphabet, abecedaries painted on cave walls and carved into wadi stones. Published in *Jaarbericht Ex Oriente Lux*; Dhofari 2 is next. The corpus carried its own key table — the wild-theory fog collapsed on contact with a boring, verifiable answer.
+  - [CORROBORATED — peer-reviewed journal paper via secondary report]
+  - Source: https://www.biblicalarchaeology.org/daily/archaeology-today/pre-islamic-arabian-script-deciphered/
+- **K4 found-not-solved, canonical phrasing (addendum).** ForFoxs investigative assessment (Sep 2026): "K4's plaintext has been recovered and authenticated, while the original cipher remains publicly unsolved in the cryptanalytic sense" — very high confidence. Sanborn's archive (sold to Paradigm for $962,500, Nov 2025; sealed envelopes still unopened per Paradigm) holds the original coding system as a separate asset: the method and the message stay two different secrets.
+  - [CORROBORATED]
+  - Source: https://www.forfoxs.com/2026/09/kryptos-k4-cia-code-was-foundbut-was-it.html
+- **Herculaneum lead-ink instrument upgrade (addendum).** PHerc. 1667's June 2026 full read stands; new: leaded ink is estimated up to 25x brighter than papyrus on X-ray CT, so X-ray fluorescence scanning for leaded-ink scrolls would upgrade the whole instrument chain — the 800+ sealed scrolls become a waiting data problem, not a physics problem.
+  - [CLAIMED — researcher estimate via phys.org]
+  - Source: https://phys.org/news/2026-09-year-scrolls-scientists.html
+- **Indus prize still unclaimed (addendum).** Since the January 2025 million-dollar announcement, claimants have flooded in ("engineers to IT workers and those retired"); no award to anyone. The prize now functions as a live claim-flood gauge — statistics cannot diagnose language, so the intake gate holds.
+  - [CORROBORATED — trade press quoting named researcher]
+  - Source: https://www.Unilad.Com/news/money/harappan-script-india-offer-1-million-solve-511366-20250128
+- **Re-covered, no status change:** Voynich mis-binding; Zuger & Zuger Glagolitic claim; Hafner herbal claim; Pierson and Yajnadevam Indus hypotheses; Oct-5 buttcrack K4 audit; Paradigm portal.
