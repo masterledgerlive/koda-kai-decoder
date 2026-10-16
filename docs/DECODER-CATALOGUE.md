@@ -1096,6 +1096,45 @@ The universal quantum decoder stays [SPECULATION] until proven.
   "who," paired with continuous intent detection answering "what it
   intends." [CLAIMED — DataDome framing via techtimes.com; the IETF
   draft not verified this pass]
+- **PACT — private access control tokens, Cloudflare + Chrome + Firefox
+  + Edge (announced ~June 2026).** Extends Privacy Pass (IETF RFC 9576,
+  2024) with blind signatures: a site that trusts a user issues the
+  browser an anonymous token; other sites accept it as proof of vetting
+  without learning who, which sites, or what device. Publicly verifiable
+  from the issuer's public key alone — no central clearinghouse that
+  could become a tracking point. Explicitly covers AI agents acting on a
+  legitimate person's behalf. Distinct from Web Bot Auth: PACT is the
+  CAPTCHA-replacement token layer at the gate; Web Bot Auth is
+  cryptographic identity plus continuous intent grading inside the
+  session. Decoder significance: the first browser-native,
+  privacy-preserving CAPTCHA successor with agent-aware personhood —
+  the successor track converges on standards, not products. [CLAIMED —
+  trade-press report of the announcement; standard not finalized;
+  2026-10-15 research loop]
+- **FortSignal Agent Passport (announced May 2026).** One-time
+  human-approved policy (actions, caps, recipients, expiry) approved via
+  passkey biometric; then per-action cryptographic intent binding — the
+  agent hashes the exact action parameters and signs with its own
+  Ed25519 key, with signature validity and exact-policy fit verified per
+  action and a signed receipt issued on pass. Decoder significance: the
+  per-action intent receipt — authorization per action, not per session.
+  [CLAIMED — vendor publication; vendor-framed; 2026-10-15 research
+  loop]
+- **1Password for Claude (announced July 17, 2026).** When the agent hits
+  a login screen, it asks 1Password for the credential; the user sees
+  which credential and why, approves with a fingerprint; 1Password fills
+  it directly into the website — the model never sees it. Access ends
+  when the task ends. Decoder significance: the credential-custody
+  primitive — agents act through locked doors without holding any key.
+  [CLAIMED — vendor blog via trade press; beta-stage at announcement;
+  2026-10-15 research loop]
+- **Apate — undercover AI agents for fraud intelligence (reported Oct 14,
+  2026).** AI agents deliberately enter scams, getting scammed to gather
+  fraud intelligence — detection shifting from passive sensors to
+  proactive, adversary-aware actors. Decoder significance: the
+  engagement instrument becomes the detection instrument, pairing the
+  adaptive-honeypot measurement in the sandbox section. [CLAIMED —
+  trade-press report; 2026-10-15 research loop]
 - **FP-Inconsistent fingerprint-consistency detection (arXiv, Sep
   2025).** ~500k requests from 20 "undetectable" bot services: 52.93%
   evasion vs DataDome, 44.56% vs BotD; inconsistency rules cut evasion
