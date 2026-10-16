@@ -1628,6 +1628,33 @@ The universal quantum decoder stays [SPECULATION] until proven.
   layer is whole-session behavioral grading and cryptographic
   attestation. [CLAIMED — press paraphrase; underlying work not
   reviewed]
+- **"Chain of Trust" — open multi-vendor agent-identity
+  architecture (demonstrated October 2026 at GovWare,
+  Singapore; new to record).** GoDaddy, Infoblox, Google, and
+  Cloudflare showed AI agents completing transactions across
+  independent platforms on open internet standards — a
+  reference architecture developed with Singapore's IMDA from
+  its agentic-AI governance framework. Each agent carries a
+  unique signed identity that any party can verify for itself
+  on every transaction, from discovery through payment to
+  audit. Lesson: the first multi-vendor standards-based
+  identity-verification layer for the agentic web — detection
+  shifts from "human or bot" to "whose agent, and what is it
+  authorized to do." [CLAIMED — company announcement via
+  trade press]
+- **Language-model fraud detector with measured live
+  economics (Coinbase, October 2026; new to record).** A
+  fine-tuned open-weight nine-billion-parameter model run
+  downstream of existing fraud rules on the company's
+  fiat-to-crypto onramp. Reported live A/B test: thirty
+  percent fewer fraudulent transactions, twenty-two percent
+  less fraud value than the prior stack, with better accuracy
+  and lower latency than the frontier models it was compared
+  against — and projected savings roughly three times the
+  inference cost. Lesson: the first live-test receipt of a
+  language model earning its keep as a production fraud
+  detector. [CLAIMED — company-run tests via company blog;
+  not independently assessed]
 
 ## Sandbox & container tech
 
