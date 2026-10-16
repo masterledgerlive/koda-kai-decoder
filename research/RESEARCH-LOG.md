@@ -2434,3 +2434,16 @@ The catalogue's agent-detection section grew four entries, everything graded cla
 Next in rotation: sandbox and container tech.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+---
+
+## 2026-10-15 — Sandbox & container tech (loop entry, public log)
+
+The October 2026 research loop covered sandbox and container isolation. Three searches; five new records, all paraphrased below; remainder re-confirmed.
+
+- **Independent sandbox test against AI-generated malware (AMTSO-aligned; July 2026).** Twenty machine-built malware samples across five threat categories: the top emulation-based adaptive sandbox detected nineteen of twenty (ninety-five percent); others scored sixteen, fifteen, and five of twenty. First measurable bake-off of detonation chambers against machine-generated malware — the spread says cage choice, not malware cleverness, is the variance. [CORROBORATED — vendor blog reporting a third-party aligned test]
+- **Adversarial environment checks getting mathematical (August 2026 trade press).** One sample compares CPUID throughput against floating-point math on parallel threads — bare metal lands above a threshold, virtualization overhead drops below it, outing the cage. Another malware family applies trigonometry to mouse-movement streams to judge human versus synthetic input. [CLAIMED]
+- **Public evasion-detector checklist (open DFIR repo; September 2026).** An enumerated list of the sensors adversaries use to spot cages: virtualization artifacts (registry keys, driver strings, CPUID bits, disk models) plus time-acceleration detectors (clock deltas around sleeps, hardware counter pairs). The sensors defensive time-manipulation must defeat are public and enumerable. [CLAIMED]
+- **Tiered execution for agent payloads (open project).** One execution seam over three isolation tiers — a fast namespace layer (milliseconds), a user-space-kernel layer (about a tenth of a second), a micro-VM layer (a few hundred milliseconds to spawn) — with one consistent security model across all of them: no network by default, allowlisted domains, vault-injected credentials, resource limits. [CLAIMED — project documentation]
+- **Sandbox boot-latency measurements (open benchmark; early October 2026).** Server-side boot times on one platform: about four milliseconds for the fastest engine, twenty-two for WASM, thirty-four for a warm micro-VM pool, one hundred eighty-nine for containers, two hundred eighty-four for the user-space kernel. Per-detonation cost is dominated by cage boot. [CLAIMED — project benchmark]
