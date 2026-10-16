@@ -379,3 +379,10 @@ Source: https://github.com/grzlz/ai_quantummechanic
 - **Differentiable fusion-plasma transport (CORROBORATED — published paper).** Tokamak core-transport simulator with autodiff and ML-surrogate coupling, verified against the reference code. Significance: fusion plasma joins the fleet.
 - **The symbolic engines get stricter (CORROBORATED — development records).** Sparse-matrix deprecation migration, a new special-function printer hook, and — most welcome — an inequality solver that stops silently canceling singularities. Significance: the verifier keeps getting more honest.
 - **Standing watch item, unchanged:** MuJoCo Warp differentiability is still pending. None of this pass's new engines close it.
+
+
+## 18. New engine notes (2026-10-16 research loop — math and physics track, eighth pass)
+
+- **Approximate matrix exponential solver (CORROBORATED — peer-reviewed paper; reported secondhand).** A new numerical method for ion-channel kinetics, fastest in benchmarks against the classic solvers, fast enough on a flagship GPU to simulate hundreds of thousands of channel instances in real time. Released as an open-source package integrated into the standard neuron simulator, with the exact solution added beside it as a verification reference. Significance: the ion-channel primitive gets a benchmarked fast path with receipts.
+- **Hard sign constraints for physics-informed networks (CORROBORATED — peer-reviewed journal; reported secondhand).** Neural networks forced to respect the known direction of each input's causal push — no governing equations, no penalty tuning. Constrained training ran cheaper than the unconstrained version. Significance: the physical-honesty minimum — a model can score beautifully and still be causally wrong; the sign check is a cheap pre-gate.
+- **Parked:** a pre-seed startup's thousand-fold speedup claim for photonic-circuit simulation — announcement only, no receipts.
