@@ -12422,3 +12422,5 @@ The honest weak joints: the alteration's materiality is load-bearing and silent 
 
 *TDW-95 instrument seeded 2026-10-16 ~04:18 EDT by the decoder-create-loop.*
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never Shadow's live environment.*
+
+## TDW-96 — The Aged Order Instrument *(order-staleness / temporal-validity interrogation instrument; design, never run)*
