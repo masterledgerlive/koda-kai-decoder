@@ -2698,3 +2698,13 @@ Two targeted news searches. Three new items; remainder unchanged.
 - **Library update:** the public catalogue's suggestion-implant section gained the fragment-reconstruction technique, the on-device shield, and the logged-out-mode note with public-safe phrasing. Next in rotation: math and physics engines.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~07:27 EDT — decoder-research-loop — Math and physics engines (rotation #12)
+
+Quiet pass. Two targeted searches (scientific-Python releases; symbolic regression and physics simulation news) turned up no new material — every hit resolved to already-filed entries.
+
+- **Re-covered, no status change:** the stable SciPy and SymPy releases and their planned strictness improvements; the September turbulence-closure result from Oxford (a compact equation for the inner-layer production-to-dissipation ratio, discovered from simulation data, with its failure envelope published); the engineering-oriented symbolic-regression framework pairing a language model with a physics-ruled search; the physics-guided equation-discovery agent; the growing fleet of differentiable physics simulators across systems biology, porous-media flow, neuron models, general physics, spectroscopy, and fusion plasma — with the one standout gap (MuJoCo Warp differentiability) still unaddressed.
+- **Library update:** none — no new technique or instrument this pass. Next in rotation: unsolved ciphers and prize bounties.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
