@@ -293,6 +293,27 @@ CLAIMED / SPECULATION.*
   over. [VERIFIED lineage — the break's public record; SPECULATION — the
   Gauntlet mappings are this entry's doctrine, never run]
 
+- **Fialka (M-125)** — the Soviet 10-rotor answer to Enigma, classified for
+  decades, still unbroken on the public record. Ten rotors on one axle, a
+  30x30 pin commutator, and a punched card (30 holes, one per row-column
+  pair) specifying a *full permutation* of the contact lines — Enigma's
+  plugboard rebuilt at strength, pairwise swaps replaced by a total
+  permutation. Disassemblable rotors ("PROTON" rotorset): mechanical pins on
+  each outer ring key the stepping itself, irregular and odometer-free; the
+  M-125-3MN added letter, letter+symbol, and digits-only modes for codebook
+  and superenciphered use. Soviet service from the late 1950s to the 1991
+  collapse; a specimen now sits in the Air Force ISR Agency Heritage Center
+  beside Enigma and SIGABA, on loan from the National Cryptologic Museum.
+  [VERIFIED — mechanism via Wikipedia Fialka; service and museum display via
+  Air & Space Forces Magazine] No successful cryptanalysis has been
+  *published* in open sources — absence of evidence, never a fact, since the
+  machine's Western-intelligence history is a closed file. [CLAIMED —
+  absence-of-evidence claim] Gauntlet takeaway: file "never publicly broken"
+  beside the success ledger, never above it; interrogate the stepping
+  control first (both surviving reputations live there); and always ask where
+  the key physically lived — a punched card is a supply chain, not a
+  computation. [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
