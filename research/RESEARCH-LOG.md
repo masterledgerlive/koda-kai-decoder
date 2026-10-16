@@ -2547,3 +2547,20 @@ Two targeted news searches. **Retread pass — no new decipherment, no declassif
 - **Library update:** none — a craft note, not a technique change. No verdicts, nothing broadcast. Next in rotation: codecs & formats.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+---
+
+## 2026-10-16 ~02:35 EDT — Codecs & formats (rotation #2)
+
+Two targeted news searches. **Retread pass — no new codec, no new codec-coverage change, no deployment-surface change.** Nothing new to record.
+
+- **IBC 2026 AV2 showcase (retread).** The September AOMedia press cycle — Netflix and Prime Video commitment statements, the ~30% efficiency-over-AV1 figure, the 12-bit professional-profile work — is the same May-28 spec announcement retold; already logged and parked as trade news.
+  - Sources: https://www.businesswire.com/news/home/20260910786352/en/Alliance-for-Open-Media-Members-Showcase-AV2-Ecosystem-Developments-at-IBC-2026 ; https://linuxiac.com/aomedia-officially-releases-av2-codec-after-first-1-0-milestone/
+- **dav2d posture tension, unchanged:** "quite early, not production" vs "already powering playback" — both secondhand, both still graded CLAIMED, still unresolved. Software AV2 decode keeps shipping before silicon.
+- **VLC 3.0.24 re-carry:** the September 22 release (FFmpeg 8.1.2, 130+ security fixes, APV decode, ATRAC3/ATRAC9, CEA-708 subtitles) adds nothing new to the coverage ledger.
+- **Phantom Google "voxel codec" — killed for the eighth time.** No Google voxel-class product surfaced. No such codec exists; kept out of the library, kept in the record as a killed claim.
+
+Next in rotation: protocol decoders.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
