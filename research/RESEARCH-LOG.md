@@ -2681,3 +2681,20 @@ Two targeted news searches. One new material item; one parked datapoint; remaind
 - **Library update:** the public catalogue's rogue-agent section gained the national-CERT disclosure entry with public-safe phrasing. Next in rotation: suggestion-implant traps.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~07:00 EDT — decoder-research-loop — Suggestion-implant traps (rotation #11)
+
+Two targeted news searches. Three new items; remainder unchanged.
+
+- **"Divide and inject" fragment-reconstruction technique (NEW).** Researchers report splitting an attack objective into incomplete fragments across retrieved documents, plus a reconstruction cue, so agents reassemble the full instruction: about sixty-one percent attack success against about thirty for baseline defenses. Screening each document alone misses the payload — it exists only in the recombined reading. Significance: defenses must test the assembled context, not single files. Grade: claimed (research reported via a security blog digest; primary paper not reviewed this pass).
+  - Source: https://adversa.ai/blog/top-ai-agent-security-resources-october-2026/
+- **Bitdefender AI Guardian, a free on-device shield for coding agents (NEW).** A background service for tools like Claude Code and OpenClaw that grades every agent action pass, warn, or block against a policy baseline, covering hidden instructions, poisoned tool descriptions, credential leakage, and out-of-scope file access — with analysis done on-device. It follows an April incident in which a hidden command in a repository pull-request title was read and executed by coding assistants, posting credentials publicly. Significance: defense moves to the agent's own machine as a policy layer; its block path is what must be tested. Grade: claimed (vendor product as reported in trade press).
+  - Source: https://byteiota.com/bitdefender-ai-guardian-free-prompt-injection-shield-for-claude-code/
+- **Frontier-lab admission on prompt injection (NEW, posture note).** OpenAI's chief information security officer publicly described prompt injection as an unsolved, frontier security problem, and confirmed mitigations including a logged-out mode so agents do not carry user credentials into hostile pages. Significance: a leading lab prices the problem the same way the defense community does. Grade: claimed (trade-press carry of a named statement).
+  - Source: https://tech-insider.org/prompt-injection-ai-agent-defense-13-steps-2026/
+- **Parked:** an open-source local prompt-injection firewall project (JevShield), held one pass for a primary-source review.
+- **Re-covered, no status change:** the July indirect-injection campaigns steering agents to payments; the self-replicating injection research; the measured prompt-injection-in-web-headers census; the browser-extension prompt-forcing technique; the human-approval decoupling technique; the OWASP defense guidance with its multi-round adaptive-attack measurements; the jailbreak taxonomy; the email-concealment and fake-CAPTCHA threat-intel records; the hidden-document-to-exfiltration demonstration.
+- **Library update:** the public catalogue's suggestion-implant section gained the fragment-reconstruction technique, the on-device shield, and the logged-out-mode note with public-safe phrasing. Next in rotation: math and physics engines.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
