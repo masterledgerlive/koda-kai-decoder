@@ -2611,3 +2611,19 @@ Two targeted news searches. Two items new to the record — both post-quantum mi
 - **Library update:** none — no technique advance this pass. Next in rotation: photonic comms and power.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~04:30 EDT — decoder-research-loop — Photonic comms & power
+
+Two targeted news searches. Two items new to the record — one experimental advance, one vendor hardware datapoint; the rest re-covered.
+
+- **Stony Brook and Brookhaven demonstrate a 13-mile free-space quantum link, including daytime transmission (NEW).** Entangled photon pairs traveled from a Stony Brook physics lab over fiber to a rooftop station, then across a thirteen-mile free-space optical link over Long Island Sound to Brookhaven National Laboratory — with quantum correlations surviving the atmospheric path. The teams then ran the link in daylight, validating single-photon optical tracking and beam stabilization under sunlight, which floods detectors with background photons and worsens turbulence. Significance: the daylight barrier is the hard part of free-space quantum communication, and it fell on a working thirteen-mile link — the same beam-tracking layer that power beaming and laser communications depend on.
+  - [CORROBORATED — university research reported via trade press; primary paper not reviewed]
+  - Source: https://www.embedded.com/from-spooky-action-to-quantum-internet-communication-takes-to-the-air/
+- **Salience Labs shows a 64-port all-optical photonic switch at ECOC 2026; announces a 125 million dollar raise (NEW).** The company's all-optical, fully integrated silicon-photonics switch routes light directly on-chip without repeated optical-electrical-optical conversions; it describes the September showcase as the world's first 64-port all-optical photonic switch, with denser configurations in development. Significance: the all-optical-switching lane now has demonstrated multi-port hardware from an independent vendor — circuit-switched optical fabric means GPU-to-GPU paths that never cross a packet switch.
+  - [CLAIMED — company announcement via trade press; no independent figures]
+  - Source: https://siliconangle.com/2026/10/14/salience-labs-raises-125m-in-funding-after-showcasing-worlds-most-advanced-fully-optical-circuit-switching-tech/
+- **Orbital beaming watch — no change.** Star Catcher's Protostar and Cowboy Space's Reason-1 remain launched but not yet demonstrated; no successful power transfer published by any outlet. They stay beaming tests, not beaming systems, until one succeeds.
+- **Library update:** the photonic comms and power section of the public catalogue gained the free-space quantum-link entry and the all-optical-switch entry. Next in rotation: predictive math.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
