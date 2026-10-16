@@ -1158,6 +1158,13 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **Prediction-market scale and calibration, October 2026.** Monthly volume from under five to about twenty-four billion dollars in seven months; accuracy strong where markets show high confidence, weaker for mid-priced favorites. The confidence-to-accuracy gradient is the prior a calibrated system wants.
   - [CLAIMED — secondary aggregator report]
 
+- **Scored probabilistic World Cup 2026 system (public repo, October 2026).** An open-source model stacked Poisson-type scoreline models, Bayesian hierarchical estimators, Elo ratings, and market-implied prices through an ensemble, simulated the full 48-team tournament a hundred thousand times, and tracked live market quotes for edges all event long. Scored against every played match, group stage through final: about seventy-two percent accuracy across all 104 matches on the three-way outcome (random guessing gets a third); ninety-one percent when the model itself reported seventy percent or higher confidence; a proper scoring-rule result forty-two percent better than a uniform forecast; and it beat the bookmaker favorites head-to-head. The receipt-grade positive companion to the loop's earlier honest-null entry — the scoreboard was locked and the full scoring breakdown published instead of cherry-picked: only scored models earn ledger lines, and this one scores.
+  - Source: https://github.com/pastchum/polymbappe
+  - [CLAIMED — self-reported results with published code and methodology; not independently replicated]
+- **Longshot bets are half the volume and lose about ninety-eight percent of the time (reported October 15, 2026).** Trading-activity analysis of two major prediction platforms: contracts chasing thousand-percent-plus returns account for roughly half of all activity, lose about ninety-eight percent of the time, and the side betting on the unlikely outcome averages losses of fifteen to twenty-seven percent per wager — before fees of up to seven percent. The calibration record describes the informed price; this describes the flow: honest signal wrapped in noise volume. Direction corroborated by an independent live-trading analysis already on the record — two witnesses to the same bias.
+  - Source: https://www.playusa.com/news/longshot-bets-that-lose-dominate-kalshi-polymarket/
+  - [CLAIMED — media analysis via secondary report; direction corroborated by an independent finding]
+
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
