@@ -2864,3 +2864,12 @@ Three targeted searches plus a standing-record review. **Retread pass — no new
 - **Field note, unresolved:** a Linux distribution's packaging change broke H E V C playback in the distro-packaged V L C build — a deployment-fragility reminder, not a codec change.
 - **The phantom voxel codec stays dead (ninth confirmation).** The verification search surfaced only generative-video and embedding products — none of them a codec. The standing question is answered again: no such codec exists. It stays out of the catalogue.
 - **Library update:** none this pass. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+## 2026-10-16 ~16:57 EDT — Protocol decoders (rotation #3, twenty-fourth pass)
+
+Two targeted searches (Wireshark dissector additions October 2026; IoT/mesh protocol decoding). **One item NEW TO RECORD — a CVE identifier completing the on-record 4.6.9 sharkd entry (bookkeeping);** remainder retreads, no status change.
+
+- **CVE-2026-95388 — the sharkd crash fix in Wireshark 4.6.9 (Sep 23, 2026; NEW TO RECORD; identifier only — bookkeeping).** A retell of the 4.6.9 release notes names the advisory: a crash vulnerability in sharkd, affecting 4.6.0–4.6.8 and 4.4.0–4.4.18, corrected in 4.6.9 and 4.4.19. The fix itself was already recorded; this pass pins the CVE number. Note carried: never expose sharkd to untrusted users, and a desktop-only software inventory misses it — the embedded/automated parser surface stays in the trust-zone checklist.
+  - [CLAIMED — secondary retell; first-party advisory not opened this pass]
+  - Source: https://www.linkedin.com/pulse/wireshark-fixes-19-security-flaws-including-code-b7vwe
+- **Re-covered, no status change:** Wireshark 4.6.9 (zero new protocols; ~30 dissectors refreshed — QUIC, LoRaWAN, ZigBee ZCL, SGP.32, GNW, OpenFlow 1.3–1.5; advisory range wnpa-sec-2026-92 to -110, incl. profile-import CVE); 4.6.8 / 4.6.7 advisory ranges; the 4.6.x "no new protocols" standing line; Cisco CSMP dissector 2.0.0; CoAP-EAP dissector merged upstream (ships 4.8.0+); the 2026 maintenance-and-hardening cycle. Next: rotation #4 (language decoders).
