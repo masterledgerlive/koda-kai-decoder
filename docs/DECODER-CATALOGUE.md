@@ -3110,6 +3110,30 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
   probe coverage; and grade unbroken claims CLAIMED until an authorized
   red-team attempt runs against a live twin — never against the legend.
 
+- **ADFGVX (1918) — Painvin's Radiogramme de la Victoire, or: the break
+  that moved armies.** Spring 1918: Germany put ADFGX on high-command
+  traffic — fractionating substitution (each plaintext letter into two
+  symbols from a 5x5 square; the letters chosen to sound distinct in Morse)
+  followed by columnar transposition. Georges Jean Painvin of the French
+  Bureau du Chiffre broke it in early April; when Germany added a sixth
+  letter on June 1 (ADFGVX, a 6x6 square holding letters plus digits), he
+  re-broke it the night of June 1-2. The decrypts exposed the German order
+  of battle: the June 9 offensive would fall between Montdidier and Noyon,
+  not on Paris — Foch massed reserves at the right place and the offensive
+  died. France called it the Radiogramme de la Victoire; the break cost
+  Painvin his health. [CORROBORATED — standard histories; CLAIMED for the
+  exact overnight timing and for sole causation]
+- **Decoder lesson (ADFGVX → Gauntlet):** fractionation is structure
+  before substitution — the doctrine's fifth confirmation (Z340, Copiale,
+  Grand Chiffre, Linear B): re-chunk the specimen's output stream before
+  any value analysis, because the transmitted unit is not the meaningful
+  unit. The break was timely, not total — the attacker's side of the
+  M-209 coin: interrogation scores time-to-partial-read in hours, and a
+  partial read delivered before the event beats a complete read delivered
+  after. The adversary rekeys mid-attack — Painvin's overnight re-break is
+  the Rejewski rung's older ancestor: a changed system is a new target,
+  and treating it as one is the job, not the exception.
+
 ---
 
 ## Container & file-format forensics
