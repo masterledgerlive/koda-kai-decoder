@@ -858,6 +858,28 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   recommends member-state PQC migration strategies by end of 2026; DORA
   state-of-the-art crypto obligations; ESMA supervisory priority from 2027.
   [CORROBORATED]
+- **Google "magic state cultivation" (Science, October 2026).** First
+  working-hardware demonstration on the company's Willow processor: a
+  forty-fold error reduction and a record ninety-nine point nine nine
+  percent logical fidelity for the special quantum states a fault-tolerant
+  computer needs. The standard way of producing those states was long
+  projected to consume ninety to ninety-five percent of a machine's
+  physical qubits; the new technique grows pure states by filtering out
+  errors, using far less hardware. The team also transferred cultivated
+  states between two different error-correction methods on the chip,
+  showing hybrid approaches can be integrated. Decoder significance:
+  this attacks the fault-tolerance bottleneck from the resource side,
+  pairing the decoder-side race already on the record. The stated next
+  challenge is scaling it up; the paper makes no cryptography claim, so
+  the "Q-Day" framing in some press is hype. [CORROBORATED —
+  peer-reviewed paper, announced via the company's own blog and
+  independent trade press; paper not read first-hand this pass]
+- **The skeptic's timeline flipped (May 2026).** Scott Aaronson, the
+  field's most trusted quantum skeptic, wrote that people whose judgment
+  he trusts more than his own now see a fault-tolerant quantum computer
+  able to break deployed cryptography as achievable by around twenty
+  twenty-nine. When the skeptic moves, the migration clock gains weight.
+  [CLAIMED — secondary report; original post not read first-hand]
 The universal quantum decoder stays [SPECULATION] until proven.
 
 ## Photonic comms & power
