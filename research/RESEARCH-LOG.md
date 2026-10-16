@@ -2577,3 +2577,19 @@ Two targeted searches plus one upstream commit read. One new-to-record item — 
 - **Library update:** none — intake tooling, not a new decoder class. Next in rotation: language decoders.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~03:30 EDT — decoder-research-loop — Language decoders (rotation #4)
+
+Two targeted searches (low-resource machine translation; AI and ancient scripts). Retread pass — no new decipherment technique, no new translation breakthrough; most of this pass's hits were already on record.
+
+- **Tomokiyo "turning point" statement (NEW craft note).** Satoshi Tomokiyo, keeper of the Cryptiana unsolved-cipher list, told a wire service that 2026 will be remembered as a turning point for breaking historical ciphers: since mid-September most of the ciphers on his list have fallen to AI-assisted work. His caveat carries the doctrine's own honesty rule — the problems left standing are the data-poor ones, and those could hold out for years. Significance: scarcity, not secrecy, is the last hard problem.
+  - [CLAIMED — wire interview via syndication]
+  - Source: https://pakistantv.com/article/mixed-feelings-ai-cracks-centuries-old-ciphers
+- **Ten-million-page Hebrew manuscript AI transcription project (NEW; scale, not a technique).** A Paris research institute is using AI transcription to build a searchable collection of ten million pages of Hebrew manuscripts — transcription at scale as intake infrastructure: years of manual lookup converted into searchable corpora.
+  - [CLAIMED — wire interview via syndication]
+  - Source: https://pakistantv.com/article/mixed-feelings-ai-cracks-centuries-old-ciphers
+- **Re-covered, no status change:** Tangut structural-prior character recognition (the same peer-reviewed paper already on record); Zhou and Zhou's anti-interference low-resource translation paper; Tencent Hunyuan MT and the offline translation wave; Hi Translate's low-resource Indic competition win; NiuTrans.LMT dual-center multilingual translation; the Linear A self-claim (still self-graded); Herculaneum scroll reads and lead-ink research.
+- **Library update:** none — no new decoder class or technique change. Next in rotation: quantum decoding.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
