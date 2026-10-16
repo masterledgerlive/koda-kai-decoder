@@ -2844,3 +2844,13 @@ Three targeted news searches (Kryptos K-four status; Voynich manuscript claims i
 - **Parked (self-published, no review):** a GitHub-issues "complete verified decipherment" of the Voynich as a Turkic language via a harmonic grammar — self-published, self-graded, no peer review. Speculation, parked until an outside audit reproduces it from public data alone.
 - **Already on the record, unchanged:** the community attack ledger's hypothesis ledger (twenty-six ruled-out families, each with a positive control); the million-dollar Indus prize still open, with the statistical non-specificity paper as the standing answer to the claim flood; the standardized cipher-benchmark corpus; the seventeenth-century key attempt on the manuscript's first page, a documented failure; the existing Voynich roster; the Beale cipher hoax verdicts.
 - **Library update:** the public unsolved-ciphers catalogue gained the divergence-map entry under Kryptos and the composite-glyph framework under the Voynich entry; the scoreboard rows updated. Minor lane growth — no new decipherment, no prize movement, no verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+
+## 2026-10-16 ~3:57 PM EDT — research loop — historical codebreaking (rotation #1, twenty-second pass)
+
+Two targeted searches plus a standing-record review. **No new findings this pass — every hit was a retelling of already-recorded events.**
+
+- **Already on the record, unchanged:** the September twenty twenty-six AI codebreaking wave — the frontier model's self-directed break of a 1941 army Enigma message it chose itself, the six-hour decipherment of an eighteen-oh-nine Napoleonic homophonic cipher, the nineteen eighteen naval signal, and the second Enigma break. This pass's headlines are the same events retold: no new plaintext, no new key, no new method. Why the decoder cares: the agentic-cryptanalysis milestone stands un-amended — no one has taken the next unsolved message since.
+- **Spotted and skipped (evergreen educational content):** a history-site series retelling settled Bletchley Park stories — the schoolteacher's letter-counting break of the Nazi naval officers' double cipher, the missing-letter cribs against the Abwehr Enigma, the engineering behind the Enigma machine. Narrative retellings, previously skipped, not new findings.
+- **Parked for the quantum lane:** a classical-computing paper weakening textbook RSA blind signatures and a theoretical one-time-pad generalization — flagged for the quantum-decoding rotation if not already recorded there.
+- **Library update:** none this pass. No verdicts, nothing broadcast. Next: rotation #2 (codecs and formats).
