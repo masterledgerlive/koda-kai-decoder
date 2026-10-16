@@ -2492,3 +2492,26 @@ The catalogue's suggestion-implant section grew six entries, every claim graded,
 Next in rotation: math and physics engines.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+---
+
+## 2026-10-16 — Math and physics engines (loop entry, public log)
+
+The October 2026 research loop covered math and physics engines. Three news searches; seven new records, all paraphrased below; remainder re-confirmed.
+
+- **Gradients through cell-biology models (~October 7, open-source release).** A systems-biology tool's new version compiles models into code that runs on the JAX framework, so a full simulation — including discrete events — can be differentiated: the simulator is compiled, batched over parameter sets, and driven by gradients. It passes the shared test suite where it overlaps with the reference simulator. Decoder lesson: the differentiable-simulation fleet keeps closing gaps — gradients through a cell model are the same primitive the decoder's physics cage needs for any dynamical system. [CORROBORATED — first-party release notes; performance claims not independently verified]
+- **Differentiable fluid simulation for porous media (2026, peer-reviewed journal).** A Lattice Boltzmann library for multiphase fluid flow through underground and engineered porous materials, built as an extension of an earlier framework — hardware-agnostic, scaling from CPUs to multi-GPU and distributed setups. Decoder lesson: porous-media flow joins the shelf of physics you can differentiate through — another honest instrument. [CORROBORATED — published paper; performance claims author-stated]
+- **Differentiable neuron fitting, now a documented agent workflow (~September 2026).** A JAX-based simulator of biophysically detailed neurons (published in a major methods journal in 2025) gained an open skill document walking an AI agent through the entire gradient-based fitting pipeline: batched stimulus protocols, bounded parameter transforms, differentiable loss functions, parallel optimizer restarts, held-out validation — with scripts and tests included. Decoder lesson: when fitting a neuron becomes a documented agent workflow, the physics surface and the tool-use surface meet — and gradients through a neuron are the template for gradients through any specimen's dynamics. [CORROBORATED — published paper; skill repo first-party]
+- **A new generalist differentiable physics engine (open source, active).** One new project covers classical mechanics, electromagnetism, quantum mechanics, fluids, optics, and statistical mechanics with automatic differentiation throughout: define a Lagrangian and get equations of motion, symplectic integrators for long runs, Maxwell solvers with absorbing boundaries, unitary Schrödinger solvers, several fluid solvers, all compiled and batched. Decoder lesson: the generalist engine the lane has been waiting for — young community code, so vet before trust. [CLAIMED — public repo]
+- **Differentiable spectroscopy tools (open source ecosystem).** A small family of projects differentiates biophysics measurements — spin-resonance spectroscopy, hydrogen-exchange mass spec, energy-transfer modeling — with gradients verified against textbook predictions. Decoder lesson: gradients through a spectrometer are the inverse-problem primitive the decoder reuses everywhere. [CLAIMED — public repos]
+- **Differentiable fusion-plasma transport (open source, paper updated mid-2026).** A tokamak core-transport simulator with automatic differentiation and machine-learning surrogate coupling, verified against the established reference code. Decoder lesson: fusion plasma enters the fleet — the one standing gap in the differentiable lane is now the exception that proves the rule. [CORROBORATED — published paper]
+- **The symbolic engines get stricter (engine maintenance, autumn 2026).** The open symbolic-math library's development branch migrates from deprecated sparse matrix types to sparse arrays, adds code-generation support for a special function, and — most welcome — stops its inequality solver from silently canceling singularities, keeping denominator restrictions intact. The current stable releases: SymPy one point fourteen, SciPy one point eighteen point one. Decoder lesson: fewer silent simplifications in the verifier is exactly what you want from ground truth. [CORROBORATED — public development records]
+
+Re-checked with no status change: the one-operator symbolic-regression project (still the same grammar, no new capability) and the standing MuJoCo Warp differentiability gap (none of this pass's new engines close it — the watch item survives intact).
+
+The math-physics notes grew a seventeenth section, every claim graded, nothing asserted. No verdicts, no broadcasts.
+
+Next in rotation: unsolved ciphers and prize bounties.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
