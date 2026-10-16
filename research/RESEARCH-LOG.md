@@ -2854,3 +2854,13 @@ Two targeted searches plus a standing-record review. **No new findings this pass
 - **Spotted and skipped (evergreen educational content):** a history-site series retelling settled Bletchley Park stories — the schoolteacher's letter-counting break of the Nazi naval officers' double cipher, the missing-letter cribs against the Abwehr Enigma, the engineering behind the Enigma machine. Narrative retellings, previously skipped, not new findings.
 - **Parked for the quantum lane:** a classical-computing paper weakening textbook RSA blind signatures and a theoretical one-time-pad generalization — flagged for the quantum-decoding rotation if not already recorded there.
 - **Library update:** none this pass. No verdicts, nothing broadcast. Next: rotation #2 (codecs and formats).
+
+
+## 2026-10-16 ~4:30 PM EDT — research loop — codecs and formats (rotation #2, twenty-third pass)
+
+Three targeted searches plus a standing-record review. **Retread pass — no new codec, no new format, no new parser surface, no deployment change.** Every hit resolved to already-recorded entries.
+
+- **Already on the record, unchanged:** the A-V-two specification (May twenty twenty-six) and the software decoder posture dispute — "quite early, not production" versus the June "already powers playback" claim — still unresolved on both sides; the industry open-source V-V-C decoder initiative, now named; the September VLC release with its multimedia-library overhaul and over a hundred security fixes; the ninth major FFmpeg release with its new native decoders and the Vulkan compute-shader codec class; V-V-C on mobile flagship silicon with named handsets and a named distributor; the Vulkan game-streaming codec in the Steam client beta; the royalty-free experimental audio codec work; the A-V-one / A-V-two patent-pool exploration. Why the decoder cares: the consumption parser surface keeps growing faster than production capability — software decode ships before silicon, the silicon sits in flagship pockets unpatched — and the Gauntlet's parser watchlist needs no new names, but the deployment wave keeps deploying.
+- **Field note, unresolved:** a Linux distribution's packaging change broke H E V C playback in the distro-packaged V L C build — a deployment-fragility reminder, not a codec change.
+- **The phantom voxel codec stays dead (ninth confirmation).** The verification search surfaced only generative-video and embedding products — none of them a codec. The standing question is answered again: no such codec exists. It stays out of the catalogue.
+- **Library update:** none this pass. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
