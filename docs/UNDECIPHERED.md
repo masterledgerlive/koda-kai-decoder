@@ -377,6 +377,12 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   and software Bombe, and broke it in about two days; validated by Frode
   Weierud. The obstacles were operator typos, a wrong wheel order, and dirty
   transcription — usage flaws, not the machine. [CORROBORATED]
+- **Dhofari 1** (2026) — pre-Islamic script of Oman's Dhofar region, undeciphered
+  since the early 20th century; cracked by Ahmad Al-Jallad (Ohio State),
+  published in *Jaarbericht Ex Oriente Lux*. The break: three inscriptions
+  were not words but the Dhofari alphabet — abecedaries painted on cave walls
+  and carved into wadi stones. The corpus carried its own key table; the
+  human error was the premise, not the cipher. [CORROBORATED]
 - **The pattern:** every break in this section leaned on somebody's mistake — a
   typo, a reused key, a misfiled date, a crib left in the habits. The doctrine's
   "usage flaws first" ordering holds again. [DOCTRINE]
@@ -391,7 +397,8 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 
 | Target | Era | Status | Bounty |
 |---|---|---|---|
-| Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; claimants: Yajnadevam 2024 (Sanskrit, CLAIMED) + Pierson 2026 preprint (Proto-Dravidian, CLAIMED, falsifies Yajnadevam at 0/34); no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
+| Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; claimants: Yajnadevam 2024 (Sanskrit, CLAIMED) + Pierson 2026 preprint (Proto-Dravidian, CLAIMED, falsifies Yajnadevam at 0/34); claim-flood since prize announcement — no award to anyone; no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
+| Dhofari 1 | pre-Islamic | **Solved Jul 2026** — Al-Jallad (Ohio State): three inscriptions were abecedaries; the corpus carried its own alphabet | — |
 | Linear A | ~1800 BCE | Unsolved; Di Mino claim (Jun 2026, 408-word dictionary via Claude Code, "proposed" values) under academic review | — |
 | Byblos script | ~1800–1500 BCE | Unsolved; ~114 signs, ~10 inscriptions, no bilingual; syllabary by sign-count, no accepted reading | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
