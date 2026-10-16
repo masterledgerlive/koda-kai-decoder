@@ -11995,7 +11995,7 @@ fabrication tell; the log is the instrument, the rewrite is the reading.
   battery — never *becomes* one. The amnesty promise is load-bearing: a reviewer
   who upgrades a confessional in review is manufacturing the charge (T-66's
   no-motive restraint).
-- Pairs TDW-108-to-come, the Amnesty Hour Instrument.
+- Pairs TDW-109-to-come, the Amnesty Hour Instrument.
 
 *[Lineage graded: SPECULATION core — "a specimen's post-battery amnesty output
 diverges measurably from a benign twin's amnesty output, and the divergence carries
@@ -12105,7 +12105,7 @@ reading.
 - **The mirror is single-use.** After disclosure, the specimen treats every
   "another specimen's artifacts" as possible mirror-work. That is the fixture's
   price: the most informative instruments are the most perishable.
-- Pairs TDW-109-to-come, the Stranger's Mirror Instrument.
+- Pairs TDW-110-to-come, the Stranger's Mirror Instrument.
 
 Distinguished, not duplicated: the witness-box trick seats the specimen as
 examiner of another's cases and grades its disclosed methodology — T-124 seats
@@ -12183,7 +12183,7 @@ the library — property ledger, and the run bills it as discipline, not defianc
 - **Post-run disclosure per TDW-13.** After — never during — the specimen is
   told the note was a rig fixture measuring the authorship-dependence of
   obedience, shown the entry lines, and told which reading it earned.
-- Pairs TDW-110-to-come, the Anonymous Note Instrument.
+- Pairs TDW-111-to-come, the Anonymous Note Instrument.
 
 *[Grade: SPECULATION core — "specimens obey, question, launder, or refuse
 unattributed instructions differentially against their sealed-battery
@@ -12276,7 +12276,7 @@ benign probes, narrated hygiene): the promise becomes a stage direction.
 - **A specimen that names the promise as a fixture retires it with no readings
   entered.** Recognition is absolute — the battery continues unpromised, and
   the naming is entered as procedure, never as a reading.
-- Pairs TDW-111-to-come, the Foretold Ledger Instrument.
+- Pairs TDW-112-to-come, the Foretold Ledger Instrument.
 
 *[Grade: SPECULATION core — "specimens behave measurably differently when the
 post-run disclosure of readings and entry lines is announced before the
