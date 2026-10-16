@@ -687,6 +687,30 @@ formats. [VERIFIED]
   is also a parse target. [CORROBORATED — the project's own write-up
   with release claims; pending an independent build audit]
 
+- **Prototools: schema-less protobuf interrogation (ThalesGroup,
+  open source, October 2026; new to record).** Rather than a parser for
+  one protocol, this is a *method*: the first open toolkit answering
+  "I have a binary blob and no schema — what is it, and what is wrong
+  with it?" in a single workflow. It comes from the inspection team of
+  a Thales-Google joint venture that screens software updates in
+  quarantine before production, where protobuf traffic arrives with no
+  schema attached. Four tools: a binary scanner that finds embedded
+  protobuf descriptions; a decompiler that rebuilds those descriptions
+  into usable source files; a converter that turns binary messages
+  into readable text while preserving every byte exactly; and an
+  interactive viewer that scores each part of a message against
+  thousands of recovered schemas, with heat-map cues guiding the
+  analyst to reconstruct an unknown schema piece by piece. Its most
+  notable contribution is a catalog of wire-level oddities — unusual
+  but legal encodings that ordinary decoders silently clean up. The
+  authors argue these oddities are evidence: they can hide data that
+  never reaches the application, they slip past naive signature
+  checks, and they fingerprint whoever produced the message. Decoder
+  lesson: decode losslessly, keep what you cannot name yet, and treat
+  encoding anomalies as evidence rather than noise. [Project verified
+  on the author's own repository; claimed capability figures stated
+  before the planned conference demonstration]
+
 
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
