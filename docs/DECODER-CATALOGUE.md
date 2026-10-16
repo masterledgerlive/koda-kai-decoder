@@ -2938,6 +2938,18 @@ The universal quantum decoder stays [SPECULATION] until proven.
   smallest measured, but real; anything an agent ingests is an instruction
   surface. [CORROBORATED — trade press reporting vendor research]
 
+- **Follow-on tests on the header channel (October 16).** The newest Claude
+  models largely ignored poisoned header payloads unless the user explicitly
+  granted extra authority — the first measured model-level defense on this
+  channel, and the cheapest control is the model's default refusal. A broader
+  sweep counted fifteen thousand three hundred validated indirect prompt
+  injections across one point two billion web pages, about seventy percent
+  hiding in non-rendered elements like headers, comments, and metadata.
+  Delivery detail: some common web tools return headers to the agent
+  automatically, so a poisoned header rides into its context unasked — the
+  audit target is tooling that ingests headers by default. [CLAIMED —
+  secondary reporting of fresh analysis; primaries not opened first-party]
+
 - **The honest state of injection defense (October 2026, open security
   standard).** Twenty-two distinct real-world payload techniques now
   catalogued, hidden-markup cloaking the most common. New ledger items: a
