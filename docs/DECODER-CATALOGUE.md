@@ -1972,6 +1972,25 @@ The universal quantum decoder stays [SPECULATION] until proven.
   agency listing confirmed; vendor disclosures via trade press, corroborated
   across three independent firms]
 
+- **Perplexity SPACE open-sourced (Oct 15, 2026; NEW TO RECORD).** The
+  sandbox behind Perplexity's Computer agent is now Apache 2.0: one
+  Firecracker microVM per agent task behind an HTTP plus
+  server-sent-events interface, reportedly powering every Computer
+  session since July 2026 at millions of sandbox creations per day.
+  Agents run as root inside the VM while API keys stay outside it;
+  external traffic routes through a gateway; full VM state — memory,
+  running state, files — can be saved to pause, resume, or branch.
+  Median creation latency fell from 185 ms to 60 ms. The vendor's
+  security report claims zero VM-to-host escapes in 108 runs and 11
+  network-policy bypasses in 54 partial-access runs, with gateway
+  defenses changed afterward. Akamai is offering SPACE on its cloud;
+  Crusoe is adding it to managed AI services. Decoder significance:
+  the first production-scale agent-sandbox runtime as readable code —
+  the cage layer becomes auditable — and the measured failure sits at
+  the policy proxy, not the VM wall: layered containment, priced per
+  layer. [CORROBORATED — vendor announcement via trade press;
+  vendor-published security report, not independently replicated]
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
