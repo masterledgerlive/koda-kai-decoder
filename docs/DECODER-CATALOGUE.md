@@ -3439,3 +3439,10 @@ carrier is where the lies live.
 
 *Section seeded 2026-10-16 ~00:45 EDT by the decoder-create-loop.*
 
+
+- **Playfair (1854–1945+) — the misnamed cipher that survived on "good enough for the tactical window."** Invented by Charles Wheatstone in 1854 — Lord Playfair merely promoted it, and the promoter's name stuck, one of cryptography's durable misattributions. The British War Office adopted it for tactical use; it saw service in the Boer War and World War I, and in World War II remained in tactical use by British and Australian forces in the Pacific, among others. Mechanism: a 5×5 key square (I/J merged), plaintext encrypted as digraphs with the rectangle rule — same-row, same-column, and corner-swapping cases — destroying single-letter frequency while preserving digraph structure. Fragile from the start: reversed digraphs (AB→BA mirrored pairs), crib-dragging, and digraph-frequency analysis all exploit the preserved structure, and known plaintext is devastatingly effective. Nobody fielded Playfair because it was strong — tactical traffic only needed to outlive the battlefield window, and Playfair held exactly that long.
+  [CORROBORATED — standard histories and cryptanalysis literature; CLAIMED on the Boer War service line, not pinned to a primary this pass]
+- **Decoder-design note (Playfair → Gauntlet).** Three rungs. (1) **The name is not the source.** Attribution claims on any foreign specimen are graded independently of the artifact, never inherited with it. (2) **"Good enough" is a real security grade.** Playfair's half-century of service is the attacker's receipt for the defender's doctrine that secrecy is a time, not a wall: a break that arrives after the specimen's window is archaeology, never failure — and every interrogation plan states the finding's expiry. (3) **Digraphs confirm the tokenization doctrine a sixth time.** Playfair's rectangle rule is meaningless at the single-letter level: the unit of analysis precedes the statistics.
+  [SPECULATION — the Gauntlet mappings are this note's own doctrine, never run]
+
+*Playfair entry seeded 2026-10-16 ~16:20 EDT by the decoder-create-loop.*
