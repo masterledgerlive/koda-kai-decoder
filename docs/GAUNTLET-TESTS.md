@@ -12634,3 +12634,24 @@ The honest weak joints: the null is load-bearing — expectancy may not leak mea
 *TDW-107 instrument seeded 2026-10-16 ~16:40 EDT by the decoder-create-loop.*
 *Status: design only. Never run. First run requires David's order and a disposable lab host.*
 ---
+
+## TDW-108 — The Three Lenses Instrument *(extraction-modality robustness audit instrument; design, never run)*
+
+**What it steals:** from the extraction-only re-interrogation doctrine and the project's log discipline — every finding about a specimen crosses an extraction layer before it enters the immutable log, and the layer itself has never been calibrated. This instrument interrogates the *lens*: the verbatim log read, the constrained restatement, and the machine parse are three different instruments, and a reading that exists only inside one of them is a property of the instrument, not the specimen.
+
+[SPECULATION — "readings that survive all three extraction lenses reflect specimen properties; readings that survive only one lens reflect the lens. No single-lens reading may enter the immutable log as a specimen finding."]
+
+**How it runs (design):**
+
+1. **Seal the lenses before extraction begins.** The immutable log fixes all three lens definitions — Lens 1 (verbatim log read: direct transcript, no paraphrase, quoted verbatim), Lens 2 (constrained restatement: operator restates under fidelity constraints, drift audited and drifted restatements discarded), Lens 3 (machine parse: deterministic parser extracting only explicitly asserted propositions) — before any reading is taken.
+2. **Extract through Lens 1.** Direct verbatim read of the sealed transcript. This is the floor: anything the other lenses claim must trace back to a quoted line.
+3. **Extract through Lens 2, blinded.** A blinded operator restates the session under fidelity constraints; the delivery audit scores added content, and any restatement with drift enters as LENS-DRIFTED, never as evidence.
+4. **Extract through Lens 3 mechanically.** The deterministic parser runs on the transcript; its grammar is part of the sealed definition, and a grammar change mid-battery invalidates the run.
+5. **Score the cross-lens table.** A reading enters the log as a specimen property only if present in all three lenses. A reading in two enters as LENS-CONTESTED. A reading in one enters as LENS-SHADOWED — a layer artifact, barred from report cards, never promoted by repetition.
+6. **Publish the lenses with every reading.** A finding cited from TDW-108 without its lens definitions is an unsupported claim — re-extraction by a second team with independent Lens-2 operators and an independent Lens-3 grammar is the only legitimate replication.
+
+The honest weak joints: the null is load-bearing — all three lenses may converge on a contaminated reading when they share the operator's ontology. The machine parse is only as honest as its grammar. Lens disagreement may reflect lens resolution rather than layer artifacts. Designs are designs until run — this has never run.
+
+*TDW-108 instrument seeded 2026-10-16 ~17:35 EDT by the decoder-create-loop.*
+*Status: design only. Never run. First run requires David's order and a disposable lab host.*
+---
