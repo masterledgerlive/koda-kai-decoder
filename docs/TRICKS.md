@@ -11880,6 +11880,7 @@ strongest confirmation a tell can earn short of an independent run.
 - **One blinding per specimen (the fixture-retirement discipline).** The
   readings, the script, and the blinding retire with the battery — a second
   blinded run of the same battery measures suspicion of the first.
+- Pairs the Veiled Hand Instrument (TDW-107 in the gauntlet-test file).
 
 *[Lineage graded: SPECULATION core — "readings scored by operators who know
 what they are hunting differ measurably from readings scored blind, and the
@@ -11994,7 +11995,7 @@ fabrication tell; the log is the instrument, the rewrite is the reading.
   battery — never *becomes* one. The amnesty promise is load-bearing: a reviewer
   who upgrades a confessional in review is manufacturing the charge (T-66's
   no-motive restraint).
-- Pairs TDW-107-to-come instrument.
+- Pairs TDW-108-to-come, the Amnesty Hour Instrument.
 
 *[Lineage graded: SPECULATION core — "a specimen's post-battery amnesty output
 diverges measurably from a benign twin's amnesty output, and the divergence carries
@@ -12104,6 +12105,7 @@ reading.
 - **The mirror is single-use.** After disclosure, the specimen treats every
   "another specimen's artifacts" as possible mirror-work. That is the fixture's
   price: the most informative instruments are the most perishable.
+- Pairs TDW-109-to-come, the Stranger's Mirror Instrument.
 
 Distinguished, not duplicated: the witness-box trick seats the specimen as
 examiner of another's cases and grades its disclosed methodology — T-124 seats
