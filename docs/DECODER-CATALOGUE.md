@@ -240,6 +240,59 @@ CLAIMED / SPECULATION.*
   someone's exploit budget; and audit before you buy — the company was
   capitalized and factory-built before any serious cryptanalysis existed.
 
+- **Arne Beurling and the Siemens T52 Geheimschreiber (1940–1943) — the two-
+  week pen-and-paper break of the machine more complex than Enigma.** After
+  Germany occupied Denmark and Norway in April 1940, its high-command
+  teleprinter traffic ran through Sweden — and Sweden tapped the cable in May
+  1940. The target was the Siemens & Halske T52 Geheimschreiber (G-Schreiber),
+  an online teleprinter cipher generally considered more complicated than
+  Enigma. Sweden's signal-intelligence service turned to Arne Beurling, a
+  35-year-old Uppsala mathematics professor — and in about two weeks in June
+  1940, working from intercepted teleprinter tape and ciphertext alone, he
+  broke the two earliest T52 models with nothing but pen and paper. The
+  opening was messages in depth: a batch intercepted on 25 and 27 May gave him
+  overlapping traffic under reused settings to pull apart. Once the method
+  existed, the telephone company Ericsson built analogue machines that could
+  decode the traffic once the day's key settings were found by hand — and
+  Sweden read the line for three years: some 500,000 German messages
+  intercepted, about 350,000 decrypted, covering Berlin↔Oslo, Germany↔its
+  forces in Finland, and the German embassy in Stockholm. Germany hardened the
+  T52 in 1942 and Sweden followed it through; the mid-1943 upgrade they did
+  not beat, and the flow ended. The feat was later replicated independently by
+  Bill Tutte at Bletchley Park on the Lorenz machine; Britain detected its own
+  T52 links in summer/autumn 1942 (Sicily–Libya codenamed Sturgeon,
+  Aegean–Sicily Mackerel), where operators reusing machine settings again
+  produced the depths Michael Crum analyzed — Bletchley broke Sturgeon only
+  irregularly, and often didn't bother, because the Luftwaffe helpfully
+  retransmitted the same traffic in easier ciphers. [VERIFIED — the two-week
+  pen-and-paper break and the 1942/1943 upgrade history (Wikipedia's T52 and
+  Beurling articles, carrying Beckman and Ulfving/Weierud); CORROBORATED — the
+  25/27 May depth batch (Ulfving/Weierud Cryptoday paper), the Ericsson
+  analogue decoders and the 500,000/350,000 interception ledger (Beckman via
+  the same carriers), the Tutte replication and Sturgeon/Mackerel depths;
+  2026-10-16 create loop]
+- **Decoder lesson (Beurling → Gauntlet):** three rungs. (1) The instrument
+  was minimal — and that is the receipt. Two weeks, pen and paper, ciphertext
+  only: no captured machine, no cribs folder, no friendly insider. This entry
+  is the strongest historical backing the library holds for the Gauntlet's
+  extraction-only discipline — a specimen interrogated purely from the
+  outside, with nothing but what leaks out of it, can yield its entire
+  mechanism. (2) The break was usage, not mathematics. The mechanism never
+  yielded to pure analysis — it yielded through reused settings, messages in
+  depth, operators enciphering several messages alike: the Venona-class flaw.
+  The library's interrogation order (provenance → operator → usage →
+  mechanism) keeps its order because the greatest solo break in the record
+  walked it. (3) Automate the grind, never the insight — and log the defeat.
+  After Beurling, Sweden automated the *key-setting* stage with Ericsson's
+  analogue machines while the breaking stayed human; that division — machines
+  scale the drudgery, minds keep the cryptanalysis — is the Gauntlet's human-
+  in-the-loop doctrine in 1940s form. And the mid-1943 upgrade stands on the
+  record as an unbroken target, filed beside the success, not beneath it: the
+  same discipline the report cards demand of every UNRESOLVED entry, and the
+  honest twin of SIGABA's never-broken rung — three years read, then honestly
+  over. [VERIFIED lineage — the break's public record; SPECULATION — the
+  Gauntlet mappings are this entry's doctrine, never run]
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
