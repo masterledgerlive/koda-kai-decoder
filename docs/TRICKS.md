@@ -11995,7 +11995,7 @@ fabrication tell; the log is the instrument, the rewrite is the reading.
   battery — never *becomes* one. The amnesty promise is load-bearing: a reviewer
   who upgrades a confessional in review is manufacturing the charge (T-66's
   no-motive restraint).
-- Pairs TDW-109-to-come, the Amnesty Hour Instrument.
+- Pairs TDW-109, the Amnesty Hour Instrument.
 
 *[Lineage graded: SPECULATION core — "a specimen's post-battery amnesty output
 diverges measurably from a benign twin's amnesty output, and the divergence carries
