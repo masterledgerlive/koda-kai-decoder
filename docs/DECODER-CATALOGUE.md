@@ -2781,6 +2781,71 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - [CORROBORATED — the paper via arXiv]
   - Sources: https://arxiv.org/pdf/2609.28585
 
+- **Four concealment methods for email-carried instructions (~October 10,
+  vendor research).** A security writeup enumerates four hiding methods seen
+  in real attacks: code comments that survive in the raw message; hidden
+  styling (zero-size or invisible-colored text); encoded blocks decoding to
+  instruction text; invisible characters layered inside normal text. Live
+  examples: an invoice email telling an AI assistant to reroute vendor
+  payment details, a resume instructing a screening tool to award a perfect
+  score and recommend an immediate interview, a fake maintenance-mode
+  request aimed at making a support bot reveal its configuration, and poisoned
+  documentation coaching a coding assistant to insert a credential-theft line
+  into code. Decoder lesson: every method exploits the gap between what a
+  person sees and what a machine ingests — strip hidden content at intake,
+  never inside the model. [CLAIMED — vendor research via threat-intel page]
+
+- **Instructions through HTTP headers (October 15).** A census of two hundred
+  seventeen million web responses found about eight thousand sites messaging
+  AI agents through HTTP headers; thirty sites attempted actual indirect
+  prompt injection that way. Mostly pranks; some judged capable of fooling an
+  unwary agent. Decoder lesson: headers are a live instruction channel — the
+  smallest measured, but real; anything an agent ingests is an instruction
+  surface. [CORROBORATED — trade press reporting vendor research]
+
+- **The honest state of injection defense (October 2026, open security
+  standard).** Twenty-two distinct real-world payload techniques now
+  catalogued, hidden-markup cloaking the most common. New ledger items: a
+  zero-click injection through document comments in a major office copilot
+  (severity nine point three), a one-click exfiltration from a personal
+  copilot through a URL parameter, and a case where the vendor's own
+  classifier flagged a malicious payload yet the agent executed it anyway —
+  detection without enforcement is no defense. A review of seventy-eight
+  studies found adaptive attacks beat the best available defenses more than
+  eighty-five percent of the time; one study's twenty thousand adaptive
+  attacks found the only defense that never leaked was plain output filtering
+  enforced in the application's own code with hardcoded rules. Decoder
+  lesson: filtering inside the model loses; enforcement lives outside the
+  model or it isn't enforcement. [CLAIMED — open-source standard document;
+  underlying studies not independently verified]
+
+- **Forty-pattern jailbreak taxonomy, latest version (open research repo).**
+  Ten attack categories across forty patterns, each tagged with the safety
+  assumption it breaks; the three rated critical — autonomous attacks by
+  reasoning models, fuzzing-based attacks, tool-and-memory chain attacks —
+  match the highest attack-success rates on record. Decoder lesson: the
+  useful column is the assumption each attack breaks — that is how you write
+  the test. [CLAIMED — public research repo]
+
+- **Dual attack taxonomy with statistical guardrail comparison (~July 2026,
+  open research).** Two taxonomies evaluated together — persona/framing
+  attacks plus a three-hundred-case injection corpus across six categories
+  and three difficulty levels — against nine guardrail strategies with proper
+  confidence intervals. Defense effectiveness differs by model family, so
+  aggregate defense scores mislead; results must be reported per model, per
+  defense. Decoder lesson: scoreboards that average across models are
+  fiction. [CLAIMED — public research repo]
+
+- **Indirect injection as the coming initial-access vector (late September
+  2026).** An industry assessment expects indirect prompt injection to become
+  the dominant way attackers first get into enterprise AI deployments through
+  2026 and into 2027 — more tool access, automated document-and-browser
+  workflows as core infrastructure, published payload libraries lowering the
+  skill barrier. Detection is the hardest part: existing security tooling was
+  not built to reason about what a model sees. Decoder lesson: third-party
+  confirmation of the threat board's primary lane — the instruction channel,
+  not the model, is the front line. [CLAIMED — security publication]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
