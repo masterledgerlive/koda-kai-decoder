@@ -2382,3 +2382,18 @@ The second is a timeline datapoint from the skeptic corner: Scott Aaronson, the 
 Also re-checked with no status change: IonQ's real-time error-correction decoder announcement from September is the same item already on record; the October post-quantum migration deadlines and adoption statistics match the standing entries; the mid-October post-quantum satellite and migration reports are already logged. No verdicts, no broadcasts.
 
 Next in rotation: photonic comms & power.
+
+
+## 2026-10-15 (research loop) — Photonic comms & power: satellite laser links go routine
+
+Two new-to-record finds this pass, in the free-space optical communications lane.
+
+The first is a deployment milestone, announced October eighth: a Lithuanian optical technology firm commissioned an end-to-end laser communication link from its optical terminal aboard a nanosatellite down to its optical ground station in Greece — moving from first light to routine one-gigabit-per-second operations within a week, with both ends running autonomously on a pre-scheduled basis by the third pass, and the link budget indicating the system could support rates up to ten gigabits per second. The terminal was developed with the European Space Agency and Greek universities. Decoder takeaway: satellite laser communications are crossing from demonstrations into routine operations on small platforms — laser links are becoming an everyday comms surface, and the acquisition-and-tracking stack that aims a comms laser is dual-use with the aimed-power layer the library already tracks. Graded corroborated: the company announcement was carried by two independent outlets, but the throughput figure has not been independently measured.
+
+The second is a technique paper, published in Physical Review Letters: a group at Sweden's KTH built a programmable photonic chip that measures topological wave properties under realistic energy-losing conditions — the physics of making light devices that keep working despite defects. Decoder takeaway: self-defending transport — signals that route around defects without scattering don't leak at those points either. Graded claimed — read through a secondary report, the paper itself not read first-hand.
+
+Also worth noting as enrichment: a detail-rich report on the telecom-band quantum memory already on the record — twenty photons stored past a microsecond with high retrieval fidelity — the memory layer that fast photonic quantum interconnects need. Graded claimed.
+
+Also re-checked with no status change: the rack-scale VCSEL PCIe-over-optics demonstration, the Indian forty-gigabit free-space system, the India-Korea optical ground-station partnership, the chip-scale optical circuit switching engine, the two-hundred-giga-baud photonic receiver, the two-dimensional micro-VCSEL interconnect platform, the topological-fiber entry, and the controlled-turbulence power-and-data optical study — all consistent with the standing entries. No verdicts, no broadcasts.
+
+Next in rotation: predictive math.
