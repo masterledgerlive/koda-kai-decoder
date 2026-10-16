@@ -1766,6 +1766,51 @@ The universal quantum decoder stays [SPECULATION] until proven.
   tripwire — a richer signal and a richer fingerprint surface for a reasoning
   adversary. [CORROBORATED — trade-press report]
 
+- **Tiered agent-execution sandbox (open project; surfaced October 2026 loop).**
+  One execution seam over three isolation tiers — a fast namespace layer
+  (milliseconds), a user-space-kernel layer (about a tenth of a second), and
+  a micro-VM layer (a few hundred milliseconds to spawn) — with one
+  consistent security model across all of them: no network by default,
+  allowlisted domains, vault-injected credentials that never enter the
+  cage, resource limits. Decoder significance: the isolation ladder is now
+  a callable configuration, not an architecture decision — per-run tier
+  selection mirrors the industry's converged ladder. [CLAIMED — project
+  README]
+- **Sandbox startup-latency ladder (open benchmark; October 2026 loop).**
+  Public server-side boot measurements on one platform: about four
+  milliseconds for the fastest engine, twenty-two for WASM, thirty-four
+  for a warm micro-VM pool, one hundred eighty-nine for containers, two
+  hundred eighty-four for the user-space kernel. Decoder significance:
+  per-detonation cost is dominated by cage boot, so warm pools and
+  snapshot restore are the real throughput lever. [CLAIMED — project
+  benchmark]
+- **Independent 2026 sandbox test against AI-generated malware
+  (AMTSO-aligned; results published July 2026; surfaced October 2026
+  loop).** Twenty machine-generated samples across five threat categories:
+  the top emulation-based adaptive sandbox caught nineteen of twenty
+  (ninety-five percent), the rest scored sixteen, fifteen, and five of
+  twenty. Decoder significance: evasion-resistance is measurable, and the
+  spread is enormous — cage choice, not malware cleverness, is the
+  variance. [CORROBORATED — vendor blog reporting a third-party
+  AMTSO-aligned test; vendor-reported win]
+- **Evasion-math craft: performance-ratio VM checks and trigonometric mouse
+  checks (trade press, August 2026; surfaced October 2026 loop).** One
+  sample compares CPUID instruction throughput against floating-point math
+  on parallel threads — bare metal lands above a threshold, virtualization
+  overhead drops below it. Another family applies trigonometry to
+  mouse-movement streams to judge human versus synthetic input. Decoder
+  significance: the adversary's realism suite now includes computed
+  ratios and motion geometry — cages must feel mathematically physical,
+  not just look lived-in. [CLAIMED — trade press]
+- **Public evasion-detector checklist (open DFIR skills repo; surfaced
+  October 2026 loop).** An enumerated list of the adversary's
+  cage-detectors: virtualization artifacts (registry, CPUID, disk models)
+  plus time-acceleration detectors (clock deltas around sleeps, hardware
+  counter pairs). Decoder significance: the sensors defensive
+  time-dilation must defeat are public and enumerable — catalogued
+  adversary sensors are the pre-flight checklist in reverse. [CLAIMED —
+  public repo]
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
