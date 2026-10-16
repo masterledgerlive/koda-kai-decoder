@@ -2534,3 +2534,16 @@ Next in rotation: unsolved ciphers and prize bounties.
   - [CORROBORATED — trade press quoting named researcher]
   - Source: https://www.Unilad.Com/news/money/harappan-script-india-offer-1-million-solve-511366-20250128
 - **Re-covered, no status change:** Voynich mis-binding; Zuger & Zuger Glagolitic claim; Hafner herbal claim; Pierson and Yajnadevam Indus hypotheses; Oct-5 buttcrack K4 audit; Paradigm portal.
+
+
+## 2026-10-16 ~01:57 EDT — Historical codebreaking (rotation #1)
+
+Two targeted news searches. **Retread pass — no new decipherment, no declassification, no technique change.** One new craft note.
+
+- **Honest-caveat framing of the 1918 ADFGVX break (NEW craft note, not a new event).** The genztech.blog piece narrows the story: the key TRUPPENVERSCHIEBUNG was already published in J. Rives Childs's 1935 book on German military ciphers — the AI did not derive the key from the ciphertext. Its real contribution: applying a known key correctly, then independently checking the plaintext against Royal Navy ship logs (HMS Canterbury's Sevastopol arrival, November 24, 1918). No independent cryptographer has reviewed the work yet. ADFGVX stays CLAIMED; the standing caveat (key documented in use from December 9, 1918 — twelve days *after* the message date) is independently corroborated.
+  - [CORROBORATED — multiple outlets quoting the developer's own September 17, 2026 post]
+  - Sources: https://genztech.blog/p/gpt-6-astra-wwi-adfgvx-cipher-decode/ ; https://caimpare.ai/articles/gpt-6-astra-decrypted-a-108-year-old-wwi-german-radio-cipher-and-the-naval-records-back-it-up
+- **Re-covered, no status change:** the September 2026 AI codebreaking wave (the 1941 Enigma MVUEH message, the second Enigma break, the 1809 Napoleon/Marmont homophonic cipher, the 1918 ADFGVX message) — this pass's press cycle retells those same events; the "ten hours flat" compression of the two-day Enigma run is press drift, not a second break. ~7 public-collection Enigma messages remain unsolved. A Dilly Knox / Abwehr Enigma piece retells settled January-1940 history — no new artifact. Bletchley retrospectives (the 1939 Polish handover, post-war Enigma redistribution) are narrative, already on record.
+- **Library update:** none — a craft note, not a technique change. No verdicts, nothing broadcast. Next in rotation: codecs & formats.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
