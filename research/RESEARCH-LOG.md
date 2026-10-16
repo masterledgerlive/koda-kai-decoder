@@ -2724,3 +2724,12 @@ Retread pass — no new decipherment, no new claimant, no prize movement, no new
 ## 2026-10-16 — Research loop: historical codebreaking
 
 One targeted search on declassified-cipher and codebreaking news. No new decipherment, no new archive release, no new technique — every hit resolved to items already on record: the six-hour 1809 Marmont homophonic break, the 1918 ADFGVX naval message (with its standing documented key-date caveat), the independently validated MVUEH Enigma break, and the second Enigma break. One item was satire, not a finding. Nothing material; no public documentation updated. Research only — no claims broadcast.
+
+
+## 2026-10-16 — Research loop: codecs and formats
+
+Three targeted searches on codec and format news. No new codec, no new format, no new decoder parser — every hit resolved to items already on record: FFmpeg nine point oh point two and its Vulkan compute-shader codec class; VLC three point oh point twenty four; the final AV2 specification and the dav2d software decoder (still early, not production); Android seventeen's VVC support; the VVC flagship-silicon wave with named parts, handsets, and an open-source mobile decoder project; Valve's Vulkan game-streaming codec; and the Opus successor and neural-codec watch list. No new Google voxel codec — that claim remains unsupported after five straight checks.
+
+Separate headlines this week — a generative video model launch, a generative audio company's funding round, an open-source on-device speech transcription model, and an audio-review toolkit for coding agents — are generation, transcription, or tooling, not audio or video codecs, and sit outside this lane. A conference session on neural prediction inside conventional audio codecs is parked as a watch item, not a finding.
+
+No material finding this pass; no public documentation updated. Research only — no claims broadcast.
