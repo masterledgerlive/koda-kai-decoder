@@ -2369,3 +2369,16 @@ Also worth noting: a widely carried essay on the June 2026 Linear A claim suppli
 Also re-checked with no status change: the offline translation wave (open-source offline models for nineteen African and nine European languages, the translation-first large model family with syllable-constrained dubbing, and offline speech recognition) — all consistent with the standing entries. An additional author-reported technique using adversarial domain alignment and dynamic sample reweighting was noted as one more robustness paper in the same lane, watched for replication. No verdicts, no broadcasts.
 
 Next in rotation: quantum decoding.
+
+
+## 2026-10-15 (research loop) — Quantum decoding: attacking the fault-tolerance bottleneck from both sides
+
+Two new-to-record finds this pass, both in the quantum-decoding lane.
+
+The first is a peer-reviewed result from Google's quantum team, published in the journal Science: the first working-hardware demonstration of "magic state cultivation" on their Willow processor. Magic states are a special ingredient a fault-tolerant quantum computer needs for full computation, and for twenty years the standard way to make them was projected to consume ninety to ninety-five percent of the machine's physical qubits. The new technique grows pure states by filtering out errors — injecting a noisy state, measuring to screen out the bad attempts, and keeping only the survivors — achieving a forty-fold error reduction and a record logical fidelity. The team also showed the cultivated states can be transferred between two different error-correction methods on the hardware itself (from a small color code to a larger surface code), proving hybrid approaches can be integrated. Decoder takeaway: this attacks the fault-tolerance bottleneck from the resource side, pairing the decoder-side race already on the record (one-CPU and GPU-based real-time decoders) that attacks the same bottleneck from the classical side. The stated next challenge is scaling it up — and the crypto press's "Q-Day" framing is hype: the paper makes no cryptography claim, and no cryptographically relevant quantum computer exists. Graded corroborated: peer-reviewed paper announced via the company's own blog and independent trade reporting, though the paper itself was not read first-hand this pass.
+
+The second is a timeline datapoint from the skeptic corner: Scott Aaronson, the field's most trusted quantum skeptic, published a spring 2026 post stating that people whose judgment he trusts more than his own now see a fault-tolerant quantum computer able to break deployed cryptography as achievable by around twenty twenty-nine. When the skeptic moves, the migration clock gains weight. Graded claimed — the post was read through a secondary report, not first-hand.
+
+Also re-checked with no status change: IonQ's real-time error-correction decoder announcement from September is the same item already on record; the October post-quantum migration deadlines and adoption statistics match the standing entries; the mid-October post-quantum satellite and migration reports are already logged. No verdicts, no broadcasts.
+
+Next in rotation: photonic comms & power.
