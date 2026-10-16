@@ -1926,6 +1926,23 @@ The universal quantum decoder stays [SPECULATION] until proven.
   adversary sensors are the pre-flight checklist in reverse. [CLAIMED —
   public repo]
 
+- **Pre-disclosure honeypot tripwires on the Ivanti Connect Secure zero-day
+  (October 2026).** Two deception vendors reported sensors recording attack
+  attempts against an authentication-bypass vulnerability before its public
+  disclosure: roughly one hundred and five attempts by October fourteenth
+  from fifty distinct addresses, plus pre-disclosure probing from October
+  first. Incident responders observed an undocumented criminal actor achieving
+  unauthenticated root access, extracting credentials, and re-exploiting the
+  device for every command while tampering with logs to evade the vendor's
+  own integrity checker — no malware or web shell dropped. The flaw reached
+  the US known-exploited list with an October sixteenth federal patch
+  deadline. Decoder significance: the first end-to-end proof of the deception
+  lane as the early-warning instrument — decoys fired before the disclosure
+  did — and the adversary arrived anti-forensics-grade, so any log-based
+  verification layer must itself be built adversarial. [CORROBORATED —
+  agency listing confirmed; vendor disclosures via trade press, corroborated
+  across three independent firms]
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
