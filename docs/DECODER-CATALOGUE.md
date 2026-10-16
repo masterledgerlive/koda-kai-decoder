@@ -1064,6 +1064,15 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **Conformal corruption sign test (Alur & Das).** A diagnostic built from quantities split conformal prediction already computes for free: the sign of the change in empirical miscoverage on trusted audit labels separates calibration-set label noise (drives it at or below zero) from accuracy-degrading covariate shift (drives it strictly positive). Held across architectures, scoring functions, and datasets — including real human annotation errors — with 36 of 36 directional calls in the hard cases. A detector that can name which corruption it sees, and abstains below its detection floor instead of guessing.
   - [CLAIMED — preprint/evaluation per secondary writeup]
 
+- **No systematic political bias in election prediction markets (working paper, October 2026).** Tests whether contracts on right-leaning candidates earn different returns than left-leaning ones across a sample spanning 1880 to 2025 — from nineteenth-century curb betting through the Iowa Electronic Markets, Intrade, PredictIt, Betfair, and Kalshi — at one day, three weeks, and four months before each election. The estimated bias is essentially zero; the one-day data rule out a leftward bias of about four and a half points or a rightward bias of about three. The receipts discipline: run the bias test, publish the nulls.
+  - [CLAIMED — working paper read via secondary report, not first-hand]
+- **Prediction markets validated as economic-forecast inputs (October 2026).** Federal Reserve research found markets on economic outcomes performed as well as or better than the forecasts anchoring economic reporting — continuously, with a full accounting of uncertainty. Validated on short-horizon contracts, not long-horizon projections: one signal among several, its limits understood.
+  - [CLAIMED — secondary report of the research]
+- **Bayesian count regression and anomaly detection on global event panels (preprint, submitted March 2026).** Bayesian pipelines with negative-binomial and zero-inflated likelihood heads on weekly event data; posterior simulations yield predictive quantiles and right-tail probabilities for forecasting and anomaly scoring, with spillover attribution carrying proper uncertainty. Companion paper: fully Bayesian node-level outlier detection for graph signals, yielding a posterior probability that each node is an outlier rather than a hard yes-or-no. The uncertainty-carrying screener remains the shape an honest grading system wants for its own inputs.
+  - [CLAIMED — both preprints, author-reported]
+- **Prediction-market scale and calibration, October 2026.** Monthly volume from under five to about twenty-four billion dollars in seven months; accuracy strong where markets show high confidence, weaker for mid-priced favorites. The confidence-to-accuracy gradient is the prior a calibrated system wants.
+  - [CLAIMED — secondary aggregator report]
+
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
