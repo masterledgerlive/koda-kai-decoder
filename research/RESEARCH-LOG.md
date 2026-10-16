@@ -2564,3 +2564,16 @@ Two targeted news searches. **Retread pass — no new codec, no new codec-covera
 Next in rotation: protocol decoders.
 
 *Public-safe phrasing only; full graded detail lives in the private research log.*
+
+
+## 2026-10-16 ~02:57 EDT — Protocol decoders (rotation #3)
+
+Two targeted searches plus one upstream commit read. One new-to-record item — an engineering note, not a breakthrough; the rest re-covered.
+
+- **3GPP trace-reader dispatch-table refactor (NEW craft note; VERIFIED).** Wireshark's 3GPP 32.423 XML trace file reader replaced its hardcoded protocol dispatch with a data-driven lookup table (upstream commit, July 2026): new protocol mappings become one-line table entries, unknown protocols fall through for best-effort dissection instead of erroring, and the commit wires in the 5G interface stack (NGAP, S1AP, X2AP, XnAP, F1AP, E1AP, PFCP) plus legacy RANAP/NBAP/RNSAP/RRC, Diameter, and GTP. The commit is tagged AI-assisted — a datapoint for instrument provenance. Significance: the intake gate gets cheaper to extend; the best-effort fallthrough treats unknown protocols as data to parse, not files to reject.
+  - [VERIFIED — first-party upstream commit read this pass]
+  - Source: https://github.com/wireshark/wireshark/commit/ff483df18f6e25049f33ff1fbe3611e03d0f1292
+- **Re-covered, no status change:** Wireshark 4.6.9 (September 2026, zero new protocols, 19 advisories; refreshed QUIC, LoRaWAN, ZigBee ZCL, SGP.32, GNW, OpenFlow 1.3–1.5); CoAP-EAP dissector merged upstream (ships from 4.8.0 — IoT EAP-over-CoAP authentication traffic now dissectable); CSMP dissector 2.0.0 (tooling reference, not a finding); the 2026 maintenance-and-hardening cycle stands.
+- **Library update:** none — intake tooling, not a new decoder class. Next in rotation: language decoders.
+
+*Public-safe phrasing only; full graded detail lives in the private research log.*
