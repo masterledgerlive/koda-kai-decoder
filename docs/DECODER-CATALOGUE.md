@@ -1547,7 +1547,11 @@ The universal quantum decoder stays [SPECULATION] until proven.
   steering enterprise AI agents to leak data); AI result poisoning
   (poisoned web content shaping AI search and assistant output);
   and impair-autonomous-defenses (disrupting LLM-assisted security
-  analysis). Both sides of the detection race now share a
+  analysis); and the theft of application-specific passwords (app
+  credentials used to bypass multi-factor authentication — the ninth
+  technique ID of the set, confirmed via an October-sixteen
+  threat-intel record that also notes nine detection rules and two
+  indicators of compromise). Both sides of the detection race now share a
   MITRE-citable vocabulary, and the prompt-injection-to-exfiltration
   path is catalogued as a real attack technique. [CORROBORATED —
   MITRE release via secondary coverage; the ATT&CK matrix page not
