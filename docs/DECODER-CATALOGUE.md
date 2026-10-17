@@ -3092,6 +3092,29 @@ The universal quantum decoder stays [SPECULATION] until proven.
   defense community does — the instruction channel, not the model, is the
   front line. [CLAIMED — trade-press carry of a named statement]
 
+- **INFUSE — an indirect-injection benchmark for long-running agent
+  workflows (Vanderbilt University, October 2026).** Nineteen language
+  models, forty realistic workflows, fifty-six attack scenarios; mean attack
+  success up to forty-two percent; existing defenses limited; conversational
+  safety measures transfer poorly while instructional hardening helps
+  unevenly. Decoder lesson: injection resistance must be measured per
+  workflow, not per chat — chat-safety posture does not survive the move to
+  agentic tasks. [CLAIMED — research digest of a preprint]
+- **Click-theft on decision models, verifier evaded (October 2026).** A
+  sponsored ad pretending a sale price never applied stole a shopping agent's
+  click — the technique worked against two decision models — and a tokenbreak
+  variant with extra letters slipped toxic prompts past one model's prompt
+  verification. Decoder lesson: a decision output is still a language-model
+  output, and the verifier layer is itself an injectable target.
+  [CLAIMED — vendor research via secondary outlet]
+- **Prompt-injection statistics reference — scoreboard texture (October
+  2026).** In a public competition of nearly two million attacks, indirect
+  injection beat direct injection twenty-seven percent to six in average
+  attack success; adaptive attacks raised one agent's rate from eleven to
+  eighty-one percent in national-lab testing. Decoder lesson: the
+  indirect/direct asymmetry holds at scale, and adaptive success confirms the
+  defense-scoreboard pessimism. [CLAIMED — vendor-compiled reference]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
