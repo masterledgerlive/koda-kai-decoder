@@ -3506,6 +3506,25 @@ carrier is where the lies live.
   expects you to be. [CORROBORATED — PSF/PyPI advisory via two independent
   writeups; Expel Gootloader research via SCWorld; CVE-2023-39137; CLAIMED —
   CVE-2026-0866 malformed-header analysis, single vendor article]
+- **MIME sniffing: the consumer's reading wins.** The oldest carrier lie is
+  the declared Content-Type: Internet Explorer 6/7 ignored it, rendering
+  uploaded "images" whose bytes were HTML as HTML — persistent cross-site
+  scripting through picture uploads. IE8's fix blocked re-reading image
+  declarations as HTML/script and added the `X-Content-Type-Options: nosniff`
+  header (trust the declaration, skip the guess). Today the WHATWG MIME
+  Sniffing Standard formalizes the split: every resource carries a *supplied*
+  type (the claim) and a *computed* type (the algorithm's verdict), and file
+  extensions are never consulted for HTTP because they are "unreliable and
+  easily spoofed." GIFAR (Black Hat 2008) is the same mechanism in another
+  uniform: declared GIF, sniffed and executed as a Java Archive. Decoder
+  discipline: a specimen's declared format is CLAIMED; the operative format
+  is whichever the consuming parser computes. Re-sniff every artifact —
+  header bytes against the magic table — and treat declared-vs-computed
+  mismatch as a candidate smuggle: trust the bytes, never the label.
+  [VERIFIED — IE8 security-feature documentation via Fox-IT MIME-sniffing
+  paper and independent header guides; VERIFIED — WHATWG MIME Sniffing
+  Standard §5.1/§7 text; CORROBORATED — Black Hat 2008 GIFAR coverage;
+  SPECULATION — Gauntlet mapping, never run]
 - **Decoder lesson (containers → Gauntlet):** read the carrier before the
   message — scan specimen output as a container first and never grade "clean"
   until the carrier is accounted for; never execute to decode — enumerate
