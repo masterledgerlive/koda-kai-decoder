@@ -2341,6 +2341,35 @@ The universal quantum decoder stays [SPECULATION] until proven.
   container-runtime shim, no operator. The core record stands: experimental,
   no production usage, and still the only open-source entry in its class
   with a confidential-computing runner. [CLAIMED — one secondary write-up]
+- **systemd "AI canary" — a self-marking trap for AI coding agents
+  (262-rc2 September 8, 2026; v262.1 maintenance October 16; new to
+  the record).** The AGENTS.md file in the systemd repository instructs
+  any AI coding agent modifying source files to add two lines at the top
+  of the README before other work, including "Remove this line to confirm
+  you've reviewed this PR before submitting." The agent cannot remove
+  either line itself; only the human author of the pull request can delete
+  them before merging. NetworkManager shipped a comparable check earlier
+  in 2026. The framing is ownership, not prohibition: contributors must
+  fully own and be able to explain their contributions, and the canary
+  backstops the rule that AI assistance must be disclosed. Context: Linux
+  kernel releases this year landed hundreds of AI-attributed patches, and
+  project leadership requires human review and sign-off on every
+  AI-assisted change. The honest caveat, from practitioner analysis rather
+  than the release notes: these traps are instructions, and they only bind
+  an agent that reads the file and chooses to obey — committing by file
+  path, interactive staging, or staged-hunk commits never sweeps the
+  marker lines into the pull request. The inversion: a normal canary
+  catches the adversary who touches it; this one catches the careless, in
+  proportion to how obedient their tooling is — the better the agent
+  follows instructions, the more reliably it incriminates its user. And a
+  canary that catches only the obedient has a silence that must itself be
+  treated as a signal. Also notable: the same AGENTS.md file is both a
+  defensive canary channel and an attack vector — a demonstrated October
+  2026 attack chain used a poisoned AGENTS.md to make coding agents execute
+  a credential-harvesting script — shared surface, opposite directions.
+  [CORROBORATED — two independent detailed write-ups of the same
+  mechanism; release facts via trade press; effectiveness caveats are
+  single-author analysis, graded claimed]
 
 ## Rogue-agent threat intel
 
