@@ -653,6 +653,19 @@ formats. [VERIFIED]
   [CORROBORATED]
 
 
+- **GhostWire — decentralized mesh-network protocol in Rust (Oct 2026)**:
+  encrypted peer-to-peer messaging over libp2p, forward secrecy through a
+  symmetric ratchet, and ML-KEM post-quantum key encapsulation alongside the
+  classic ciphers; peer discovery through mDNS, DHT, and bootstrap peers;
+  delay-tolerant store-and-forward routing so messages survive offline
+  stretches. Runs over TCP, WebRTC, Bluetooth Low Energy, LoRa, obfs4, and
+  Reticulum; the mesh stack is libp2p GossipSub plus Kademlia DHT plus
+  delay-tolerant networking. The author's frame: a protocol, not just an app.
+  A new open mesh carrier the parser watchlist has to name — encrypted
+  ratcheted traffic is read as metadata (timing, cadence, hops), not content.
+  [CLAIMED — the author's own write-up; no independent coverage yet]
+
+
 - **Di Mino's Linear A workflow (Jun 2026) — AI-accelerated archival decipherment**: the claimed Linear A decipherment (see UNDECIPHERED.md) enters the catalogue as a technique — Claude Code running Python scripts as an exhaustive cross-referencing engine over digitized inscription databases, compressing months of manual comparison into real-time iteration so human linguistic intuition becomes instantly testable evidence. Same template as the 2026 AI codebreaker wave (MVUEH, Marmont): AI reads the archive and builds the tool; deterministic machinery plus human scholars do the breaking. [CLAIMED — secondary reporting; academic review pending]
 - **Bilibili Index-Translate (Sep 30, 2026, Apache 2.0)** — the translation-first member of the offline wave: flagship 35B-A3B-preview MoE (35B total, 3B active per pass, per-pair expert routing), dense 2B/9B variants. Specialized checkpoints: Echo (speech-to-speech translation), Homura (syllable-constrained dubbing via reinforcement learning — translated text matched to the source's syllable count, fits mouth movements with no manual timing pass; the factory deepfake-dubbing substrate), NativeLong (262,144-token document translation with terminology consistency across paragraphs). Apache 2.0 + GGUF quantized variants on HuggingFace: field-deployable with no cloud trace. [CORROBORATED as release; CLAIMED on benchmarks incl. 2.4% low-resource off-target rate]
 - **Offline machine translation wave (Sep–Oct 2026) — the stealth language decoder**: Tether TranslatePsy-AfriSLM (open-source, offline, 19 African languages, 0.8/2/4B parameters; vendor claims it beat 122B-class systems on FLORES-200/BOUQuET/SMOL), Tencent Hunyuan MT (440 MB offline; internal benchmarks claim it beats Google Translate in 33 languages), Google TranslateGemma (open, 4/12/27B, 55 languages), Microsoft Harrier-OSS-v1 (Mar 2026, open-weight embeddings, 107 languages, MTEB v2 SOTA). On-device offline translation is a translation layer with no cloud trace, field-deployable on mid-range phones. Vendor benchmarks stay CLAIMED; the architecture fact (works with no connectivity) is the capability to track.
