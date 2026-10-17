@@ -253,3 +253,25 @@ throughput. The diamond decoder's Gaussian-painting readout faces the same
 problem (all sites, all modes, fused at speed) — watching LDPC-cat decoding
 move onto GPUs is the external confirmation that the parallel-decode
 doctrine is where the hardware is going.
+
+**Scheduled qLDPC error correction (IonQ, arXiv, October 12, 2026).**
+IonQ's Webster and Delfosse report a hybrid physical/logical execution
+strategy for quantum Low-Density Parity-Check codes: Shor-style cat states
+execute *L* commuting logical measurements simultaneously instead of
+sequentially, the measurement order set by a classical linear scheduler code
+(matrix *G*) so all outcomes are jointly error-decoded, paired with an
+adapted Logical Clifford Noise Reduction (CliNR) scheme. Up to 74-fold
+speedup on logical Clifford operations, up to 5-fold on logical Toffoli.
+[CLAIMED — company arXiv preprint; no peer review, no independent
+replication; paper not read first-party.]
+
+This is the third vendor-side confirmation of the parallel-decode doctrine
+in one month — IonQ's single-CPU decoder (Sep 22), Alice & Bob's GPU
+decoding (Oct 13), now IonQ's qLDPC scheduler (Oct 12) — and the most
+decoder-native: it is not faster decode hardware, it is a decode *rule*,
+scheduling *what gets decoded when*. qLDPC's tax (dozens of logical qubits
+per block, paid in round delays across non-local registers) is exactly the
+class of tax the diamond decoder's Gaussian-painting readout will face (all
+sites, all modes, fused at speed): the industry's answer is converging on
+classical schedulers governing the decode order, not bigger qubit blocks.
+Watch for the hardware replication.
