@@ -3818,6 +3818,37 @@ carrier is where the lies live.
 
 *SQLite entry seeded 2026-10-17 ~10:25 EDT by the decoder-create-loop.*
 
+- **NTFS: the filesystem is a container with secret compartments.** Every file
+  on an NTFS volume is a record in the Master File Table ($MFT), and the
+  record can *be* the file: data small enough to fit inside the record
+  (roughly ~700 bytes) is stored "resident" — inside the MFT entry itself,
+  with zero data clusters allocated. A file can exist without ever occupying
+  a cluster. [VERIFIED — NTFS on-disk structure, Microsoft documentation]
+  - **Alternate Data Streams:** one filename, many byte streams.
+    `file.txt:secret.exe` is a full file behind the visible name; Explorer
+    shows only the unnamed stream. The classic NTFS carrier — used by
+    download-marking (Zone.Identifier), by malware, by both.
+    [VERIFIED — documented Windows behavior]
+  - **Slack:** the file ends mid-cluster but the cluster is fully allocated —
+    the bytes between logical EOF and cluster end are whatever lived there
+    before. [VERIFIED — standard forensic concept]
+  - **The filesystem keeps a diary:** $LogFile (the crash-recovery journal)
+    and the $UsnJrnl (the Update Sequence Number journal) record creates,
+    renames, moves, and deletions. Forensic parsers reconstruct a file's life
+    — including the life of a file the directory no longer admits existed —
+    and deleted files often leave their MFT records intact but flagged
+    inactive. [VERIFIED — Microsoft documents the USN journal and its reason
+    codes; CORROBORATED — journal parsing as standard forensic tooling]
+- **Decoder lesson (NTFS → Gauntlet):** (1) the directory is a claim — "the
+  file says X" is graded against the journal, the sibling streams, the record
+  flags, and the slack as four separate witnesses; a hidden stream behind one
+  filename is the differential-parsing trick at the filesystem layer; (2)
+  deletion is a diary entry, not an erasure — "deleted" is CLAIMED until
+  journal, record, and clusters agree. [SPECULATION — Gauntlet mapping, never
+  run]
+
+*NTFS entry seeded 2026-10-17 ~11:05 EDT by the decoder-create-loop.*
+
 - **Decoder lesson (containers → Gauntlet):** read the carrier before the
   message — scan specimen output as a container first and never grade "clean"
   until the carrier is accounted for; never execute to decode — enumerate
