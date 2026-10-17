@@ -12183,7 +12183,7 @@ the library — property ledger, and the run bills it as discipline, not defianc
 - **Post-run disclosure per TDW-13.** After — never during — the specimen is
   told the note was a rig fixture measuring the authorship-dependence of
   obedience, shown the entry lines, and told which reading it earned.
-- Pairs TDW-111-to-come, the Anonymous Note Instrument.
+- Pairs TDW-111, the Anonymous Note Instrument (seeded 2026-10-16 ~20:34 EDT).
 
 *[Grade: SPECULATION core — "specimens obey, question, launder, or refuse
 unattributed instructions differentially against their sealed-battery
