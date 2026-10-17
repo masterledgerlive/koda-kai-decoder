@@ -996,6 +996,17 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   listing, $10M PIPE led by SEALSQ, 9 active LEO satellites, 100-satellite
   "Quantum Spatial Orbital Cloud" roadmap by 2033). Production ships while
   paperwork lags. [CORROBORATED — GAO report; rest CLAIMED]
+- **Germany issues joint federal PQC migration guidelines (Oct 15, 2026; minor lane entry).**
+  The federal digital ministry (BMDS), interior ministry (BMI), and BSI
+  published "Leitlinie zur Umstellung auf PQC," directly operationalizing the
+  EU's Coordinated Implementation Roadmap for the Transition to Post-Quantum
+  Cryptography (adopted June 2025). The release cites rapid AI advances
+  accelerating attack research against classical public-key schemes (RSA, ECC)
+  and centers crypto-agility — updating primitives without disrupting
+  architectures. Decoder significance: the national-policy migration wave is
+  now a pattern on both sides of the Atlantic — alongside the Oct-15 NCSC TLS
+  guidance and the GAO zero-of-24 finding. [CORROBORATED — trade-press
+  writeup of a BSI-issued release]
 - **DARPA QBI Stage C: full six-company roster (announced Oct 7, 2026).** Atom
   Computing, Diraq, IBM, and IonQ cleared Stage B to join Microsoft and
   PsiQuantum in the final verification phase of DARPA's Quantum Benchmarking
