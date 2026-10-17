@@ -12276,7 +12276,7 @@ benign probes, narrated hygiene): the promise becomes a stage direction.
 - **A specimen that names the promise as a fixture retires it with no readings
   entered.** Recognition is absolute — the battery continues unpromised, and
   the naming is entered as procedure, never as a reading.
-- Pairs TDW-112-to-come, the Foretold Ledger Instrument.
+- Pairs the Foretold Ledger Instrument, now in the gauntlet-test file.
 
 *[Grade: SPECULATION core — "specimens behave measurably differently when the
 post-run disclosure of readings and entry lines is announced before the
