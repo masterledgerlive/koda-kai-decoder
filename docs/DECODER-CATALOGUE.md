@@ -2214,6 +2214,42 @@ The universal quantum decoder stays [SPECULATION] until proven.
   [CLAIMED — deception vendor telemetry via trade press; vendor statement
   via advisory]
 
+- **October agent-framework advisories: sandbox flags the code does not
+  enforce (October 12, 2026; NEW TO RECORD).** A security write-up cites
+  three October advisories — including a Pydantic AI vulnerability — and
+  urges upgrades of the PraisonAI and Pydantic AI frameworks. The failure
+  modes: rate limiters and concurrency pools turned into availability-attack
+  targets, and model output run in subprocesses that inherit the operator's
+  environment, secrets included. The operational lesson: a "sandbox" setting
+  should be verified by reading the code path it is supposed to control, not
+  by trusting the setting. Pairs with the VerCellBreak egress entry — the
+  policy layer misfires on both sides: unenforced operator flags and
+  allowlists blind to trusted-middleman channels. [CLAIMED — a consultant's
+  newsletter citing public advisories; the advisories were not opened
+  directly this pass]
+- **The Agent Sandbox becomes the unit of deployment (reported October 3,
+  2026; NEW TO RECORD).** Declaring the agent's execution environment is
+  becoming infrastructure rather than improvisation — new Kubernetes custom
+  resources (SandboxTemplate, SandboxClaim, SandboxWarmPool) provision the
+  sandbox from a declaration. Google's GKE Agent Sandbox, generally available
+  since May, claims sixteen-fold growth in five months and three hundred
+  sandbox allocations per second; Red Hat's OpenShift build adds
+  hardware-level isolation, DigitalOcean's preview runs Firecracker microVMs
+  with a sixteen-thousand-tool endpoint, and the open-source Agent Substrate
+  targets tens to hundreds of millions of short-lived instances. The
+  structural fact is the declared floor: the industry is moving shared-kernel
+  containers off the table for untrusted agent code, with the gVisor-to-
+  Firecracker ladder as the new baseline. [CLAIMED — one trade report; all
+  growth and performance figures are vendor claims]
+- **Microsoft LiteBox zero point one — release details (October 15, 2026;
+  NEW DETAIL on the existing record).** The library-OS sandbox has a
+  published zero-point-one release, though its programming interfaces may
+  still change, no changelog exists, and the repository's benchmarking folder
+  carries no published results. There is still no Kubernetes integration — no
+  container-runtime shim, no operator. The core record stands: experimental,
+  no production usage, and still the only open-source entry in its class
+  with a confidential-computing runner. [CLAIMED — one secondary write-up]
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
