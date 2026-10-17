@@ -275,3 +275,28 @@ class of tax the diamond decoder's Gaussian-painting readout will face (all
 sites, all modes, fused at speed): the industry's answer is converging on
 classical schedulers governing the decode order, not bigger qubit blocks.
 Watch for the hardware replication.
+
+**Modular hyperbolic QEC codes (Google Quantum AI + Google DeepMind + MIT,
+arXiv, October 15, 2026).** Joint manuscript "Low-Overhead Quantum Error
+Correction with Boundary-Connected Planar Modules": small, flat 2D Euclidean
+planar chips (about one hundred qubits) networked via sparse, static
+inter-module boundary couplers arranged in a hyperbolic tiling (genus two or
+higher), unlocking high-rate quantum low-density parity-check encoding without
+complex on-chip long-range wire crossings. Simulation data (SI1000 noise
+model): the modular hyperbolic color code, six thousand four hundred physical
+qubits encoding one hundred four logical with distance thirty, at about
+thirty-six physical qubits per logical — more than a thirty-times overhead
+reduction versus the standard 2D surface code, at encoding rate one sixteenth
+and distance twenty-two or better. The modular hyperbolic surface code, six
+thousand physical qubits encoding one hundred forty-six logical with distance
+twenty, lands at about ninety-five physical per logical — ten to fifteen times
+savings. [CLAIMED — company and university arXiv manuscript; simulation only;
+no peer review, no hardware demonstration; paper not read first-party.]
+
+The fourth industry-side attack this month on the fault-tolerance overhead
+bottleneck, and the first to target the *code family* itself: the IonQ
+scheduler (October 12) attacked the decode rule, Alice and Bob's GPU work
+(October 13) attacked the decode hardware — modular hyperbolic codes attack
+the rate-versus-overhead geometry, and all three stack. Watch for the hardware
+replication: building the modules and wiring the inter-module couplers is the
+whole game now.
