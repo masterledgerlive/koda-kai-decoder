@@ -329,6 +329,21 @@ CLAIMED / SPECULATION.*
   disclosure law as the modern ethics); build every extraction report to
   survive hostile review — the report card is a trial document.
   [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
+- **The Mary Stuart letters (1578–1584, broken 2023)** — 57 letters, all
+  ciphertext, misfiled with Italian papers in the BnF and unattributed
+  until decryption earned the identity: Mary Queen of Scots writing in
+  captivity to Michel de Castelnau, the French ambassador. Broke to a
+  three-person team (Lasry, Biermann, Tomokiyo) on 150,000 transcribed
+  symbols via CrypTool 2 + computerized hill-climbing + manual
+  linguistic-historical work — the "bingo moment" was the name "Walsingham"
+  appearing in the decrypt; ~50,000 words, ~50 letters new to historians,
+  peer-reviewed in *Cryptologia* on Feb 8, 2023. [CORROBORATED —
+  Cryptologia record, multi-outlet reporting] Gauntlet takeaway: solve
+  first, attribute second — a misfiled specimen is the normal case, and
+  attribution earned by decryption is evidence, not assumption; contextual
+  cribs (the adversary's name in her own letters) still decide what
+  statistics grind. [SPECULATION — the Gauntlet mappings; 2026-10-17
+  create loop]
 - **Elizebeth Smith Friedman (1892–1980)** — "America's first female
   cryptanalyst" (U.S. Coast Guard). Hired 1916 at Riverbank Laboratories to
   hunt Bacon-authorship ciphers in Shakespeare; there she and husband
