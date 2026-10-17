@@ -329,6 +329,28 @@ CLAIMED / SPECULATION.*
   disclosure law as the modern ethics); build every extraction report to
   survive hostile review — the report card is a trial document.
   [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
+- **Elizebeth Smith Friedman (1892–1980)** — "America's first female
+  cryptanalyst" (U.S. Coast Guard). Hired 1916 at Riverbank Laboratories to
+  hunt Bacon-authorship ciphers in Shakespeare; there she and husband
+  William Friedman founded modern cryptologic technique. Detailed from
+  Treasury to the Coast Guard in 1925: 1927–1930 she solved over 12,000
+  smuggling messages in hundreds of code systems by hand — pencil and paper
+  — leading to 650 federal prosecutions and 33 personal court testimonies.
+  In WWII her Unit 387 was among the first Americans to work the Enigma
+  problem, and its breaks dismantled the German spy network in South
+  America (Operation Bolívar). Her Shakespeare work ended as the canonical
+  null result: *The Shakespearean Ciphers Examined* (1957) statistically
+  refuted the Bacon ciphers instead of burying the failure. Her wartime
+  work stayed classified so long the field nearly lost her — NSA Hall of
+  Honor 1999, the Friedman Building dedication 2002, a Coast Guard cutter
+  named for her 2020. [VERIFIED — Coast Guard ALCOAST 263/20 figures;
+  CORROBORATED — Smithsonian Women's History Institute, Naval History
+  Magazine on the wartime work; the Shakespeare refutation and late
+  recognition] Gauntlet takeaway: interrogate the coordination layer where
+  the specimen must communicate (necessity is the crib); a properly-run
+  test that returns nothing is a verdict (NOTHING-FOUND), not an
+  inconclusive; build every finding as a trial document that survives
+  hostile review. [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
