@@ -397,6 +397,31 @@ CLAIMED / SPECULATION.*
 
 *D'Agapeyeff cipher entry seeded 2026-10-17 ~15:10 EDT by the decoder-create-loop.*
 
+- **WEP (1997–2007) — the "equivalent" privacy that fell to reused randomness.**
+  The 802.11 wireless standard encrypted with RC4, keyed per-packet by a
+  24-bit IV (sent in the clear) prepended to the shared secret, with integrity
+  via a CRC-32 — linear, not a keyed MAC. The reuse math killed it: ~5,000
+  packets for a 50% IV-collision rate on a busy network, and two ciphertexts
+  under one keystream XOR to the XOR of their plaintexts — Venona's "depth of
+  two" at the link layer. In Aug 2001 Fluhrer, Mantin, and Shamir showed ~9,000
+  of the 2^24 IVs are *weak* (leaking key bytes through RC4's scheduler); the
+  passive attack needed 5–10M packets, demonstrated by Stubblefield, Ioannidis,
+  and Rubin against a production network. KoreK's 2004 chopchop attack (~500k
+  packets) then exploited CRC-32's linearity to trim and probe packets, and
+  Tews–Weinmann–Pyshkin (2007) broke 104-bit WEP in under a minute with
+  60–90k packets. WPA (2003) and WPA2 (2004) replaced it. [VERIFIED on the FMS
+  paper, the USENIX 2001 demo, and the PTW result; CORROBORATED on the
+  construction, the weak-IV and chopchop attacks, and the WPA timeline]
+- **Decoder lesson (WEP → Gauntlet):** (1) fourth independent confirmation of
+  "usage flaws first" — reuse at the key layer (Venona, JN-25, MVUEH, WEP) dies
+  before the cipher; (2) the integrity function is part of the cipher and must
+  be nonlinear — linear tamper-evidence is no tamper-evidence; (3) passive
+  reads became active interrogation — the Gauntlet's watch-then-provoke
+  staging, kept inside the authorization boundary. [SPECULATION — Gauntlet
+  mapping, never run]
+
+*WEP entry seeded 2026-10-17 ~16:40 EDT by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
