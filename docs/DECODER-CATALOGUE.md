@@ -460,6 +460,26 @@ CLAIMED / SPECULATION.*
   (1998, ~$250k, 56 hours). [VERIFIED — shattered.io, Google security blog,
   EFF public record; 2026-10-15]
 
+- **Chaocipher (1918) — the cipher that was disclosed, not broken.** John
+  Francis Byrne invented it in 1918, published challenge messages in his
+  autobiography *Silent Years* (1953), and tried unsuccessfully to sell it to
+  the US Signal Corps and Navy — no cryptanalyst solved the challenges, so
+  the algorithm stayed a secret for ~90 years, known to a handful of people.
+  In May 2010 his daughter-in-law Patricia Byrne donated all the papers and
+  machine drawings to the National Cryptologic Museum (Ft. Meade), and Moshe
+  Rubin published the algorithm (\"Chaocipher Revealed,\" Jul 2010). The
+  system: two rotating alphabet disks small enough for a cigar box, each
+  enciphered letter self-permuting the alphabets — a pure algorithm built in
+  wood before computers existed. Decoder lesson: there is a difference
+  between *breaking* a system and *being handed* it — Rubin's line, \"it was
+  not broken, it was disclosed,\" is the honest grade for every secret whose
+  material never faced a real adversary. And the reverse: a system that
+  survived 90 years of cryptanalysis unread may owe less to math than to
+  obscurity — grade secrecy-derived confidence separately from
+  cryptanalysis-derived confidence. [VERIFIED — Rubin \"Chaocipher Revealed\"
+  abstract; Wikipedia; National Cryptologic Museum Foundation acquisition
+  record; 2026-10-16]
+
 ## Media decoders — the VLC model
 VLC/ffmpeg decode nearly every codec on earth: H.264, H.265/HEVC, AV1, VP9,
 AAC, Opus, FLAC, MP4/MKV containers, subtitle formats. "Decode everything" is a
