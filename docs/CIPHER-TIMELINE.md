@@ -307,7 +307,21 @@ problem that had stood twenty years is the honest headline.
   checked the result; the key, transcription, and code were publicly
   released, five symbol readings still uncertain. The plaintext was a
   routine troop briefing, consistent with existing records.
-  [CORROBORATED — press coverage + Tomokiyo review + released artifacts]
+  [CORROBORATED — press coverage + independent review + released artifacts]
+- **Addendum (October 17, 2026): the anti-memorization control + the
+  turning-point call.** The researcher reportedly re-ran the March
+  eighteen-oh-nine analysis after stripping Napoleon- and
+  Marmont-related material from the model's available reference texts;
+  the system produced the same reading — a deliberate no-recall control
+  ruling out memorization, and the strongest single verification craft
+  note of the September wave. Separately, the maintainer of the
+  unsolved-cipher list who verified the solve publicly declared twenty
+  twenty-six a turning point for historical-cipher codebreaking
+  (October sixteen interview) — a landscape datapoint: the field's own
+  registrar names the year it is living in. Verification craft and a
+  stated opinion, not a new technique class.
+  [CLAIMED — secondary writeups carrying the reported method and the
+  quoted words; neither primary opened first-party]
 - **The pattern the timeline teaches:** these breaks are the
   reproducibility-suite discipline applied to history — Church released
   key, transcription, and code; Weierud validated MVUEH independently.
