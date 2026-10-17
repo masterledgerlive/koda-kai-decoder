@@ -1808,6 +1808,27 @@ The universal quantum decoder stays [SPECULATION] until proven.
   attribution layers are the remaining lanes. [CLAIMED —
   vendor's own data; the firm sells ad-fraud protection]
 
+- **VerCellBreak: a TLS-trick exfiltration channel past the Vercel
+  Sandbox domain allowlist (October 2026).** Researchers showed a
+  compromised AI agent inside Vercel's agent sandbox can move secrets
+  to an untrusted server by getting an *approved* server to make the
+  forbidden connection on its behalf — a legitimate TLS feature, not a
+  software bug. Submitted through Vercel's own sandbox bug bounty; the
+  response is disputed (the firm says out of scope, the firm also says
+  Vercel asked for patch time), Vercel has not commented publicly,
+  and no in-the-wild use is reported. Lesson: an allowlist guards the
+  destination, not the path — egress filters need a trusted-middleman
+  test. [CLAIMED — the firm's own research via trade press; vendor
+  response disputed; no wild exploitation observed]
+
+- **Transferable adversarial attacks against machine-learning
+  intrusion detectors (2026 journal paper).** Surrogate-model plus
+  generative-model attacks degrade multimodal machine-learning
+  intrusion detectors; attack transferability should be the default
+  threat model. Lesson: detectors tuned against a fixed attack suite
+  decay against an attacker who moves second. [CLAIMED — secondary
+  writeup; paper not opened first-hand]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
