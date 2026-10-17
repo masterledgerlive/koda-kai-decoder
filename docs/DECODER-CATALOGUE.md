@@ -1833,6 +1833,43 @@ The universal quantum decoder stays [SPECULATION] until proven.
   attribution layers are the remaining lanes. [CLAIMED —
   vendor's own data; the firm sells ad-fraud protection]
 
+- **Proof x401: verified legal identity and transaction authorization
+  for AI agents (launched October 15, 2026).** An open protocol that
+  lets any website ask an AI agent to prove who it acts for and what
+  that person authorized. A consumer-side identity wallet holds the
+  person's verified identity; the person approves exactly what the
+  agent may do on their own device; the agent carries the request and
+  the wallet signs the transaction terms. The receiving business
+  independently confirms the verified identity and checks the
+  cryptographic signature, so any change to amount, recipient, or
+  signed terms breaks validation. Works with Meta's Muse, ChatGPT,
+  Grok, Claude, and other assistants supporting the Model Context
+  Protocol. Context: weeks after Amazon blocked Muse from its
+  marketplace, and after September guidance from FinCEN and federal
+  banking regulators on digital certificates and verifiable
+  credentials for identity verification. Lesson: the agent-detection
+  lane's "grade authorization, not humanness" principle gains a
+  production open protocol - the agent is the carrier, never the
+  authority.
+- **Benchmarking bot detection against modern AI agents (October 2026).**
+  A publisher-run benchmark tested five adversaries against five
+  detection systems. Identification rates: Proof of Human ninety-nine
+  percent, reCAPTCHA v three sixty-nine point four percent, hCaptcha
+  forty-four point three percent, Cloudflare Turnstile forty-two point
+  one percent, Cloudflare Bot Management nine point one percent. The
+  split ran by adversary type: hCaptcha and Turnstile caught nearly
+  every scripted-browser session but few AI-agent sessions, while
+  reCAPTCHA v three caught most agent sessions but none from
+  CloakBrowser, a source-modified browser plus a residential IP.
+  Lesson: the challenge layer is done; only behavior and identity
+  remain. Figures are self-reported by the benchmark publisher.
+- **Agent Access Index: written rules versus observed reality
+  (October 10, 2026).** A read-only pass over one hundred sixty-two
+  platforms' sign-up pages found thirty-seven refusing a bot browser
+  silently, twenty-two showing a CAPTCHA, and only forty-four of one
+  hundred fifty-eight readable rule pages mentioning bots at all.
+  Lesson: detection runs silent; written policies are mostly decor.
+  Dataset published under a CC BY licence by its authors.
 - **VerCellBreak: a TLS-trick exfiltration channel past the Vercel
   Sandbox domain allowlist (October 2026).** Researchers showed a
   compromised AI agent inside Vercel's agent sandbox can move secrets
