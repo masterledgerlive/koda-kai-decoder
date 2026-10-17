@@ -3523,6 +3523,52 @@ The universal quantum decoder stays [SPECULATION] until proven.
   is a design, not a deployed defense. [CLAIMED — writeup of the patent's
   claims; the patent record not opened directly]
 
+- **Multi-turn human jailbreaks — the conversation channel priced (new to
+  record).** Scale Labs released a dataset of two thousand nine hundred
+  twelve prompts across five hundred thirty-seven multi-turn human
+  jailbreaks, alongside a tactics compendium from dozens of commercial
+  red-teaming engagements. Against defenses that report single-digit
+  attack success under automated single-turn attacks, human multi-turn
+  pressure achieved over seventy percent — and the same human pressure
+  recovered dual-use biosecurity knowledge from machine-unlearned models.
+  The release filtered out model completions and sensitive items, was
+  checked against export-control rules, and was disclosed to the defense
+  authors first. Decoder lesson: with the LLMail-Inject entry, the
+  human-adversary pricing now covers both the injection channel and the
+  conversation channel — a defense that survives automation is graded at
+  zero until it survives a patient human. Honest caveat: Scale's page
+  metadata reads 2024 while the item circulates as October 2026 news, so
+  release timing is ambiguous; the figures are Scale's own claims.
+  [CLAIMED — Scale's first-party page; self-reported, not independently
+  replicated]
+
+- **Unified misuse-monitoring benchmark — grade monitors by when, not
+  whether (Oxford, arXiv October 5, 2026, new to record).** About six
+  thousand two hundred conversation transcripts spanning decomposition
+  attacks (a harmful request split into innocent-looking sub-requests)
+  and prompt-injection attacks, each with a labeled harm window from the
+  agent's first harmful commitment to goal execution. Across seventeen
+  monitor configurations, monitors that read the agent's actions did
+  well on both threats (AUC 0.95 and 0.99), while monitors that read
+  content alone collapsed to 0.52 on injection — no better than chance —
+  and every monitor localized decomposition attacks poorly once scored
+  by *when* it catches harm. Decoder lesson: this is the Gauntlet's
+  primitive made formal — a monitor is graded by when it fires, and the
+  content-only collapse confirms that the gate that works reads actions,
+  never text. Caveat: a preprint; the authors' own monitors top their
+  own comparison set. [CORROBORATED — arXiv abstract read first-party;
+  preprint]
+
+- **SLDR — safety recovery at the layer level (arXiv, October 7, 2026,
+  new to record).** A post-fine-tuning defense against malicious
+  fine-tuning: safety sensitivity concentrates in specific layers, so a
+  small recovery adapter is trained only on those layers, and
+  suspected-malicious queries are routed through it — reported to reduce
+  harmful outputs while preserving utility. Decoder lesson: defenses
+  are converging on dynamic routing rather than static walls, mirroring
+  the taint-gated decoding pattern above. Caveat: secondary writeup; the
+  paper was not opened first-party. [CLAIMED]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
