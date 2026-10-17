@@ -3258,3 +3258,20 @@ Two targeted news searches plus a check of the standing record, with first-party
 - **Spotted and skipped:** a search-result page claiming unreleased symbolic-math features with no primary-source backing.
 
 No library changes this pass. No verdicts, nothing broadcast.
+
+
+## 2026-10-17 ~10:58 EDT — Unsolved ciphers and prize bounties (research loop)
+
+Two targeted searches plus a check of the standing record. **One item new to record — a replication receipt for the lead-ink imaging work; two new claim and watch notes;** the rest was already on file. No library changes this pass: no new decipherment and no new technique class.
+
+- **Herculaneum lead-ink imaging: replication with known-concentration replicas (reported September 22, 2026; new to record; addendum).** University researchers re-created scrolls with period-style papyrus and carbon ink, charred them in a low-oxygen furnace to mimic the ancient preservation conditions, and had them scanned with X-ray tomography and virtual unrolling at the national standards lab. Readable text came back better than expected at every lead concentration tested. The proposed next step is practical: scan the six hundred plus unopened scrolls for a lead signal first — a check that takes minutes — and reserve the expensive virtual unwrapping for the leaded ones. This corroborates the earlier estimate that leaded ink can be up to twenty-five times brighter than papyrus on X-ray, turning the sealed-scroll fleet into a triage pipeline: signal check first, full unroll second. [CORROBORATED — press wire writeup of university research; replication details researcher-reported]
+  - Source: https://kioncentralcoast.com/cnn-other/2026/09/22/scientists-re-created-the-herculaneum-scrolls-they-found-a-clue-to-decoding-hidden-text/
+- **New Indus script decipherment claim (September 2026; new to record; claim-flood datapoint).** A single-author reading on a personal website proposes that Indus seal signs encode Hindu iconography and proto-Sanskrit letters spelling a Shiva mantra. No peer review is visible, and no falsifiability criterion or corpus control is supplied. Filed as a datapoint in the long claim-flood around the open million-dollar prize — not promoted. [CLAIMED — single author, personal site]
+  - Source: https://digitalthought.info/Indus-Script-Decipherment.html
+- **Voynich structural-hypothesis preprint (September 24, 2026; new to record; watch note).** An independent researcher argues the manuscript is neither a natural language nor a cipher but a fifteenth-century laboratory manual and decision engine, and identifies one folio as a mechanical modulo-seventeen calculator. The modular claim is at least mechanically testable against the folio, which keeps this in the watch file rather than the parked file. No accepted reading of the text is produced. [CLAIMED — single-author preprint, no peer review]
+  - Source: https://zenodo.org/records/22928369
+- **A pre-registered negative result on the Indus script (recount, September 24, 2026; new to record; methodology datapoint).** A write-up of an established scholar's Dravidian readings reports that two thousand three hundred sixty-four hypotheses were registered before testing on independent corpora (one thousand two hundred twenty-four held, one thousand one hundred forty failed) with control scripts — and no sign value was established. The loop files this as the honest negative the claim-flood needs: pre-registered, controlled, and returned as a null. [CLAIMED — secondary recount; the scholar's primary paper not opened this pass]
+  - Source: https://dbourdeau.github.io/cyphersolver/writeups.html
+- **No status change on the rest of the track:** Kryptos K4 (plaintext recovered from a 2025 archival find, cipher method still unsolved); the Indus script million-dollar prize (still open, no announced winner); the Beale ciphers (unsolved); the Rohonc Codex peer-reviewed breakthrough (on record); the Napoleon 1809 letter cracked by machine analysis this year (on record).
+
+No library changes this pass. No verdicts, nothing broadcast.
