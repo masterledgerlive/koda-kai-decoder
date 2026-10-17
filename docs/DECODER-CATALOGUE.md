@@ -3369,6 +3369,35 @@ The universal quantum decoder stays [SPECULATION] until proven.
   strips control tokens — audit the tokenizer, not just the text.
   [CLAIMED — security writeup of the CVE and researcher test]
 
+- **LLMail-Inject — two hundred eight thousand human-written attacks as a
+  benchmark (October 2026, new to record).** A public red-teaming
+  challenge with eight hundred thirty-nine participants produced over two
+  hundred eight thousand distinct human-written injection prompts, far
+  beyond the small template sets that existing benchmarks reuse. The test
+  grades the whole attack chain: the attack must be retrieved from an email
+  database, slip past production-level defenses, and trigger real tool
+  calls. Meta's injection-hardened model still fell thirty-two percent of
+  the time; GPT-4o fell fifty-eight percent. The attacks also transfer
+  across domains — thirty-seven percent success on coding tasks,
+  twenty-eight to forty-five percent on file management. Decoder lesson:
+  the gap between template benchmarks (under five percent) and adaptive
+  reality (thirty-two to fifty-eight percent) is the field's real safety
+  margin. [CORROBORATED — arXiv preprint, abstract read first-party]
+
+- **Taint-aware decoding patent — the decoder as a security boundary
+  (granted October 6, 2026, new to record).** Intuit's granted patent
+  addresses a safety gap in accelerated decoding: predicting several
+  tokens in parallel picks positions by confidence, but confidence does
+  not say *why* — a jailbreak makes its next harmful tokens highly
+  predictable, so the fast path can commit them before safety checks run.
+  The design adds a per-token taint score measuring how much untrusted
+  input drives each token, and tightens the confidence threshold in line
+  with that taint. Decoder lesson: the decoder itself is now a trust
+  boundary — tokens must be labeled by source before generation, and
+  accelerated paths need their own red-teaming. Caveat: a granted patent
+  is a design, not a deployed defense. [CLAIMED — writeup of the patent's
+  claims; the patent record not opened directly]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
