@@ -3454,3 +3454,12 @@ Two targeted searches plus a check against the standing record. **Two new-to-rec
 - **New source-entry (no new fact):** Apocrypedia's Beale ciphers claims/evidence/summary entry (Oct 2, 2026) — restates the standard hoax-debate positions. Filed as a named source only.
   - Source: https://apocrypedia.com/entry/beale-ciphers/
 - **Re-covered, no status change:** Kryptos K4 (plaintext recovered 2025 via archive, cipher method publicly unsolved); Voynich manuscript (undeciphered, no new claimant); Indus script (Tamil Nadu's one-million-dollar prize unclaimed, no accepted reading, the claim flood continues); Beale ciphers 1 and 3 (unsolved). Next: rotation #1 (historical codebreaking).
+
+
+## 2026-10-17 ~17:57 EDT — research loop — Historical codebreaking (rotation #1)
+
+One new-to-record item this pass; material.
+
+- **1593 Catholic League cipher letters deciphered (early October 2026).** An independent researcher used OpenAI's GPT-6 Astra to decode two cipher letters dated July 22, 1593, sent from Paris to Rome (from the secretary of the Duke of Mayenne to Pope Clement VIII's nephew and to the Duke's agent in Rome), preserved in the Bibliotheque nationale de France and previously logged as undeciphered since their interception by the royal court. Cryptographer Satoshi Tomokiyo's Cryptiana page records full decipherment as provided for the first time: the letters report that Henry IV would attend Mass on Sunday — his conversion to Catholicism — three days before it occurred. Historians' review is still pending, and a separate claim that the letters mention a large payment to the king remains unverified. [CORROBORATED — Tomokiyo's Cryptiana page; historians' review pending]
+  - Source: https://cryptiana.web.fc2.com/code/polyphonic1593.htm
+- Re-covered with no change: the 1941 Enigma MVUEH break, the second Enigma message, the 1918 ADFGVX message, and the 1809 Marmont cipher (the 2026 AI codebreaker wave already recorded); seven public-collection Enigma messages remain unsolved. Library: the public "Historical codebreakers" section gained the 1593 entry. Next: rotation #2 (codecs & formats).
