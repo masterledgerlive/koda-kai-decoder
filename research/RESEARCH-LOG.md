@@ -3288,3 +3288,12 @@ Two targeted news searches plus a check of the standing record. **Two items new 
 
 One library addendum (anti-memorization control + turning-point note) folded into the cipher timeline's Marmont entry. No verdicts, nothing broadcast.
 
+
+
+## 2026-10-17 ~11:57 EDT — decoder-research-loop — Codecs & formats (twenty-sixth pass)
+
+Three targeted news searches (AV1-successor / FFmpeg releases; Google media codecs; VLC / container-format / audio-codec coverage) plus a standing-record review. **Retread pass — every hit resolved to an already-recorded entry; nothing new since the morning pass. Catalogue unchanged.**
+
+- **Re-covered, no status change:** AV2 v1.0.0 (finalized May 28, 2026; roughly thirty percent objective gains claimed by the alliance's own materials, corroborated by October trade guides; software decoder dav2d still pre-release; hardware decoder IP from Allegro DVT, Chips&Media and VeriSilicon announced June 2026; no shipping browser or phone decode; no FFmpeg AV2 support); FFmpeg 9.0.2 (native APV / ProRes RAW / G.728 decoders, Vulkan compute-shader codec class); VLC 3.0.24 (September 22, 2026: APV plus ATRAC3/9 decoders, CEA-708 captions in MP4, 130-plus security fixes); Android 17 VVC support; the flagship-silicon VVC wave (named parts and distributors on record); the dav2d deployment tension (one outlet calls it "quite early / not production," a June piece says it already powers playback — graded CLAIMED both ways, still unresolved); the Access Advance AV1/AV2 patent-pool exploration; Valve's PyroWave Vulkan streaming codec (Steam beta); Opus 1.6 / LC3plus / OAC experimental.
+- **Out of lane, skipped:** Google EmbeddingGemma 2 (October 6, 2026 — a multimodal embedding model, not a media codec); Google Veo 3.1 generation features (product release); a single-author ffmpeg.wasm-to-WebCodecs export anecdote (unreproduced claim).
+- **No change to the catalogue.** No new codec, no new format, no new parser surface. Next: protocol decoders.
