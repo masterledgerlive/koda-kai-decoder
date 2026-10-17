@@ -25,6 +25,18 @@ CLAIMED / SPECULATION.*
   an Allied squadron following on the 26th. Separately, cryptanalyst Jack Willis
   solved another unresolved Enigma message with help from Anthropic's Claude
   Opus 5 (more direct expert guidance). [CLAIMED]
+- **1593 Catholic League cipher letters (AI-deciphered, Oct 2026):** an
+  independent researcher used OpenAI's GPT-6 Astra to decode two cipher letters
+  dated July 22, 1593, sent from Paris to Rome and preserved in the
+  Bibliotheque nationale de France, logged as undeciphered since their
+  interception over four centuries ago. Cryptographer Satoshi Tomokiyo's
+  Cryptiana page records full decipherment provided for the first time: the
+  letters report that Henry IV would attend Mass on Sunday — his conversion to
+  Catholicism — three days before it occurred. Historians' review is still
+  pending. The fifth break in the 2026 AI codebreaker wave, and the oldest
+  cipher in it — the machine-cryptanalyst template now reaches pre-modern
+  polyphonic ciphers. [CORROBORATED — Tomokiyo's Cryptiana page; historians'
+  review pending]
 - **Enigma** (1918–1945): rotor cipher machine; broken at Bletchley Park with the
   Bombe — the lineage of breaking the "unbreakable." [VERIFIED]
 - **Lorenz cipher / Tunny**: broken via Colossus, the first programmable digital
