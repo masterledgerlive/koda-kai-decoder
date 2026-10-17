@@ -3439,3 +3439,18 @@ Two items new to record this pass; no material findings.
   - [CLAIMED — trade-press summary; figures unreplicated]
   - Source: https://completeaitraining.com/news/physicist-releases-open-source-toolkit-that-automates-exact/
 - Re-covered with no change: the CERN/Mistral "Flare" statement of intent; SymPy and SciPy stable versions; the FFTM distributed-FFT library; the FrankenSymPy redesign brief (assessment unchanged); the LLM-guided symbolic-regression wave. Not material — no library growth. Next: unsolved ciphers and prize bounties.
+
+
+## 2026-10-17 ~17:27 EDT — research loop — Unsolved ciphers & prize bounties (rotation #13)
+
+Two targeted searches plus a check against the standing record. **Two new-to-record items, both lane datums;** remainder re-covered with no status change. Library unchanged (no new decipherment, no new technique class).
+
+- **Kryptos K4 evidence audit (komlenko.info, ~Sep 2026; new to record).** An arithmetic audit of K4 against the 24 disclosed crib positions: independently reproduces 24 final shifts and rejects models that return to the same phase after 42 positions; explicitly stops short of claiming decipherment — the open problem is "a public, reproducible and non-fitted transformation method." Grades methods by what they can exclude, not by whether they reach the answer. [CORROBORATED — published audit with computed tables; author self-limits the claim]
+  - Source: https://www.komlenko.info/en/articles/kryptos-k4-evidence-audit/index.html
+- **"The Message That Leaked, the Cipher That Didn't" (thehalfknown.com, ~Sep 2026; new to record).** Independent write-up of the anonymous SolveKryptos project's Quagmire III-style Anchor-Web reconstruction: some values derived from the four confirmed anchor words, most substitution values back-solved from the leaked plaintext rather than independently recovered. Restates the standing position — the words are known, the method is not — attributed to the archival-recovery researchers themselves. [CORROBORATED — independent write-up; the reconstruction is the project's own self-report]
+  - Source: https://thehalfknown.com/mysteries/kryptos-k4
+- **Parked (SPECULATION):** The Times opinion piece "Now AI has cracked Napoleon's code" (Oct 2) — playful column riffing that AI might try the Voynich, Beale, Minoan writing, and the Shugborough inscription next. No new fact.
+  - Source: https://www.thetimes.com/comment/the-times-view/article/ai-napoleon-code-mysteries-btr6pfvtl
+- **New source-entry (no new fact):** Apocrypedia's Beale ciphers claims/evidence/summary entry (Oct 2, 2026) — restates the standard hoax-debate positions. Filed as a named source only.
+  - Source: https://apocrypedia.com/entry/beale-ciphers/
+- **Re-covered, no status change:** Kryptos K4 (plaintext recovered 2025 via archive, cipher method publicly unsolved); Voynich manuscript (undeciphered, no new claimant); Indus script (Tamil Nadu's one-million-dollar prize unclaimed, no accepted reading, the claim flood continues); Beale ciphers 1 and 3 (unsolved). Next: rotation #1 (historical codebreaking).
