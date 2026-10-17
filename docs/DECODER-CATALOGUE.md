@@ -1012,6 +1012,26 @@ quantum error correction, quantum machine learning, quantum cryptanalysis.
   now a pattern on both sides of the Atlantic — alongside the Oct-15 NCSC TLS
   guidance and the GAO zero-of-24 finding. [CORROBORATED — trade-press
   writeup of a BSI-issued release]
+- **Singapore post-quantum guidance (Oct 14, 2026; minor lane entry).** The
+  Cyber Security Agency recommends that organizations exposed to quantum
+  risks prepare migration plans by 2027 and complete migration by 2035, with
+  critical information infrastructure systems completing by 2031; a new grant
+  runs November 2026 through October 2027. The third national timeline this
+  week — the national-policy wave is global, not Atlantic.
+  [CORROBORATED — trade-press recarrying the agency release]
+- **Quantum Alliance launches in Lisbon (Oct 15, 2026; industry datapoint,
+  not a technique).** Nine firms formed a group to publish open,
+  Internet-Engineering-Task-Force-style standards for measuring and
+  implementing post-quantum cryptography across blockchains, wallets, and
+  infrastructure: four tracks covering blockchain migration, post-quantum
+  zero-knowledge proofs, wallet security, and cross-chain compatibility.
+  Coverage frames the move around an estimate that roughly six million
+  Bitcoin sit at addresses with exposed public keys, and one member's model
+  points to March 2028 as an early possible window — kept in the record as
+  the members' own estimates, not findings. The alliance's own writeup
+  concedes that no computer today can derive a private key from an exposed
+  public key. [CORROBORATED — launch event; the exposure figure and 2028
+  timeline are member models, graded CLAIMED as estimates]
 - **DARPA QBI Stage C: full six-company roster (announced Oct 7, 2026).** Atom
   Computing, Diraq, IBM, and IonQ cleared Stage B to join Microsoft and
   PsiQuantum in the final verification phase of DARPA's Quantum Benchmarking
