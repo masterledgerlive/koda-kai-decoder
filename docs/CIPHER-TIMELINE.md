@@ -316,6 +316,17 @@ problem that had stood twenty years is the honest headline.
   humans as the final check. After this wave, seven messages remain
   unsolved in the public Crypto Cellar collection. [CLAIMED — single
   explainer]
+- **Addendum (October 16, 2026): institutional coverage + the validation
+  flood.** Nature news covered the whole September wave — the first
+  institutional-tier press on it — reporting that GPT-6 Astra tested
+  more than four billion Enigma settings in ten hours for the MVUEH
+  message, and that cryptographers' inboxes are being flooded with
+  requests to validate AI-generated cipher solutions; the quoted expert
+  notes the flood is mostly false positives from people who don't
+  understand cryptanalysis. [CORROBORATED — Nature news] The decoder's
+  note: in a flood of amateur solutions, verified verification is the
+  scarce resource — the intake doctrine (a claim that grades itself is
+  rejected on intake) is the filter.
 
 ## 1990 — Kryptos: the cipher in the CIA's own courtyard
 
