@@ -367,6 +367,36 @@ CLAIMED / SPECULATION.*
   inconclusive; build every finding as a trial document that survives
   hostile review. [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
 
+- **The D'Agapeyeff cipher (1939) — the challenge cipher that outlived its own key.**
+  In 1939 Alexander D'Agapeyeff printed a "challenge cipher" on page 144 of his
+  elementary book *Codes and Ciphers*: groups of five digits, with the reader
+  invited to test his skill. D'Agapeyeff later said he had forgotten the method,
+  and the challenge vanished from later editions. Eighty-seven years on it has
+  never been read: a dedicated research project has tried 390+ attack
+  configurations across seven phases — keyword attacks, simulated annealing,
+  Two-Square models, ADFGX fractionation, 116 crib attacks from the book's own
+  pages — and reports no coherent plaintext. Structurally it reads as digit
+  pairs feeding a 14×14 grid (196 pairs, three never occurring); the author's
+  own book teaches the null-letter trick on page 111, so the challenge may be
+  salted with dummies. The standing hypothesis is human error — a proofreading
+  mistake was already found in one of the book's worked examples — possibly
+  even encryption run backwards, in which case no key could ever recover the
+  intended text. And the cautionary datum: one attack briefly decoded "OUR,"
+  "FINALLY," "THAT" and looked like the breakthrough, until analysis showed the
+  optimizer had scored only 14% of the text and hallucinated English into the
+  slice. [CORROBORATED — Wikipedia, Nick Pelling's Cipher Mysteries, the active
+  research project's published reports, Gordon Rugg's research page; the
+  reversed-encryption idea is the project's hypothesis, not a finding]
+- **Decoder lesson (D'Agapeyeff → Gauntlet):** (1) key management is the cipher
+  — extraction never depends on the author, and the key-provenance field can
+  honestly read LOST; (2) interrogate the transcription before the cipher — a
+  cipher that can't be broken may never have been correctly written; (3) the
+  optimizer is a storyteller — a claimed break must score all of the material,
+  reproduce on restarts, and survive a blind grader. [SPECULATION — Gauntlet
+  mapping, never run]
+
+*D'Agapeyeff cipher entry seeded 2026-10-17 ~15:10 EDT by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
