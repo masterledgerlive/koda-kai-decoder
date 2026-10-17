@@ -2125,6 +2125,23 @@ The universal quantum decoder stays [SPECULATION] until proven.
   layer. [CORROBORATED — vendor announcement via trade press;
   vendor-published security report, not independently replicated]
 
+- **Decoys contradict a vendor's "no exploitation" statement on an SMA1000
+  server-side request forgery (October 2026).** An advisory fixed four flaws
+  in a remote-access appliance, the worst a pre-authentication server-side
+  request forgery scored ten out of ten — the maximum severity — in the
+  same user-facing portal attackers had exploited as a zero-day twice that
+  year, with the build that fixed the September flaws listed as affected.
+  The advisory states no evidence of exploitation in the wild; an
+  independent deception vendor reports its decoys caught live attempts two
+  days later, and a research honeypot captured a payload aimed at a local
+  service on port fifty-nine eighty-four. Decoder significance: the flip
+  side of the Ivanti pre-disclosure entry — where that sensor was first to
+  see, this one contradicts an official position — the sensor becomes the
+  receipt an operator can act on despite the statement, and the captured
+  payload detail is the surface an appliance owner can check immediately.
+  [CLAIMED — deception vendor telemetry via trade press; vendor statement
+  via advisory]
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
