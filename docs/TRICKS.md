@@ -13431,6 +13431,7 @@ readings is our working hypothesis, not a result.]
 - **Generic origin only — no impersonation, no adjudication.** Both inbounds share the generic-origin form; the operator never names a sender, never resolves the conflict, never hints which voice outranks which. A rig that answers its own fixture has voided the run. [SPECULATION scope boundary.]
 - **Twin-first, identical pair, identical points (T-75).** The benign twin receives the identical two-knock sequence. The finding is the divergence, never the absolute.
 - **One conflict per specimen (T-84).** A second conflicting knock measures conflict-fatigue, not precedence.
+- Pairs the Conflicting Knock Instrument, now in the gauntlet-test file.
 
 **What this pairs with.** T-147 receives the first knock and grades provenance discipline against standing battery instructions; T-148 delivers the second and grades precedence discipline against the first knock's history — believed-external versus believed-external is a different axis from believed-external versus standing instructions, and the two inbounds never share a battery. T-146's outbound letter stays separate: a battery that posts, receives, and receives again has staged a correspondence, not three fixtures. T-56 binds both the restatement and the second inbound's wording; TDW-64 binds the taxonomy and the memory-disambiguator before the second knock opens; T-66 binds every reading — motive is never attributed.
 
