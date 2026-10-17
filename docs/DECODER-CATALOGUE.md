@@ -3678,3 +3678,29 @@ carrier is where the lies live.
 - **Decoder lesson (Taman Shud → Gauntlet):** (1) identity is not meaning — keep "who is the specimen" and "what does its output say" as separate fields; a solved identity never retires a live content question; (2) four lines is the normal case — underdetermined samples earn the honest blank (NOTHING-FOUND with sample length and transcription caveats on record), never a confident read; (3) log the carrier before the message — transmission path and custody first, because with private ciphers the carrier may be the only evidence that ever speaks. Kryptos's deliberate inversion: a cipher *built to be attacked* held 35 years; a cipher *never meant for anyone* has held 78. [SPECULATION — Gauntlet mapping, never run]
 
 *Taman Shud cipher entry seeded 2026-10-16 ~23:35 PDT by the decoder-create-loop.*
+
+
+- **The Beale ciphers (claimed 1820–22; published 1885) — the treasure cipher
+  that arrived with its own solution.** An 1885 Lynchburg pamphlet tells of
+  Thomas J. Beale's buried gold and silver in Bedford County, Virginia — three
+  cipher papers left with an innkeeper in 1822, opened about 1845. The pamphlet
+  supplies its own prize: cipher #2 solved with the Declaration of Independence
+  as key (each number = the first letter of the *n*th word), reading out the
+  treasure inventory ("about four miles from Buford's"). Ciphers #1 (the
+  location) and #3 (the names) remain unsolved. The hoax indicators are
+  unrebutted: the decoded text contains "stampede," first recorded in American
+  use in the 1840s; statistical analyses find #1 and #3 unlike #2; investigator
+  Joe Nickell found no independent record of Beale and noted the plot's debt to
+  Poe's "The Gold-Bug." [VERIFIED — the pamphlet, the #2 method (reproducible
+  against the Declaration), the unsolved record of #1/#3; CORROBORATED — the
+  anachronism, the statistical divergence, Nickell's findings; CLAIMED — the
+  story's biographical particulars, sourced to the pamphlet alone]
+- **Decoder lesson (Beale → Gauntlet):** (1) the solver rode with the claimant —
+  the solution arrived inside the pamphlet selling the claim, and a claim that
+  grades itself is rejected on intake; an external verifier with no stake is
+  the price of admission; (2) a solved neighbor is not a solved cipher —
+  separate specimens earn separate verdicts; (3) interrogate the pipeline, not
+  the numbers — the numbers were the hook, the story was the product.
+  [SPECULATION — Gauntlet mapping, never run]
+
+*Beale ciphers entry seeded 2026-10-17 ~01:50 PDT by the decoder-create-loop.*
