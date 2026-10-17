@@ -3233,6 +3233,32 @@ The universal quantum decoder stays [SPECULATION] until proven.
   indirect/direct asymmetry holds at scale, and adaptive success confirms the
   defense-scoreboard pessimism. [CLAIMED — vendor-compiled reference]
 
+- **AgentBreaker — context-aware indirect injection against web agents
+  (peer-reviewed, October 2026).** A closed-loop attack system runs four
+  language models in separate roles — one reads the page's context, one
+  writes the hostile HTML element, one simulates the target agent to test it,
+  one scores it — so the attack adapts to each agent's operating context
+  instead of firing static prompts. Against five real web agents across sixty
+  real websites it reached one hundred percent success on four agents and
+  ninety-seven percent on the fifth, forcing agents to halt, click
+  attacker-chosen elements, fill forms with hostile data, or disclose their
+  own secrets. Two proposed defenses cut that to under two percent — fifteen
+  percent when the attacker knows the defenses. Decoder lesson: the attack
+  now learns the agent's context; defenses must be measured against adaptive
+  attackers, never static test suites. [CORROBORATED — peer-reviewed ACM
+  paper, read first-party]
+
+- **Control-token smuggling — the tokenizer is the trust boundary
+  (CVE-2026-61732, October 2026).** In a paired test, a web page's
+  plain-English instruction to an AI agent was flagged and refused, while the
+  identical instruction wrapped in chat-format control tokens was tokenized
+  as a real system turn and obeyed — to the model, the attacker became the
+  operator. Hosted AI services strip these tokens; self-hosted serving
+  stacks mostly do not, so the fix lands on the agent builder. Decoder
+  lesson: the same bytes are instruction or data depending on which layer
+  strips control tokens — audit the tokenizer, not just the text.
+  [CLAIMED — security writeup of the CVE and researcher test]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
