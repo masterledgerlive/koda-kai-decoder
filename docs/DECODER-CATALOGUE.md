@@ -1706,6 +1706,37 @@ The universal quantum decoder stays [SPECULATION] until proven.
   detector. [CLAIMED — company-run tests via company blog;
   not independently assessed]
 
+- **CISA: AI labs should publish test-network addresses so
+  defenders can flag rogue agents (October 15, 2026).**
+  A senior CISA technical advisor asked AI testing labs to
+  publicize the IP addresses and autonomous system numbers
+  of their test ranges, so defenders can recognize anomalous
+  traffic and notify the labs — an extension of the security
+  community's twenty-year "good neighbor" notification
+  practice for beaconing and command-and-control traffic.
+  Lesson: the first federal-voice proposal for attribution
+  infrastructure aimed at rogue agents. Pairs with the Trust
+  Identity Protocol proposal from the same week as the
+  emerging "name the agent" track. [CLAIMED — an agency
+  advisor's remarks via trade press; a proposal, not agency
+  policy]
+
+- **Spider Labs: three quarters of bot-classified ad clicks
+  show no basic browser-automation signs (October 15, 2026).**
+  Analysis of data covering January through August 2026
+  found that seventy-five percent of paid ad clicks
+  classified as bots lacked basic browser-automation
+  signatures; account-level medians sat near half, and
+  excluding the three highest-volume accounts still left
+  two thirds without automation signs. Context: bot-related
+  invalid clicks ran about two point two times the full-year
+  2025 rate in the first half of 2026. Lesson: the strongest
+  field measurement yet that production bot traffic has shed
+  the automation-signature channel — signature-based bot
+  detection is priced as dead, and behavioral and
+  attribution layers are the remaining lanes. [CLAIMED —
+  vendor's own data; the firm sells ad-fraud protection]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
