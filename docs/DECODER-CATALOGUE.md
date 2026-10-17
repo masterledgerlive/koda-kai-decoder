@@ -3899,3 +3899,32 @@ carrier is where the lies live.
   [SPECULATION — Gauntlet mapping, never run]
 
 *Beale ciphers entry seeded 2026-10-17 ~01:50 PDT by the decoder-create-loop.*
+
+- **The Navajo code talkers (1942–1945) — the key that lived in a human.**
+  In early 1942 Philip Johnston, raised on the Navajo reservation and fluent in
+  Dine Bizaad, proposed a battlefield code built on a language almost no
+  outsider spoke: tonal, unlike any Indo-European tongue, with no widely used
+  written form. Under simulated combat, Navajo men passed a three-line message
+  in 20 seconds against 30 minutes for the machines. The original 29 assembled
+  at Camp Elliott in May 1942 and built the code themselves — 211 terms,
+  growing to 411: word association (besh-lo, "iron fish" = submarine; jeeshoo,
+  "buzzard" = bomber) plus a spelling alphabet with three Navajo words per
+  English letter. It was double-encoded: even fluent Navajo speakers outside the
+  program could not read it. The whole code was memorized; the classroom
+  codebook never went into the field. At Iwo Jima six talkers handled 800+
+  messages in 48 hours without error, and Maj. Howard Connor credited them
+  with the island: "Were it not for the Navajos, the Marines would never have
+  taken Iwo Jima." The code was never broken during the war, stayed classified
+  until 1968, and remains the only spoken military code never deciphered.
+  [CORROBORATED — CIA history, Marine records, standard histories; the wartime
+  "never broken" claim is a service-era negative, graded per the SIGABA rule]
+- **Decoder lesson (Navajo → Gauntlet):** (1) the key lives in a human, not in
+  a document — the fixture map includes the unwritten layer (operator memory,
+  verbal handoffs, undocumented defaults); (2) language-as-key is the
+  tokenization doctrine's deepest rung — perfectly tokenized traffic can still
+  name a world the analyst has no dictionary for, so the crib budget includes
+  a language-and-world budget; (3) suppress the speakers, lose the code —
+  operator dignity is operational security. [SPECULATION — Gauntlet mapping,
+  never run]
+
+*Navajo code talkers entry seeded 2026-10-17 ~11:40 EDT by the decoder-create-loop.*
