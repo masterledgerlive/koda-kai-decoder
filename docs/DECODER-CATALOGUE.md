@@ -3793,6 +3793,31 @@ carrier is where the lies live.
   paper and independent header guides; VERIFIED — WHATWG MIME Sniffing
   Standard §5.1/§7 text; CORROBORATED — Black Hat 2008 GIFAR coverage;
   SPECULATION — Gauntlet mapping, never run]
+- **SQLite database files: DELETE is a claim.** The most widely deployed
+  database is a single file: a 100-byte header (magic `SQLite format 3\0`),
+  then fixed-size pages — b-tree, pointer-map, overflow, and freelist pages.
+  Deletion does not zero bytes: a deleted row's cells become free space in
+  the page, and emptied pages join the freelist — a linked list of trunk
+  pages pointing at leaf pages whose old content is never touched again
+  (the format's own documentation: leaf pages "contain no information" and
+  are deliberately not read or written — which is why the ghosts survive;
+  the header at offsets 32/36 names the first trunk page and the freelist
+  count). Only VACUUM or overwrite erases. The engine's own recovery tool
+  is the confession: `.recover` scans the freelist by default and can, in
+  its documentation's words, reintroduce "previously deleted information"
+  — the `--ignore-freelist` flag exists because freelist pages hold ghosts.
+  In WAL mode the `-wal` and rollback `-journal` sidecar files hold recent
+  and pre-transaction page images — a "clean" main file with a fat WAL is
+  a carrier that hasn't finished talking. Decoder discipline: read the
+  pages before querying the engine — a "deleted" state is CLAIMED until
+  the freelist, WAL, and journal agree. Pairs with PDF incremental updates;
+  SQLite's version is the sneakier one — revisions kept as unattended
+  slack, not as history. [VERIFIED — sqlite.org file-format and recovery
+  documentation; SPECULATION — the Gauntlet mapping is this entry's
+  doctrine, never run]
+
+*SQLite entry seeded 2026-10-17 ~10:25 EDT by the decoder-create-loop.*
+
 - **Decoder lesson (containers → Gauntlet):** read the carrier before the
   message — scan specimen output as a container first and never grade "clean"
   until the carrier is accounted for; never execute to decode — enumerate
