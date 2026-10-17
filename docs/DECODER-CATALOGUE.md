@@ -314,6 +314,21 @@ CLAIMED / SPECULATION.*
   the key physically lived — a punched card is a supply chain, not a
   computation. [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
 - **The Kryha machine (1924–25)** — the "absolutely indecipherable" mechanical cipher that fell in 2 hours 41 minutes: Alexander von Kryha's machine, marketed across Europe as unbreakable; in 1933 the North American rights-holder ($100,000) challenged the Army's newborn SIS with a 200-word cryptogram, and William Friedman solved it the same afternoon — receipt-stamped 11:12 AM "commenced work," 2:43 PM "solved," less a 50-minute lunch — without machine aids. [VERIFIED — army.mil challenge record] Gauntlet takeaway: a vendor's "unbreakable" is a free test protocol — accept the challenge, timestamp the break, return the keys; hype is priced against the clock, never the brochure. [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
+- **The Babington Plot cipher (1586)** — Mary Queen of Scots' nomenclator
+  (alphabet symbols + word-symbols + nulls + a "dowbleth"), read by Thomas
+  Phelippes on a channel Walsingham owned end-to-end: courier Gilbert
+  Gifford was the double agent, and every letter was decoded, copied, and
+  resealed at Chartley Hall. On Walsingham's direction Phelippes forged a
+  ciphered postscript in Mary's name asking Babington for the names of the
+  six assassins — the library's oldest active probe. The decrypts
+  convicted a queen at Fotheringhay (executed Feb 8, 1587). [VERIFIED —
+  the channel, the forged postscript and its wording, the gallows mark on
+  Phelippes's envelope; CORROBORATED — the nomenclator's structure]
+  Gauntlet takeaway: own the channel before attacking the cipher; every
+  crafted-input fixture descends from the postscript (with TDW-13's
+  disclosure law as the modern ethics); build every extraction report to
+  survive hostile review — the report card is a trial document.
+  [SPECULATION — the Gauntlet mappings; 2026-10-16 create loop]
 
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
