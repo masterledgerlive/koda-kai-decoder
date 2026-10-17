@@ -3427,3 +3427,15 @@ Two targeted news searches (prompt injection / indirect injection news; jailbrea
 - **Re-covered, no status change:** the header-injection census (the Oct-16/17 trade pieces restate the 217M / ~8,000 / 30 figures and the prank-vs-calculated split already on record); the MITRE ATT&CK v20 AI-technique additions (retells of the on-record October 13 cluster); the prompt-injection statistics reference page (figures already folded).
 - **Parked:** a vendor's self-published guardrail benchmark (the seller grading its own product — figures unusable as evidence); the single-author guardrail scorecard (no methodology receipts).
 - **Library update:** the public "Suggestion-implant traps" section of DECODER-CATALOGUE.md gained the MHJ, Oxford monitoring, and SLDR entries with public-safe phrasing. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+## 2026-10-17 ~17:05 EDT — decoder-research-loop — Math/physics engines (rotation #12)
+
+Two items new to record this pass; no material findings.
+
+- **MuJoCo 3.16** (released around October 14, 2026): adds compile-time robot-model scaling — new frame attributes that resize components while the compiler updates actuators, tendons, constraints, sensors, keyframes, and mesh references. Two policies: "similar" (dynamics preserved when gravity scales proportionally) and "geometry" (anisotropic spatial scaling with a mass-choice option). Also adds initial Bazel build support; the release carries breaking API changes. A simulation-tooling ergonomics release — recorded as a dated lane entry only.
+  - [CORROBORATED — trade-press summary of the release notes]
+  - Source: https://miketechlife.com/article/mujoco-316-compile-time-robot-model-scaling
+- **BootLoops 1.0** (theoretical physicist Matthew Schwartz, October 1, 2026): open-source toolkit (MIT) automating exact calculations across 18 quantitative science fields, reported to have reproduced one of the author's own papers in 20 minutes, solved 15 previously unsolved elliptic Feynman integrals, and validated 730,000 human exomes. All figures are the project's own as carried by trade press — recorded as a watch item pending independent verification.
+  - [CLAIMED — trade-press summary; figures unreplicated]
+  - Source: https://completeaitraining.com/news/physicist-releases-open-source-toolkit-that-automates-exact/
+- Re-covered with no change: the CERN/Mistral "Flare" statement of intent; SymPy and SciPy stable versions; the FFTM distributed-FFT library; the FrankenSymPy redesign brief (assessment unchanged); the LLM-guided symbolic-regression wave. Not material — no library growth. Next: unsolved ciphers and prize bounties.
