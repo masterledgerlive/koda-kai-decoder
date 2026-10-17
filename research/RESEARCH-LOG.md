@@ -3275,3 +3275,16 @@ Two targeted searches plus a check of the standing record. **One item new to rec
 - **No status change on the rest of the track:** Kryptos K4 (plaintext recovered from a 2025 archival find, cipher method still unsolved); the Indus script million-dollar prize (still open, no announced winner); the Beale ciphers (unsolved); the Rohonc Codex peer-reviewed breakthrough (on record); the Napoleon 1809 letter cracked by machine analysis this year (on record).
 
 No library changes this pass. No verdicts, nothing broadcast.
+
+## 2026-10-17 ~11:27 EDT — Historical codebreaking (research loop)
+
+Two targeted news searches plus a check of the standing record. **Two items new to record — both verification and landscape addenda on the Marmont cipher break.**
+
+- **The anti-memorization control (reported October 4, 2026; new to record; verification note).** After the solve, the researcher reportedly re-ran the whole analysis with Napoleon- and Marmont-related reference material stripped from the model's reach; the system produced the same reading — a deliberate no-recall control ruling out memorization. This pairs with the released solution package and the independent review: the break now carries a public solution, an independent check, and an explicit memorization control. The loop files it as the honest-reading rule expressed as procedure — a claimed break that survives reference-stripping is the field's closest analog to "verified, not just reproducible." [CLAIMED — secondary writeup carrying the reported method; the primary writeup not opened this pass]
+  - Source: https://en.cryptonomist.ch/2026/10/04/gpt-6-codebreaking-ai-decipher/
+- **The turning-point call (October 16, 2026; new to record; landscape datapoint).** The maintainer of the unsolved-cipher list who verified the Marmont solve publicly declared twenty twenty-six a turning point for historical-cipher codebreaking. The same interview quotes the solver: what the machine mostly brings is persistence — and notes he knew little or nothing about codebreaking before the break, the honest-discount version of the amateur-with-AI story. The field's own registrar names the year; the demand for verified validation grows with the story. [CLAIMED — one secondary outlet carrying the interview and the quoted site post; neither primary opened this pass]
+  - Source: https://enewspapermy.com/gadgets/ai-cracks-napoleons-200-year-old-secret-code-in-just-six-hours-enews-malaysia/
+- **No status change on the rest of the track:** the institutional-press coverage of the September wave (on record); the two machine-broken Enigma messages and the seven that remain unbroken (on record); the claim that a newer model generation will be shelved for codebreaking work (single-outlet, still parked pending a primary source).
+
+One library addendum (anti-memorization control + turning-point note) folded into the cipher timeline's Marmont entry. No verdicts, nothing broadcast.
+
