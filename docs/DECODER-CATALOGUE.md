@@ -651,6 +651,11 @@ formats. [VERIFIED]
   re-encodes them so a fake-radio emulator stands in for firmware. Parse,
   replay, and software-emulate the frames with no hardware in hand.
   [CORROBORATED]
+- **MeshCore firmware update (Oct 2026)**: version one point one eight extends
+  a multi-connection interface (Bluetooth and WiFi at once, no reflashing) to
+  seven more radio boards; the companion app gains an in-app WiFi setup screen.
+  The command path widens but the frames stay the same codec — no new parser
+  surface. [CORROBORATED]
 
 
 - **GhostWire — decentralized mesh-network protocol in Rust (Oct 2026)**:
