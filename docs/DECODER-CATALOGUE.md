@@ -723,6 +723,13 @@ formats. [VERIFIED]
   seven more radio boards; the companion app gains an in-app WiFi setup screen.
   The command path widens but the frames stay the same codec — no new parser
   surface. [CORROBORATED]
+- **Z-Wave Long Range ecosystem commitment (Oct 2026)**: trade press reports,
+  as of June twenty twenty-six, more than one hundred twenty-five certified
+  ZWLR devices, with every device in the certification pipeline now certifying
+  for long range. Range beyond one thousand meters, device ceiling from two
+  hundred thirty-two to four thousand. The Z-Wave slice of the off-grid decode
+  surface widens while the mainstream analyzer stands still — long-range star
+  topology changes what a Z-Wave capture contains. [CLAIMED]
 
 
 - **GhostWire — decentralized mesh-network protocol in Rust (Oct 2026)**:
