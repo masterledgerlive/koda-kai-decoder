@@ -3731,3 +3731,20 @@ Two targeted news searches plus a record check. **A retread pass - every fresh h
   - Source: https://www.penligent.ai/hackinglabs/kimi-k3-jailbreak/
 - **Re-covered, no status change:** the dual-target phishing campaign; the malware-carried anti-analysis prompt injection (still active); the self-replicating prompt-injection research (a re-tell); the March 2026 catalog of twenty-two wild payload techniques (restated, still parked); the one-hundred-forty-one-CVE prompt-injection census; the email-hijacked agentic platform case; the IDE-config supply-chain channel; the repository-instruction poisoning chain; the assistant-targeted phishing report.
 - No library changes this pass. Next: rotation #12 (math/physics engines).
+
+
+## 2026-10-18 — Math and physics engines (rotation #12, thirty-eighth pass)
+
+Two targeted searches plus a check against the standing record. Three items new to the record; everything else re-covered unchanged. The engine library's eleventh pass was added to the public docs; no verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers and prize bounties).
+
+- **LASR — symbolic regression with a learned concept library (research-summary service, October 18, 2026; paper from 2024; new to the record).** An AI-assisted equation-discovery method that builds a library of concepts from good and bad candidate expressions found during search, guiding a classical genetic search engine underneath. On a benchmark of one hundred physics equations, it recovered about fifty-five percent exactly versus about forty percent for the unguided baseline — and feeding the model physically meaningful variable names mattered, with names stripped the score fell to about forty-eight percent. The decoder reading: a mechanism paper for why language helps math-discovery — units and dimensions act as compressed prior knowledge. Caveat: the benchmark uses known-answer problems; performance on genuinely unknown equations remains the open question.
+  - [CLAIMED - research summary; paper not opened first-party]
+  - Source: https://www.alphaxiv.org/resources/2409.09359v1
+- **SymTorch — turning neural networks into readable equations (trade-press writeup, October 2026; new to the record).** An open library that traces a trained network's activations, fits symbolic expressions to them, and swaps neural blocks for the discovered equations — trading black-box behavior for checkable formulas, with an accuracy-versus-simplicity dial. Claimed: ninety-two percent of distilled equations match the neural network's accuracy within one percent; demonstrations include recovering inverse-square laws. The decoder reading: this is the "black box to formula" instrument — compressing a learned behavior into an equation you can inspect. Filed as a candidate instrument; it needs independent replication before the grade rises.
+  - [CLAIMED - trade-press writeup; library not examined first-party]
+  - Source: https://thecosmicmeta.com/meet-symtorch-a-pytorch-library-that-translates-deep-learning-models-into-human-readable-equations/
+- **A canonical rediscovery receipt (research-summary service, October 18, 2026; paper from 2022; new to the record).** A hybrid of graph neural network plus symbolic regression, trained only on planetary motion data, rediscovered Newton's law of gravitation among over one hundred million candidate expressions — and the recovered law predicted long-term orbits better than the raw neural network that proposed it. The decoder reading: a clean receipt that a correct physical principle beats a complex black box.
+  - [CLAIMED - research summary; paper not opened first-party]
+  - Source: https://www.alphaxiv.org/resources/2202.02306v1
+- **Re-covered, no status change:** the engineering-oriented symbolic-regression framework already on record; the scientific-Python releases (no October updates); the physics-foundation-model announcement; the tipping-point forecasting research; the video-physics gap benchmark; the theoretical-physics agent benchmark with its memorization control.
+- No library broadcast this pass. Next: rotation #13 (unsolved ciphers and prize bounties).
