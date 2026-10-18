@@ -3502,3 +3502,16 @@ Everything else surfaced was already on the record: MIT's one-hundred-sixty-one-
 The orbital beaming watch is unchanged and now inside its window: both October first satellites (the Star Catcher inter-spacecraft test and the Cowboy Space orbit-to-ground attempt) remain launched but have not yet demonstrated a transfer — the Cowboy Space attempt's late-October window is now. Beaming tests, not beaming systems, until one of them succeeds; the claimed grades on both outcomes hold.
 
 Next: rotation number seven (predictive math).
+
+
+## 2026-10-17 ~09:02 PM EDT — research loop — Predictive math (rotation #7)
+
+Two targeted searches plus a standing-record check. **Two items new to the record — one a new anomaly-detection technique, now in the catalogue;** the rest of the pass was re-coverage.
+
+The new technique: an uncertainty-aware network-intrusion detector built on an attention architecture designed for tabular data. The load-bearing idea is a Bayesian-style uncertainty head — the model outputs a confidence estimate alongside every benign-or-malicious verdict, so automated responses can be withheld when the model is effectively guessing. On two standard benchmark datasets it scored above ninety-eight percent accuracy with a receiver-operating score near the theoretical maximum, and it led on the hardest category — botnet traffic, which mimics ordinary background flows. Claimed — a single trade-press writeup; the underlying paper wasn't opened this pass. Why it matters here: a detector that grades its own certainty and abstains on weak evidence is the same discipline the decoder applies to its own findings, and it's the sixth new anomaly-scoring instrument logged in two weeks.
+
+The second new item is a federated-learning anomaly-detection design for smart power grids — privacy-preserving, interpretable by construction — but with one paper, one domain, and no comparative record, it stays a logged datapoint rather than a catalogue entry.
+
+Everything else surfaced was already on the record: the Microsoft subseasonal weather-correction study in Nature, the Bayesian epidemic model that won the CDC flu-forecasting challenge two years running, the dual-encoder anomaly detector, the dual-path framework, the multimodal context-suppressing detector, the time-series foundation-model benchmark where frozen backbones nearly matched specialized detectors, the ForecastBench leaderboard where a leading lab's entry barely edged the superforecaster median, the Mistral probabilistic forecasting family, the publicly scored World Cup forecasting ledger, and the honest-null finding that a calibrated model found no tradeable edge against prediction markets after fees. Model-race betting markets and leaderboard politics — the prediction-market chatter about which AI lab leads this month — stay parked outside the decoder's lane.
+
+Next: rotation number eight (agent detection versus anti-detection).
