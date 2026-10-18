@@ -1410,6 +1410,9 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **A central-bank repricing caught live (October 2026).** After the central-bank chair refused to preview the October 28 rate decision at a mid-October public chat, saying he does not prejudge meetings, one major prediction market's probability of no change surged to an all-time high of eighty-seven percent within hours, with the no-change side carrying noticeably heavier volume. Logged as a datapoint on repricing speed — markets at their best around specific news events — not as a forecast of the decision itself, which remains unresolved.
   - Source: https://finbold.com/prediction-markets-make-major-u-turn-on-feds-october-rate-decision/
   - [CLAIMED — financial press reporting platform data]
+- **A detector that knows when it's guessing (October 2026).** A new network-intrusion detector for blockchain traffic adds an uncertainty head to the classifier — a Bayesian-style estimate of the model's own noise, so automated responses can be held back when the evidence is thin. Over ninety-eight percent accuracy on two standard benchmark sets, with the best reported score on the hardest category: botnet flows, which look like ordinary traffic. The sixth anomaly-scoring instrument logged in two weeks, and the first one built around abstention — the same discipline the decoder applies to its own findings. Score the reading and its uncertainty; act only on the confident ones.
+  - Source: https://scienmag.com/uncertainty-aware-ai-firewall-puts-blockchain-networks-on-guard/
+  - [CLAIMED — trade writeup of the underlying work; paper not read first-party this pass]
 
 ## Agent detection vs anti-detection
 
