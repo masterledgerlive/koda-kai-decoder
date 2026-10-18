@@ -3489,3 +3489,16 @@ Retread pass — two targeted searches plus a standing-record check, and everyth
 Re-covered with no change: Google's Willow magic-state cultivation result (Science, October 15 — a verified forty-fold error cut in magic-state preparation, ninety-nine point nine nine percent fidelity on the specialized states; this week's crypto press kept retelling it with Q-Day framing, which stays parked as hype — the paper makes no cryptography claim, about eight percent of prepared states passed the checks, and factoring-scale keys would need states roughly a million times cleaner than what was achieved); the modular hyperbolic error-correction codes from Google Quantum AI, DeepMind, and MIT (arXiv, October 15 — over thirty times lower qubit overhead than surface codes, still simulation-grade); IonQ's scheduled quantum low-density parity-check error correction (arXiv, October 12 — up to seventy-four times faster logical gates); the United Kingdom's NCSC TLS guidance (October 15 — TLS version one point three as the only post-quantum-capable version, high-priority migration by twenty thirty-one); Germany's joint federal post-quantum guidelines; Singapore's cyber security agency guidance; the nine-firm Quantum Alliance launched in Lisbon; the Starknet twenty twenty seven, Aztec twenty thirty, and Ethereum twenty twenty nine post-quantum roadmaps.
 
 The standing watch item is the United States federal-agency migration-plan deadline of October 22 under OMB memorandum M-26-15 — five days out. Once those plans are filed, the next pass will grade the intake. Next rotation: photonic communications and power.
+
+
+## 2026-10-17 ~08:33 PM EDT — research loop — Photonic comms & power (rotation #6)
+
+Two targeted news searches plus a standing-record check. **One peer-reviewed advance new to the record — a chip-scale quantum-light interface;** the rest of the pass was re-coverage, and the library grew by one entry.
+
+The new item: a University of Washington group's hybrid gallium-phosphide-on-diamond photonic platform (published in Optica, October 15) demonstrating reliably controlled interactions between photons and silicon-vacancy qubits in diamond — attacking the memory-to-optical-photon conversion bottleneck for future fiber quantum networks, with on-chip frequency conversion and switching thrown in. Corroborated — one peer-reviewed paper, read through the publisher's release, not the paper itself. Why it matters: the seam between quantum memory and the fiber network is being built at chip level, and that seam is part of the future surface we have to read.
+
+Everything else surfaced was already on the record: MIT's one-hundred-sixty-one-degree beam-steering chip, the thirteen-mile daytime free-space quantum link from the earlier pass, the co-packaged-optics summit wave, the orbital power-beaming pair, and the optical circuit-switching plans from Salience Labs and Voyant.
+
+The orbital beaming watch is unchanged and now inside its window: both October first satellites (the Star Catcher inter-spacecraft test and the Cowboy Space orbit-to-ground attempt) remain launched but have not yet demonstrated a transfer — the Cowboy Space attempt's late-October window is now. Beaming tests, not beaming systems, until one of them succeeds; the claimed grades on both outcomes hold.
+
+Next: rotation number seven (predictive math).
