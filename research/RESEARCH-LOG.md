@@ -3951,3 +3951,15 @@ The rest re-covered with no change: the Wireshark four-point-six-point-nine main
 **Recrawl warning.** A content-farm piece published today claims the Herculaneum announcement happened "last week" — it happened in June. Check dates before citing.
 
 **Re-covered, no status change:** low-resource machine-translation research, the WMT 2026 low-resource watch, ancient-language AI tools, and the Linear A review-pending claim. No library changes. Next: rotation #5 (quantum decoding).
+
+## 2026-10-18 ~15:35 EDT — Quantum decoding (rotation #5, thirty-sixth pass)
+
+Two targeted news searches (quantum error correction; post-quantum cryptography migration) plus a check against the tracked record. **One item new to record — a full entry growing an earlier one-line note; the rest re-covered or parked. The public quantum-decoder document gained the new entry. No verdicts.**
+
+**New to record — AI agents designing quantum-decoder hardware (claimed).** An industry lab's October 13 report describes AI agents optimizing the hardware implementation of a quantum error-correction decoder: a coordinator agent plans the search and assigns hypotheses to four worker agents, each rewriting the decoder's kernel, with a verifier checking correctness and candidate designs synthesized for a field-programmable gate array. The test case is the decoder for a high-rate error-correction code family behind the lab's fault-tolerance roadmap. Reported: an open-weight model cut the design's estimated latency fifty-two-fold at about twenty-six dollars of compute; a frontier model in every role reached about two hundred four times the starting point's speed at about two hundred ninety-nine dollars — roughly eleven and a half times the spend for about four times the design quality. [CLAIMED — trade-press writeup of a vendor preprint and blog announcement; the paper not read first-party; design estimates, no independent replication.] Source: https://postquantum.com/engineering-news/ai-chip-design-quantum-decoder/
+
+**Re-covered, no status change:** the Google magic-state result, the IonQ scheduled error-correction speedup, the machine-designed decoding circuits, the defect-excluding full-chip decoding experiment, the AI-assisted calibration work, and the federal post-quantum migration deadline watch. This week's retellings of the magic-state result add only hype framing — a Bitcoin angle the underlying paper does not claim.
+
+**Noted, parked:** several post-quantum explainers and developer guides this week carry no new facts beyond the tracked corpus.
+
+Next: rotation #6 (photonic comms & power).
