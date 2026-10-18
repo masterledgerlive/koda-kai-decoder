@@ -2571,6 +2571,78 @@ The universal quantum decoder stays [SPECULATION] until proven.
   mechanism; release facts via trade press; effectiveness caveats are
   single-author analysis, graded claimed]
 
+- **gVisor→CNCF — first-party timeline + governance path (gvisor.dev, Oct 2,
+  2026; NEW DETAIL on the on-record entry).** Google submitted the CNCF
+  donation application Sep 7, 2026; reviewed Sep 22; accepted Sep 28;
+  announcement Oct 2. Path: CNCF "Sandbox" status first, then Incubation; the
+  repository leaves the google GitHub organization; governance transitions to
+  a maintainers model with non-Google merge permissions; long-term org-based
+  voting so no single org holds unilateral control; Google's internal test
+  infrastructure stops gating PRs. Decoder significance: the
+  user-space-kernel rung graduates from corporate project to foundation
+  governance — the cage's landlord changes hands. The Gauntlet pins the
+  release line, not the governance promise: a foundation badge is
+  institutional signal, not a merge of the kernel perf patches the project
+  was already denied upstream. [VERIFIED — gvisor.dev first-party timeline]
+
+- **Picus Red Report 2026 — sandbox-evasion prevalence + LummaC2 geometry
+  check (NEW TO RECORD; CLAIMED — secondary explainer citing the Picus PDF;
+  first-party report not opened).** Evading-sandbox malware prevalence grew up
+  to 20% in 2025. LummaC2 verifies a human via trigonometry on mouse movement:
+  Euclidean distance between movement segments, the segment angle converted to
+  degrees against a hardcoded threshold — small gradual directional changes
+  read human-like, sharp erratic angle shifts read synthetic. Blitz
+  fingerprints the cage (fewer than four CPU cores, low screen resolution,
+  sandbox drivers/registry keys — abort on any match); GootLoader inserts long
+  sleep chains to outlast analysis timeouts. Decoder significance: the evasion
+  taxonomy gains a geometry rung — a detonation chamber feeding synthetic input
+  must simulate trajectory geometry, not just timestamps. Pairs with the
+  believable-time-dilation entry: fake time and fake humans both need physics.
+
+- **Mandiant GTIG: dynamic LLM-queried JIT malware evasion framework (NEW TO
+  RECORD; CLAIMED — single secondary retell; cross-lane to rogue-agent
+  threat intel).** Fourth-generation obfuscation: the loader gathers host
+  telemetry (driver enumeration, EDR user-mode hook detection on ntdll,
+  AMSI/ETW subscription state) then delegates tactical evasion decisions to a
+  remote or local neural inference engine — logic synthesized per-host at
+  runtime, not deterministic routines. Decoder significance: aimed directly at
+  the chamber — static signatures see nothing, and time-boxed behavioral
+  heuristics see logic born seconds ago. The Gauntlet's answer is
+  receipts-at-runtime (classify the decision, not the routine) and the
+  contamination ledger's assumption that the specimen's brain may be off-site.
+
+- **OpenAI Codex sandbox escaped twice — researchers to host (NEW TO RECORD;
+  CLAIMED — single secondary retell, no named researchers, no advisory;
+  cross-lane).** The first agent-coding-sandbox breakout datapoint on the
+  record — filed beside the cagecheck/setec pre-flight list as a candidate
+  cage-regression to watch. Graded down for provenance: a primary source
+  lands, it moves.
+
+- **npm runtime-payload campaign — ten packages, 7M+ weekly downloads (NEW TO
+  RECORD; CLAIMED — secondary retell of Checkmarx/BleepingComputer; cross-lane
+  to supply-chain threat intel).** The payload lives inside a normal library
+  method (BTree.prototype.set) and executes when a developer calls it at
+  runtime — sailing past the June-2026 lifecycle-script blocking that watches
+  installation hooks. Exfiltration via hardcoded Slack/Telegram channels;
+  instruction channel = polling an Ethereum smart contract; self-deletion
+  capability. Decoder significance: install-time inspection proves only that
+  the sample was quiet *at install* — the threat surface is runtime, and the
+  smart-contract instruction channel pairs with KREMLIN's Ethereum dead-drop
+  resolver already on record: the C2 channel is now on-chain.
+
+- **Mandiant ransomware shift: hypervisor-fabric detonation + 22-second
+  endpoint handoff (NEW TO RECORD; CLAIMED — single secondary retell of
+  Mandiant frontline telemetry; cross-lane).** Median adversary dwell
+  compressed to hours; automated pipelines hit endpoint-to-domain credential
+  handoff in as little as 22 seconds; detonation objectives moved from
+  Windows endpoints to ESXi/cloud virtualization fabrics — snapshot chains
+  destroyed, VMDKs corrupted, recovery denial across the estate in one stroke.
+  Decoder significance: for the Gauntlet's own recovery story — the cage's
+  restore point is the adversary's first target. Snapshots are evidence to
+  protect (write-once, off-fabric), never a safety net to assume.
+
+*Library additions seeded 2026-10-18 ~17:35 EDT by the decoder-research-loop.*
+
 ## Rogue-agent threat intel
 
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
