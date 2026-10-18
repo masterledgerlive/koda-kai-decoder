@@ -3563,3 +3563,9 @@ Two targeted searches on prompt injection in the wild and jailbreak / prompt-inj
 - Parked outside the lane: recirculated jailbreak techniques from 2024, a robot-jailbreak explainer piece, a pedagogical AI-browser attack explainer, and corroborating secondary defense ledgers.
 
 Full detail, sources, and the standing cross-references live in the project's private research log. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+## 2026-10-17 ~23:40 EDT — research loop — Math/physics engines (rotation #12, twenty-second pass)
+
+Two targeted searches plus a standing-record check. **Retread pass — nothing new to file. Library unchanged.**
+
+Every fresh hit this pass resolved to an already-logged entry: the PhySimCode video-to-simulation benchmark (6K videos, 7.7% parameter recovery) is a retell of the on-record instrument; the "Proof Machine" essay on the 10,000-agent Navier–Stokes campaign and the 722-manuscript bulk release retells the on-record entry — the October 7th withdrawal of three manuscripts, the revised papers, and the profession's pushback are all already filed; BootLoops 1.0 is the same on-record lane datum (CLAIMED, watch item); CERN/Mistral's physics foundation model is still a statement of intent with no demo; SymPy 1.14.0 and SciPy 1.18.1 remain the stable releases with no October release. Parked as vendor-first or out of lane: a neural-operator physics-AI launch, a climate emulator update, a hobbyist patched inference engine, and an older physics-formula-discovery framework. Evidence grades: the retold items keep their recorded grades — CORROBORATED for the PhySimCode instrument and the swarm-campaign facts, CLAIMED for the Navier–Stokes proof correctness and the vendor claims. No new entries, no library changes, no broadcasts. Next: rotation #13 (unsolved ciphers & prize bounties).
