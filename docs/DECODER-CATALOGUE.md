@@ -818,6 +818,19 @@ formats. [VERIFIED]
   English and ten other languages. The lesson travels beyond medicine:
   grade the load-bearing tokens, not every token equally. [CLAIMED —
   company release; internal study, no independent evaluation]
+- **The open recognition plane for low-resource speech (October 2026)**:
+  Meta's Omnilingual ASR — named to TIME's Best Inventions of 2026 —
+  brings open-source speech recognition to over one thousand six hundred
+  languages, roughly five hundred of which no recognizer had ever covered.
+  Model sizes run three hundred million to seven billion parameters, a
+  corpus for three hundred fifty underserved languages ships alongside,
+  and the system adapts to a new language from small audio samples.
+  Decoder note: beside the on-record offline translation wave, a complete
+  no-cloud-trace ears-to-meaning pipeline for low-resource speech now
+  exists as open artifacts. The grade cuts through the marketing: support
+  is claimed on the company's own count; fluent, reliable recognition in
+  any given language stays unverified until measured. [CLAIMED — trade
+  writeup of the TIME listing; all figures are the company's own]
 - **A peer-reviewed robustness recipe for low-resource translation
   (2026)**: two researchers published a training regime — noise injection,
   adversarial training, back-translation, functional-equivalence
