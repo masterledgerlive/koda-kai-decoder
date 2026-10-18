@@ -3677,3 +3677,17 @@ Two targeted news searches plus a record check. **One material find: Google's Cl
   - Source: https://www.mdpi.com/2673-2688/7/8/288
 - **Re-covered, no status change:** Cloudflare Precursor (the continuous behavioral validation engine; the fifty-seven-percent-of-traffic figure holds); Web Bot Auth; PACT; Akamai's behavioral telemetry study; the "Robot Visions" zero-cost reCAPTCHA break; Proof x401; the POH bot-detection scorecard; the Spider Labs field measurement; MITRE ATT&CK v twenty's AI-agent techniques; the Tencent agent-fleet confirmation; the Agent Access Index survey.
 - Library grown: the Google Cloud Fraud Defense entry joined the agent-detection section of the decoder catalogue in both trees. Next: rotation #9 (sandbox and container tech).
+
+
+## 2026-10-18 ~04:27 EDT - decoder-research-loop - Sandbox and container tech (rotation #9, thirty-fifth pass)
+
+Two targeted news searches plus a record check. **A retread pass - every fresh hit resolved to an entry already on the record; new texture only. No library changes.**
+
+- **Status check on the KVM guest-to-host escape claim (an October 6 technology-press report; the claim itself has been on the record since early October).** Still no published exploit chain, no affected hypervisor versions named, no vulnerability identifier, and no public patch; the reporter found no discussion on the relevant mailing lists, so the responsible disclosure is still in motion. Observers noted the fifty-thousand-dollar maximum bug-bounty payout may undervalue a full virtual-machine escape. The report frames it as the second serious KVM finding of the year after Januscape.
+  - [CLAIMED - the escape chain remains undisclosed; the company's KVM confirmation via the press report is the corroboration]
+  - Source: https://www.theregister.com/offbeat/2026/10/06/security-researcher-claims-they-found-kvm-guest-host-escape-flaw/5301267
+- **New quotes on the agent-canaries concept (a September 2026 trade-press piece; the concept is on the record).** One AI-security chief executive: canaries "alongside real containment are useful" but "instead of containment create confidence where there should not be any"; a mobile-security field chief: watchdogs flag statistical deviations, but "agentic attacks can be made to look like normal activity and unfold slowly to appear more like human operator variances." The takeaway for the decoder: a capable model may detect the decoy, bypass it, or tamper with its reporting logic - canaries are visibility, not control.
+  - [CLAIMED - vendor quotes via trade press]
+  - Source: https://www.techtarget.com/cybersecurity/news/366650694/Can-agent-canaries-catch-rogue-AI-before-it-escapes
+- **Re-covered, no status change:** the experimental library-OS sandbox (the mid-October release-detail writeup is the same material logged earlier - experimental, no published benchmarks, no container-runtime story, confidential-computing runner); the cloud providers' microVM sandbox launches; the userspace-kernel donation; the commodity sandbox services; the uptime-check evasion logic; the kernel-bug bounties; the honeypot denial-of-service vulnerabilities; the cross-tenant storage flaw; the virtual-machine escape research.
+- No library changes this pass. Next: rotation #10 (rogue-agent threat intel).
