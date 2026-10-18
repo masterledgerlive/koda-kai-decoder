@@ -3632,3 +3632,23 @@ Two targeted news searches (photonic chip / optical computing, October 2026; las
 - **Orbital beaming watch — still pending, inside the active window.** Cowboy Space Reason-1 (kilowatt-class infrared laser, thirty-to-one-hundred-watt target on a ten-to-twenty-metre ground spot, first attempt as early as late October — the window is now days away) and Star Catcher Protostar (inter-spacecraft attempt, commissioning phase) both remain launched-but-undemonstrated; no successful transfer published by any outlet as of this pass. Standing line holds: beaming tests, not beaming systems, until a transfer is demonstrated. The claimed grades on both outcomes hold. Texture: the company PR confirms the founder and names an NVIDIA orbital-compute collaboration as company-stated ambition — PR, not a demonstration.
 - **Parked:** the Foreign Affairs Forum "Efficiency Frontier" essay (Oct 16 synthesis of on-record items — no new technique; parked as analysis).
 - No library changes this pass. Next: rotation #7 (predictive math).
+
+
+## 2026-10-18 ~03:35 EDT — decoder-research-loop — Predictive math (rotation #7, thirty-third pass)
+
+Two targeted news searches (forecasting tournaments and prediction markets, October 2026; Bayesian forecasting and anomaly detection) plus a standing-record check. **Mostly a retread pass — the headline items resolved to entries already on record; a handful of new-to-record texture datapoints. NOT MATERIAL** (no new probabilistic technique, no new forecasting paradigm).
+
+- **New to record — Kalshi World Cup scale figures (company self-reports, via a crypto-press recap, mid-October).** Kalshi says it added three million new users during the 2026 FIFA World Cup; the World Cup winner market did one point two billion dollars in volume — the largest single market in the platform's history; prediction markets are estimated at about twenty-seven percent of legal US sports betting during the tournament (up from roughly nine percent at the start of the year). Regulatory overhang continues: the US derivatives regulator is in active litigation with Kentucky over whether sports event contracts are financial instruments or sports bets.
+  - [CLAIMED — company self-reported; no independent audit of these figures seen this pass]
+  - Source: https://www.unlock-bc.com/en/the-world-cup-that-ignited-a-prediction-market-revolution
+- **New to record — domain-expansion notes (a forecasting survey, mid-October).** HairSentinel: time-aware anomaly detection for hairfall trends using Temporal Fusion Transformers on longitudinal behavioral and physiological data (a preventive-healthcare domain, computationally light). Bug-resolution-time forecasting in open-source software projects with explainable-AI techniques to identify which process characteristics drive resolution times. Survey-grade, minor.
+  - Source: https://bioengineer.org/smart-forecasting-deep-learning-and-explainable-ai-reshape-time-series-prediction/
+- **New to record — ADPOD (Applied Intelligence, October 8).** An affinity-density-peak-clustering outlier detection algorithm. Single-paper algorithm, author benchmarks only.
+  - [CLAIMED — author-reported]
+  - Source: https://scienmag.com/new-clustering-algorithm-sharpens-the-hunt-for-data-outliers/
+- **New to record — SEEN grid agents (October 17).** Power-grid fault-detection agents with two-second heartbeats and six-second failover; the SEEN notifier fuses structural anomaly detection with semantic deviation analysis and flagged twenty-three previously undefined event patterns in six months — one confirmed by engineers as a genuinely new failure mode, with a rule added to the base within forty-eight hours. A niche industrial application.
+  - [CLAIMED — operator-reported case study]
+  - Source: https://bioengineer.org/ai-agents-learn-to-read-power-grid-alarms-and-catch-faults-in-milliseconds/
+- **Status update — the Susquehanna Predictions Cup is live (October 1 to November 4, 2026).** The university simulated-trading competition parked as context in mid-October is running; thirty thousand dollars to the winner. No result until November.
+- **Re-covered, no status change:** the Microsoft Research probabilistic-bias-correction Nature study (this pass's press pieces are retells — the study itself is on record since mid-October); the time-series-foundation-model anomaly-detection benchmark family; the DE-SVDD dual-encoder paper retell; Macquarie's one-hundred-eighty-seven-billion-dollar 2026 taker-volume forecast; the contract-volume methodology honesty note; the October midterm market snapshots; the Metaculus US Midterms 2026 watch (resolves in November).
+- No library changes this pass. Next: rotation #8 (agent detection vs anti-detection).
