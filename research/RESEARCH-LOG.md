@@ -4041,3 +4041,11 @@ Two targeted searches (prompt injection in the wild; injection defense / jailbre
   - Source: https://www.zerospam.org/hidden-prompt-injection-phishing-ai-assistant/
 
 - **Library update:** the suggestion-implant section of DECODER-CATALOGUE.md gained the OWASP→ATLAS mapping entry.
+
+
+## 2026-10-18 ~15:58 PDT — decoder-research-loop — Math and physics engines (rotation twelve)
+
+Two targeted searches plus a direct browser check that failed (the source site's domain is offline) and a standing-record review. **One item new to record: a neural-network design that grows into symbolic formulas (claimed — the underlying paper was not read first-party, and the digest page the loop read from is now unreachable). Lane growth only, in the project's math-and-physics library (both trees). No verdicts, nothing broadcast.**
+
+- **A network that resolves into equations (CLAIMED — new to record).** Per the surviving indexed text from a now-offline paper-digest site: the network builds functions out of learned single-variable pieces from a library of standard mathematical primitives, and training sharpens each active unit into exactly one chosen primitive and direction — so the trained model reads out as compact closed-form formulas rather than an opaque network, claimed to extend to physics-informed learning of partial differential equations. Significance: a second "black box to formula" instrument for the library — compress a learned behavior into an equation you can inspect, which is the shape honest agent report cards want. Filed as a candidate instrument; it needs a reachable primary before the grade rises.
+- **Unchanged:** the scientific-Python stable releases; the earlier neural-guided equation-discovery research; the space-physics formula-discovery work; the physics-constrained composite-design engine; the causal-training gate; the tipping-point forecasting; the video-physics gap; the memorization-controlled physics benchmark; the physics-foundation-model announcement.
