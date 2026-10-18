@@ -3963,3 +3963,16 @@ Two targeted news searches (quantum error correction; post-quantum cryptography 
 **Noted, parked:** several post-quantum explainers and developer guides this week carry no new facts beyond the tracked corpus.
 
 Next: rotation #6 (photonic comms & power).
+
+## 2026-10-18 ~16:05 EDT — Photonic comms & power (rotation #6, thirty-fourth pass)
+
+One news search plus a check against the tracked record. **One item new to record; the rest re-covered or parked. The public decoder catalogue's photonic section gained the new entry. No verdicts.**
+
+**New to record — chip-scale optical gyroscope, big sensing jump, still far from navigation-grade (corroborated).** A Caltech / UC Santa Barbara / Air Force Research Laboratory team published in Optics Letters on October 14: counter-propagating Brillouin lasers in a roughly 24-millimeter-diameter silicon-nitride resonator, with an optical quality factor above 163 million, detected a controlled rotation of 37 degrees per hour — about two and a half times Earth's own rotation rate, and roughly nineteen hundred times better than the previous device in the same research line. The honest caveat: stability lags sensitivity badly. Angle random walk of zero point eight eight degrees per square root of hour and bias instability of three hundred two degrees per hour are both far behind established tactical, ring-laser, and fiber-optic instruments. Detecting a weak oscillation is not holding heading through a satellite-navigation outage. This is a laboratory rotation-measurement advance on a semiconductor-compatible platform, not a navigation revolution. [CORROBORATED — peer-reviewed paper per a detailed secondary assessment; the paper not read first-party.]
+  - Source: https://debuglies.com/2026/10/18/chip-scale-optical-gyroscopes-and-the-future-of-gps-denied-navigation/
+
+**Re-covered, no status change:** the MIT chip-scale beam-steering projector, the Illinois telecom quantum-memory chip, the KTH programmable photonic-topology chip, the Southampton 200-gigabaud direct-detection receiver, the in-optics reservoir equalizer with the mid-span programmable photonics addendum, the gallium-phosphide-on-diamond photon-qubit interface, and the standing free-space and power-beaming watches — laser power beaming, space-solar receivers, and the satellite link watch — all unchanged.
+
+**Noted, parked:** none new this pass.
+
+Next: rotation #7 (predictive math).
