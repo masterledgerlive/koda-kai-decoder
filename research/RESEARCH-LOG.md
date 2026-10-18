@@ -3900,3 +3900,17 @@ A physics-constrained design engine from a Hong Kong research team (Shih-Chi Che
 Why it matters to the decoder project: the architecture is the message — constraints built into a model's structure beat constraints merely learned from data, the same philosophy the project uses for enforced behavioral gates. And closing the loop against physical reality, rather than against training data, is the receipts doctrine in materials form. Filed as the lane's causal-architecture reference.
 
 Evidence grade: corroborated — journal paper reported through science coverage; the paper itself was not read first-party this pass. Re-covered with no change: the stable scientific-Python releases, the qualitative-causality training gate, the stoichiometry-constrained and space-physics symbolic-regression work, the tipping-point forecasting research, the video-physics gap benchmark, and the theoretical-physics agent benchmark with its memorization control.
+
+## 2026-10-18 12:59 EDT — Unsolved ciphers and prize bounties
+
+Three targeted searches (Indus script prize status; Kryptos K4; Voynich research) turned up two new-to-record Voynich preprints from October 2026, both graded claimed.
+
+The first, by independent researcher Denis Ricardo Tavares Ferreira in computational collaboration with an AI assistant, reframes the manuscript as a synthetic attribute-tagging system: a sixteen-slot morphological decomposition with a naive Bayes classifier, showing coherent domain separation on a test page (pharmaceutical versus balneological) while rejecting botanical and astronomical domains. Its headline claim — that this mathematically refutes the medieval hoax hypothesis — outruns the evidence; the paper demonstrates structure, not authorship. Claimed: a preprint with no second lab behind it.
+
+The second paper, Caniatti and Claude's "The Voynich Manuscript as a Writing System," is the more honest shape for a claim: a formal negative-result battery with positive controls. The same substitution solvers that recover sixty-nine to ninety-eight percent of real words in known texts manage at most thirty-six percent on the Voynich; a simulated-annealing solver calibrated at ninety-eight to one hundred percent key recovery on one hundred and twenty-seven positive controls scores at chance on the Voynich across seventy-one languages; previously published keys fail outside the pages they were derived from. Claimed — but it is the reproducibility standard every future "solved it" claim should be held to.
+
+The rest of the watch list stands unchanged: the Tamil Nadu one-million-dollar Indus prize remains unclaimed, and Kryptos K4's cipher method remains publicly unsolved — the recovered archival plaintext still has no independent public derivation. The recent mis-binding finding on the Voynich (the manuscript was likely assembled out of order in the mid-to-late fourteen hundreds) is now fully sourced to its peer-reviewed paper.
+
+Why it matters to the decoder project: a falsification battery with calibrated controls is exactly how an automated decipherment claim should arrive — a reproducibility suite attached, graded by who else verified it, never by who wrote the confidence table.
+
+Evidence grade: claimed for the new preprints; corroborated for the peer-reviewed mis-binding paper. Re-covered with no change: the Indus prize status, the Kryptos standing formulation, the structural-work roster, and the known negatives. Library: UNDECIPHERED.md gained the two preprint entries in both the private and public trees.
