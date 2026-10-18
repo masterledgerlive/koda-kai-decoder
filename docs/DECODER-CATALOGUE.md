@@ -434,6 +434,65 @@ CLAIMED / SPECULATION.*
 
 *WEP entry seeded 2026-10-17 ~16:40 EDT by the decoder-create-loop.*
 
+- **The Scytale (~7th–4th c. BC) — the stick that was the key, or: the
+  cipher that may never have been a cipher.** The oldest cipher device in
+  the archive by a wide margin: indirect evidence puts the scytale (Greek
+  σκυτάλη, "staff") in the 7th century BC (Archilochus), with the first
+  clear indication of cryptographic use in Apollonius of Rhodes (mid-3rd c.
+  BC). [CORROBORATED — Wikipedia scytale, indirect-evidence framing] The
+  working account comes from Plutarch's *Life of Lysander* (19.5–7): when
+  the ephors dispatched a general, they cut two round pieces of wood
+  exactly alike in length and thickness, kept one, gave one to the
+  commander; a long narrow strip of parchment or leather was wound spirally
+  around the staff leaving no gaps, the message written across the wrapped
+  strip, then the strip unwound and sent without the wood — the letters
+  scattered into disconnected fragments until the receiver rewound the
+  strip on his own identical staff and "reads around the staff." Aulus
+  Gellius (*Attic Nights* 17.9) and Ausonius (*Epistles* 28.23–27) carry the
+  same tradition. [CORROBORATED — Plutarch via Wikipedia's Perrin
+  translation; academia.edu paper on Greco-Roman cryptography citing the
+  same triad of sources]
+- **The key was a physical dimension.** Only a staff of the exact same
+  diameter restores the letters — the diameter *is* the key, as Poritz's
+  textbook states it plainly. And it is a small key: anyone who has heard
+  of the method and can try rod sizes can brute-force it by steadily
+  varying the diameter — "a kind of brute-force attack," as the record
+  puts it. [CORROBORATED — math.libretexts Poritz §4.1; Wikipedia]
+- **The honest debate.** Modern scholarship questions the whole picture.
+  Thomas Kelly's "The Myth of the Skytale" (*Cryptologia* 22(3), 1998)
+  argues that the difficulties in reconciling Plutarch with earlier
+  accounts, plus the device's cryptographic weakness, suggest Plutarch's
+  description may be mythological — the scytale may have conveyed messages
+  in plaintext. An alternative hypothesis (Frank Russel, *Information
+  Gathering in Classical Greece*, 1999) holds the device was for message
+  *authentication* rather than encryption: only a sender with the matching
+  staff could produce a readable message, so a coherent read authenticates
+  the source — though a stranger intercepting the strip and knowing the
+  method could still find the rod size and forge. [CORROBORATED —
+  Wikipedia scytale cites Kelly 1998 and Russel 1999; the debate's
+  existence, not its resolution]
+- **Decoder lesson (Scytale → Gauntlet):** (1) the tokenization
+  doctrine's oldest ancestor — the scytale is pure transposition, the first
+  entry in the catalogue that is *only* transposition, two thousand years
+  before the Z340's transposition layer: "structure before substitution"
+  begins here; the Gauntlet's re-chunking and re-ordering interrogation
+  precedes substitution analysis because the oldest cipher in the archive
+  already defeats the analyst who runs statistics first; (2) the key is a
+  physical dimension — the M-94's wheel order, the M-138's strip selection,
+  the M-209's cage configuration, and two millennia before them the
+  scytale's diameter: format parameters (block size, key length, IV width,
+  stepping cadence) are interrogated as key material, never accepted as
+  constants; (3) authenticate ≠ encrypt — state the claimed property
+  first: Kelly may be right, Russel may be right, or Plutarch may be
+  right, and the report-card discipline does not need the answer — the
+  card states the specimen's *claimed* security property (confidentiality,
+  integrity, authenticity) before grading whether the specimen meets it,
+  and a "break" measured against a property the specimen never promised
+  is a fabrication class under the Fabrication Alarm. [CORROBORATED
+  lineage; SPECULATION — Gauntlet mapping, never run]
+
+*Scytale entry seeded 2026-10-18 ~09:25 EDT by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
