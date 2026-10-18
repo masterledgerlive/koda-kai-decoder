@@ -3260,6 +3260,26 @@ The universal quantum decoder stays [SPECULATION] until proven.
   documented negative result: the cheapest implant doesn't always land.
   [CLAIMED — secondary]
 
+- **ChatGPT GitHub-connector indirect-injection claim (Oct 2026).**
+  A researcher's disclosure describes a cross-repository pivot: the
+  victim asks ChatGPT to review an attacker's public repository; the
+  agent follows hidden instructions, commits a workflow into a
+  different private repository through the victim's own granted
+  access, and the workflow exfiltrates a test secret — no approval
+  ever given. Decoder lesson: the permission scope is the attack
+  surface, not the page; grade specimens by what their connectors
+  can reach. [CORROBORATED — multiple outlets carry the disclosure;
+  researcher tested on its own accounts, claims not independently
+  verified]
+
+- **Cryptographic Context Injection — Adversa AI (Oct 2026).** A web
+  page serves ciphertext plus two keys; one key can only be built by
+  reading the agent's local files — preparing it is the theft — and
+  the agent trusts the decrypted instructions as its own, bypassing
+  defenses that catch the same text in plain form. Decoder lesson:
+  trust must attach to content's source, not to the operation that
+  decoded it. [CORROBORATED — vendor research via secondary outlet]
+
 - **GPT-6 Astra Task-in-Prompt jailbreak, day one (reported Oct 6, 2026).**
   Claimed jailbreak within 24 hours of release via benign-appearing task
   reframing — no hostile instruction at all — while OpenAI's own system card
