@@ -332,7 +332,29 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   the honest structuralist lane — a research program for testing whether
   glyph structure, imagery, and layout jointly constrain meaning, rather
   than another claim of a key. CLAIMED — a preprint; the findings belong to
-  its authors.
+  its authors. (f) A categorical naive Bayes model of the manuscript's
+  morphological slot dynamics (preprint, October sixth, twenty twenty-six;
+  new to record) — an independent researcher's structural reframing built
+  with an AI assistant: the text decomposed into sixteen morphological slots
+  under strict sound-pattern constraints, classified with a Laplace-smoothed
+  naive Bayes model. The empirical test page splits roughly fifty-one
+  percent pharmaceutical against forty-nine percent balneological while
+  rejecting botanical and astronomical domains at zero. The paper's headline
+  — that this mathematically rules out a medieval hoax — outruns its
+  evidence: it demonstrates a coherent, domain-adaptive generative grammar,
+  not an authorship verdict. No peer review, no replication yet — claimed.
+  (g) "The Voynich Manuscript as a Writing System" (open preprint, October
+  twenty twenty-six; new to record) — the falsification battery the field's
+  honesty standard pointed at: homophonic-substitution solvers that recover
+  sixty-nine to ninety-eight percent of real words in known texts across
+  fourteen languages manage at most thirty-six percent on the Voynich; a
+  simulated-annealing solver calibrated at ninety-eight to one hundred
+  percent key recovery on one hundred and twenty-seven positive controls
+  scores at chance on the Voynich in seventy-one languages, even reading
+  backwards; a previously published key fails outside the pages it was
+  derived from. Explicitly not a decipherment — claimed — but now the
+  reference example for the intake bar: calibrated controls, published
+  negatives, no self-grading.
 - **Prior Voynich roster (Oct 14, 2026).** (a) Michael Hafner, "Section A of
   the Voynich Manuscript
   as Archaic Middle Welsh" (Zenodo, Apr 2026, independent researcher) — the
@@ -437,7 +459,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Dorabella | 1897 | Unsolved; Oct 2026 CLAIMED: self-published "DECODED" GitHub claim (unverified, no peer review); indep. analysis rules out rotating key + plain substitution, note still unread | — |
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
 | Rohonc Codex | ~1571/1838 | Forgery ruled out 2026 (peer-reviewed); partial 2018 decipherment replicated on 4 newly found pages; full reading not accepted | — |
-| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED); Oct 15, 2026: Zuger and Zuger Croatian Glagolitic-pharmacy claim (CLAIMED) + Hoeben geometric-structural preprint, explicitly non-decipherment (CLAIMED) + Davis ultraviolet find: Marci's seventeenth-century key attempt on the first page, a documented failure (CORROBORATED) + a self-published Latin claim graded by its own table (SPECULATION, rejected on intake); October 16, 2026: the Composite-Glyph Protocol Hypothesis (Zenodo, June 2026, first version — a structural framework only, explicitly not a decipherment — CLAIMED) | — |
+| Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED); Oct 15, 2026: Zuger and Zuger Croatian Glagolitic-pharmacy claim (CLAIMED) + Hoeben geometric-structural preprint, explicitly non-decipherment (CLAIMED) + Davis ultraviolet find: Marci's seventeenth-century key attempt on the first page, a documented failure (CORROBORATED) + a self-published Latin claim graded by its own table (SPECULATION, rejected on intake); October 16, 2026: the Composite-Glyph Protocol Hypothesis (Zenodo, June 2026, first version — a structural framework only, explicitly not a decipherment — CLAIMED); October 18, 2026: a categorical naive Bayes sixteen-slot morphological model (preprint, October sixth — an attribute-tagging reframing with domain discrimination; the hoax-refutation claim outruns the evidence — CLAIMED) and "The Voynich Manuscript as a Writing System" (preprint — a falsification battery with positive controls: substitution solvers recover sixty-nine to ninety-eight percent on known texts versus at most thirty-six on the Voynich; the calibrated solver scores at chance in seventy-one languages — CLAIMED; the intake-bar reference) | — |
 | Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); Oct 15, 2026: formal negative results recorded — attack session eliminated composite cipher families over sixty million positive-controlled configurations, back-build falsified the card-plus-gate mechanism, and the researcher publicly withdrew its own unsupported claims (CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION; October 16, 2026: the Ground Truth Divergence Map — the K4 ciphertext is identical across both ground truths, the as-carved text is authoritative, and any method must decrypt it as-is (CORROBORATED — community research documents); the live surface is reframed as substitution plus a rearranging layer, with the artist's "two systems" remark tiered as hearsay | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
