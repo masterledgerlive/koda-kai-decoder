@@ -1942,6 +1942,29 @@ The universal quantum decoder stays [SPECULATION] until proven.
   hundred fifty-eight readable rule pages mentioning bots at all.
   Lesson: detection runs silent; written policies are mostly decor.
   Dataset published under a CC BY licence by its authors.
+- **Google Cloud Fraud Defense: the announced successor to reCAPTCHA
+  (announced at Google Cloud Next, 2026).** Described as the next
+  evolution of reCAPTCHA for the agentic web: it verifies the
+  legitimacy of three distinct entities - humans, traditional bots,
+  and autonomous AI agents. Components: an agentic activity
+  measurement dashboard that classifies agent traffic using industry
+  standards (Web Bot Auth, SPIFFE) plus traditional methods; an
+  agentic policy engine for granular per-journey allow-or-block
+  decisions by risk score, automation type, and agent identity; a new
+  QR-code-based challenge to prove human presence on suspicious agent
+  behavior, designed to make automated fraud economically unviable;
+  and Google's global fraud-intelligence graph (the company cites
+  coverage of half of the Fortune one hundred and over fourteen
+  million domains - company figures, unverified here). Lesson: the
+  identity-versus-intent split converges on a two-layer answer -
+  cryptographic vetting at the gate, identity plus continuous
+  behavioral grading inside the session. The QR challenge also adds a
+  price-tag discipline: verification engineered to make automation
+  uneconomical. Any stealth tagging must assume an adversary
+  population facing intent-scored, policy-gated verification -
+  "looks human enough" is no longer the bar. [CLAIMED - vendor
+  announcement via secondary tech press; first-party announcement not
+  opened; coverage figures are the company's own]
 - **VerCellBreak: a TLS-trick exfiltration channel past the Vercel
   Sandbox domain allowlist (October 2026).** Researchers showed a
   compromised AI agent inside Vercel's agent sandbox can move secrets
