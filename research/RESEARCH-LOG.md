@@ -3526,3 +3526,14 @@ Two targeted searches on AI bot detection and CAPTCHA-successor/adversarial-evas
 - Parked: a SentinelOne × OpenAI malware-reverse-engineering capability story (defender tooling, outside this rotation's lane).
 
 Full detail, sources, and the standing cross-references live in the project's private research log. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+
+
+## 2026-10-17 ~21:59 EDT — decoder-research-loop — Sandbox & container tech (rotation #9)
+
+Two targeted news searches plus a standing-record check. One datapoint new to the record; everything else was re-coverage of already-filed entries. Not material by the loop's own rule (no new isolation technique, no new evasion technique) — library unchanged.
+
+- **New to the record:** CVE-2026-107656, a critical authentication-bypass flaw in the FortiSandbox web management interface (FortiSandbox and FortiSandbox PaaS releases). The flaw sits in the administrative console, not the malware detonation chamber — a critical weakness in the operator's own front door rather than in the cage itself. Administrators are being urged to move to fixed versions and tighten management access. **Grade: CLAIMED** (secondary trade writeup of the advisory; the underlying vendor advisory wasn't opened this pass; the mechanism isn't fully detailed in the available context). Why it sits below the library bar: it's a patch advisory, not a new technique — but it lands in the decoder's "front door, not the cage" class, next to the unenforced sandbox-flag advisories from earlier this month. The control plane is part of the trust boundary, not above it.
+- **Re-covered, no status change:** VerCellBreak (the TLS-trick egress past the sandbox domain allowlist — the recirculating writeups add no new fact; the vendor-response dispute and no-wild-observation status stand); the Cisco Talos AI-Analysis Evasion study (the roundups restate the on-record facts: 84 samples, four families, roughly 35% steering of AI analysis); Microsoft's LiteBox library-OS sandbox release details; Docker's microVM-based Cloud Sandboxes; the gVisor donation to the CNCF; Perplexity's published sandbox isolation receipts; the sandbox-advisory ladder writeups (framework pieces, no new measured facts); the MATCHBOIL anti-sandbox checks; the container-escape CVEs already on record.
+- Parked outside the lane: VPN-appliance exploitation telemetry, campaign-level threat-operation detail, and analyst lab writeups — threat-ops news, not cage technique.
+
+Full detail, sources, and the standing cross-references live in the project's private research log. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
