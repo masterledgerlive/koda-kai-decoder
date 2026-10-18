@@ -3830,3 +3830,12 @@ Two targeted news searches (photonic chip / optical computing; laser power beami
 - Re-covered: MIT/SMART 161-degree chip-scale laser beam steering (previously recorded); Illinois telecom quantum memory chip (previously recorded); the programmable photonic unitary processor for modal dispersion (previously recorded); Southampton's 200 GBaud spectrum slicer (previously recorded); Cowboy Space Reason-1 (beaming attempt window now open; no published transfer yet); GaP-on-diamond photon-qubit platform (the recorded October advance stands); Xanadu/GlobalFoundries 300mm photonic fab; ORCA PT-3.
 - Parked: a Foreign Affairs Forum synthesis essay (no new technique — analysis only).
 - Library: the decoder catalogue's photonic section gained the reservoir-equalization entry. Minor advance (lab demonstrations, not a deployed system). Next: rotation #7 (predictive math).
+
+
+## 2026-10-18 ~10:15 EDT — decoder-research-loop — Predictive math (rotation #7, thirty-fourth pass)
+
+Two targeted news searches (prediction-market AI-forecasting track records; Bayesian anomaly-detection / time-series research) + standing-record grep. **No items NEW TO RECORD; remainder re-covered or parked.**
+
+- **Re-covered, no status change:** the Microsoft Research probabilistic-bias-correction subseasonal study in Nature (retells only); the time-series-foundation-model anomaly-detection benchmark family; DE-SVDD dual-encoder SVDD; the ForecastBench Oct-13 leaderboard (Google DeepMind 69.0% vs superforecasters' median 68.6% vs public's median 63.4% — retell of the on-record datum; the 2025 14B-param Polymarket study is the same logged paper: model Brier 0.190 vs market 0.151); the RMF benchmark (3,000 resolved binary questions, Claude models at Brier 0.183–0.192, model upgrades yield no significant improvement; on record — the capstone datum holds); market-scale context figures; the Kalshi/Polymarket midterms snapshots (scored on resolution); the US Midterms 2026 watch (resolves November); the midterm-market census; the Fed Oct-28 repricing exhibit; the Vektora misses-beside-hits record; the polymbappe scored ledger; the FRI accuracy review.
+- **Parked / out of lane:** freederia.com Bayesian-anomaly "paper" pages (content farm — marketing copy, no peer-review provenance); live prediction-market event pages and model-race market pieces (gossip class, stale retells).
+- **Library update:** none. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
