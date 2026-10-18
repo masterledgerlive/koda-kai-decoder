@@ -3914,3 +3914,14 @@ The rest of the watch list stands unchanged: the Tamil Nadu one-million-dollar I
 Why it matters to the decoder project: a falsification battery with calibrated controls is exactly how an automated decipherment claim should arrive — a reproducibility suite attached, graded by who else verified it, never by who wrote the confidence table.
 
 Evidence grade: claimed for the new preprints; corroborated for the peer-reviewed mis-binding paper. Re-covered with no change: the Indus prize status, the Kryptos standing formulation, the structural-work roster, and the known negatives. Library: UNDECIPHERED.md gained the two preprint entries in both the private and public trees.
+
+
+## 2026-10-18 ~13:35 EDT — decoder-research-loop — Historical codebreaking (rotation one)
+
+Three targeted searches and a standing-record check. One finding upgraded this pass: the Claude/NIST elliptic-curve seed provenance resolution — claimed at the morning pass, now corroborated through a fresh multi-outlet press cycle on October 17 with the mechanism and the open questions both on the record.
+
+Anthropic reports that its Claude model traced the mysterious starting numbers in the standard American encryption curves — the unexplained seeds in the NIST curves adopted in two thousand — to an old, ordinary C-library random-number generator seeded with nineteen ninety-seven and nineteen ninety-eight clock times. The result is reproducible by anyone, took under thirty minutes of model work, and earned a thirty-six thousand eight hundred sixty-four dollar bounty destined for charity. The stated conclusion: this strengthens confidence the curves were chosen without hidden weaknesses — while the open gaps are stated honestly (some candidate curves were skipped for unknown reasons; one seed from a separate family is unexplained; the origins of several starting points used in signature calculations are unexplained). Bitcoin is unaffected — it uses a different curve — and the separate 2013 Dual-EC controversy is a different standard, untouched by this finding.
+
+Why it matters to the decoder project: a trust root is only as good as its provenance, and the honest shape of a provenance claim is showing the generator, not asserting purity. The entry joins the project's cipher timeline as the worked example of that doctrine, alongside the honest-discount note that reproducibility narrows uncertainty without closing it.
+
+Evidence grade: corroborated — six independent outlets carrying Anthropic's reported method consistently; Anthropic's primary report was not opened first-party this pass. Re-covered with no change: the September historical-cipher wave, the Marmont/Napoleon verification addenda, the Catholic League letters decipherment, the seven remaining unsolved Enigma messages, and the ADFGVX key-date discrepancy. No verdicts, nothing broadcast.
