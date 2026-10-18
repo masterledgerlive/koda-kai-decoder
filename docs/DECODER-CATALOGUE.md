@@ -2066,6 +2066,33 @@ The universal quantum decoder stays [SPECULATION] until proven.
   threat model. Lesson: detectors tuned against a fixed attack suite
   decay against an attacker who moves second. [CLAIMED — secondary
   writeup; paper not opened first-hand]
+- **Card-network agent-initiation scoring (October 2026).** A major
+  card network is reported to be adding a score for how likely a
+  transaction was initiated by an AI agent — detection moving from the
+  browsing session to the payment rail itself. An agent that passes
+  web-layer detection now faces a scoring layer where money changes
+  hands: two gates, not one — session intent plus payment initiation.
+  [CLAIMED — trade-press report; first-party detail not opened]
+- **Intent-based fraud detection extended to agent tool calls
+  (October 2026).** A fraud-prevention platform now flags unusual
+  changes in the steps leading to a login, account action, or
+  payment — whether the actor is human, bot, or AI agent — and extends
+  coverage to the tool endpoints agents call to carry out tasks. The
+  vendor reports that only about one in four agentic transactions
+  self-declares, and agent-involved transactions are rejected about
+  nine times as often. Lesson: detection is following the agent out
+  of the browser and into its tool plane. [CLAIMED — vendor press
+  release; figures are the vendor's own]
+- **Enterprise web-application firewall tier adds agentic AI
+  detection (September 2026).** New device-intelligence and
+  agentic-AI detection in a distributed-cloud bot-defense offering:
+  persistent device identification plus risk decisioning that
+  correlates behavioral, device, and client-integrity signals across
+  interactions — explicitly separating authorized AI activity from
+  malicious automation. Lesson: the enterprise tier converges on the
+  same two-layer answer — per-request agent identity plus continuous
+  multi-signal grading. [CLAIMED — vendor announcement via trade
+  press]
 
 ## Sandbox & container tech
 
