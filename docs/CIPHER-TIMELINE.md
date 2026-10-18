@@ -341,6 +341,38 @@ problem that had stood twenty years is the honest headline.
   note: in a flood of amateur solutions, verified verification is the
   scarce resource — the intake doctrine (a claim that grades itself is
   rejected on intake) is the filter.
+- **Addendum (October 17, 2026): the twenty-five-year provenance mystery
+  closes — and the doctrine gets its worked example.** Anthropic reported
+  that an internal Claude research model traced the unexplained starting
+  numbers behind the NIST elliptic curves (P-192, P-224, P-256, P-384,
+  P-521 — ECDSA, FIPS 186-2, adopted 2000) to lrand48, an old C library
+  random-number generator, initialized with Unix timestamps from 1997 and
+  1998. Anyone can reproduce the derivation; the run took under thirty
+  minutes and earned a $36,864 bounty destined for charity. The finding
+  challenges the long-running "hash of humorous phrases" theory — a
+  former NSA mathematician's recalled phrases (e.g. "Give Bob and Jerry
+  a raise") had sent earlier searches hunting hash inputs — and
+  Anthropic's stated conclusion is that the findings strengthen
+  confidence the curves were selected without hidden weaknesses. The
+  honest discount arrives with the finding: the generation process
+  skipped candidate curves that appear to meet the requirements (reason
+  unknown); one seed from a separate family of curves is unexplained;
+  the origins of several standardized starting points used in signature
+  calculations remain unexplained. Reproducibility narrows the
+  twenty-five-year uncertainty; it does not close it. Bitcoin was never
+  in this controversy (its curve is structurally simple by design), and
+  the 2013 Dual-EC worry is a separate standard, unaffected.
+  [CORROBORATED — six independent outlets carrying Anthropic's method
+  and conclusion consistently; the Anthropic primary not opened
+  first-party this pass]
+- **The decoder's note:** "show the generator, not the assertion" — this
+  is the intake doctrine made concrete. A claimed provenance verified by
+  reproducing the generator, not by citing authority. The Marmont
+  anti-memorization control (above) checked the *solution* against a
+  reproducible procedure; this checks the *trust root itself*. The same
+  rule both times: a claim is graded by who else verified it, never by
+  who wrote the confidence table — and honest gaps, stated aloud, are
+  part of the verification.
 
 ## 1990 — Kryptos: the cipher in the CIA's own courtyard
 
