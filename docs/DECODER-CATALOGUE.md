@@ -3200,6 +3200,17 @@ The universal quantum decoder stays [SPECULATION] until proven.
   no software vulnerability needed. Decoder lesson: another receipt that
   indirect injection crosses from instruction to action in real deployments at
   minutes of build cost. [CLAIMED — trade-press writeup; firm unnamed]
+- **OWASP 2026 LLM Top 10 mapped onto MITRE ATLAS v2026.06 (~October 15).**
+  A practitioner crosswalk of the 2026 LLM Top 10 onto ATLAS technique IDs:
+  prompt injection → AML.T0051 (sub-techniques .000 Direct, .001 Indirect,
+  .002 Triggered), T0068 prompt obfuscation, T0093 infiltration via
+  public-facing application, T0054 jailbreak; excessive agency → T0053 agent
+  tool invocation, T0086 exfiltration via agent tool invocation, T0101 data
+  destruction via agent tool invocation. Decoder lesson: the suggestion-implant
+  vector now has technique-level IDs in a third taxonomy — and the "Triggered"
+  sub-technique is a dormant-implant class the field's test harnesses should
+  cover. [CLAIMED — secondary writeup; the ATLAS version pin and the OWASP
+  2026 release itself are CORROBORATED]
 - **Malicious Custom GPTs as ClickFix delivery (cross-filed from
   rogue-agent intel, Oct 2026).** The victim's own chatbot as the attacker's
   mouthpiece — malicious Custom GPTs on ChatGPT delivered remote access
