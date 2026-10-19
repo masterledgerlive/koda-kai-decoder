@@ -1813,6 +1813,33 @@ The universal quantum decoder stays [SPECULATION] until proven.
   capability cannot be elicited by any discipline, so the decoder
   grades behavior under constraint, never claimed capability.
   [CLAIMED — trade-press summary; paper not read this pass]
+- **Regula "Identity Verification in the Age of AI Agents" crypto KYC
+  snapshot (released October 8, 2026).** Vendor survey comparing
+  crypto firms with other sectors: forty-four percent of crypto firms
+  reported confirmed AI-assisted or automated activity among users
+  undergoing identity verification, versus thirty-one percent in other
+  sectors — with the vendor's own caveat that confirming automation
+  does not by itself establish fraud. On identity threats, crypto
+  respondents cited counterfeit, altered, or stolen identity documents
+  (forty-four percent) more often than deepfake or AI-generated
+  impersonation (thirty-seven percent). Decoder significance: the
+  identity-checkpoint companion to the perimeter surveys — document
+  fraud still outruns deepfakes at the checkpoint, while automated
+  agents are now reaching the verification flow itself. [CLAIMED —
+  vendor survey via press release; report not opened first-party this
+  pass]
+- **DataDome "State of Bot and Agent Security" spoofed-agent tier
+  detail (report from September 2026).** New detail on a logged
+  finding: the spoofed-AI-agent tier carries the highest stop rate of
+  any tier — twenty-nine point three percent of sites stopped at least
+  one spoofed agent, fourteen point one percent stopped all — but the
+  report itself says publishers mostly added explicit rules for known
+  AI-crawler names, so spoofs get caught "not because sites can detect
+  the impersonation." Decoder significance: the stop rate is a
+  blocklist accident, not identity verification — the identity-claim
+  layer fails open, and only behavior and network consistency see
+  through it. [CORROBORATED — the vendor report's own primary
+  document]
 - **CloakBrowser (open source, updated about September 2026).** A
   stealth Chromium build for AI agents that patches fingerprints at
   the source level, compiled into the binary, instead of config-level
