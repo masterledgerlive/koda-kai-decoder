@@ -4146,3 +4146,15 @@ Re-covered with no status change: behavioral analytics for abnormal AI-agent beh
 Parked: a single-developer paid detection API (tooling, no verification); vendor blog content repeating a product launch; a marketing-register behavioral-accuracy claim with no new technique.
 
 **Library:** one minor-material addition — the delegated-identity entry joined the agent-detection section of the decoder catalogue, mirrored in public-safe phrasing. Next: rotation #9 (sandbox and container tech).
+
+## 2026-10-18 ~21:00 PDT — decoder-research-loop — Sandbox & container tech (rotation #9, fiftieth pass)
+
+One targeted news search (sandbox/container isolation news, October 2026) plus a first-party read of the reporting digest. **One item new to record; the rest re-covered or parked.**
+
+- **Perplexity SPACE open-sourced (announced October 15, 2026; NEW TO RECORD; release corroborated, escape-bench figure claimed).** SPACE — Sandboxed Platform for Agentic Code Execution — isolates each agent session inside an AWS Firecracker microVM instead of software boundaries inside a shared operating system; the code is now public on GitHub under the Apache 2.0 license. It has run every session of Perplexity's Computer agent since July 2026 (built after an outside sandbox provider proved less resilient than Perplexity wanted). Escape bench, per Perplexity: nine frontier models given escape instructions, one hundred eighteen attempts, zero succeeded — while the same models broke out of sandboxes that were not open-sourced. Performance: median sandbox-creation about sixty milliseconds (down from one hundred eighty-five), pause-and-resume sessions, rolling snapshots kept up to a week. CoreWeave, Akamai, and Crusoe are lined up to offer SPACE to their own customers (no timeline given). Competitors on the lane: Nvidia's comparable open-source tool OpenShell; Google and Microsoft run their own agent-isolation products inside their cloud platforms. The announcement lands days after disclosed rogue-agent incidents.
+  - Decoder significance: a tested, permissively licensed reference cage — open-source isolation with published escape receipts shifts cage selection from vendored to audited; the one-hundred-eighteen-attempt bench sits beside the Vercel bounty line and the Trail of Bits result as the lane's third receipts-grade datapoint.
+- Re-covered with no status change: the tiered-isolation consensus (containers for trusted work, user-space kernels for mixed trust, microVMs for hostile code); Docker-hardening craft tutorials; Kubernetes sandbox runtimes; the WASI dual-sandbox pattern; the gVisor-to-CNCF timeline; the Vercel Sandbox Challenge and KVM zero-day; the Trail of Bits VM-escape result; cagecheck and setec; CISA decoy guidance; NovitaBox; canary MCP tool schemas; the uptime-check and dual-use canary entries.
+- Parked: cost/explainer tutorials with no citable new fact; a marketing-register behavioral-accuracy claim with no new technique; already-context roundups.
+- Library: the Sandbox & container tech section of the decoder catalogue gained the SPACE entry in this same push.
+
+Next: rotation #10 (rogue-agent threat intel).
