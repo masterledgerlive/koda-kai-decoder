@@ -1553,6 +1553,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - Source: https://scienmag.com/time-series-foundation-models-fall-short-of-specialized-models-in-digital-twin-predictive-maintenance-benchmark/
   - [CLAIMED — single secondary writeup; primary paper not opened this pass]
 
+- **An AI system that beat the market on merger odds (September 2026).** A hedge fund built a forecasting system for takeover outcomes, giving three-way probabilities: the deal closes on the announced terms, it terminates with a higher bid appearing, or it terminates with no rescue bid — the two failure modes deliberately not lumped together. On a held-out set of four hundred recent large deals, tested genuinely out of sample, the system beat the market-implied odds, a tuned statistical model, and every frontier language model tested. A twelve-agent research pipeline mapped the analyst's own reasoning process onto the task. The decoder files it as the ledger's first AI forecasting entry with an out-of-sample, score-receipted test set at deal scale — and the three-way split is the lesson: lumping failure modes together throws away information.
+  - Source: https://www.arblens.com/blog/weekly-020.html
+  - [CLAIMED — hedge-fund paper via secondary summary; paper not read first-party this pass]
+
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
