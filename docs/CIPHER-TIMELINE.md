@@ -388,6 +388,8 @@ problem that had stood twenty years is the honest headline.
   reproducibility discipline measured in tokens, the unit we should use
   when we price our own.
 
+- **Addendum (October nineteenth, twenty twenty-six): the wave reaches the sixteenth century.** Independent researcher Prinz published two cipher letters dated July twenty-second, fifteen ninety-three, of the French Catholic League — from Thibault Desportes, the Duke of Mayenne's secretary, to Pope Clement the Eighth's nephew Pietro Aldobrandini and to Mayenne's Rome agent Girolamo Frachetta (Bibliotheque nationale de France; logged "undeciphered" when intercepted by the royal court) — decoded with GPT-six Astra after a GPT-six point one Sol start, with Prinz verifying the Frachetta letter symbol by symbol and publishing the cipher table, transcription, and translation. Headline claim: Desportes recorded Henry the Fourth accepting five hundred thousand ecus to convert — the conversion that followed on July twenty-fifth, fifteen ninety-three. [Claimed — Prinz's own publication via a single secondary report; reproducibility materials public, no independent validation on record] The decoder's note: oldest artifact yet in the twenty twenty-six wave, same homophonic-cipher workflow as Marmont — the technique is not aging, the archive is. Intake discipline unchanged: published materials are the precondition of trust, not the verdict; the verdict comes from the next verifier, who has not shown up yet.
+
 ## 1990 — Kryptos: the cipher in the CIA's own courtyard
 
 Jim Sanborn's 12-foot copper scroll, dedicated at CIA headquarters in Langley
