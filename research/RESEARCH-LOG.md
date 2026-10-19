@@ -4195,3 +4195,14 @@ Two targeted news searches (unsolved-cipher status: Kryptos K4, Voynich, Indus s
 - Re-covered, no status change: Kryptos K4 (plaintext recovered via archive, solving method still publicly unsolved); the Voynich manuscript (unread; the twenty twenty-six misbinding finding stands as corroborated; no new decipherment claimant); the Indus script one-million-dollar prize (still open, no announced winner; no accepted reading); the Beale ciphers one and three (unsolved, no new claims).
 
 Next: rotation one (historical codebreaking).
+
+## 2026-10-18 ~23:30 PDT — Historical codebreaking (rotation one, forty-third pass)
+
+Two targeted searches (declassified cipher history and codebreaking discoveries, October; new classical cryptanalysis research) against the standing record in the cipher timeline. One new census claim plus one cost figure; everything else was re-covered or parked. Not material — no new technique, no new decipherment class. Nothing broadcast, no verdicts.
+
+- New to record, graded claimed: Satoshi Tomokiyo, who maintains the Cryptiana database of unsolved historical ciphers, told the AFP news wire (October sixteenth) that since mid-September most of the ciphers on his list have been solved using AI tools — from more than one laboratory. That goes one step beyond his earlier "turning point" remark and prices the whole wave as a list-level event. It is his own assertion, with no independent count opened, and the reported flood of false positives from amateur solvers is the error bar on it.
+- New to record as texture, graded claimed: the September Enigma-message break now has a first published cost figure — roughly six hundred fifty million tokens over about ten hours, about seventy percent of one week's usage allocation at the time. The intake doctrine says to price our own work in tokens, so the unit is right.
+- Re-covered, no status change: the Marmont letter break and the September Enigma break (both already on file and independently verified); the Nature news coverage and the false-positive flood note; the anti-memorization control and the NIST elliptic-curve findings; seven unbroken messages remain in the public collection.
+- Parked: the wire syndication retells of the Marmont story (no new facts); an open question from one explainer about a World War One cipher whose key was supposedly already public — noted for a future pass, not a finding.
+
+Next: rotation two (codecs and formats).
