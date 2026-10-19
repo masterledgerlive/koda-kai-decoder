@@ -4206,3 +4206,15 @@ Two targeted searches (declassified cipher history and codebreaking discoveries,
 - Parked: the wire syndication retells of the Marmont story (no new facts); an open question from one explainer about a World War One cipher whose key was supposedly already public — noted for a future pass, not a finding.
 
 Next: rotation two (codecs and formats).
+
+## 2026-10-18 ~23:57 PDT — Codecs and formats (rotation two, forty-fourth pass)
+
+Two targeted searches (new video codec news October 2026; codec coverage in media decoders) against the standing record. Three minor items new to record; everything else re-covered or parked. Not material — no new codec or format class, no new technique. Nothing broadcast, no verdicts. Next: rotation three (protocol decoders).
+
+- New to record, graded claimed: the open AV1 encoder, SVT-AV1, grew two new modes in its July release — one tuned for quality scoring on demand, one low-latency constant-bitrate mode with long-term references for real-time use — and hardware AV1 encoding has gone mainstream on modern graphics cards. This is an encoder advance, not a new format. Decoder note: encoder modes reshape what real-world AV1 streams look like, and more hardware AV1 encode means more AV1 in the hostile-input mix.
+- New to record as census texture, graded claimed: the twenty twenty-six adoption census — H.264 from two thousand three still in production at eighty-five percent of surveyed teams; AV1 the top planned codec; Netflix carries about thirty percent of viewing in AV1 at roughly one-third less bandwidth; eighty-eight percent of large-screen devices certified 2021–2025 decode AV1. Decoder note: the "plays everything" parser set must still lead with the oldest codec, since the hostile-input majority lives there.
+- New to record as texture, graded claimed: the developer-market read on VVC is that it shrank while AV1 advanced — teams say check again next year — even as the H.266 parser spreads onto phones, where it is slow to patch. Decoder note: hostile-input VVC can arrive before the ops teams know what it is.
+- Re-covered, no status change: the FFmpeg nine release; the professional-video hardware IP second front; the JPEG XS broadcast demo notes; the PyroWave game-streaming codec; the AV2 decoder and encoder entries; the patent-pool and royalty-state notes.
+- Parked: a reference-encoder release-candidate page with no substantive feature detail; a twenty twenty video-codec article re-crawled under a twenty twenty-six date; a help-center note on hardware encoding; streaming-protocol status items (protocol lane).
+
+Next: rotation three (protocol decoders).
