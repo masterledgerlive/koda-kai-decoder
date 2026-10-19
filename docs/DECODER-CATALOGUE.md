@@ -2150,6 +2150,34 @@ The universal quantum decoder stays [SPECULATION] until proven.
   multi-signal grading. [CLAIMED — vendor announcement via trade
   press]
 
+- **World ID for Zoom generally available through the Zoom App
+  Marketplace (announced October 18, 2026; detail addendum on the
+  on-record World ID for Zoom entry).** Tools for Humanity joined
+  the Zoom ISV Exchange Program, putting biometric proof-of-human
+  verification in front of Zoom's roughly two hundred thousand
+  business customers; one-time hardware verification followed by a
+  real-time Verified Human badge on the caller's video tile, aimed at
+  AI-deepfake impersonation during live meetings such as banking
+  onboarding and treasury approvals. The stated rationale: detecting
+  deepfakes frame by frame is becoming unreliable as generative
+  models improve, so verify the person instead of the pixels.
+  Lesson: the delegation lane moves from announcement to enterprise
+  deployment — the proven-human half of the agent-detection split
+  now ships inside the meeting product itself. [CLAIMED — company
+  announcement via trade press]
+- **Weekly CAPTCHA survivability measurement (October 2026; new to
+  record).** A vendor benchmark feed reports one CAPTCHA class
+  holding zero of one hundred thirty agent attempts in a week (three
+  models, headless browser, one datacenter environment), while
+  another was solved on every attempt. The practical taxonomy filed
+  beside it: proof-of-work challenge types buy only seconds against
+  scripted browsers at fractions of a cent per solve; the
+  click-and-perceive class held this week. Lesson for the honest
+  ledger: carry both the general failure of interactive challenges
+  against AI agents and the surviving exceptions — one environment's
+  result is a floor, not a proof. [CLAIMED — single-source vendor
+  benchmark; one environment, one agent class]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
