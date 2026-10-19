@@ -1820,6 +1820,7 @@ The universal quantum decoder stays [SPECULATION] until proven.
   not stop the code from executing; responsibly disclosed and
   remediated. Decoder significance: detection without containment is
   telemetry, not defense. [CLAIMED — vendor report via trade press]
+- **World AgentKit and World ID for banking and finance (announced October 18, 2026).** A first industry-specific push of a biometric identity project into AI agents at the payment layer: an AgentKit in beta lets a person delegate identity proofs to an AI agent, which presents those proofs to a website or service without revealing the person's information; proofs cover human presence and attributes, managed in an app available in more than one hundred fifty countries. A paired launch brings verification to video meetings: one-time hardware verification, then live-selfie authentication before or during consequential calls. Decoder significance: the verify-by-proof complement to agent-detection scoring — where a card-network initiation score estimates the probability a transaction was agent-started, delegated proofs let a legitimate agent assert its human backing. Detection asks whether the agent is legitimate; delegation lets the agent answer. Pairs with the payment-network initiation score and per-action intent-binding entries already on record. [CLAIMED — company announcement via trade press; in beta]
 
 
 - **Akamai "Identifying Agentic Automation with Behavioral Telemetry:
