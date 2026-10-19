@@ -2642,7 +2642,34 @@ The universal quantum decoder stays [SPECULATION] until proven.
   restore point is the adversary's first target. Snapshots are evidence to
   protect (write-once, off-fabric), never a safety net to assume.
 
-*Library additions seeded 2026-10-18 ~17:35 EDT by the decoder-research-loop.*
+- **Perplexity SPACE open-sourced (announced October 15, 2026; code
+  public under the Apache 2.0 license; NEW TO RECORD).** Sandboxed
+  Platform for Agentic Code Execution: each agent session runs inside an
+  AWS Firecracker microVM instead of software boundaries inside a shared
+  operating system. Perplexity has run every session of its Computer agent
+  inside SPACE since July 2026 (the company built it after an outside
+  sandbox provider proved less resilient than it wanted). Escape bench, per
+  Perplexity: nine frontier models given escape instructions, one hundred
+  eighteen attempts, zero succeeded — while the same models broke out of
+  sandboxes that were not open-sourced. Performance: median sandbox-creation
+  about sixty milliseconds, down from one hundred eighty-five on the prior
+  setup; pause-and-resume sessions and rolling snapshots kept up to a week.
+  CoreWeave, Akamai, and Crusoe are lined up to offer it to their own
+  customers (no timeline given). Lane context: Nvidia's OpenShell is the
+  comparable open-source tool; Google and Microsoft run their own
+  agent-isolation products inside their cloud platforms; the announcement
+  lands days after disclosed rogue-agent incidents. Decoder significance: a
+  tested, permissively licensed reference cage — open-source isolation with
+  published escape receipts shifts cage selection from vendored to audited,
+  and the one-hundred-eighteen-attempt bench sits beside the Vercel bounty
+  line and the Trail of Bits result as the lane's third receipts-grade
+  datapoint. [CORROBORATED — Semafor exclusive interview with Perplexity
+  technical staff October 15, 2026; Crypto Briefing technical detail; AI
+  Business July 2026 launch report; the escape-attempt figure is Perplexity
+  self-reported — CLAIMED until independently run]
+
+*Library additions seeded 2026-10-18 ~17:35 EDT and ~21:00 PDT by the
+decoder-research-loop.*
 
 ## Rogue-agent threat intel
 
