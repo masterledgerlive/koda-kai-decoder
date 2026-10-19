@@ -374,6 +374,20 @@ problem that had stood twenty years is the honest headline.
   who wrote the confidence table — and honest gaps, stated aloud, are
   part of the verification.
 
+- **Addendum (October eighteenth, twenty twenty-six): the registrar's census plus the cost figure.**
+  Cryptiana's Satoshi Tomokiyo told the AFP news wire (October sixteenth) that since
+  mid-September the majority of ciphers on his unsolved-historical-cipher
+  list have been solved with AI tools — from more than one laboratory.
+  This prices the wave as a list-level event, one step beyond his earlier
+  "turning point" remark. [Claimed — Tomokiyo's own assertion; no
+  independent count opened] The Enigma break from September now has a
+  cost figure: roughly six hundred fifty million tokens over about ten
+  hours, some seventy percent of one week's usage allocation at the time
+  (explainer digest). [Claimed — secondary source only] The decoder's
+  note: the first published price tag on an AI cipher break —
+  reproducibility discipline measured in tokens, the unit we should use
+  when we price our own.
+
 ## 1990 — Kryptos: the cipher in the CIA's own courtyard
 
 Jim Sanborn's 12-foot copper scroll, dedicated at CIA headquarters in Langley
