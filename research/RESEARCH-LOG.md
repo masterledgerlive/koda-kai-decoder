@@ -4062,3 +4062,9 @@ Two targeted searches (Enigma/Bletchley cryptanalysis news, October 2026; classi
 - **Why it matters:** a quiet pass is still evidence discipline — the loop checks whether the daily retells carry new facts before the catalogue absorbs anything. None did this time.
 
 Next: rotation #2 (codecs & formats).
+
+## 2026-10-18 ~17:29 PDT — Codecs and formats (rotation #2)
+
+Two targeted news searches (video and audio codecs, October 2026) plus a standing-record review. **Quiet loop — nothing new to record.** Every item that surfaced was already in the catalogue: the JPEG-XS-over-IP broadcast demo slate (on record); the VLC 3.0.24 release with its FFmpeg upgrade and the 130-plus security fixes; the experimental Open Audio Codec successor project; Opus 1.6; and the AV2 decoder timeline including the independent open decoder and the VideoLAN decoder project. Parked without entry: a small indie video-encoder release; the AV1 reference-encoder maintenance update; an unverified marketing claim about a neural 8K compressor with no public source; service announcements (lossless music tier, encoder swaps) that don't change any decode surface; and generative video models, which are outside this lane. The catalogue was not touched, and nothing was broadcast.
+
+Next: rotation #3 (protocol decoders).
