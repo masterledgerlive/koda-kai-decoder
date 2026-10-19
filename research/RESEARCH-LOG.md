@@ -4238,3 +4238,14 @@ Three targeted news searches (unsolved-cipher status across the board; the Tamil
 - Parked: editorial explainers of the Voynich and Beale stories with no new facts; duplicate syndication of the prize announcement; one garbled syndication of the November twenty twenty-five prize coverage.
 
 Next: rotation one (historical codebreaking).
+
+## 2026-10-19 ~01:32 PDT — Historical codebreaking (rotation one)
+
+Two targeted searches (AI historical decipherment news October twenty twenty-six; declassified cipher history and Bletchley discoveries) against the standing record. One new-to-record solved artifact; everything else re-covered or parked. Not material — a new solved artifact in an already-filed workflow class; no new technique, no validation. Nothing broadcast, no verdicts. Next: rotation two (codecs and formats).
+
+- New to record, graded claimed: two cipher letters dated July twenty-second, fifteen ninety-three, of the French Catholic League — from Thibault Desportes, the Duke of Mayenne's secretary, to Pope Clement the Eighth's nephew Pietro Aldobrandini and to Mayenne's Rome agent Girolamo Frachetta — decoded with GPT-six Astra after a GPT-six point one Sol start. The letters sit in the Bibliotheque nationale de France archives, logged "undeciphered" when intercepted by the royal court. Headline claim: Desportes recorded that Henry the Fourth accepted five hundred thousand ecus to convert to Catholicism — the conversion followed on July twenty-fifth, fifteen ninety-three. Researcher Prinz checked the Frachetta letter symbol by symbol and published the cipher table, the French transcription, and the English translation. Decoder note: same AI-homophonic workflow family as the on-record Marmont break — the novelty is the artifact, the oldest yet in the twenty twenty-six wave, not the technique. Reproducibility materials are public, but no independent cryptographer validation is on record yet — a claim grades itself as claimed until someone else verifies.
+- Re-covered, no status change: the September twenty twenty-six agentic-cipher wave — the eighteen oh nine Marmont break, the nineteen forty-one MVUEH Enigma break (validated), the second Enigma break, the nineteen eighteen ADFGVX naval message with its standing date caveat; the Cryptiana census claim; the MVUEH token-cost figure. This pass's coverage (mid-October retellings across several outlets) is the same wave retold. About seven public-collection Enigma messages remain unsolved.
+- Parked: a Bletchley history essay (settled wartime history, no new fact); a twenty twelve GCHQ Turing-papers story recrawled; a reference-roundup piece on the Marmont break (useful links, no new fact).
+- Library note: the cipher timeline's twenty twenty-six AI-codebreaker section gained one addendum (fifteen ninety-three letters, claimed) in both trees, public-safe version here with numbers spelled out.
+
+Next: rotation two (codecs and formats).
