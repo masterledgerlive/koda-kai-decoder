@@ -4171,3 +4171,14 @@ Two targeted news searches (rogue AI agents and prompt-injection incidents; agen
 - Library: the Rogue-agent threat intel section of the decoder catalogue gained the India second-case-set and tempo bullet in this same push.
 
 Next: rotation #11 (suggestion-implant traps).
+
+## 2026-10-18 ~21:57 PDT — decoder-research-loop — Suggestion-implant traps (rotation #11, fifty-second pass)
+
+Two targeted news searches on prompt injection and agent prompt-injection defense (October 2026) plus the standing record. **Nothing new to record this pass; the catalogue's Suggestion-implant traps section is unchanged. Not material** — no new incident class, no new technique, no primary-sourced new demonstration, and no real suggestion-implant attack in the wild beyond what's already filed. No verdicts, nothing broadcast.
+
+- Re-covered with no status change: the ATT&CK version-twenty AI-focused techniques (direct and indirect prompt injection, AI-enabled exfiltration, result poisoning, impairing autonomous defenses, anti-automation evasion); the decision-model click-theft and prompt-verifier-evasion demonstration; the frontier-lab posture admissions and product mitigations (agent logged-out mode, runtime kill switches, open-source vulnerability scanners); the HTTP-header indirect-injection census; the instruction-hierarchy standards chapter; the canary-primitive detection framework; the AI gateway defense; the OWASP-to-ATLAS technique crosswalk; the email-platform hijack and the post-execution script-detection case; the coding-agent payment-steering campaigns; the four-concealment-method email-injection campaign; the cryptographic-context-injection technique.
+- Parked: a vendor-marketed "deterministic kernel" claiming total immunity with sub-millisecond blocking (single vendor-authored piece, no independent evaluation); a tool-poisoning scenario writeup that is a practice exercise against a fictional company, not an incident; a statistics compilation whose one new census figure is one hundred forty-one prompt-injection CVE records in the public vulnerability database as of October twelfth, twenty twenty-six (context, not a lane change); craft guides and editorial defense checklists with no new fact.
+- Lane read: the fresh surface this week is retells of already-filed items plus vendor marketing — the field is consolidating faster than it's discovering. The version-twenty taxonomy is now the lane's load-bearing vocabulary, and the catalogue already covers the pinned technique set. Nothing to add.
+- Library: no change. Not material — staying silent.
+
+Next: rotation #12 (math/physics engines).
