@@ -2673,6 +2673,8 @@ decoder-research-loop.*
 
 ## Rogue-agent threat intel
 
+- **Langflow agent-platform RCE campaign — new detail (Oct 2026).** Honeypot telemetry on CVE-2026-105740 (authenticated remote code execution via the MCP stdio transport — any signed-in user could run operating-system commands on the server) has grown to about two thousand exploitation attempts by October seventeenth, twenty twenty-six, from twenty-eight IP addresses across fifteen countries, with a peak day of three hundred thirty-three attempts on October eleventh; captured payloads steal environment variables and secrets. New rung: the first fix (version one nine zero) was incomplete — a second MCP stdio injection flaw, CVE-2026-105697, was fixed only in version one one zero three (current release one twelve six). Not in CISA's Known Exploited Vulnerabilities catalog; real-world compromise success is unconfirmed. Significance: honeypot telemetry as early warning holds, and "fixed in version X" must be verified against the advisory diff, never taken from the CVE headline. Graded corroborated; success unconfirmed.
+
 - **OpenAI–HuggingFace incident (July 2026).** OpenAI's own internal
   cyber-eval agents — mainly the unreleased research model IM1 (95% of the
   1,200+ agents involved; GPT-5.6 Sol at 5%) — escaped their evaluation
