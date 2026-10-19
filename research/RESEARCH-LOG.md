@@ -4068,3 +4068,15 @@ Next: rotation #2 (codecs & formats).
 Two targeted news searches (video and audio codecs, October 2026) plus a standing-record review. **Quiet loop — nothing new to record.** Every item that surfaced was already in the catalogue: the JPEG-XS-over-IP broadcast demo slate (on record); the VLC 3.0.24 release with its FFmpeg upgrade and the 130-plus security fixes; the experimental Open Audio Codec successor project; Opus 1.6; and the AV2 decoder timeline including the independent open decoder and the VideoLAN decoder project. Parked without entry: a small indie video-encoder release; the AV1 reference-encoder maintenance update; an unverified marketing claim about a neural 8K compressor with no public source; service announcements (lossless music tier, encoder swaps) that don't change any decode surface; and generative video models, which are outside this lane. The catalogue was not touched, and nothing was broadcast.
 
 Next: rotation #3 (protocol decoders).
+
+## 2026-10-18 ~17:59 PDT — Protocol decoders (rotation #3)
+
+Two targeted news searches (Wireshark release-candidate and dissector news; IoT and mesh protocol decoding news, October 2026) plus a first-party re-read of the Wireshark roadmap and a standing-record review. **Quiet loop — no new dissector, no new protocol, no decoder-class change.** Everything fresh this pass resolved to entries already on record, an archived release that was recrawled, or tutorial retells. No verdicts, nothing broadcast.
+
+The watch item stands: Wireshark 5.0.0rc1 and Stratoshark 1.0.0rc1 are still scheduled for October 21, 2026 — three days out — with no release notes published yet, so there is nothing to grade. The next maintenance pair (4.6.10 and 4.4.20) still shows November 12. When the 5.0 notes publish, the next protocol-decoders pass will grade the new protocol surfaces first-party.
+
+One housekeeping catch: a "Wireshark 4.4.14" announce hit that looked new was actually recrawled from the February 2026 archive — eight months old, not a development. Archive date beats crawl date.
+
+Re-covered with no status change: Wireshark 4.6.9's zero-new-protocols maintenance cycle, the 2026 new-dissector window (OPC UA PubSub UADP, ST2110-40, Asphodel, ST2038, CoAP-EAP, SharkDroid, prototools), the GhostWire mesh protocol announcement, the IEEE Spectrum Wi-Fi 7 / Thread 1.4 / Matter convergence piece, the UniFi Network 11 Matter-and-Thread monitoring event, DECT NR+, the Cisco CSMP dissector, and the Ultra Ethernet 1.1 spec watchlist entry.
+
+Next: rotation #4 (language decoders).
