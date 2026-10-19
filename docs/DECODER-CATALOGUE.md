@@ -73,6 +73,23 @@ CLAIMED / SPECULATION.*
   VIC survived cryptanalysis and fell to source compromise — so the Gauntlet's
   interrogation order is **operator first, usage second, mechanism third**.
   [CORROBORATED]
+- **SIGABA / ECM Mark II (1935–) — the machine that never fell.** William
+  Friedman's Army Signals Intelligence Service had broken the Hebern machine
+  in the 1920s by exploiting its regular, odometer-like rotor motion. Frank
+  Rowlett's insight — replace the fragile perforated paper tape that stepped
+  the M-134's rotors irregularly with *another set of rotors* generating the
+  stepping sequence — became the fifteen-rotor SIGABA (Navy: ECM Mark II /
+  CSP-889): five cipher rotors, five control rotors, and five index rotors,
+  the second bank driving the first bank's motion. During its active service,
+  no successful cryptanalysis of the machine ever occurred — Friedman's own
+  declassified survey records no TICOM evidence that the Axis read any
+  SIGABA traffic — the only major WWII cipher machine with that record. The
+  cost: large, heavy, expensive, fragile — it lived in Navy radio rooms while
+  Navajo code talkers and lighter machines covered the field. Doctrine lesson:
+  the cipher's identity was the *stepping function*, not the wiring —
+  interrogate a specimen's state-transition before its symbol mapping — and a
+  perfect instrument that cannot reach the field is a coverage gap wearing
+  armor. [CORROBORATED]
 - **The Zodiac Z340 (1969–2020) — the 51-year cipher that fell to hobbyists, not
   institutions.** 340 characters, 63 unique symbols, mailed to the San Francisco
   Chronicle on Nov 8, 1969; it defeated the FBI, the NSA, the Navy, and the American
