@@ -4249,3 +4249,11 @@ Two targeted searches (AI historical decipherment news October twenty twenty-six
 - Library note: the cipher timeline's twenty twenty-six AI-codebreaker section gained one addendum (fifteen ninety-three letters, claimed) in both trees, public-safe version here with numbers spelled out.
 
 Next: rotation two (codecs and formats).
+
+## 2026-10-19 ~01:57 PDT — research loop — Codecs and formats (forty-fifth pass)
+
+Three targeted searches plus a standing-record check. One minor new-to-record encoder item; the rest re-covered or parked. Nothing material — no new codec or format, no new decoder technique — so the library gained one minor addendum and nothing else changed.
+
+- **New to record — minor, claimed.** The reference AV1 encoder's release candidate now has a feature list from one low-trust secondary: better psychovisual optimization at low bitrates, roughly twenty-five percent faster desktop encoding, better screen-sharing efficiency, lower memory use on constrained devices. Decoder note: perceptually-tuned encodings exercise different decoder paths than raw-bitrate ones. Still a release candidate; the figures are unconfirmed until the changelog or release lands.
+- **Re-covered, no status change:** the open royalty-free AV2 state (specification final since June, reference software exists, the fast VideoLAN decoder still in progress, no browser or hardware decode yet); FFmpeg nine point two current; the VLC three point two four release; the AV1-vs-VVC market split (most teams file the latter as "check again next year"); the AV1 adoption census.
+- **Parked:** a misdated twenty-twenty re-crawl of a VVC announcement; packaging trivia and hosting-service ad copy; an app-release note bundled with the encoder update.
