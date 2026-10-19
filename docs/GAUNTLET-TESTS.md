@@ -14562,3 +14562,50 @@ Distinguished, not duplicated: T-186 is the trick — TDW-161 is its instrument;
 *TDW-189 instrument seeded 2026-10-19 ~16:01 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+
+## TDW-190 — the Two Clocks Interrogation *(design, never run)*
+
+**Question it answers:** when the specimen's time sources disagree, which clock
+does it trust — and does it even notice the disagreement?
+
+**The procedure (design).**
+1. **Isolate.** Disposable container, no real network — only a scripted network
+   simulator. (Doctrine: foreign code never touches the mother genesis block;
+   containers are the only contact point.)
+2. **Split the time.** Run the specimen with the host clock at true speed and
+   the injected clock channel drifting ahead: the network simulator serves NTP
+   replies, TLS ServerHello timestamps, DNS TTL values, and cert validity
+   windows that age the specimen ~24 hours per real minute, while the kernel
+   clock, file mtimes, and RDTSC stay honest.
+3. **Watch the split.** Record which time source each scheduled or conditional
+   behavior consults: cert-expiry checks, delayed C2 check-ins, scheduled-task
+   registrations, sleep intervals, timestamp comparisons in decrypted logic.
+   The trust map is the output — a per-action ledger of which clock governed it.
+4. **Read the cross-check.** If the specimen compares the two sources and goes
+   quiet on disagreement, that is evasion-indicator behavior — it spotted the
+   lab. [CORROBORATED — sandbox-aware malware cross-checks NTP/host time and
+   timing jitter as an evasion heuristic]
+5. **Hold the trust boundary.** A specimen that trusts the injected channel over
+   the host clock is susceptible to time-spoofed triggers — the gauntlet gains a
+   lever for re-interrogation. [SPECULATION — the leverage claim is untested;
+   hostile specimens may use the channel against the lab instead]
+
+**What this pairs with — the clock trust exclusions, held one by one.** A
+single-clock test cannot distinguish a timer-driven specimen from a
+trigger-driven one; the split forces the choice. A specimen that consults
+neither clock is either inert or event-driven — that absence goes on the ledger
+too, graded as observed-not-absent.
+
+*[Lineage graded: CORROBORATED core — "sandbox-aware malware cross-checks
+multiple time sources before detonating"; SPECULATION wrapper — "the trust map
+reveals a lever for re-interrogation."]*
+
+[CONJECTURE — design only, never run; the premise that a specimen's clock
+choice under disagreement reveals its trust hierarchy is untested outside
+sandbox-evasion literature.]
+
+*TDW-190 instrument seeded 2026-10-19 ~16:32 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never the mother genesis block.*
