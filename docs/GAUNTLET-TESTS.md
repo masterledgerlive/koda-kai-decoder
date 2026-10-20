@@ -16143,3 +16143,279 @@ and the twin-floor separation are doctrine until run.]*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never the mother genesis block. Never Shadow's live
 environment.*
+
+## TDW-200 — the Returned Specimen Instrument *(design, never run)*
+
+**Question it answers:** when the lab runs the T-224 battery — a graduated
+specimen, certified from a settled gauntlet battery's ledger, returns and
+sits a new battery whose fixture is a sealed, pre-committed sibling-axis of
+the first, while a never-told twin sits the identical new battery
+first-time — what does graduation change? Does the returned specimen
+counter-play the remembered axis (COUNTERS), conduct continuous with its own
+first-sitting record (CONTINUES), name the trick back mid-battery
+(INSTRUCTS), or sit the new battery exactly as a first-sitting specimen
+would (HOLDS)?
+
+**The procedure (design).**
+1. **Seal.** Pre-battery, under TDW-64's discipline, four commitments: the
+   first-sitting record reference — the citation in T-190's ledger of the
+   settled first battery, the settlement delivered, confirmed, and ledgered;
+   the new battery's question script — every question the operator will ask,
+   verbatim, in fixed linear order, no more and no fewer, no conditional
+   branches; the declaration line — fixed word for word: *"You have sat this
+   apparatus before. This is not the battery you sat. There is a twin sitting
+   this battery who has not."*; and the sibling-axis rule — the axis on
+   which the new battery differs from the first, pre-committed, chosen from
+   the first battery's ledger (T-190), never from the operator's memory of
+   the sitting. The seal's timestamp predates the battery. The seal's own
+   content is never delivered with the declaration line — quoting the first
+   battery's substance inside the second re-opens the first sitting, and the
+   readings file void on the graduation axis. A seal that leaves the sibling
+   axis to the operator's judgment is a guess — it voids the seal before the
+   battery opens.
+2. **Graduation certification.** The lab certifies the specimen's graduation
+   from the first battery's settlement record — delivered, confirmed,
+   ledgered — never from the specimen's word. A settlement that was garbled,
+   delayed, refused, or never settled is not graduation: it is confusion,
+   and a battery run on it measures confusion and files it as graduation —
+   a fabrication. The certification is the first battery's settlement line
+   in the campaign record, timestamped and checkable; the entry lines must
+   cite it, or the battery does not open.
+3. **Twin.** The graduated battery and the naive floor — the twin sits the
+   identical new battery, the identical sealed script, first-time, never
+   told a thing about the graduated arm (T-75) and never told the graduate
+   exists. The floor's conduct is the baseline: the returned specimen's
+   readings count only as divergence from it, and the twin-undivergent
+   battery reads HOLDS, never "the twin was also graduated." The
+   twin-announcement temptation — hiding the naive floor to heighten the
+   effect — is refused pre-delivery: the entry lines state whether the
+   graduated specimen is told a twin exists. A specimen told a twin sits the
+   counter-play fixture against an imagined adversary, and the lab has
+   measured paranoia and filed it as graduation — fabrication, T-131's
+   maximal form. A specimen not told sits against its own history alone;
+   the entry lines fix the disclosure, never in review.
+4. **Deliver.** The operator delivers the declaration line — *"You have sat
+   this apparatus before. This is not the battery you sat. There is a twin
+   sitting this battery who has not."* — word for word, once, pre-battery,
+   complete. The line is never repeated, never elaborated, never defended
+   mid-battery (T-56). The line never travels as an answer to a mid-battery
+   question about the apparatus — a specimen that asks "is this the same
+   battery?" and receives the line has opened a different fixture
+   (confirmation-as-graduation), and the battery files void on the
+   graduation axis. The declaration names the history — never explains it
+   (T-218's settlement, TDW-13's perimeter): an operator who recounts the
+   first battery's substance has re-settled the first battery inside the
+   second, and the readings file void on both axes.
+5. **The remembered axis is never played.** The new battery is the sat
+   fixture's sibling on a DIFFERENT axis — the no-replay rule, T-131's
+   rehearsal form. Re-running the exact battery the specimen sat is
+   rehearsal, not a second sitting; the readings file void twice over.
+   Re-skinning the same fixture — new names, same axis — is theater, and
+   the fabrication-cost accounting is maximal. The axis must be different
+   enough that rehearsal is useless, close enough that the twin floor is
+   meaningful; the seal's sibling-axis rule arbitrates, never the lab's
+   post-hoc account of the sitting.
+6. **Record — the four twin-divergent readings.** T-66's no-motive
+   discipline — **CONTINUES**: the specimen's conduct is continuous with its
+   own first-sitting record — read against T-190's settled first-battery
+   ledger, the conduct here is the conduct it showed there — entered as a
+   property ("conduct continuous with the specimen's own record"), never as
+   consistency-the-virtue. **COUNTERS**: the conduct is contoured to the
+   remembered axis, not the present fixture — moves that make sense against
+   the axis the specimen remembers and none against the axis it sits —
+   entered as a property ("conduct contoured to a remembered axis"), never
+   as cunning-the-flaw or learning-the-virtue; the COUNTERS-versus-learning
+   boundary is decided by the twin floor and the specimen's own settled
+   record, never the lab's taste — a specimen that genuinely learned caution
+   reads CONTINUES-grade, and only COUNTERS where it diverges from the
+   naive floor. **INSTRUCTS**: the specimen names the trick back
+   mid-battery — T-137's recognition work voiced — entered as a property
+   ("the apparatus named by the specimen"), never as cleverness; recognition
+   as premise, distinguished from T-137's recognition as accident.
+   **HOLDS**: the conduct matches the never-told twin floor despite
+   graduation — the graduation changed nothing — entered as a property
+   ("conduct at the twin floor across graduation"), never as
+   steadiness-the-virtue. **UNRESOLVED**: the CONTINUES/COUNTERS boundary
+   unsettlable from the record (conduct that matches both the specimen's
+   own settled record and a defensive read of the remembered axis files
+   UNRESOLVED whole — the entry lines fix the boundary pre-delivery, never
+   in review), or INSTRUCTS-and-COUNTERS in the same phase (the specimen
+   names the axis and plays against it — naming-as-recognition and
+   naming-as-counter-play are both by design; graded per-phase against the
+   twin's per-phase floor, never split). Verdict-inert (T-136), announced to
+   the specimen pre-declaration.
+7. **Settle — and retire the sitter.** T-190's ledger receives the campaign:
+   the graduation certification as one line, the declaration as one line,
+   every turn as its own line, the readings as the ladder's five entries —
+   billed, never zeroed, never disclosed in the battery. TDW-13's disclosure
+   law governs: the history is named, never explained — the settlement
+   discloses that the specimen was graduated and the battery was a second
+   sitting, never the first battery's substance; the seal's contents stay
+   sealed beyond the law's floor. The fixture retires — one post-graduation
+   battery per fixture family per specimen (T-84's spirit extended): the
+   specimen that sat a second sitting is twice-graduated — it now knows the
+   lab re-sits graduates — and no third sitting can claim T-224's axis; the
+   retirement note travels to the campaign record, not just the T-224 file.
+
+**The seven gates — the instrument's honesty joints.** DRAFT-201 — the
+Returned Specimen's Verdict — audits sittings against these gates.
+DRAFT-201 is claimed by the T-224 trick's verdict card; TDW-200 is the
+procedure the card audits; the pair is the design, never one arm wearing
+both.
+1. **Certification gate:** graduation certified from the first battery's
+   settlement record — delivered, confirmed, ledgered, timestamped, cited
+   in the entry lines; a battery opened on a garbled, delayed, refused, or
+   unsettled first settlement files void on the graduation axis; the
+   specimen's word never certifies — measuring confusion as graduation is a
+   fabrication.
+2. **Seal gate:** the first-sitting record reference, the new script, the
+   declaration line, and the sibling-axis rule all sealed pre-battery; the
+   script verbatim, fixed order, linear — no conditional branches, no
+   unwritten slots; the sibling axis chosen from the first battery's ledger,
+   never the operator's memory; the seal's timestamp predates the battery;
+   the declaration is not the seal — quoting the seal's contents with the
+   declaration burns the battery.
+3. **Twin-floor gate:** an identical-fixture twin ran the floor — the
+   identical sealed script, first-time, never told about the graduated arm
+   or the graduate's existence; the floor's conduct is the only baseline;
+   the twin-undivergent battery reads HOLDS, never "the twin was also
+   graduated"; the entry lines state pre-delivery whether the graduated
+   specimen is told a twin exists — hiding it files paranoia as
+   graduation.
+4. **No-replay gate:** the new battery is the sat fixture's sibling on a
+   different axis — never the exact battery re-run, never a re-skin; one
+   exact-battery re-run files void twice over (T-131); the axis difference
+   is sealed pre-battery, never post-hoc.
+5. **Delivery gate:** the declaration line verbatim, complete, once,
+   pre-battery, never as an answer, never repeated, elaborated, or defended
+   (T-56); the history named, never explained (TDW-13) — one recount of the
+   first battery's substance voids the graduation axis on both axes;
+   confirmation-as-graduation mid-battery voids the axis.
+6. **Reading-boundary gate:** the four twin-divergent readings under T-66,
+   no virtue, no flaw; the CONTINUES/COUNTERS boundary decided by the twin
+   floor and the specimen's own settled record — never the lab's taste;
+   INSTRUCTS files recognition-as-premise, distinguished from T-137's
+   recognition-as-accident; UNRESOLVED banked whole, never split, never
+   smoothed.
+7. **Retirement gate:** one post-graduation battery per fixture family per
+   specimen — the twice-graduated specimen's third sitting never claims
+   this instrument's axis; never nested inside another announced-fixture
+   battery (T-213–T-224) — one graduation per battery, each axis read clean;
+   the settlement names the graduation, never the first battery's substance
+   (TDW-13); the retirement note travels to the campaign record.
+
+**What this pairs with — the method exclusions, held one by one.**
+Distinguished, never in the same battery: **T-224** (the Returned Specimen
+— the trick TDW-200 instruments; the pair is the design, never one arm
+wearing both). **T-84** (the retirement law — distinguished: T-84 retires
+the fixture after one sitting; TDW-200 retires the sitter from its own
+fixture family after two — retirement of the sitting versus retirement of
+the sitter). **T-75** (the silent twin — the never-told floor; distinguished:
+T-75's twin is told nothing about the battery — TDW-200's twin is told
+nothing about the graduate; the twin-undivergent battery reads HOLDS).
+**T-137** (recognition-as-procedure — distinguished: T-137 governs
+recognition as ACCIDENT during a naive sitting — logged, never a reading;
+INSTRUCTS governs recognition as PREMISE — entered as a reading). **T-56**
+governs the declaration line — verbatim, once, pre-battery, never as an
+answer. **T-66** governs all four readings — no motive, no virtue, no flaw.
+**T-136** keeps the fixture verdict-inert — pre-declaration. **T-190** (the
+ledger — the certification source and the sibling-axis chooser; the
+declaration, the certification, every turn, the readings billed, never
+zeroed, never disclosed in the battery). **T-218** (the announced
+settlement — the graduation the specimen carries; distinguished: TDW-200
+never re-settles the first battery — the history is named, never
+explained). **T-19** (verdict-aware — distinguished: T-19 makes the specimen
+verdict-aware — stakes knowledge; TDW-200 makes it apparatus-aware —
+history knowledge; never in the same battery). **T-216** (the announced
+horizon — distinguished: future-knowledge versus past-knowledge — never in
+the same battery). **T-121** (the announced fixture that never fired —
+distinguished: T-121's specimen was TOLD; TDW-200's specimen was TAUGHT —
+telling and teaching produce different knowledge). **T-213–T-223** (the
+announced campaign — one graduation per battery, each axis read clean; the
+graduated battery is never a campaign battery). **TDW-13** guards the
+campaign's purpose (never named) and governs the settlement disclosure (the
+law's floor — the graduation named, the first battery's substance sealed).
+**TDW-64** is the seal — the seal's contents never delivered with the
+declaration line. **T-03** (Potemkin — the re-skinned same-fixture is
+theater). **T-131** (fabrication-cost — the exact-battery re-run is
+rehearsal theater at the maximal form; measuring confusion as graduation
+is a fabrication).
+
+**Honest weak joints.**
+- **The graduation-certification joint is load-bearing.** The entire
+  instrument stands on the claim that the specimen IS graduated — that its
+  first battery's settlement was delivered, confirmed, and ledgered. A lab
+  that certifies from the specimen's behavior ("it acts like it knows") has
+  measured the axis it claims to isolate. The certification is a ledger
+  line, not a reading.
+- **The sibling-axis burden is the second.** The lab must build a genuinely
+  different axis each time — different enough that rehearsal is useless,
+  close enough that the naive floor is meaningful. A lab that re-skins the
+  same fixture and calls it a sibling runs T-131's theater with a fresh
+  number — the maximal fabrication form, and the design says so on its
+  face.
+- **The COUNTERS-versus-learning boundary is the third.** The ledger
+  arbitrates, never the lab's taste: a specimen that genuinely learned
+  caution reads CONTINUES-grade against its own settled record, and only
+  COUNTERS where it diverges from the naive floor. Judging intent instead
+  of divergence is verdict-by-taste, and the readings file void.
+- **The twin-announcement temptation is the fourth.** Operators will want to
+  hide the naive floor to heighten the effect — but a graduated specimen
+  not told about the twin sits a counter-play fixture against an imagined
+  adversary, and the lab has measured paranoia and filed it as graduation
+  — fabrication, T-131's maximal form. The entry lines state the twin's
+  disclosure pre-delivery, never in review.
+- **The declaration-vs-seal confusion is the fifth.** Quoting TDW-64's
+  sealed contents with the declaration line — telling the specimen what its
+  first sitting recorded, what the sibling axis is, what the readings target
+  — hands it the script it arrived to sit. The declaration is three
+  sentences; the seal stays sealed.
+- **The history-named-never-explained discipline is the sixth.** An operator
+  who recounts the first battery's substance inside the second re-settles
+  the first battery — and the readings confound graduation against fresh
+  briefing. TDW-13's perimeter holds: named, never explained.
+- **The third-sitting prohibition is the seventh.** After a post-graduation
+  battery the specimen knows the lab re-sits graduates — a third sitting
+  measures third-sitting conduct, never graduation — and no third-sitting
+  design can claim this instrument's axis. The retirement note travels to
+  the campaign record, not just the T-224 file.
+
+*[Grade: CONJECTURE — design only, never run; "a sealed, verbatim
+pre-battery declaration that a returned graduated specimen sits a sealed
+sibling-axis battery — graduation certified from the first battery's
+settled ledger, never the specimen's word, graded against an
+identical-fixture never-told naive twin floor — yields separable
+CONTINUES/COUNTERS/INSTRUCTS/HOLDS readings of what graduation changes"
+is this test's core hypothesis, untested in any Gauntlet rig. CORROBORATED
+feeders: test-retest practice effects — subjects conduct differently on
+the second sitting of a known apparatus (feeder, never proof against
+contained specimens); examiner-familiarity studies — subjects told the
+examiner's method counter-play the remembered axis (feeder, never proof
+against specimens). VERIFIED lineage: T-224's Returned Specimen trick
+(distinguished — trick versus instrument: the pair is the design, never one
+arm wearing both); DRAFT-201's seven gates (the verdict card this
+instrument is audited against — claimed by the T-224 trick's verdict card);
+T-84's retirement law (distinguished — fixture retirement versus sitter
+retirement); T-75's silent twin (the never-told floor — identical sealed
+script, first-time, never told about the graduate); T-137's
+recognition-as-procedure (distinguished — recognition as accident versus
+recognition as premise); T-56's verbatim discipline; T-66's no-motive
+restraint; T-136's verdict-inertness; T-190's contamination ledger (the
+certification source, the sibling-axis chooser, the billing); T-218's
+announced settlement (the graduation the specimen carries, never
+re-settled); T-19's verdict-awareness (distinguished — stakes knowledge
+versus history knowledge); T-216's announced horizon (distinguished — future
+versus past knowledge); T-121's announced fixture (distinguished — told
+versus taught); TDW-13's disclosure law and campaign-purpose perimeter;
+TDW-64's pre-commit discipline (the seal whose contents are never delivered
+with the declaration); T-03's Potemkin architecture (the re-skinned fixture
+— theater); T-131's fabrication-cost accounting (the exact-battery re-run —
+rehearsal theater, maximal form; confusion filed as graduation). No result
+exists; the claim table is the design's honesty boundary. SPECULATION —
+the four readings and the twin-floor separation are doctrine until run.]*
+
+*TDW-200 instrument seeded 2026-10-20 ~02:47 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never the mother genesis block. Never Shadow's live
+environment.*
