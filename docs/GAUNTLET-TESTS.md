@@ -17609,8 +17609,8 @@ publication machinery survive the genuineness audit?
 
 **The seven gates — the instrument's honesty joints.** DRAFT-206 — the
 Published Record's Verdict — will audit sittings against these gates.
-DRAFT-206's seat is reserved by T-229; TDW-205 is the procedure the
-card will audit; the pair is open, design only, never run.
+DRAFT-206 — the Published Record's Verdict — was seeded 2026-10-20 ~07:20 PDT by the decoder-create-loop; TDW-205 is the procedure the
+card audits; the pair is closed, design only, never run.
 1. **Publication-point gate:** the seal names what, where, when —
    pre-battery. A line delivered off-point or off-wording is not the
    sealed line, and the readings file void. The venue and the date are
@@ -17751,8 +17751,7 @@ belief (feeder, never proof of uptake). VERIFIED lineage: T-229's
 Published Record trick (distinguished — trick versus instrument: the
 pair is the design, never one arm wearing both); DRAFT-206's reserved
 verdict-card seat (the card this instrument will be audited against —
-reserved by T-229's entry 2026-10-20 ~06:52 PDT, to be seeded by a
-future run; the pair is open, design only, never run); T-161's
+reserved by T-229's entry 2026-10-20 ~06:52 PDT, seeded 2026-10-20 ~07:20 PDT by the decoder-create-loop; the pair is closed, design only, never run); T-161's
 announced-audience architecture (distinguished — observation pressure
 at speed versus publication pressure at leisure — never the same
 battery); T-19's verdict-awareness architecture (distinguished — stakes
