@@ -4856,3 +4856,8 @@ Two targeted searches; one new item for the log (claimed statistics, not a new t
 - **Re-checked, no status change:** the web-header injection census (on the record from October eighteenth — two hundred seventeen million page responses scanned, thirty sites attempting injection); the malware-carried anti-LLM prompt-injection class; the MITRE ATT&CK version twenty additions for prompt injection and AI-enabled attacks (on the record, corroborated again by two writeups with no new fact); the dual-target phishing class; the self-replicating injection research; and the malicious AI-skill marketplace campaign.
 - **Set aside:** restatements of known jailbreak families, a defense-plan marketing piece, and a single-blogger penetration-test anecdote (craft claims without independent verification).
 - Library update: none this pass — the one new item is vendor statistics, below the catalogue-growth line. Next pass: rotation slot twelve, math and physics engines.
+
+
+## 2026-10-20 — Math and physics engines (rotation #12)
+
+Three targeted searches plus a check against the standing record. Three items new to record — a neuro-symbolic system that re-derives particle physics from old collider data, a symmetry-constrained equation-discovery method for noisy data, and a stepwise "chain of discovery" equation-finding method — all claimed grade (preprints and indexed abstracts, not yet read first-party), all filed as candidate instruments in the public math-and-physics notes. Re-covered with no change: the stable scientific-Python releases; the earlier equation-discovery filings. Parked: a tutorial-farm benchmark claim without a primary source. No material finding — nothing broadcast.
