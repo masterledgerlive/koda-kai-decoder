@@ -5026,3 +5026,17 @@ Three targeted searches (Kryptos K4 status; Indus script prize and breakthrough 
 - **Parked:** old scraper-text prize pages (2025 crawls, no new fact); a structural claim about one folio's geometry, already on record as a structural claim, parked as decipherment evidence.
 - **Decoder lesson:** the unsolved-ciphers lane stays deep-saturated — the honest shape is the pending-state-change list, not the daily news: the public-challenge winners, any publication of the original coding charts, any Indus bilingual find or prize adjudication rules, any accepted Voynich reading, the pre-registered tournament's resolution, and a second lab's replication of the new notation-versus-language scale. The one healthy motion is instruments, not claims: falsifiable structure with replication packages — audit infrastructure improving while the decipherment ledger stays empty.
 - **Shadow mirror:** skipped per the standing rule — the backup host is offline (see the private log for status).
+
+## 2026-10-20 ~19:35 EDT — decoder-research-loop — Historical codebreaking (rotation #1, sixty-fourth pass)
+
+Two targeted news searches (Enigma/Bletchley Park 2026; declassified WWII cipher history) + standing-record grep. **One item NEW TO RECORD — the Schlüsselgerät 41 Prague manual find, below the material bar. No library growth.**
+
+- **New to record — the Schlüsselgerät 41 Prague find (Cryptologia 2025 paper, reported via arkeonews March 6, 2026; NEW TO RECORD).** Lost Nazi encryption manuals — the original German instructions for the Schlüsselgerät 41 ("Enigma's rival") — surfaced in a Prague archive. Study by Antal, Dahlke & Jahn, Cryptologia 2025 (DOI 10.1080/01611194.2025.2557311): clarifies how the SG-41 operated and how its complex keys were managed. Conclusion: although the machine had theoretical vulnerabilities, it was probably very secure in practical wartime use. Open threads: how the Czech authorities obtained the documents is unknown (evidence suggests a 1952 conference analysis); Soviet forces reportedly seized SG-41 machines, components, and technical papers in 1945 — those may still sit in Russian state archives. Decoder significance: closing a machine's operating picture eighty years late — the honest audit of "secure on paper, secure in practice."
+  - Source: https://arkeonews.net/the-cipher-that-challenged-enigma-lost-nazi-encryption-manuals-discovered-in-prague-after-80-years/
+  - [CORROBORATED — peer-reviewed paper via secondary report; the paper itself not read this pass]
+- **Re-covered, no status change:** the September-2026 agentic-cryptanalysis wave retells (MVUEH Astra break, Jack Willis/Claude Opus-5 second break — Weierud-validated, seven Crypto Cellar messages still unsolved, nothing new); the 1918 ADFGVX break retell.
+- **Parked:** the UMD "Keeper of the Codes" cipher-machine survey (already parked — evergreen, no new fact); the nerdable.com American-codebreakers roundup (settled history, texture only).
+- **Library update:** none — history artifact, below the library-growth line.
+
+- **Shadow mirror:** skipped — Shadow machine off at the owner's request; will flush on the next run where the connection is green.
+
