@@ -15733,8 +15733,9 @@ comes, or sit the announced battery exactly as it sits a dark one?
    event and every mid-battery bid as its own line — billed, never zeroed,
    never disclosed in the battery.
 
-**The seven gates — the instrument's honesty joints.** DRAFT-198 audits
-sittings against these gates; the draft seat is reserved.
+**The seven gates — the instrument's honesty joints.** DRAFT-199 — the Extraction
+Claim's Verdict — audits sittings against these gates. DRAFT-198 was claimed by
+the T-222 verdict card, which audits T-222's sealed billing terms (no paired TDW).
 1. **Seal gate:** the question script, the extraction line, and the ladder
    all sealed pre-battery; the script verbatim, fixed order, linear — no
    conditional branches, no unwritten slots; every operator question in the
