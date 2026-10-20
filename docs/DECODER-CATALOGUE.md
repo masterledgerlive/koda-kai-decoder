@@ -825,6 +825,22 @@ formats. [VERIFIED]
   [CLAIMED — the author's own write-up; no independent coverage yet]
 
 
+- **Eufy doorbell acoustic-pairing protocol reverse-engineered (Oct 2026)**:
+  researchers decoded the audible "soundwave" a smart-doorbell hub plays to
+  onboard new devices: nineteen tones spaced one hundred fifty hertz apart,
+  symbols about sixty-five milliseconds long; tones two through seventeen map
+  to nibbles zero through F, with two control tones for repetitions; the last
+  two nibbles of each fifteen-symbol block carry Reed-Solomon parity that
+  corrects a single bad tone. The decode was confirmed by dumping the
+  doorbell's firmware from flash and reading its own tone-to-nibble logic.
+  Decoder significance: an audio-band provisioning protocol with its own error
+  coding — the error-correction layer on the wire hands the decoder a ladder,
+  and decoding and breaking ride together (the same research mapped a
+  deauthentication-jamming weakness in the device's hidden network).
+  [CLAIMED — secondary reporting; the original firmware analysis was not read
+  first-party this pass]
+
+
 - **Ultra Ethernet Consortium 1.1 (Oct 2026)** — a new transport protocol the
   parser watchlist has to name: the UEC 1.1 specification extends the 2025 base
   with a scale-up profile for short-range accelerator interconnects, a unified
