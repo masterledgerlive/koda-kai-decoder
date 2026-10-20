@@ -510,6 +510,62 @@ CLAIMED / SPECULATION.*
 
 *Scytale entry seeded 2026-10-18 ~09:25 EDT by the decoder-create-loop.*
 
+- **The McCormick notes (1999–) — the diary that became the CRRU's hardest
+  open case.** On June 30, 1999, the partially decomposed body of Ricky
+  McCormick, 41, was found in a field in St. Charles County, Missouri; in
+  his pockets were two handwritten notes in an unknown cipher — 30+ lines
+  mixing letters, numbers, dashes, and parentheses. [VERIFIED — Wikipedia
+  "Ricky McCormick's encrypted notes" on the date, the location, and the
+  notes' form] The notes went to the FBI's Cryptanalysis and Racketeering
+  Records Unit; CRRU chief Dan Olson later said the unit — which he
+  described as "typically" cracking ciphers "in a matter of hours" — had
+  been stuck for a decade: "It doesn't happen often that we have an
+  unsolved cipher of this length and significance... The problem is we don't
+  know why it is not solvable." [CORROBORATED — the Olson quotes across
+  multiple outlets; the "matter of hours" norm CLAIMED from one profile] On
+  March 29, 2011, the FBI published the notes and appealed for public help;
+  the American Cryptogram Association and thousands of amateur solvers
+  joined — and the notes still stand as one of the CRRU's top unsolved
+  cases (ranked behind only the then-unsolved Zodiac 340 and a decades-old
+  threat letter; the 340 fell in December 2020 — McCormick's notes have
+  not). [VERIFIED — the March 29, 2011 appeal, the ACA's involvement, and
+  the top-unsolved-cases standing via Wikipedia and the FBI's own framing]
+- **The author is the mystery.** McCormick was a high-school dropout,
+  "street smart," in chronic poor health; the family record is split — one
+  member told Esquire he "didn't write in code, he couldn't spell anything,
+  just scribble," while others remembered him writing in codes since
+  boyhood. [CORROBORATED — the split family record across outlets; no
+  resolution] The medical examiner could not determine a cause of death;
+  the FBI's 2011 framing called it a homicide and said breaking the code
+  "could reveal the victim's whereabouts before his death and could lead to
+  the solution of a homicide" — [VERIFIED — the undetermined cause;
+  CLAIMED — the homicide framing, from the 2011 press posture alone].
+  Investigators believe the notes were written up to three days before his
+  death. [CORROBORATED]
+- **Decoder lesson (McCormick → Gauntlet):** (1) language before system
+  before key — the FBI's own four-step ladder (language, system, key,
+  reconstruction) is the interrogation order in official dress, and with
+  these notes the unit "could only get to step two": before running
+  statistical attacks against a foreign specimen, the lab tests for
+  *message-ness* (Olson's "not arbitrary strikes on a keyboard"), then for
+  the symbol system, then for keyedness — a fixture that hunts the key
+  before establishing the language is measuring its own assumptions; (2)
+  test for keyedness — "unbreakable" is a verdict, never a property: the
+  notes may be a cipher with an unknown key or a personal diary language
+  with no systematic key at all, where the E's are habit, not spacers, and
+  declaring "unbreakable cipher" asserts a cipher the specimen hasn't shown
+  — no read yet = UNRESOLVED on a DRAFT card, never rounded into a
+  mechanism claim, the Scytale "authenticate ≠ encrypt" rung applied
+  forward; (3) resistance is evidence — publish it: the FBI's 2011 move is
+  the model's honest form — when the elite unit failed it published the
+  specimen and crowdsourced, ACA and thousands of solvers, still standing —
+  and the Gauntlet banks resistance as a difficulty prior, with the DRAFT
+  card as its instrument: a public, graded record of *no read* that
+  compounds across campaigns. [VERIFIED lineage above; SPECULATION —
+  Gauntlet mapping, never run]
+
+*McCormick-notes entry seeded 2026-10-20 ~17:50 EDT by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
