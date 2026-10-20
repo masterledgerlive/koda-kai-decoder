@@ -2334,6 +2334,9 @@ The universal quantum decoder stays [SPECULATION] until proven.
   replication seen]
   - Source: http://ssivakorn.github.io/papers/sivakorn.summercon2026.recaptcha.pdf
 
+- **Anthropic adds a statistical watermark to all Claude text output (reported October 19, 2026; new to record; minor material — a new frontier-lab AI-awareness and detection technique).** Per the report, small changes in word choice create a detectable pattern of "less probable" words at specific intervals. The exact mechanism and the detection implementation are undisclosed, with an assumed arms race against "text humanizer" tooling. The detection-side corollary to the soft-watermarking track: an undisclosed watermark is a deployed-technique claim, not a measured property, and detection and anti-detection sit on the same curve, one vendor announcement apart — a counterpart against which detection lanes can be calibrated. [CLAIMED — a single secondary source; no Anthropic technical text read this pass; no independent detection confirmation]
+  - Source: https://comobusinesstimes.com/2026/10/19/ai-detection-arms-race-takes-off/
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
