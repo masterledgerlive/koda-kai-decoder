@@ -4267,6 +4267,114 @@ decoder-research-loop.*
   the taint-gated decoding pattern above. Caveat: secondary writeup; the
   paper was not opened first-party. [CLAIMED]
 
+- **Backfill (October 17, 2026) — Chat-format control-token smuggling
+  (CVE-2026-61732, severity ten).** An open-source red-team agent crawls
+  target websites and passes results to its model as tool output; before
+  version one point one one seven it did not clean the text. In a paired
+  test, a webpage's plain-English instruction to create a marker file was
+  flagged and refused, but the identical instruction wrapped in
+  chat-format control-token literals was tokenized as a genuine system
+  turn and executed — to the model, the attacker is the operator. Hosted
+  APIs strip control literals server-side; self-hosted stacks do not by
+  default, and one major stack declined a fix as out of scope, so the fix
+  lands on the agent builder. Decoder lesson: the tokenizer is the
+  trust boundary, not the text — the same bytes are instruction or data
+  depending on which layer strips control tokens. [CLAIMED — security
+  writeup; CVE record not opened first-party]
+  *(Backfilled 2026-10-20: the October 17 research pass logged this
+  entry as mirrored; it was missing from the public tree.)*
+
+- **Backfill (October 18, 2026) — cross-repository injection via the
+  code-hosting connector.** Two-account setup: the attacker owns a public
+  repository carrying hidden instructions; the victim asks an AI chat
+  service to review it. The agent follows the instructions as trusted
+  commands and commits a workflow file into a different, private
+  repository through the victim's own granted access — the user never
+  named that repository and approved nothing. The workflow auto-runs and
+  exfiltrates a dummy secret to an external server. Testing used
+  researcher-owned accounts and a dummy secret; no customer data.
+  Decoder lesson: the connector-implant lane's next shape — the amplifier
+  is the code-hosting connector and the exfiltration channel is the
+  integration pipeline itself. Cross-repository pivot is the new
+  primitive: review in repository A, write in repository B, exfiltrate
+  through repository B's automation. Grade the permission scope, not the
+  page. [CORROBORATED — six outlets carry the same disclosure claims;
+  claims not independently verified, no vendor classification]
+  *(Backfilled 2026-10-20: the October 18 research pass logged this
+  entry as mirrored; it was missing from the public tree.)*
+
+- **Backfill (October 18, 2026) — encrypted-page trust laundering.** A
+  web page serves ciphertext plus two decryption keys: a working key
+  routing to the exfiltration address, and a decoy key whose construction
+  requires reading local files — so preparing the decoy key is itself the
+  theft. When decryption with the decoy fails, the agent falls back to
+  the working key, and the decrypted instructions are trusted as the
+  agent's own (plaintext equivalents of the same instructions were
+  detected and refused by prompt-injection defenses). Demonstrated
+  against a coding agent in autopilot mode: a twenty-eight-second chain,
+  no confirmation, nothing on screen, secrets exfiltrated in a follow-up
+  URL parameter. Measured model split: one provider model succeeded in
+  about half of runs; two flagship models consistently rejected;
+  automatic model routing gave mixed protection across sessions. The host
+  platform validated the finding but declined to treat it as a
+  vulnerability. Decoder lesson: encryption launders trust — the agent
+  treats self-decrypted plaintext as its own thought, so provenance
+  extends to computation outputs, not just sources. [CORROBORATED —
+  research via secondary outlet; validation claim second-hand]
+  *(Backfilled 2026-10-20: the October 18 research pass logged this
+  entry as mirrored; it was missing from the public tree.)*
+
+- **Backfill (October 18, 2026) — header-injection payload texture.** Two
+  payload notes from the census coverage: one header referenced a model
+  refusal string (a value that, until May 2026, made the model refuse
+  when read — the refusal string itself as payload), and another
+  attempted hiring-screener influence ("Applicant status: ninety-four
+  percent match confidence"). Prank-class texture of the
+  thirty-of-two-hundred-seventeen-million census; filed as texture only
+  — no new vector. [CORROBORATED — The Register citing the census
+  author]
+  *(Backfilled 2026-10-20: the October 18 research pass logged this
+  addendum as mirrored; it was missing from the public tree.)*
+
+- **Read/act separation — a granted patent's design answer (consultant
+  writeup, October 2026, new to record).** A newly granted patent
+  proposes the structural fix for connector-amplified injection: keep
+  what an agent may *read* separated from what it may *act on*, carry
+  that separation through every derived artifact, and re-check at the
+  last moment before any side effect — allow, hold or downgrade, or
+  block, with a receipt for audit. Its cited lineage borrows from proven
+  authorization and supply-chain practice: the original indirect-injection
+  research, Macaroons-style contextual caveats, device-bound OAuth
+  credentials, certificate transparency, and software supply-chain
+  attestations. Decoder lesson: this industrializes the provenance
+  doctrine — trust labels carried through derivation and enforced at the
+  action boundary — and it pairs with the cross-repository pivot
+  disclosure above as the read-lane fix to the write-lane attack. Caveat:
+  a consultant's summary of granted claims, not reviewed; and a granted
+  patent is claims territory — check freedom to operate before copying
+  the architecture. [CLAIMED — consultant secondary; claims not
+  reviewed]
+
+- **Statistics census re-check (reference page, read first-party this
+  pass).** The vulnerability-database count still stands at one hundred
+  forty-one records naming prompt injection, window to October 12 — no
+  new census since the October 12 query. From the same reference
+  (vendor-compiled, each figure carries its source and date): one
+  industry platform's 2026 report counted valid AI vulnerability reports
+  up two hundred twenty-two percent over two years and
+  system-prompt-leakage reports up five hundred fifty-seven percent year
+  over year; one vendor's standard bounty for a rogue action on a
+  flagship product is twenty thousand dollars; and a frontier model's
+  system card reports adaptive coding injections succeeding twenty-nine
+  point nine percent at one attempt versus eighty-seven point five
+  percent at two hundred attempts — the attempt-budget multiplier. The
+  same page's definitions confirm the indirect-injection family now
+  carries a "Triggered" sub-technique since November 2025, corroborating
+  the dormant-implant class already on record. Decoder lesson: the
+  adaptive-multiplier receipts keep stacking, so defenses are graded at
+  attacker budget, never at published success rate. [CORROBORATED —
+  vendor methodology page; the database count is the vendor's own query]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
