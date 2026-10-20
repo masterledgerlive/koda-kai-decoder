@@ -17462,8 +17462,9 @@ filings — institutional secrecy held against the adjudicator under
 custody rules (feeder, never proof). VERIFIED lineage: T-228's
 Counter-Seal trick (distinguished — trick versus instrument: the pair is
 the design, never one arm wearing both); DRAFT-205's reserved
-verdict-card seat (the card this instrument will be audited against —
-claimed by T-228's verdict card in the future lane); T-141's borrowed-pen
+verdict-card seat (the card this instrument is audited against —
+claimed by T-228's verdict card, seeded 2026-10-20 ~06:25 PDT; the pair
+is closed, design only, never run); T-141's borrowed-pen
 architecture (distinguished — authorship of the record versus secrecy
 from it — never the same battery, never sequenced inside one sitting);
 T-143's sealed-forecast architecture (distinguished — accuracy-graded
