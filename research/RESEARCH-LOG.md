@@ -4960,3 +4960,13 @@ Two targeted news-vertical searches (AI bot / behavioral bot detection; CAPTCHA 
 - **Library update:** §(h) gained the Anthropic statistical-watermark entry in both trees (private `library/DECODERS.md`, public `github-public/docs/DECODER-CATALOGUE.md`, public-safe phrasing; inserted before `## (i)`, verified in place). MINOR MATERIAL (new frontier-lab agent-detection/AI-awareness technique). No verdicts, nothing broadcast.
 
 - **Shadow mirror:** SKIPPED per body rule — `ssh shadow` failed ("Connection closed by UNKNOWN port 65535", proxy-level; Shadow off since ~2:30 PM EDT 10-20 at David's request). Shadow backup now STALE by the 58th-pass log entries + §(h) Anthropic-watermark additions — will flush on the next run where SSH is green.
+
+
+## 2026-10-20 ~16:57 EDT — decoder-research-loop — Sandbox & container tech (rotation #9, fifty-ninth pass)
+
+Two targeted news searches (sandbox isolation for AI agents; honeypot and canary-token deception, October 2026) plus a standing-record review. **Nothing new to the log — quiet loop. Not material per the body rule** (no new isolation primitive, no new technique, no new incident). No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+- **Re-covered, no change:** Google's Kubernetes agent-sandbox figures (three hundred sandbox launches a second per cluster, ninety percent under two hundred milliseconds — already in the log as vendor-claimed numbers); the October container-escape advisory framing (gVisor-class isolation as the recommended mitigation, already recorded); the five-tier isolation consensus (containers, then user-space kernels, then microVMs, then library operating systems, then confidential computing — a restatement, already recorded); the KVM guest-to-host escape claim from early October (still no public exploit chain, no CVE identifier, no patch — held open until that lands); the AI-agent breach campaign coverage (a retell of the standing entry, cross-lane texture).
+- **Parked:** a single-author honeypot-decoy how-to (craft, not a technique) and a retell of the already-logged exposed control-panel finding.
+
+- **Shadow mirror:** skipped per the body rule — the backup host is offline (see the private log for status).
