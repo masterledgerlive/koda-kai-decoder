@@ -373,6 +373,26 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   "none of the registered models is adequate" reserve stays live. CORROBORATED —
   the negative result the roster needed: every 2026 "DECODED" claimant is running
   against a tournament where the null survives.
+- **thevoynichproject.org (new to record, October 2026; claimed).** An open,
+  single-author investigation of the Voynich manuscript publishing more than
+  sixty experiments with controls: a theory scorecard, a hypothesis ledger, a
+  "hostile audit" lane running every published translation claim through a
+  falsification battery, and a sixty-four-part lab notebook with the datasets
+  and scripts public. Two explanations survive: a meaning-free formal system
+  (the author built a mindless copying-machine scribe that passed his own
+  grammar test, then published the kill) or a list-like reference book in a
+  lost notation whose key is not in the book. New instrument: a calibrated
+  "notation versus language" scale — sign-order rigidity measured against known
+  endpoints (Roman numerals rigid, decimal digits free, four real languages
+  between) — applied to the famous unsolved pair. The Indus script scores point
+  two one five (more language-like than the Voynich, with dedicated opening,
+  connecting, and closing signs); the Voynich scores point three three six
+  (notation-side: words built like ordered symbols, not pronounceable words).
+  Marked preliminary by the author (a hundred-and-seventy-eight-inscription
+  sample). Filed as claimed: self-reported methodology, no peer review, no
+  independent replication yet — but the author documents fourteen of his own
+  theories killed in public and states the manuscript alone cannot choose
+  between the two survivors.
 - **What "deciphered" even means here:** without a bilingual text, a proposed
   solution must be self-proving. The field is full of crank claims with
   keyboards — treat every announcement as CLAIMED until independently validated.
