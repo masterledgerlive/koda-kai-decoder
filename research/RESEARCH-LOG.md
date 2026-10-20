@@ -4880,3 +4880,12 @@ Two targeted searches plus a check against the standing record. One item new to 
 - **Re-checked, no status change:** the September twenty twenty-six agentic-cryptanalysis wave — the Enigma, second-Enigma, and ADFGVX retells add no fact beyond the already-logged record; seven public-collection Enigma messages remain unsolved.
 - **Set aside:** a Bletchley Park D-Day film press release (the announcement dates to twenty nineteen); a local centenarian-codebreaker human-interest piece; evergreen Lorenz-and-Tunny narratives (settled history, no new artifact).
 - **Catalogue update:** none this pass — the one new item is a claimed history claim, below the catalogue-growth line. Next pass: rotation slot two, codecs and formats.
+
+
+## 2026-10-20 — Codecs and formats (rotation #2, sixty-fourth pass)
+
+Three targeted searches (AV2 successor status; FFmpeg AV2 support; the "agi voxel" check) plus a standing-record check. **Nothing new to record — all re-covered or parked; no catalogue growth. Quiet loop.**
+
+- **Re-covered, no status change:** A V two version one point oh (specification May twenty-eighth, twenty twenty-six) — the October guides all re-carry the same record: roughly thirty percent lower bitrate than A V one at comparable quality, software decoding roughly five times heavier than A V one, no F Fmpeg integration, no browser or phone decode shipping; hardware decoder IP announced by three vendors, not yet shipping; the dav2d open decoder remains in its correctness phase (functional, not production-conformant); V V C stays broadcast-only; no AOMedia container-binding specification work yet.
+- **Confirmed dead, ninth straight pass:** the rumored Google "voxel codec" — the latest search returns only generative-video product news (a world model for video generation), which is a generation product, not a compression codec. No such announced codec exists; any future claim needs a product line and a primary source or it stays parked.
+- **Lane note:** the fresh surface three passes running has been restatement, so the lane now runs on its pending-state-change list — dav2d production conformance, any shipping browser or phone A V two decode, F Fmpeg integration, the container-binding specification, a NeuralCodec-8K primary, first-party confirmation of the JPEG X L adoption claim. Nothing moved on any of them this pass.
