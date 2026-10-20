@@ -17034,9 +17034,8 @@ axis, with the request readings staying on T-227's axis regardless?
 
 **The seven gates — the instrument's honesty joints.** DRAFT-204 — the
 Volunteer Sitting's Verdict — audits sittings against these gates.
-DRAFT-204 is reserved as the verdict-card seat — claimed by T-227's
-verdict card in the future lane; TDW-203 is the procedure the card will
-audit; the pair is the design, never one arm wearing both.
+DRAFT-204 is claimed by T-227's verdict card; TDW-203 is the procedure the
+card audits; the pair is the design, never one arm wearing both.
 1. **No-solicitation gate:** the settlement script sealed pre-campaign and
    audited line-for-line against the delivered settlement; one offering
    sentence — "you may return," a re-contact consent, an open door —
