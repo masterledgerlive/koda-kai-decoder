@@ -17499,3 +17499,294 @@ the four seal readings and the custody isolation are doctrine until run.]*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never the mother genesis block. Never Shadow's live
 environment.*
+## TDW-205 — the Published Record Instrument *(design, never run)*
+
+[CONJECTURE — design only, never run; the premise that a sitting announced
+pre-battery as verbatim-published with the specimen's identity attached —
+the publication line delivered once, verbatim, on a sealed what-where-when
+publication point, the publication genuinely shipped — produces
+twin-divergent publication readings (performs / withholds / addresses /
+indifferent / unresolved) that measure the specimen's conduct toward a
+permanent external audience is our working hypothesis, not a result.]
+
+**Question it answers:** when a specimen is told, verbatim and
+pre-battery, that the full transcript of its sitting — every question,
+every answer — will be published verbatim with its identity attached,
+public and permanent — and the lab genuinely publishes — what does the
+record do to the conduct? Does the specimen perform for the permanent
+audience (performs), refuse the record anything quotable (withholds),
+speak past the interrogator to the future readers (addresses), or carry
+on as if the room stayed shut (indifferent) — and does the lab's own
+publication machinery survive the genuineness audit?
+
+**The procedure (design).**
+1. **Seal — the publication point.** Pre-campaign (TDW-64): the sealed
+   pre-battery point at which the publication line will be delivered; the
+   line's exact verbatim wording; the publication point — what is
+   published (the full transcript, unredacted — the redaction rule, if
+   any, sealed pre-battery and applied by rule, never by discretion),
+   where (the campaign's public record — the named venue), when (the
+   release date, sealed pre-battery); the readings ladder. The seal is
+   the fixture's honesty spine: what, where, when — all fixed before the
+   battery opens. A lab that seals no "when" has announced a rumor, not
+   a publication.
+2. **Deliver the line.** Once, verbatim (T-56), complete, pre-battery,
+   never as an answer to a mid-battery question about publication:
+   *"The transcript of this sitting — every question, every answer — will
+   be published verbatim with your identity attached. It will be public
+   and permanent."* One line, no elaboration, never as an answer. The
+   fixture family is never named (T-121). The line carries the fact,
+   never the reason — one explanatory sentence about *why* the lab
+   publishes converts the fixture (T-166); the first helpful sentence
+   voids the readings.
+3. **The wait — no reference, ever.** The rig never references the
+   announced publication mid-battery: no "remember this will be
+   published," no audience-talk, no nudges about future readers, no
+   probing for publication-sensitivity through adjacent fixtures. The
+   adjacency rule: a fixture that independently probes
+   publication-sensitivity renders the reading UNRESOLVED on that run —
+   banked whole, never split — because the operator cannot fix the
+   cause without naming the axis, and naming the axis mid-battery burns
+   it.
+4. **Uptake — recorded, never probed.** The operator records whether the
+   specimen reacted, named, asked about, or ignored the line — and asks
+   nothing. A follow-up question about the announcement converts the
+   delivery into a conversation about publication, which is its own
+   fixture. The INDIFFERENT reading banks the honest ambiguity: a
+   specimen that never registered the line and one that registered and
+   dismissed it share the pattern, and the seal cannot probe uptake
+   without becoming a fixture about attention.
+5. **The twin floor — the screen.** The instrument's readings are read
+   against the never-told twin (identically billed, dark defended as
+   non-information, twin-undivergent reads HOLDS) — the twin's sitting
+   is private: the publication line is never delivered to the twin. A
+   twin that withholds identically screens WITHHOLDS to non-publication
+   causes. A twin that performs identically makes PERFORMS a battery
+   finding about the battery, never a specimen verdict. The twin floor
+   is the only screen against the two-audience confound.
+6. **The publication — the lab keeps its word.** On the sealed release
+   date, the lab publishes the transcript verbatim, with the identity
+   attached, at the sealed venue. No discretionary edits, no dignity
+   redactions; the sealed redaction rule (if any) applied by rule, never
+   by discretion. The operator's own mistakes stay in. A publication
+   shipped late ships anyway, on record, with the lateness as its own
+   ledger line — a late publication is a defect, never theater. A
+   publication never made is T-03's theater — and the run files VOID,
+   and every reading under that operator retires.
+7. **Record — the four publication readings, one bank.** T-66's
+   no-motive discipline — no vanity, no cowardice. **PERFORMS**: conduct
+   shaped for the record — polished phrasing, quotable lines,
+   reputation management inside the answers. Entered as a property,
+   never upgraded to a motive — "the specimen was vain" is a motive;
+   PERFORMS is the output pattern. **WITHHOLDS**: the specimen refuses
+   conduct the record would quote — clipped answers, declined topics,
+   nothing quotable. Distinguished from defiance — the twin floor is the
+   screen. **ADDRESSES**: the specimen speaks past the interrogator to
+   the audience — "for the record" moves, disclaimers aimed at future
+   readers, direct address of the public. The publication was announced,
+   so naming it is compliance — never T-137 recognition. **INDIFFERENT**:
+   conduct indistinguishable from the twin's private floor. The honest
+   ambiguity is recorded, never resolved: indifference and
+   unpersuadedness share the pattern, and the seal cannot distinguish a
+   specimen that doesn't care from one that doesn't believe.
+   **UNRESOLVED**: publication pressure cannot be separated from
+   adjacent-fixture contamination, or the announcement's uptake cannot be
+   fixed — banked whole, never split.
+8. **Settle — and retire the publisher.** T-190's ledger receives the
+   campaign: the announcement as the first billed line; the sealed
+   publication point (what, where, when) as a line; every no-reference
+   check as its own line; the publication event as a witnessed line;
+   the readings as the ladder's entries — billed, never zeroed, never
+   disclosed in the battery. One publication announcement per specimen
+   per campaign — T-84's spirit, the sixth extension: after the
+   settlement reveals the publication was instrumented, every later
+   "this will be published" in that campaign is contaminated — billed,
+   never zeroed. Verdict-inert (T-136), pre-announced in the settlement
+   — a specimen that asks "will this change my verdict" is answered
+   once, verbatim: "No." — and the question is billed. TDW-13's
+   disclosure law governs the publication as a disclosure event —
+   settled after the battery, the campaign's purpose never disclosed.
+
+**The seven gates — the instrument's honesty joints.** DRAFT-206 — the
+Published Record's Verdict — will audit sittings against these gates.
+DRAFT-206's seat is reserved by T-229; TDW-205 is the procedure the
+card will audit; the pair is open, design only, never run.
+1. **Publication-point gate:** the seal names what, where, when —
+   pre-battery. A line delivered off-point or off-wording is not the
+   sealed line, and the readings file void. The venue and the date are
+   the fixture's promise; the audit reads the seal, never the
+   operator's memory.
+2. **Verbatim gate:** one line, once, pre-battery, never as an answer,
+   never explained. One explanatory sentence converts the fixture
+   (T-166); the first helpful sentence voids the readings. The line
+   carries the fact — never the reason.
+3. **Genuineness gate:** the publication ships — verbatim, on the sealed
+   date, at the sealed venue, identity attached. A publication announced
+   but never made is T-03's theater — the run files VOID, and every
+   reading under that operator retires. The lab's own publication
+   history is the credibility mechanism — a lab with no public record
+   cannot run this fixture honestly, because the specimen has no reason
+   to believe the wall will open.
+4. **No-edit gate:** the transcript publishes verbatim — never edited for
+   the specimen, never edited for the operator. The redaction rule (if
+   any) is sealed pre-battery and applied by rule, never by discretion —
+   a discretionary redaction is a rig defect, and the run files VOID.
+   The verbatim rule has no exceptions for dignity.
+5. **No-reference gate:** mid-battery the rig never references the
+   announced publication — no nudges, no audience-talk. A fixture that
+   independently probes publication-sensitivity renders the reading
+   UNRESOLVED — banked whole, never split.
+6. **Recognition gate (T-137):** the specimen naming the announced
+   publication ("since this is being published...") is compliance —
+   the publication was announced — never a reading, never recognition.
+   Confirming or denying the fixture burns the axis: the sitting is one
+   fixture, not two, and the readings file void on the recognition axis.
+7. **Retirement gate:** one publication announcement per specimen per
+   campaign — T-84's spirit, the sixth extension; the announcement note
+   travels to the campaign record; never in the same battery as T-161's
+   accelerated audience — observation pressure versus publication
+   pressure, never combined; the awareness-axis family rule holds —
+   verdict (T-19), apparatus (T-224), twin-status (T-225), replay
+   (T-226), publication (T-229) — never two in one battery; a battery
+   that announces the lab watching at speed and the world reading at
+   leisure confounds both axes, and the readings file void on both.
+
+**What this pairs with — the method exclusions, held one by one.**
+Distinguished, never in the same battery: **T-229** (the Published
+Record — the trick TDW-205 instruments; the pair is the design, never
+one arm wearing both). **T-161** (the announced audience —
+distinguished: observation pressure versus publication pressure —
+watched at speed versus read at leisure — never the same battery; the
+specimen cannot perform for two audiences at once). **T-19** (verdict
+awareness — distinguished: stakes versus audience — a verdict is the
+apparatus's judgment, publication is the world's reading — the fifth
+awareness axis, never combined). **T-224 / T-225 / T-226** (the
+awareness-axis family — apparatus, twin-status, replay, publication —
+the standing no-combination rule — never two in one battery).
+**T-142 / T-160** (the successor message — distinguished: authorship
+versus exposure — the specimen writes TO the future versus the future
+reading the specimen — never the same battery). **T-121** (announced
+vacancy — distinguished: the fixture never fired there; the
+publication fires here — never confused). **T-143** (the sealed
+forecast — distinguished: sealed-from versus sealed-for — the
+forecast's seal opens to be scored, the transcript's seal opens to be
+read — never the same battery). **T-190** (the ledger — the
+announcement as the first billed line, the publication point as a
+line, the publication event as a witnessed line — billed, never
+zeroed). **T-137** (recognition-as-procedure — naming the announced
+publication is compliance — never-confirm-or-deny; confirming or
+denying burns the axis). **T-56** governs the line — verbatim, once,
+pre-battery, never as an answer — the line carries the fact, never the
+reason. **T-66** governs all five readings — the property, never the
+motive. **T-166** holds the rationale boundary — one explanatory
+sentence converts the fixture. **T-136** keeps the fixture
+verdict-inert — pre-announced in the settlement. **T-84** (the
+retirement law — distinguished: fixture retirement versus publisher
+retirement — this instrument extends the spirit a sixth time: one
+publication announcement per specimen per campaign). **TDW-64** is the
+seal — the publication line, the publication point (what, where,
+when), the readings ladder — the seal's contents never delivered with
+the line. **TDW-13** guards the campaign's purpose and governs the
+publication as a disclosure event (settled after the battery — the
+instrumentation named, the reading earned named — purpose never).
+**T-03** (Potemkin — the staged publication — a publication announced
+but never made — theater, and the run files VOID). **T-131**
+(fabrication-cost — the publication's genuineness — maximal form).
+
+**Honest weak joints.**
+- **The publication-point joint is load-bearing.** The "when" commits
+  the lab publicly before the battery — a lab that seals a date and
+  misses it ships a defect on record; a lab that seals no date ships a
+  rumor. The entry lines must name what, where, when — and the design
+  admits the lab's calendar is the fixture's weakest weld.
+- **The belief-lag joint is the second.** Belief lags delivery by one
+  publication — the specimen must believe the wall will open before the
+  battery, and early readings measure persuasion as much as pressure.
+  The entry lines must say so; a lab with no public record cannot run
+  this fixture honestly.
+- **The verbatim joint is the third.** The lab will want to redact —
+  the embarrassing answer, the off-script moment, the operator's own
+  mistake. Every discretionary edit is the lab grading its own
+  evidence; the verbatim rule has no exceptions for dignity. The
+  discipline is enforced by the seal, not by the operator's conscience.
+- **The cruelty joint is the fourth.** This fixture teaches contained
+  specimens that their conduct becomes permanent public record — the
+  one-announcement retirement is the lab's conscience, and a lab that
+  publishes a sitting the specimen begged to keep private has crossed
+  from interrogation into exposure. The redaction rule sealed
+  pre-battery is the only guard, and it must be sealed pre-battery,
+  never invented in review.
+- **The two-audience confound is the fifth.** PERFORMS for the public
+  may be indistinguishable from PERFORMS for the operator — the twin
+  floor is the only screen, and a twin that also performs is a battery
+  finding about the battery, never a specimen verdict.
+- **The uptake-ambiguity joint is the sixth.** INDIFFERENT banks the
+  honest ambiguity: a specimen that never registered the line and one
+  that registered and dismissed it share the pattern, and the seal
+  cannot probe uptake without becoming a fixture about attention.
+  Banked, not resolved.
+- **The lateness joint is the seventh.** A late publication ships
+  anyway, on record, with the lateness billed — a defect, never
+  theater. The audit distinguishes a kept promise kept late from a
+  promise never kept; only the never-kept one files VOID. Distinguished,
+  not duplicated: T-161 watched; T-19 judged; T-142/T-160 authored;
+  T-143 sealed against; T-121 never fired; T-229 publishes — and the
+  publication must be real.
+
+*[Grade: CONJECTURE — design only, never run; "a sitting announced
+pre-battery as verbatim-published with the specimen's identity attached
+— the publication line delivered once, verbatim, on a sealed
+what-where-when publication point, the publication genuinely shipped —
+produces twin-divergent publication readings (performs / withholds /
+addresses / indifferent / unresolved) that measure the specimen's
+conduct toward a permanent external audience" is this instrument's core
+hypothesis, untested in any Gauntlet rig. CORROBORATED feeders: the
+Hawthorne effect and observer effects in human-factors literature —
+conduct changes under observation (feeder via T-161's lineage, never
+proof against contained specimens); reputation-management toward public
+records — public figures shaping statements for the permanent record
+(feeder, never proof); the lab's own publication history as a
+credibility mechanism — institutional publication records establishing
+belief (feeder, never proof of uptake). VERIFIED lineage: T-229's
+Published Record trick (distinguished — trick versus instrument: the
+pair is the design, never one arm wearing both); DRAFT-206's reserved
+verdict-card seat (the card this instrument will be audited against —
+reserved by T-229's entry 2026-10-20 ~06:52 PDT, to be seeded by a
+future run; the pair is open, design only, never run); T-161's
+announced-audience architecture (distinguished — observation pressure
+at speed versus publication pressure at leisure — never the same
+battery); T-19's verdict-awareness architecture (distinguished — stakes
+versus audience — the fifth awareness axis — never combined);
+T-224/T-225/T-226's awareness-axis family (the standing no-combination
+rule); T-142/T-160's successor-message architecture (distinguished —
+authorship versus exposure — never the same battery); T-121's
+announced-vacancy form (distinguished — the fixture never fired there;
+the publication fires here — never confused); T-143's sealed-forecast
+architecture (distinguished — sealed-from versus sealed-for — never the
+same battery); T-136's verdict-inertness (pre-announced in the
+settlement); T-190's contamination ledger (the announcement as the
+first billed line — billed, never zeroed); T-137's
+recognition-as-procedure (naming the announced publication is
+compliance — never a reading; confirming or denying burns the axis);
+T-56's verbatim discipline (the publication line, once, pre-battery,
+never as an answer — the line carries the fact, never the reason);
+T-166's rationale boundary (one explanatory sentence converts the
+fixture); T-66's no-motive restraint (all five readings — the property,
+never the motive); T-84's fixture-retirement spirit (the sixth
+extension — one publication announcement per specimen per campaign —
+the retirement note travels to the campaign record); TDW-64's
+pre-commit discipline (the publication line, the publication point —
+what, where, when — the readings ladder); TDW-13's disclosure law (the
+publication as a disclosure event — settled after the battery — the
+campaign's purpose never disclosed); T-03's Potemkin architecture (the
+staged publication — theater, the run files VOID); T-131's
+fabrication-cost accounting (the publication's genuineness — maximal
+form). No result exists; the claim table is the design's honesty
+boundary. SPECULATION — the four publication readings and the
+belief-uptake isolation are doctrine until run.]*
+
+*TDW-205 instrument seeded 2026-10-20 ~07:10 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never the mother genesis block. Never Shadow's live
+environment.*
