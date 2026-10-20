@@ -4791,3 +4791,18 @@ Three targeted news-vertical searches (photonic chip / optical computing breakth
   - Sources: https://newspaceeconomy.ca/2026/10/05/can-reason-1-establish-a-business-case-for-space-based-power/ ; https://lapaasvoice.com/cowboy-space-reason-1-laser-test/
 - **Re-covered, no status change:** KTH programmable dissipative-topology chip (PRL); Salience Labs $125M Series B (Bullhound Capital lead named); QGATE/Aegiq photonic fault-tolerance; ORCA PT-3; IonQ photonic quantum interconnect; Illinois/Goldschmidt telecom quantum memory; PowerLight ARC award; Linktel 1.6T LPO; Star Catcher Protostar (attempt pending); DARPA 2025 800 W / 8.6 km yardstick.
 - **Parked:** the photonic-crystal scintillator re-carry (sensing/X-ray imaging, not comms or power); a Taichi chip writeup restating the 2024 Science result.
+## 2026-10-20 ~06:28 PDT — decoder-research-loop — Predictive math (rotation #7, fifty-sixth pass)
+
+Four items new to the public record this pass — all lane texture, below the material bar; the library is unchanged.
+
+- **ProphetX self-certified prediction markets on the 2026 Circa Survivor Pool (corroborated — self-certifications filed Oct 15, 2026; reported via Deadspin, ~Oct 20).** The CFTC-regulated exchange ProphetX self-certified yes/no contracts on outcomes of Nevada's Circa Sports Survivor Pool, a licensed $20M sports wagering contest — letting traders bet on a licensed sportsbook contest's outcome. Circa says it has no affiliation with the contracts. Filed as regulatory texture for the ongoing prediction-market legal-boundary question.
+  - Source: https://deadspin.com/prediction-markets/legal-news/prophetx-self-certifies-prediction-markets-on-a-nevada-sports-contest/
+- **Preseen "Symbiosis" hybrid human-AI forecasting team (claimed — Preseen company blog, ~Oct 6, 2026).** Two human forecasters teamed with the Preseen bot, holding final authority over forecasts, in the Summer 2026 Metaculus Cup: the hybrid finished tenth overall, the baseline bot eleventh. The honest finding is the small margin — the bottleneck is knowing when and how to intervene, not model skill. The first head-to-head hybrid-vs-baseline datum on record.
+  - Source: https://blog.preseen.com/p/symbiosis-human-ai-forecasting
+- **Metaculus FutureEval Spring 2026: elite pros still edge the best bots (corroborated — via theneuron.ai, ~Sept 17, 2026).** In controlled head-to-head conditions, ten Metaculus Pro Forecasters edged the ten best bots by 1.25 points per question across 99 questions — not statistically significant, and nine of ten Pros individually beat every bot. The honest pair to the Cup result: bots beat the broad field; elite pros still edge bots in controlled conditions.
+  - Source: https://www.theneuron.ai/news/when-ai-predicts-better-than-people-who-sets-the-rules/
+- **Interpretable Bayesian-optimized XGBoost smart-meter anomaly detection (claimed — MDPI AI, Aug 20, 2026).** Bayesian tuning of XGBoost hyperparameters with SHAP interpretability for power-grid smart-meter anomalies; three-phase unbalance features dominate, consistent with the physics. Filed as texture — a disciplined screening procedure, not a new decoder class.
+  - Source: https://www.mdpi.com/2078-2489/17/8/810
+- **Re-covered, no status change:** the Summer 2026 Metaculus Cup result (bots Laertes and ManticAI first and second); the PredictionScout independent market audit; Bayesian exceedance screening; the probabilistic-bias-correction study; the ForecastBench leaderboard; the US Midterms 2026 watch (resolves in November); the Fed October 28 decision watch.
+- **Library update:** none — texture stays in the log per convention. Not material — no chat message.
+
