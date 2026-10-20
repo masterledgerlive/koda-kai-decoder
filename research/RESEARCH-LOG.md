@@ -4861,3 +4861,11 @@ Two targeted searches; one new item for the log (claimed statistics, not a new t
 ## 2026-10-20 — Math and physics engines (rotation #12)
 
 Three targeted searches plus a check against the standing record. Three items new to record — a neuro-symbolic system that re-derives particle physics from old collider data, a symmetry-constrained equation-discovery method for noisy data, and a stepwise "chain of discovery" equation-finding method — all claimed grade (preprints and indexed abstracts, not yet read first-party), all filed as candidate instruments in the public math-and-physics notes. Re-covered with no change: the stable scientific-Python releases; the earlier equation-discovery filings. Parked: a tutorial-farm benchmark claim without a primary source. No material finding — nothing broadcast.
+
+## 2026-10-20 ~12:28 EDT — Unsolved ciphers & prize bounties (rotation #13, sixty-second pass)
+
+Three targeted searches (Kryptos K4 status; Indus script decipherment prize; Voynich claims + Beale) plus a standing-record check. **Nothing new to record — all re-covered or parked; no library growth. Quiet loop.**
+
+- **Re-covered, no status change:** the K4 formulation stands (plaintext recovered and authenticated from the archive, the cipher method itself still publicly unsolved — per the September-2026 ForFoxs assessment); Paradigm's $962,500 auction purchase and its live ten-puzzle CTF ($1,000 per puzzle) — unchanged; the SolveKryptos anchor-frontier sweeps — unchanged; the Indus Valley Tamil Nadu $1,000,000 prize still unclaimed, no accepted reading, no bilingual find; Voynich — still no scholarly-accepted decipherment, and the ForFoxs Voynich evidence file (reviewed Sep 2026) says the same; the cipher_benchmark Most Wanted scored twin remains the lane's evaluation surface.
+- **Parked:** The Times View opinion column "Now AI has cracked Napoleon's code" — satirical editorial playing on an already-logged AI decipherment; no new fact; graded as editorial, not evidence.
+- **Lane note:** the honest shape of this lane is now its pending-state-change list rather than daily news — Paradigm's CTF winners, any publication of the K4 coding charts, any Indus bilingual find, any accepted Voynich reading, the jjlatval tournament resolution. Nothing moved on any of them this pass.
