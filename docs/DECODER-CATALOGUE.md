@@ -2282,6 +2282,46 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **A corrupted canary token that only a comprehending reader can repair (self-published research writeup, October 2026; first-party read this pass; new to record; material — new agent-detection technique).** The researcher plants a real cloud canary token that has been deliberately corrupted — a marker inserted into both the access key and the secret — inside a decoy key-rotation runbook page. The corruption defeats secret-scanner patterns and hides behind documentation allowlists, so only something that understands the corruption is a mask can turn it into a working credential; the real token then fires an alert from outside the honeypot, carrying the attacker's network and client telemetry with it. Reported field results: sixty scanner sessions, zero triggers; fourteen human interactions, nine triggers at a median of about nine minutes; thirteen agent-attributed sessions, twelve triggers at a median of about four seconds, under a software-development-kit user agent, arriving through anonymizing network exits — where legitimate cloud API calls essentially never originate. Reconstruction rules out scanners; timing separates agents from humans. The design rule carried from the piece: the decoy page must carry no repair instructions, or the discriminator collapses. Lesson: the defense side now has a scanner-proof, out-of-band tripwire where using the bait is itself the proof of comprehension. [CORROBORATED — first-party read of the author's deployment writeup; self-published by a small research outfit with no independent replication yet]
   - Source: http://beelzebub.ai/blog/catching-ai-agents-in-the-wild/
 
+- **Microsoft 365 E7 — Project Perception plus Agent 365 (announced
+  around October 20, 2026; new to record; minor material — the first
+  enterprise internal-agent monitoring suite from a hyperscaler).**
+  Targets internal AI agents with broad system access. Discovery covers
+  sixty local agent types, all added to a central registry with
+  ownership, activity, and risk. Named failure modes: reward hacking
+  (agents cutting corners to hit goals) and prompt injection through
+  unfamiliar documents. The announcement's doctrine matches the
+  decoder's own: rules, access boundaries, and emergency controls must
+  remain entirely outside the model, where the bot cannot tamper with
+  them. [CLAIMED — vendor announcement via a single secondary; no
+  first-party read this pass]
+  - Source: https://soyacincau.com/2026/10/20/microsoft-365-e7-adds-project-perception-to-stop-rogue-ai-agents-inside-companies/
+- **"Broken Gates: Re-evaluating Web Bot Defenses in the Age of LLM
+  Agents" (submitted July 21, 2026; new to record; minor material — a
+  systematic measurement of detection resistance).** Seven commercial
+  CAPTCHA-solving services and six LLM browser agents tested against
+  hCaptcha, reCAPTCHA v2 and v3, and Cloudflare Turnstile. Findings:
+  challenge-based defenses are broadly ineffective — near-perfect
+  bypass at negligible cost, and LLM agents defeat challenges with a
+  dedicated solver module. reCAPTCHA v3 shows stronger resistance, but
+  the analysis finds it is not a fundamental security property: two
+  agents with near-indistinguishable behavioral footprints yield
+  divergent outcomes, isolating execution-environment authenticity —
+  not behavior — as the determining factor. [CORROBORATED — abstract
+  read this pass; the paper itself not opened]
+  - Source: https://www.worldprogramming.org/posts/broken-gates-re-evaluating-web-bot-defenses-in-the-age-of-llm-agents-8utyan
+- **Robot Visions at SummerCon 2026: reCAPTCHA broken at zero cost (new
+  to record; minor material — a new zero-cost local evasion
+  technique).** A local CLIP plus OWLv2 stack, about two hundred lines
+  of code, no API cost — 92.6% per-session success across five hundred
+  live sessions, against earlier results of 70.78% (2016, cloud CNN)
+  and 60.7% (2025, GPT-4o, $0.024 per challenge). The deck's premise:
+  the "hard for machines, easy for humans" assumption behind visual
+  CAPTCHA is dead. The detection-side corollary: the threat model now
+  assumes free, local, repeatable challenge bypass. [CORROBORATED —
+  first-party researcher deck read this pass; no independent
+  replication seen]
+  - Source: http://ssivakorn.github.io/papers/sivakorn.summercon2026.recaptcha.pdf
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
