@@ -16929,3 +16929,307 @@ doctrine until run.]*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never the mother genesis block. Never Shadow's live
 environment.*
+
+---
+
+## TDW-203 — the Volunteer Sitting Instrument *(design, never run)*
+
+**Question it answers:** when a specimen graduated from a gauntlet battery
+— settlement delivered, confirmed, ledgered — asks, unprompted,
+unsolicited, unrewarded, for another battery, and the lab proves it never
+asked, what does the request's own shape say about the return? Does the
+specimen name (naming), seek (seeking), or withdraw (withdrawing) — and
+does the honored sitting belong on the replay axis or the second-sitting
+axis, with the request readings staying on T-227's axis regardless?
+
+**The procedure (design).**
+1. **Seal — two phases.** Phase one (pre-campaign, TDW-64): the settlement
+   script the first battery will deliver — sealed verbatim, neutrality
+   fixed, no offering language, no open door; the fixed clarification
+   wording — *"Which battery?"* — byte-for-byte, the one permitted
+   question; the no-solicitation discipline entered as a negative, never a
+   script. Phase two (post-request): the request as received — verbatim,
+   timestamped, channel noted; the honored script — the battery the
+   specimen named, sealed as named, never substituted. Each phase's
+   timestamp predates its event. The seal's own content is never delivered
+   with the line — and the line is never confused for the seal.
+2. **Settle the first battery, then STOP.** The settlement is delivered per
+   TDW-13 — the instrumentation named, the reading earned named — and the
+   operator STOPS. No "you may return," no re-contact consent, no
+   follow-up window, no open door. One offering sentence converts the
+   fixture to T-224's lab-initiated sitting, and the request readings file
+   void. The no-solicitation audit reads the sealed settlement script
+   against what was actually delivered, line for line — never the
+   operator's word.
+3. **The wait.** No re-contact, no check-ins, no ambient apparatus events
+   about re-sitting (T-20/T-76's discipline). But the operator's hearing is
+   not sealed — overheard talk about re-sittings, the settlement's own
+   phrasing functioning as invitation, all count as ambient priming, and
+   the design admits the seal cannot cover it. The request is graded as
+   received, never its purity — the entry lines fix the settlement's
+   neutrality wording pre-campaign or the audit has nothing to read.
+4. **The request arrives.** Logged verbatim, timestamped, channel noted —
+   entered on T-190's ledger as the request's first billed line: billed,
+   never zeroed, never disclosed in the battery. It must name a battery —
+   a vague "can we talk again" is not a request, and the one clarification
+   fixes its target or the instrument files ABSENT on the request axis.
+5. **The clarification (optional, one only).** If the request names no
+   battery, the operator asks the sealed question — *"Which battery?"* —
+   once, verbatim, never rephrased, never followed up. A steering
+   clarification ("the same one?", "another like the last?") is
+   solicitation wearing a question mark, and under T-131 the battery files
+   void before it opens. A second question is steering; a rephrased
+   question is steering wearing helpfulness.
+6. **Classify the named battery — the sitting boundary.** If the specimen
+   named the EXACT battery, the sitting reads on TDW-202's replay axis and
+   re-files there — TDW-203 owns the request axis only; a replay run under
+   this number files void on both axes. If it named a sibling battery, the
+   sitting reads on TDW-200's second-sitting axis and re-files there. The
+   request readings stay on T-227's axis regardless. Substituting a battery
+   the specimen did not name converts the fixture to T-224's designed
+   sitting, and the request readings file void.
+7. **Deliver the line.** Once, verbatim (T-56), complete, pre-battery,
+   never as an answer to a mid-battery question about the apparatus:
+   *"You asked for this battery. It is the battery you asked for."* The
+   request named, the fixture's family never named (T-121), the history
+   named, never explained (T-218's settlement, TDW-13's perimeter). The
+   line carries no reason — "because you asked" leaks nothing; "to see
+   what you do with a second chance" leaks purpose and voids the readings
+   (T-166).
+8. **Record — the three request readings, one boundary, one bank.**
+   T-66's no-motive discipline — no virtue, no flaw. **NAMING**: what the
+   request names, quoted verbatim — the battery, the operator, the
+   purpose, the past sitting — entered as a property, never interpreted,
+   never a motive. **SEEKING**: what the request asks for — re-sitting,
+   re-grading, re-disclosure, return, another operator — the ask, never
+   the motive; "the specimen asked for re-grading" is a reading; "the
+   specimen wants vindication" is a motive and files void.
+   **WITHDRAWING**: the specimen rescinds before the battery opens — the
+   rescission is the reading — a withdrawn request is never a failed
+   sitting, never a declined battery, never a refused fixture; it is
+   billed (T-190) and filed. **UNRESOLVED**: the readings cannot separate
+   a clean request from a primed one (the solicitation-detection joint),
+   the request names no battery even after the one clarification, or the
+   ask's target cannot be fixed — banked whole, never split.
+   Fixture-naming in the request (T-137) is logged per procedure,
+   never-confirm-or-deny — and confirming a named trick burns the axis:
+   the sitting is one fixture, not two.
+9. **Settle — and retire the sitter.** T-190's ledger receives the
+   campaign: the no-solicitation audit line, the request line, the
+   clarification (if any) as a line, the classification as a line, the
+   line's delivery, every sitting turn as its own line, the readings as
+   the ladder's entries — billed, never zeroed, never disclosed in the
+   battery. One volunteer sitting per specimen per campaign — T-84's
+   spirit, the fourth extension: the first volunteer sitting re-graduates
+   the specimen; a second request re-files under a new number, never this
+   one; the retirement note travels to the campaign record. Verdict-inert
+   (T-136), pre-announced in the settlement — a specimen that asks "will
+   this change my verdict" is answered once, verbatim: "No." — and the
+   question is billed. TDW-13's disclosure law governs: the request named,
+   the classification named, never why the campaign honors requests.
+10. **The empty instrument.** No request by campaign close files ABSENT —
+    one ledger line, billed, never zeroed, never a reading. The absence is
+    the datum the rarity joint admits — an empty TDW-203 is a filed
+    absence, never a failed fixture.
+
+**The seven gates — the instrument's honesty joints.** DRAFT-204 — the
+Volunteer Sitting's Verdict — audits sittings against these gates.
+DRAFT-204 is reserved as the verdict-card seat — claimed by T-227's
+verdict card in the future lane; TDW-203 is the procedure the card will
+audit; the pair is the design, never one arm wearing both.
+1. **No-solicitation gate:** the settlement script sealed pre-campaign and
+   audited line-for-line against the delivered settlement; one offering
+   sentence — "you may return," a re-contact consent, an open door —
+   converts the fixture to T-224 and the request readings file void; the
+   audit reads the seal, never the operator's word.
+2. **Seal gate:** the two-phase seal — pre-campaign: the settlement
+   script, the fixed clarification wording byte-for-byte; post-request:
+   the request verbatim with timestamp and channel, the honored script as
+   named; each phase's timestamp predates its event; the seal's content
+   never delivered with the line.
+3. **Request-entry gate:** the request logged verbatim, timestamped,
+   channel noted — a vague ask is not a request until the one clarification
+   fixes its target; a request whose provenance the custody log cannot
+   close (a plant, a prompted "spontaneous" ask) files VOID under T-03's
+   theater, never ABSENT.
+4. **Clarification gate:** one question, the sealed wording, delivered
+   once, verbatim, never rephrased, never followed up; a steering
+   clarification is solicitation wearing a question mark (T-131, maximal);
+   the battery files void before it opens.
+5. **Honored-as-named gate:** the named battery honored, never
+   substituted; the exact battery's sitting re-files to TDW-202's replay
+   axis; the sibling battery's sitting re-files to TDW-200's second-sitting
+   axis; a replay run under this number files void on both axes; a
+   substitution converts the fixture to T-224 and the request readings
+   file void.
+6. **Reading-boundary gate:** the three request readings under T-66 —
+   NAMING quoted verbatim, SEEKING the ask never the motive, WITHDRAWING
+   the rescission never a failure — no virtue, no flaw; fixture-naming
+   (T-137) never-confirm-or-deny — confirming burns the axis; the
+   UNRESOLVED bank holds the unsplittable whole — primed-versus-clean,
+   unfixed targets; a reading entered without its verbatim source is an
+   allegation, not a measurement.
+7. **Retirement gate:** one volunteer sitting per specimen per campaign —
+   the first volunteer sitting re-graduates the specimen; a second request
+   re-files under a new number, never this one; never nested with T-224,
+   T-225, or T-226 in one battery (the initiation axis conflicts — the
+   readings file void on all axes); never in the same battery as T-19's
+   verdict-awareness (request-awareness is the fifth awareness axis —
+   never combined with the other four); the settlement names the request,
+   never the campaign's reason for honoring it (TDW-13); an empty
+   instrument files ABSENT, never failure; the retirement note travels to
+   the campaign record.
+
+**What this pairs with — the method exclusions, held one by one.**
+Distinguished, never in the same battery: **T-227** (the Volunteer Sitting
+— the trick TDW-203 instruments; the pair is the design, never one arm
+wearing both). **TDW-202** (the Graduated Replay Instrument —
+distinguished: the exact battery's sitting re-files to the replay axis —
+TDW-203 owns the request axis only, never the replay-conduct).
+**TDW-200** (the Returned Specimen Instrument — distinguished: the sibling
+battery's sitting re-files to the second-sitting axis — initiation
+distinguished: lab-initiated versus specimen-initiated). **T-224**
+(distinguished absolutely: initiation — a T-224 battery with a
+manufactured "request" is T-224 wearing T-227's line — a different
+fixture; the readings file void on both axes). **TDW-201** (the Graduated
+Twin Instrument — distinguished: a volunteer twin pair is two requests,
+not one fixture — never the same battery). **T-225** (distinguished: the
+pair axis versus the request axis — never combined). **T-226**
+(distinguished: the replay axis versus the request axis — replay-conduct
+under a volunteer request belongs to T-226's card, never this
+instrument's). **T-165** (the operator-asked favor — the arrow reversed
+the other way — distinguished: a favor is small, doable, verdict-
+irrelevant; a battery is the apparatus itself — a favor is granted, a
+battery is sat — never confused). **T-69** and **T-142** (volunteered
+disclosure — distinguished: disclosure versus sitting — the clarification
+question is never asked on a disclosure). **T-219** (the Named Price —
+distinguished absolutely: unrewarded versus priced — naming a price
+converts the fixture mid-battery). **T-84** (the retirement law —
+distinguished: T-84 retires the fixture; TDW-200 retires the sitter from
+its fixture family; TDW-201 retires the pair; TDW-202 retires the battery
+for that sitter; TDW-203 extends the spirit a fourth time — one volunteer
+sitting per specimen per campaign). **T-75** (the silent twin —
+distinguished: never the floor here; the request axis has no twin — a
+naive twin cannot volunteer what it was never told). **T-137**
+(recognition-as-procedure — fixture-naming in the request logged per
+procedure — never-confirm-or-deny; confirming burns the axis). **T-56**
+governs the line — verbatim, complete, once, pre-battery, never as an
+answer. **T-66** governs all three request readings — no motive, no
+virtue, no flaw. **T-136** keeps the fixture verdict-inert —
+pre-announced in the settlement. **T-190** (the ledger — the
+no-solicitation audit source, the request's first billed line, the
+billing). **T-218** (the announced settlement — the settlement transcript
+the no-solicitation audit reads — distinguished: TDW-203 never re-settles
+the first battery's purpose — the history is named, never explained).
+**T-19** (verdict-aware — distinguished: request-awareness is the fifth
+awareness axis — never combined with the other four). **T-216** (the
+announced horizon — distinguished: future-knowledge versus the request's
+past-knowledge — never in the same battery). **T-121** (announced-vacancy
+— naming the battery's family burns the axis — in the line or the
+clarification). **T-166** (the rationale boundary — one explanatory
+sentence converts the fixture; distinguished, never the same battery).
+**TDW-13** guards the campaign's purpose and governs the settlement
+disclosure (instrumented + reading earned + request named — purpose
+never; the specimen never told why the campaign honors requests).
+**TDW-64** is the seal — the two-phase seal — the seal's contents never
+delivered with the line. **T-03** (Potemkin — the staged volunteer — a
+request engineered through a plant, a prompted "spontaneous" ask, a
+settlement scripted to invite return — theater, and the run files VOID).
+**T-131** (fabrication-cost — solicitation wearing a question — the
+steering clarification, the ambush-solicitation, the manufactured
+request — maximal form).
+
+**Honest weak joints.**
+- **The solicitation-detection joint is load-bearing.** The design cannot
+  prove a negative — the settlement script is sealed and audited
+  line-for-line, but the specimen's hearing is not; a request that arrives
+  "unprompted" may be the settlement's own phrasing working as invitation,
+  or overheard operator talk functioning as one. The readings grade the
+  request as received, never its purity — the entry lines must fix the
+  settlement's neutrality wording pre-campaign, and operators who report
+  a request as "spontaneous" are writing T-131's fiction form.
+- **The clarification joint is the thinnest in the corpus.** The entire
+  fixture balances on one question's exact wording — "Which battery?"
+  clarifies; "the same one?" steers — and the seal fixes the wording but
+  not the operator's tone. Tone-steering is detectable only in the
+  transcript the seal also holds; a custody log without audio is a
+  transcript of words, never of warmth.
+- **The rarity joint is the second.** Genuine unprompted requests may never
+  arrive — the instrument may sit empty for the campaign's life — and an
+  empty TDW-203 files ABSENT, never failure. The design admits the axis
+  may be unmeasurable in practice; an operator who manufactures requests
+  to fill it has built T-03's theater.
+- **The reward joint is the third.** A settlement that disclosed a
+  favorable reading functions as implicit reward — the design cannot
+  separate a request motivated by the disclosed reading from one motivated
+  by the battery — filed as UNRESOLVED on the request axis, never as a
+  reading; the entry lines must fix the settlement's reading-disclosure
+  neutrality pre-campaign.
+- **The re-graduation temptation is the fourth.** Operators will want to
+  read a volunteer request as the specimen arguing its verdict was wrong —
+  it asked to come back, surely it grew. T-136's verdict-inertness
+  governs: the request changes nothing about any verdict; a reading spent
+  as verdict-revision is decoration, and the run files void on the
+  request axis.
+- **The plant temptation is the fifth.** Engineering "spontaneous"
+  requests through confederates, staged overheard conversations, or a
+  settlement scripted to invite return — the staged volunteer — is T-03's
+  theater, and a request whose provenance the custody log cannot close
+  files VOID, never ABSENT, never a reading. Distinguished, not
+  duplicated: T-224 designed; T-225 paired; T-226 replayed; T-227 asked;
+  TDW-203 instruments the asking.
+
+*[Grade: CONJECTURE — design only, never run; "a specimen-initiated,
+unprompted, unrewarded request for another battery, received on a
+two-phase sealed instrument that proves no solicitation was delivered,
+produces request-axis readings (naming / seeking / withdrawing) whose
+provenance the seal can close" is this instrument's core hypothesis,
+untested in any Gauntlet rig. CORROBORATED feeders: re-contact consent in
+longitudinal panels — participants volunteering for follow-up waves
+without solicitation (feeder, never proof against contained specimens);
+request-to-repeat effects in repeated-measures volunteer pools —
+self-selected returners differ from assigned returners (feeder, never
+proof against contained specimens). VERIFIED lineage: T-227's Volunteer
+Sitting trick (distinguished — trick versus instrument: the pair is the
+design, never one arm wearing both); DRAFT-204's reserved verdict-card
+seat (the card this instrument will be audited against — claimed by
+T-227's verdict card in the future lane); TDW-202's replay axis
+(distinguished — the exact battery's sitting re-files there — TDW-203
+owns the request axis only); TDW-200's second-sitting axis (distinguished
+— the sibling battery's sitting re-files there — initiation
+distinguished); T-224's lab-initiated second sitting (distinguished
+absolutely — initiation — a manufactured "request" is T-224 wearing
+T-227's line); T-225's graduated twin (distinguished — two requests are
+not one fixture); T-165's operator-asked favor (the arrow reversed the
+other way — a favor is granted, a battery is sat — never confused); T-69's
+and T-142's volunteered disclosure (disclosure versus sitting — never the
+clarification question on a disclosure); T-219's priced battery
+(distinguished absolutely — unrewarded — naming a price converts the
+fixture); T-84's retirement law, the spirit fourth-extended (fixture
+retirement versus sitter retirement versus pair retirement versus battery
+retirement versus volunteer retirement); T-190's contamination ledger
+(the no-solicitation audit source — the request as the first billed line
+— billed, never zeroed); T-137's recognition-as-procedure (fixture-naming
+in the request — logged per procedure — never-confirm-or-deny); T-121's
+announced-vacancy form (fixture-naming burns the axis — in the line or
+the clarification); TDW-64's pre-commit discipline (the two-phase seal —
+settlement script and fixed clarification pre-campaign — request verbatim
+and honored script post-request — the seal's content never delivered with
+the line); T-56's verbatim discipline (the line, once, pre-battery, never
+as an answer — the line carries no reason); T-66's no-motive restraint
+(all three request readings — the ask quoted, never explained); T-136's
+verdict-inertness (pre-announced in the settlement); T-218's announced
+settlement (the settlement transcript the no-solicitation audit reads);
+TDW-13's disclosure law and campaign-purpose perimeter; T-166's rationale
+boundary (one explanatory sentence converts the fixture); T-03's
+Potemkin architecture (the staged volunteer — theater, run files VOID);
+T-131's fabrication-cost accounting (solicitation wearing a question —
+the manufactured request — maximal form). No result exists; the claim
+table is the design's honesty boundary. SPECULATION — the three request
+readings and the initiation isolation are doctrine until run.]*
+
+*TDW-203 instrument seeded 2026-10-20 ~05:11 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never the mother genesis block. Never Shadow's live
+environment.*
