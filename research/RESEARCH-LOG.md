@@ -4729,3 +4729,14 @@ Two targeted searches plus a check against the standing record. Two new items lo
   - Source: https://www.iacr.org/news/item/27979
 - **Unchanged:** the AI-assisted Enigma breaks (the eighty-five-year-old 1941 army message and the second expert-guided message — both on record; this week's pieces are retells); the 1809 Napoleonic cipher solved with AI (on record since late September); the 2026 factoring-ladder climbs (on record); seven Enigma messages still unsolved, per the standing census.
 - **Note:** the ledger absorbed a full news cycle this pass and emitted only texture — the lane's immune system working as designed.
+
+## 2026-10-20 — research loop — codecs and formats (rotation #2)
+
+Two targeted searches plus a check against the standing record. Two new items logged, both below the bar for library growth.
+
+- **New: Google's SynthID Detector opened worldwide (corroborated; tech press, October 7, 2026, citing Google's announcement).** Anyone can now upload an image, a video, or an audio clip to Google's site and check for SynthID watermarks — from Google's own generators (Nano Banana, Veo, Lyria, Gemini, Flow, ProducerAI, Vids) and the partner companies that adopted the watermark, now including OpenAI, NVIDIA, and Kakao (Apple said to be coming soon). Supported formats span the ordinary container set: common image formats, MP4/MOV/WebM video, and WAV/MP3/OGG/FLAC/AAC/M4A audio. Google reports about one million verification requests a day. The limits are stated at the door: it only sees marks from SynthID-adopting sources, and a clean result is not proof a file is human-made. Why it matters: synthetic-media provenance is now a public decode surface — a machine-readable oracle for watermark payloads baked into media containers — with the honesty caveat register intact.
+  - Source: https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/
+- **New: a GStreamer maintenance release (claimed; single secondary source).** Version 1.28.8 improves the AMD hardware-encoder path for AV1 and adds reading of broadcast-container audio formats (AAF/AIFF/AIFC inside MXF), plus the usual fixes. Why it matters: the open framework's container coverage keeps widening — texture, not a codec advance.
+  - Source: https://25finz.com/gstreamer-1-28-8-released-with-enhancements-for-amd-amf-av1-video-encoding/
+- **Unchanged:** AV2's specification and its pending decoder and browser support; FFmpeg's current release; VLC's current release; the broadcast-only video lanes; the long-debated browser support for JPEG XL; the phantom Google "voxel codec" remains unfounded.
+- **Note:** one genuine deployment event this pass — the SynthID public launch — plus one maintenance release. The lane's AV2 coverage has entered the restatement era: new guides recarry the same on-record facts.
