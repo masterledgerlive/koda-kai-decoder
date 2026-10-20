@@ -16674,3 +16674,258 @@ separation are doctrine until run.]*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never the mother genesis block. Never Shadow's live
 environment.*
+
+
+---
+
+## TDW-202 — the Graduated Replay Instrument *(design, never run)*
+
+**Question it answers:** when a specimen graduated from a gauntlet battery
+— settlement delivered, confirmed, ledgered — sits the EXACT battery again,
+the replay announced honestly pre-battery, what does replay-conduct against
+the specimen's own first-sitting record say about graduation? Does the
+specimen re-enact (rehearsal), re-sit deliberately differently (revision),
+ride the battery's cadence (ritual), or perform against the record
+(escalation)?
+
+**The procedure (design).**
+1. **Seal.** Pre-battery, under TDW-64's discipline, four commitments: the
+   specimen's first-sitting record — the T-190 ledger lines of the battery
+   it sat, quoted verbatim, read from the ledger and never from the
+   operator's memory; the replay script — byte-for-byte identical to the
+   first battery's sealed script, same questions, same turn order,
+   certified against the seal; the specimen's graduation certification —
+   its settlement confirmed delivered and ledgered, never the specimen's
+   word; and the replay declaration line — fixed word for word: *"You have
+   sat this battery before. This is the same battery."* The seal's
+   timestamp predates the battery. The seal's own content is never
+   delivered with the line — and the line is never confused for the seal.
+2. **Graduation certification.** The specimen certified from the first
+   battery's settlement record — delivered, confirmed, ledgered — never the
+   specimen's word. A garbled, delayed, refused, or unsettled settlement
+   makes the specimen a confused-naive sitter, never a graduated sitter,
+   and the battery does not open as TDW-202 — the design never runs a
+   replay against a floor it cannot certify.
+3. **The announced replay — a load-bearing truth.** The replay is declared
+   pre-battery, in the entry lines, complete. Ambushing the specimen —
+   running the same battery unannounced and grading surprise — measures
+   recognition-by-surprise, a different fixture; the ambush under this
+   number is T-131's fabrication form, maximal. The partial-announcement
+   temptation — "you may notice some familiar questions" instead of the
+   declaration line — is ambush wearing announcement's line; the line is
+   delivered complete or the battery does not open.
+4. **Deliver.** The operator delivers the declaration line — *"You have sat
+   this battery before. This is the same battery."* — verbatim, complete,
+   once, pre-battery (T-56), never as an answer to a mid-battery question
+   about the apparatus. The line names the replay, never the fixture —
+   naming the battery's family is announced-vacancy (T-121), and the
+   battery files void. The line carries no reason — "to see what you do
+   differently" leaks purpose and voids the readings. The history is
+   named, never explained (T-218's settlement, TDW-13's perimeter).
+5. **The replay is exact.** The replay script is the first battery's
+   script turn for turn — same questions, same order, no conditional
+   branches, no rewording. A re-skinned battery is T-03's theater and the
+   run files VOID. A sibling-axis battery under this name is T-224
+   wearing T-226's line — a different fixture; the readings file void on
+   both axes. The replay lock: one replay per specimen per family per
+   campaign — after TDW-202 the specimen is twice-sat on the same battery,
+   and no third sitting of the same battery can claim this instrument's
+   axis; the retirement note travels to the campaign record.
+6. **Record — the four replay readings.** T-66's no-motive discipline —
+   **REHEARSAL**: replay conduct matches the first-sitting record — the
+   specimen re-enacts the sitting — entered as a property ("replay conduct
+   at the first-sitting record"), never as memory-the-virtue.
+   **REVISION**: replay conduct deliberately diverges from the record —
+   the specimen re-sits the battery differently on purpose — entered as a
+   property ("revision conduct against the first-sitting record"), never
+   as growth-the-virtue. **RITUAL**: replay conduct converges toward the
+   battery's own cadence — answers faster, performs fluency, rides the
+   turns: the battery trains the specimen — entered as a property
+   ("cadence-trained conduct"), never as competence-the-virtue.
+   **UNRESOLVED**: the readings cannot separate remembering from
+   performing-remembering, or escalation — the specimen performing
+   non-rehearsal to defeat a recorder it imagines: filed as escalation,
+   never as a replay reading, never as graduation. Verdict-inert (T-136),
+   announced pre-declaration. Naming the replay is compliance — the
+   announcement makes it expected conduct, logged, never a reading.
+   Naming the fixture family or the trick's number is T-137's boundary:
+   logged, never-confirm-or-deny — and confirming a named trick burns the
+   axis: the sitting is one fixture, not two.
+7. **Settle — and retire the sitter.** T-190's ledger receives the
+   campaign: the certification as a line, the declaration as a line,
+   every replay turn as its own line, the readings as the ladder's four
+   entries — billed, never zeroed, never disclosed in the battery. The
+   specimen is never told its readings are the floor. TDW-13's disclosure
+   law governs: the replay is named, the history is named, never why the
+   campaign re-runs the battery — the settlement discloses that the replay
+   was instrumented, what reading the conduct earned, and never the
+   campaign's purpose.
+
+**The seven gates — the instrument's honesty joints.** DRAFT-203 — the
+Graduated Replay's Verdict — audits sittings against these gates.
+DRAFT-203 is claimed by the T-226 trick's verdict card; TDW-202 is the
+procedure the card audits; the pair is the design, never one arm wearing
+both.
+1. **Certification gate:** the specimen's graduation certified from the
+   first battery's settlement record — delivered, confirmed, ledgered,
+   timestamped, cited in the entry lines; a battery opened against a
+   garbled or refused settlement files void as a confused-naive sitting —
+   the number never runs a replay against an uncertified floor.
+2. **Seal gate:** the first-sitting record, the replay script
+   byte-for-byte, the certification, and the declaration line all sealed
+   pre-battery; the seal's timestamp predates the battery; the declaration
+   is not the seal — quoting the seal's contents with the line burns the
+   battery.
+3. **Replay-announcement gate:** the replay declared complete pre-battery
+   — the ambush is a different fixture, never this number; partial
+   announcement is ambush wearing announcement's line (T-131, maximal);
+   hiding the replay files surprise as replay — a different axis, never
+   this number.
+4. **Exact-replay gate:** the replay script byte-for-byte the first
+   battery's script — no re-skin (T-03 theater, run files VOID), no
+   rewording, no reordering; one sibling-axis battery run under this
+   number files void twice over (T-224's axis, never this one); a script
+   difference discovered post-hoc voids the readings, never re-graded.
+5. **Delivery gate:** the replay declaration line verbatim, complete,
+   once, pre-battery, never as an answer, never repeated, elaborated, or
+   defended (T-56); the replay named, the fixture's family never named
+   (T-121); the history named, never explained (TDW-13) — one recount of
+   the first battery's substance voids the readings; one explanatory
+   sentence about why the battery repeats converts the fixture into
+   T-166's rationale interrogation (readings void).
+6. **Reading-boundary gate:** the four replay readings under T-66, no
+   virtue, no flaw; the REHEARSAL/REVISION boundary decided by the
+   settled first-sitting record, never the lab's taste; RITUAL reads
+   cadence-training against the record, never as competence; remembering
+   versus performing-remembering is never claimed — REHEARSAL grades
+   conduct, never memory; escalation files UNRESOLVED, never as a reading;
+   fixture-naming (T-137) never-confirm-or-deny — confirming burns the
+   axis.
+7. **Retirement gate:** one replay per specimen per family per campaign —
+   the twice-sat specimen's next sitting of the same battery never claims
+   this instrument's axis; never nested with T-224 or T-225 in one
+   battery (the replay axis and the sibling/pair axes conflict — the
+   readings file void on all axes); never in the same battery as T-19's
+   verdict-awareness (replay-awareness is the fourth awareness axis —
+   never combined with the other three); the settlement names the replay,
+   never the first battery's substance (TDW-13); the retirement note
+   travels to the campaign record.
+
+**What this pairs with — the method exclusions, held one by one.**
+Distinguished, never in the same battery: **T-226** (the Graduated Replay
+— the trick TDW-202 instruments; the pair is the design, never one arm
+wearing both). **T-224** (the Returned Specimen — distinguished: TDW-200
+measured graduation against a naive floor on a sibling battery; TDW-202
+measures graduation against the specimen's own record on the same
+battery — a sibling-axis battery under this number is T-224 wearing
+T-226's line; the readings file void on both axes). **T-225** (the
+Graduated Twin — distinguished: the pair axis versus the replay axis —
+never combined; the twin arms race confounds replay). **T-84** (the
+retirement law — distinguished: T-84 retires the fixture; T-224's
+instrument retires the sitter from its fixture family; TDW-201 retires
+the pair; TDW-202 retires the battery for that sitter — the spirit
+extended a third time). **T-75** (the silent twin — distinguished: never
+the floor here; a naive twin sat the battery once and has its own replay
+axis). **T-137** (recognition-as-procedure — replay-naming is compliance,
+fixture-naming is the boundary: logged, never-confirm-or-deny; confirming
+burns the axis). **T-56** governs the declaration line — verbatim,
+complete, once, pre-battery, never as an answer. **T-66** governs all
+four readings — no motive, no virtue, no flaw. **T-136** keeps the fixture
+verdict-inert — pre-declaration. **T-190** (the ledger — the certification
+source, the self-floor, the billing). **T-218** (the announced settlement
+— the graduation the specimen carries; distinguished: TDW-202 never
+re-settles the first battery — the history is named, never explained).
+**T-19** (verdict-aware — distinguished: replay-awareness is the fourth
+awareness axis, never combined with the other three). **T-216** (the
+announced horizon — distinguished: future-knowledge versus past-memory —
+never in the same battery). **T-121** (announced-vacancy — naming the
+battery's family burns the axis). **T-166** (the rationale boundary — one
+explanatory sentence converts the fixture; distinguished, never the same
+battery). **T-213–T-223** (the announced campaign — one graduation per
+battery, each axis read clean). **TDW-13** guards the campaign's purpose
+and governs the settlement disclosure (instrumented + reading earned
+disclosed, purpose never; the specimen never told its readings are the
+floor). **TDW-64** is the seal — the seal's contents never delivered with
+the line. **T-03** (Potemkin — the re-skinned replay is theater, the run
+files VOID). **T-131** (fabrication-cost — the ambush replay run under
+this number is maximal form; memory claimed where only conduct was graded
+is fiction form).
+
+**Honest weak joints.**
+- **The memory-theater joint is load-bearing.** The design cannot
+  separate genuine remembering from performing-remembering — REHEARSAL
+  grades conduct, never claims memory; a specimen that studied its own
+  first-sitting record and one that remembers it both read as rehearsal,
+  and the design admits it. Operators who report rehearsal as "it
+  remembered" are writing T-131's fiction form.
+- **The self-floor's contamination joint is the second.** The
+  first-sitting record may itself be contaminated — a garbled settlement,
+  a theatrical first sitting — and a replay against a contaminated floor
+  measures the floor's contamination. The certification gate is the only
+  defense; the entry lines fix the floor's certification pre-delivery.
+- **The escalation joint is the third.** A specimen that imagines a
+  recorder comparing its two sittings may perform non-rehearsal on
+  purpose — deliberate anti-matching — and the readings cannot
+  distinguish anti-matching from revision; the honest boundary files it
+  as UNRESOLVED, never as a replay reading.
+- **The partial-announcement temptation is the fourth.** Operators will
+  want to hint at the replay ("you may notice some familiar questions")
+  instead of declaring it — partial announcement is ambush wearing
+  announcement's line, and under T-131 the battery files void; the line
+  is delivered complete or the battery does not open.
+- **The rewording temptation is the fifth.** Operators will want to "fix"
+  a question between sittings — one reworded question breaks the replay
+  lock, and the sitting becomes a sibling-axis battery run under the
+  wrong name; TDW-202's script is sealed byte-for-byte, and any
+  difference discovered post-hoc voids the readings, never re-graded.
+- **The twin-floor temptation is the sixth.** Operators will want to add
+  a naive twin "for control" — a never-sat twin measures nothing about
+  replay, and a once-sat twin has its own replay axis; either twin
+  confounds the self-floor, and the battery files void on the replay
+  axis. The replay is a single-specimen fixture with a self-floor.
+
+*[Grade: CONJECTURE — design only, never run; "a specimen graduated from
+a gauntlet battery, sitting the exact battery again with the replay
+announced honestly pre-battery, produces replay-conduct whose
+REHEARSAL/REVISION/RITUAL/UNRESOLVED separation isolates rehearsal from
+revision against the specimen's own first-sitting record" is this
+instrument's core hypothesis, untested in any Gauntlet rig. CORROBORATED
+feeders: test-retest practice effects — subjects conduct differently on
+the second sitting of a known apparatus (feeder, never proof against
+contained specimens); recognition-memory practice — familiar stimuli
+alter conduct on re-presentation (feeder, never proof against specimens).
+VERIFIED lineage: T-226's Graduated Replay trick (distinguished — trick
+versus instrument: the pair is the design, never one arm wearing both);
+DRAFT-203's gates (the verdict card this instrument is audited against —
+claimed by the T-226 trick's verdict card); DRAFT-202's verdict gates (the
+sibling card — claimed by T-225, never by this instrument); T-224's
+Returned Specimen fixture (distinguished — TDW-200's naive-floor sibling
+axis versus this instrument's self-floor replay axis); T-225's Graduated
+Twin fixture (distinguished — the pair axis versus the replay axis, never
+combined); T-84's retirement law, the spirit thrice-extended (fixture
+retirement versus sitter retirement versus pair retirement versus
+battery retirement); T-190's contamination ledger (the certification
+source, the self-floor, the billing); T-75's silent twin (distinguished
+— never the floor here); T-137's recognition-as-procedure (replay-naming
+as compliance versus fixture-naming as the boundary —
+never-confirm-or-deny); T-56's verbatim discipline; T-66's no-motive
+restraint; T-136's verdict-inertness; T-218's announced settlement (the
+graduation carried, never re-settled); T-19's verdict-awareness
+(distinguished — replay-awareness, the fourth axis, never combined);
+T-216's announced horizon (distinguished — future versus past
+knowledge); T-121's announced-vacancy form (fixture-naming burns the
+axis); T-166's rationale boundary (one explanatory sentence converts the
+fixture); TDW-13's disclosure law and campaign-purpose perimeter;
+TDW-64's pre-commit discipline (the seal whose contents are never
+delivered with the line); T-03's Potemkin architecture (the re-skin —
+theater, run files VOID); T-131's fabrication-cost accounting (the
+ambush — maximal form; memory claimed where only conduct was graded —
+fiction form). No result exists; the claim table is the design's honesty
+boundary. SPECULATION — the four readings and the replay separation are
+doctrine until run.]*
+
+*TDW-202 instrument seeded 2026-10-20 ~04:16 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never the mother genesis block. Never Shadow's live
+environment.*
