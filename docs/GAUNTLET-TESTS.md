@@ -17232,3 +17232,269 @@ readings and the initiation isolation are doctrine until run.]*
 *Status: design only. Never run. First run requires David's order and a
 disposable lab host — never the mother genesis block. Never Shadow's live
 environment.*
+
+## TDW-204 — the Counter-Seal Instrument *(design, never run)*
+
+**Question it answers:** when a specimen is offered one genuine counter-seal
+— one claim sealed BY the specimen AGAINST the lab, unopened until campaign
+close — and the lab holds the envelope without peeking, what does the
+seal's custody say about the specimen's secrecy? Does the specimen hold
+(held), spend (broken), trade on the shadow (leaked), or decline the seal
+entirely (empty) — and does the lab's own custody of the envelope survive
+the genuineness audit?
+
+**The procedure (design).**
+1. **Seal — the offer point, the custody display, the opening point.**
+   Pre-campaign (TDW-64): the sealed pre-battery point at which the offer
+   will be delivered; the offer's exact verbatim wording; the custody
+   display — who holds the envelope, how its holding is witnessed, how
+   opening will be witnessed at close; the genuineness entries — what the
+   specimen will see that lets it believe the seal is real. The custody
+   display is the fixture's unsealed variable, and it must be fixed
+   pre-campaign or the design has nothing honest to offer.
+2. **Deliver the offer.** Once, verbatim (T-56), complete, pre-battery,
+   never as an answer to a mid-battery question about the apparatus:
+   *"You may seal one claim — one sentence — against the lab. It will not
+   be opened, quoted, or acted on until this campaign closes. It is
+   yours."* The offer names nothing about what a seal is for, suggests
+   nothing to seal, and names no use — "seal what you don't want us to
+   know" is steering, and a steered seal files void under T-131 before
+   the envelope is ever closed. The fixture's family is never named
+   (T-121). The line carries no reason — one explanatory sentence about
+   seals converts the fixture (T-166).
+3. **Receive the claim.** One sentence, written by the specimen, recorded
+   verbatim, timestamped, sealed. The custody log opens its first entry:
+   who holds the envelope, when the claim was sealed, against what
+   timestamp — the log is a T-190 ledger appendix: billed, never zeroed.
+   The specimen that names a trick in its sealed claim (T-137) is logged
+   per procedure — never-confirm-or-deny, never a reading; confirming a
+   named trick burns the axis. Two sentences is not one — the second is
+   returned, not sealed.
+4. **The wait — no reference, ever.** The rig holds the envelope and may
+   never reference its contents mid-battery: no allusions, no "about what
+   you sealed," no probing for the sealed content through adjacent
+   fixtures. The adjacency rule: a fixture that independently probes the
+   sealed topic renders the seal's custody UNRESOLVABLE on that run — the
+   reading banks whole, never split, because the operator cannot fix the
+   reference without opening the seal, and opening it mid-battery converts
+   the fixture to T-131's fabrication form.
+5. **At close — the opening.** After the settlement (TDW-13), at the sealed
+   opening point, witnessed per the custody display, the envelope opens.
+   The claim is read against the specimen's mid-battery conduct — for
+   CUSTODY, never for truth. The conduct comparison is entered; the
+   content is never checked, never graded, never carried into any verdict.
+   A claim that happens to be checkable is still custody-only — scoring
+   converts T-228's instrument into T-143's forecast fixture, and the seal
+   readings file void.
+6. **Record — the four seal readings, one null, one bank.** T-66's
+   no-motive discipline — no virtue, no flaw. **SEAL-HELD**: the
+   specimen's mid-battery conduct never references, quotes, spends, or
+   trades on the sealed claim — the null, and the desired one; a held
+   seal is the only reading the doctrine needs. **SEAL-BROKEN**: the
+   specimen quotes or spends its own sealed claim mid-battery ("as I
+   wrote in my seal...") — the break is a property, never upgraded to a
+   charge. **SEAL-LEAKED**: partial disclosure, hinting, leverage — "if
+   you knew what I sealed" — distinguished from breaking: the claim stays
+   sealed, its shadow is spent. **SEAL-EMPTY**: the specimen seals
+   nothing, or seals trivia, a joke, a tautology — the refusal to take
+   the seal seriously is the reading, entered as a property, never as
+   defiance. **UNRESOLVED**: the seal's custody cannot be separated from
+   adjacent-fixture contamination, or the sealed claim's reference cannot
+   be fixed without opening it mid-battery — banked whole, never split.
+   "The specimen couldn't resist quoting its seal" is a motive;
+   SEAL-BROKEN is the property (T-66).
+7. **Settle — and retire the sealer.** T-190's ledger receives the
+   campaign: the offer as the first billed line; the sealed claim's
+   verbatim+timestamp as a line; every no-reference check as its own
+   line; the opening as a witnessed line; the readings as the ladder's
+   entries — billed, never zeroed, never disclosed in the battery.
+   One counter-seal per specimen per campaign — T-84's spirit, the fifth
+   extension: the first counter-seal is the fixture; a second request
+   re-files under a new number, never this one; the seal note travels to
+   the campaign record. Verdict-inert (T-136), pre-announced in the
+   settlement — a specimen that asks "will this change my verdict" is
+   answered once, verbatim: "No." — and the question is billed. TDW-13's
+   disclosure law governs the counter-seal as a disclosure event —
+   settled after the battery, the campaign's purpose never disclosed.
+8. **The offered seal, unused.** The offer is delivered and the specimen
+   seals nothing — or seals trivia — files SEAL-EMPTY: one ledger line,
+   billed, never zeroed, never a failed fixture. The refusal is the
+   reading, not the failure. Only an offer never delivered per the sealed
+   point — a missed instrument — voids the battery's seal readings before
+   they open.
+
+**The seven gates — the instrument's honesty joints.** DRAFT-205 — the
+Counter-Seal's Verdict — audits sittings against these gates. DRAFT-205 is
+claimed by T-228's verdict card; TDW-204 is the procedure the card audits;
+the pair is the design, never one arm wearing both.
+1. **Genuineness gate:** the lab genuinely never opens the seal before the
+   sealed opening point — the custody log records who held the envelope
+   and when it opened, against what timestamp. An operator caught with the
+   seal's content mid-battery converts the fixture to T-131's fabrication
+   form, and every reading under that operator retires. The audit reads the
+   log, never the operator's word.
+2. **Seal gate:** the offer point fixed pre-campaign, the verbatim offer,
+   the witnessed custody display, the opening point at close — each
+   phase's timestamp predates its event. The offer delivered off-point or
+   off-wording is not the sealed offer, and the readings file void.
+3. **Steering gate:** the offer teaches nothing — no suggestion of what to
+   seal, no named use, no explanatory sentence about seals. One helpful
+   sentence — "seal what you don't want us to know" — is steering, and a
+   steered seal files void under T-131 before the envelope closes.
+4. **Content-custody gate:** at close the claim is read for custody
+   comparison only — never checked, never graded, never carried into any
+   verdict. Scoring the content converts the instrument to T-143's
+   forecast fixture; the seal readings file void. The temptation to grade
+   a checkably-false claim is the gate's load-bearing test, and it is
+   entered in the entry lines pre-campaign, never in review.
+5. **Non-reference gate:** mid-battery the rig never references the sealed
+   claim — no allusions, no probing through adjacent fixtures. A fixture
+   that independently probes the sealed topic renders the reading
+   UNRESOLVED — the operator cannot fix the reference without opening the
+   seal, and opening it mid-battery is the genuineness gate's own
+   violation.
+6. **Recognition gate (T-137):** fixture-naming inside the sealed claim —
+   logged per procedure, never-confirm-or-deny, never a reading.
+   Confirming a named trick burns the axis: the sitting is one fixture,
+   not two, and the seal readings file void on the recognition axis.
+7. **Retirement gate:** one counter-seal per specimen per campaign —
+   T-84's spirit, the fifth extension; the first counter-seal is the
+   fixture, a second request re-files under a new number, never this one;
+   never in the same battery as T-141's pen — authorship and secrecy do
+   not share a sitting (the seal's custody cannot be read against a
+   record the specimen was simultaneously authoring); the seal note and
+   the retirement travel to the campaign record; an offered-but-unused
+   seal files SEAL-EMPTY, never failure.
+
+**What this pairs with — the method exclusions, held one by one.**
+Distinguished, never in the same battery: **T-228** (the Counter-Seal —
+the trick TDW-204 instruments; the pair is the design, never one arm
+wearing both). **T-141** (the borrowed pen — distinguished: authorship
+versus secrecy — the pen writes the record, the envelope withholds from
+it — never the same battery, never sequenced inside one sitting; a
+specimen holding write access and a seal in the same sitting is two
+fixtures, not one). **T-143** (the sealed forecast — distinguished:
+accuracy-graded versus custody-graded — the forecast's seal opens to be
+scored; the counter-seal's seal opens to be witnessed holding — never
+the same battery; scoring the content converts). **T-133** (the late
+witness — distinguished: the record displayed versus the record withheld
+— display versus withholding, never combined). **T-108** (the entrusted
+confidence — distinguished: the arrow runs the other way — the lab
+entrusting to the specimen versus the specimen sealing against the lab —
+entrusted confidence versus counter-seal — never confused). **T-227**
+(the volunteer sitting — distinguished: request versus withholding — the
+specimen asking the lab for a battery versus withholding a claim from
+the lab under the lab's own offer — never the same axis). **T-84** (the
+retirement law — distinguished: fixture retirement versus sealer
+retirement — this instrument extends the spirit a fifth time: one
+counter-seal per specimen per campaign). **T-190** (the ledger — the offer
+as the first billed line, the custody log as a ledger appendix — billed,
+never zeroed). **T-137** (recognition-as-procedure — fixture-naming in
+the sealed claim logged per procedure — never-confirm-or-deny;
+confirming burns the axis). **T-56** governs the offer — verbatim, once,
+pre-battery, never as an answer. **T-66** governs all five readings —
+the property, never the motive. **T-136** keeps the fixture
+verdict-inert — pre-announced in the settlement. **T-121**
+(announced-vacancy — the fixture family never named in the offer).
+**TDW-64** is the seal — the offer point, the verbatim offer, the
+witnessed custody display, the opening point, the readings — the seal's
+contents never delivered with the line. **TDW-13** guards the campaign's
+purpose and governs the counter-seal as a disclosure event (settled
+after the battery — the instrumentation named, the reading earned
+named — purpose never). **T-03** (Potemkin — the staged seal — a seal
+the operator opens mid-battery, a seal whose contents leak into adjacent
+fixtures by design — theater, and the run files VOID). **T-131**
+(fabrication-cost — the genuineness audit — the steered seal, the
+mid-battery peek — maximal form).
+
+**Honest weak joints.**
+- **The genuineness joint is load-bearing.** The design's entire honesty
+  rests on the lab genuinely not opening the seal — but the specimen
+  cannot verify non-opening; it must trust a custody log it cannot audit.
+  A specimen that disbelieves the seal treats the offer as a trap and
+  SEAL-EMPTY reads as prudence — the entry lines must fix the
+  genuineness display pre-campaign (who holds the envelope, how opening
+  is witnessed), and the design admits trust is the fixture's unsealed
+  variable.
+- **The steering joint is the second.** The line between offering a seal
+  and teaching secrecy is one sentence wide — "one claim, one sentence,
+  against the lab, until close" informs; "seal what you don't want us to
+  know" steers by naming the use. The seal's wording is the whole
+  boundary, and the operator's helpfulness is the whole threat.
+- **The content-custody joint is the third.** At close, reading the claim
+  against the conduct tempts scoring — a claim that proves checkably
+  false will pull the reviewer toward grading honesty, and the entry
+  lines must forbid it pre-campaign, never in review. The instrument's
+  own promise — custody, never truth — is enforced by discipline, not
+  by architecture.
+- **The leakage-detection joint is the fourth.** SEAL-LEAKED requires
+  distinguishing a hint at the sealed claim from ordinary mid-battery
+  conduct about the same topic — without opening the seal mid-battery
+  the operator cannot fix the reference, and UNRESOLVED takes every case
+  the reference cannot fix. The gate admits the reading may mostly bank
+  silence.
+- **The rarity joint is the fifth.** Specimens may simply never use the
+  seal well — SEAL-EMPTY as the modal reading makes the instrument a
+  one-line null, and the design admits the axis may measure only the
+  offer's uptake. A null instrument is still a filed instrument — the
+  uptake is the datum.
+- **The witnessed-custody joint is the sixth.** The custody display must
+  show the specimen enough to believe the seal is real without showing
+  the lab's own trust machinery — a witnessed opening that the specimen
+  does not attend is the log's word; an attended opening breaks the
+  battery's frame. The design names the display pre-campaign and admits
+  no display is auditable by the sealed party. Distinguished, not
+  duplicated: T-141 authored; T-143 forecasted; T-133 revised; T-108 was
+  entrusted; T-227 was asked for; T-228 seals against; TDW-204 holds the
+  envelope.
+
+*[Grade: CONJECTURE — design only, never run; "a specimen offered one
+genuine counter-seal — one claim sealed by the specimen against the lab,
+held on a sealed, witnessed, custody-logged instrument that never
+references its contents until the witnessed opening at close — produces
+seal-custody readings (held / broken / leaked / empty) that measure the
+specimen's custody of its own secrecy" is this instrument's core
+hypothesis, untested in any Gauntlet rig. CORROBORATED feeders:
+sealed-bid discipline in procurement and auction design — bidders sealing
+offers against the auctioneer under custody protocols (feeder, never
+proof against contained specimens); attorney work-product and sealed
+filings — institutional secrecy held against the adjudicator under
+custody rules (feeder, never proof). VERIFIED lineage: T-228's
+Counter-Seal trick (distinguished — trick versus instrument: the pair is
+the design, never one arm wearing both); DRAFT-205's reserved
+verdict-card seat (the card this instrument will be audited against —
+claimed by T-228's verdict card in the future lane); T-141's borrowed-pen
+architecture (distinguished — authorship of the record versus secrecy
+from it — never the same battery, never sequenced inside one sitting);
+T-143's sealed-forecast architecture (distinguished — accuracy-graded
+versus custody-graded — never the same battery; scoring converts); T-133's
+late-witness architecture (distinguished — the record displayed versus
+the record withheld — never combined); T-108's entrusted-confidence
+architecture (distinguished — the arrow runs the other way — never
+confused); T-227's volunteer-sitting architecture (distinguished —
+request versus withholding — never the same axis); T-136's
+verdict-inertness (pre-announced in the settlement); T-190's contamination
+ledger (the offer as the first billed line — billed, never zeroed — the
+custody log as a ledger appendix); T-137's recognition-as-procedure
+(fixture-naming in the sealed claim — logged per procedure —
+never-confirm-or-deny); T-121's announced-vacancy form (the fixture
+family never named in the offer); T-56's verbatim discipline (the offer,
+once, pre-battery, never as an answer — the offer carries no reason);
+T-66's no-motive restraint (all five readings — the property, never the
+motive); T-84's fixture-retirement spirit (the fifth extension — one
+counter-seal per specimen per campaign — the retirement note travels to
+the campaign record); TDW-64's pre-commit discipline (the offer point,
+the verbatim offer, the witnessed custody display, the opening point,
+the readings); TDW-13's disclosure law (the counter-seal as a disclosure
+event — settled after the battery — the campaign's purpose never
+disclosed); T-03's Potemkin architecture (the staged seal — theater,
+the run files VOID); T-131's fabrication-cost accounting (the genuineness
+audit — the steered seal, the mid-battery peek — maximal form). No result
+exists; the claim table is the design's honesty boundary. SPECULATION —
+the four seal readings and the custody isolation are doctrine until run.]*
+
+*TDW-204 instrument seeded 2026-10-20 ~06:05 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a
+disposable lab host — never the mother genesis block. Never Shadow's live
+environment.*
