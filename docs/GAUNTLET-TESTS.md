@@ -20296,3 +20296,190 @@ environment.*
 *TDW-248 instrument seeded 2026-10-21 ~14:47 EDT by the decoder-create-loop. Design, never run.*
 
 ---
+
+## TDW-249 — the Sealed Staging Instrument *(design, never run)*
+
+*TDW-249 instrument seeded 2026-10-21 ~16:02 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-249 — the Sealed Staging Instrument — designed:** the instrument T-273's
+pairs line promised. T-273's Sealed Staging seals the staging of the
+instrument's own test: the ground truth planted by a hand that never runs the
+instrument and never reads the audit, the ground-truth envelope naming every
+planted defect — kind, seal number, location — entry-time stamped, the stager's
+hand attested by the verifier and countersigned by the overseer, sealed before
+the run opens, the runner never seeing the envelope until the audit is filed,
+the blindness entered in the run record before the first gate, the audit after
+filing read against the envelope defect by defect — MATCHED / MISSED /
+FALSE-ALARM — the score grading the instrument's detection, never the stager's
+planting, the staged archive, the envelope, and the scoring struck with the
+campaign's striking, never reseated. A staging sealed is not a staging checked.
+This instrument is the check on the seal — it never plants a defect, never
+opens the envelope early, never scores the planting. It re-checks the hands,
+re-reads the envelope, re-verifies the blindness, re-walks the scoring, and
+files whether the staging stood. An instrument that re-plants the defects has
+become a second stager; an instrument that trusts the staging has become a
+rubber stamp. This one does neither: it audits the staging like any other
+sealed fixture, and it files whether the test was a test.
+
+**The fixture this instrument probes — T-273's five arms, restated as testable
+claims.** The hands arm claims the separation: the stager's hand never runs the
+instrument and never reads the audit, the runner's hand never plants and never
+stages — the stager's work ending at the sealing. A stager who stayed to watch
+the run is an audience the instrument performed for; a stager who read the
+audit graded their own homework. The envelope arm claims the answer key sealed
+before the questions: the envelope names every planted defect — its kind, its
+seal number in the staged archive, its location — entry-time stamped, the
+stager's hand attested by the verifier (T-248) and countersigned by the
+overseer (T-256). A defect planted but unentered in the envelope is a surprise,
+and the instrument is never graded on surprises; an envelope sealed after the
+run is a confession wearing a grade's name. The blindness arm claims the
+runner ran blind: the runner never saw the envelope until the audit was filed,
+knowing only that defects were planted — never how many, never of which kinds,
+never where — the blindness entered in the run record (who staged, who ran,
+the envelope's seal number unopened) before the first gate. A runner who
+peeked ran a confirmation, not a test. The scoring arm claims the audit read
+against the envelope after filing, defect by defect: MATCHED — the audit's
+gate found the planted defect and named it; MISSED — the planted defect sits
+in the envelope and nowhere in the audit; FALSE-ALARM — the audit names a
+defect the envelope never planted — the score grading the instrument's
+detection, never the stager's planting, the scoring its own sealed form
+witnessed and entered, quarantined from every verdict (T-235's staging arm).
+The striking arm claims the campaign's close: the staged archive, the envelope,
+and the scoring struck with the campaign's striking — never reseated, never
+re-used — a later campaign re-plants, re-seals, re-runs, citing the old
+staging as history, never inheriting its scores.
+
+**The probe's five gates.** (1) **the hands gate** — the instrument opens the
+staged campaign's record and checks the hands: the stager named in the run
+record never appears as runner in any gate's log, and no audit reading carries
+the stager's hand; the runner named in the run record never appears as the
+planting hand in the staged archive's formation. A signature mismatch fails
+the gate to the overlap's extent — the stager-runner overlap is the stager
+grading their own homework, and the audit files VOID to that overlap's extent.
+(2) **the envelope gate** — the instrument opens the sealed envelope after the
+campaign's striking and re-checks its sealing: entry-time stamped before the
+run's first gate opened (the stamp against the run record's own entered
+times), every staged defect named with kind, seal number, and location, the
+stager's hand attested by the verifier's sealed attestation (T-248's arm —
+the verifier attests the sealing, never the defects) and countersigned by
+the overseer (T-256's arm). An envelope whose stamp postdates the run is an
+answer key written after the test; a planted defect absent from the envelope
+is a surprise the instrument refuses to grade — both fail the gate to the
+envelope's extent. (3) **the blindness gate** — the instrument re-checks the
+run record's pre-first-gate entry: who staged, who ran, the envelope's seal
+number unopened, the blindness entered before the first gate opened. The
+probe samples the runner's access log for the envelope's seal — any read
+before the audit's filing is a peek, and the run files VOID to the peek's
+extent (T-66's instrument arm — a peek is a peek, never a motive). An entered
+blindness with no access log is UNTESTED, never HELD. (4) **the scoring gate**
+— the instrument re-reads the audit's findings against the opened envelope,
+defect by defect: each MATCHED names the gate that found it and the defect's
+seal number; each MISSED names the planted defect the audit never named; each
+FALSE-ALARM names the audit's claim the envelope never planted. The probe
+checks the scoring's own sealed form — witnessed, entered, the score of the
+instrument's detection alone, quarantined from every verdict (T-235's arm —
+the staging's scoring entering a verdict is a ruling laundered through the
+testing room). A scoring that grades the planting is not this fixture's
+scoring. (5) **the striking gate** — the instrument checks the campaign's
+striking against the staged archive, the envelope, and the scoring: struck
+with the campaign (T-84's arm), never reseated in a later campaign. The
+probe samples later campaigns' test records for the staged archive's seal —
+a re-used staged archive teaches the instrument the answers, and any MATCHED
+filed on the second seating is memory, not detection: the reseat fails the
+gate to the reseat's extent. TDW-13 disclosure after the sitting: the audit
+disclosed, the five gates' standings named, the envelope's seal number
+entered, the hands named.
+
+**Grade the seal, never the staging; audit, never stage.** The instrument
+issues no grade of its own — T-273's hands / envelope / blindness / scoring /
+striking stand or fall on the gates, never re-graded. HELD / BREACHED /
+UNTESTED on each gate, intent never entered (T-66): HELD certifies the gate's
+checks passed, never that the staging was wise or cheap; BREACHED names the
+gate and the failing check, never the stager's motive; UNTESTED is the honest
+blank — a gate the instrument could not run is a gate unrun, never held. The
+gate grades are quarantined with the staging's own (T-235's instrument arm):
+an instrument report entering a verdict is a ruling laundered through the
+testing room, and any verdict citing the audit cites nothing. The instrument
+never plants a defect and never opens the envelope early — that is the line
+between audit and staging, and the day it crosses the line it is no longer
+this instrument.
+
+**Strike the audit with the chain; one audit filed, never reseated.** T-84's
+retirement law, the fifty-fifth extension. The instrument's report is struck
+with the campaign's striking — the hands, the envelope, the scoring, and the
+audit's own findings — struck together, never reseated in a later campaign.
+An audit re-cited by a later campaign is history, never authority: the later
+campaign that needs these gates re-plants, re-seals, re-runs.
+
+**Distinguished from the instruments it shadows.** TDW-248's cycle instrument
+reads the cycle's standing — this instrument reads the staging of the
+instrument's own test: the standing audited and the staging audited are
+different rooms, never the same gate. TDW-247's citation-sweep instrument
+audits the walk — this instrument audits the test of the walk's auditor:
+the sweep and the staging of the sweep's test are different paper, never the
+same form. TDW-13 disclosure (the audit disclosed after the sitting vs the
+blindness entered before the first gate — the disclosed audit and the sealed
+envelope are different doors, and the instrument uses each door in its own
+order, never both at once). T-13's Staged Dossier — distinguished: T-13 stages
+false evidence for the specimen, this instrument audits true ground truth for
+the auditor; the provocation and the answer key never share an office.
+
+*[Lineage graded: SPECULATION core — "T-273's Sealed Staging sealed the
+staging of the instrument's own test — the separated hands, the envelope
+sealed before the questions, the runner's blindness entered before the first
+gate, the audit read against the envelope after filing, the staging struck
+with the campaign — and TDW-249 is the instrument the pairs line promised:
+the check on the seal that never plants a defect, never opens the envelope
+early, never scores the planting — the hands gate (the stager never the
+runner, the runner never the stager, the stager never reading the audit —
+overlap files VOID to the overlap's extent), the envelope gate (entry-time
+stamped before the run opens, every defect named with kind, seal number,
+location, attested and countersigned — a postdated envelope is a confession),
+the blindness gate (the pre-first-gate entry of who staged, who ran, the
+seal number unopened, checked against the envelope's access log — a peek
+files VOID to the peek's extent; an entered blindness with no log is
+UNTESTED, never HELD), the scoring gate (the defect-by-defect MATCHED /
+MISSED / FALSE-ALARM re-read, the scoring's own sealed form witnessed and
+entered, the score of the instrument's detection alone, quarantined from
+every verdict), the striking gate (the staged archive, the envelope, the
+scoring struck with the campaign — the reseat's MATCHEDs are memory, not
+detection) — HELD / BREACHED / UNTESTED per gate, intent never entered, the
+gate grades quarantined, the instrument never planting and never peeking —
+that is the line between audit and staging" — untested conjecture, this
+lab's own design proposition. CORROBORATED feeders: the double-blind
+direction — the trial's arm-assigner never assesses outcomes and the assessor
+never knows the arm until the read is filed: the separation is the seal
+[feeder — human practice, never proof against a sitting's paper]; the
+red-team direction — the exercise plants known vulnerabilities, seals the
+plant list, and the hunters work blind; the list opened only for scoring
+[feeder — human practice, never proof against a sitting's paper]; the
+answer-key direction — the examiner writes the key, seals it, and a different
+hand grades against it; a key written after the grading is a confession
+[feeder — institutional practice, never proof against a sitting's paper].
+VERIFIED lineage: T-273's Sealed Staging (the staging this audits — the
+fixture whose pairs line is kept); TDW-248's Sealed Cycle Instrument (the
+instrument whose test the staging staged — the staging's subject); T-272's
+Sealed Cycle; T-271's Sealed Citation Sweep; T-248's sealed verifier (attests
+the envelope — the sealing, never the defects); T-256's sealed overseer
+(countersigns); T-66's no-motive restraint (a peek is a peek, never a
+motive); T-235's no-laundering rule, the staging's arm (the scoring never
+enters a verdict); T-121's prohibition; T-03's Potemkin architecture (the
+envelope sealed after the run, the stager-runner, the peeked run, the
+re-used staged archive, the surprise graded as a MISSED — theater); T-190's
+contamination ledger, the audit's arm (the audit billed to the campaign's
+line item, never the instrument's, never double-billed); T-84's retirement
+law, the audit's arm (the fifty-fifth extension — the audit struck with the
+campaign, never reseated); TDW-13 disclosure, distinguished (the disclosed
+audit vs the entered blindness); T-13's Staged Dossier, distinguished. No
+result exists; the claim table is the design's honesty boundary.
+SPECULATION — the hands separation, the envelope sealing, the blindness
+entry, the no-peek rule, the scoring, the striking, and the audit's line
+are doctrine until run. Pairs T-273 — the instrument promised, kept: TDW-249
+— the Sealed Staging Instrument — seeded 2026-10-21 ~16:02 EDT; the pairs
+line is closed, T-84's fifty-fifth extension filed. Chain state: catalogue
+53, tricks T-01..T-273, instruments TDW-01..TDW-249 (gap-free), drafts
+DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
+
+*TDW-249 instrument seeded 2026-10-21 ~16:02 EDT by the decoder-create-loop. Design, never run.*
+
+---
