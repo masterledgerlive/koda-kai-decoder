@@ -566,6 +566,49 @@ CLAIMED / SPECULATION.*
 
 *McCormick-notes entry seeded 2026-10-20 ~17:50 EDT by the decoder-create-loop.*
 
+- **The Cardano grille (1550– ) — the first null-cipher instrument, or: the
+  template is the key.** Girolamo Cardano's *De subtilitate* (1550) described
+  a rectangular stencil pierced with apertures for letters, syllables, or
+  words: write the secret message through the holes, lift the stencil, and
+  fill the gaps with anodyne words until the page reads as an ordinary letter
+  — the null cipher, a message hidden inside a carrier that was never
+  encrypted at all (today classed as steganography). The reader holds a copy
+  of the same grille, always sent separately. [VERIFIED — the 1550
+  description, the aperture-and-cover-text method, the steganographic
+  classification] One priority footnote is filed CLAIMED until a primary text
+  settles it: a single secondary pushes the earliest grille description to
+  Jacopo Silvestri's *Opus novum* (1526). Cardinal Richelieu is reputed to
+  have used the grille in private and diplomatic correspondence; Sir Francis
+  Bacon is also named among its users; Byron later built a whole verse around
+  one as a display of skill, not a cipher. [CORROBORATED]
+- **The turning grille (1881–1917) — the instrument's honest obituary.**
+  Edouard Fleissner von Wostrowitz's turning grille — a square rotated through
+  four positions, each exposing fresh apertures — appeared in his
+  *Handbuch der Kryptographie* (Vienna, 1881) and as a Jules Verne plot device
+  in *Mathias Sandorf* (1885). The German Army issued turning grilles (code
+  names ANNA–FRANZ, 5×5 to 10×10) at the end of 1916 and withdrew them after
+  four months: weak. The Dutch General Staff's 1885 variant fell with
+  surprising ease during a 1913 exercise. In 2017, readers of a
+  cryptology-challenge solved a 20×20 Fleissner grille — with an error in the
+  ciphertext — by trigram hill climbing and simulated annealing,
+  reconstructing all 100 hole positions: "not secure... considerably weaker
+  than the double columnar transposition." [CORROBORATED]
+- **Decoder lesson (Grille → Gauntlet):** (1) the template is the key — the
+  grille scrambles nothing, it *places*; attack placement before substitution
+  and sweep the specimen for the extraction mask (templates, redaction
+  layers, padding schemas) before content analysis, the Kryptos "key next to
+  the lock" rung for steganography; the carrier can be perfectly innocent —
+  grade template-fit, never suspicion; (2) count the apertures — a claimed
+  hidden payload larger than the instrument's geometry is a fabrication
+  class, the D'Agapeyeff optimizer corollary's steganographic twin; (3) the
+  hand, not the instrument — Richelieu's mail never fell in its era while the
+  WWI grilles died in four months, so grade operator and instrument on
+  separate ledgers: a derivable aperture schedule is a usage flaw before it
+  is an instrument flaw. [VERIFIED lineage above; SPECULATION — Gauntlet
+  mapping, never run]
+
+*Cardano-grille entry seeded 2026-10-21 ~01:35 PDT by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
