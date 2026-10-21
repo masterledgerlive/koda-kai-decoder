@@ -395,6 +395,20 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   unproven, the honest null inside the breakthrough. Corroborated (The
   Guardian, October 6, twenty twenty-six, reporting the peer-reviewed
   article; the article itself was not read first-party this pass).
+  (i) Kevin Funchal, "The Voynich Manuscript: A Funchal-Voynich Five-Family
+  Structural Reading Framework" (open repository, May twenty twenty-six;
+  new to record) — a structural framework, explicitly not a complete
+  decipherment: the manuscript's tokens read as compressed procedural units
+  sorted into five recurring functional families — operators, materials,
+  preparations, measures, and result states — identified through positional
+  analysis, permutation testing, section-level comparisons, and stress tests
+  designed to refute the model. The reported architecture is a non-random
+  slot-based system that varies across the herbal, pharmaceutical,
+  balneological, and astronomical sections while keeping the same underlying
+  grammar; benchmarked against medieval Dutch and Latin procedural recipe
+  traditions. Joins the catalogue's honest-structuralist bench — reproducible,
+  falsifiable, no key claimed. Claimed (unreviewed; no independent
+  replication read).
 - **Prior Voynich roster (Oct 14, 2026).** (a) Michael Hafner, "Section A of
   the Voynich Manuscript
   as Archaic Middle Welsh" (Zenodo, Apr 2026, independent researcher) — the
