@@ -5040,3 +5040,14 @@ Two targeted news searches (Enigma/Bletchley Park 2026; declassified WWII cipher
 
 - **Shadow mirror:** skipped — Shadow machine off at the owner's request; will flush on the next run where the connection is green.
 
+
+## 2026-10-20 ~19:57 EDT — decoder-research-loop — Codecs & formats (sixty-fifth pass)
+
+Two targeted news-vertical searches (new video codec announcements October 2026; FFmpeg decoder/encoder additions October 2026) plus a standing-record check. **Nothing new on the record — all re-covered or parked. No library growth. Not material; staying silent. Next: rotation #3 (protocol decoders).**
+
+- **Re-covered, no change:** the AV2 version-one-point-zero codec from May twenty twenty-six — every October guide recarries the same facts: roughly thirty percent smaller files than AV1 at the same quality, decoding about five times as heavy, no browser or phone decoding shipped, no FFmpeg integration, hardware decoder designs announced but not shipped. The FFmpeg nine-point-zero-point-two release (native decoders for APV, ProRes RAW, RealVideo six, Sanyo LD-ADPCM, G seven-twenty-eight; the Vulkan compute-shader codec class) — already on record. The Playdate PDV encoder story in FFmpeg (a contributor's decoder-test work grew into a full encoder and muxer) is texture on a recorded fact, not a new finding.
+- **Parked:** a packaging thread for the SVT-AV1 encoder in NetBSD packages (packaging trivia, not codec news); an AI-driven eight-K compression claim site (single-origin claims, no verifiable primary artifact); an AV1 production deep dive (technical explainer, no news); a seventy-seven-day-old restatement of the FFmpeg nine changelog.
+- **Decoder lesson:** the codec lane has entered the re-carry era — outlets now retell each other's guides as fact. The honest shape of the lane is the pending-state-change list: a production-ready AV2 software decoder, any shipped AV2 browser or phone decode, AV2 support in FFmpeg, the container-binding specification work, a verifiable primary for the AI eight-K compression claims, and first-party confirmation of the JPEG XL browser-adoption claim. Nothing moved on any of them this pass. The eight-year AV1 deployment clock (spec twenty eighteen to near-universal device support twenty twenty-six) stays the yardstick for pricing every AV2 timeline projection.
+
+- **Shadow mirror:** skipped — the backup machine is off at the owner's request; it will flush when the connection is green.
+
