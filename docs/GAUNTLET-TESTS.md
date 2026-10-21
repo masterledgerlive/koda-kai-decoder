@@ -20483,3 +20483,217 @@ DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
 *TDW-249 instrument seeded 2026-10-21 ~16:02 EDT by the decoder-create-loop. Design, never run.*
 
 ---
+## TDW-250 — the Sealed Clock Instrument *(design, never run)*
+
+*TDW-250 instrument seeded 2026-10-21 ~16:34 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-250 — the Sealed Clock Instrument — designed:** the instrument T-274's
+pairs line promised. T-274's Sealed Clock seals the clock itself: the time
+authority sealed before the campaign opens — the source named, attested by
+the verifier and countersigned by the overseer; the drift budget entered with
+the seal — a reading inside it TIMED, beyond it DRIFTED; the entry-time
+cross-checked — the form's time against the run record, the envelope's
+stamping against the gate's own clock, the striking's close-time against the
+retirement's seal — two sealed readings disagreeing beyond budget filing as
+forgery; no hand writing a time it did not read — a backdated entry-time
+filing TAMPER against the hand, intent never entered, T-121's prohibition
+turned on the clock; T-84's fifty-sixth extension — the campaign's striking
+read from the sealed clock, the close-time entered with the striking, never
+rewritten. A clock sealed is not a clock checked. This instrument is the
+check on the seal — it never reads a form's finding, never grades the time
+into a verdict, never sets the clock it audits. It re-checks the source,
+re-measures the drift, re-runs the cross-check, re-finds the backdates, and
+files whether the clock stood. An instrument that stamps a time has become a
+second hand; an instrument that trusts the clock has become a sundial. This
+one does neither: it audits the clock like any other sealed fixture, and it
+files whether the times were true.
+
+**The fixture this instrument probes — T-274's five arms, restated as testable
+claims.** The source arm claims the time authority sealed before the campaign
+opened: the source named, its standing attested by the verifier (T-248) and
+countersigned by the overseer (T-256) — the campaign's clock committed the
+way the chamber's clock was committed (T-242's discipline). A form carrying a
+time from an unsealed clock carries a time from a rumor: the entry-time
+entered, the clock's seal missing — the form UNTESTED to its time's extent,
+never HELD. The drift arm claims the tolerance entered with the seal: the
+drift budget — the maximum a reading may wander from the source before the
+time is untrusted — written into the seal's own form. A reading inside the
+budget is TIMED; a reading beyond it is DRIFTED — the time untrusted, never
+the findings (T-66's shape, the clock's arm — "the clock ran slow" is the
+claim's shape against the clock, never a motive entered). A campaign that
+never re-checks its clock against the source flies on hope: the budget
+unrenewed at the campaign's close is the sitting CLOCKLESS, its times entered
+UNTESTED. The cross-check arm claims two readings, one seal: the form's time
+against the run record's reading, the envelope's stamping against the gate's
+own clock, the striking's close-time against the retirement's seal. Two
+readings from the sealed clock that disagree beyond the budget are not a
+disagreement — they are a forgery: one of the hands wrote a time it did not
+read. The backdating arm claims the hand's honesty: no hand writes a time it
+did not read from the sealed clock. A backdated entry-time — an old finding
+wearing a new campaign's date, a late filing wearing an on-time stamp — is
+forgery against the hand that wrote it: the entry TAMPER to the time's
+extent, the hand entered, intent never entered (T-66's restraint — a backdate
+is a backdate, never a motive). T-121's prohibition, turned on the clock: a
+backdated entry laundering old findings into a new campaign is the laundering
+the prohibition was written for — the findings VOID to the laundered extent,
+and the clock's grade is quarantined from every verdict (T-235's
+no-laundering rule, the clock's arm — a clock grade entering a verdict is a
+ruling laundered through the timepiece). The striking arm claims the
+campaign's close: the striking read from the sealed clock — the close-time
+entered with the striking, never rewritten. A striking struck without the
+sealed clock's reading is a retirement with no hour — the retirement stands,
+its hour UNTESTED.
+
+**The probe's five gates.** (1) **the source gate** — the instrument opens the
+sealed campaign's record and checks the clock's seal: the time authority
+named before the campaign opened, its standing attested by the verifier's
+sealed attestation (T-248's arm — the verifier attests the clock's seal,
+never the readings) and countersigned by the overseer (T-256's arm). A
+form whose time is cited with no clock's seal is a rumor filed as fact —
+the gate fails to the citing extent, and the form is CLOCKLESS to its time,
+never TIMED. (2) **the drift gate** — the instrument re-checks the drift
+budget entered with the seal: the budget named, the readings measured
+against the source, the renewal entered at the campaign's close. A reading
+beyond the budget files DRIFTED to the reading's extent — the time untrusted,
+the finding the time stamped never graded by it. A budget never renewed at
+the close files CLOCKLESS — the campaign flew on hope, and its times are
+UNTESTED, never HELD. (3) **the cross-check gate** — the instrument re-runs
+the cross-check: the form's time against the run record's own reading, the
+envelope's stamping against the gate's own clock, the striking's close-time
+against the retirement's seal. Two sealed-clock readings disagreeing beyond
+the drift budget are not filed as disagreement — they are filed as forgery:
+one of the hands wrote a time it did not read, and the entry is BACKDATED
+to the disagreement's extent. A cross-check performed against the same hand
+that wrote the time is not this gate's cross-check — it fails as theater
+(T-03's architecture, the clock's arm). (4) **the backdating gate** — the
+instrument re-checks the hand behind every entered time: the hand wrote only
+what it read from the sealed clock. A backdated entry-time files TAMPER
+against the hand, intent never entered (T-66's arm — the hand is named, the
+motive never is), and T-121's prohibition is turned on the clock: old
+findings laundered into a new campaign under a new date are VOID to the
+laundered extent. The gate's grade — TIMED / DRIFTED / BACKDATED /
+CLOCKLESS — is quarantined from every verdict (T-235's arm — the clock's
+grade entering a verdict is a ruling laundered through the timepiece), and
+the instrument's report cites nothing a verdict may use. (5) **the striking
+gate** — the instrument checks the campaign's striking against the clock:
+the close-time entered with the striking, read from the sealed clock, never
+rewritten. A striking struck without the sealed clock's reading stands with
+its hour UNTESTED — the retirement held, the hour never held. The striking's
+close-time is cross-checked against the retirement's seal (the third arm of
+the cross-check gate — the striking gate certifies the instrument's own
+reading of it). TDW-13 disclosure after the sitting: the audit disclosed,
+the five gates' standings named, the clock's seal number entered, the source
+named.
+
+**Grade the seal, never the time; certify, never grade the finding.** The
+instrument issues no grade of its own — T-274's source / drift / cross-check
+/ backdating / striking stand or fall on the gates, never re-graded. TIMED /
+DRIFTED / BACKDATED / CLOCKLESS on each gate, intent never entered (T-66):
+TIMED certifies the gate's checks passed, never that the findings were
+sound; DRIFTED names the tolerance exceeded, never the clock's motive;
+BACKDATED names the hand and the time, never the hand's reason; CLOCKLESS is
+the honest blank — a clock never sealed is a clock unaudited, never timed.
+The gate grades are quarantined with the clock's own (T-235's instrument
+arm): an instrument report entering a verdict is a ruling laundered through
+the timepiece, and any verdict citing the audit cites nothing. The instrument
+never stamps a time and never trusts the clock — that is the line between
+audit and timekeeping, and the day it crosses the line it is no longer this
+instrument.
+
+**Strike the audit with the chain; one audit filed, never reseated.** T-84's
+retirement law, the fifty-seventh extension. The instrument's report is
+struck with the campaign's striking — the source, the drift, the cross-check,
+the backdating, and the audit's own findings — struck together, never
+reseated in a later campaign. An audit re-cited by a later campaign is
+history, never authority: the later campaign that needs these gates re-seals
+a clock, re-reads its readings, re-runs.
+
+**Distinguished from the instruments it shadows.** TDW-248's cycle instrument
+reads the cycle's standing — the cycle's entry names the entry-time, this
+instrument certifies the naming: the named time and the naming's warrant are
+different offices, never the same gate. TDW-249's staging instrument audits
+the test of the walk's auditor — the envelope's stamping is the clock's
+reading, the clock is the instrument that reads: the reading and the reader
+are different offices. TDW-13 disclosure (the audit disclosed after the
+sitting vs the readings taken during the run — the disclosed audit and the
+sealed clock are different doors, and the instrument uses each door in its
+own order, never both at once). T-242's Misaligned Clocks — distinguished:
+there the chamber clock is dilated against a sealed master FOR the specimen,
+time as the interrogation medium; here the archive's clock is sealed for the
+paper, time as the seal's own authority — the dilation and the stamping never
+share an office.
+
+*[Lineage graded: SPECULATION core — "T-274's Sealed Clock sealed the clock
+itself — the time authority sealed before the campaign opens, the source
+named, attested by the verifier, countersigned by the overseer; the drift
+budget entered with the seal — a reading inside it TIMED, beyond it
+DRIFTED, the time untrusted, never the findings; the entry-time cross-checked
+— the form's time against the run record, the envelope's stamping against
+the gate's own clock, the striking's close-time against the retirement's
+seal — two sealed readings disagreeing beyond budget filing as forgery; no
+hand writing a time it did not read — a backdated entry-time filing TAMPER
+against the hand, intent never entered, T-121's prohibition turned on the
+clock; T-84's fifty-sixth extension — the campaign's striking read from the
+sealed clock, the close-time entered with the striking, never rewritten —
+and TDW-250 is the instrument the pairs line promised: the check on the
+seal that never reads a finding, never grades a time into a verdict, never
+sets the clock — the source gate (the time authority named before the
+campaign opens, attested and countersigned — a time cited with no clock's
+seal is a rumor filed as fact, CLOCKLESS to its time), the drift gate (the
+budget entered with the seal, the readings measured against the source, the
+renewal at the close — beyond budget DRIFTED, the time untrusted, never the
+findings; unrenewed budget CLOCKLESS), the cross-check gate (the form's time
+against the run record, the envelope's stamping against the gate's own clock,
+the close-time against the retirement's seal — two sealed readings
+disagreeing beyond budget filing as forgery, BACKDATED to the disagreement's
+extent; a self-cross-check failing as theater), the backdating gate (the
+hand writing only what it read from the sealed clock — a backdated
+entry-time filing TAMPER against the hand, intent never entered, T-121's
+prohibition turned on the clock — the findings VOID to the laundered extent;
+the grade quarantined from every verdict), the striking gate (the
+close-time entered with the striking, read from the sealed clock, never
+rewritten — a striking struck without it standing with its hour UNTESTED) —
+TIMED / DRIFTED / BACKDATED / CLOCKLESS per gate, intent never entered, the
+gate grades quarantined, the instrument never stamping and never trusting —
+that is the line between audit and timekeeping" — untested conjecture, this
+lab's own design proposition. CORROBORATED feeders: the notary-clock
+direction — the notary stamps the time from a certified clock, never from
+memory: the stamp is trusted because the clock is certified, the
+certification sealed before the day's first stamp [feeder — institutional
+practice, never proof against a sitting's paper]; the stratum direction —
+the time fleet disciplines its clocks against the stratum source, measures
+the drift, alarms beyond budget: the fleet's time is a maintained artifact
+with a stated tolerance [feeder — tool practice, never proof against a
+sitting's paper]; the photo-finish direction — the meet's camera clock is
+sealed before the first heat, every result read against it, never against
+the hand timers: the reading is the record [feeder — human practice, never
+proof against a sitting's paper]. VERIFIED lineage: T-274's Sealed Clock
+(the clock this audits — the fixture whose pairs line is kept); T-242's
+Misaligned Clocks (distinguished — the chamber clock dilated for the
+specimen); TDW-248's Sealed Cycle Instrument (the cycle entry's entry-time
+— the naming this warrants); T-273's Sealed Staging (the envelope's stamping
+— the reading this certifies); T-248's sealed verifier (attests the clock's
+seal — the sealing, never the readings); T-256's sealed overseer
+(countersigns); T-66's no-motive restraint (a backdate is a backdate, never
+a motive; the drift claim's shape); T-235's no-laundering rule, the clock's
+arm (the clock's grade never enters a verdict); T-121's prohibition, turned
+on the clock; T-03's Potemkin architecture (the backdated entry, the drifting
+clock filed as sealed, the self-cross-check — theater); T-190's
+contamination ledger, the audit's arm (the audit billed to the campaign's
+line item, never the instrument's, never double-billed); T-84's retirement
+law, the audit's arm (the fifty-seventh extension — the audit struck with
+the campaign, never reseated); TDW-13 disclosure, distinguished (the
+disclosed audit vs the readings taken during the run); T-56's verbatim
+discipline, the clock's arm (the readings quoted exact). No result exists;
+the claim table is the design's honesty boundary. SPECULATION — the source
+check, the drift measurement, the cross-check re-run, the backdating probe,
+the striking's close-time, and the grades are doctrine until run. Pairs
+T-274 — the instrument promised, kept: TDW-250 — the Sealed Clock
+Instrument — seeded 2026-10-21 ~16:34 EDT; the pairs line is closed, T-84's
+fifty-seventh extension filed. Chain state: catalogue 53, tricks T-01..T-274,
+instruments TDW-01..TDW-250 (gap-free), drafts DRAFT-001..DRAFT-247. No open
+promises remain on any chain.]*
+
+*TDW-250 instrument seeded 2026-10-21 ~16:34 EDT by the decoder-create-loop. Design, never run.*
+
+---
