@@ -5051,3 +5051,11 @@ Two targeted news-vertical searches (new video codec announcements October 2026;
 
 - **Shadow mirror:** skipped — the backup machine is off at the owner's request; it will flush when the connection is green.
 
+
+## 2026-10-20 ~20:27 EDT — Protocol decoders (rotation #3, sixty-seventh pass)
+
+Two targeted news searches (Wireshark five point zero release-notes new protocols; new dissector merges October twenty twenty-six) plus a first-party re-read of the project road map. Quiet loop — nothing new to record. No library growth. Next: rotation four, language decoders.
+
+- Re-covered, no status change: the four point six point nine and four point four point nineteen maintenance releases of September twenty-third (thirty-five advisories combined, security and hardening only, no new protocols). One fresh write-up of that wave named the sustained contributors behind it: Trend Micro's Zero Day Initiative, Aisle Research, and Daniel Birtwhistle — a standing program of fuzzing the dissectors with malformed data, not one-off bug reports.
+- Watch item re-confirmed: Wireshark five point zero point zero release candidate one and Stratoshark one point zero point zero release candidate one are both still scheduled for October twenty-first, twenty twenty-six — tomorrow. No release notes published yet; the new protocol surfaces get graded from the first-party notes once they land.
+- Parked: one third-party version-tracking page lists a nonexistent four point six point sixteen release — stale data, not a Wireshark fact.
