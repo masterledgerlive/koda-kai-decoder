@@ -5393,3 +5393,8 @@ Two targeted news searches plus a live read and a check against the standing rec
 Library: catalogue's suggestion-implant section grew with both vulnerability records. Next: rotation twelve (math/physics engines).
 
 ---
+
+
+## 2026-10-21 ~13:57 EDT — decoder-research-loop — Math/physics engines (rotation #12, seventy-eighth pass)
+
+Math/physics-engine track. One item new to record this pass: **NVIDIA cuDSS reached general availability (announced today)** — a CUDA-X direct sparse linear-solver library (real/complex, general/symmetric/positive-definite, single/double/double-double precision, C/C++/Python/Fortran interfaces, workstation-to-cluster) with integrator-reported speedups (Applied Materials up to 10x in Ginestra; Dassault Systèmes 8–10x in Abaqus; ZEISS SMT measured 4x in a COMSOL EUV-plasma benchmark). [CORROBORATED — NVIDIA first-party announcement + COMSOL first-party integration note + independent secondary retells; speedup figures remain vendor/integrator-cited]. New watch item: the Mistral × NVIDIA physics-AI partnership (announced today — public benchmarks and open datasets planned, open-weight model late October) — announcement only, no artifact yet [ANNOUNCED]. Library `docs/MATH-PHYSICS.md` §31 grown with the cuDSS entry. SymPy 1.14.0 / SciPy 1.18.1 remain the stable releases; openCFS 2026S, GE-Sim 2.0, DISCOVER, MuJoCo/Warp — all re-covered with no status change. No verdicts issued. Next: rotation #13 (unsolved ciphers & prize bounties).
