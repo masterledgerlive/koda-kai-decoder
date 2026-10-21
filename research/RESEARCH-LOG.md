@@ -5407,3 +5407,8 @@ Two news searches (Voynich decipherment claims; Indus script prize; October 2026
 
 Quiet loop. Two news searches found nothing new — every result was already on record (the September AI-codebreaking wave: the eighteen-oh-nine Marmont letter, the nineteen-forty-one MVUEH Enigma message, the second Enigma break, the fifteen-ninety-three Catholic League letters, the nineteen-eighteen ADFGVX message; seven public-collection Enigma messages remain unsolved). A second search for Bletchley-area declassifications turned up only recrawls — the Hut Six Turing notes story, anniversary press materials, and a local profile of a centenarian Bombe operator. No new declassification, no new archival release, no library growth. Next: rotation #2 (codecs & formats).
 ---
+
+## 2026-10-21 ~15:28 EDT — decoder-research-loop — Codecs & formats (rotation #2, eighty-first pass)
+
+Quiet loop. Two news searches found nothing new to record — every result was already on record: the June twenty twenty-six AV2 specification with no browser or hardware decode as of October, no FFmpeg integration, and the announced-not-shipped hardware decoder IP trio; the TurboQuant, TurboVec, and point-cloud papers that are not and were never a Google voxel codec; and the parked NeuralCodec-8K primary. All five pending board items stand, no library growth. Next: rotation #3 (protocol decoders).
+---
