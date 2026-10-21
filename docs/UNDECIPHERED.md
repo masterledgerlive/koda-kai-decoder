@@ -484,6 +484,17 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   and software Bombe, and broke it in about two days; validated by Frode
   Weierud. The obstacles were operator typos, a wrong wheel order, and dirty
   transcription — usage flaws, not the machine. [CORROBORATED]
+- **Mary Stuart's 57 letters** (2023) — ciphered letters of Mary, Queen of
+  Scots from her English captivity (1578–1584), decoded by Lasry, Biermann,
+  and Tomokiyo and published in *Cryptologia*. The 57 letters sat mislabeled
+  in the Bibliothèque nationale de France's digital archive as early-16th-
+  century Italian papers; their royal provenance was unrecognized until after
+  the cipher fell. [VERIFIED] The cipher was a 219-symbol nomenclator with
+  homophones and diacritic modifiers — including a "delete previous" symbol.
+  The human error was the catalog label, not the mathematics: seven plaintext
+  copies of the same letters in the British Archives confirmed the reading.
+  Doctrine hold: the Gauntlet interrogates provenance labels before content.
+  [DOCTRINE]
 - **Dhofari 1** (2026) — pre-Islamic script of Oman's Dhofar region, undeciphered
   since the early 20th century; cracked by Ahmad Al-Jallad (Ohio State),
   published in *Jaarbericht Ex Oriente Lux*. The break: three inscriptions
@@ -524,8 +535,9 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
 | MVUEH Enigma | 1941/2026 | Solved 2026 (agent) | — |
+| Mary Stuart's 57 letters | 1578–1584/2023 | Solved 2023 (Lasry, Biermann, Tomokiyo, *Cryptologia*); BnF mislabel hid them; 219-symbol nomenclator | — |
 
-*Updated 2026-10-15. The newest crack gets reported with its why and its human
+*Updated 2026-10-21. The newest crack gets reported with its why and its human
 error — always.*
 
 
