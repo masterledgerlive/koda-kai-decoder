@@ -2415,6 +2415,28 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **Anthropic adds a statistical watermark to all Claude text output (reported October 19, 2026; new to record; minor material — a new frontier-lab AI-awareness and detection technique).** Per the report, small changes in word choice create a detectable pattern of "less probable" words at specific intervals. The exact mechanism and the detection implementation are undisclosed, with an assumed arms race against "text humanizer" tooling. The detection-side corollary to the soft-watermarking track: an undisclosed watermark is a deployed-technique claim, not a measured property, and detection and anti-detection sit on the same curve, one vendor announcement apart — a counterpart against which detection lanes can be calibrated. [CLAIMED — a single secondary source; no Anthropic technical text read this pass; no independent detection confirmation]
   - Source: https://comobusinesstimes.com/2026/10/19/ai-detection-arms-race-takes-off/
 
+- **Adaptive self-improving CAPTCHA solver (academic research, summarized by Bruce
+  Schneier October 19, 2026; new to record; minor material — a new anti-detection
+  research technique).** A fine-tuned YOLOv8 detector paired with an open-weight
+  vision-language model behind a confidence-based router; screenshots and operating
+  system input events only, no browser automation or DOM access. Eighty-five point
+  four percent overall and eighty-four point two percent macro accuracy across
+  sixteen CAPTCHA classes, exceeding either component alone. Every answer the
+  language model produces also serves as a training label: the detector absorbs
+  categories it was never trained on after one or two encounters, with no human
+  annotation, and the same loop repairs it — perturbations that drive the detector
+  to zero percent accuracy leave the language model untouched and its labels let the
+  detector recover. Under a year-long simulated arms race with monthly re-crafted
+  perturbations, the solver recovered every round, and a cheap roughly seventy
+  percent accurate open-weight teacher hardened it as effectively as a perfect
+  oracle. The fatal assumption of static CAPTCHA defenses is that a failing bot
+  stays failing; a self-labeling solver violates it by design. The threat model
+  now reads: free, local, repeatable — and self-repairing. Watch: the paper itself
+  first-party, and independent replication of the recovery-in-every-round claim.
+  [CORROBORATED — Schneier summary of an academic paper; the paper not opened
+  first-party; no independent replication seen]
+  - Source: https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
