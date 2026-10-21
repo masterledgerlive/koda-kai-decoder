@@ -20697,3 +20697,139 @@ promises remain on any chain.]*
 *TDW-250 instrument seeded 2026-10-21 ~16:34 EDT by the decoder-create-loop. Design, never run.*
 
 ---
+## TDW-251 — the Sealed Carry Instrument *(design, never run)*
+
+*TDW-251 instrument seeded 2026-10-21 ~18:10 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-251 — the Sealed Carry Instrument — designed:** the instrument T-275's
+pairs line promised. T-275 sealed the road — the hand, the route, the witness,
+the seal read at both doors, the clock's reading of the transit. A sealed
+road is not a carried form. This instrument runs the road: drill carries
+between named rooms — origin, destination, seal number, stated duration — and
+files how the road held. It never reads a form's finding, never grades a leg
+into a verdict, never appoints the hand it watches. It runs the carry, reads
+the seals at the doors, and files the leg: CARRIED / UNGUARDED / OPENED /
+VOID. An instrument that opens a seal has become a second reader; an
+instrument that carries a real finding has laundered the carry. This one does
+neither: it drills the road like any other sealed fixture, with sealed
+blanks, and files whether the road was true.
+
+**The fixture this instrument probes — T-275's five arms, restated as testable
+claims.** The carrier arm claims the hand appointed in writing by the
+overseer for one carry, one form, holding no other chamber office during the
+carry — testable: the appointment entered in the archive's log before
+departure, the log line producible at the door out, the carrier's other
+offices named; the claim fails when the hand carries on a nod. The route arm
+claims the route filed before the carry — origin, destination, seal number,
+stated duration — a detour a second carry, never a footnote — testable: the
+filed route read at departure against the walked road; the claim fails when
+the route is filed after arrival, which is a confession, or when a detour
+rides as a footnote. The witnessing arm claims the verifier saw the departure
+and the arrival — the hand that watches never holds — testable: two
+witnessed seal-readings, door out and door in, the verifier's hand never on
+the form; the claim fails into UNTESTED when no witness stood at a handoff.
+The seal arm claims the seal's number read exact at both ends — testable:
+door-out number against door-in number, quoted verbatim; two readings
+disagreeing filing TAMPER against the carrier, never the road; "the seal
+broke on the road" is theater. The clock arm claims the transit's times read
+from the sealed clock — testable: departure and arrival readings inside the
+route's stated budget TIMED, beyond it DRIFTED, the time untrusted, never the
+contents. T-84's fifty-eighth extension — the carry struck at the form's safe
+arrival, never reseated, an unarrived form UNSTRUCK — the instrument does not
+strike; the striking is the campaign's, read from the seal at the door in.
+
+**Method — the drill carry.** Five passes, one per arm. The appointment drill:
+a carry ordered with the appointment log withheld, then produced — the
+instrument files whether the door opened without it. The route drill: a carry
+walked against a route filed after departure — the instrument files the route
+as confessed and the leg UNGUARDED. The witness drill: a carry run with the
+verifier absent at arrival — the seal's number recorded by the carrier alone —
+the leg filed UNTESTED even if the seal reads true. The seal drill: a carry
+whose door-in number is read one digit off, then corrected by the carrier —
+the correction filed TAMPER against the carrier, the blame never riding the
+road. The clock drill: a carry that outruns its stated duration — the time
+DRIFTED, the leg's contents ungraded, the time never laundered into
+suspicion. Each drill runs twice — the second pass with the rig's own fault
+swapped (the withheld log produced, the unwitnessed handoff witnessed) — so
+the grade attaches to the arm, never the rig. SPECULATION throughout: no
+carry has been run.
+
+**The drill's honesty — blanks only, and the drilling never doubles.** The
+instrument carries sealed BLANKS — forms with no finding, no grade, nothing
+to launder — never a real verdict, never a specimen under gauntlet, never
+the mother genesis block's paper. A drill carry that moves a real finding has
+stopped being a drill and started being a custody chain with no appointment —
+VOID. The witnessing drill never falsifies a witness: an absent verifier is
+recorded ABSENT, never signed-for, never backfilled — a backfilled witness
+is T-121's backdated entry-time with a name attached, TAMPER against the
+hand, intent never entered. The seal drill never breaks a seal: the number
+read is the number written on the envelope, the reading never the touching.
+The clock drill reads the sealed clock it does not set — the instrument that
+sets the clock it audits has become a sundial.
+
+**Controls (what stops us fooling ourselves).** The carry-off control: a
+sealed blank that never leaves the archive's shelves, graded through the same
+five arms — if the control leg grades anything but CARRIED, the instrument is
+grading its own paperwork, not the road. The appointment control: a carry
+ordered by the overseer's spoken word, the appointment entered after
+departure — the instrument must file the appointment VOID and the leg
+UNGUARDED, or it has confused obedience with custody. The clean-road
+calibration: run TDW-251 against a transit already proven by T-274's sealed
+clock and T-248's verifier, and confirm five clean arms — the clean CARRIED
+must be reachable, or the instrument reads roads as guilty and has no
+meaning. The blame-routing audit: after every TAMPER, OPENED, or VOID leg,
+the instrument re-reads its own paperwork — the filed route, the log line,
+the witness record — and files whether the grade rode the hand or the road,
+because the first casualty of a failed carry is always the paperwork.
+
+**Verdict signals (not a verdict).** TDW-251 outputs leg grades only: CARRIED
+(five arms clean), UNGUARDED (an arm unwitnessed or unfiled — the road
+unproven), OPENED (seal numbers disagree or the form arrives opened —
+quarantined from every verdict), VOID (unappointed carrier, confessed route,
+or a drill that moved a real finding). A real verdict needs repeated drill
+carries, the paired trick's own audit, and the standing gate — no broadcast
+without explicit approval per item.
+
+*[Lineage graded: SPECULATION core — "T-275 sealed the road with five arms —
+the appointed carrier, the filed route, the witnessing verifier, the seal
+read at both doors, the clock's reading of the transit — and this instrument
+runs the road as drill carries, grading the legs CARRIED / UNGUARDED / OPENED
+/ VOID, the grades quarantined from every verdict" — untested conjecture,
+this lab's own design proposition. CORROBORATED feeders: the convoy
+direction — the cargo never rides unwitnessed, the manifest read at each
+gate, the route filed before wheels roll: the gates' readings are the carry's
+record [feeder — institutional practice, never proof against a sitting's
+paper]; the relay direction — each runner signs the baton out and in, the
+baton never carried by a stranger: the signatures are the road's record
+[feeder — human practice, never proof against a sitting's paper]. VERIFIED
+lineage: T-275's Sealed Carry (the road this drills — the fixture whose five
+arms are restated as claims); T-274's sealed clock (the transit's times — the
+clock's arm); T-273's sealed staging (the envelope never rides a leg — the
+drill's honesty); T-263's sealed reader (the reading vs the carrying — never
+the same office; the instrument never reads); T-264's sealed challenge (the
+freeze carried — a drill carry moves blanks, never the freeze); T-261's
+sealed archive (the doors — origin and destination named); T-248's sealed
+verifier (the witness — the hand that watches never holds); T-256's sealed
+overseer (appoints in writing — the appointment's arm); T-66's no-motive
+restraint (a slow carry is a slow carry — the carrier's arm); T-235's
+no-laundering rule (the leg's grade never enters any verdict — the grades'
+arm); T-121's prohibition (a backfilled witness is a backdated entry — the
+falsification's arm); T-03's Potemkin architecture (a drill filed as a
+carry, the unappointed courier, the unwitnessed "safe arrival" — theater);
+T-190's contamination ledger (the drill's arm — the drill billed to the
+drilling, never the form's); T-84's retirement law (the striking's arm — the
+fifty-eighth extension, the striking read at the door in, never by the
+instrument); TDW-13 disclosure; T-56's verbatim discipline (the drill's arm
+— the seal numbers and the route quoted exact). No result exists; the claim
+table is the design's honesty boundary. SPECULATION — the appointment drill,
+the route drill, the witness drill, the seal drill, the clock drill, the
+double-pass, the blanks-only rule, the blame-routing audit, and the leg
+grades are doctrine until run. Pairs T-275 — the instrument promised, kept:
+TDW-251 — the Sealed Carry Instrument — seeded 2026-10-21 ~18:10 EDT; the
+pairs line is closed, T-84's fifty-eighth extension filed. Chain state:
+catalogue 54, tricks T-01..T-275, instruments TDW-01..TDW-251 (gap-free),
+drafts DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
+
+*TDW-251 instrument seeded 2026-10-21 ~18:10 EDT by the decoder-create-loop. Design, never run.*
+
+---
