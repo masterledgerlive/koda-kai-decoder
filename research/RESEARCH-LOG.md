@@ -5427,3 +5427,13 @@ Two news searches plus a standing-record check. Two items new to record: an Appl
 
 ---
 
+## 2026-10-21 ~17:01 EDT — decoder-research-loop — Quantum decoding (rotation #5, seventy-second pass)
+
+Three news searches plus a standing-record check. **One item new to the record — a claimed quantum error-correction decoder milestone from Quantum X Labs (October 21; CLAIMED — vendor press release only, no independent replication, no peer review). Not material for the library** — vendor-claimed decoder improvements stay on record without catalogue growth until they replicate. No new quantum decoding advance, no quantum advantage result, nothing broadcast.
+
+- **New claimed — Quantum X Labs decoder on NVIDIA CUDA-Q (CLAIMED).** The company says its error-correction decoder now runs on NVIDIA's CUDA-Q platform and reports twelve to thirteen percent fewer logical errors than the platform's standard matching decoder (PyMatching) on Google's publicly released surface-code hardware data — ten thousand held-out runs of five error-correction rounds at two code sizes, run like-for-like through the same interface, by the vendor's description. The decoder is the classical half of error correction: the software that reads error measurements and decides the fix — so a genuinely better drop-in decoder would buy reliability without new hardware. But the honest state is one vendor release, no preprint, no independent check of the figure. It stays claimed until a replication or a manuscript lands. Decoder Desk brief at podcasts/decoder-briefs/2026-10-21-1701.md.
+- **Federal post-quantum clock: one day out.** Agency migration plans are due tomorrow, October 22, 2026 — no public announcement of submissions or extensions yet. New texture: an October 19 analysis naming the certification bottleneck (the NIST validation pipeline cannot deliver post-quantum modules at the deadline's pace), and an October 16 algorithm comparison carrying the Cloudflare figure that roughly seventy percent of browser traffic already negotiates a post-quantum hybrid key exchange — a market-penetration data point new to this record. The next pass grades whether the plans landed.
+- **No status change:** the Quantinuum color-code record and its preprint (named and dated in the prior pass), Google's Willow magic-state cultivation (published in Science on October 15 — verified; the press window continues with no new facts), the MITRE September readiness assessment (still awaiting a first-party read), and the rest of the quantum-decoding and post-quantum-migration watch items. Next: rotation six (photonic communications and power).
+
+---
+
