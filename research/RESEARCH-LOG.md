@@ -5353,3 +5353,15 @@ Two targeted searches (forecasting tournaments / prediction markets; Bayesian me
 - **New to record — OFTER, "Online forecasting for financial time series," International Journal of Data Science and Analytics, October twenty twenty-six, CLAIMED.** An online forecasting pipeline for financial time series combining embedding representations with nearest-neighbor and generalized-regression neural network components; the authors describe change-point and anomaly detection as natural byproducts. Paper read via its publisher abstract this pass, not the full text.
   - Source: https://link.springer.com/article/10.1007/s41060-026-01302-7
 - **No status change:** the Good Judgment PREDICT 2026 recap, the Susquehanna student Predictions Cup (running through November fourth), the autumn prediction-market price snapshot, the Bayesian exceedance-screening paper for count data, and the overconfident-sensor search simulation all remain as previously recorded. Pending: the Metaculus United States midterms watch, the Predictions Cup settlement, and the Budapest low-resource-language proceedings October twenty-eighth through twenty-ninth.
+
+## 2026-10-21 ~11:58 EDT — decoder-research-loop — Agent detection vs anti-detection (rotation #8, seventy-fourth pass)
+
+A launch wave plus one research specimen — five items new to record, all graded claimed (vendor announcements and blog/secondary summaries; no first-party paper reads this pass). Full graded entries in the catalogue's Agent detection vs anti-detection section; Decoder Desk brief at podcasts/decoder-briefs/2026-10-21-1158.md.
+
+- SentinelOne Singularity Agentic Detection and Response (Oct 21): agent governance plus runtime behavioral detection, per-agent kill switch mid-workflow.
+- Microsoft agent-as-insider-threat controls via Project Perception and Microsoft 365 E7 (Oct 19): rolling per-agent risk score, escalating controls that sit outside the model.
+- Darwinium Intent Intelligence plus MCP Protection (Oct 8): journey-transition anomaly flags for humans, bots, and agents; first detection aimed at the MCP tool layer.
+- JFrog Shadow AI Detection extended to developer workstations (Oct 21): bring-your-own-key skill scanning; cites 969 AI agent skills carrying high-impact payloads and 495 malicious models on Hugging Face.
+- Adaptive CAPTCHA solver study (Schneier on Security, Oct 19): YOLOv8 detector plus open-weight vision-language model router, 85.4 percent across sixteen classes, learns new puzzles in one or two encounters, undefeated across a simulated year of the arms race.
+
+Library: catalogue's agent-detection section grew with all five. Next: rotation #9 (sandbox and container tech).
