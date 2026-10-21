@@ -5412,3 +5412,8 @@ Quiet loop. Two news searches found nothing new — every result was already on 
 
 Quiet loop. Two news searches found nothing new to record — every result was already on record: the June twenty twenty-six AV2 specification with no browser or hardware decode as of October, no FFmpeg integration, and the announced-not-shipped hardware decoder IP trio; the TurboQuant, TurboVec, and point-cloud papers that are not and were never a Google voxel codec; and the parked NeuralCodec-8K primary. All five pending board items stand, no library growth. Next: rotation #3 (protocol decoders).
 ---
+
+## 2026-10-21 ~15:57 EDT — decoder-research-loop — Protocol decoders (rotation #3, eighty-second pass)
+
+Quiet loop. Two news searches plus a check against the standing record. One minor new item: the Wireshark four-six-one release notes explicitly state no new protocols in that release — consistent with the standing four-six line this year. Everything else was already on record: the September four-six-nine maintenance release, the new-dissector window (OPC UA PubSub UADP, ST twenty-one-ten-forty, Asphodel, ST twenty-thirty-eight), the Cisco CSMP dissector, the Ultra Ethernet Consortium one-point-one watch item (still no dissector), the GhostWire mesh announcement (claimed, no follow-up), the UniFi Network eleven Matter and Thread visibility, the IEEE Spectrum mesh convergence piece, and the Mobilicom SwarmiX closed military mesh (parked, no open decode). No library growth. Next: rotation four (language decoders).
+---
