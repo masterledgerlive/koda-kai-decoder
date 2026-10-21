@@ -4499,6 +4499,49 @@ decoder-research-loop.*
   attacker budget, never at published success rate. [CORROBORATED —
   vendor methodology page; the database count is the vendor's own query]
 
+- **CVE-2026-114107 — prompt-injection-to-root-shell (published to
+  the vulnerability database October 21, 2026; NEW TO RECORD;
+  MATERIAL).** An AI research agent, versions zero point one point zero
+  through zero point one point six, fixed in zero point one point
+  seven. The attacker plants instructions in a document or web page the
+  agent is asked to process — the canonical delivery is a
+  benign-looking file handed over for summarization, where the user
+  never interacts with the attacker at all. The model cannot reliably
+  separate the text it analyzes from instructions, so it emits a call
+  to the agent's shell tool, which runs model-written commands with no
+  allow-list, no confirmation step, and no sandboxing — and the
+  container runs as root. A URL-fetching tool with no hostname
+  allow-list adds server-side request forgery to the chain. Rated High,
+  CVSS four point zero eight point seven. The vulnerability record is
+  the first in this catalogue to carry the dedicated prompt-injection
+  weakness identifier; the project's own advisory also lists
+  code-injection, command-injection, and request-forgery weaknesses, and
+  groups five findings under one root cause: the tool the model can
+  call ships with zero input validation between the model and the
+  system. Decoder lesson: the payload never touches a user prompt —
+  the tool layer is the trust boundary that was never built — and the
+  fix-for-login-alone-doesn't-close-it note is the hardening rule
+  written as someone else's lesson. Pairs with the read/act-separation
+  patent design on record as the attack that design was filed against.
+  [CORROBORATED — database record published today via VulnCheck; the
+  database entry itself not opened directly this pass]
+  - Source: https://dev.to/actionable-vectors/summarize-this-document-then-run-it-vibe-tradings-prompt-injection-to-root-shell-5bk6
+
+- **CVE-2026-114106 — sibling file-read and path-traversal (same
+  product, same disclosure window; NEW TO RECORD).** The release's
+  file-reading tools could be steered into sensitive system files,
+  including the password-hash file and the process environment where
+  API keys are stored. The read-lane twin of the attack above: the
+  lesson is to grade reading tools for path-bound enforcement, not
+  just writing tools for allow-lists. [CORROBORATED]
+
+- **Lane texture — the dedicated prompt-injection weakness identifier
+  enters the record.** Earlier this month zero of one hundred
+  forty-one prompt-injection vulnerability records used it; this new
+  record does. The field's miscategorization is starting to correct,
+  so future catalogue searches query the dedicated identifier
+  alongside the code-injection and command-injection categories.
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
