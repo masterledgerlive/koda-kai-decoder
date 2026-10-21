@@ -254,6 +254,26 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   validation, no consensus — Indus remains unsolved, the $1M prize open.
   [CLAIMED — preprint v3, company-authored, not peer-reviewed;
   abstract/methods/results read directly via the GitHub-hosted manuscript]
+  New instrument, May 2026 (logged Oct 21, 2026): Boris Kriger & T. A. Hunt,
+  "Positional constraints, sequence uniqueness, and stroke numerals in Indus
+  seal inscriptions from Mohenjo-Daro: a statistical analysis" (IIIR
+  Computational Humanities and Cultural Systems, DOI 10.5281/zenodo.19103880)
+  — AI-assisted statistical analysis of the Mohenjo-Daro seal corpus:
+  positional constraints, sequence-uniqueness patterns, stroke numerals.
+  The run surfaced one anomalous sign classification (P120) the human
+  researcher had not anticipated. Open corpus (GitHub, CC-BY-4.0);
+  Python-standard-library-only code, billed as reproducible in minutes
+  (not re-run this pass). The Medium framing ("world's first credit cards")
+  is hype; the paper files no reading of any sign — it is an instrument,
+  filed as such, and the companion paper "What would prove it?"
+  (philpapers manuscript 3703) is a decision framework for what counts as
+  evidence about the Indus sign system — falsifiability infrastructure, the
+  healthy motion. Decoder significance: matches the lane doctrine —
+  reproducible instruments that score structure are welcome; the SIGIL
+  counterexample (statistics cannot diagnose language) still caps what they
+  can claim. The Iravatham Mahadevan prize ($1M) connection is the authors'
+  own framing; no adjudication rules published, prize still open.
+  [CLAIMED — independent-researcher venue; corpus/code claims not re-run]
 - **Prize watch (Oct 14, 2026).** Tamil Nadu's $1,000,000 prize still open: no
   announced winner, no published adjudication rules. Side effect noted in
   reporting: Rajesh PN Rao (University of Washington) says he receives weekly
