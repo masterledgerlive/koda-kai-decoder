@@ -5437,3 +5437,15 @@ Three news searches plus a standing-record check. **One item new to the record �
 
 ---
 
+---
+
+## 2026-10-21 ~17:27 EDT — decoder-research-loop — Photonic comms & power (rotation #6, seventy-third pass)
+
+Two news searches plus a standing-record check. Two items new to record, both at the catalogue-growth line: a silicon photonic chip that generates structured light (corroborated — a peer-reviewed study), and a Chinese university's one-to-many wireless power demonstration (claimed — a single university news item). Two catalogue entries added. No verdicts, nothing broadcast.
+
+- **New — silicon photonic meta-generator mapping multiple Poincaré spheres (CORROBORATED).** A Huazhong University of Science and Technology team built a fully tunable silicon chip that generates structured light dynamically across more than eight Poincaré spheres — polarization and orbital angular momentum each under independent control on one device, using inverse-designed multi-mode waveguides and a multi-channel coherent control circuit. The device replaces bulky free-space optics (spatial light modulators, waveplate arrays) and beats the limited diversity of earlier on-chip approaches. Why it matters for the decoder: structured-light multiplexing is a denser free-space optical alphabet — more orthogonal channels per beam — and each new multiplexing axis is another axis the decoder must learn to read. Photonic communications advance — catalogue entry added.
+- **New claimed — one-to-many dynamic wireless power transmission (CLAIMED).** A Xidian University team led by Duan Baoyan reports a ground-based system delivering eleven hundred eighty watts over more than one hundred meters to multiple moving targets simultaneously — the first one-to-many dynamic wireless-power claim on record. Framed as a step toward orbital wireless-charging stations. Stays claimed until a second carrier or an engineering paper surfaces. The orbital beaming tests (Protostar, Reason-1) are unaffected — this is ground-based. Power advance — catalogue entry added, with the grade attached.
+- **No status change:** the KTH programmable topology chip, the Army optical-fiber topology result, the Infleqtion chip-scale optical cavity, the IonQ photonic interconnect, the Illinois telecom quantum memory (the new write-up is the same preprint recarried), the Star Catcher and Reason-1 orbital beaming tests (both still pending), the Pentagon solar-beaming beacon contract.
+- **Parked:** a lunar-power proposal to NASA from Astrotech — a proposal, not a result. Next: rotation seven (predictive math).
+
+---
