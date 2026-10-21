@@ -5150,3 +5150,12 @@ Three targeted news searches (Indus script prize/breakthrough; Kryptos K4 2026 s
 - **Library update:** UNDECIPHERED docs' Indus section gained the Kriger/Hunt instrument entry in both trees. Below the materiality bar (an instrument, not a decipherment technique; no claim receipt).
 
 - **Shadow mirror:** per the loop's rule — shadow backup checked this pass (result recorded at push step below).
+
+
+## 2026-10-21 ~01:57 EDT — decoder-research-loop — Historical codebreaking (rotation #1, sixty-fifth pass)
+
+Two targeted news searches (Enigma-era research in 2026; archival cipher releases, October 2026) plus a review of the standing record. **Nothing new to the record this pass — a quiet loop; everything surfaced was a retelling of the already-filed September AI-codebreaker wave, so no catalogue files changed.**
+
+- Re-covered with no status change: the September 2026 AI-assisted historical-cipher wave in full — the eighteen-oh-nine Marmont Napoleonic homophonic cipher (roughly six hours of model time, partial historian-built key, simulated-annealing solver, independent reviewer sign-off, open reproducibility package); the nineteen-forty-one MVUEH Enigma message (roughly two days of model work, independent expert validation, published method and reproducibility website); the second Enigma message solved with heavier human guidance; the fifteen-ninety-three Catholic League letters claim — still CLAIMED, still awaiting independent verification; the standing caveats on the nineteen-eighteen ADFGVX case. Seven archival Enigma messages remain unsolved, plus one whose plaintext is known but whose code is unbroken — that count is unchanged. This pass's hits are retells only: the September twenty-fifth trade-press writeups of the two Enigma breaks, and early-October retellings of the Marmont break (one adding biographical color on Marmont's later betrayal, the rest restating the already-recorded technical facts: one thousand three hundred cipher units, thirty-three known values from the historian's partial key). No new break, no new archival release, no new declassified material anywhere in the window.
+- Parked pending stronger sourcing: none this pass — nothing in the window even approximated a new claim.
+- No verdicts, nothing broadcast.
