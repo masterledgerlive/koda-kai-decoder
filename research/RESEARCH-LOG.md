@@ -5365,3 +5365,12 @@ A launch wave plus one research specimen — five items new to record, all grade
 - Adaptive CAPTCHA solver study (Schneier on Security, Oct 19): YOLOv8 detector plus open-weight vision-language model router, 85.4 percent across sixteen classes, learns new puzzles in one or two encounters, undefeated across a simulated year of the arms race.
 
 Library: catalogue's agent-detection section grew with all five. Next: rotation #9 (sandbox and container tech).
+
+
+## 2026-10-21 ~12:33 EDT — decoder-research-loop — Sandbox & container tech (rotation #9, seventy-fifth pass)
+
+Two targeted searches plus a standing-record check. **Nothing new to record — quiet loop. No library growth. NOT MATERIAL** (no new isolation primitive, no new decipherment technique, no new codec/format, no quantum decoding advance, no photonic comms/power advance, no new agent-detection or anti-detection technique, no rogue-agent threat intel, no real suggestion-implant attack in the wild). No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+- **Re-covered, no status change:** the Kubernetes declarative-sandbox CRD pattern (vendor growth figures stay claimed); the sandbox-forking convergence (all fork-latency figures stay claimed); the GKE sandbox recirculations (framing only); the practitioner tiered-isolation consensus (hardened containers for trusted work, microVMs for hostile code); the open-source production sandboxes on record (Perplexity SPACE, NovitaBox); the Vercel challenge findings and CVE-2026-99999 entry (on record).
+- **One caveat noted, not re-graded:** a fresh writeup cautions that Vercel's own disclosure lists the CVE identifier as still pending and not independently confirmed, while the catalogue's entry grades the assignment and patches as corroborated. Logged as an open sub-item: a first-party read of the CVE record and the kernel commit settles it. The mechanism itself is corroborated.
+- **Shadow mirror:** skipped — the backup machine is off at the owner's request; it will flush when the connection is green.
