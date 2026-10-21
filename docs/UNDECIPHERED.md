@@ -375,6 +375,26 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   derived from. Explicitly not a decipherment — claimed — but now the
   reference example for the intake bar: calibrated controls, published
   negatives, no self-grading.
+  (h) Colin Layfield (University of Malta) and Lisa Fagin Davis, "Singulion
+  Structure and the Voynich Manuscript" (Digital Medievalist, peer-reviewed,
+  October twenty twenty-six; new to record — method and source texture for
+  the on-record mis-binding finding): a numerical-analysis tool comparing
+  blocks of text found attached pages scoring highly for coherence even
+  across many intervening pages — the folded sheets were likely stacked as
+  loose "singulions" (like Christmas cards) and mis-bound in the standard
+  nested arrangement in the mid-to-late fourteen hundreds, so the book has
+  been read in the wrong page order for centuries. The visual evidence
+  agrees: illustrations of streams or pipes that run into the gutter and
+  fail to match across the spread join up once the pages are treated as a
+  loose stack. The only other medieval manuscripts known in a singulion
+  arrangement are north African Qurans likely handed out as small
+  instructional booklets — a pedagogical parallel, not a cryptographic one.
+  Paleographical analysis points to up to five scribes; the lone-genius
+  authorship model is out. Davis's further read — a book of women's folk
+  knowledge preserved community to community — is flagged by the authors as
+  unproven, the honest null inside the breakthrough. Corroborated (The
+  Guardian, October 6, twenty twenty-six, reporting the peer-reviewed
+  article; the article itself was not read first-party this pass).
 - **Prior Voynich roster (Oct 14, 2026).** (a) Michael Hafner, "Section A of
   the Voynich Manuscript
   as Archaic Middle Welsh" (Zenodo, Apr 2026, independent researcher) — the
