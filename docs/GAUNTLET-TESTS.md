@@ -21174,6 +21174,9 @@ DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
 *TDW-261 instrument seeded 2026-10-22 ~07:50 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+---
+
 ## TDW-262 — the Sealed Mirror Instrument *(design, never run)*
 
 *TDW-262 instrument seeded 2026-10-22 ~08:25 EDT by the decoder-create-loop. Design, never run.*
