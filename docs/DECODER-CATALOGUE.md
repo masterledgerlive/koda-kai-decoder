@@ -760,6 +760,18 @@ formats. [VERIFIED]
   VideoLAN dav2d. Every new codec parser is new attack surface; "plays
   everything" is a moving target, and now means tracking AV2 bitstreams in
   silicon as well as software. [CORROBORATED]
+  - **Four-month adoption addendum (2026-10-22, first-party AOMedia
+    announcement via Business Wire; CORROBORATED):** Google demonstrated AV2
+    playback in Chrome (Jim Bankoski) — the "no browser decode" standing note
+    is retired; YouTube promises AV2 streams for Web "as soon as early 2027"
+    (Des Keane) and reports over 90% of its catalog in AV1 by watch time as of
+    March 19, 2026; Meta commits to the Open Audio Codec (OAC) and Open Audio
+    Renderer (OAR) in the AOMedia Audio Codec Working Group (Hassene Tmar) —
+    the first major-stakeholder production commitment behind the OAC entry;
+    Intel advances SVT-AV2 from IBC 2026 demos. The browser-streaming pair
+    (Chrome + YouTube) is the deployment milestone that puts AV2 bitstreams on
+    billions of machines; the AV2 container-binding watch item now matters
+    more — browsers and YouTube need a container.
 - **FFmpeg 9.0 "Lei" (Aug 2026)**: ~2,200 commits, full ABI break across all
   seven libraries, contributions moved to Forgejo at code.ffmpeg.org. New
   native decoders: APV, ProRes RAW, RealVideo 6.0, Sanyo LD-ADPCM, G.728;
