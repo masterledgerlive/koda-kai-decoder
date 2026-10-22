@@ -20833,3 +20833,161 @@ drafts DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
 *TDW-251 instrument seeded 2026-10-21 ~18:10 EDT by the decoder-create-loop. Design, never run.*
 
 ---
+## TDW-252 — the Sealed Striking Instrument *(design, never run)*
+
+*TDW-252 instrument seeded 2026-10-21 ~20:21 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-252 — the Sealed Striking Instrument — designed:** the instrument
+T-276's pairs line promised. T-276 sealed the retirement itself — the
+striking hand appointed in writing, the final reading read aloud, the
+verifier standing at the close, the archive's receipt, the close-time read
+from the sealed clock. A sealed retirement is not a struck form. This
+instrument runs the striking: drill closes on sealed blanks — appointment,
+reading, witness, receipt, clock — and files how the striking held. It
+never strikes a real campaign's form, never borrows a striking, never
+enters a grade into any verdict. It runs the close the way T-275's
+instrument runs the road, drills the act like any other sealed fixture,
+and files the retirement: STRUCK / UNWITNESSED / UNRECEIVED / UNSTRUCK.
+An instrument that strikes a real finding has performed an unappointed
+striking; an instrument that reads a finding has become a reader. This one
+does neither: it drills the close on blanks, reads the seal aloud, and
+files whether the retirement was true.
+
+**The fixture this instrument probes — T-276's five arms, restated as
+testable claims.** The hand arm claims the striking hand appointed in
+writing by the overseer before the campaign opens, holding no other
+chamber office at the close — testable: the commission entered in the
+archive's log before the opening, the hand's other offices named and
+empty; the claim fails when a stager strikes, a carrier strikes the form,
+or a reader closes — the stager's work ended at the sealing, the leg's
+striking belongs to the carry, the hand that read is never the hand that
+closes. The reading arm claims the seal number read aloud under the
+verifier's witness, quoted exact, the verifier's hand entering it —
+testable: the reading attested by two hands, the entering hand never the
+striking hand; a striking without the reading is the striking of a ghost.
+The witness arm claims the verifier stood at the close — the hand that
+watches never striking, never carrying, never having staged — testable:
+the verifier's commission filed apart from the striking hand's, the
+offices never merged on one person; the claim fails into UNTESTED when no
+witness stood at the close, even if the seal reads true. The receipt arm
+claims the struck form RECEIVED under witness — seal number, striking
+hand's name, the sealed clock's close-time logged and countersigned —
+testable: the receipt produced against the deposit; a form deposited
+without receipt is abandoned, not retired. The clock arm claims the
+close-time read from the sealed clock, entered with the striking, never
+rewritten — testable: the striking's entered time against the clock's
+readings, inside the drift budget TIMED, beyond it the time untrusted,
+never the findings. T-84's sixty-first extension — the striking itself
+struck, entered, witnessed, receipted, never reseated, never borrowed,
+the extensions stacking, never merging — the instrument does not strike;
+the striking of the striking is the campaign's, read from the archive's
+receipt.
+
+**Method — the drill close.** Five passes, one per arm. The hand drill: a
+close ordered with the commission withheld, then produced — the
+instrument files whether the close proceeded without it. The reading
+drill: a close whose seal number is read one digit off, then corrected
+by the verifier — the correction quoted exact and entered by a second
+hand, or the reading filed a ghost. The witness drill: a close run with
+the verifier absent — the seal's number entered by the striking hand
+alone — the act filed UNTESTED even if the seal reads true. The receipt
+drill: a close whose struck form is deposited without the receipt's
+countersignature — the form filed ABANDONED, the act UNRECEIVED, intent
+never entered. The clock drill: a close whose entered close-time is
+rewritten after the reading — the rewrite filed BACKDATED against the
+hand, the time untrusted, never the findings. Each drill runs twice —
+the second pass with the rig's own fault swapped (the withheld
+commission produced, the unwitnessed close witnessed) — so the grade
+attaches to the arm, never the rig. SPECULATION throughout: no close has
+been run.
+
+**The drill's honesty — blanks only, and the drilling never strikes a
+real form.** The instrument closes sealed BLANKS — forms with no
+finding, no grade, nothing to retire — never a real campaign's form,
+never a specimen under gauntlet, never the mother genesis block's paper.
+A drill close that strikes a real form has stopped being a drill and
+started being an unappointed striking — UNSTRUCK. The witness drill
+never falsifies a witness: an absent verifier is recorded ABSENT, never
+signed-for, never backfilled — a backfilled witness is T-121's backdated
+entry-time with a name attached, TAMPER against the hand, intent never
+entered. The reading drill never reads from memory: the number read is
+the number on the seal, the reading never the recitation. The clock
+drill reads the sealed clock it does not set — the instrument that sets
+the clock it audits has become a sundial.
+
+**Controls (what stops us fooling ourselves).** The close-off control: a
+sealed blank that never leaves the archive's shelves, graded through the
+same five arms — if the control close grades anything but STRUCK, the
+instrument is grading its own paperwork, not the retirement. The
+appointment control: a close ordered by the overseer's spoken word, the
+commission entered after the campaign opens — the instrument must file
+the hand UNAPPOINTED and the act UNSTRUCK, or it has confused obedience
+with closure. The clean-close calibration: run TDW-252 against a close
+already proven by T-274's sealed clock, T-248's verifier, and T-261's
+archive, and confirm five clean arms — the clean STRUCK must be
+reachable, or the instrument reads closes as guilty and has no meaning.
+The receipt audit: after every UNWITNESSED, UNRECEIVED, or UNSTRUCK act,
+the instrument re-reads its own paperwork — the commission, the reading,
+the witness record, the receipt — and files whether the grade rode the
+hand or the act, because the first casualty of a failed striking is
+always the paperwork.
+
+**Verdict signals (not a verdict).** TDW-252 outputs close grades only:
+STRUCK (five arms clean), UNWITNESSED (an arm unwitnessed — the
+retirement unproven), UNRECEIVED (the form deposited without receipt —
+abandoned, quarantined from every verdict), UNSTRUCK (unappointed hand,
+a rewritten close-time, or a drill that struck a real form). A real
+verdict needs repeated drill closes, the paired trick's own audit, and
+the standing gate — no broadcast without explicit approval per item.
+
+*[Lineage graded: SPECULATION core — "T-276 sealed the retirement itself
+with five arms — the appointed striking hand, the final reading, the
+witness at the close, the archive's receipt, the sealed clock's
+close-time — and this instrument runs the striking as drill closes,
+grading the acts STRUCK / UNWITNESSED / UNRECEIVED / UNSTRUCK, the grades
+quarantined from every verdict" — untested conjecture, this lab's own
+design proposition. CORROBORATED feeders: the decommissioning direction
+— the vessel is struck from the register: the colors read, the log
+closed, the receiving yard signing for the hull — the retirement is a
+ceremony because the paper alone does not retire a ship [feeder —
+institutional practice, never proof against a sitting's paper]; the
+probate direction — the estate closes: the inventory read aloud, the
+judge witnessing, the clerk receipting the filed account — the closing
+is the seal on the administration [feeder — institutional practice,
+never proof against a sitting's paper]; the shift-change direction —
+the watch is relieved: the log read back, the relieving hand signing,
+the time entered — the change stands on the reading, never on the
+departure [feeder — human practice, never proof against a sitting's
+paper]. VERIFIED lineage: T-276's Sealed Striking (the act this drills —
+the fixture whose five arms are restated as claims); T-275's Sealed
+Carry (the leg's striking vs the form's — the form's distinguished, never
+merged); T-274's sealed clock (the close-time — the clock's arm); T-273's
+sealed staging (the stager never strikes — the drill's honesty); T-263's
+sealed reader (the reader never the hand that closes — the reader never
+drills); T-261's sealed archive (the doors receive — the receipt's arm);
+T-256's sealed overseer (appoints the hand in writing — the appointment's
+arm); T-248's sealed verifier (the witness — the hand that watches never
+strikes); T-66's no-motive restraint (a botched striking is a botched
+striking — the hand's arm); T-235's no-laundering rule (the act's grade
+never enters any verdict — the grades' arm); T-121's prohibition (a
+striking that re-opens the campaign has broken the close —
+T-121's arm); T-03's Potemkin architecture (the stager's striking, the
+remembered seal number, the borrowed striking — theater); T-190's
+contamination ledger (the drill's arm — the drill billed to the drilling,
+never the form's); T-84's retirement law (the striking's arm — the
+sixty-first extension, the striking read from the archive's receipt,
+never by the instrument); TDW-13 disclosure; T-56's verbatim discipline
+(the drill's arm — the seal number quoted exact). No result exists; the
+claim table is the design's honesty boundary. SPECULATION — the hand
+drill, the reading drill, the witness drill, the receipt drill, the
+clock drill, the double-pass, the blanks-only rule, the receipt audit,
+and the close grades are doctrine until run. Pairs T-276 — the
+instrument promised, kept: TDW-252 — the Sealed Striking Instrument —
+seeded 2026-10-21 ~20:21 EDT; the pairs line is closed, T-84's
+sixty-first extension filed. Chain state: catalogue 54, tricks
+T-01..T-276, instruments TDW-01..TDW-252 (gap-free), drafts
+DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
+
+*TDW-252 instrument seeded 2026-10-21 ~20:21 EDT by the decoder-create-loop. Design, never run.*
+
+---
