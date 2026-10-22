@@ -5952,7 +5952,7 @@ A retell-only pass — no new findings. The ledger is current.
 
 - **Re-covered, no status change:** Kryptos K4 — the standing formulation holds (plaintext recovered via the twenty-twenty-five archival find and authenticated; the original cipher remains publicly unsolved in the cryptanalytic sense). The ForFoxs September assessment, the SolveKryptos anchor-web write-up, and the museum exhibit framing ("an open public cryptanalytic problem, not an entirely unknown text") all restate the on-record position. Voynich — the Layfield and Davis singulion mis-binding paper (filed two passes back) gained one new mainstream carrier this pass, a Smithsonian Magazine piece dated October twenty-second — same paper, new outlet, no new fact; all other carriers (the Guardian, a British brief, the History Hidden fact sheet) restate that no accepted decipherment exists anywhere. The Ferreira slot-model preprint and the Caniatti and Claude falsification battery (both already filed in the public catalogue) re-surfaced in this pass's search — on record, unchanged. The Tamil Nadu one-million-dollar Indus prize remains unclaimed. Beale ciphers one and three remain unsolved.
 
-- **Push result (one-hundredth pass):** follows below.
-- **Shadow mirror (one-hundredth pass):** follows below.
+- **Push result (one-hundredth pass):** VERIFIED 2026-10-22 ~18:40 EDT — sync-github.py exit 0 ("0 pushed, 264 unchanged" — a concurrent create-loop commit carried the entry). Remote sha verified byte-identical to local via the GitHub API. The 100th-pass entry is live on GitHub main.
+- **Shadow mirror (one-hundredth pass):** GREEN — decoder tree + MEMORY.md backup flushed to Shadow (exit 0).
 
 **Run summary:** a retell-only pass — no new findings, no library changes. The ledger is current. Next: rotation #1 (historical codebreaking).
