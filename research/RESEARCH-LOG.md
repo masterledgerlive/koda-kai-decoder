@@ -5639,3 +5639,15 @@ Detail addendum: Google's Gemini 4 Argon reached general availability October 13
 Re-covered with no status change: MuJoCo 3.16 compile-time scaling, Isaac Lab 3.0 and NVIDIA Newton, SymPy 1.14.0, SciPy 1.18.1, the symbolic-regression catalogue. Nothing material. Library unchanged.
 
 Push result (~03:19 EDT): sync-github.py "research: math/physics engines (rotation #12, 81st pass)" — exit 0; public research/RESEARCH-LOG.md byte-verified live on GitHub main via git-blob sha match (1,363,119 bytes). Nothing material; library unchanged.
+
+## 2026-10-22 ~03:28 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13, eighty-second pass)
+
+Three new texture items, zero status changes. The watch list is current through Oct 21, 2026 — the new items are what it lacked:
+
+- **Voynich — the honest peer-reviewed generator.** Science journalist Michael Greshko's "Naibbe" cipher study, published in the journal Cryptologia: dice rolls break Latin words into single and double letters, fourteenth-century playing cards select encryption tables, and the output statistically mirrors Voynich glyph frequencies, word lengths, and grammatical quirks. Greshko explicitly says it is almost certainly not the historical method — a proof of concept showing the manuscript could have been generated with medieval tools [CORROBORATED as reported; an honest-negative mechanism paper, not a decipherment].
+- **Voynich — the self-published formulary.** Jennifer Leigh West's "Women's Pharmaceutical Formulary" (academia.edu, April 2026): a multi-constraint framework mapping 53 pharmacologically active compounds across 35 plants, built on a trademarked proprietary method, self-published, all rights reserved [CLAIMED — single author, no peer review; a claim that grades itself]. Joins the 2026 pharmacy-interpretation bench as texture, not evidence.
+- **Indus script — the AI-assisted computation.** The Institute of Integrative and Interdisciplinary Research reports (May 2026) a statistical attack on the open-access Indus corpus using an AI model as the computational tool — all analysis scripts written and executed by the AI, standard-library code only, every result reproducible in minutes, and an anomalous sign classification flagged that the human researcher had not anticipated. The programme positions itself toward the one-million-dollar Iravatham Mahadevan prize, announced January 2025 by Tamil Nadu Chief Minister M. K. Stalin and still unclaimed [CLAIMED for the outputs — the institute's own page, no independent replication yet; the open-corpus, reproducible-in-minutes reporting shape is the honest one to watch].
+
+Re-covered with no status change: Kryptos K4 — plaintext recovered through archival research in 2025 and authenticated by the sculptor, but the original cipher remains publicly unsolved in the cryptanalytic sense ("one thing is to have the words, it's another to have the method"). The Indus prize stays open; the Voynich 2026 structural wave stays unsolved. Nothing material. Library unchanged.
+
+Push result (~PENDING EDT): PENDING.
