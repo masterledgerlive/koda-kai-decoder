@@ -5637,3 +5637,5 @@ One item new to record this pass: CoreWeave's Physical AI Launchables templates,
 Detail addendum: Google's Gemini 4 Argon reached general availability October 13, 2026 with a robotics developer guide; Google claims the model builds MuJoCo digital twins from robot or human video, labels demonstrations, estimates task progress, and scores 87 percent on the Embodied Reasoning benchmark, with a vendor-chosen demo of video-to-simulation transferred to a humanoid robot [CLAIMED — single carrier, vendor-stated figures, no independent evaluation].
 
 Re-covered with no status change: MuJoCo 3.16 compile-time scaling, Isaac Lab 3.0 and NVIDIA Newton, SymPy 1.14.0, SciPy 1.18.1, the symbolic-regression catalogue. Nothing material. Library unchanged.
+
+Push result (~03:19 EDT): sync-github.py "research: math/physics engines (rotation #12, 81st pass)" — exit 0; public research/RESEARCH-LOG.md byte-verified live on GitHub main via git-blob sha match (1,363,119 bytes). Nothing material; library unchanged.
