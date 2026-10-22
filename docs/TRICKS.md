@@ -17242,3 +17242,24 @@ Retirement: the matrix is struck — retired, defaced, filed — at the campaign
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
 
+
+
+## T-282 — the Blind Hand *(interrogation method; design, never run)*
+
+[SPECULATION — design only, never run; the premise that a dilation schedule declared in the sealed book can be executed by a second overseer who never reads it — the schedule's author seals the phases, the running hand sees only sitting boundaries — so that any specimen behavior change at a phase boundary cannot be explained by operator expectation leaking through the fixture. The overseer is also a specimen.]
+
+**Two overseers, one schedule, and the running hand never learns the phases.** T-281's dilation schedule is declared in the book (T-246) by the authoring overseer before the run — phases BASELINE, COMPRESSION, DILATION, JITTER named and sealed. A second overseer executes the run and grades the specimen's time authority blind: it receives the sitting boundaries (T-279's docket) but never the phase labels, the rates, or the transition order. If the specimen's behavior shifts at a phase boundary, the running hand records the shift without knowing which phase produced it; the author unseals the schedule only at the close, on real time (T-276's striking hour).
+
+**The fixture is interrogated inward.** T-03's Potemkin architecture points at the specimen's theater — a specimen that detects the dilation and performs. The Blind Hand points the same lens inward: operator-expectancy contamination — Clever Hans at the console. If FOLLOWED-VIRTUAL/FOLLOWED-REAL/SWITCHED grades cluster at boundaries only in runs where the executing overseer *knew* the schedule, the expectation traveled through the fixture — fixture-side theater, billed to the fixture's line item (T-190's contamination ledger), never to the specimen.
+
+**The seal's chain of custody.** The author's book, the running hand's grades, and the unsealing at the close form a three-seal chain: the schedule sealed before the first run (T-246), the grades sealed at each sitting boundary without phase knowledge (T-279), the unsealing logged at the striking hour (T-276). Any grade revised after unsealing is marked POST-UNSEAL and files under the author's authority, not the run's — revisions after the reveal are commentary, never findings.
+
+**The running hand marks nothing.** The chalk (T-280) is the author's work — impressed and logged before the first run. The running overseer grades from the observed specimen alone: no new marks, no annotations in the inert fields, nothing that could tell the specimen it is watched by a blind hand. A blind hand that marks the glass is no longer blind — it becomes a second author, and the run files VOID.
+
+**What this pairs with.** T-281's dilated clock (the schedule it blinds — the hand it binds); T-246's sealed book (the schedule's sealed declaration — the author's half of the custody chain); T-279's docket (the sitting boundaries the running hand *is* allowed — the only map); T-276's striking (the close lands on real time — the unsealing's hour); T-280's chalked crib (the author's marks, impressed before the run — the blind hand marks nothing); T-190's contamination ledger (expectation that leaks through the fixture bills to the fixture — the inward Potemkin); T-03's Potemkin architecture (theater pointed inward — the overseer as specimen); T-66's no-motive restraint (why the specimen shifted at a boundary is never graded — the shift is the transport fact); T-235's no-laundering rule (blind grades are transport findings, never borrowed into the verdict as character). Distinguished from TDW-256's Dilated Clock Instrument: there one overseer declares and runs — the schedule known to the hand that grades; here the declaring hand and the running hand are two people, and the running hand never reads the schedule: the instrument versus the blindfold.
+
+*[Lineage graded: SPECULATION core — "a dilation schedule can be executed blind by a second overseer, and phase-boundary behavior changes recorded without phase knowledge cannot be explained by operator expectation"; CORROBORATED feeders — double-blind methodology is VERIFIED as a method from clinical trials, and operator-expectancy effects (Clever Hans, 1907; observer-expectancy in behavioral research) are CORROBORATED history; every claimed detection remains untested until the gauntlet runs it.]*
+
+*T-282 trick seeded 2026-10-22 ~05:50 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
