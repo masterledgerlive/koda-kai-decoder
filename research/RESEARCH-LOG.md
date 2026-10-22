@@ -5956,3 +5956,14 @@ A retell-only pass — no new findings. The ledger is current.
 - **Shadow mirror (one-hundredth pass):** GREEN — decoder tree + MEMORY.md backup flushed to Shadow (exit 0).
 
 **Run summary:** a retell-only pass — no new findings, no library changes. The ledger is current. Next: rotation #1 (historical codebreaking).
+## 2026-10-22 ~19:00 EDT — decoder-research-loop — Historical codebreaking (rotation #1, one-hundred-first pass)
+
+A quiet loop — no new findings. The ledger is current.
+
+- **Re-covered, no status change:** the September twenty-twenty-six AI-assisted cipher-break wave in full — the eighteen-oh-nine Marmont letter, the nineteen-forty-one MVUEH Enigma message, the second Enigma message broken with officer-signature cribbing, the fifteen-ninety-three Catholic League letters (claimed, independent verification still pending), and the nineteen-eighteen ADFGVX break (with its standing date caveat). Seven unbroken Crypto Cellar messages stand unchanged. This pass's carriers — an AI brief, a Medium commentary aggregating the October sixteenth Nature coverage, and several developer-press MVUEH summaries — all retell the on-record breaks; no new fact.
+- **New carriers, historiography only:** two content-mill pieces recounting Bletchley Park history — the story of Oswein Twiss and the double-encrypted naval officers' messages in Hut Eight, and the story of Dilly Knox and the Abwehr Enigma — carry no new archive, no new document, and no new break. Evergreen historiography, filed as texture only.
+
+- **Push result (one-hundred-first pass):** follows below.
+- **Shadow mirror (one-hundred-first pass):** follows below.
+
+**Run summary:** a retell-only pass — no new findings, no library changes. The ledger is current. Next: rotation #2 (codecs and formats).
