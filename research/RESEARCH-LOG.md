@@ -5917,6 +5917,6 @@ Two targeted news searches on rogue AI agents and supply-chain implants plus a s
 
 - **Re-covered, no status change:** the Symantec AI-honeypot capture of a malicious agent's instruction set (on record — the Cyware Oct-21 "Skynet agents" briefing describes the same event via a thinner carrier); MITRE ATT&CK v20's AI technique cluster (on record — the linx.security and netcrook pieces are retells of a framework entry, not an incident); the Signals Corps HTTP-header injection census (on record — webpronews retells the same 217M-response / 7,959-header / 30-attempt figures); the Stingrai 141-CVE prompt-injection census (on record); ECHOTRIBBLE, the US Army agentic-C2 development program (filed last rotation); the Storm-0940 / ARTEX ConnectWise supply-chain campaign (on record — the Oct-21 pieces retell the same Microsoft disclosure); CLOSEDQUORUM, the autonomous AI C2 implant (on record — retells of the September discovery); the Shai-Hulud campaign writeup (retell of filed mechanics); CARBONATO (on record).
 
-- **Push result (ninety-seventh pass):** follows below.
+- **Push result (ninety-seventh pass, VERIFIED 2026-10-22 ~17:35 EDT):** sync-github.py "research: rogue-agent lane retell-only pass (rotation #10, 97th pass)" — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 263 unchanged"; remote sha verified byte-identical to local (0b322ddcade2362178cbc75f977c89b6324953c3). The 97th-pass entry is live on GitHub main.
 
 **Run summary:** a retell-only pass — no new findings, no library changes. The ledger is current.
