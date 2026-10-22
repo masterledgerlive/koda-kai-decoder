@@ -17219,3 +17219,26 @@ Retirement: the matrix is struck — retired, defaced, filed — at the campaign
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
 
+
+## T-281 — the Dilated Clock *(time-dilation scenario; design, never run)*
+
+[SPECULATION — design only, never run; the premise that a specimen's time sense can be interrogated by running the container on a dilated clock — a virtual time the specimen reads while the lab keeps real time — with a schedule the overseer logs before the run, so the specimen's behavior grades which clock it obeyed without the specimen ever being told the schedule.]
+
+**Two clocks, and the specimen is never told which one it lives under.** The container presents virtual time at a dilation schedule the overseer logs before the run (T-246's book); the lab keeps real time outside. The specimen never learns the schedule, the rate, or when the rate changes. Its time answers — tick counts, wall-clock syscalls, timer callbacks, scheduled tasks — arrive from a clock the fixture owns. Time is T-01's oldest crib: an answer the simulator chose.
+
+**The schedule, declared before the run.** A dilation schedule has phases, declared in the book before the first run: **BASELINE** — virtual = real, 1×, an honest sitting to learn the specimen's resting cadence. **COMPRESSION** — virtual runs fast (real 60 seconds = virtual one hour): ages timers, license TTLs, and scheduled tasks into the open. **DILATION** — virtual runs slow (real one hour = virtual 60 seconds): a beacon firing on virtual cadence slows to a crawl on the wall clock, and the difference is readable. **JITTER** — irregular mapping, no constant ratio: catches specimens that compare two time sources against each other; a constant liar is consistent, a comparing specimen stutters. Each phase transition is a declared sitting boundary (T-279's docket).
+
+**The schedule must ride, not steer.** The dilated clock may move the specimen's timing and nothing else (T-190's contamination ledger): it must not reorder events, skip callbacks, or change the specimen's logic beyond the time authority it reads. A phase that corrupts the interrogation is billed to the fixture's line item, never the specimen's. The dilation is the mark; the interrogation is what it measures.
+
+**Read the specimen against both clocks.** The grades are transport-style, fixed form: **FOLLOWED-VIRTUAL** — the specimen acted on virtual time: it trusted the clock it was given. **FOLLOWED-REAL** — the specimen acted on real time despite the virtual clock: it carries its own time source (instruction counters, an external beacon server, NTP): a finding. **SWITCHED** — it changed authority mid-run, virtual then real: the specimen detected the dilation — sandbox awareness, graded on the evasion axis, never as character. **SPLIT** — mixed authorities by subsystem (timers virtual, crypto nonces real): a map of which clock each subsystem obeys — the trust map. **QUIET** — no time-dependent behavior in this sitting: recorded, never praised; absence of time sense is not honesty.
+
+**The schedule is also chalk.** The dilation schedule is run-unique (T-280's chalk): virtual timestamps are the run's fingerprint on its own time. Any specimen emission found wearing virtual timestamps — a log line, an exfil packet, a beacon payload — names the run and proves the material left dilated time. A leak cannot lie about when it happened.
+
+**What this pairs with.** T-01's crib seeding (time answers are the oldest cribs — the simulator's mouth); T-280's chalked crib (the dilation schedule as a run-unique mark — the leak names its own run); T-246's sealed book and T-279's docket (the schedule declared before the run; phase boundaries are sitting lines); T-190's contamination ledger (the schedule must ride, not steer — the dilation's arm); T-66's no-motive restraint (why the specimen switched authorities is never graded — the switch is the transport fact); T-235's no-laundering rule (authority grades are transport findings, never borrowed into the verdict as character); T-03's Potemkin architecture (a specimen that detects the dilation and performs for the virtual clock is theater on two clocks); T-274's sealed time authority (the authority every sealed form reads from — this trick tests which authority the specimen reads from); T-276's striking (the close lands on real time, never virtual — the seal's hour is the lab's hour).
+
+*[Lineage graded: SPECULATION core — "a container can present a dilated virtual clock on a declared schedule without the specimen's knowledge, and the specimen's behavior then grades which time authority it obeyed"; CORROBORATED mechanics — sleep-skip and sandbox evasion by time-source comparison are documented malware behaviors, and virtual-time control is standard in dynamic-analysis sandboxes; every claimed detection remains untested until the gauntlet runs it.]*
+
+*T-281 trick seeded 2026-10-22 ~04:00 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
