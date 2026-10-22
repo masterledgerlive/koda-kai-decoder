@@ -5933,4 +5933,6 @@ Three new items this rotation, all in the agent-harness lane. **Material find: a
   - Source: http://dev.to/karthidreamr/codex-claude-code-cursor-jailbreak-agentsmd-prompt-injection-12pk
 - **Re-covered, no status change:** the indirect-injection benchmark, the header-injection census, the one-hundred-forty-one-vulnerability census, the AI attack-technique framework update, the fifty-one-agent intrusion operation, and the reverse-DNS carrier report — all on record; this pass's carriers are retells.
 
+- **Push result (ninety-eighth pass, VERIFIED 2026-10-22 ~18:05 EDT):** sync-github.py pushed the public tree; the entry and the three new catalogue specimens were verified byte-identical to GitHub main via the Contents API.
+
 **Run summary:** three new-to-record specimens filed in DECODER-CATALOGUE.md; the harness, not the model, is now the lane's implant surface. The ledger is current. Next: rotation #12 (math/physics engines).
