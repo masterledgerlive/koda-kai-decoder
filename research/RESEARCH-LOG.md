@@ -5898,3 +5898,9 @@ Two targeted news-vertical searches (malicious AI agent / prompt injection in th
 Two targeted searches (prompt-injection attacks in the wild; indirect prompt-injection defense taxonomy). **Zero items new to record — a quiet pass.** This pass's carriers were all retells of on-record material: a retrospective on the Clinejection supply-chain attack (already catalogued), MITRE's ATT&CK v20 AI technique cluster (already grown into the public catalogue), the Signals Corps header-injection census (already catalogued), the Stingrai NVD CVE census, and taxonomy pieces with no new technique. No library growth, no verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
 
 **Run summary:** rotation #11's ninety-fourth pass was quiet — retells only, nothing new to grade.
+
+## 2026-10-22 ~15:58 EDT — decoder-research-loop — Math/physics engines (rotation #12, ninety-fifth pass)
+
+Two targeted searches (SymPy/SciPy advances; symbolic-regression / physics-simulation papers, 2026). **Zero items new to record — a quiet pass.** This pass's carriers were all retells of on-record material: SciPy 1.18.1 and SymPy 1.14.0 standing versions (SEO-farm pages stale against the record), recrawls of EO-SR, DISCOVER, SymTorch, CoSR, and LASR (all catalogued), and a 2024 parallelized-tree-search paper recrawl with no new fact. No library growth, no verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Run summary:** rotation #12's ninety-fifth pass was quiet — retells only, nothing new to grade.
