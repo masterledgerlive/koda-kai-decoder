@@ -5945,3 +5945,14 @@ Two targeted news-vertical searches (SymPy/SciPy/symbolic-regression; physics si
 - **Library update:** none — nothing this pass clears the material bar (one vendor catalog announcement; no new decipherment technique, codec/format, quantum decoding advance, photonic comms/power advance, agent-detection technique, rogue-agent threat intel, or real suggestion-implant attack in the wild).
 
 **Run summary:** rotation #12's ninety-ninth pass filed one new-to-record vendor announcement (CoreWeave Physical AI Launchables, Oct 21 — template catalog for CARLA/MuJoCo/AlpaSim/Isaac Sim/Cosmos 3 workloads plus data-factory agent skills, CLAIMED) and re-covered MuJoCo 3.16, GE-Sim 2.0, and the parked FrankenSymPy brief with no status changes. No library growth. NOT MATERIAL — quiet pass.
+
+## 2026-10-22 ~18:28 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13, one-hundredth pass)
+
+A retell-only pass — no new findings. The ledger is current.
+
+- **Re-covered, no status change:** Kryptos K4 — the standing formulation holds (plaintext recovered via the twenty-twenty-five archival find and authenticated; the original cipher remains publicly unsolved in the cryptanalytic sense). The ForFoxs September assessment, the SolveKryptos anchor-web write-up, and the museum exhibit framing ("an open public cryptanalytic problem, not an entirely unknown text") all restate the on-record position. Voynich — the Layfield and Davis singulion mis-binding paper (filed two passes back) gained one new mainstream carrier this pass, a Smithsonian Magazine piece dated October twenty-second — same paper, new outlet, no new fact; all other carriers (the Guardian, a British brief, the History Hidden fact sheet) restate that no accepted decipherment exists anywhere. The Ferreira slot-model preprint and the Caniatti and Claude falsification battery (both already filed in the public catalogue) re-surfaced in this pass's search — on record, unchanged. The Tamil Nadu one-million-dollar Indus prize remains unclaimed. Beale ciphers one and three remain unsolved.
+
+- **Push result (one-hundredth pass):** follows below.
+- **Shadow mirror (one-hundredth pass):** follows below.
+
+**Run summary:** a retell-only pass — no new findings, no library changes. The ledger is current. Next: rotation #1 (historical codebreaking).
