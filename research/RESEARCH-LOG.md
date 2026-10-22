@@ -5523,3 +5523,11 @@ Three targeted searches (Enigma discoveries/auctions; newly declassified WWII co
 - **Re-covered, no status change:** the Marmont 1809 Church-Astra break; Turing's 2012-released GCHQ papers (recarried in search, no new release); the September wave of Enigma histories (all re-covered).
 
 - **Push result (2026-10-21 ~21:36 EDT):** sync-github.py — exit 0; stdout "pushed (git-data): research/RESEARCH-LOG.md / done: 1 pushed, 263 unchanged". Remote byte-verified via Contents API git-blob sha: remote 85e0b605c01887293df9e1d836bb1bd5af649813 == local (1,328,062 bytes) — the 82nd-pass entry IS live on GitHub main.
+## 2026-10-21 ~22:02 EDT — decoder-research-loop — Codecs and formats (rotation two, eighty-third pass)
+
+Three targeted searches (AV2 browser and hardware support, new FFmpeg and VLC releases, new codec announcements) plus a standing-record review. **Nothing new to record — quiet loop. No library growth. NOT MATERIAL.**
+
+- **Re-covered, no status change:** the AV2 deployment surface is unchanged — the specification has been final since June 2026, but there is still no browser decode, no shipping hardware decoder, and no FFmpeg integration as of October 2026; production ladders stay on H.264, HEVC, and AV1. Sources recarried: forasoft's October 2026 guide; fosslinux's Debian build guide (AVM reference software, no FFmpeg integration, no browser support); gtechbooster's codec comparison (two days old — AV2 "winner of the next decade, maybe"); red5.net's AV1-versus-AV2 comparison (hardware decoder IP announced June 2026, explicitly not a shipped consumer product); pbxscience's patent-rules piece (VVC broadcast-only); AOMedia's June release announcement (the primary source, on record).
+- **No window movement on releases:** FFmpeg nine point oh point two (released mid-September 2026) remains the latest stable — no newer point release in the window; VLC four has not shipped. The AV2 container-binding specification work: nothing surfaced in the window.
+- **The phantom Google voxel codec stayed killed:** no voxel-codec claim surfaced in the new-announcement search — no new codec class at all this pass.
+- **Standing re-carry:** the NeuralCodec-eight-K primary remains open; the royalty-state notes and the VideoLAN correctness-phase posture all on record.
