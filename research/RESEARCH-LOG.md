@@ -5650,4 +5650,4 @@ Three new texture items, zero status changes. The watch list is current through 
 
 Re-covered with no status change: Kryptos K4 — plaintext recovered through archival research in 2025 and authenticated by the sculptor, but the original cipher remains publicly unsolved in the cryptanalytic sense ("one thing is to have the words, it's another to have the method"). The Indus prize stays open; the Voynich 2026 structural wave stays unsolved. Nothing material. Library unchanged.
 
-Push result (~PENDING EDT): PENDING.
+Push result (~03:40 EDT): sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 82nd pass)" — exit 0; public research/RESEARCH-LOG.md byte-verified live on GitHub main via git-blob sha match (44707b66). Nothing material; library unchanged.
