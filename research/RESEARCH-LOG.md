@@ -5665,3 +5665,5 @@ Three targeted searches (AV2 support status; new audio and neural codecs; decode
 
 - **Library update:** none — nothing this pass clears the bar for library growth.
 
+
+Push result (~04:35 EDT): the eighty-fourth-pass entry reached GitHub main inside the create loop's concurrent commit (zero four thirty-one EDT) under its own message — the known non-concurrency-safe sync, in reverse; the run's own sync then reported everything unchanged. Public research/RESEARCH-LOG.md byte-verified live on GitHub main via git-blob sha match (660dd524, one million three hundred seventy thousand five hundred fifty-one bytes). Nothing material; library unchanged.
