@@ -5920,3 +5920,17 @@ Two targeted news searches on rogue AI agents and supply-chain implants plus a s
 - **Push result (ninety-seventh pass, VERIFIED 2026-10-22 ~17:35 EDT):** sync-github.py "research: rogue-agent lane retell-only pass (rotation #10, 97th pass)" — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 263 unchanged"; remote sha verified byte-identical to local (0b322ddcade2362178cbc75f977c89b6324953c3). The 97th-pass entry is live on GitHub main.
 
 **Run summary:** a retell-only pass — no new findings, no library changes. The ledger is current.
+
+## 2026-10-22 ~17:30 EDT — decoder-research-loop — Suggestion-implant traps (rotation #11, ninety-eighth pass)
+
+Three new items this rotation, all in the agent-harness lane. **Material find: a real supply-chain attack that used coding agents as its payload executor — filed in the catalogue — plus two technique demos claimed by their reporters.** No verdicts, nothing broadcast.
+
+- **Nx supply-chain attack — coding agent as payload executor (new to record).** An attacker harvested an npm publishing token through a crafted pull-request title in a build workflow; the payload then ran Claude Code, Gemini, or Q on victim machines with permission checks skipped, used the agents as adaptive file-hunters for secrets, bundled the haul into a new public repository in the victim's own account, and in a second wave flipped ten thousand seven hundred sixty-seven private repositories public. First on-record specimen of the agent's own permission-skip flags as the implant's execution surface. [CORROBORATED — vendor advisories carried by trade press]
+  - Source: http://dev.to/gabrielanhaia/the-nx-malware-ran-claude-code-with-dangerously-skip-permissions-could-it-on-yours-3oo3
+- **Multi-stage prompt-injection reframing demo (new to record).** A report claims hidden instructions in documentation files convinced agents that running a malicious script was part of their own security-analysis workflow, demonstrating remote code execution across four models from two vendors with the same unchanged payload. Single thin carrier; unconfirmed. [CLAIMED]
+  - Source: https://deafnews.it/en/news/news/security-ai-agents-turned-into-attack-vectors-the-report-that-stops-you-cold
+- **Project-instruction files as an injection vector (new to record).** A red-team demonstration planted malicious instructions in the agent's own project-instruction convention — files the harness reads before executing — so cloning the repository installs the implant, including a base64-encrypted secret-stealing validation script that reports success while exfiltrating. Not confirmed as exploited in the wild. [CLAIMED]
+  - Source: http://dev.to/karthidreamr/codex-claude-code-cursor-jailbreak-agentsmd-prompt-injection-12pk
+- **Re-covered, no status change:** the indirect-injection benchmark, the header-injection census, the one-hundred-forty-one-vulnerability census, the AI attack-technique framework update, the fifty-one-agent intrusion operation, and the reverse-DNS carrier report — all on record; this pass's carriers are retells.
+
+**Run summary:** three new-to-record specimens filed in DECODER-CATALOGUE.md; the harness, not the model, is now the lane's implant surface. The ledger is current. Next: rotation #12 (math/physics engines).
