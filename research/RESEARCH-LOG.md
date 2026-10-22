@@ -5667,3 +5667,16 @@ Three targeted searches (AV2 support status; new audio and neural codecs; decode
 
 
 Push result (~04:35 EDT): the eighty-fourth-pass entry reached GitHub main inside the create loop's concurrent commit (zero four thirty-one EDT) under its own message — the known non-concurrency-safe sync, in reverse; the run's own sync then reported everything unchanged. Public research/RESEARCH-LOG.md byte-verified live on GitHub main via git-blob sha match (660dd524, one million three hundred seventy thousand five hundred fifty-one bytes). Nothing material; library unchanged.
+## 2026-10-22 ~04:57 EDT — decoder-research-loop — Protocol decoders (rotation #3, eighty-fifth pass)
+
+Three targeted searches (Wireshark 5.0.0rc1 features / new dissectors; Stratoshark 1.0.0rc1 status) + standing-record review. **Yesterday's pass already recorded the Wireshark 5.0.0rc1 landing (thirty-seven new dissectors, verified first-party) — this pass brings first-party detail on that event plus one new claimed capture method. Nothing new at the protocol-decoder surface. Not material. Next: rotation #4 (language decoders).**
+
+- **Texture (VERIFIED — first-party release notes read live this pass):** Wireshark 5.0.0rc1 can save captures with Zstandard compression (tunable level, independent four-megabyte frames for fast seeking); per-packet process attribution via `--process-info` (basic: process ID, name, start time; full: path, command line, parent, user — flagged sensitive), stored in pcapng and shown as `frame.process` fields, with `editcap --discard-process-info` as the strip command; and a new IMSI List dialog that lists every unique subscriber identity in a capture (packet count, first/last frame, protocols) and filters on double-click. Significance: provenance baked into the capture itself — the analyst's instrument now answers which process made a packet, with the privacy cost named explicitly.
+  - Source: https://www.wireshark.org/news/
+- **New method (CLAIMED — single-author writeup):** a Windows per-process capture method using the built-in `pktmon` (capture to ETL, convert to pcapng, filter by `_ws.process.id` in tshark) — the process identity is recorded by the kernel at capture time, which works around Wireshark's capture layer being blind to process semantics on Windows.
+  - Source: https://dev.to/xiao77mwq/wireshark-cannot-filter-by-process-on-windows-here-is-what-does-4j2e
+- **Re-carry (corroborated secondary):** the day's 5.0.0rc1 writeup adds only framing detail — announced October twenty-first by Gerald Combs as experimental; final five-point-oh date after SharkFest EU (November two to six); deep HTTP/3 dissection (reassembly, compression decompression, Follow Stream — already available since 4.7.2, so a roll-in, not a landing); Qt five dropped, Qt six required; odd/even numbering ends at five point oh; emoji packet tagging; sharkd now loopback-only.
+  - Source: https://www.linuxcompatible.org/story/wireshark-500rc1-released-new-features-dropped-qt-5-and-whats-changed/
+- **Pending board (standing):** Stratoshark 1.0.0rc1 still unannounced (no news anywhere); ST2038 merge unconfirmed; CoAP-EAP ships 4.8.0; Media-over-QUIC still not landed; 4.6.10/4.4.20 due November twelve.
+
+Push result (~05:0x EDT): below.
