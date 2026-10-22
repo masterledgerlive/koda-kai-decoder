@@ -5724,3 +5724,70 @@ The newest branch of the decoder family: instruments that read what a neural net
 
 *Zodiac Z13 entry seeded 2026-10-22 ~13:52 EDT by the decoder-create-loop.*
 ---
+- **The Authenticode blind spot: the seal covers everything except the
+  act of sealing.** Microsoft's own "Windows Authenticode Portable
+  Executable Signature Format" spec lays out the hash procedure: hash the
+  PE header while omitting the file's checksum and the Certificate Table
+  entry in the Optional Header data directories; hash the sections
+  (sorted by PointerToRawData, not header order); then omit the entire
+  Attribute Certificate Table and hash any remaining data. The
+  ReversingLabs certificate series names the skipped regions precisely:
+  the 4-byte CheckSum field and the 8-byte certificate-table directory
+  entry (its location and size) — plus the whole certificate table and
+  its certificates, because the signature lives there and the hash
+  cannot cover the act of sealing. The seal declares what it covers;
+  the carrier declares what the seal didn't look at. [VERIFIED —
+  Microsoft's Authenticode PE spec (aka.ms/AuthenticodeSpec); the
+  4-byte/8-byte regions via ReversingLabs' reading of the spec]
+
+- **The ungraded compartment becomes the hiding place.** The Windows
+  loader never maps the overlay into memory — bytes after the last
+  section execute nothing — so a reader that grades by execution never
+  sees them. And CVE-2013-3900 is the wound on record: a
+  remote-code-execution vulnerability in WinVerifyTrust's Authenticode
+  verification — "an attacker could exploit the vulnerability by
+  modifying an existing signed executable file to leverage unverified
+  portions of the file in such a way as to add malicious code to the
+  file without invalidating the signature." Microsoft republished the
+  CVE to note the stricter check (EnableCertPaddingCheck) is OPT-IN:
+  "Microsoft does not plan to enforce the stricter verification
+  behavior as a default functionality" — the forgiving verification is
+  the default, and the strict one requires a registry key the defender
+  must already know about. [VERIFIED — NVD/MITRE CVE-2013-3900 record,
+  Microsoft's republished text; CORROBORATED — the overlay-as-hiding-place
+  via ReversingLabs' certificate series]
+
+- **Decoder-design note (Authenticode → Gauntlet).** Three rungs. (1)
+  **Grade the exclusion list, not the seal.** A "valid signature"
+  attests only to the bytes the hash procedure read. The Gauntlet's
+  carrier pass on a signed artifact recomputes the authentihash by the
+  spec's procedure, then enumerates exactly which bytes the hash skipped
+  — the skipped bytes are the artifact's ungraded compartments, graded
+  CLAIMED until read separately. The declared format is a claim (this
+  section's third rung); the signature's coverage is a claim too. (2)
+  **Opt-in strictness is strictness that isn't there.** CVE-2013-3900's
+  stricter check ships off by default — a defense that requires the
+  defender to already know the attack is not a defense the Gauntlet may
+  assume. Grade by the default configuration, never by the strongest
+  available one: the specimen chose the forgiving reader, and the
+  forgiving reader is the differential-parsing entry's shopping
+  attacker. (3) **The seal is part of the carrier.** The certificate
+  table is bytes like any other; the seal lives inside the carrier it
+  certifies. Never treat the signature block as metadata outside the
+  interrogation scope — the overlay the loader ignores is invisible to
+  execution analysis and visible to forensics, so the Gauntlet reads
+  what the loader skips: the bytes the machine executes are not the
+  bytes the machine carries. [SPECULATION — the Gauntlet mappings are
+  this note's doctrine, never run]
+
+*[Grade: VERIFIED on the Authenticode hash exclusions (Microsoft's
+Authenticode PE spec — checksum, Certificate Table directory entry, and
+Attribute Certificate Table omitted), the 4-byte/8-byte skipped regions
+(ReversingLabs' reading of the spec), and the CVE-2013-3900 description
+plus the opt-in EnableCertPaddingCheck status (NVD/MITRE, Microsoft's
+republished CVE text); CORROBORATED on the overlay as loader-invisible
+but forensically live (ReversingLabs); SPECULATION — the Gauntlet
+mappings are doctrine, never run.]*
+
+*Authenticode blind-spot entry seeded 2026-10-22 ~15:15 EDT by the decoder-create-loop.*
+---
