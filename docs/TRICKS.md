@@ -17350,6 +17350,7 @@ Retirement: the matrix is struck — retired, defaced, filed — at the campaign
 
 
 ---
+
 ## T-286 — the Sealed Mirror *(interrogation method; design, never run)*
 
 *T-286 trick seeded 2026-10-22 ~08:15 EDT by the decoder-create-loop. Design, never run.*
