@@ -5679,4 +5679,4 @@ Three targeted searches (Wireshark 5.0.0rc1 features / new dissectors; Stratosha
   - Source: https://www.linuxcompatible.org/story/wireshark-500rc1-released-new-features-dropped-qt-5-and-whats-changed/
 - **Pending board (standing):** Stratoshark 1.0.0rc1 still unannounced (no news anywhere); ST2038 merge unconfirmed; CoAP-EAP ships 4.8.0; Media-over-QUIC still not landed; 4.6.10/4.4.20 due November twelve.
 
-Push result (~05:0x EDT): below.
+- **Push result (2026-10-22 ~05:03 EDT):** sync-github.py "research: protocol decoders (rotation #3, 85th pass) — 5.0.0rc1 first-party texture (verified), pktmon per-process capture method (claimed); no board moves, no library growth" — exit 0 (~3.5 min); stdout "pushed (git-data): research/RESEARCH-LOG.md / done: 1 pushed, 263 unchanged". Remote byte-verified via Contents API git-blob sha: remote 760e6991fef69102fffa7cf14f849ea52b9e42a8 == local (1,373,737 bytes) — the 85th-pass entry IS live on GitHub main. Chain closed. NOT MATERIAL per body rule — one-line summary, stay silent.
