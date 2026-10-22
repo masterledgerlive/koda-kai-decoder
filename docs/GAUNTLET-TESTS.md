@@ -21284,3 +21284,26 @@ DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
 *TDW-266 instrument seeded 2026-10-22 ~10:45 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+
+---
+
+## TDW-267 — the Sealed Mortician Instrument *(design, never run)*
+
+*TDW-267 instrument seeded 2026-10-22 ~12:15 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-267 — the Sealed Mortician Instrument — designed:** T-291's pairs line is closed — the trick priced the funeral; the instrument runs the pricing. The office brings the mortician's seal and the funeral's order; the gauntlet runs five drills on the burial's honesty — and every drill is sealed before it is read, because the instrument interrogates an interrogation.
+
+**Five drills on the buried witness.** The seal drill — the four elements (hour, discoverer, reading, unread) laid against the sealed record; any mismatch is MORTICIAN-DIRTY without reading further. The discovery drill — the loss's discovery laid against the campaign's clock: a loss discovered after the striking hour was never sealed as a funeral at all. The reading drill — what the mortician read in order to name the loss, checked against what the surviving witnesses were permitted to read; the mortician may not read what the witnesses could not. The contest drill — a surviving witness contests the funeral; the seal is opened, and the contest is graded on the seal's survival, not on the contestant's eloquence. The cascade drill — a failed seal: the funeral's order collapses, the loss re-enters T-288's ledger as an unpriced hand, and the campaign re-runs its reconciliation with the loss priced as hostile.
+
+**Grades on the burial alone.** MORTICIAN-CLEAN (the seal survives every drill — the funeral holds, the loss stays buried under WITNESS-SILENT); MORTICIAN-DIRTY (any drill fails — the funeral collapses and the loss's hand returns to the conspiracy ledger unpriced). An uncontested campaign never runs the contest drill and never earns the grade.
+
+**Distinguished from the instruments it shadows.** From TDW-266's Witness's Funeral Instrument (there the office audits the loss against the surviving witnesses — here the office audits the auditor of the loss; the funeral was the claim, the mortician's seal is the evidence for it). From TDW-265's Ledgered Author Instrument (there the two stories check the author's hands — here they check the office's naming of the dead).
+
+**The eighty-first extension, instrumented.** T-84's retirement law: the seal retires with the campaign. The instrument's five drills run only inside the campaign that sealed them; a seal opened for one contest never certifies another campaign's funeral.
+
+*[Lineage graded: SPECULATION core — "a blind run's funeral can be run as a five-drill audit procedure — seal, discovery, reading, contest, cascade — that interrogates the interrogation act itself, and a failed drill collapses the funeral back into the conspiracy ledger as an unpriced hand."]*
+
+*TDW-267 instrument seeded 2026-10-22 ~12:15 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
