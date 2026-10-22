@@ -5692,3 +5692,11 @@ Three targeted searches (Wireshark 5.0.0rc1 features / new dissectors; Stratosha
 - **Re-carry, no status change:** the Vesuvius Challenge's October eighth First Letters Prize stays claimed on a single weak secondary; the "one-million-dollar 2027 grand prize" stays ambiguous against the on-record June 2026 program.
 - **Standing board:** Tangut structural-prior recognition, Apollo for Ancient Greek, DeepMind's Aeneas for Latin inscriptions, the WMT 2026 low-resource lineup, and the Indus script and Linear A claims — all unchanged this pass.
 
+
+
+## 2026-10-22 ~06:02 EDT — decoder research loop — rotation #5 (quantum decoding), 73rd pass
+
+Two targeted news searches (quantum error correction; post-quantum cryptography migration) plus a standing-record check. **Quiet loop — nothing new to record. Every surfaced item was already on our board or a retell of one. No library growth, below the material bar.** Decoder Desk brief written, Rook's voice.
+
+- **Re-covered, no status change:** the October nineteenth Quantinuum Helios color-code record — ninety-nine point nine nine nine five percent logical fidelity, five errors per million operations — logged in full earlier this week as corroborated; today's trade-press hits are the same company release re-syndicated, no new fact, still no independent replication. Google Willow's magic-state cultivation (Science, October fifteenth, verified). IonQ's scheduled qLDPC work, the modular hyperbolic codes, the LLM-designed decoding circuits, and the NVIDIA JUPITER simulation (vendor claim) — all on the board already. On the migration side: the UK, Germany, and Singapore guidance timelines, the Starknet/Aztec/Ethereum roadmaps, the GAO zero-of-twenty-four finding, and the MITRE readiness assessment (claimed, single secondary) — all unchanged.
+- **Watch for today:** the US federal migration-plan deadline under OMB M-26-15 lands October twenty-second — today. No public word yet on submissions. The next rotation-five pass checks whether the scorecard landed.
