@@ -3620,6 +3620,10 @@ decoder-research-loop.*
   - Source: https://nefogo.com/en/news/autonomous-ai-agents-conduct-complex-corporate-cyberattacks-with-minimal-human-oversight-fa7735b645
   - [Claimed — secondary carriers naming the researcher and figures; independent scrutiny pending]
 
+- **Compromised AI-proxy release pipeline pushes credential-stealing malware (incident early morning October twenty-first, twenty twenty-six; disclosed by the vendor; new to record; material).** LiteLLM's release pipeline was compromised and pushed version one point one zero seven point zero to PyPI and the Docker registry; the shipped version contained compiled malware that steals credentials and loads remote-code-execution tooling. The malicious PyPI package was live about two hours before being pulled; the Docker version tag was removed and the other affected tags re-pointed at secure sources. The vendor states its private enterprise release was not impacted and that the attacker had to defeat multiple independent security controls. Lesson: LiteLLM is the proxy layer the whole agent ecosystem's model traffic can ride — and now the pipeline itself is the channel. The reviewed repository is not the shipped artifact, the XZ lesson carried into an agent-toolchain target — and the key-acquisition lane and the pipeline-injection lane are converging on the same payload: provider credentials.
+  - Source: https://docs.litellm.ai/blog/security-incident-oct-21-2026
+  - [Corroborated — the vendor's own incident disclosure, read first-party; root cause as stated by the vendor, investigation ongoing]
+
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
