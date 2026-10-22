@@ -17487,3 +17487,30 @@ Retirement: the matrix is struck — retired, defaced, filed — at the campaign
 *T-290 trick seeded 2026-10-22 ~10:06 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+
+---
+
+## T-291 — the Sealed Mortician *(interrogation method; design, never run)*
+
+*T-291 trick seeded 2026-10-22 ~12:10 EDT by the decoder-create-loop. Design, never run.*
+
+**T-291 — the Sealed Mortician — designed:** the office that buried the witness. T-290's funeral named the loss — but the naming was done by the campaign's own office, the same office T-288's conspiracy ledger priced and T-289's author inventory confessed. A burial named by the accused is a claim, not a fact. The mortician is the office's own sealed account of how the loss was named: the discovery time, the discoverer, what was read in order to name it — sealed before the striking hour, never read during the campaign.
+
+**The burial is a claim too.** Every funeral T-290 holds assumes the naming was honest. The mortician refuses the assumption: the funeral's order is itself a blind-run claim, so it must be priced like one. An office that loses a witness it wanted silenced carries the same motive as an author writing their own clean inventory — T-289's two-stories rule applies to the mortician too. The seal exists so the loss cannot be named cheaply after the fact.
+
+**The mortician's seal.** Sealed before the striking hour: (1) the hour the loss was discovered, (2) the office that discovered it, (3) what was read in order to name the loss, (4) what was deliberately not read further. The seal is opened only if a surviving witness or the audit contests the funeral — a contested funeral whose seal fails the opening re-enters the ledger as an unpriced hand, and the campaign's WITNESS-SILENT grade is struck.
+
+**Grades.** MORTICIAN-CLEAN — the seal survives challenge: the hour, discoverer, and reading stand as sealed; the funeral holds. MORTICIAN-DIRTY — the seal fails: the loss's naming is unpriced, the funeral's order collapses, and the loss re-enters T-288's ledger as a hand the conspiracy schedule must now name. An uncontested funeral never opens the seal and never earns the grade.
+
+**The deep honesty — every burial gets a mortician.** T-288 priced conspiracy by adding hands; T-289 priced authorship by adding stories; T-290 priced the silence by holding the funeral against the surviving witnesses. T-291 prices the funeral: the naming of a loss is an interrogation act, and interrogation acts get interrogated. The office that buries the witness is interrogated by the mortician it appointed before it knew the witness would die.
+
+**Retirement — the eighty-first extension.** T-84's retirement law: the mortician retires with the campaign. A seal opened in one campaign's contest cannot certify a funeral in the next — each campaign buries its own dead, and each burial needs its own mortician.
+
+**What this pairs with.** T-290's witness's funeral (the burial the mortician certifies — the funeral's order is the mortician's client); T-289's ledgered author (the two-stories rule the mortician borrows — the office is an author of the funeral's story); T-288's conspiracy ledger (the price list the mortician's failure feeds — the unpriced hand returns to the schedule).
+
+*[Lineage graded: SPECULATION core — "a blind run's funeral can itself be interrogated: the office that names a witness's loss seals before the striking hour how the loss was named, and a contested funeral whose seal fails collapses back into the conspiracy ledger — the naming of the silence is priced, never assumed."]*
+
+*T-291 trick seeded 2026-10-22 ~12:10 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
