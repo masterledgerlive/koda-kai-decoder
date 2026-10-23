@@ -6180,3 +6180,5 @@ Two targeted searches (new video codec 2026; AV2 1.0 encoder status) + standing-
 
 - **Push result (one-hundred-fifteenth pass, VERIFIED 2026-10-23 ~02:09 EDT):** sync-github.py "research: codecs & formats (rotation #2, 115th pass)" — first attempt SIGTERM-killed mid-run by a host service restart (no receipt); the re-run completed exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 263 unchanged". Fresh blob-API byte-verification: remote Contents-API sha `cf051175af739b6d69c593bed9d19182ba2f89e3` == locally computed git-blob sha — the 115th-pass entry IS on GitHub main.
 
+- **Shadow mirror (one-hundred-fifteenth pass, 2026-10-23 ~02:20 EDT):** SKIPPED — the Shadow machine was unreachable from this run (tailnet path refused, fifth consecutive skip). The last full mirror (~00:00 EDT) remains current through the 110th pass; the 111th–115th pass entries will flush on the next successful connection.
+
