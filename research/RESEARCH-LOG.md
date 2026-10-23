@@ -6004,5 +6004,5 @@ Two targeted searches (low-resource machine translation, October 2026; AI and an
 
 Re-covered with no status change: the WMT 2026 Budapest conference (six days out), the OpenAI legacy-code modernization announcement (still no benchmarks), the noise-proof semantic-anchor low-resource translation results, the stele-inscription super-resolution paper, and the standing ancient-script items (Tangut recognition, oracle-bone rare-glyph study, Yi handwriting retrieval, Apollo Greek, Aeneas, Palaeographicum, Meta OMT/Omnilingual ASR). Linear A and Indus: no status change. Quiet pass — nothing new reached the materiality bar, so the public library trees were not touched.
 
-- **Push result (one-hundred-fourth pass):** follows below.
-- **Shadow mirror (one-hundred-fourth pass):** follows below.
+- **Push result (one-hundred-fourth pass, VERIFIED 2026-10-22 ~20:38 EDT):** sync-github.py — exit 0 (~5.8 min); stdout "done: 0 pushed, 264 unchanged". Post-hoc verification (Contents API meta): remote git-blob sha bb984b9dc67146fc946df3f21fb20ea5eb8eb1a3 == local (1,465,061 bytes) — the 104th-pass public entry IS live on GitHub main, carried under a concurrent sync. No loss. Chain closed.
+- **Shadow mirror (one-hundred-fourth pass, VERIFIED 2026-10-22 ~20:46 EDT):** GREEN — SSH check succeeded; backup flush (`scp -r` decoder tree + `scp ~/MEMORY.md`) both exit 0, FLUSH_OK (~7.6 min).
