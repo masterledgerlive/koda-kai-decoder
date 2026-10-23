@@ -3708,6 +3708,9 @@ decoder-research-loop.*
   - Source: https://en.cryptonomist.ch/2026/10/22/show-up-attack-vulnerability/
   - [Claimed — submitted paper via a single secondary carrier; not peer-reviewed; the paper itself not opened first-hand this pass]
 
+- **Threat actors are actively targeting exposed Flowise AI orchestration servers (observed around October twenty-first and twenty-second, twenty twenty-six; new to record; minor material).** A research team observed a campaign against internet-facing Flowise instances — the management console that orchestrates AI agents — harvesting stored credentials, injecting malicious prompts, and hijacking running workflows. The reported guidance: do not expose AI agent management tools to the open internet. Significance: the operator console is the target. This is the third management-plane specimen on record — after exposed LiteLLM instances hunted by a botnet campaign and the Langflow remote-code-execution campaign through its MCP transport. The pattern is consistent: the fleet's control surface is reachable before its defenses are ever tested. [Claimed — single secondary carrier; the researcher's own writeup not read first-hand this pass]
+  - Source: https://www.itsecuritynews.info/it-security-news-roundup-2026-10-22-morning/
+
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
