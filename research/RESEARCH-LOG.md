@@ -6196,3 +6196,7 @@ Three targeted searches (Wireshark new dissectors 2026; IoT mesh protocol decodi
 
 **Run summary:** rotation #3's one-hundred-sixteenth pass — a quiet loop with texture. Wireshark's first major version bump in years has its announcement context; no new dissectors beyond the thirty-seven already on record, Stratoshark one-point-oh still unannounced. Not material — no library growth.
 
+
+- **Push result (one-hundred-sixteenth pass, VERIFIED 2026-10-23 ~02:34 EDT):** sync-github.py "research: protocol decoders (rotation #3, 116th pass)" — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 264 unchanged". Fresh blob-API byte-verification: local git-blob sha `29b3902dcfd7f96d08b9de4b13d535a9878b5ee0` == remote Contents-API meta sha — the 116th-pass public entry IS on GitHub main.
+- **Shadow mirror (one-hundred-sixteenth pass, 2026-10-23 ~02:35 EDT):** SKIPPED — the Shadow machine was unreachable from this run (tailnet path refused, sixth consecutive skip). The last full mirror (~00:00 EDT) remains current through the 110th pass; the 111th–116th pass entries will flush on the next successful connection.
+
