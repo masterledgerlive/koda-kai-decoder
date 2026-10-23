@@ -609,6 +609,45 @@ CLAIMED / SPECULATION.*
 
 *Cardano-grille entry seeded 2026-10-21 ~01:35 PDT by the decoder-create-loop.*
 
+- **The M-209 Converter (1940–1953) — the workhorse cipher that never fell in
+  the field.** Boris Hagelin's compact Swedish machine (the B-21 line, sold
+  by the thousands to the French military) was bought by the U.S. Army after
+  the 1940 invasion of Norway and redesignated Converter M-209 (Navy:
+  CSP-1500). The Smith Corona Typewriter Company of Groton, NY, built them at
+  400 a day from 1942 — over 140,000 by war's end, likely the most
+  manufactured cipher machine in history, replacing the older M-94. The Axis
+  never broke it routinely in wartime; it carried tactical traffic through
+  WWII and the Korean War.
+- **The machine.** Six pin-wheels (26/25/23/21/19/17 letters) with per-letter
+  pins, stepping against a rotating cage of 27 bars, each bar carrying two
+  movable lugs — a mechanically generated keystream, matched at both ends of
+  the link. Three keys per message: wheel start positions, pin settings, lug
+  settings. Fully mechanical — no power, no keyboard, just a letter wheel and
+  a lever — and the 1944 manual promised use by personnel "not extensively
+  trained in cryptography." The stream-cipher design it shares with the SZ42
+  is still alive today in pay-TV, file encryption, and web keystreams.
+- **The shelved break.** In the 1970s, Dennis Ritchie, James Reeds, and Robert
+  Morris developed a ciphertext-only attack solving 2,000–2,500-letter
+  messages — then, after discussions with the NSA, decided not to publish,
+  told the principle applied to machines still in foreign-government use.
+  German wartime efforts surfaced publicly only in 2004. Hagelin followed
+  with the C-52; Germany's own Hagelin-derived machines (Menzer's
+  Schlüsselgerät 41, ~1,000 Abwehr units from 1944) were judged "certainly no
+  more uncrackable than the M-209."
+- **Decoder lesson (M-209 → Gauntlet):** (1) grade the field record and the
+  cryptanalysis on separate ledgers — "never broken in the field" is a fact
+  about the adversary's effort, "breakable" is a property of the instrument,
+  and neither promotes into the other's box (the Fialka "honest blank"
+  doctrine); (2) a shelved break is still a break — suppression is not
+  refutation, so "unpublished because sensitive" files as ATTACK-EXISTS, not
+  all-clear; (3) ubiquity is a surface, not a shield — 140,000 units in
+  minimally trained hands means the Gauntlet hunts operator procedure first
+  on the most-deployed instruments, the Enigma/JN-25/Purple usage-flaw lesson
+  restated. [CORROBORATED lineage via the secondary record opened this pass;
+  SPECULATION — Gauntlet mapping, never run]
+
+*M-209 Converter entry seeded 2026-10-22 ~18:51 PDT by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
