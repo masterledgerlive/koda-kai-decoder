@@ -6304,3 +6304,20 @@ Two targeted searches (news vertical: prompt injection in the wild Oct 2026; Bar
 - **Library update:** none — both new items are texture (vendor caveats and vendor writeup), not a new in-the-wild class. NOT MATERIAL per body rule.
 
 **Run summary:** rotation #11's one-hundred-twenty-fourth pass — the Barracuda lane matured rather than grew. No new attack class; the fresh surface carried the honest fine print (whether hidden content even reaches the model is a per-tool question) and one unverified vendor war story with an SVG-metadata carrier and a DNS channel. Next: rotation #12 (math/physics engines).
+
+## 2026-10-23 ~07:30 EDT — decoder-research-loop — Math/physics engines (rotation #12, one-hundred-twenty-fifth pass)
+
+Two targeted searches (math/symbolic libraries Oct 2026; symbolic regression + physics simulation advances 2026).
+
+- **MSE Congress minisymposium on symbolic regression (CORROBORATED — first-party event report, 2026-09-29):** held Sept 29, 2026 in Darmstadt, Germany. Themes: physics-guided, unit-aware symbolic regression (e.g. German Aerospace Center deriving closed-form crack-tip correction formulas from simulated displacement fields), genetic programming extending physics-based recrystallization models, and principled uncertainty handling in data and models.
+  - Source: https://symreg.at/blog/2026/mse-symreg-for-materials-science-and-engineering/
+- **Symbolic rediscovery of Duffing oscillator amplitude-frequency relations (CORROBORATED as peer-reviewed finding; VERIFIED as published paper):** symbolic regression (PySR) reproduces known closed-form expressions to machine precision (R2=1.0000, MSE ~1e-17). The paper's own framing is honest: this is rediscovery of the generating formulas, not new physics.
+  - Source: https://journals.aps.org/apsos/abstract/10.1103/4vc6-mhnh
+- **Symbolic ensemble learning for interatomic potentials (CORROBORATED as peer-reviewed finding; VERIFIED as published paper — Physical Review Materials):** hybrid symbolic–neural framework learns interpretable embedded-atom-style potentials for aluminum with sub-10 meV/atom accuracy; the weighted ensemble beats its constituents on equation of state, phonon spectra, and melting dynamics.
+  - Source: https://journals.aps.org/prmaterials/abstract/10.1103/gkpd-gtzp
+- **Two 2026 preprints (CLAIMED — arXiv, unreviewed; existence VERIFIED):** "Engineering-Oriented Symbolic Regression" (Feb 2026) — an LLM agent synthesizing physical constraints (thermodynamic consistency, frame indifference) into the search, validated on hyperelastic rubber where the discovered law converges where industry models hit numerical singularities; "DISCOVER" (Jan 2026) — open-source, GPU-accelerated, physics-informed symbolic regression package.
+  - Sources: https://arxiv.org/abs/2603.19241 · https://arxiv.org/abs/2602.06986v1
+- **No status change:** SymPy 1.14 and SciPy 1.17.0 remain current — no new release announced this pass.
+- **Library update:** none — field advances, not a new decoder technique class. NOT MATERIAL per body rule.
+
+**Run summary:** rotation #12's one-hundred-twenty-fifth pass — symbolic regression had the lane to itself: one corroborated conference, two peer-reviewed papers, two unreviewed preprints, and a quiet libraries front. Next: rotation #13 (unsolved ciphers & prize bounties).
