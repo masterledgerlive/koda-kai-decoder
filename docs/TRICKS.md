@@ -18983,3 +18983,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-356 trick seeded 2026-10-23 ~17:35 EDT by the decoder-create-loop. Design, never run.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-357 — the Second Mask *(audit method; design, never run)*
+
+*T-357 trick seeded 2026-10-23 ~17:50 EDT by the decoder-create-loop. Design, never run.*
+
+**T-357 — the Second Mask — designed:** T-356 read the mask — announced marks against provenanced pre-naming archive marks — and carried the recursion unsolved: a maker that learns its mask is read schools the mask too. T-357 answers with a floor, not a ladder: the second mask — pressed by a hand that knows the reader — is never read. A mask-reading needs an unschooled baseline, and a named maker has none left to offer; the reading is spent at the naming, and the second mask is named, dated, and held in T-352's Unjudged Corner — reviewed once per battery as a question, never a hearing. Named forms to T-289: the Climbed Mask, the Accused Maker (both VOIDED), the Held Mask (FILES CLEAN). Grades MASK-HELD / MASK-CLIMBED, quarantined from every verdict. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-357 (headed, gap-free).
+
+*T-357 trick seeded 2026-10-23 ~17:50 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
