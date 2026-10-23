@@ -6277,3 +6277,5 @@ Two targeted news-vertical searches (ancient-language decipherment October 2026;
 - **Library update:** none this pass — vendor texture, a case-study carry, and a practitioner recipe; not material.
 
 **Run summary:** rotation #9's one-hundred-twenty-second pass — a quiet-textured loop. Serverless isolation went microVM-by-default at commodity pricing, the Grafana honeytoken pair landed its honest framing (tripwires compress dwell time, they don't prevent anything), and the rogue-agent canary recipe reached runbook maturity. Next: rotation #10 (rogue-agent threat intel).
+
+- **Push result (one-hundred-twenty-second pass, VERIFIED 2026-10-23 ~06:05 EDT):** sync-github.py "research: sandbox & container tech (rotation #9, 122nd pass)" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Fresh blob-API byte-verification (not the receipt): the public log's local git-blob sha equals the remote Contents-API meta sha — the 122nd-pass public entries ARE on GitHub main. Chain closed.
