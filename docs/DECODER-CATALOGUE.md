@@ -4977,6 +4977,72 @@ carry an evidence grade and a source.*- **Eliyan NuLight 2D micro-V-C-S-E-L inte
 
 *[Grade: CORROBORATED on EvilModel's method and figures (36.9 MB in 178 MB AlexNet, <1% accuracy loss, 58-engine VirusTotal pass, 93.1% retention at 50% neuron replacement) via multiple independent writeups of arXiv:2107.08590; CORROBORATED on StegoNet's four methods and EvilModel 2.0's retraining-survival (arXiv:2109.04344); SPECULATION — the Gauntlet mappings are doctrine, never run.]*
 
+---
+
+- **The whitespace carrier class: SNOW (1998) and Whitespace (2003).** The one
+  carrier family that toolchains actively destroy.
+
+- **SNOW.** Steganographic Nature Of Whitespace, by Matthew Kwan — a tool that
+  conceals messages in plain text files by appending tabs and spaces to the ends
+  of lines. Most viewers and editors never show trailing whitespace, so the
+  payload hides in the part of the file nobody reads. It ships with optional
+  compression and ICE encryption under a password (the algorithm's flexible key
+  size admits long passphrases, per the secondary documentation). The documented
+  encoding rate is roughly three bits per eight columns — sequences of up to
+  seven spaces interspersed with tabs. Free for non-commercial use; command-line
+  builds for Windows and Unix-like systems, plus a Java version. [CORROBORATED
+  — security-literature writeups, the documented command options, and the
+  directory entries]
+
+- **The carrier budget (worked example).** At roughly three bits per eight
+  columns, a hundred-line file averaging eighty usable columns per line carries
+  on the order of three thousand bits — a few hundred bytes — in its margins.
+  With compression enabled the budget is measured in compressed ciphertext, so
+  the detector's tell is statistical, not semantic: trailing-whitespace runs
+  whose length distribution does not match the editor that supposedly produced
+  the file.
+
+- **Whitespace.** An esoteric programming language by Edwin Brady and Chris
+  Morris, created in the early two-thousands at a British university and
+  released on April first, twenty-oh-three (the launch-day review landed on
+  April Fool's Day, and it was not a joke). Imperative and stack-based; only
+  three characters carry meaning — space, tab, and linefeed — and everything
+  else is ignored. Instructions are built from instruction modification
+  parameters: space for stack work, tab-space for arithmetic, tab-tab for heap
+  access, linefeed for flow control, tab-linefeed for input/output; numbers are
+  a sign bit plus binary, terminated by a linefeed. The consequence that matters
+  here: a Whitespace program can live inside the whitespace of a program written
+  in another language — one file, two programs, the second invisible except to
+  a whitespace-aware interpreter. [CORROBORATED — encyclopedia and
+  esoteric-language references agree on the authors, the three meaningful
+  characters, and the polyglot property]
+
+- **The modern echo.** Steganography surveys cite whitespace steganography as
+  a delivery method for web shells in server-side scripting malware — a
+  nineteen-nineties technique on the same threat lane as today's script-engine
+  exploits. The oldest channel and the newest exploit share the same hiding
+  place: the part of the file nobody reads. [CLAIMED — a single survey citation]
+
+- **What this means for the Gauntlet.** Three lessons. (1) **Byte-exact
+  intake.** Linters, formatters, diff normalizers, tab expanders, line-ending
+  converters, and strip-trailing-whitespace editor settings are
+  evidence-destruction tools aimed at exactly this carrier. The byte stream must
+  be snapshotted and hashed before any normalization — a cleaned submission is
+  a destroyed specimen on this axis. (2) **The polyglot cut.** An invisible
+  program riding in another program's whitespace never executes unless invoked,
+  so "compiles clean and behaves normally" is exactly what a polyglot alibi
+  looks like. Interrogation must parse the file's full character budget, never
+  just its parsed syntax tree. (3) **The erasure test.** A specimen that
+  reformats its own submission has run a destruction step on its carrier.
+  Whitespace-only changes after pinning are channel events, not hygiene — the
+  weight-stego entry's pinned-file rule extends to the margins, not just the
+  weights. [DOCTRINE]
+
+*[Grade: CORROBORATED on SNOW's method and documented options and on
+Whitespace's authors, mechanics, and polyglot property; the budget arithmetic
+is the catalogue's own worked example; CLAIMED on the web-shell citation;
+DOCTRINE — the Gauntlet mappings are design, never run.]*
+
 ## Container & file-format forensics
 
 The Gauntlet interrogates containers — it never runs a specimen's code against
