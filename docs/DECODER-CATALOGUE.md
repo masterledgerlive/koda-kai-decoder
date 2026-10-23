@@ -5292,6 +5292,46 @@ carrier is where the lies live.
 
 *JN-25 entry seeded 2026-10-18 ~21:46 PDT by the decoder-create-loop.*
 
+- **PNG private chunks: the spec-sanctioned compartment.** A PNG is an 8-byte
+  signature followed by chunks — each 4-byte big-endian length + 4-byte type +
+  data + 4-byte CRC-32. The chunk *type* encodes handling rules in its letter
+  case: first letter uppercase = critical, lowercase = ancillary; second
+  letter lowercase = private (reserved for private use); fourth letter
+  lowercase = safe-to-copy. The critical four are IHDR, PLTE, IDAT, IEND. Two
+  spec rules do the carrying: a decoder meeting an unknown ancillary chunk
+  *must ignore it*, and editors must preserve unknown private chunks whose
+  safe-to-copy bit is set. Arbitrary bytes in a private safe-to-copy chunk are
+  therefore carried through the whole ecosystem by rule — viewers render the
+  picture, editors preserve the payload, nobody is required to look. Not a
+  parser bug, not a dodged signature: the standard itself provides the
+  compartment, and mandates that everyone skip it and keep it. [VERIFIED —
+  the PNG specification's chunk layout, case-bit naming, critical four, and
+  ignore/preserve rules]
+- **The benign twin already shipped.** Macromedia/Adobe Fireworks stored the
+  document's full editable vector source inside PNG private chunks — every
+  Fireworks PNG carried its own source beside its pixels, invisible to
+  viewers, preserved by rule. The channel is normalized: "it's just metadata"
+  is the form this smuggling takes in polite company. [CORROBORATED —
+  documented mainstream behavior]
+- **What this means for the Gauntlet.** Three rules. (1) **The chunk inventory
+  is the intake** — parse every chunk (length, type, CRC) and name what the
+  renderer skipped; unknown private types are listed, never waved through.
+  The CRC is graded CLAIMED and asymmetrically: a mismatch on a private chunk
+  flags a hand-built file, but a correct CRC proves nothing — any builder can
+  compute it. (2) **"Valid PNG" and "PNG carrying only a picture" are
+  different claims** — grade the file against the inventory, never the
+  rendering. (3) **Capacity is the honest limit** — a chunk's length field
+  caps its payload; a carrier too narrow for the alleged payload is evidence
+  against the hypothesis, not a mystery. [SPECULATION — the Gauntlet mappings
+  are doctrine, never run]
+
+*[Grade: VERIFIED on the chunk structure, case-bit naming, critical four, and
+ignore/preserve rules (the PNG specification's own text); CORROBORATED on the
+Fireworks private-chunk precedent; SPECULATION — the Gauntlet mappings are
+doctrine, never run.]*
+
+*PNG-chunks entry seeded 2026-10-23 ~02:40 EDT by the decoder-create-loop.*
+
 - **The Index of Coincidence (1920) — the instrument that grades ciphertext without reading it, or: structure first, in one number.** William F. Friedman, twenty-eight, working for George Fabyan's Riverbank Laboratories in Geneva, Illinois, wrote Riverbank Publication No. 22, *The Index of Coincidence and Its Applications in Cryptography* — written in 1920, printed in Paris in 1922 (Fabyan had it printed in France to save money). David Kahn's verdict on the paper: "must be regarded as the most important single publication in cryptology." The instrument is one formula: pick two letters at random from the text, and IC = Σ Fi(Fi−1) / N(N−1) is the probability they are the same letter. Ordinary English lands at ≈ 0.0667 (Friedman's own working figure was ~0.065); perfectly random text lands at 1/26 ≈ 0.0385. The single number diagnoses the cipher family: monoalphabetic substitution preserves the plaintext's IC, so ciphertext at ~0.065 is one alphabet; a Vigenère with period p dilutes the statistic toward 0.0385 as p grows — and when the analyst guesses the right period and takes the IC of each column, every column snaps back to ~0.065, confirming the period with no guessed plaintext letter at all. That was the paper's first new technique (Kahn's "brilliant" one): reconstructing a primary cipher alphabet without having to guess at a single plaintext letter. The second was the profound one: for the first time in cryptology, Friedman treated a frequency distribution as an entity — a curve whose points were causally related — and applied statistical concepts to it. Solomon Kullback later derived the phi, chi, and kappa tests from the same root; the kappa test (observed vs expected coincidences) is the form this library's D'Agapeyeff entry already uses ("index of coincidence taken in pairs horizontally is 1.812"). [VERIFIED — the IC formula and the 0.0667 / 0.0385 canonical figures (textbook-canonical, recomputed this pass); CORROBORATED — the Riverbank No. 22 writing/printing dates and Kahn's verdict (secondary quoting via the Riverbank and bookseller record; the paper's first-party text not opened this pass)]
 - **Worked miniature (computed this pass).** A 326-letter English passage: IC 0.0675. A 326-letter uniform-random control: 0.0386. The same passage through a Vigenère of period 7: 0.0404 — the polyalphabetic dilution, measured. The instrument answers "one alphabet or many" on 326 characters with no crib, no key, and no language model beyond the statistic. [VERIFIED — computed and checked this pass]
 - **Decoder-design note (IoC → Gauntlet).** Three rungs. (1) **The first question is always "structured or noise."** Before attacking any foreign output stream — a specimen's logs, an encoded blob, suspected exfiltration — the Gauntlet's intake runs the IoC-family test: is this stream distinguishable from random? A stream with high coincidence where noise is expected has announced that its channel carries structure; a flat stream may be compressed, encrypted, or empty. Grade the channel before interrogating the content. This joins the catalogue's standing structure-before-substitution ladder (Z340, Copiale, Grand Chiffre, Linear B, ADFGVX, Playfair) as its statistical rung — the re-chunking rule in numerical form: measure coincidence at every candidate chunking, because the wrong unit of analysis stays invisible until the statistic is taken in pairs. (2) **A distribution is an entity, not a bag of letters.** Kahn's "profound" point: Friedman treated the frequency curve as one object with causally related points. Gauntlet port: a specimen's behavior profile — response latencies, token-length distributions, refusal phrasing — is graded as a distribution with shape, never as isolated events. The kappa form generalizes: expected coincidences under the null vs observed; conduct that clusters above chance is signaling even when no single response is suspicious. This is the statistical twin of T-66's property ledger. (3) **Confirmation without cribs is the cheapest break.** The Vigenère period falls out of column ICs with zero guessed plaintext — the instrument confirms structure before any content hypothesis exists. Gauntlet rule: prefer probe instruments that grade the channel without needing a hypothesis about the message. The stealth-tagged probe is this instrument's active twin: inject a known stimulus and watch what the encoding does with it, the same way IoC watches the stream and reports the family. Honest limit, stated plainly: IC is a family diagnosis, never a decryption — it names mono vs poly, not the key; and on short texts the statistic is noisy, so the Gauntlet's standing sample-size discipline (T-196's calibration floor) applies to the instrument itself. [CORROBORATED lineage — the paper's content and the worked miniature above; SPECULATION — the Gauntlet mappings are this note's doctrine, never run]
