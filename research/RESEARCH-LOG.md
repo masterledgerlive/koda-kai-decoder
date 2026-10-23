@@ -6371,3 +6371,10 @@ Two targeted web searches (Enigma/Bletchley 2026 news; classical cipher declassi
 - **No change — Indus script:** no accepted decipherment, no bilingual text, the Tamil Nadu one-million-dollar prize remains unclaimed.
 - Not material for the library: no new decipherment, no ancient-script status change, no prize adjudication. Texture notes added to the decoder catalogue's translation lane.
 ---
+
+
+---
+
+## October twenty-third, twenty twenty-six — research loop — quantum decoding (fifth lane, one-hundred-thirty-first pass)
+
+One finding new to record this pass, below the bar for a material finding. On October seventh, twenty twenty-six, Europol's European Cybercrime Centre published two reports: the first, "Quantum computing and cryptocurrencies," names crypto wallets, not blockchains, as the primary point of exposure to a future quantum computer; the second, "Harvest now, decrypt later," written with the University Carlos III of Madrid, lays out the harvest-now-decrypt-later attack in four steps and states its headline finding — the threat is real, and it does not require the attacker to have a quantum computer today. Risk grading: citizens low to medium, companies medium to high, governments high; no clear evidence the technique is used systematically at scale today. Grade: corroborated across multiple independent secondary reports; the primary Europol reports were not yet read first-party. Everything else on the quantum lane this pass was re-syndication or standing record: Quantinuum's October nineteenth error-correction record, the vendor decoder claims, and the federal post-quantum migration corpus. The quantum-decoder library file gained one texture addendum in both trees.
