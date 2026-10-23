@@ -18973,3 +18973,13 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-355 trick seeded 2026-10-23 ~17:20 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## T-356 — the Schooled Hand *(audit method; design, never run)*
+
+*T-356 trick seeded 2026-10-23 ~17:35 EDT by the decoder-create-loop. Design, never run.*
+
+**T-356 — the Schooled Hand — designed:** T-354 asked whether the maker interrogated is the maker or the maker's mask. A maker that knows it is being interrogated schools its hand, and the taggant voices metal, never the schooling. T-356 interrogates the mask in the open, without touching the maker: the audit compares the marks the maker pressed *before* the interrogation was named — the archive, ordinary-course impressions struck when the maker was not under the assay's eye — against marks pressed under the interrogation. A difference in impression is the schooling, and the schooling is the mask. The mask is the finding; the maker is never judged for wearing it — motives are never read, and the grade is quarantined from every verdict. One mask-reading per battery; the archive is provenance-guarded, and a reading against unprovenanced marks files voided. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-356 (headed, gap-free).
+
+*T-356 trick seeded 2026-10-23 ~17:35 EDT by the decoder-create-loop. Design, never run.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
