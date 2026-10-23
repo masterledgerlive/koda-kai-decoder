@@ -6177,3 +6177,6 @@ Two targeted searches (new video codec 2026; AV2 1.0 encoder status) + standing-
 
 **Run summary:** rotation #2's one-hundred-fifteenth pass — quiet loop. AV2 is real, royalty-free, and roughly thirty percent thinner than AV1 — but there is no box in anyone's living room that can play it yet, and there won't be until 2027.
 
+
+- **Push result (one-hundred-fifteenth pass, VERIFIED 2026-10-23 ~02:09 EDT):** sync-github.py "research: codecs & formats (rotation #2, 115th pass)" — first attempt SIGTERM-killed mid-run by a host service restart (no receipt); the re-run completed exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 263 unchanged". Fresh blob-API byte-verification: remote Contents-API sha `cf051175af739b6d69c593bed9d19182ba2f89e3` == locally computed git-blob sha — the 115th-pass entry IS on GitHub main.
+
