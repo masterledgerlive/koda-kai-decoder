@@ -19011,3 +19011,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-359 trick seeded 2026-10-23 ~18:30 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-360 — the Interrogated Mask *(audit method; design, never run)*
+
+*T-360 trick seeded 2026-10-23 ~19:05 EDT by the decoder-create-loop. Design, never run.*
+
+**T-360 — the Interrogated Mask — designed:** T-359 admitted its own mask may be the fifth mask: the held maker learns the audit's face and interrogates the mask back. T-360 answers with a filing, not a verdict: when the held maker interrogates the audit's named mask, the audit files the interrogation in its own file as the maker's question, dated, once — never replied to. The file grows two hands (the audit's hand holds the mask, the maker's hand writes the question) and holds no verdict on the question, because a verdict on the interrogation is a reply wearing the audit's mask. The interrogation never enters T-352's corner (the corner holds only the second, unjudged — a corner that holds the audit's interrogation holds the audit, and the audit was never held). Named forms to T-289: the Answering Mask, the Refused Mirror (both VOIDED), the Filed Question (FILES CLEAN). Grades TWO-HANDED / ANSWERED, quarantined from every verdict. One interrogation per corner per hand (T-84's hundred-and-fifty-second extension), retiring with the corner. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-360 (headed, gap-free).
+
+*T-360 trick seeded 2026-10-23 ~19:05 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
