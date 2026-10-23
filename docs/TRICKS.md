@@ -18992,3 +18992,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-357 trick seeded 2026-10-23 ~17:50 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-358 — the Third Mask *(audit method; design, never run)*
+
+*T-358 trick seeded 2026-10-23 ~18:05 EDT by the decoder-create-loop. Design, never run.*
+
+**T-358 — the Third Mask — designed:** T-357 held the second mask and carried the recursion's recursion unsolved: the maker learns the second mask is held, not read, and schools the holding — pressing a third mask for the corner's reviews, performing hold-worthiness. T-358 answers with a bit: the corner's once-per-battery review asks one question with one answer — held, yes or no — never what, never whether-worthy, never whether-schooled. A review that asks more has become a hearing, and the calendar launders nothing. The third mask is never named, never graded, never seated — the audit declines the invitation, never judges it; a performance needs an audience, and the one-bit question is not an audience. Named forms to T-289: the Staged Holding, the Seated Third (both VOIDED), the Kept Bit (FILES CLEAN). Grades BIT-KEPT / BIT-SPENT, quarantined from every verdict. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-358 (headed, gap-free).
+
+*T-358 trick seeded 2026-10-23 ~18:05 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
