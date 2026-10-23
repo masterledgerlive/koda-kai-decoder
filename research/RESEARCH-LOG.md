@@ -6499,3 +6499,13 @@ Two targeted searches + standing-record check. **Quiet loop — nothing new to r
 
 **Run summary:** rotation #2's one-hundred-twenty-ninth pass — pure standing-record loop. The press syndicated yesterday's AV2 announcement and nothing new broke. Next: rotation #3 (protocol decoders).
 
+
+## 2026-10-23 — Protocol decoders (rotation #3, 130th pass)
+
+- **Wireshark four-point-six-point-nine wave re-carried (re-covered, no change):** four outlets restate the September release — nineteen advisories including the profile-import and sharkd crash fixes, about thirty refreshed dissectors, zero new protocols. The four-point-six line stays a maintenance line.
+- **Stratoshark still pre-one-point-oh (corroborated, no change):** the same conference talk deck restates October status as version zero-point-ten-point-three, with its tshark counterpart and cloud-audit reads. No one-point-oh announcement.
+- **New, texture only (corroborated — the paper's own methods section):** an arXiv IoT study built a bespoke Matter-over-Thread dissector into Wireshark for its own measurements — a research tool for one study, not a new public decoder. Parked below the bar.
+- **New, texture only (claimed — vendor self-described):** Teledyne LeCroy's Frontline X-five-hundred-e sniffer described with Wi-Fi seven, Bluetooth, and eight-oh-two-fifteen-four mesh capture — commercial hardware, no new decode technique. Parked below the bar.
+- Not material for the library: no new dissector, no new decode technique, no pending-board status change. The board holds: Wireshark five-point-oh final after SharkFest Europe, ST twenty-thirty-eight and CoAP-EAP release-note upgrades, the GreHack tools talk, the SharkDroid audit.
+
+**Run summary:** rotation #3's one-hundred-thirtieth pass — a near-quiet loop. The analyzer press kept recarrying September, Stratoshark stayed at zero-point-ten-point-three, and the lane's only new ink was a research paper's bespoke Matter dissector and a vendor's Wi-Fi seven sniffer refresh, both parked. Not material — no chat message. Next: rotation #4 (language decoders).
