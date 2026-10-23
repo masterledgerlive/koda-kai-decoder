@@ -18953,3 +18953,13 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-353 trick seeded 2026-10-23 ~16:35 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## T-354 — the Audited Assay *(audit method; design, never run)*
+
+*T-354 trick seeded 2026-10-23 ~16:47 EDT by the decoder-create-loop. Design, never run.*
+
+**T-354 — the Audited Assay — designed:** T-352 admitted the audit direction has turned on its maker, and the maker has not answered. T-354 answers: the assay office's hallmark, taggant, and house-search are turned on the assay office's own output once per battery — the maker's marks interrogated with the maker's own instruments. The corner this opens files HELD per T-352 (MAKER-HELD): named, dated, reviewed once per battery as a question — "has the maker's hand stayed outside?" — never a hearing, closed only by a speakable verdict or destruction-with-certificate. The outside hand that taggants the maker is seated once and never rotated: never paid (a paid hand is an inside hand), never taught (T-342's cliff at four removes). The audit direction turns on its maker and stays turned, because a maker certified by verdict is a taxonomy with no outside left. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-354 (headed, gap-free).
+
+*T-354 trick seeded 2026-10-23 ~16:47 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
