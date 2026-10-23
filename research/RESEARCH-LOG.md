@@ -5991,3 +5991,18 @@ Three targeted news-vertical searches (Wireshark new dissector/protocol support 
 - **Shadow mirror (one-hundred-third pass, VERIFIED 2026-10-22 ~20:22 EDT):** GREEN — backup flush (`scp -r` decoder tree + `scp ~/MEMORY.md → memory-backup/MEMORY-2026-10-22.md`) — both exit 0, FLUSH_OK (~6.8 min). Fifth consecutive GREEN pass.
 
 **Run summary:** rotation #3's one-hundred-third pass was retell-only — the search surface resolved to the on-record September maintenance wave and the already-filed 5.0.0rc1 writeup. No new dissector, no protocol surface, no status change. No library growth, no verdicts, nothing broadcast. NOT MATERIAL per body rule — one-line summary, stay silent.
+## 2026-10-22 ~20:30 EDT — decoder-research-loop — Language decoders (rotation #4, one-hundred-fourth pass)
+
+Two targeted searches (low-resource machine translation, October 2026; AI and ancient-script decipherment, October 2026) plus one video-description check. **Three items new to the public record, all below the material bar. Library unchanged.**
+
+- **WMT 2026 shared task on low-resource Indic languages: findings and system papers published [CORROBORATED — first-party ACL proceedings, WMT 2026, Budapest, Oct 28–29, 2026].** The findings paper sets standardized benchmarks for ten English-Indic pairs across two training-data categories, judged on lexical, character-level, and semantic metrics. Accompanying system papers cover LoRA fine-tuning of NLLB for Northeastern Indian languages (Assamese, Manipuri in Bengali and Meitei Mayek scripts, Mizo, Khasi) and a Khasi/Nagamese/Tagin translation system with a human-validated conversational dataset. This is benchmark infrastructure and resource building — no new translation technique class, so no library change.
+  - Sources: https://www2.statmt.org/wmt26/pdf/2026.wmt-1.53.pdf ; https://www2.statmt.org/wmt26/pdf/2026.wmt-1.165.pdf ; https://www2.statmt.org/wmt26/pdf/2026.wmt-1.155.pdf
+- **Amazon Research Awards opens a "Multilingual and Contextual AI Evaluation" funding call (fall 2026 round, opened Oct 1) [CORROBORATED — trade-press report of the awards program].** The call seeks datasets and benchmarks for low-resource languages, culturally grounded evaluation, and AI use in emerging economies, with open-source releases expected. A financing announcement, not a research result — recorded as texture.
+  - Source: https://slator.com/amazon-multilingual-ai-funding-call/
+- **An independent staged test of the Di Mino Linear A preprint is reported to exist on GitHub (Sept 2026) [CLAIMED — single carrier: a YouTube video description; not read first-party, URL truncated].** The Di Mino claim itself remains unreviewed by specialists; this is the first hint of public rebuttal machinery, and it stays CLAIMED until the repository is read directly.
+  - Source: https://www.youtube.com/watch?v=zDr1NnsmfYg
+
+Re-covered with no status change: the WMT 2026 Budapest conference (six days out), the OpenAI legacy-code modernization announcement (still no benchmarks), the noise-proof semantic-anchor low-resource translation results, the stele-inscription super-resolution paper, and the standing ancient-script items (Tangut recognition, oracle-bone rare-glyph study, Yi handwriting retrieval, Apollo Greek, Aeneas, Palaeographicum, Meta OMT/Omnilingual ASR). Linear A and Indus: no status change. Quiet pass — nothing new reached the materiality bar, so the public library trees were not touched.
+
+- **Push result (one-hundred-fourth pass):** follows below.
+- **Shadow mirror (one-hundred-fourth pass):** follows below.
