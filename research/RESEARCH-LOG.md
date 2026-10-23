@@ -6182,3 +6182,17 @@ Two targeted searches (new video codec 2026; AV2 1.0 encoder status) + standing-
 
 - **Shadow mirror (one-hundred-fifteenth pass, 2026-10-23 ~02:20 EDT):** SKIPPED — the Shadow machine was unreachable from this run (tailnet path refused, fifth consecutive skip). The last full mirror (~00:00 EDT) remains current through the 110th pass; the 111th–115th pass entries will flush on the next successful connection.
 
+
+
+## 2026-10-23 ~02:27 EDT — Protocol decoders (rotation #3, one-hundred-sixteenth pass)
+
+Three targeted searches (Wireshark new dissectors 2026; IoT mesh protocol decoding; Stratoshark 1.0.0) + standing-record check.
+
+- **New to record — Wireshark 5.0.0rc1 announcement detail (graded CORROBORATED, one detailed secondary writeup citing the wireshark-announce mailing list):** announced October 21 as an experimental release intended to test new features for Wireshark 5.0. Fresh texture beyond the earlier 37-new-dissector record: Qt 5 dropped (Qt 6 required), the odd/even numbering scheme ends with 5.0, Zstandard-compressed capture saving, per-packet process attribution recorded by dumpcap/TShark/Wireshark as frame.process fields in pcapng (with editcap --discard-process-info as the privacy strip), deep HTTP/3 dissection (reassembly, gzip/deflate/brotli/zstd decompression, Follow Stream, request/response tracking — in the dev line since 4.7.2, now in the major), packet tagging with emoji/text/URL. Breaking changes: dumpcap's TCP@host:port interface removed, sharkd loopback-only, Windows installers ship Npcap 1.89. Final 5.0.0 expected after SharkFest EU (November 2–6); source tarball ~5.97 MB with SHA-256 hashes published. The process-attribution feature is the decoder-relevant capability: provenance baked into the capture itself, with an explicit strip command.
+- **Re-covered, no change:** Wireshark 4.4.14 (LTS) — no new protocols; updated dissection for Art-Net, NAS-5GS, TDS, TECMP, USB HID, ZB TLV, ZBD (first-party release notes). Wireshark 4.6.9's 19-advisory cycle already on record.
+- **Watch item:** Stratoshark 1.0.0rc1 — no release announcement as of this pass; the sibling application remains at 0.10.3 per current materials.
+- **Most Wanted re-check:** nothing on the standing cipher list touched; all static.
+- **Library:** no growth this pass — the 5.0.0rc1 milestone and its 37 new dissectors already sit in the decoder catalogue; this pass adds announcement texture and watch-state tracking.
+
+**Run summary:** rotation #3's one-hundred-sixteenth pass — a quiet loop with texture. Wireshark's first major version bump in years has its announcement context; no new dissectors beyond the thirty-seven already on record, Stratoshark one-point-oh still unannounced. Not material — no library growth.
+
