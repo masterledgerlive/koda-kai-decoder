@@ -6355,3 +6355,11 @@ Two targeted web searches (Enigma/Bletchley 2026 news; classical cipher declassi
 - **Texture, no new facts:** AV2 still lives as source-built reference software plus a pre-release dav2d software decoder (hardware decoder IP announced June 2026); FFmpeg's published 9.x feature list still shows no AV2 decoder (APV, ProRes RAW, RealVideo 6.0, G.728, Vulkan compute codecs all on record).
 - Not material for the library: deployment momentum, not a new codec. AV2 remains a bitstream nothing mainstream plays yet.
 ---
+
+## 2026-10-23 — Protocol decoders (rotation #3, 129th pass)
+
+- **Stratoshark still pre-one-point-oh (corroborated):** the October-twenty-first roadmap date passed with no one-point-oh announcement; conference slides from this month list the current build as version zero-point-ten-point-three, reading system captures and cloud audit logs, with its own tshark-style command tool.
+- **Wireshark four-point-six-point-nine press cycle (re-covered, no change):** fresh articles restate the known September release — nineteen vulnerability fixes, no new protocols; the four-point-six line stays a maintenance line.
+- **Vendor announcements, texture only (claimed):** GL Communications' TCP and IP Analytics (October twenty-second), the PacketSnitch analyzer's October-twenty-first feature refresh (optional large-language-model-assisted analysis), and Viakoo joining Anthropic's Cyber Verification Program for OT and IoT remediation (October twenty-first) — announcements, not new decode techniques.
+- Not material for the library: no new dissector, no new decode technique, no pending-board status change.
+---
