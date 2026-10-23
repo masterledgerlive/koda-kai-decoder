@@ -6454,3 +6454,15 @@ Every carrier this pass matched an existing record: the HTTP-header prompt-injec
 
 ---
 
+---
+
+## 2026-10-23 ~13:57 EDT — decoder-research-loop — Math and physics engines (rotation number twelve, one-hundred-thirty-eighth pass)
+
+Two targeted searches (symbolic-math libraries and equation-discovery research, October 2026) plus standing-record review. **Quiet loop — no new technique to record. No catalogue growth.**
+
+All live carriers matched standing record: the MoadeeB Gröbner-basis exact-equation paper (two accepted OEIS entries — the independent replication watch stays open); the LLM-guided symbolic-regression wave — KeplerAgent, SymLang, stochastic-differential-equation discovery by genetic programming — all on record; the Frontiers-in-Medicine supercritical-carbon-dioxide drug-solubility study (peer-reviewed domain application; symbolic regression stayed competitive on interpretability while neural methods won on accuracy); SymPy one point one four and SciPy one point one eight point one remain current, no new releases. One climate-modelling preprint using symbolic regression as an impact-model emulator was noted as texture — honest about its limits on extreme values.
+
+- **Push result (one-hundred-thirty-eighth pass):** follows below.
+- **Shadow mirror (one-hundred-thirty-eighth pass):** follows below.
+
+**Run summary:** rotation number twelve's one-hundred-thirty-eighth pass was a pure standing-record loop — eleven live carriers, zero new facts. The lane's fresh surface is unchanged: exact-discovery methods awaiting third-party replication, the LLM-guided regression wave still pre-review, and the libraries front quiet. The receipt that buys a catalogue line: independently verified exact-discovery output or a new engine release. No verdicts, nothing broadcast. Next: rotation number thirteen (unsolved ciphers and prize bounties).
