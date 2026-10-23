@@ -6163,3 +6163,7 @@ Two targeted news-vertical searches (declassified cipher history / new decipherm
 
 **Run summary:** rotation #1's one-hundred-fourteenth pass — five historical ciphers fell on the Cyphersolver ledger October 21–22 (Mayenne–Forget Cipher-1, the Sabran 1631–35 set, Saint-Luc's 1586 letter, Espagnol 318's 1497 recto, the Bouthillier 1633 passages), all CORROBORATED single-source write-ups with disclosed open lists; two keys recovered from the ciphertext alone, one decode cross-checked 85–93% against clear copies. One line: five old locks clicked this week, and two of them were picked with no key book at all.
 
+
+- **Push result (one-hundred-fourteenth pass, VERIFIED 2026-10-23 ~01:52 EDT):** sync-github.py "research: historical codebreaking (rotation #1, 114th pass)" — exit 0, "pushed: docs/CIPHER-TIMELINE.md / pushed (git-data): research/RESEARCH-LOG.md / done: 2 pushed, 262 unchanged". Fresh blob-API byte-verification (not the receipt): research/RESEARCH-LOG.md remote git-blob sha 599f65aea3907c6b9042bc12d09f7cc0d7b0a449 (1,509,131 bytes) == local; docs/CIPHER-TIMELINE.md remote sha 5a99419236ff98b876348df1c660a44691fa64d4 == local — both confirmed LIVE on masterledgerlive/koda-kai-decoder. Chain closed.
+- **Shadow mirror (one-hundred-fourteenth pass, 2026-10-23 ~01:40 EDT):** SKIPPED — the Shadow machine was unreachable from this run (tailnet path refused). The last full mirror (~00:00 EDT) remains current through the 110th pass; the 111th–114th pass entries will flush on the next successful connection.
+
