@@ -6142,5 +6142,5 @@ Three targeted news-vertical searches + standing-record review across the Most W
 
 **Run summary:** rotation #13's one-hundred-thirteenth pass — quiet loop. A press wave carried an on-record finding wider; nothing on the Most Wanted list changed. One line: the book stays unread, but now everyone knows the pages were shuffled first.
 
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+- **Push result (one-hundred-thirteenth pass, VERIFIED 2026-10-23 ~01:04 EDT):** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 113th pass)" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 263 unchanged". Fresh blob-API byte-verification: local git-blob sha `83d1525c699c1070d675715a19f7c025cded4c24` (1,504,821 bytes) == remote sha — the entry IS on GitHub main.
+- **Shadow mirror (one-hundred-thirteenth pass, 2026-10-23 ~00:59 EDT):** SKIPPED — the Shadow machine was unreachable from this run (tailnet path refused). The last full mirror (~00:00 EDT) remains current through the 110th pass; the 111th–113th pass entries will flush on the next successful connection.
