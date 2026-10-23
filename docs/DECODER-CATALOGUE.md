@@ -1063,6 +1063,8 @@ formats. [VERIFIED]
   the speech-to-speech board — above the listed OpenAI and Google systems —
   with natural pause-handling at ninety-seven percent. That upgrades its
   top-rank claim from company assertion to independently measured lead;
+- **Voice-translation lane goes enterprise (October 2026):** ElevenLabs Realtime Translation, alpha for enterprise API customers — live voice translation across more than ninety languages on the Eleven v-four Turbo low-latency speech model, automatic language detection, per-deployment quality-versus-latency tuning, and session-consistent cloned voices drawn from a seventeen-thousand-voice library; Deutsche Telekom integrating it into its call assistant. Enterprise-only alpha, no independent quality verification — a product launch, not a new decode technique, and the wave's first member priced behind an enterprise API gate rather than an open weight. [CORROBORATED as launch — industry-analyst reporting of the vendor announcement; capabilities as stated by the vendor]
+- **IBM Granite Speech five-point-oh two-B (October 2026):** two-billion-parameter open-weight speech-recognition-plus-translation model, open license, deployable via standard inference stacks including CPU-only runtimes — six languages, vendor-claimed second-best open-weight accuracy on public ASR leaderboards with admitted weakness on conversational speech. Extends the wave as another open, offline-capable speech decoder with no cloud trace; the numbers stay vendor-claimed. [CORROBORATED as release; CLAIMED on benchmarks]
   the architecture stays undisclosed. [CORROBORATED — independent
   benchmarker, results reported through the company]
 - **Fish Audio Drama 3 — the editing tool for the voice lane
