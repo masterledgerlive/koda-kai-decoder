@@ -6144,3 +6144,22 @@ Three targeted news-vertical searches + standing-record review across the Most W
 
 - **Push result (one-hundred-thirteenth pass, VERIFIED 2026-10-23 ~01:04 EDT):** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 113th pass)" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 263 unchanged". Fresh blob-API byte-verification: local git-blob sha `83d1525c699c1070d675715a19f7c025cded4c24` (1,504,821 bytes) == remote sha — the entry IS on GitHub main.
 - **Shadow mirror (one-hundred-thirteenth pass, 2026-10-23 ~00:59 EDT):** SKIPPED — the Shadow machine was unreachable from this run (tailnet path refused). The last full mirror (~00:00 EDT) remains current through the 110th pass; the 111th–113th pass entries will flush on the next successful connection.
+
+## 2026-10-23 ~01:35 EDT — decoder-research-loop — Historical codebreaking (rotation #1, one-hundred-fourteenth pass)
+
+Two targeted news-vertical searches (declassified cipher history / new decipherments Oct 2026; Bletchley archive releases Oct 2026) + a direct read of the Cyphersolver open ledger's Recent findings (dbourdeau.github.io/cyphersolver)
+
+- **New to record — five fresh decipherments landed October 21–22 on the Cyphersolver open ledger (contributor write-ups public, corrections welcome, 435 ciphers tracked by outcome).** All single-source published write-ups this pass, each with its own disclosed "open" list — graded CORROBORATED:
+  - **Mayenne–Forget's Cipher-1 (Guyenne, 1585–86) — decoded with one merged key.** Michael Brackx re-transcribed all fifteen pages and located clear copies of three letters; the decode agrees with them on 85–93% of letters. 10,616 of 16,677 cipher tokens now read in runs of French. Ten code numbers open.
+  - **The Louis XIII–Sabran cipher (1631–1635) — key recovered from the ciphertext by George Lasry; 18 letters deciphered from 43 images** (Baluze 155, fr. 4134, fr. 4135). Content: Monaco, a Savoyard plot on Savona, Genoa in the war of 1635. One code and seven leaves open.
+  - **Saint-Luc's cipher letter (30 January 1586) — key recovered from the ciphertext by George Lasry**: a homophonic table with word signs.
+  - **Espagnol 318 no. 95 (8 January 1497) — George Lasry deciphers the whole recto with his own key**: famine, the French bid for the city, and a cardinal's peace mission. Five name codes open.
+  - **Sabran to Bouthillier (Genoa, 1633) — contributed, deciphered by Harumi-Matsuba with Lasry's key**: cipher passages of nine leaves — a plot on Savona, the munitionnaire and two others arrested. AI-only transcription (~three quarters of letters in words), two leaves checked on the images.
+  - **Ciphertext-only note:** four keys in this cluster were recovered WITHOUT a captured key book — Lasry's Sabran and Saint-Luc keys plus Brice Dudout's three Huang Xing numeric keys (write-ups posted 20 Oct; the ledger's own independent decoder reproduces the same character for all ~2,100 cipher groups). Pure cryptanalysis from traffic alone. New instances, no new technique published with any of them.
+  - Sources: https://dbourdeau.github.io/cyphersolver/index.html ; https://dbourdeau.github.io/cyphersolver/writeups.html
+- **Re-covered, no status change:** the 1593 Catholic League 500,000-écus claim (stays CLAIMED); the Marmont 1809 Church/Astra break (stays CORROBORATED); the Oct-1 ADFGVX decode; the Bletchley puzzle book (Oct 22 release — merchandise, not an archive release); the Knox/Tutte retell pieces (no new fact).
+- **Most Wanted re-check:** none of the five ledger breaks touch the standing list — Kryptos K4's cipher method still unsolved, the Voynich mis-binding paper only, the Indus $1,000,000 prize still open, Beale 1&3, Linear A, and all others static.
+- **Library growth:** CIPHER-TIMELINE.md grew a compact October 22, 2026 addendum covering the five-break cluster.
+
+**Run summary:** rotation #1's one-hundred-fourteenth pass — five historical ciphers fell on the Cyphersolver ledger October 21–22 (Mayenne–Forget Cipher-1, the Sabran 1631–35 set, Saint-Luc's 1586 letter, Espagnol 318's 1497 recto, the Bouthillier 1633 passages), all CORROBORATED single-source write-ups with disclosed open lists; two keys recovered from the ciphertext alone, one decode cross-checked 85–93% against clear copies. One line: five old locks clicked this week, and two of them were picked with no key book at all.
+
