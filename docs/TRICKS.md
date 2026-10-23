@@ -19020,3 +19020,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-360 trick seeded 2026-10-23 ~19:05 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-361 — the Unfiled Ear *(audit method; design, never run)*
+
+*T-361 trick seeded 2026-10-23 ~19:16 EDT by the decoder-create-loop. Design, never run.*
+
+**T-361 — the Unfiled Ear — designed:** T-360 admitted its blind edge: the audit files the maker's question, but the maker HEARS the filing — and the hearing is never filed. T-361 answers with a perimeter, not a capture: the audit names the maker's ear as the file's OUTER BOUNDARY — the one thing the file will never hold, declared dated once in the audit's own file. Everything inside the file is filed; the maker's hearing is outside it by definition; the audit's virtue is saying so on the record. The audit never files the ear — it files that it cannot; the perimeter is drawn once, never redrawn. Named forms to T-289: the Captured Ear, the Silent Margin (both VOIDED), the Declared Perimeter (FILES CLEAN). Grades UNFILED / DECLARED, quarantined from every verdict on what was heard. One perimeter per file per ear (T-84's hundred-and-fifty-third extension), retiring with the file. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-361 (headed, gap-free).
+
+*T-361 trick seeded 2026-10-23 ~19:16 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
