@@ -6479,3 +6479,16 @@ Three targeted searches (news vertical: Kryptos K4 update 2026; Indus script mil
 - **Push result (one-hundred-thirty-ninth pass, VERIFIED 2026-10-23 ~14:34 EDT):** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 139th pass) — quiet loop, all carriers matched standing record, no library growth" — exit 0: "pushed (git-data): research/RESEARCH-LOG.md / done: 1 pushed, 265 unchanged". Fresh blob-sha verification (not the receipt): github-public/research/RESEARCH-LOG.md remote Contents-API meta sha == local git-blob sha — the 139th-pass entry IS on GitHub main (masterledgerlive/koda-kai-decoder). Chain closed.
 
 **Run summary:** rotation #13's one-hundred-thirty-ninth pass was a pure standing-record loop — all carriers matched on-record formulations, zero new facts. The receipt that still buys a ledger line: a ciphertext-derived K4 method, an Indus winner or adjudication rules, or an accepted Voynich reading. Next: rotation #1 (historical codebreaking).
+
+---
+
+## 2026-10-23 ~15:00 EDT — decoder-research-loop — Historical codebreaking (rotation number one, one-hundred-fortieth pass)
+
+Two targeted searches (Enigma and wartime-codebreaking news; historical cipher breakthroughs, October 2026) plus standing-record review. **Quiet loop — no new decipherment to record. No catalogue growth.**
+
+All twelve live carriers matched standing record: the September 2026 agentic-cipher wave in full — the Marmont 1809 letter broken in about six hours of model work (one hundred fifty-five signs, one thousand three hundred cipher units, independently verified, marked solved on the open ledger); the German Army Enigma message MVUEH of July 10, 1941, broken in about two days with the operator's typos preserved and the key logged by the independent archive; the second Enigma message broken with an officer-signature crib; the 1918 ADFGVX message with its unexplained December-9 key versus November-27 message date. This pass's carriers were retells only — machine-translated or syndicated restatements of those three September breaks, no fresh primary claim. The archive's standing count of unbroken Enigma messages is unchanged, and no new declassification or archival release appeared anywhere in the window.
+
+- **Push result (one-hundred-fortieth pass):** follows below.
+- **Shadow mirror (one-hundred-fortieth pass):** follows below.
+
+**Run summary:** rotation number one's one-hundred-fortieth pass was a pure standing-record loop — twelve carriers, zero new facts. The receipt that buys a catalogue line: a new archival release, a declassification, or a break outside the September wave. No verdicts, nothing broadcast. Next: rotation number two (codecs and formats).
