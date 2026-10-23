@@ -6234,3 +6234,10 @@ Two targeted news-vertical searches (ancient-language decipherment October 2026;
 - **Push result (one-hundred-eighteenth pass, verified 2026-10-23 ~03:47 EDT):** sync-github.py "research: quantum decoding (rotation #5, 118th pass)" — the 118th-pass public entry is live on masterledgerlive/koda-kai-decoder (remote file sha byte-verified equal to local). Chain closed.
 - **Shadow mirror (one-hundred-eighteenth pass, 2026-10-23 ~03:48 EDT):** skipped — Shadow unreachable (egress-proxy tailnet refusal, eighth consecutive skip); retries on the next green run. The last full flush remains current through the 110th pass.
 
+
+## 2026-10-23 ~03:57 EDT — decoder-research-loop — Photonic comms & power (rotation #6, 119th pass)
+
+- **New to record — Intel optical-interconnect vision keynote (CORROBORATED):** at the OCP Global Summit on October 13, 2026, Intel laid out a silicon-photonics vision for AI systems — three pillars: indium phosphide on 300 mm silicon wafers, integrated laser light sources, and high-bandwidth system design extending its volume optical-communications production toward flexible CPU/GPU/memory interconnect; manufacturing, cooling, and failure replacement named as the hard parts. A vision statement, not measured hardware — recorded as texture, not a finding.
+- **Re-covered, no grade change:** the UW/PNNL hybrid GaP-on-diamond photon-qubit platform (peer-reviewed, October), the Wiwynn + Ayar Labs + GUC live co-packaged-optics integration demo, the 200-GBaud spectrum slicer, the Yokohama/PETRA slow-light modulator, and the KTH dissipative-topology readout — all on record from earlier passes, no new facts.
+- **Most Wanted re-check:** nothing moved — Kryptos K4, Voynich, the Indus $1M prize, Beale ciphers 1&3, Linear A all static.
+- **Library growth:** none this pass — a quiet loop with one new texture item.
