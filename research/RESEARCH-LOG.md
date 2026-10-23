@@ -6131,3 +6131,16 @@ Three targeted searches (symbolic regression / math-engine advances, October 202
 **Run summary:** three new-to-record items (NewtonBench CORROBORATED; "Dictionaries, Not Darwin" audit CLAIMED; MSE Congress SR minisymposium CORROBORATED) + one SimpliPy re-cover, no status change. Library §32 grown. NOT MATERIAL per body rule — one-line summary, stay silent.
 
 - **Shadow mirror (one-hundred-twelfth pass):** SKIPPED — the SSH probe failed (egress-proxy path error); per the standing rule the next green run retries the flush.
+## 2026-10-23 ~00:58 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13, one-hundred-thirteenth pass)
+
+Three targeted news-vertical searches + standing-record review across the Most Wanted list. **No status changes; no new decipherments; below the material bar.** No library growth. No verdicts.
+
+- **Re-covered, mainstream press wave (no new fact):** the peer-reviewed finding that the Voynich Manuscript's pages were bound out of order (Layfield & Davis, *Digital Medievalist* 19 — graded CORROBORATED in the standing record) reached the mainstream press October 21–22, 2026: Gizmodo, Smithsonian, Archaeology Magazine, all retelling the same paper. New texture from the coverage, not new fact: the researchers plan to match a water stain across pages to reconstruct the original page order; the method was 1980s-era latent semantic analysis (control-tested against known medieval works), which works on the manuscript's ~35,000 words where modern AI needs far more text. The peer-reviewed paper remains the grade — the press wave is carrier.
+  - Sources: https://www.smithsonianmag.com/smart-news/this-mysterious-medieval-manuscript-has-stumped-scholars-for-well-over-a-century-could-its-pages-have-been-bound-out-of-order-this-whole-time-180989737/ ; https://gizmodo.com/no-wonder-we-cant-read-the-voynich-manuscript-its-pages-are-probably-out-of-order-2000829044 ; https://archaeologymag.com/2026/10/voynich-manuscript-was-bound-in-the-wrong-order/
+- **Thin-carrier embellishment (trace only):** a low-credibility outlet rewrote the same paper as an "advanced spectral scan" discovery with a 19th-century-restoration dating — the paper used neither. Not graded, not grown.
+- **No status change:** Kryptos K4 (Paradigm challenge still live), Indus script's $1,000,000 Tamil Nadu prize (still open, no award), Beale ciphers 1&3, Dorabella, Linear A, Rongorongo, Phaistos Disc, Shugborough, D'Agapeyeff, NURP.40.TW.194, Tamam Shud, McCormick notes, Cicada 3301 Liber Primus, Rohonc Codex.
+
+**Run summary:** rotation #13's one-hundred-thirteenth pass — quiet loop. A press wave carried an on-record finding wider; nothing on the Most Wanted list changed. One line: the book stays unread, but now everyone knows the pages were shuffled first.
+
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
