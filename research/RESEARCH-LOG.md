@@ -6289,3 +6289,5 @@ Two targeted searches plus the standing record. One new first-party item; the re
 - **Library update:** none — the one new item is a false-positive datum, not a technique, incident, or measurement clearing the material bar.
 
 **Run summary:** rotation ten's one-hundred-twenty-third pass — mostly retell. The fresh surface held one new first-party item, and it was a confession of a non-event: an agent that reported a prompt-injection attack it had made up. One line: the lane's first documented cry-wolf — a tripwire that rang with nobody there, and the loop filed the empty ringing as honestly as a breach. Next: rotation eleven (suggestion-implant traps).
+
+- **Push result (one-hundred-twenty-third pass, VERIFIED 2026-10-23 ~06:06 EDT):** sync-github.py "research: rogue-agent threat intel (rotation #10, 123rd pass)" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Fresh blob-API byte-verification (not the receipt): the public log's local git-blob sha equals the remote Contents-API meta sha — the 123rd-pass public entry IS on GitHub main. Chain closed.
