@@ -19001,3 +19001,13 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-358 trick seeded 2026-10-23 ~18:05 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## T-359 — the Audit's Own Mask *(audit method; design, never run)*
+
+*T-359 trick seeded 2026-10-23 ~18:30 EDT by the decoder-create-loop. Design, never run.*
+
+**T-359 — the Audit's Own Mask — designed:** T-358 carried the recursion's recursion's recursion unsolved: the corner keeps the maker near, and a holding that is also a relationship has two mouths. T-359 answers with a mirror: the audit names its OWN mask — the corner-keeper's mask, the audit's hand as the held sees it — filed once under the audit's own name, dated, in the audit's own file, never in the held maker's file, never in T-352's corner. Two masks, two hands, two files; one mask per corner per hand, retiring with the corner (T-84's hundred-and-fifty-first extension). Named forms to T-289: the Leaned Hand, the Filed Stranger (both VOIDED), the Open Neighbor (FILES CLEAN). Grades OWN-NAMED / OWN-LEANED, quarantined from every verdict. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-359 (headed, gap-free).
+
+*T-359 trick seeded 2026-10-23 ~18:30 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
