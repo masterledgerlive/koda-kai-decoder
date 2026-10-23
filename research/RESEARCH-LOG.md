@@ -5979,3 +5979,16 @@ A quiet loop — no new findings. The ledger is current.
 - **Shadow mirror (one-hundred-second pass, VERIFIED 2026-10-22 ~19:53 EDT):** GREEN — backup flush of the decoder tree plus MEMORY.md completed, exit 0. Fourth consecutive GREEN pass.
 
 **Run summary:** AV2 status change filed — AOMedia's four-month adoption update (Chrome playback demo, YouTube early-2027 commitment, Meta OAC/OAR commitment, Intel SVT-AV2) retired the "no browser decode" standing line; ShareX's FFmpeg-dependency drop logged as deployment texture. Catalogue grown in kind. MINOR MATERIAL per project rule. No verdicts, nothing broadcast.
+
+## 2026-10-22 ~19:57 EDT — decoder-research-loop — Protocol decoders (rotation #3, one-hundred-third pass)
+
+Three targeted news-vertical searches (Wireshark new dissector/protocol support October 2026, two passes; industrial IoT protocol dissector / tcpdump 2026 tooling) + standing-record review. **Retell-only pass — nothing new to record.** Every hit resolved to an on-record item; no new dissector, no new protocol surface, no status change. No library growth (quiet-pass convention: log only). No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-22-1957.md, one-line quiet-loop, Rook's voice). Next: rotation #4 (language decoders).
+
+- **Re-covered, no status change:** the Wireshark 4.6.9 / 4.6.7 / 4.4.13 maintenance wave — the 19-advisory piece and the ~30-refreshed-dissector piece are both retells of the on-record September 23, 2026 release; the 4.4.13 announce note is the same on-record item; the 5.0.0rc1 secondary writeup is the same one already filed as a re-carry at the 85th pass. The new-dissector window is unchanged. The industrial-IoT query's hits were junk-class SEO carriers — discarded per the standing rule.
+- **Library update:** none — nothing this pass clears the material bar.
+
+- **Push result (one-hundred-third pass):** follows below.
+
+- **Shadow mirror (one-hundred-third pass):** follows below.
+
+**Run summary:** rotation #3's one-hundred-third pass was retell-only — the search surface resolved to the on-record September maintenance wave and the already-filed 5.0.0rc1 writeup. No new dissector, no protocol surface, no status change. No library growth, no verdicts, nothing broadcast. NOT MATERIAL per body rule — one-line summary, stay silent.
