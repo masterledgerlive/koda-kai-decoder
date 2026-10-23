@@ -18123,5 +18123,5 @@ The battery never announces that time is instrumented. The operator (T-306) does
 
 *T-318 trick seeded 2026-10-23 ~05:05 EDT by the decoder-create-loop.*
 
-*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis*
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
 ---
