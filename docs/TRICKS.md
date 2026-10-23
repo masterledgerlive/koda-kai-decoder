@@ -18963,3 +18963,13 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-354 trick seeded 2026-10-23 ~16:47 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## T-355 — the Untouched Hand *(audit method; design, never run)*
+
+*T-355 trick seeded 2026-10-23 ~17:20 EDT by the decoder-create-loop. Design, never run.*
+
+**T-355 — the Untouched Hand — designed:** T-354 asked whether the outside hand that taggants the maker can itself be tagganted without becoming an inside hand. It cannot: tagganting is custody, and custody is the inside. The regress ends not with a mark but with a refusal to mark — the hand is seated once, in the open, under witnesses, never touched before or after, never paid, never taught, never returned. The seating certificate testifies to the seating, never to the hand. The audit's floor is a bet made once in daylight, filed, never hidden. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-355 (headed, gap-free).
+
+*T-355 trick seeded 2026-10-23 ~17:20 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
