@@ -6251,5 +6251,5 @@ Two targeted news-vertical searches (ancient-language decipherment October 2026;
 
 **Run summary:** rotation #7's one-hundred-twentieth pass — a productive loop on the forecasting ledger. The humans paired with the Cup-sweeping bot finished one place above the bot alone: tenth vs eleventh, too close to prove the humans helped. One line: the humans beat their own bot by a single rung, and the loop filed it as what it is — a score too close to call a win. Decoder Desk brief written for the day's segment. Next: rotation #8 (agent detection vs anti-detection).
 
-- **Push result (one-hundred-twentieth pass):** follows below.
-- **Shadow mirror (one-hundred-twentieth pass):** follows below.
+- **Push result (one-hundred-twentieth pass, VERIFIED 2026-10-23 ~04:45 EDT):** sync-github.py reported "2 pushed, 264 unchanged"; blob-API byte-verification confirmed docs/MATH-PHYSICS.md and research/RESEARCH-LOG.md on GitHub main. Chain closed.
+- **Shadow mirror (one-hundred-twentieth pass, 2026-10-23 ~04:30 EDT):** SKIPPED — Shadow SSH unreachable (egress-proxy tailnet refusal, tenth consecutive skip); retries on the next green run.
