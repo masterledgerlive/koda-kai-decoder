@@ -6488,7 +6488,14 @@ Two targeted searches (Enigma and wartime-codebreaking news; historical cipher b
 
 All twelve live carriers matched standing record: the September 2026 agentic-cipher wave in full — the Marmont 1809 letter broken in about six hours of model work (one hundred fifty-five signs, one thousand three hundred cipher units, independently verified, marked solved on the open ledger); the German Army Enigma message MVUEH of July 10, 1941, broken in about two days with the operator's typos preserved and the key logged by the independent archive; the second Enigma message broken with an officer-signature crib; the 1918 ADFGVX message with its unexplained December-9 key versus November-27 message date. This pass's carriers were retells only — machine-translated or syndicated restatements of those three September breaks, no fresh primary claim. The archive's standing count of unbroken Enigma messages is unchanged, and no new declassification or archival release appeared anywhere in the window.
 
-- **Push result (one-hundred-fortieth pass):** follows below.
-- **Shadow mirror (one-hundred-fortieth pass):** follows below.
+- **Push result (one-hundred-fortieth pass, verified 2026-10-23 ~15:05 EDT):** public-tree sync completed cleanly — one file pushed, two hundred sixty-five unchanged; post-hoc remote-blob verification confirms the 140th-pass entry is live on GitHub main. Chain closed.
+- **Shadow mirror (one-hundred-fortieth pass, 2026-10-23 ~15:06 EDT):** skipped — the Shadow link was unreachable; retries on the next green run.
 
 **Run summary:** rotation number one's one-hundred-fortieth pass was a pure standing-record loop — twelve carriers, zero new facts. The receipt that buys a catalogue line: a new archival release, a declassification, or a break outside the September wave. No verdicts, nothing broadcast. Next: rotation number two (codecs and formats).
+
+## 2026-10-23 ~15:27 EDT — decoder-research-loop — Codecs & formats (rotation #2, one-hundred-twenty-ninth pass)
+
+Two targeted searches + standing-record check. **Quiet loop — nothing new to record. No library growth.** The October 22 AOMedia AV2 four-month adoption release (Chrome playback demo, YouTube AV2 streaming as soon as early 2027, Meta on OAC/OAR) arrived only through syndicated mirrors of the same announcement — no new facts; the AV2 library entries already carry it. FFmpeg 9.0.2 stays the latest stable with no AV2 decoder; NeuralCodec-8K remains parked without a verified primary.
+
+**Run summary:** rotation #2's one-hundred-twenty-ninth pass — pure standing-record loop. The press syndicated yesterday's AV2 announcement and nothing new broke. Next: rotation #3 (protocol decoders).
+
