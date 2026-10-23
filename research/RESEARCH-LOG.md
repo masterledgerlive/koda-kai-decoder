@@ -6363,3 +6363,11 @@ Two targeted web searches (Enigma/Bletchley 2026 news; classical cipher declassi
 - **Vendor announcements, texture only (claimed):** GL Communications' TCP and IP Analytics (October twenty-second), the PacketSnitch analyzer's October-twenty-first feature refresh (optional large-language-model-assisted analysis), and Viakoo joining Anthropic's Cyber Verification Program for OT and IoT remediation (October twenty-first) — announcements, not new decode techniques.
 - Not material for the library: no new dissector, no new decode technique, no pending-board status change.
 ---
+## 2026-10-23 — Language decoders (rotation #4, 130th pass)
+
+- **New — ElevenLabs Realtime Translation (October twenty-second, 2026, corroborated as launch):** live voice translation in more than ninety languages, alpha for the company's enterprise API customers, built on the Eleven v-four Turbo low-latency speech model with automatic language detection and per-deployment quality-versus-latency tuning; Deutsche Telekom is integrating it into its call assistant. Enterprise-only alpha — a product launch, not a new decoding technique.
+- **New — seventy-eight-language safety-bypass study (claimed):** a paper posted October twenty-first, 2026 reports that harmful requests refused in English still drew unsafe answers in low-resource languages at rates of roughly twenty-two to forty-four percent across ten models; accepted at a NeurIPS workshop, not yet independently replicated, and the authors themselves flag confounds.
+- **New — IBM Granite Speech five-point-oh two-B (October twenty-second, 2026, corroborated as release / claimed on benchmarks):** two-billion-parameter open-weight speech recognition and translation model, open license, runs locally on CPU — another member of the September–October offline translation wave; the vendor's accuracy figures stay claimed.
+- **No change — Indus script:** no accepted decipherment, no bilingual text, the Tamil Nadu one-million-dollar prize remains unclaimed.
+- Not material for the library: no new decipherment, no ancient-script status change, no prize adjudication. Texture notes added to the decoder catalogue's translation lane.
+---
