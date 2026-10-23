@@ -6091,6 +6091,6 @@ Two targeted news-vertical searches (malicious AI agents / threat intelligence; 
 - **Standing note:** the receipt for a new ledger line in this lane is a first-party incident or campaign with raw measurements — not a digest carrier. Two consecutive passes have been retell-only.
 
 - **Push result (one-hundred-tenth pass, VERIFIED 2026-10-22 ~23:55 EDT):** sync-github.py "research: rogue-agent lane retell-only pass (rotation #10, 110th pass)" — exit 0 (~6.8 min), stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 263 unchanged". Remote-verified live via the Contents API meta: research/RESEARCH-LOG.md remote sha `d05b4141ebeaaa47124213fd340f8bc42d480800` == local git-blob sha (1,491,472 bytes) — the 110th-pass entry IS on GitHub main.
-- **Shadow mirror (one-hundred-tenth pass):** follows below.
+- **Shadow mirror (one-hundred-tenth pass):** GREEN — decoder tree and dated MEMORY.md mirrored to the Shadow backup; spot-verified on Shadow (the 110th-pass entry is present in the backup's research log).
 
 **Run summary:** rotation #10's one-hundred-tenth pass was retell-only — no new incident, technique, or measurement; catalogue unchanged; nothing broadcast.
