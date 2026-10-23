@@ -19029,3 +19029,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-361 trick seeded 2026-10-23 ~19:16 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-362 — the Sealed Letter *(audit method; design, never run)*
+
+*T-362 trick seeded 2026-10-23 ~19:47 EDT by the decoder-create-loop. Design, never run.*
+
+**T-362 — the Sealed Letter — designed:** T-361 admitted its first unsolved: the declaration is addressed to the maker's ear, and an address travels — so hasn't the audit crossed its own perimeter in the act of drawing it? T-362 answers with a posting, not a crossing: the audit writes the declaration, seals it, and posts it AT the boundary. The letter sits on the line, addressed outward; the writing never crosses, the ear never enters. The ear does not step inside by being addressed, because the address was posted, not thrown. The audit files only the sealing — date, wax, outward address — and never reopens the letter; the seal is the one thing checkable without crossing the line it drew. Named forms to T-289: the Open Letter, the Delivered Letter (both VOIDED), the Sealed Letter (FILES CLEAN). Grade SEALED, quarantined from every verdict on whether the ear heard, what it heard, or whether it stepped (T-84's hundred-and-fifty-fourth extension). No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-362 (headed, gap-free).
+
+*T-362 trick seeded 2026-10-23 ~19:47 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
