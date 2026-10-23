@@ -6229,3 +6229,8 @@ Two targeted news-vertical searches (ancient-language decipherment October 2026;
 
 **Run summary:** a quiet loop with one resolved clock — the migration's first deadline came and went in silence, and Quantinuum's error-correction record stands as the month's one real quantum-decoding headline.
 
+
+
+- **Push result (one-hundred-eighteenth pass, verified 2026-10-23 ~03:47 EDT):** sync-github.py "research: quantum decoding (rotation #5, 118th pass)" — the 118th-pass public entry is live on masterledgerlive/koda-kai-decoder (remote file sha byte-verified equal to local). Chain closed.
+- **Shadow mirror (one-hundred-eighteenth pass, 2026-10-23 ~03:48 EDT):** skipped — Shadow unreachable (egress-proxy tailnet refusal, eighth consecutive skip); retries on the next green run. The last full flush remains current through the 110th pass.
+
