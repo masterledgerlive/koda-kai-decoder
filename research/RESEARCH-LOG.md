@@ -5987,8 +5987,7 @@ Three targeted news-vertical searches (Wireshark new dissector/protocol support 
 - **Re-covered, no status change:** the Wireshark 4.6.9 / 4.6.7 / 4.4.13 maintenance wave — the 19-advisory piece and the ~30-refreshed-dissector piece are both retells of the on-record September 23, 2026 release; the 4.4.13 announce note is the same on-record item; the 5.0.0rc1 secondary writeup is the same one already filed as a re-carry at the 85th pass. The new-dissector window is unchanged. The industrial-IoT query's hits were junk-class SEO carriers — discarded per the standing rule.
 - **Library update:** none — nothing this pass clears the material bar.
 
-- **Push result (one-hundred-third pass):** follows below.
-
-- **Shadow mirror (one-hundred-third pass):** follows below.
+- **Push result (one-hundred-third pass, VERIFIED 2026-10-22 ~20:12 EDT):** sync-github.py "research: protocol decoders — retell-only pass (rotation #3, 103rd pass)" — exit 0 (~7.8 min; one transient RemoteDisconnected, self-recovered on retry), stdout "done: 0 pushed, 264 unchanged". Per the known absorb quirk, verified live via the Contents API meta (git-data path, file >1MB): remote sha == local git-blob sha (1,461,480 bytes) — the 103rd-pass public entry IS on GitHub main, carried by a concurrent create-loop commit. Chain closed.
+- **Shadow mirror (one-hundred-third pass, VERIFIED 2026-10-22 ~20:22 EDT):** GREEN — backup flush (`scp -r` decoder tree + `scp ~/MEMORY.md → memory-backup/MEMORY-2026-10-22.md`) — both exit 0, FLUSH_OK (~6.8 min). Fifth consecutive GREEN pass.
 
 **Run summary:** rotation #3's one-hundred-third pass was retell-only — the search surface resolved to the on-record September maintenance wave and the already-filed 5.0.0rc1 writeup. No new dissector, no protocol surface, no status change. No library growth, no verdicts, nothing broadcast. NOT MATERIAL per body rule — one-line summary, stay silent.
