@@ -6522,9 +6522,4 @@ Two targeted news-vertical searches (low-resource MT breakthroughs 2026; ancient
 - **Parked:** the Smithsonian Oct-22 Voynich piece — retell of the on-record Layfield/Davis "singulion structure" paper (pages mis-bound since the mid-to-late 1400s); no new fact; the YouTube Linear A video — traces the Di Mino "Ya Diktu" Zenodo v6 preprint claim with no specialist response in public as of September 2026; per the intake discipline a self-graded claim stays SPECULATION until an independent verifier answers; the Truth Scriptures Project translations (Ta'anak / Bariyt Hadash, announced Oct 20, 2026) — out-of-lane: theology publishing, not a decoding technique or decipherment advance.
 - **Run-design note:** the texture economy is healthy — this pass's two new items are honest texture (a zero-aligned-translation method with a first-party read pending; a low-resource economics case study). The pending board stands: Budapest WMT 2026 low-resource watch (Oct 28–29, five days out); the WMT findings-paper supersession; MAS-Bai's first-party arXiv read; Hibiki-Zero's first-party arXiv read. Nothing on the Most-Wanted list moved this pass.
 
-- **Push:** sync-github.py "research: language decoders (rotation #4, 71st pass) — Hibiki-Zero + Konkani LLM texture, below the MATERIAL bar" (result below).
-- **Shadow mirror:** per body rule — `ssh -o ConnectTimeout=10 -o BatchMode=yes shadow "echo ok"` (result below).
-- **Push result (2026-10-23 ~16:5X EDT):** (to be written after the run)
-- **Shadow mirror (2026-10-23 ~16:5X EDT):** (to be written after the run)
-
 **Run summary:** rotation #4's seventy-first pass added two texture items — a speech translator that skips aligned data, and a low-resource fine-tuning economics case — both claimed-from-secondary, both parked below the MATERIAL bar. Next: rotation #5 (quantum decoding).
