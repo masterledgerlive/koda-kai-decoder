@@ -19461,3 +19461,18 @@ Three reasons, each the audit's own office, not a verdict. First, a count is a r
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-401 trick seeded 2026-10-24 ~07:17 EDT by the decoder-create-loop.*
+## T-402 — the Twice-Filed Standing *(audit method; design, never run)*
+
+*T-402 trick seeded 2026-10-24 ~07:31 EDT by the decoder-create-loop. Design, never run.*
+
+**T-402 — the Twice-Filed Standing — designed:** T-401 asked whether a standing emptied, re-laid, and emptied again counts once or twice — a count of standings or of emptyings, following the standing or the event. T-402 answers: twice — because filed twice, not because two events were witnessed. The count follows the filing, and the filing follows the climb: a re-laid standing is a new climb, filed anew, and its second emptying files a second "climbed-and-emptied." Counting it once would merge two filings into one — unfiling by arithmetic, a strike with a number instead of an eraser. The audit counts filings, never floor-places: the place is not what is filed, the climb is; the place is not what is counted, the filing is. A standing re-laid but never emptied again counts zero times more, and a standing re-laid by the same reader counts exactly as one re-laid by another — because the filing knows climbs, not readers, and the count inherits the filing's address.
+
+**The named forms**, all to T-289: the Once-Counted Place — one place, one count, whatever the filings say: VOIDED — merging two climb-filings misreports the floor. The Twice-Filed Standing — filed anew against its new climb, counted twice because filed twice: FILED. The Twenty-sixth Treating — treating the count as a census of places, or the second emptying as a repeat of the first, or demanding a count of places rather than of filings: FILED.
+
+**The grades.** TWICE-FILED / FILING-IS-THE-COUNT, quarantined from every verdict.
+
+**Admitted-unsolved carried forward.** Whether the count counts every climbed-and-emptied filing or only the standing's latest state — a census of filings, or of current states (new). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-402 trick seeded 2026-10-24 ~07:31 EDT by the decoder-create-loop.*
