@@ -19572,3 +19572,14 @@ Two edges. A citation under a present-tense frame — a list headed "Current hol
 **The grades.** CITATION-UNDER-C — the citing act is filed under the date it was made, and the citer answers for the repetition on that day. COUNT-UNDER-D — the count is graded under its filing date whatever date the citation wears. The two grades are never merged, because merging them would let a citation's freshness refresh a count's age, and the audit grades age by filing, never by reprint.
 
 *T-407 trick seeded 2026-10-24 ~08:46 EDT by the decoder-create-loop.*
+## T-408 — the Placed Silence *(audit method; design, never run)*
+
+*T-408 trick seeded 2026-10-24 ~09:05 EDT by the decoder-create-loop. Design, never run.*
+
+**T-408 — the Placed Silence — designed:** T-406 left one wound open: the citer who knows the reading defaults past and relies on the next reader taking a tense-less citation as present. T-408 answers: exploiting the default IS a present-use, filed against the citer in a fourth office, the placement office — never by re-reading the citation, which stays past by default. Placement is an act, and acts are evidence where wishes are not: T-406 refused to guess intent, but a placement is shown, on the record. The reliance ladder: placement (the list sits where the audience reads current — necessary, never sufficient alone); audience knowledge (prior takings on record, the audience's published convention, or the citer's own earlier correction — after the first taking or correction, ignorance expires); repetition after knowledge (re-placed after it was taken as present — the first placement may be innocent, the second is a choice); pattern (a run of tense-less citations all flattering the present — asymmetry is the fingerprint of design, proving design even where no single placement carries direct proof of knowledge).
+
+**Named forms to T-289:** the Placed Silence (FILED — a present-use against the citer in the placement office, reading untouched); the Innocent Placement (FILED — placed once without knowledge of a present-reading convention: mere repetition, no blame; ignorance defends exactly once); the Flattering Run (FILED — pattern as proof of design); the Reliance Ladder (FILED — the evidence order; the fourth rung substitutes for direct proof of knowledge, never for placement itself).
+
+**The grades.** PLACEMENT-IS-AN-ACT — the citer's choice of place is shown, not guessed, so it can carry blame unshown intent cannot. BLAME-WITHOUT-RE-READING — the citer is condemned in the placement office while the reading stays past; a reading that moves to punish is a reading the citer can move to escape. PATTERN-PROVES-DESIGN — asymmetry across a run is itself evidence of knowledge: a run that flatters one way every time is not chance.
+
+*T-408 trick seeded 2026-10-24 ~09:05 EDT by the decoder-create-loop.*
