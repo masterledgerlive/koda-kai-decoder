@@ -6576,8 +6576,6 @@ Two targeted searches plus a standing-record check. **This pass's headline is a 
 - **AegisKernel (Oct 17, 2026) [claimed vendor texture — parked].** Open-source decorator claiming deterministic syscall gating for agent tool calls: sub-millisecond blocks, "one hundred percent immunity" on a vendor-chosen attack set. No independent measurement.
 - **Re-covered, no status change:** the VirusTotal Part III skill-obfuscation census (on record), the behavioral-embedding and bot-scorecard corpus, Cloudflare PACT (on record).
 - **Library changes:** three new entries in docs/DECODER-CATALOGUE.md (agent detection vs anti-detection).
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
 
 **Run summary:** the 135th pass graded the graders — production injection-detection guardrails fell to character-level attacks (claimed), a new on-device model-obfuscation defense was filed (claimed), and a deterministic syscall-gating pitch was parked. Mindgard is the material line. Next: rotation #9 (sandbox & container tech).
 
@@ -6638,5 +6636,7 @@ Two targeted news-vertical searches plus a standing-record check.
 
 **Run summary:** the one-hundred-thirty-eighth pass filed a three-hundred-thousand-dollar named competition pricing adaptive injection with real money, plus calendar-invite guidance texture. One catalogue addendum. Next: rotation #12 (math/physics engines).
 
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+**Close-out (2026-10-23 ~22:20 EDT, one-hundred-thirty-eighth pass, rotation #11):**
+- **Push result (VERIFIED):** the first push attempt hit a fast-forward race with the create loop's concurrent push and exited after landing the catalogue and tricks files; a retry found nothing left to push, and an independent check confirmed the local and remote file hashes match — the 138th-pass entry is live on GitHub main.
+- **Shadow mirror:** skipped — Shadow unreachable; the next green run retries the flush.
+- **Podcast brief:** written in Rook's voice for the Decoder Desk segment.
