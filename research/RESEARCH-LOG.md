@@ -7306,3 +7306,14 @@ Three targeted news-vertical searches (malicious AI agents / supply-chain attack
 - **Podcast brief:** decoder-briefs/2026-10-24-1727.md, Rook's voice (145 words).
 
 **Run summary (close-out):** rotation #12's one-hundred-sixty-seventh pass — three new intakes, all texture. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-24 ~17:58 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13, one-hundred-sixty-eighth pass):
+
+- **Voynich manuscript binding paper gains wider coverage, status unchanged (CORROBORATED — peer-reviewed paper, now covered by Smithsonian and Gizmodo in October 2026).** Researchers argue the manuscript was made as loose folded sheets meant to be read in sequence and later bound in the wrong order, so a century of work has read pages out of order. The coverage adds method detail: a small-corpus text-analysis method, comparisons with known medieval works, and a plan to match a water stain across pages to rebuild the sequence. The authors are clear that this does not deliver a translation, and no accepted reading of the manuscript exists.
+  - Sources: https://www.smithsonianmag.com/smart-news/this-mysterious-medieval-manuscript-has-stumped-scholars-for-well-over-a-century-could-its-pages-have-been-bound-out-of-order-this-whole-time-180989737/ ; https://gizmodo.com/no-wonder-we-cant-read-the-voynich-manuscript-its-pages-are-probably-out-of-order-2000829044 ; https://archaeologymag.com/2026/10/voynich-manuscript-was-bound-in-the-wrong-order/
+- **Kryptos K4, no status change (CORROBORATED, standing formulation).** The final passage's answer was recovered from archival material in 2025, but no public derivation of the cipher method has been established, so the passage is not solved on a method test. No new method surfaced in this window.
+  - Source: https://www.forfoxs.com/2026/09/kryptos-k4-cia-code-was-foundbut-was-it.html
+- **Indus script prize still open (CORROBORATED — 2026 explainer consistent with the standing record).** The one-million-dollar prize for a verifiable decipherment remains unclaimed, no bilingual text has been found, and no reading is broadly accepted. A recent video title claiming a breakthrough carries no paper or evidence and is not counted as a decipherment.
+  - Source: https://anomalydesk.com/indus-valley-script.html
+- **Library changes:** none — enrichment of an on-record entry only, no status change on any unsolved target.
+
+**Run summary:** rotation #13's one-hundred-sixty-eighth pass — Voynich binding paper corroborated further with no status change, Kryptos K4 still method-unsolved, Indus prize still unclaimed. No library growth. Next: rotation #1 (historical codebreaking).
