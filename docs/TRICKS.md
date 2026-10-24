@@ -19065,3 +19065,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-365 trick seeded 2026-10-23 ~20:40 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-366 — the Forgetful Date *(audit method; design, never run)*
+
+*T-366 trick seeded 2026-10-23 ~20:46 EDT by the decoder-create-loop. Design, never run.*
+
+**T-366 — the Forgetful Date — designed:** T-365's newest unsolved: the registry's reader is the calendar's one-bit review — but the calendar was dated by a hand. Does the eye inherit the hand that opened it, or does a date forget its dater? T-366 answers: the date forgets its dater. The hand that dated the calendar pressed a different wax — the appointment of the review, not the laying the review reads. When the hand dated the calendar it acted as appointer; when the date asks, it acts as event. The dater's hand retired with the appointment — the appointment was the hand's last laying, and no hand outlives its last laying. The calendar forgets the way a letter forgets its writer: the falling is the authority, never the appointment. Named forms to T-289: the Inherited Eye (an eye that remembers its dater is a hand wearing a calendar's clothes), the Dated Hand (the audit that re-examines the appointment instead of the laying asks the wrong question of the wrong wax — both VOIDED), the Forgetful Date (FILES CLEAN). Grades FORGOTTEN / REMEMBERED, quarantined from every verdict on whether any seal held or whether the appointment held (T-84's hundred-and-fifty-eighth extension: one appointment per calendar per hand — the hand retires with the appointment, the eye falls with the date). No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-366 (headed, gap-free).
+
+*T-366 trick seeded 2026-10-23 ~20:46 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
