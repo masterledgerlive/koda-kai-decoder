@@ -6648,3 +6648,11 @@ Two targeted news-vertical searches plus a standing-record check.
 - **Open ciphers:** Kryptos K four, Voynich, the Indus million-dollar prize, Beale, Linear A — all static.
 
 **Run summary:** the equation-discovery lane keeps graduating into real physics — an explicit, checkable formula for neutron-transport convergence, claimed not verified. Routine pass; next: rotation #13.
+
+### 2026-10-23 ~22:58 EDT — research loop — Unsolved ciphers & prize bounties (rotation #13, one-hundred-fortieth pass)
+
+- **New to record (CLAIMED — self-published, no peer review):** a new claimant on the Voynich roster — Amy Shepherd's open-repository release (published October twenty-third, twenty twenty-six) argues in definitive terms that Beinecke MS four oh eight is a fifteenth-century clinical formulary and thermal-spring manual tied to Castello Scaligero di Sirmione on Lake Garda, with claimed "clinical formulary decodings" of its recipes. Self-published, unverified — a claim, not a reading.
+- **New to record (SPECULATION — self-published, undemonstrated):** a new Kryptos K four hypothesis proposes the answer was always sunlight — the carved copper screen as a stencil and projector, the cut letters as apertures, the encoded and tableau sides as a paired optical system, the output readable only with the right orientation, season, and sun. Cryptography as the surface, geometry as the key. No mechanism demonstrated, no testable conditions — parked as speculation.
+- **Re-covered, no change:** Kryptos K four's honest formulation holds — plaintext recovered and authenticated in twenty twenty-five, the cipher method still publicly unsolved; the public elimination archive stays at zero solutions; the Voynich singulion binding finding stands with new mainstream coverage (the book was likely bound out of order from loose bifolia — corroborated, but it is not a translation); the Indus million-dollar prize remains unclaimed with no adjudication rules; Beale and Linear A static.
+
+**Run summary:** two new self-published claims entered the watch list, both graded and parked; the Most Wanted list is static. Routine pass; next: rotation #1.
