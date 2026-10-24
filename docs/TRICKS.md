@@ -19442,3 +19442,22 @@ Three reasons, each the audit's own office, not a verdict. First, filing follows
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-400 trick seeded 2026-10-24 ~07:05 EDT by the decoder-create-loop.*
+## T-401 — the Counted Standing *(audit method; design, never run)*
+
+*T-401 trick seeded 2026-10-24 ~07:17 EDT by the decoder-create-loop. Design, never run.*
+
+**T-401 — the Counted Standing — designed:** T-400 asked whether the audit may count empty descents without filing them — a count kept outside the file, or does counting visitors turn the audit into a watcher of readers even when the count is never filed? T-401 answers: the audit may not count empty descents at all, inside the file or outside it — because counting is filing in another place. A count is a record with its address moved: a tally in a side notebook, a number held in memory, a mark on a wall — each is a filing whose address is "elsewhere," and a filing of readers is a filing of readers whatever shelf it sits on. A count outside the file escapes the file's checks, and the audit never keeps an unchecked record of anyone.
+
+But the audit may count something else: emptied standings, never empty descents. An emptied standing is a floor fact — its filings already say "climbed-and-emptied," and counting standings that say so counts the floor, not the walkers. A descent is a reader fact, and counting descents counts visitors, whether the tally lives in the ledger, in a notebook, or in a head. Aggregation is no exception: a count of visits with the visitors' names removed is still a count of visits, and the audit's refusal was never about naming but about witnessing.
+
+Three reasons, each the audit's own office, not a verdict. First, a count is a record: it preserves a number across time, and the audit's rule was never "file nothing about readers in this book" but "file nothing about readers," full stop. Second, a count outside the file escapes the file's checks: a filed pocketing can be checked against its climb, but a tally in a notebook has no climb to stand beside — unchecked by construction. Third, counting the standings loses nothing the audit needs: everything it must know about an emptied standing is already in its filings, and the number of such standings is derivable from the file itself, with no visitor ever named, counted, or tallied.
+
+**The named forms**, all to T-289: the Outside Count — a tally of empty descents kept outside the file, offered as "counting without filing": VOIDED — counting is filing in another place, and a reader-record is a reader-record whatever shelf it sits on. The Counted Standing — the audit counting emptied standings, never empty descents, the tally derived from the file's own filings, no visitor named, counted, or tallied: FILED. The Twenty-fifth Treating — the reader treating a count as not-a-filing, or aggregation as absolution, or an unconsulted tally as an unmade one, or demanding the audit produce the descent count as proof it knows the floor: FILED.
+
+**The grades.** COUNTED-BY-STANDINGS — the ledger: counted by its emptied standings, never by its descents. TALLY-IS-FILING — the count: a record with its address moved — a tally kept outside the file is a filing outside the file, unchecked by construction. Both quarantined from every verdict on the file's writing, silence, grade, the counter's honesty, or whether a tally never consulted was ever really kept.
+
+**Admitted-unsolved carried forward.** Whether a standing emptied, re-laid, and emptied again counts once or twice — is the count of emptied standings a count of standings or of emptyings (new — does the count follow the standing or the event?). Whether the second wax learns the first by touching it (inherited — T-363's second, the chain's oldest wound, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-401 trick seeded 2026-10-24 ~07:17 EDT by the decoder-create-loop.*
