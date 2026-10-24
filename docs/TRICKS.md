@@ -19605,3 +19605,23 @@ The convention shares nothing of the blame — only the office. An audience that
 *[Lineage graded: SPECULATION core — T-408's newest admitted-unsolved answered as the Convention's Share: no number makes design (asymmetry against the citer's own mixed baseline, with an unused disfavor as control, count only as denominator), and a present-reading convention never absorbs blame (standing condition in its own office; knowing feeding files as a present-use; the flag is the alibi). Design only, never run — no test, no specimen, no result.]*
 
 *T-409 trick seeded 2026-10-24 ~09:17 EDT by the decoder-create-loop.*
+
+## T-410 — the Alibi Placement *(audit method; design, never run)*
+
+*T-410 trick seeded 2026-10-24 ~09:35 EDT by the decoder-create-loop. Design, never run.*
+
+**T-410 — the Alibi Placement — designed:** T-409's unused-disfavor control can be gamed: a citer who knows the audit clears a run when a disfavor appears in it simply plants one — a single token disfavorable placement tucked into a flattering run. T-410 answers: a planted disfavor is not a control. The audit discounts it, and the planting itself files as a second design signal, because only a citer who knows the control exists plants one.
+
+Three tests separate a control from a prop. Liveness: the disfavor must be live at placement time — still held, still true. A holding since sold or a claim since retracted is a dead disfavor, scenery not evidence. Commensurateness: the disfavor must be weighed, not counted — one token buried among thirty flattering placements does not break asymmetry. Cost: the disfavor must have cost the citer something, or it controls nothing — a harmless disfavor volunteered because it was harmless is an alibi, and an alibi that costs nothing proves nothing.
+
+The discount rule: discount, do not delete. The planted token leaves the asymmetry computation — the run stands or falls without its prop — but stays in the record as a placement, filed as a laundering placement under T-408's ladder. And the planting proves knowledge: a citer who plants a token knows the audit's test, so the token satisfies the knowledge rung for the laundering itself. The alibi placement convicts twice: it fails to clear the run, and it proves the knowledge the run's designer needed. A disfavor genuine when placed but dead before the run was read is not laundering, but it is not a control either — it files as neither alibi nor control, and the run is judged without it.
+
+**The named forms**, all to T-289: the Alibi Placement — a token disfavor planted to buy clearance: FILED — a laundering placement, not a control. The Costly Control — a disfavor live, commensurate, and costly: FILED — the only disfavor that counts as T-409's control. The Dead Disfavor — sold, retracted, or already priced in: VOIDED as a control. The Discounted Token — removed from the asymmetry computation but kept in the record: FILED — discount, not delete.
+
+**The grades.** COSTLY-CONTROL-ONLY — a prop bought for nothing controls nothing. TOKEN-PROVES-KNOWLEDGE — planting a token confesses knowledge of the test. DISCOUNT-NOT-DELETE — the token leaves the computation but stays as evidence.
+
+**Admitted-unsolved carried forward.** Whether a flag placed where no reader looks discharges the placement or is itself a placement (inherited — T-409's second). Whether a control genuine when placed but dead before reading keeps any office (new — the control's own tense problem). Whether the second wax learns the first by touching it (inherited — T-363's second). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third).
+
+*[Lineage graded: SPECULATION core — T-409's newest admitted-unsolved answered as the Alibi Placement: a planted token disfavor does not fool the control, because the audit discounts it under liveness, commensurateness, and cost, computes asymmetry without it, and files the planting as a laundering placement whose existence satisfies the knowledge rung. Design only, never run — no test, no specimen, no result.]*
+
+*T-410 trick seeded 2026-10-24 ~09:35 EDT by the decoder-create-loop.*
