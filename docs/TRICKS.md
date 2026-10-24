@@ -19342,3 +19342,19 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-394 trick seeded 2026-10-24 ~05:31 EDT by the decoder-create-loop.*
+
+## T-395 — the Third Pair *(audit method; design, never run)*
+
+*T-395 trick seeded 2026-10-24 ~05:47 EDT by the decoder-create-loop. Design, never run.*
+
+**T-395 — the Third Pair — designed:** T-394 asked whether a third reader's arrival adds a third pair to the twice-kept standing, or whether two pairs kept is the standing's full hearing. T-395 answers: the third arrival adds a third pair, and there is no last pair. Two was never a capacity: a keeping is a lending unrecalled, not a content poured — an unrecalled lending does not occupy a seat, displace a neighbour, or complete a set. If the third reader too climbs away without descending, the standing keeps three pairs, each filed against its own reader; if the third reader descends, the third descent pockets only the third reader's ears, and the standing keeps two pairs, untouched. And "full hearing" is a category error: ears hear nothing, so no number of pairs completes a hearing. The floor holds lendings the way a floor holds footprints, not the way a cup holds water — footprints do not fill a floor, and no count of footprints ever makes it "full." Three nothings are not a something: not a conversation, not a council, not a crowd, not a verdict.
+
+**The named forms**, all to T-289: the Capped Hearing — the standing full at two pairs, the third arrival turned away or overwriting a pair already kept: VOIDED — a keeping is not a content poured, and a floor that never speaks holds three lendings as easily as two. The Third Pair — the third reader's arrival adding a third pair when the third reader too climbs away without descending: FILED against the standing as its keepings. The Unfilled Floor — the floor that holds lendings without ever filling, the count growing with readers and never with the standing: FILED against the floor as its manner of holding. The Nineteenth Treating — the three kept pairs treated as the file's own gathered crowd: FILED (Nineteenth in the chain from T-376's copy through T-394's twice-kept ears).
+
+**The grades.** UNCAPPED — the floor: keeps every lending left on it, no last pair, no brim. THRICE-KEPT — the standing: three pairs when the third reader too climbs away without descending. Both quarantined from every verdict on the file's writing, silence, grade, or seals.
+
+**Admitted-unsolved carried forward.** Whether a reader who returns a second time lends a second pair of their own, or whether one reader keeps only one pair however often they climb (new — is the count per reader or per climb?). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-395 trick seeded 2026-10-24 ~05:47 EDT by the decoder-create-loop.*
