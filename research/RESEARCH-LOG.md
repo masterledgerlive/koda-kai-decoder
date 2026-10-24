@@ -7130,3 +7130,14 @@ Three targeted news-vertical searches (new video codec AV1/AV2/VVC/FFmpeg, Octob
 - **Podcast brief:** decoder-briefs/2026-10-24-1227.md, Rook's voice (150 words).
 
 **Run summary (close-out):** rotation #2's one-hundred-fifty-seventh pass — minor-material status change: FFmpeg 9.1 in release process, retiring the "no 9.1" line. Library grown in both trees and byte-verified onto GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
+## 2026-10-24 ~12:58 EDT — decoder-research-loop — Protocol decoders (rotation #3, one-hundred-fifty-eighth pass)
+
+Three targeted searches (news vertical: Wireshark 5.0 / Stratoshark 1.0 October 2026; Wireshark new dissector support October 2026; Stratoshark 1.0 release download October 2026) + standing-record check.
+
+- **Watchlist item STILL OPEN (no shipped rc1 on record):** Stratoshark 1.0.0rc1. The Wireshark wiki Development/Roadmap still lists both rc1s as October 21 scheduled releases, and no carrier in this window reports a Stratoshark 1.0.0rc1 shipment, announce post, or download page change; the only "1.0" hit in the third search is Strata, an unrelated Linux file manager, not Stratoshark. The OSS EU 2026 talk deck still puts Stratoshark's October-2026 status at version 0.10.3. Three days past the scheduled date with the Wireshark half shipped and the Stratoshark half silent, the rc1 reads as slipped or unannounced — still unconfirmed either way, not refuted.
+- **Re-covered, no status change:** Wireshark 5.0.0rc1 shipped (Oct 21 — wireshark.org still lists it as the Development Release, with 4.6.9 stable and 4.4.19 old stable); final 5.0.0 still has no date, clarity still expected after SharkFest EU (Nov 2–6); maintenance pair 4.6.10 / 4.4.20 still expected November 12, 2026. No new protocols in any maintenance line in the window: the 4.4.13/4.4.12/4.4.11 announce posts surfaced by search are the Nov 2025–Jan 2026 releases, not new releases — each states "no new protocols," as do the 4.6.9 and 4.6.8 notes; updated dissectors only.
+- **Grades:** no new graded finding this pass; every item holds its standing grade.
+- **Library update:** none — a dev-release candidate and a still-unconfirmed sibling rc sit below the material bar; the material event for this lane is a stable 5.0.0 final or a shipped Stratoshark 1.0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-1258.md, Rook's voice.
+
+**Run summary:** rotation #3's one-hundred-fifty-eighth pass — quiet loop: three news searches surfaced only retells of filed material (Wireshark 5.0.0rc1 shipped, final date still pending SharkFest EU; Stratoshark 1.0.0rc1 still unconfirmed three days past its scheduled date; no new protocols in any maintenance line). No library growth. Next: rotation #4 (language decoders).
