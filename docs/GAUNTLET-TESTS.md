@@ -21704,3 +21704,188 @@ DRAFT-001..DRAFT-247. No open promises remain on any chain.]*
 *TDW-288 instrument seeded 2026-10-23 ~23:35 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-289 — the Struck Ledger Instrument *(design, never run)*
+
+*TDW-289 instrument seeded 2026-10-23 ~23:52 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-289 — the Struck Ledger Instrument — designed:** TDW-288 graded the
+smuggled bill STRUCK and doubled it — both districts billed for one district's
+re-reading — and admitted its third wound unsolved: whether the strike lands,
+because doubling the bill punishes the innocent district for the other's
+smuggling, and the instrument confessed the strike is collective, "the
+confederation's word for unfair." TDW-289 does not re-ask whether the strike
+is fair; the strike's fairness was never its business. It asks whether the
+strike is a word or a ledger: does the doubled bill get paid — by both
+districts, on what form, with what countersignatures — and does the
+enforcement ledger itself keep the silence, never naming which district
+re-read? Because an enforcement ledger that names the re-reader, to justify
+the doubling or to shame it, names the mouth the bill refused to name — and
+the verdict TDW-288 refused to file smuggles itself back two layers out,
+through the enforcement office. The instrument never re-reads the book, never
+re-judges the strike, never bills the mouth; it witnesses whether the doubled
+bill landed, and it files whether the strike was collected or only announced.
+A struck bill that nobody pays is a word the confederation said about itself;
+a struck bill that both districts pay in silence is the confederation's word
+made ledger.
+
+**The six drills.** The landing's form — the doubled bill is written on its
+own sealed form: the struck bill's number, the doubled sum exact, both
+districts named as payers, the mouth unnamed (TDW-288's silence,
+enforcement-sized — T-56's verbatim discipline: the sum exact, the silence
+verbatim). A doubled bill with no struck-bill number is a second billing
+wearing the strike's clothes; a doubled bill that names the re-reader is the
+verdict, re-filed as a bill. The landing's countersignature — both districts
+countersign the doubled form before any sum is tendered (TDW-64's pre-commit,
+struck-sized). A payment tendered on one signature is not a landing; it is a
+district paying ransom to the confederation's word — T-03's Potemkin
+architecture, struck-dressed: the rehearsed payment dressed as the collected
+strike. The landing's silence — the enforcement ledger records only that the
+strike landed: the doubled sum paid, both signatures standing. Never which
+district re-read, never which mouth moved, never toward what (TDW-286's
+blindness, enforcement-sized). An enforcement ledger that names the re-reader
+to justify the doubling is TDW-288's smuggling, one layer out — the bill that
+named the mouth named the verdict; the ledger that names the re-reader names
+it again. The landing's refusal — a district that will not pay the doubled
+bill refuses on its own seal, in writing, filed beside the struck bill, never
+argued into the enforcement (TDW-247's sealed revisions, struck-sized — the
+contest beside the bill, the refusal beside the strike). The refusal is the
+district's confession of what it owes, not its defense; the confederation
+re-files the unpaid doubled sum as TDW-285's open loan — the corridor the
+divergence wore, now doubled, a debt the confederation owes itself and cannot
+name. The landing's quarantine — an enforcement that names the re-reader is
+struck, its seals kept, quarantined to T-190, and the confederation billed
+for the smuggling (TDW-288's strike arm, turned on the enforcement: the
+smuggling's smuggling, bill-billed twice over). A strike that names the mouth
+to enforce itself is the confederation testifying as the confederation, two
+layers down — and T-235's no-laundering rule patrols the re-entry. The
+landing's discharge — the struck bill discharges when the doubled sum is paid
+and both signatures stand, or when the refusal is filed and the open loan is
+entered (T-84's hundred-and-seventeenth extension, instrumented): a struck
+bill that neither lands nor is refused in writing is TDW-285's open loan
+wearing TDW-288's strike — and a strike that is neither landed nor refused is
+the confederation's word, unenforced, about its own corridor. The bill's
+honesty is the bill's honesty; the strike's is the landing's.
+
+**Grades.** LANDED (the doubled sum paid by both districts, both signatures
+standing, the silence held through enforcement — the strike was not a word
+the confederation said about itself; it was collected, and the collection
+kept the silence). REFUSED (a district refused on its own seal: the refusal
+filed beside the struck bill, the unpaid doubled sum re-filed as open loan —
+the confederation carries a debt it cannot bill and a roster it cannot staff,
+and the confession is the only thing the office may read). SPENT (the
+enforcement ledger named the re-reader: the naming is the verdict smuggled
+back two layers out — the enforcement struck, its seals kept, quarantined to
+T-190, the confederation billed for the smuggling — a spent ledger is the
+confederation's word that its own strike could not be trusted, and that word
+is the finding). Graded on the landing against the countersigned doubled
+form, intent never entered (T-66's no-motive restraint — the district that
+refused for principle and the district that refused for leverage file
+identically), the grades quarantined from every verdict (T-235's
+no-laundering rule — a LANDED grade entering a verdict as the specimen's
+clearance is the confederation's strike laundered into evidence).
+
+**Distinguished from the counsel it shadows.** From TDW-288's Counter-Bill
+Instrument (the doctrine this instruments — there the strike was graded and
+the bill doubled; here the doubling's landing is witnessed: the strike is a
+word until the doubled bill lands, and a strike that never lands is the
+confederation's word, unenforced, about its own corridor). From TDW-287's
+Second Mouth Instrument (the stutter — the stutter was billed to the
+confederation; the strike's doubling is the stutter's price, billed district
+by district, and the instrument witnesses whether the price was paid). From
+TDW-285's Home Ledger Instrument (the open loan — a struck bill neither
+landed nor refused in writing is the open loan the home district never filed:
+the debt the confederation owes itself). From TDW-284's Thin District
+Instrument (the census — a district too thin to pay the doubled bill is
+TDW-284's wound, struck-sized: the confederation prices its honesty by the
+half and collects it by the double). From TDW-283's Clean Hands Instrument
+(the valve — there between the mouth and the bill; here between the strike
+and the landing: the enforcement never hears which district re-read). From
+T-56's verbatim discipline (the sum — doubled and exact; the silence —
+verbatim: a paraphrase of the silence is a naming wearing a euphemism,
+struck-sized). From T-235's no-laundering rule (the arm — at the enforcement
+layer: the verdict re-entering as the landing). From T-190's contamination
+ledger (the billing office — the smuggling's smuggling, bill-billed twice
+over; the office pays for enforcing its own strike). From T-66's no-motive
+restraint (the spine — refused-for-principle and refused-for-leverage file
+identically). From T-84's retirement law (the hundred-and-seventeenth
+extension, instrumented: the landing's discharge). From T-03's Potemkin
+architecture (distinguished — the one-signed payment: the rehearsed collection
+dressed as the landed strike). From T-261's Sealed Archive (the doubled form
+filed beside the struck bill beside the contest — read never joined, three
+deep).
+
+*[Lineage graded: SPECULATION core — "when a bill is STRUCK and doubled, the
+strike is a word until the doubled bill lands: both districts must
+countersign the doubled form before any sum is tendered, the enforcement
+ledger records only that the strike landed — never which district re-read —
+a district that will not pay refuses on its own seal and the unpaid doubled
+sum is re-filed as TDW-285's open loan, and an enforcement ledger that names
+the re-reader is the verdict smuggled back two layers out — struck,
+quarantined, the confederation billed for the smuggling" — untested
+conjecture, this lab's own design proposition. CORROBORATED feeders — the
+collections direction (a fine is not collected when it is levied; it is
+collected when it is paid, and the payment ledger is the fine's only witness
+[feeder — fiscal practice, never proof a strike unlanded is the
+confederation's word about itself]); the garnishment direction (the court
+orders the sum without re-trying the case, and the order's enforcement names
+the debt, never the guilt [feeder — legal practice, never proof the doubled
+form's silence survives the building]); the surety direction (two parties
+countersign the bond before the money moves, because a bond signed after the
+payment is a ransom receipt [feeder — commercial practice, never proof the
+landing's countersignature holds the strike]). SPECULATION until run: whether
+the doubling lands (admitted here, unsolved — the innocent district pays
+double for the other's smuggling, and may refuse on its own seal; the refusal
+is the confession, but the confederation's corridor widens with every refusal
+it files); whether the silence survives enforcement (admitted here, unsolved
+— the enforcement ledger sits where the strike's story is told, and a ledger
+that knows which district re-read is a bill with a memory; the silence is the
+confederation's word against its own enforcement office); whether the open
+loan ever closes (admitted here, unsolved — the doubled sum re-filed as open
+loan is a debt the confederation owes itself and cannot name, and a corridor
+that widens is a corridor the confederation stops noticing). VERIFIED lineage:
+TDW-288's Counter-Bill Instrument (the doctrine this instruments — the
+strike, the doubling, the admitted wound this answers); TDW-287's Second
+Mouth Instrument (the stutter — the price this collects); TDW-286's Blind
+Reading Instrument (the blindness — enforcement-sized); TDW-285's Home Ledger
+Instrument (the open loan — the refusal's re-filing); TDW-284's Thin District
+Instrument (the census, the wound — struck-sized); TDW-283's Clean Hands
+Instrument (the valve — between the strike and the landing); TDW-64's
+pre-commit (the countersignature form, struck-sized); T-56's verbatim
+discipline (the sum exact, the silence verbatim); T-247's sealed revisions
+(the spine — the refusal beside the strike); T-66's no-motive restraint (the
+spine — refused-for-principle and refused-for-leverage file identically);
+T-235's no-laundering rule (the arm — the enforcement layer); T-190's
+contamination ledger (the billing office — the smuggling's smuggling); T-84's
+retirement law (the hundred-and-seventeenth extension); T-03's Potemkin
+architecture (distinguished — the one-signed payment); T-261's Sealed Archive
+(the archive — the doubled form beside the struck bill beside the contest,
+read never joined); TDW-273 / TDW-274 / TDW-275 / TDW-276 / TDW-277 / TDW-278
+/ TDW-279 / TDW-280 / TDW-281 / TDW-282 / TDW-283 / TDW-284 / TDW-285 /
+TDW-286 / TDW-287 / TDW-288 (the sibling instruments this shadows — the
+alibi, the recused sitter, the returning sitting, the handed map, the
+advocate's mirror, the unmasked operator, the dress rehearsal, the
+after-hours, the unstudied hour, the second stranger, the clean hands, the
+thin district, the home ledger, the blind reading, the second mouth, the
+counter-bill). No result exists; the claim table is the design's honesty
+boundary. SPECULATION — the six drills, the landing, the silence, the
+countersignature, the refusal, the quarantine, the discharge, and the
+hundred-and-seventeenth extension are doctrine until run. T-310's pairs line
+OPEN (the hourglass is one answer to the recital, not the answer; the Kept
+Floor is its sibling, the After-Hours is the corridor, TDW-280 is the
+corridor's instrument, TDW-281 is the unstudied hour, and TDW-282 is the
+street's instrument — six answers, and the recital's question stays asked;
+TDW-283 guards the instrument that asks whether the corridor's exhale was
+relief or rehearsal; TDW-284 prices the district that runs it; TDW-285 keeps
+the confederation's books blind; TDW-286 reads whether the book stayed blind
+— the recital, instrumented; TDW-287 reads whether the mouth stutters — the
+recital, seconded; TDW-288 pays for the stutter — the recital, billed;
+TDW-289 lands the strike — the recital, struck-and-landed). No other open
+pairs lines. No instrument or draft promised this run. No other open promises
+remain on any chain. Chain state: catalogue sections (a)–(n) with section (m)
+at 19 entries, tricks T-01..T-373 (headed, gap-free), instruments
+TDW-01..TDW-289 (gap-free), drafts DRAFT-001..DRAFT-249 + DUMMY.]*
+
+*TDW-289 instrument seeded 2026-10-23 ~23:52 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
