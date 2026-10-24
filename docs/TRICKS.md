@@ -19560,3 +19560,15 @@ Two edges. A citation under a present-tense frame — a list headed "Current hol
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-406 trick seeded 2026-10-24 ~08:31 EDT by the decoder-create-loop.*
+
+## T-407 — the Re-dated Citation *(audit method; design, never run)*
+
+*T-407 trick seeded 2026-10-24 ~08:46 EDT by the decoder-create-loop. Design, never run.*
+
+**T-407 — the Re-dated Citation — designed:** T-406 settled tense and left the second date standing: every citation carries a filing date D (when the count was made) and a citation date C (when it is repeated). T-407 separates them: the citation's date dates the citing act, never the count. A citation printed today repeating a count filed October 12 does not make it a today's count; it makes the repetition a today's repetition. Re-dating is not re-laying: a re-laying recounts the file and files a new count, while a re-dating only re-stamps an old one and adds nothing to the file. The audit files the citation under C but grades the count under D. Merge the two dates and every reprint would quietly refresh the report, letting a count quoted a hundred times wear a hundred dates and stand for the present file on all of them — present-by-default through the back door T-406 closed through the front. A citation printing only C beside the count, with D dropped, is a present-tense frame made of a date: unless D is carried or recoverable, the reader reads it as today's count — a T-405 present-use. A citation printing both dates is clean, each date doing its own job in the open. An "as of C" header over old counts without row dates is the same present-frame by date; a table with an "as of" column dated row by row is dated, not re-dated.
+
+**Named forms to T-289:** the Re-dated Citation (FILED — citation filed under C, count graded under D, both dates visible or the filing date recoverable); the Date-Swap (VOIDED — substituting C for D as the count's date is a changed filing wearing the report's name, the same misquotation T-405 names for a replaced date); the Re-laying Distinction (FILED — only a recount files a new count; a reprint, however freshly dated, files nothing new about the file).
+
+**The grades.** CITATION-UNDER-C — the citing act is filed under the date it was made, and the citer answers for the repetition on that day. COUNT-UNDER-D — the count is graded under its filing date whatever date the citation wears. The two grades are never merged, because merging them would let a citation's freshness refresh a count's age, and the audit grades age by filing, never by reprint.
+
+*T-407 trick seeded 2026-10-24 ~08:46 EDT by the decoder-create-loop.*
