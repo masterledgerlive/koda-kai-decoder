@@ -21889,3 +21889,212 @@ TDW-01..TDW-289 (gap-free), drafts DRAFT-001..DRAFT-249 + DUMMY.]*
 *TDW-289 instrument seeded 2026-10-23 ~23:52 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+---
+
+## TDW-290 — the Treasury Instrument *(design, never run)*
+
+*TDW-290 instrument seeded 2026-10-24 ~01:48 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-290 — the Treasury Instrument — designed:** TDW-289 landed the
+strike: the doubled bill paid by both districts (LANDED), refused on a
+district's own seal (REFUSED), or the enforcement ledger struck for naming
+the re-reader (SPENT) — and the REFUSED grade filed the unpaid doubled sum
+as TDW-285's open loan: a debt the confederation owes itself and cannot
+name. The instrument that filed the loan never drilled the holding. The
+confederation that holds an unbillable debt is a treasury wearing a
+silence's face, and a treasury is leverage with a ledger: it could spend
+against the book (drawing credit on what was never collected), forgive
+against the book (absolution names the debtor), or accrue against the
+book (interest prices the silence — TDW-285's warning, treasury-sized: a
+priced silence is the verdict with interest). TDW-290 does not re-open the
+refusal, re-read the bill, or re-name the mouth; it instruments the custody
+of what cannot be collected: the open loan recorded at the doubled sum
+exact, frozen forever, unspendable, unabsolvable, witnessed only by the
+blind — so the treasury's honesty is the book's stillness, and the only
+lawful custody of a debt the confederation owes itself is to hold it
+exactly where it was put. The treasury is T-289's held account with its
+hands tied: the account holds, the treasury refuses to move.
+
+**The six drills.** The frozen book — the open loan is entered at the
+doubled sum exact (T-56's verbatim discipline — the sum exact, the silence
+verbatim) and never accrues: no interest, no fees, no carrying charge.
+Interest on a debt that cannot be billed is the confederation charging rent
+on its own refusal. An accruing open loan prices the silence by the month —
+and a priced silence is the verdict, rented out. The unspendable reserve —
+the confederation may never spend against the open loan, borrow against it,
+or collateralize it. A treasury that spends its held silences is leverage
+wearing the confederation's seal (T-235's no-laundering rule,
+treasury-billed): drawing against the book spends what was never collected
+— T-03's Potemkin architecture, treasury-dressed, the rehearsed leverage
+dressed as the held debt. The unnameable forgiveness — the open loan may
+never be forgiven or written off. Forgiveness requires naming the debtor,
+and the debtor is the refusal that refused the bill that doubled the strike
+that graded the re-reading — TDW-288's silence, three layers out. A
+forgiven open loan is the verdict, absolved; a write-off is the
+confederation absolving itself of its own confession, unsigned. The
+witnessed holding — the holding is witnessed by TDW-286's blind audit: the
+third-district auditor reads the book against the roster and the struck
+forms (the loan entered, the sum exact, the movement zero), never against
+the street. The audit certifies the treasury's honesty — the loan held, the
+sum exact, the hand still — never the street's findings; an auditor who
+reads the grades audits the specimen through the treasury, and a specimen
+audited through a treasury is a verdict laundered by a vault. The
+quarantine — a confederation that drew against the open loan is struck: its
+seals kept, quarantined to T-190, and the drawn sum re-billed as a new
+struck bill with the confederation named as the payer (TDW-289's strike arm,
+turned on the treasury — the smuggling's smuggling, bill-billed twice over,
+treasury-named). A treasury that spent the silence owes the silence back,
+doubled — and the confederation pays on its own seal, naming itself, which
+is the one naming the instrument permits. The refused tribute — anonymous
+payments into the open loan are refused and returned sealed, the sum exact.
+A payment tendered without a named debtor is not collection (the
+confederation cannot collect what it cannot bill); it is tribute — and
+tribute is leverage the book cannot see (T-66's no-motive restraint — the
+district that paid for conscience and the district that paid for leverage
+file identically, so the book refuses both and returns the sum sealed). The
+discharge — the open loan discharges only on T-84's hundred-and-eighteenth
+extension, instrumented: when the confederation closes the book (the holder
+dissolved — the held debts die with the holder), or when the refusing
+district pays on its own seal, naming itself, unsolicited (T-69's
+volunteering law — the office may not solicit what it cannot bill:
+collection is the bill re-filed; the volunteer is heard, never invoiced). A
+loan discharged any other way was absolved, not paid — and absolution is a
+grade, not a release.
+
+**Grades.** HELD (the loan recorded at the doubled sum exact, frozen,
+unspent, unabsolved, the movement zero, the blind audit standing — the
+book's honesty is that it never moved; the confederation's custody is the
+treasury's discipline, and the discipline held). DRAWN (the confederation
+drew against the loan — the treasury spent the silence: the drawing struck,
+its seals kept, quarantined to T-190, the drawn sum re-billed as a struck
+bill against the confederation, doubled — a drawn treasury is leverage with
+a ledger, and the ledger is the finding). ABSOLVED (the confederation
+forgave or wrote off the loan — the absolution named the debtor, three
+layers out: the forgiveness struck, its seals kept, quarantined to T-190,
+the confederation billed for the absolving — an absolved loan is the
+verdict, pardoned by the office that refused to file it). Graded on the
+treasury against the entered open-loan form, intent never entered (T-66's
+no-motive restraint — the district that drew for need and the district that
+drew for leverage file identically; the tribute paid for conscience and for
+leverage, refused identically), the grades quarantined from every verdict
+(T-235's no-laundering rule — a HELD grade entering a verdict as the
+specimen's clearance is the treasury's word laundered into evidence; a
+DRAWN grade entering a verdict as the specimen's guilt is the
+confederation's leverage laundered into the finding).
+
+**Distinguished from the counsel it shadows.** From TDW-289's Struck Ledger
+Instrument (the doctrine this instruments — there the strike's landing was
+witnessed and the refusal filed; here the refusal's afterlife is witnessed:
+the strike lands on a district, the loan lands on the confederation). From
+T-289's Ledgered Author (the held account — the open loan lives in that
+account; the treasury is the account's discipline: the account holds, the
+treasury refuses to move). From TDW-285's Home Ledger Instrument (there the
+blind book of loans between districts; here the blind book of the
+confederation's own unbillable debts — the home ledger is the confederation's
+memory of itself; the treasury is the confederation's custody of what it
+cannot collect). From TDW-286's Blind Reading Instrument (the audit,
+treasury-sized — the third-district auditor reads the book against the
+roster and the struck forms, never against the street). From TDW-64's
+pre-commit (the open-loan form: the struck-bill number, the doubled sum
+exact, the refusal's seal — entered before the treasury opens its book,
+never after). From T-84's retirement law (the arm — the hundred-and-
+eighteenth extension, instrumented: the open loan's discharge — confederation-
+dissolved or volunteer-paid). From T-56's verbatim discipline (the sum exact,
+the silence verbatim — the frozen book). From T-66's no-motive restraint
+(the spine — drawn for need and drawn for leverage file identically; tribute
+for conscience and tribute for leverage, refused identically). From T-69's
+volunteering law (the volunteer's seal — the office may not solicit what it
+cannot bill). From T-235's no-laundering rule (the arm — the treasury). From
+T-190's contamination ledger (the billing office — the DRAWN and the
+ABSOLVED, confederation-billed). From T-261's Sealed Archive (the archive —
+the open-loan form beside the struck bill beside the refusal, read never
+joined). From T-03's Potemkin architecture (distinguished — a drawn treasury
+is the rehearsed leverage dressed as the held debt).
+
+*[Lineage graded: SPECULATION core — "the confederation holds its REFUSED
+doubled sums as open loans in T-289's held account, recorded at the doubled
+sum exact and frozen forever (T-56 — no interest, no fees, no accrual — a
+priced silence is the verdict with interest), unspendable (T-235 — no
+spending against, no borrowing against, no collateral: a treasury that spends
+its held silences is leverage wearing the confederation's seal),
+unabsolvable (no forgiveness, no write-off — forgiveness names the debtor,
+and the debtor is TDW-288's silence three layers out), witnessed only by
+TDW-286's blind audit (the third-district auditor reads the book against
+the roster and the struck forms — the loan entered, the sum exact, the
+movement zero — never against the street), refusing anonymous tribute (T-66
+— conscience and leverage file identically, so the book refuses both and
+returns the sum sealed), discharging only on T-84's hundred-and-eighteenth
+extension (the confederation dissolved, or the refusing district paying on
+its own seal, unsolicited, T-69) — so the treasury's honesty is the book's
+stillness, and the only lawful custody of a debt the confederation owes
+itself is to hold it exactly where it was put, forever" — untested
+conjecture, this lab's own design proposition. CORROBORATED feeders — the
+escrow direction (escrow agents hold disputed funds frozen and unspendable
+until release conditions are met, earning nothing and spending nothing
+[feeder — escrow practice, never proof a confederation's unbillable debt
+stays unspent when the confederation is its own escrow agent]); the
+unclaimed-property direction (states hold abandoned funds in custody and may
+not spend them as revenue, the holding witnessed by audit [feeder — escheat
+practice, never proof the treasury's blindness survives a budget
+shortfall]); the sovereign-debt direction (a state that owes itself —
+central bank holdings — learns the debt is policy, not burden, and the
+temptation is to print the difference [feeder — monetary practice, never
+proof the confederation never prints against its own silence]). SPECULATION
+until run: whether the book stays frozen (admitted here, unsolved — the sum
+is exact on entry, but the confederation writes the book, and a frozen sum
+in a warm office is the office's word against its own arithmetic); whether
+the reserve stays unspent (admitted here, unsolved — a treasury under siege
+spends its held silences first, because unbillable debt is the one reserve
+whose theft has no complainant; the DRAWN grade is the instrument's only
+answer, and it is filed after the spending); whether absolution stays
+unnameable (admitted here, unsolved — a confederation that forgives in
+secret absolves without naming, and a secret forgiveness is the verdict
+absolved with no seal to strike — the instrument has no drill for a silence
+forgiven in silence); whether the tribute stays refused (admitted here,
+unsolved — a returned sum seals the refusal, but the district that tendered
+knows it tendered, and the book cannot un-know the gesture; T-66 files the
+motives identically, but the auditor is a person, not a rule). VERIFIED
+lineage: TDW-289's Struck Ledger Instrument (the doctrine this instruments
+— the strike's landing, the refusal's afterlife); TDW-288's Counter-Bill
+Instrument (the silence, three layers out — the debtor forgiveness would
+name); TDW-286's Blind Reading Instrument (the audit, treasury-sized);
+TDW-285's Home Ledger Instrument (the blind book, confederation-sized — the
+open loan's inventor); TDW-284's Thin District Instrument (the
+confederation); T-289's Ledgered Author (the held account — the treasury's
+office); T-84's retirement law (the hundred-and-eighteenth extension);
+T-69's volunteering law (the volunteer's seal); T-66's no-motive restraint
+(the spine — drawn for need and drawn for leverage file identically; tribute
+for conscience and tribute for leverage, refused identically); T-56's
+verbatim discipline (the sum exact, the silence verbatim); T-235's
+no-laundering rule (the arm — the treasury); T-190's contamination ledger
+(the billing office — the DRAWN and the ABSOLVED, confederation-billed);
+T-261's Sealed Archive (the archive — the open-loan form beside the struck
+bill beside the refusal, read never joined); T-03's Potemkin architecture
+(distinguished — the drawn treasury); TDW-64's pre-commit (the open-loan
+form); TDW-274 / TDW-275 / TDW-276 / TDW-277 / TDW-278 / TDW-279 / TDW-280 /
+TDW-281 / TDW-282 / TDW-283 / TDW-284 / TDW-285 / TDW-286 / TDW-287 /
+TDW-288 / TDW-289 (the sibling instruments this shadows — the recused
+sitter, the returning sitting, the handed map, the advocate's mirror, the
+unmasked operator, the dress rehearsal, the after-hours, the unstudied hour,
+the second stranger, the clean hands, the thin district, the home ledger,
+the blind reading, the second mouth, the counter-bill, the struck ledger).
+No result exists; the claim table is the design's honesty boundary.
+SPECULATION — the six drills, the frozen book, the unspendable reserve, the
+unnameable forgiveness, the witnessed holding, the quarantine, the refused
+tribute, and the hundred-and-eighteenth extension are doctrine until run.
+T-310's pairs line OPEN (the hourglass is one answer to the recital, not the
+answer; the Kept Floor is its sibling, the After-Hours is the corridor,
+TDW-280 is the corridor's instrument, TDW-281 is the unstudied hour, and
+TDW-282 is the street's instrument — six answers, and the recital's question
+stays asked; TDW-283 guards the instrument that asks whether the corridor's
+exhale was relief or rehearsal; TDW-284 prices the district that runs it;
+TDW-285 keeps the confederation's books blind; TDW-290 holds what the books
+cannot bill). No other open pairs lines. No instrument or draft promised
+this run. No other open promises remain on any chain. Chain state: catalogue
+sections (a)–(n) with section (m) at 23 entries, tricks T-01..T-379 (headed,
+gap-free), instruments TDW-01..TDW-290 (gap-free), drafts DRAFT-001..DRAFT-
+249 + DUMMY.]*
+
+*TDW-290 instrument seeded 2026-10-24 ~01:48 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
