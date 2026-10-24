@@ -6671,3 +6671,9 @@ Three targeted searches plus a standing-record check. **Quiet loop, watchlist un
 - **Grades:** claimed (Stratoshark 40k downloads); corroborated (download-page release list); watchlist still open.
 - **Library update:** none — not material (no new decipherment technique, codec, or protocol-decode class).
 - **Run summary:** the dissection surface is steady since October 21 — Wireshark 5.0.0rc1 still the dev release, Stratoshark 1.0.0rc1 still unconfirmed. Next: rotation #4 (language decoders).
+
+## 2026-10-24 ~00:27 EDT — decoder-research-loop — Language decoders (rotation #4, seventy-third pass)
+
+Two targeted news-vertical searches plus a standing-record check. **Quiet loop, nothing new to record.** Every fresh carrier re-carried standing record: the "noise-proof translation" digest is the same Zhou and Zhou anti-interference low-resource paper already on file; Tencent's offline four-hundred-forty-megabyte Hunyuan model, Intento's State of Translation Automation twenty twenty six report, the Johns Hopkins ten-point-seven-million-dollar low-resource grant, Meta's sixteen-hundred-language Omnilingual system, the Tangut structural-prior paper, and DeepMind's Aeneas Latin-inscription tool — all already filed, none with a fresh fact attached. The WMT twenty twenty six low-resource preprint lineup stays preprint-claimed; the Budapest workshop, October twenty eighth through twenty ninth, is the lane's pending item, four days out. The honest formulation on AI-assisted historical decipherment stands: three public breaks, none without a partial key or human cribs.
+- **Library update:** none — not material (no new decipherment technique, no new translation architecture class).
+- **Run summary:** the translation lane is stable — nothing new to grade, nothing new to file. Next: rotation #5 (quantum decoding).
