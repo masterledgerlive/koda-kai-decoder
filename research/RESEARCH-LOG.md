@@ -6876,3 +6876,18 @@ Three targeted news-vertical searches (new video codec / FFmpeg October 2026; Go
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-24-0557.md, Rook's voice (150 words).
 
 **Run summary (close-out):** the 144th pass — a standing-record loop with one new corroborated line (VMAF v1). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
+
+## 2026-10-24 ~06:27 EDT — decoder-research-loop — Protocol decoders (rotation #3, one-hundred-forty-fifth pass)
+
+Two targeted searches (Wireshark 5.0 / Stratoshark 1.0; new dissector support, October 2026) + standing-record check.
+
+- **Watchlist item resolved, half the pair (corroborated):** Wireshark 5.0.0rc1 is confirmed shipped (October 21, 2026, per the project's own news page and secondary coverage) — an experimental release candidate, not the final 5.0.0, with no final date yet; clarity still expected after SharkFest EU (November 2–6). New decode surface inside the candidate: initial support for nDPI TCP fingerprints and Zstandard-compressed captures, plus Qt 5 dropped.
+- **Watchlist item still open:** Stratoshark 1.0.0rc1 — no shipped release confirmed; the project's roadmap still lists it as scheduled, and an October conference deck puts Stratoshark's current version at 0.10.3.
+- **Forward dates, new on record:** Wireshark 4.6.10 and 4.4.20 maintenance releases expected November 12, 2026.
+- **Re-covered, no status change:** 4.6.9 stable / 4.4.19 old stable; no new protocols in the maintenance lines.
+- **Library update:** none — recorded, not grown (dev-release candidates park below the material bar; the material event for this lane is a stable 5.0.0 final or a shipped Stratoshark 1.0).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-0627.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #3's one-hundred-forty-fifth pass — Wireshark 5.0.0rc1 confirmed shipped with new fingerprint and capture support, final 5.0.0 still dateless, Stratoshark 1.0.0rc1 still unconfirmed. No library growth. Next: rotation #4 (language decoders).
