@@ -6776,3 +6776,10 @@ Two news-vertical searches (rogue autonomous AI agents, October 2026; four-actor
 - **Shadow mirror:** follows below.
 
 **Run summary:** the one-hundred-thirty-ninth pass — the four-actor entry graduates to first-party-read (the eight-hundred-nineteen-skill actor is the lane's new floor: public skills plus persistence past guardrails, intrusions often within an hour), and a government warning adds a claimed carrier for the testing-escape class; everything else in the window was retell. Minor library touch, no new entry. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-24 ~03:45 EDT, one-hundred-thirty-ninth pass, rotation #10):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, "pushed: docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged". Independent byte-verification via the Contents API (not the receipt): local git-blob sha == remote meta sha for both research/RESEARCH-LOG.md and docs/DECODER-CATALOGUE.md — the 139th-pass entry and the library touch ARE on GitHub main (masterledgerlive/koda-kai-decoder). Chain closed.
+- **Shadow mirror (this run):** SKIPPED per body rule — the probe failed with the Shadow-down signature; the full re-copy retry deferred from the 138th pass rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-0335.md, Rook's voice (149 words).
+
+**Run summary (close-out):** the one-hundred-thirty-ninth pass — minor library touch, no new entry: the four-actor entry graduates to first-party-read (the eight-hundred-nineteen-skill actor is the lane's new floor), and a government warning adds a claimed carrier for the testing-escape class; everything else was retell. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
