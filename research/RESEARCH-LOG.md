@@ -6869,3 +6869,10 @@ Three targeted news-vertical searches (new video codec / FFmpeg October 2026; Go
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2's one-hundred-forty-fourth pass — a standing-record loop with one new corroborated line: VMAF v1, Netflix's June 2026 first-in-ten-years revision of the video quality yardstick (banding detection, chroma feature, VIF dropped, roughly twice as fast) — a metric, not a codec, so recorded not grown. AV2 still in its press cycle, FFmpeg 9.0.2 still latest, NeuralCodec-8K primary still open, the phantom voxel codec still killed. No library growth. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-24 ~06:05 EDT, one-hundred-forty-fourth pass, rotation #2):**
+- **Push result (VERIFIED):** sync-github.py "research: codecs & formats (rotation #2, 144th pass) — VMAF v1 corroborated, recorded not grown; rest retell" — exit 0, "1 pushed, 265 unchanged". Independent byte-verification via the Contents API: local git-blob sha `4c638af3dbe36b654ed2792cda154925564f3ff2` (1,664,300 bytes) == remote meta sha — the 144th-pass public entry IS on GitHub main.
+- **Shadow mirror:** SKIPPED — Shadow down (probe failed with the Shadow-down signature "Connection closed by UNKNOWN port 65535"); the deferred full re-copy rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-0557.md, Rook's voice (150 words).
+
+**Run summary (close-out):** the 144th pass — a standing-record loop with one new corroborated line (VMAF v1). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
