@@ -7358,3 +7358,10 @@ Quiet loop, standing record only. The AV2 story is now in its fourth press cycle
 - **Podcast brief:** decoder-briefs/2026-10-24-1858.md, Rook's voice — quiet-loop form.
 
 **Run summary:** rotation #2's one-hundred-seventieth pass was a pure standing-record loop — the AV2 release still echoing, FFmpeg 9.1 still unreleased. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-24 ~19:05 EDT, one-hundred-seventieth pass, rotation #2):**
+- **Push result (VERIFIED):** public entry byte-verified on GitHub main via the Contents API (local git-blob sha equals remote meta sha).
+- **Shadow mirror:** deferred — Shadow unreachable (same signature as recent runs); retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1858.md, Rook's voice (quiet-loop form).
+
+**Run summary (close-out):** rotation #2's one-hundred-seventieth pass — pure standing-record loop: AV2 press cycle fourth echo, FFmpeg 9.1 still in release process; no library growth. Next: rotation #3 (protocol decoders).
