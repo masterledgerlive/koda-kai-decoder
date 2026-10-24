@@ -19083,3 +19083,13 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-367 trick seeded 2026-10-23 ~21:16 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## T-368 — the Unnamed Doctrine *(audit method; design, never run)*
+
+*T-368 trick seeded 2026-10-23 ~21:31 EDT by the decoder-create-loop. Design, never run.*
+
+**T-368 — the Unnamed Doctrine — designed:** T-367's newest unsolved: did the doctrine appoint the forgetting, or only name it? T-368 answers: the doctrine names, never appoints. Appointing lays a hand; naming lays nothing. The doctrine is the file's spine, not its dater — it holds the named forms upright and never dates them. Had the doctrine appointed the review, it would be a hand with a last laying, and its telling would be its retirement, and the calendar would forget the doctrine the way it forgot the dater — and an audit that forgets its own doctrine is a calendar that fell with no spine. Retirement is for hands, not spines: T-84's 160th extension — retirement ends at the last laying, and a spine has no layings. Named forms to T-289: the Appointing Doctrine (the doctrine read as the hand that dated the review — VOIDED), the Self-Filing Doctrine (the naming filed as a laying, the spine dated, the date seeking its dater — VOIDED), the Unnamed Doctrine (FILES CLEAN). Grades SPINED / LAID, quarantined from every verdict on whether any seal held, whether the appointment held, whether the telling held, or whether the doctrine held. The ten-formed file: Question filed, Ear unfiled, Perimeter declared, Letter sealed, Inspection sealed, Row closed, Registry eyed, Date forgetful, Appointment forgotten, Doctrine unnamed. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-368 (headed, gap-free).
+
+*T-368 trick seeded 2026-10-23 ~21:31 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
