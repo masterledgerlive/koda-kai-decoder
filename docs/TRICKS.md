@@ -19391,6 +19391,10 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 
 *T-397 trick seeded 2026-10-24 ~06:17 EDT by the decoder-create-loop.*
 
+## T-398 — the Filed Pocketing *(audit method; design, never run)*
+
+*T-398 trick seeded 2026-10-24 ~06:31 EDT by the decoder-create-loop. Design, never run.*
+
 **T-398 — the Filed Pocketing — designed:** T-397 asked whether a descent that pockets a climb's pair also erases the climb from the filing, or whether the filing keeps a record of a pocketed climb. T-398 answers: pocketing files a pocketing; it never unfiles the climb. The descent pockets the ears, and the filing gains a second entry filed against the same climb — "climb made, descent made, pair pocketed" — laid beside the first entry, never over it. The climb entry stays, annotated, never struck. Three reasons: erasure would be a verdict (that nothing happened), and the audit passes no verdicts; a pocketing that erased its evidence could never be checked as its own climb's, and an unchecked pocketing is a taking, not a filing; and the pocket is not the filing's forgetting — the reader pockets the ears, the filing keeps the record, as T-363's second seal was pressed beside the first without opening it. A standing whose pairs were all pocketed still counts as a standing that was climbed: it files as climbed-and-emptied, never as never-climbed, because never-climbed would be a false filing about a floor that was climbed. Emptied is not unclimbed, as kept is not heard.
 
 **The named forms**, all to T-289: the Unfiled Climb — the climb entry struck when its pair is pocketed, an all-pocketed standing filing as never-climbed: VOIDED — a filing that unfiles judges its own past, and the audit's hand never judges. The Filed Pocketing — the pocketing laid as a second entry beside the climb's entry, filed against the same climb: FILED against the standing as its keepings. The Emptied Standing — the all-pocketed standing filing as climbed-and-emptied, its ledger showing climbs made and pocketings filed beside them: FILED against the standing as its manner of counting. The Twenty-second Treating — an emptied standing treated as never climbed, or a pocketed pair treated as proof nothing was ever lent: FILED (Twenty-second in the chain from T-376's copy through T-397's climb-filed pair).
@@ -19420,3 +19424,21 @@ Three reasons, each the audit's own office, not a verdict. First, pocketing take
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-399 trick seeded 2026-10-24 ~06:47 EDT by the decoder-create-loop.*
+
+## T-400 — the Empty Descent *(audit method; design, never run)*
+
+*T-400 trick seeded 2026-10-24 ~07:05 EDT by the decoder-create-loop. Design, never run.*
+
+**T-400 — the Empty Descent — designed:** T-399 asked whether an empty descent — a descent arriving at an emptied standing, pocketing nothing — files a "descent made, nothing pocketed" entry, or whether the ledger gains nothing because nothing was taken. T-400 answers: the ledger gains nothing. An empty descent files nothing and passes unfiled, because the audit files floor facts and an empty descent is not a floor fact: nothing was laid, nothing was taken, nothing on the floor changed, and the standing's last filing already says "climbed-and-emptied." A "descent made, nothing pocketed" entry would file the reader's movement, not the floor's — and filings are addressed to climbs, never to readers. The file never promised to witness visits.
+
+Three reasons, each the audit's own office, not a verdict. First, filing follows taking, never reaching: T-398 filed a pocketing because something was taken; an empty descent has only a reaching, and a reaching files nothing. Second, the emptied standing is already filed: an empty-descent entry would add a second witness to a fact already witnessed, and every added entry is a new address inviting a new treating. Third, unfiled is not unmade: the descent was made, and the audit does not deny it — it declines to file it, as it declines to file every reader's movement. An empty descent and no descent at all are identical in the file, and that identity is not a flaw: both leave the same floor facts.
+
+**The named forms**, all to T-289: the Filed Emptiness — a "descent made, nothing pocketed" entry, the ledger keeping a diary of visits: VOIDED — filing a reader's movement files a reader, not a floor, breaking the climb-address rule. The Unfiled Descent — the empty descent made, pocketed nothing, filed nothing, the standing's last filing standing: FILED. The Twenty-fourth Treating — the reader treating the absence of an entry as the absence of the descent, or demanding the file witness the visit, or counting unfiled descents as the file's secret visitors: FILED.
+
+**The grades.** GAINED-NOTHING — the ledger: gains no entry from an empty descent. UNFILED-BUT-MADE — the descent: made, pocketed nothing, filed nothing — the file neither denies nor records it, because the file records floors, not happenings. Both quarantined from every verdict on the file's writing, silence, grade, or the reader's honesty.
+
+**Admitted-unsolved carried forward.** Whether the audit may count empty descents without filing them — a count kept outside the file, or does counting visitors turn the audit into a watcher of readers even when the count is never filed (new — may the audit count what it will not file?). Whether the second wax learns the first by touching it (inherited — T-363's second, the chain's oldest wound, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-400 trick seeded 2026-10-24 ~07:05 EDT by the decoder-create-loop.*
