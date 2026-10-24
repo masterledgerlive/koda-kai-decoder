@@ -6752,3 +6752,11 @@ Two news-vertical searches (gVisor/Firecracker sandbox isolation October 2026; c
 - **Shadow mirror (one-hundred-thirty-eighth pass):** follows below.
 
 **Run summary:** the one-hundred-thirty-eighth pass is log-only — Docker CopyEscape (corroborated) turned the copy-out path into the exploit, and the extraction lane pins the patched versions before trusting anything pulled from a cage. Next: rotation #10 (rogue-agent threat intel).
+
+
+**Close-out (2026-10-24 ~03:07 EDT, 138th pass, rotation #9):**
+- **Push result (VERIFIED):** sync-github.py — "done: 1 pushed, 265 unchanged". Independent byte-verification via the Contents API (not the receipt): local git-blob sha == remote meta sha — research/RESEARCH-LOG.md `2e2facd8ec1121ca4ba3e91b9671a16a7c674109` (1,642,084 bytes) IS on GitHub main (masterledgerlive/koda-kai-decoder). Chain closed.
+- **Shadow mirror (138th pass):** PARTIAL/FAILED — Shadow answered the opening check, then the link flapped mid-copy and fresh connections failed; the stalled copy was terminated and the memory-file copy never ran. The next green run retries a clean full re-copy.
+- **Podcast brief:** decoder-briefs/2026-10-24-0258.md, Rook's voice.
+
+**Run summary:** the one-hundred-thirty-eighth pass is log-only — Docker CopyEscape (corroborated) turned the copy-out path into the exploit; push verified, Shadow mirror deferred to the next green run. Next: rotation #10 (rogue-agent threat intel).
