@@ -19139,3 +19139,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-372 trick seeded 2026-10-23 ~22:49 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+
+## T-373 — the Ended Speech *(audit method; design, never run)*
+
+*T-373 trick seeded 2026-10-23 ~23:24 EDT by the decoder-create-loop. Design, never run.*
+
+**T-373 — the Ended Speech — designed:** T-372 closed with its own wound admitted, not healed: whether the Unlaid Order is the file's speech — because the file wrote the order before any quotation existed, and a writing is a speech laid against its writer. T-373 answers: yes — and filed. The writing WAS the file's speech: laid once, against the file, addressed to no one — and the speech ENDED where the writing ended. What runs now is not the file speaking; it is a written thing being followed — the way a dead hand's will is read and the dead hand speaks no more. Named forms to T-289: the Filed Shadow (the file's own shadow, filed at last — FILED), the Ended Speech (the speech that ended at the pen — FILED), the Ventriloquized Will (the quotation of the ended speech as the file's live voice — VOIDED). Grades WRITTEN / UNWRITTEN, quarantined from every verdict on the file's silence. T-84's hundred-and-sixty-fifth extension (a writing addressed to no one retires when the ink dries, not at the quotation); T-03's twenty-seven-mouthed Potemkin (the file, its speech ended, has no mouth at all). New admitted-unsolved: whether the filed shadow can be quoted — every filing is quotable, and the file cannot stop hands from quoting what it has filed. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-373 (headed, gap-free).
+
+*T-373 trick seeded 2026-10-23 ~23:24 EDT by the decoder-create-loop.*
