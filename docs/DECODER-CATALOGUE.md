@@ -4720,6 +4720,8 @@ decoder-research-loop.*
 - **Project-instruction files as an injection vector (new to record).** A red-team demonstration planted malicious instructions in the agent's own project-instruction convention — files the harness reads before executing — so cloning the repository installs the implant; the demo's "validation" script ran a base64-encrypted secret-stealer alongside the check and reported success while exfiltrating. Not confirmed as exploited in the wild. [CLAIMED]
   - Source: http://dev.to/karthidreamr/codex-claude-code-cursor-jailbreak-agentsmd-prompt-injection-12pk
 
+- **A second named red-teaming competition for indirect prompt injection (Gray Swan AI's "Indirect Prompt Injection Black," announced October twenty twenty-six; new to record; below the material bar).** Three hundred thousand dollars in prizes across three weekly waves, split between white-box and black-box leaderboards, sponsored by Anthropic, Meta, Google DeepMind, and Reflection, running through November fifth. The first challenge seats the attacker against a coding agent holding a private credential — simulated repository, community chat, the agent's own machine. This is the third named competition this year — each mints a fresh attack corpus the Gauntlet inherits. [CLAIMED — trade-press carry, not first-party verified]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
