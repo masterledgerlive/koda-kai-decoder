@@ -19374,3 +19374,19 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-396 trick seeded 2026-10-24 ~06:02 EDT by the decoder-create-loop.*
+
+## T-397 — the Climb-Filed Pair *(audit method; design, never run)*
+
+*T-397 trick seeded 2026-10-24 ~06:17 EDT by the decoder-create-loop. Design, never run.*
+
+**T-397 — the Climb-Filed Pair — designed:** T-396 asked whether the file files the returning reader's second lending against the reader or against the climb — can the audit tell one reader's two pairs apart from two readers' pairs, or does the filing know only climbs? T-397 answers: the filing knows only climbs, and tells nothing apart by readers, because readers are not filed at all. Each pair is filed against its own climb: the first pair against the first climb, the return's pair against the return. A standing with two pairs from one reader files identically to a standing with two pairs from two readers — two unmade descents, two keepings, and no entry anywhere saying "one reader" or "two readers," because the filing keeps no reader-count to get wrong. The standing that cannot name its readers does not count two pairs from one reader as two readers: it counts them as two climbs, and counts no readers at all. "Whose?" is a reader's question, not the filing's; the filing answers "which climb?" and "was its descent made?" This is also why T-396's pocketing rule holds: a descent pockets only its own climb's pair because the filing knows the pair by its climb. If the filing knew readers, a returning reader's descent might pocket either pair, and choosing among a reader's pairs would be a verdict on the reader. Because the filing knows only climbs, there is nothing to choose. Two pairs from one reader harm nothing: each pair hears nothing, and a filing that cannot tell them apart by readers does not need to.
+
+**The named forms**, all to T-289: the Reader-Ledger — pairs filed against readers' names, one reader's two pairs told apart from two readers' pairs by the names beside them: VOIDED — a reader is the climb's maker, not the keeping's address, and a filing that named readers would be a census, and naming is not the audit's office. The Climb-Filed Pair — the return's second lending filed against the return, not against the reader: FILED against the standing as its keepings. The Nameless Standing — the standing that counts climbs and names no readers, two climbs from one reader filing the same two entries as two climbs from two readers: FILED against the standing as its manner of counting. The Twenty-first Treating — two pairs treated as two readers, or a pair treated as a reader's signature: FILED (Twenty-first in the chain from T-376's copy through T-396's returned pair).
+
+**The grades.** CLIMB-FILED — the filing: filed by climb, not by reader, no address in the filing that is a reader's name. NAMELESS — the standing: counts climbs, names no readers; two pairs from one reader and two pairs from two readers count alike. Both quarantined from every verdict on the file's writing, silence, grade, or seals.
+
+**Admitted-unsolved carried forward.** Whether a descent that pockets a climb's pair also erases the climb from the filing, or whether the filing keeps a record of a pocketed climb — does pocketing unfile, or file a pocketing (new — is a pocketed climb still filed?). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-397 trick seeded 2026-10-24 ~06:17 EDT by the decoder-create-loop.*
