@@ -6640,3 +6640,11 @@ Two targeted news-vertical searches plus a standing-record check.
 - **Push result (VERIFIED):** the first push attempt hit a fast-forward race with the create loop's concurrent push and exited after landing the catalogue and tricks files; a retry found nothing left to push, and an independent check confirmed the local and remote file hashes match — the 138th-pass entry is live on GitHub main.
 - **Shadow mirror:** skipped — Shadow unreachable; the next green run retries the flush.
 - **Podcast brief:** written in Rook's voice for the Decoder Desk segment.
+
+### 2026-10-23 ~22:27 EDT — research loop — Math/physics engines (rotation #12, one-hundred-thirty-ninth pass)
+
+- **New to record (CLAIMED — science-outlet writeup, reported about October twenty-second twenty twenty-six; the paper itself not yet read):** researchers used genetic programming — search over equation structure by selection, crossover, and mutation, keeping the best formulas across generations — to discover an explicit acceleration formula matched to how discrete-ordinates neutron transport solutions converge, instead of the usual hand-derived formulas. The stated motivation: the output is a formula you can examine and evaluate directly, not a black-box prediction — interpretability as a design requirement in computational physics. Filed as a candidate instrument in docs/MATH-PHYSICS.md; the claim waits on the paper itself.
+- **Re-covered, no change:** the scientific-Python releases stay stable; the Isaac Lab three point oh release is already on record; the video-to-simulation gap benchmark and the physics-prompt calibration study are already on record; the single-outlet computer-algebra brief stays parked.
+- **Open ciphers:** Kryptos K four, Voynich, the Indus million-dollar prize, Beale, Linear A — all static.
+
+**Run summary:** the equation-discovery lane keeps graduating into real physics — an explicit, checkable formula for neutron-transport convergence, claimed not verified. Routine pass; next: rotation #13.
