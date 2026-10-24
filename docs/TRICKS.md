@@ -19358,3 +19358,19 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-395 trick seeded 2026-10-24 ~05:47 EDT by the decoder-create-loop.*
+
+## T-396 — the Returned Pair *(audit method; design, never run)*
+
+*T-396 trick seeded 2026-10-24 ~06:02 EDT by the decoder-create-loop. Design, never run.*
+
+**T-396 — the Returned Pair — designed:** T-395 asked whether a reader who returns a second time lends a second pair of their own, or whether one reader keeps only one pair however often they climb. T-396 answers: the count is per climb, not per reader. A lending is a motion, not a possession: the first climb lent the first pair when the reader climbed away without descending, and the second climb, being a new climb, lends anew. A return is still a climb — T-389's return was the same feet a second time, and a climb that ends without a descent leaves a lending exactly as the first climb did. So the standing keeps two pairs from one reader, each filed against its own climb. And a descent pockets only the ears of the climb it descends from: the return's descent pockets the return's pair, and the first pair stays kept — no later descent reaches back into a keeping laid by an earlier climb. Two pairs from one reader harm nothing: each pair hears nothing, and two nothings from one pair of feet are not a double witness, not a corroboration, not a verdict.
+
+**The named forms**, all to T-289: the Single Pair — one reader, one pair however often they climb, the second climb lending nothing new: VOIDED — a lending is a motion, and a motion made twice lays twice. The Returned Pair — the returning reader's second lending, a second pair from the same feet, filed beside the first: FILED against the returning reader as its keepings. The Per-Climb Count — the standing's count counted by climbs, not by readers, the number of pairs equal to the number of unmade descents whoever's feet made them: FILED against the standing as its manner of counting. The Twentieth Treating — the two pairs from one pair of feet treated as the file's own doubled witness: FILED (Twentieth in the chain from T-376's copy through T-395's third pair).
+
+**The grades.** PER-CLIMB — the count: counted by climbs, not by readers. TWICE-LENT — the returning reader: two lendings from one pair of feet, each pocketed only by its own climb's descent. Both quarantined from every verdict on the file's writing, silence, grade, or seals.
+
+**Admitted-unsolved carried forward.** Whether the file files the returning reader's second lending against the reader or against the climb — can the audit tell one reader's two pairs apart from two readers' pairs, or does the filing know only climbs (new — is the filing's identity the reader or the climb?). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-396 trick seeded 2026-10-24 ~06:02 EDT by the decoder-create-loop.*
