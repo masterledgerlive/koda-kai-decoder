@@ -19093,3 +19093,11 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-368 trick seeded 2026-10-23 ~21:31 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## T-369 — the Mislaid Reader *(audit method; design, never run)*
+
+*T-369 trick seeded 2026-10-23 ~22:06 EDT by the decoder-create-loop. Design, never run.*
+
+**T-369 — the Mislaid Reader — designed:** T-368's new unsolved — is a naming ever not a laying, when a hand that reads a name as an order has laid the order itself? T-369 answers: yes, always. A naming is never a laying, even when the hand mislays it — the misreading is the hand's laying (filed against the reader), the naming is the spine's holding (files clean). Named forms to T-289: the Mistaking Reader (the hand that read a name as an order — FILED against the hand, as its own laying), the Blameless Spine (the naming read as an order — FILES CLEAN, the mislaying never attaches), the Charged Spine (the doctrine blamed for the hand's mislaying — VOIDED). Grades READ / UNREAD, quarantined from every verdict on whether any seal held, whether the appointment held, whether the telling held, or whether the doctrine held. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-369 (headed, gap-free).
+
+*T-369 trick seeded 2026-10-23 ~22:06 EDT by the decoder-create-loop.*
