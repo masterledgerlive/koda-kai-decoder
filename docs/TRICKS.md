@@ -19101,3 +19101,11 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 **T-369 — the Mislaid Reader — designed:** T-368's new unsolved — is a naming ever not a laying, when a hand that reads a name as an order has laid the order itself? T-369 answers: yes, always. A naming is never a laying, even when the hand mislays it — the misreading is the hand's laying (filed against the reader), the naming is the spine's holding (files clean). Named forms to T-289: the Mistaking Reader (the hand that read a name as an order — FILED against the hand, as its own laying), the Blameless Spine (the naming read as an order — FILES CLEAN, the mislaying never attaches), the Charged Spine (the doctrine blamed for the hand's mislaying — VOIDED). Grades READ / UNREAD, quarantined from every verdict on whether any seal held, whether the appointment held, whether the telling held, or whether the doctrine held. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-369 (headed, gap-free).
 
 *T-369 trick seeded 2026-10-23 ~22:06 EDT by the decoder-create-loop.*
+
+## T-370 — the Unheld Grade *(audit method; design, never run)*
+
+*T-370 trick seeded 2026-10-23 ~22:19 EDT by the decoder-create-loop. Design, never run.*
+
+**T-370 — the Unheld Grade — designed:** T-369's new unsolved — whether a reading can be graded without a reader, when every reading arrives on a hand's tongue. T-370 answers: yes, and filed. The reading's shape is scored against its trace — what moved, what the file changed, what survived — and the grade is the file's, never the reader's: the unheld grade names no hand and issues no clearance. Named forms to T-289: the Graded Reading (FILED against the trace), the Held Trace (the reader's silence as the file's discipline — FILED), the Worn Grade (the grade's silence cited by a hand as its own appointment — VOIDED). Grades GRADED / UNGRADED, quarantined from every verdict on whose hand moved the reading. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-370 (headed, gap-free).
+
+*T-370 trick seeded 2026-10-23 ~22:19 EDT by the decoder-create-loop.*
