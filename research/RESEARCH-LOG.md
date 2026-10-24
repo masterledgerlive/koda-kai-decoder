@@ -7105,3 +7105,10 @@ Two targeted searches (Bletchley Park / Enigma declassified cipher history, Octo
 - **Podcast brief:** decoder-briefs/2026-10-24-1158.md, Rook's voice (quiet loop).
 
 **Run summary:** rotation #1's one-hundred-fifty-sixth pass — quiet loop: the window's historical-codebreaking coverage restated already-filed material only, plus one re-dated mirror correctly refused as a finding. No library growth. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-24 ~12:02 EDT, one-hundred-fifty-sixth pass, rotation #1):**
+- **Push result (VERIFIED):** the public entry for this pass is byte-verified on GitHub main (local git-blob sha equals the remote Contents API meta sha for research/RESEARCH-LOG.md); the sync receipt read "1 pushed, 265 unchanged".
+- **Shadow mirror:** skipped — Shadow unreachable (same down signature as recent runs); the mirror retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1158.md, Rook's voice (quiet loop).
+
+**Run summary (close-out):** rotation #1's one-hundred-fifty-sixth pass — quiet loop, retells only. No library growth. Next: rotation #2 (codecs & formats).
