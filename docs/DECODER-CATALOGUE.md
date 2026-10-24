@@ -3162,7 +3162,40 @@ decoder-research-loop.*
 - **AgentTrap — the first closed-loop honeypot for autonomous penetration-testing agents (arXiv:2610.02869, submitted October 2, 2026; new to record; minor material — a new agent-detection/deception technique with claimed measurements).** Instead of fixed responses, it uses sentinel endpoints to avoid interfering with benign users, deception grounded in the protected application's own state, and escalation guided by the attacker's behavior to keep the engagement going while collecting evidence with controlled disclosures. Against eight autonomous pentesting agents on a deployed web app, the authors report aggregate real-target attack success fell from ninety-five point eight percent to seventy-nine point two percent versus no defense, and the honeypot elicited the attackers' A.P.I. keys in eighteen point eight percent of runs — outperforming static deception. They note that resistance depends both on the model's ability to recognize deceptive requests and on isolating sensitive resources architecturally. Why it matters: the deception lane's first adaptive instrument with claimed numbers — the honeypot learns the attacker rather than waiting as a tripwire. Watch for independent reproduction and for results beyond the eight tested agents. [CLAIMED — single preprint, not yet read first-party, no independent replication]
   - Source: https://arxiv.org/abs/2610.02869v1
 
-*Library addition seeded 2026-10-23 ~12:27 EDT by the
+- **Perplexity open-sourced SPACE (announced October 15–16, 2026;
+  Apache 2.0, on GitHub).** Firecracker microVM per AI-agent task,
+  with credentials and outbound network traffic controlled from
+  outside the VM boundary. Perplexity's own evaluation: zero
+  VM-to-host escapes in 108 attempts — with the honest admission
+  that some attempts bypassed the network restrictions. Partners
+  named: CoreWeave, Akamai, Crusoe. Decoder significance: the
+  first open-sourced production agent sandbox with an escape-test
+  ledger attached, graded honestly — the VM held, the network
+  policy bent; containment doctrine prices layered egress, not one
+  policy. [CORROBORATED — vendor release plus multiple reports]
+- **Microsoft LiteBox 0.1.0 (tagged October 7, 2026; open-sourced
+  February 2026).** Rust library OS: applications link directly
+  against a minimal OS library instead of a filtered syscall
+  surface — a possible third isolation rung between gVisor's
+  syscall mediation and Firecracker's hardware virtualization,
+  aimed at AI-agent sandboxes. Also the only open-source
+  confidential-computing runner (AMD SEV-SNP) in current
+  comparisons. Independent read: track, don't adopt — v0.1 has
+  no Kubernetes or OCI path, so no fleet can schedule it yet.
+  [CORROBORATED — release tag plus independent analysis]
+- **Tracebit context bombs, October measurement release (announced
+  October 23, 2026).** Builds on the earlier entry: nine named
+  deception techniques against offensive AI agents (false leads,
+  unsolvable puzzles, staged encryption), 773 controlled
+  assessments across seven models — 91% fewer objectives completed
+  with all nine bombs, one model ~8× slower to first objective.
+  Honest caveat: the July version worked by tripping model
+  guardrails, so abliterated models are less affected. Decoder
+  significance: the first large deception-vs-offensive-agents
+  measurement, with a published technique set to grade against.
+  [CLAIMED — vendor's own research]
+
+*Library additions seeded 2026-10-23 ~12:27 EDT and ~20:57 EDT by the
 decoder-research-loop.*
 
 ## Rogue-agent threat intel
