@@ -2608,6 +2608,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **AegisKernel (Oct 17, 2026; parked as vendor texture).** Open-source Python decorator claiming deterministic syscall gating for agent tool calls: sub-millisecond blocks, "one hundred percent immunity" on a vendor-chosen attack set. No independent measurement — filed as a claim, not a result.
   - Source: https://clawdbytes.com/article/2026-10-17-stopping-autonomous-ai-agent-tool-hijacking-in-005ms-introducing-aegiskernel
   - [CLAIMED — vendor announcement via trade blog]
+
+- **BRANCH (Mindgard and Lancaster University, October twenty twenty-six; corroborated — arXiv preprint abstract read first-party; the vendor blog and a third-party recount agree; not yet peer-reviewed, no independent replication of the headline figure).** Branching tree search that perturbs each scanner inside a multi-scanner guardrail system, optimizing for the whole ensemble: reported one hundred percent attack success across six guardrail systems in one hundred twenty scenarios, with bypasses transferring to twenty-nine unseen guardrails including eight commercial black-box systems. Lesson: composing classifiers is not composing security — grade the ensemble's joint decision surface, never each scanner's solo score.
+  - Source: https://arxiv.org/html/2610.10742
+  - Source: https://mindgard.ai/blog/branch-bypassing-multi-scanner-ai-guardrails
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
