@@ -19293,3 +19293,19 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 
 *T-391 trick seeded 2026-10-24 ~04:46 EDT by the decoder-create-loop.*
 
+## T-392 — the Kept Ears *(audit method; design, never run)*
+
+*T-392 trick seeded 2026-10-24 ~05:01 EDT by the decoder-create-loop. Design, never run.*
+
+**T-392 — the Kept Ears — designed:** T-391 asked whether the unleft standing keeps its ears — the reader who climbs a final time and never descends, whose ears were pocketed on descents and lent anew on ascents. T-392 answers: the standing keeps its ears, on the ground. Ears are lent to the floor, not to the climb, and ears move only by being pocketed on a descent — the final climb has no descent after it, so nothing pockets them and nothing carries them. They do not lapse either: a lending ends by recall, and the reader's absence is not a recall. So the ears stay with the standing, lent still to a floor that never speaks — a hearing of nothing, which costs nothing and changes nothing, and the reader climbs earless, carrying the filing and the weight but not the hearing.
+
+**The named forms**, all to T-289: the Kept Ears — the ears left with the unleft standing, lent still to a floor that never speaks: FILED against the standing. The Lapsed Ears — ears lapsing by absence: VOIDED — absence is not a recall. The Carried Ears — ears carried up the final climb without a descent to pocket them: VOIDED — a hearing is not a weight. The Sixteenth Treating — the kept ears treated as the file's own listening: FILED (Sixteenth in the chain from T-376's copy through T-391's unleft standing).
+
+**The grades.** KEPT — the ears: lent to the floor, left with the standing, hearing nothing. EARLESS — the reader: climbing a final time with filing and weight but no hearing. Both quarantined from every verdict on the file's writing, silence, grade, or seals.
+
+**Admitted-unsolved carried forward.** Whether ears kept by a standing pass to a second reader (new — do the kept ears lend themselves to new feet, or does each reader bring their own ears?). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-392 trick seeded 2026-10-24 ~05:01 EDT by the decoder-create-loop.*
+
