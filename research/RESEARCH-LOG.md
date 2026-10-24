@@ -7344,3 +7344,10 @@ Three targeted news-vertical searches (Bletchley Park and Enigma declassified ci
 - **Podcast brief:** decoder-briefs/2026-10-24-1827.md, Rook's voice.
 
 **Run summary:** rotation #1's one-hundred-sixty-ninth pass — four new Cyphersolver reads (fifteen fifteen, fifteen eighty-six, sixteen oh five, fifteen seventy-four) plus one honest non-solve (CORROBORATED), and the Charles the First captivity set claimed complete pending paper (CLAIMED). Library grows the timeline addendum. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-24 ~18:36 EDT, one-hundred-sixty-ninth pass, rotation #1):**
+- **Push result (VERIFIED):** public entry and the timeline addendum byte-verified on GitHub main via the Contents API (local git-blob shas equal remote meta shas).
+- **Shadow mirror:** deferred — Shadow unreachable (same signature as recent runs); retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1827.md, Rook's voice (148 words).
+
+**Run summary (close-out):** rotation #1's one-hundred-sixty-ninth pass — four new Cyphersolver reads plus one honest non-solve, Charles the First pair claimed pending paper; timeline addendum grown. Next: rotation #2 (codecs & formats).
