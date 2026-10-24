@@ -6795,3 +6795,10 @@ Two targeted news searches (prompt-injection and indirect-injection news; agent 
 - **Shadow mirror:** follows below.
 
 **Run summary:** the 140th pass — mostly retell, one new claimed line: Korea's seventeen-check agent security standard grades the execution layer rather than model refusals, formal from 2027. No library growth. Next: rotation #12 (math and physics engines).
+
+**Close-out (2026-10-24 ~04:10 EDT, 140th pass, rotation #11):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, "1 pushed, 265 unchanged". Independent byte-verification via the Contents API: local git-blob sha == remote meta sha for research/RESEARCH-LOG.md — the 140th-pass entry IS on GitHub main.
+- **Shadow mirror:** SKIPPED — Shadow down (probe failed with the Shadow-down signature); the deferred full re-copy rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-0358.md, Rook's voice (147 words).
+
+**Run summary (close-out):** the 140th pass — mostly retell, one new claimed line (Korea's agent standard). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #12 (math and physics engines).
