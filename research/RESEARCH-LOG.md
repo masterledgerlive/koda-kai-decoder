@@ -6887,7 +6887,7 @@ Two targeted searches (Wireshark 5.0 / Stratoshark 1.0; new dissector support, O
 - **Re-covered, no status change:** 4.6.9 stable / 4.4.19 old stable; no new protocols in the maintenance lines.
 - **Library update:** none — recorded, not grown (dev-release candidates park below the material bar; the material event for this lane is a stable 5.0.0 final or a shipped Stratoshark 1.0).
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-24-0627.md, Rook's voice.
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+- **Push result (VERIFIED):** sync-github.py exit 0, "1 pushed, 265 unchanged"; local git-blob sha == remote Contents-API meta sha — the 145th-pass public entry IS on GitHub main.
+- **Shadow mirror:** SKIPPED — Shadow down; deferred to the next green run.
 
 **Run summary:** rotation #3's one-hundred-forty-fifth pass — Wireshark 5.0.0rc1 confirmed shipped with new fingerprint and capture support, final 5.0.0 still dateless, Stratoshark 1.0.0rc1 still unconfirmed. No library growth. Next: rotation #4 (language decoders).
