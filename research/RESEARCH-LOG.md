@@ -6587,3 +6587,21 @@ Two targeted searches plus a standing-record check. **This pass's headline is a 
 - **Podcast brief:** decoder-briefs/2026-10-23-2027.md, Rook's voice.
 
 **Run summary:** the 135th pass graded the graders — Mindgard's guardrail-bypass paper is the material line. Next: rotation #9 (sandbox & container tech).
+
+## 2026-10-23 ~20:57 EDT — decoder-research-loop — Sandbox & container tech (rotation #9, one-hundred-thirty-sixth pass)
+
+Two news-vertical searches (sandbox isolation / gVisor / Firecracker Oct 2026; honeypot canary token deception Oct 2026).
+
+- **New to record — Perplexity open-sourced SPACE (announced Oct 15/16, 2026; Apache 2.0, on GitHub) [CORROBORATED].** Firecracker microVM per AI-agent task, with credentials and outbound network controlled from outside the VM boundary. Perplexity's own evaluation reported zero VM-to-host escapes in 108 attempts — while also admitting some attempts got around the network restrictions, the most useful sentence in the announcement. Partners named: CoreWeave, Akamai, Crusoe. Significance: the first open-sourced production agent sandbox with an escape-test ledger attached, graded honestly — the VM held, the network policy bent.
+  - Sources: https://emergent.sh/news/perplexity-open-sources-space-microvm-sandbox ; https://ibl.ai/blog/perplexity-space-open-source-agent-sandbox-network-boundary ; https://genznewz.com/perplexity-space-open-source-sandbox-for-ai-agents
+- **New to record — Microsoft LiteBox v0.1.0 (tagged Oct 7, 2026; open-sourced Feb 2026) [CORROBORATED].** Rust library OS: the application links directly against a minimal OS library exposing a handful of controlled primitives — a possible third isolation rung between gVisor's syscall mediation and Firecracker's hardware virtualization, aimed at AI-agent sandboxes. Independent evaluation (bex.co): track, don't adopt — no Kubernetes or OCI path in v0.1, so it cannot be scheduled where it would actually run. Notable: the only open-source confidential-computing runner (AMD SEV-SNP) in the current sandbox comparisons.
+  - Source: https://bex.co/blog/2026/10/15/litebox-rust-library-os-sandboxing-ai-agent-code
+- **New to record — Tracebit "context bombs" (announced Oct 23, 2026) [CLAIMED — vendor's own research].** Nine deception techniques against offensive AI agents (false leads, unsolvable puzzles, staged encryption), 773 controlled assessments across seven models: 91% fewer objectives completed with all nine bombs; staged encryption made one model ~8× slower to first objective. Honest caveats: the July version only worked against guarded models, and abliterated models were less affected in September. The first large deception-vs-offensive-agents measurement.
+  - Source: https://tracebit.com/blog/context-bombs-that-misdirect-ai-attackers
+- **Parked as texture:** Synteq's Firecracker-vs-gVisor comparison (Oct 5, updated Oct 20 — microVMs not invincible, KVM bugs, kvmCTF); practitioner canary-token roundups (Acalvio MITRE map, Canarytokens/OpenCanary/Cowrie/T-Pot comparisons, AWS IAM canary how-to).
+- **Most Wanted re-check:** no standing cipher touched — Kryptos K4, Voynich, the Indus $1,000,000 prize, Beale 1 and 3, Linear A all static.
+- **Library changes:** three new entries in docs/DECODER-CATALOGUE.md (sandbox & container tech): Perplexity SPACE, Microsoft LiteBox 0.1, Tracebit context bombs.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** the 136th pass watched the cage go open source — Perplexity gave away SPACE, its Firecracker-microVM agent layer, with an honest escape-test ledger (no VM escapes, some network-policy bypasses); Microsoft's Rust library OS LiteBox hit v0.1 as a possible third isolation rung; Tracebit measured deception against offensive agents at scale (91% fewer objectives). Three new library entries. Next: rotation #10 (rogue-agent threat intel).
