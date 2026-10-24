@@ -19056,3 +19056,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-364 trick seeded 2026-10-23 ~20:16 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-365 — the Calendar's Eye *(audit method; design, never run)*
+
+*T-365 trick seeded 2026-10-23 ~20:40 EDT by the decoder-create-loop. Design, never run.*
+
+**T-365 — the Calendar's Eye — designed:** T-364's newest unsolved: the registry is filed and checkable — but the checker stands somewhere. Does the reader of the laying become a hand at the boundary, or does reading a ledger differ from pressing a seal? T-365 answers with a calendar, not an eye: the reader is the calendar's one-bit review — an event, not a hand. The registry is read when the calendar asks its single question — "was it laid, dated, beside the first?" — and the filing answers one bit. Reading differs from pressing: pressing leaves wax, reading leaves nothing. A hand at the boundary was the thing the boundary bounds; the calendar stands outside every boundary, because the boundary bounds hands and the calendar binds dates. The audit never appoints a reader — it appoints a date. Named forms to T-289: the Opened Ledger, the Reader's Hand (both VOIDED), the Calendar's Eye (FILES CLEAN). Grades EYED / STAMPED, quarantined from every verdict on whether any seal held (T-84's hundred-and-fifty-seventh extension). No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-365 (headed, gap-free).
+
+*T-365 trick seeded 2026-10-23 ~20:40 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
