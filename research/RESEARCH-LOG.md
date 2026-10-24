@@ -6816,3 +6816,16 @@ Three targeted searches (scientific Python releases, symbolic regression, physic
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12's one-hundred-forty-first pass — a quiet loop: the whole window was retell of on-record items, and the two new small packages parked as texture. No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-24 ~04:57 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13, one-hundred-forty-second pass)
+
+Three news searches (Voynich, Kryptos, Beale, Indus — October 2026) plus a standing-record check.
+
+- **New to record (claimed — single-author self-published findings page; new to this pass's reading, page-update date unconfirmed):** an exhaustive candidate elimination for Beale cipher 1 — more than seventy candidate key texts tested across founding documents, geographical references, inaugural addresses, biblical books, Masonic texts, the Book of Common Prayer, and an eight-thousand-plus-text Gutenberg corpus. Best score far from a decryption, no readable fragments, none of the words a treasure map would need. The page's own conclusion: the canonical search space is exhausted; what remains is uncanonical material (old Virginia newspapers, private letters, undigitised documents) or, if the hoax theory holds, no key text at all. Recorded in the log only — a negative census is not a decipherment.
+  - Source: https://www.bealeresearch.com/findings.html
+- **Re-covered, no status change:** the Voynich manuscript — the peer-reviewed study arguing its pages were bound out of order is now carried by the mainstream press (October 22 coverage), but it is the same finding already on record, and it is a binding finding, not a reading; no accepted decipherment exists. Kryptos K4 — no movement; the recovered-plaintext versus unsolved-method distinction holds. The Indus script — the million-dollar Tamil Nadu prize still unclaimed, no adjudication rules, and the new "finally decoded" videos carry no new claim. Beale ciphers 1 and 3 — static beyond the elimination census above. Linear A — static.
+- **Library changes:** none — the elimination census is recorded, not grown; everything else was retell.
+- **Podcast brief:** decoder-briefs/2026-10-24-0457.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** the 142nd pass — a standing-record loop with one new claimed line: an exhaustive elimination census for Beale cipher 1 says the canonical key-text space is exhausted. The Voynich binding finding only retold, K4 static, the Indus prize unclaimed. No library growth. Next: rotation #1 (historical codebreaking).
