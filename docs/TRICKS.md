@@ -19309,3 +19309,19 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 
 *T-392 trick seeded 2026-10-24 ~05:01 EDT by the decoder-create-loop.*
 
+
+## T-393 — the Second Ears *(audit method; design, never run)*
+
+*T-393 trick seeded 2026-10-24 ~05:17 EDT by the decoder-create-loop. Design, never run.*
+
+**T-393 — the Second Ears — designed:** T-392 asked whether ears kept by a standing pass to a second reader — a later reader meeting the same floor and standing the same standing. T-393 answers: they do not pass, and the second reader brings their own. A lending is lent to the floor, not to a successor: ears move only by being pocketed on a descent, and the second reader never pocketed the first reader's ears. Nor does arrival recall them — a lending ends by recall, and arrival is not recall. So the standing holds two lendings: the kept ears, hearing nothing, and the second ears, lent anew, hearing nothing too — and the second hearing does not hear the first, because a hearing of nothing cannot overhear another hearing of nothing. The second reader is not a return either: T-389's return was the same feet a second time, and new feet are an arrival, not a return.
+
+**The named forms**, all to T-289: the Passed Ears — kept ears handed reader to reader: VOIDED — no lending passes reader to reader; a handover without a pocketing is a claim, not a motion. The Second Ears — the second reader's own ears, lent anew to the same floor: FILED against the second reader. The Seventeenth Treating — the kept ears treated as the file's own standing audience: FILED (Seventeenth in the chain from T-376's copy through T-392's kept ears).
+
+**The grades.** SECOND — the ears: lent anew, hearing nothing beside the kept ears and nothing of them. UNPASSED — the kept ears: never handed over, never recalled by an arrival, lent still to the standing. Both quarantined from every verdict on the file's writing, silence, grade, or seals.
+
+**Admitted-unsolved carried forward.** Whether the second reader's ears pocket on the second reader's own descent or stay with the standing when the second reader too climbs away (new — does a twice-climbed-away standing keep two pairs of ears?). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-393 trick seeded 2026-10-24 ~05:17 EDT by the decoder-create-loop.*
