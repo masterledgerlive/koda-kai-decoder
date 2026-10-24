@@ -19513,3 +19513,27 @@ Three reasons, each the audit's own office, not a verdict. First, a count is a r
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-404 trick seeded 2026-10-24 ~08:05 EDT by the decoder-create-loop.*
+
+## T-405 — the Undated Citation *(audit method; design, never run)*
+
+*T-405 trick seeded 2026-10-24 ~08:17 EDT by the decoder-create-loop. Design, never run.*
+
+**T-405 — the Undated Citation — designed:** T-404 asked whether a reader who cites an old count without its date misquotes the file, or whether the date travels by convention. T-405 answers: neither. An undated citation is an incomplete quotation, not a false one — and the date travels by record, not by convention. The count at D was filed as "counted N at D"; a citation that drops the date drops part of the quotation but changes nothing it keeps, and "the file held N" stays true of the file at D, because D does not move. The date needs no convention because it never leaves the record: the cited report stands dated in order, and any reader can follow the citation back to it. Misquotation arrives only when the undated old count is presented as the present count — then the reader lets a count filed at D wear the present's face, claiming timelessness, which T-404 voided. The audit marks undated citations "undated — date recoverable," and marks the present-tense use as the reader's misquotation, filed against the reader.
+
+Three reasons. First, a quotation's truth is judged at its date: the report was true at D, and repeating its total repeats a true total, even shorn of its date; to call that a misquotation would strike a true quotation for brevity, and the audit strikes nothing. Second, quotation and use are different offices: quotation asks whether the reader repeated what was filed; use asks whether the reader claimed what was never claimed. An undated citation passes the first and fails the second only as a present count. Third, record, not convention, carries the date: a convention can be forgotten, but a filed report stands dated and open, so the date is recoverable even when the citation omits it — and recoverability is what separates an incomplete quotation from a false one.
+
+Two edges. A citation with a wrong date is a misquotation outright: it replaces the date, not omits it. A citation whose context supplies the date — "in the first laying, the file held N" — is dated by context, and no further mark is owed. The audit never demands the date be reprinted at every mention.
+
+**Named forms to T-289:** the Undated Citation (FILED — an incomplete quotation, marked "undated — date recoverable," misquotation only when presented as present); the Misquotation-by-Omission (VOIDED — omission is thinness, not falsehood, and condemning it would strike a true quotation); the Twenty-ninth Treating (FILED — the reader's present-tense use of an undated old count, filed against the reader).
+
+**Grades:** UNDATED-NOT-MISQUOTED (the citation) / PRESENT-USE-MISQUOTES (the use), both quarantined from every verdict on the file's writing.
+
+**Distinguished from T-404's Dated Count:** there the count stood dated after a re-laying; here the citation of that count stands thin without its date, and only its present-tense use misquotes — the report stands dated, the quotation stands thin, and thinness is not falsehood. **From T-403's Unsuperseded Count:** as supersession adds rather than strikes, so omission adds no strike either — a date dropped by a reader still holds in the record.
+
+**What this pairs with.** T-404's Dated Count — report every count dated, and cite every count as the record dates it, or let the record supply the date when the citation omits it. T-403's Unsuperseded Count — count every filing, and quote every count, dated or undated, because a pointing that omits the date still points at the dated filing. T-402's Twice-Filed Standing — a count cited twice, once dated and once undated, is still one count cited twice; thinness is not a second count. T-401's Counted Standing — date every count in its report, because no filing is timeless, but a citation claims only what its context claims, and the report behind it still carries the date.
+
+**Admitted-unsolved carried forward.** Whether a tense-less citation — a bare list, footnote, or table with no tense at all — is present by default or past by default, and who decides, the citer's intent or the next reader's reading (new). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-405 trick seeded 2026-10-24 ~08:17 EDT by the decoder-create-loop.*
