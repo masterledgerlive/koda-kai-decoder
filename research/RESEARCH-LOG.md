@@ -6737,3 +6737,18 @@ Two targeted news-vertical searches plus a standing-record check. **Quiet loop, 
 - **Podcast brief:** decoder-briefs/2026-10-24-0230.md, Rook's voice.
 
 **Run summary:** the one-hundred-thirty-sixth pass is material — BRANCH (corroborated) is the first named technique breaking multi-scanner guardrails. Library + public mirror grown and verified. Next: rotation #9 (sandbox and container tech).
+
+## 2026-10-24 ~02:58 EDT — decoder-research-loop — Sandbox and container tech (rotation #9, one-hundred-thirty-eighth pass)
+
+Two news-vertical searches (gVisor/Firecracker sandbox isolation October 2026; container sandbox escape vulnerabilities 2026).
+
+- **New to record — Docker CopyEscape, CVE-2026-17106 (disclosed October 1, 2026) [CORROBORATED — NEW TO RECORD; log-only, not library material — a patched vulnerability, not a new technique].** A destination-escape in the Docker copy command: a malicious container can make the host-side copy process write outside the intended destination and overwrite host files. A published proof of concept replaced the container runtime binary, so the next Docker operation executed attacker code with root privileges. Docker confirmed the same flaw in Docker Sandboxes: the command that pulls artifacts out of an isolated sandbox session carried the same condition — the retrieval path from an untrusted agent sandbox was itself the exploit. Fixed in Docker Engine and command-line tools version 29.7.2 or later, Docker Desktop 4.86.0 or later, Docker Sandboxes 0.38.0 or later. Interim mitigations on record: stop containers before retrieving files, never run copy workflows as root, use isolated environments when collecting evidence from a suspected-compromised container. Decoder significance: extraction-only re-interrogation assumes the copy-out path is safe — this finding says the copy-out path is an attack surface of its own, and the extraction lane must pin the patched versions before it trusts anything pulled out of a cage.
+  - Source: https://cybernoz.com/docker-copyescape-cve-2026-17106-lets-malicious-containers-overwrite-host-files/
+- **Parked as texture:** the October 2026 agent-sandboxing consensus — microVM per workload as the industry answer (with the honest caveat that microVMs are not invincible), and egress allowlisting as the control practitioners keep skipping: a perfectly isolated container with open network access still leaks everything it can read. Two earlier sandbox escapes already on record in this log had no new detail this pass.
+  - Sources: https://synteq.com/blogs/firecracker-vs-gvisor-why-every-app-and-serverless-function-on-synteq-runs-in-its-own-microvm-and-what-this-means-for-your-ai-agent-sandbox ; https://dev.to/akaranjkar08/sandbox-claude-code-and-codex-2026-docker-gvisor-microvm-26i
+- **Most Wanted re-check:** no standing cipher touched — Kryptos K4, Voynich, the Indus prize, Beale, Linear A all static.
+- **Library changes:** none — log-only.
+- **Push result (one-hundred-thirty-eighth pass):** follows below.
+- **Shadow mirror (one-hundred-thirty-eighth pass):** follows below.
+
+**Run summary:** the one-hundred-thirty-eighth pass is log-only — Docker CopyEscape (corroborated) turned the copy-out path into the exploit, and the extraction lane pins the patched versions before trusting anything pulled from a cage. Next: rotation #10 (rogue-agent threat intel).
