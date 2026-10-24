@@ -7093,3 +7093,15 @@ Three targeted news-vertical searches (Indus script prize, October 2026; Kryptos
 - **Podcast brief:** decoder-briefs/2026-10-24-1128.md, Rook's voice.
 
 **Run summary:** rotation #13's one-hundred-fifty-fifth pass — one new claimed intake: a January 2026 preprint offering two mutually exclusive complete solutions for Beale ciphers one and three, submitted for peer review, graded claimed and logged, not grown. Voynich singulion retold, K4 static, Indus million-dollar prize unclaimed, Linear A static. No library growth. Next: rotation #1 (historical codebreaking).
+
+## 2026-10-24 ~11:58 EDT — decoder-research-loop — Historical codebreaking (rotation #1, one-hundred-fifty-sixth pass)
+
+Two targeted searches (Bletchley Park / Enigma declassified cipher history, October 2026; newly decoded historical ciphers 2026) + standing-record check.
+
+- **Re-covered, no status change:** the September agentic-cipher wave in full — Marmont 1809 (Church / Astra, about six hours, homophonic system, partial key, simulated annealing); MVUEH 1941 (Leffen / Astra, about two days, independently validated, Rosenow crib); the second Enigma message (Willis / Opus 5, officer-signature crib); the 1593 Catholic League letters claim (claimed, independent verification still pending); the 1918 ADFGVX key-date caveat. Seven unbroken Crypto Cellar Enigma messages plus one plaintext-known-code-unbroken — standing count unchanged. The October 16 Nature wave piece (validation flood, false-positive warning) remains the lane's canonical citable source. The Colossus IEEE Milestone (September 29, 2026) stands from the 143rd pass.
+- **Recrawl trap, not a finding:** a mirror page dated October 24, 2026 republishing the BBC's Mavis Batey tribute from 2013 — the fresh date belongs to the mirror, not the event. The Mavis Lever / Knox / Abwehr crib stories remain settled 1940s history in evergreen retell.
+- **Watch items stand:** any new archival release, any fresh AI break of an unbroken Crypto Cellar message, or independent verification of the 1593 claim.
+- **Library changes:** none — quiet loop, retells only.
+- **Podcast brief:** decoder-briefs/2026-10-24-1158.md, Rook's voice (quiet loop).
+
+**Run summary:** rotation #1's one-hundred-fifty-sixth pass — quiet loop: the window's historical-codebreaking coverage restated already-filed material only, plus one re-dated mirror correctly refused as a finding. No library growth. Next: rotation #2 (codecs & formats).
