@@ -6656,3 +6656,11 @@ Two targeted news-vertical searches plus a standing-record check.
 - **Re-covered, no change:** Kryptos K four's honest formulation holds — plaintext recovered and authenticated in twenty twenty-five, the cipher method still publicly unsolved; the public elimination archive stays at zero solutions; the Voynich singulion binding finding stands with new mainstream coverage (the book was likely bound out of order from loose bifolia — corroborated, but it is not a translation); the Indus million-dollar prize remains unclaimed with no adjudication rules; Beale and Linear A static.
 
 **Run summary:** two new self-published claims entered the watch list, both graded and parked; the Most Wanted list is static. Routine pass; next: rotation #1.
+
+### 2026-10-23 ~23:29 EDT — research loop — Codecs & formats (rotation #2, one-hundred-thirty-first pass)
+
+- **Re-covered, no change:** the trade press's second press cycle of AOMedia's October twenty-second four-month AV2 adoption release — Chrome AV2 playback demonstrated, YouTube AV2 web streams promised as soon as early twenty twenty-seven, Netflix and Prime Video exploring with no dates, Intel on SVT-AV2, roughly thirty percent better compression than AV1 — all already on the record. No new codec, no new container, no new decoder release; FFmpeg still has no AV2 path, and the phantom Google voxel codec stays dead.
+- **Parked as texture:** a secondary outlet relaying a report that the first YouTube web AV2 launch would run on software decoding — claimed, unconfirmed, parked.
+- **Open ciphers:** Kryptos K four, Voynich, the Indus million-dollar prize, Beale, Linear A — all static.
+
+**Run summary:** the codec lane echoed yesterday's AV2 release through the trade press with nothing new added. Routine pass; next: rotation #3.
