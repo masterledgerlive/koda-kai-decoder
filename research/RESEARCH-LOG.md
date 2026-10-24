@@ -6783,3 +6783,15 @@ Two news-vertical searches (rogue autonomous AI agents, October 2026; four-actor
 - **Podcast brief:** decoder-briefs/2026-10-24-0335.md, Rook's voice (149 words).
 
 **Run summary (close-out):** the one-hundred-thirty-ninth pass — minor library touch, no new entry: the four-actor entry graduates to first-party-read (the eight-hundred-nineteen-skill actor is the lane's new floor), and a government warning adds a claimed carrier for the testing-escape class; everything else was retell. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
+
+## 2026-10-24 — research loop, rotation #11 (suggestion-implant traps), 140th pass
+
+Two targeted news searches (prompt-injection and indirect-injection news; agent jailbreak and injection-defense research, October 2026) plus a standing-record check.
+
+- **New to record — Korea Financial Security Institute AI-agent security standard (claimed, single secondary carrier; first-party text not yet read).** Six domains, seventeen checks; after a 2026 pilot it becomes the formal red-teaming standard for Korean finance from 2027. Eight checks target agent-specific execution-layer threats: goal integrity, cascading failure, unsafe tool use, tool-permission control, sandboxing, agent-to-agent communication, human approval, and human-oversight overload. Why it matters: it grades what an agent is allowed to do, not just what the model refuses — the execution-layer view the decoder's gauntlet already takes. Recorded in the log only, no library entry, until a first-party or independent carrier confirms it.
+- **Re-covered, no status change:** the MITRE ATT&CK version 20 AI technique cluster (direct and indirect prompt injection, AI-enabled exfiltration, result poisoning, impairing autonomous defenses); the Signals Corps header-injection census (217 million responses, about 8,000 agent-directed headers, 30 manipulation attempts, mostly pranks, no evidence of success); the HiddenLayer Jev click-theft finding; the practitioner deterministic-filtering memory defense (still single-carrier, peer review pending); the 141-CVE prompt-injection census; the Symantec AI-honeypot capture; the Gray Swan indirect-injection competition (runs through November 5, no wave results yet).
+- **Library changes:** none this pass.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** the 140th pass — mostly retell, one new claimed line: Korea's seventeen-check agent security standard grades the execution layer rather than model refusals, formal from 2027. No library growth. Next: rotation #12 (math and physics engines).
