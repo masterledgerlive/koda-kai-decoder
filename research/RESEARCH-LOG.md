@@ -7383,3 +7383,10 @@ Three targeted news-vertical searches (Wireshark new dissector, October 2026; ne
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3's one-hundred-seventy-first pass — Stratoshark 1.0.0rc1 still unconfirmed three days past its scheduled date (roadmap unchanged), Wireshark 4.6.9 in its third retell wave with no new protocols, and two new mesh-protocol texture items recorded not grown: Offline Protocol SDK v0.29.0 (mesh services callable over HTTP, MLS-sealed, key packages crossing the mesh) and ESPHome 2026.10.0 (device-side deflate decoder for compressed OTA). No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-24 ~19:40 EDT, one-hundred-seventy-first pass, rotation #3):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent byte-verification via the Contents API (not the receipt): local git-blob sha `6055a9b5726ee8a667e235b1b78e1009e78ab04d` (1,781,624 bytes) == remote meta sha for research/RESEARCH-LOG.md — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** deferred — Shadow unreachable (ssh returns "Connection closed by UNKNOWN port 65535": link fine, Shadow itself down — same signature as recent runs); retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1932.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #3's one-hundred-seventy-first pass — Stratoshark 1.0.0rc1 still unconfirmed three days past its scheduled date, Wireshark 4.6.9 in its third retell wave with no new protocols, two new mesh-protocol texture items recorded not grown (Offline Protocol SDK v0.29.0, ESPHome 2026.10.0). No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #4 (language decoders).
