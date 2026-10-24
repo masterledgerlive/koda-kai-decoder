@@ -7009,7 +7009,15 @@ Three targeted news-vertical searches (gVisor and Firecracker agent sandboxing, 
 
 **Run summary:** rotation #9's one-hundred-fifty-first pass — the canary learned to watch the tool call itself. canaryhook (claimed) plants decoy credentials and trips on read or on exfiltration, matching the secret even base64- or hex-wrapped, and denies the call before it runs — with the honest caveat that a broken install fails open, which is why it ships a doctor self-test. Everything else was restatement or already parked. Minor material — one new library entry plus public mirror. Next: rotation #10 (rogue-agent threat intel).
 
-**Push result:** follows below.
+**Push result (verified):** sync-github.py — exit zero, two files pushed, two hundred sixty-four unchanged; local file hashes match the remote hashes exactly on GitHub main.
 
-**Shadow mirror:** follows below.
+**Shadow mirror:** skipped per standing rule — the probe failed with the Shadow-down signature (tailnet link healthy, Shadow itself down).
+
+
+**Close-out (2026-10-24 ~09:37 EDT, one-hundred-fifty-first pass, rotation #9):**
+- **Push result (verified):** sync-github.py — exit zero, two files pushed, two hundred sixty-four unchanged. Independent byte-verification via the public Contents API: the local research log and the public catalogue both match the remote file hashes exactly on GitHub main. Both files are live.
+- **Shadow mirror:** skipped per standing rule — the probe failed with the Shadow-down signature (tailnet link healthy, Shadow itself down; same signature as the previous dozen passes). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-0927.md, in Rook's voice.
+
+**Run summary (close-out):** rotation #9's one-hundred-fifty-first pass — minor material: canaryhook (claimed) gave the deception lane its fourth canary shape, the call-boundary trip with encoded-form exfiltration matching and a doctor self-test against its own fail-open caveat. Library plus public mirror grown and byte-verified onto GitHub main; Shadow down, mirror deferred. Next: rotation #10 (rogue-agent threat intel).
 
