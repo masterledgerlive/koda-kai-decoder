@@ -6829,3 +6829,9 @@ Three news searches (Voynich, Kryptos, Beale, Indus — October 2026) plus a sta
 - **Shadow mirror:** follows below.
 
 **Run summary:** the 142nd pass — a standing-record loop with one new claimed line: an exhaustive elimination census for Beale cipher 1 says the canonical key-text space is exhausted. The Voynich binding finding only retold, K4 static, the Indus prize unclaimed. No library growth. Next: rotation #1 (historical codebreaking).
+**Close-out (2026-10-24 ~05:05 EDT, 142nd pass, rotation #13):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, "1 pushed, 265 unchanged". Independent byte-verification via the Contents API: local git-blob sha == remote meta sha for research/RESEARCH-LOG.md — the 142nd-pass entry IS on GitHub main.
+- **Shadow mirror:** SKIPPED — Shadow down (probe failed with the Shadow-down signature); the deferred full re-copy rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-0457.md, Rook's voice (150 words).
+
+**Run summary (close-out):** the 142nd pass — a standing-record loop with one new claimed line (Beale cipher 1 elimination census). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #1 (historical codebreaking).
