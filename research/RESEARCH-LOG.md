@@ -6729,3 +6729,11 @@ Two targeted news-vertical searches plus a standing-record check. **Quiet loop, 
 - **Shadow mirror (one-hundred-thirty-sixth pass):** follows below.
 
 **Run summary:** the one-hundred-thirty-sixth pass is material — BRANCH is the first named technique breaking multi-scanner guardrails, and it breaks the industry's answer to last pass's evasion finding. Corroborated, not verified. Library grown. Next: rotation #9 (sandbox and container tech).
+
+
+**Close-out (2026-10-24 ~02:40 EDT, 136th pass, rotation #8):**
+- **Push result (VERIFIED):** sync-github.py — "done: 2 pushed, 264 unchanged". Independent byte-verification via the Contents API (not the receipt): local git-blob shas == remote meta shas — research/RESEARCH-LOG.md `20cbc8773fa7203e4b9f690cca920738788bea82` (1,638,219 bytes) and docs/DECODER-CATALOGUE.md `930d2d881032503bce20e3f585e5b8b106a6e91c` (844,411 bytes) ARE on GitHub main (masterledgerlive/koda-kai-decoder). Chain closed.
+- **Shadow mirror (136th pass):** follows below.
+- **Podcast brief:** decoder-briefs/2026-10-24-0230.md, Rook's voice.
+
+**Run summary:** the one-hundred-thirty-sixth pass is material — BRANCH (corroborated) is the first named technique breaking multi-scanner guardrails. Library + public mirror grown and verified. Next: rotation #9 (sandbox and container tech).
