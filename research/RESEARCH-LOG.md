@@ -7181,3 +7181,10 @@ Three targeted news-vertical searches (quantum error correction advance, October
 
 **Run summary:** rotation #5's one-hundred-sixtieth pass — three new claimed intakes, everything else retell of the standing record. No library growth. Next: rotation #6 (photonic comms & power).
 
+
+**Close-out (2026-10-24 ~14:05 EDT, one-hundred-sixtieth pass, rotation #5):**
+- **Push result (VERIFIED):** sync-github.py "research: quantum decoding (rotation #5, 160th pass) — three new claimed intakes, no library growth" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent byte-verification via the Contents API: local git-blob sha `37cb54a27ad98ebfb964e274bbaf9b55e340550e` (1,734,830 bytes) == remote meta sha for research/RESEARCH-LOG.md — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — Shadow down, same signature as recent runs). The full re-copy retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1357.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #5's one-hundred-sixtieth pass — three new claimed intakes, everything else retell. No library growth. Entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #6 (photonic comms & power).
