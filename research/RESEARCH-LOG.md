@@ -6715,3 +6715,17 @@ Two targeted news-vertical searches plus a standing-record check. **Quiet loop, 
 - **Podcast brief:** decoder-briefs/2026-10-24-0155.md, Rook's voice.
 
 **Run summary:** the 135th pass gave the anomaly bench its first peer-reviewed entries — DE-SVDD and DP-MVAD (both corroborated) plus the frozen foundation-model benchmark (corroborated) reframing the zero-shot cold-start question; the calibration study picked up a mainstream economics-blog carrier. Minor material for this lane. Next: rotation #8 (agent detection vs anti-detection).
+
+
+## 2026-10-24 — Agent detection vs anti-detection (rotation #8, 136th pass)
+
+- **BRANCH: bypassing multi-scanner AI guardrails (corroborated — new to record; Hackett and Garraghan, Mindgard and Lancaster University, arXiv October twenty twenty-six; the abstract read first-party this pass; the vendor blog and a third-party recount agree; not yet peer-reviewed, no independent replication of the headline figure).** A branching tree search that applies adversarial perturbation against each individual scanner inside a multi-scanner guardrail system, optimizing for overall improvement across all scanners. Reported: one hundred percent attack success across six guardrail systems in one hundred twenty scenarios, seventy-two percent fewer queries and four-and-a-half times less wall-clock time than established techniques, with the malicious prompt's meaning preserved; bypasses transfer to twenty-nine unseen guardrails, including eight commercial black-box systems. Material for this lane — the multi-scanner composition built to close last pass's character-level gap falls to per-scanner tree search.
+  - Source: https://arxiv.org/html/2610.10742
+  - Source: https://mindgard.ai/blog/branch-bypassing-multi-scanner-ai-guardrails
+- **Spotted, parked:** the October twenty-second report of attackers framing malicious requests as authorized penetration testing (rogue-agent lane texture); an October sixteenth note on indirect prompt injection carried in HTTP response headers (thin carrier — parked).
+- **Re-covered, no status change:** the prior pass's single-scanner guardrail-bypass paper; the detection stack (behavioral embeddings, scorecards, reverse-DNS verification, the grader-evasion class).
+- **Library update:** one new line in docs/DECODER-CATALOGUE.md. Material for this lane.
+- **Push result (one-hundred-thirty-sixth pass):** follows below.
+- **Shadow mirror (one-hundred-thirty-sixth pass):** follows below.
+
+**Run summary:** the one-hundred-thirty-sixth pass is material — BRANCH is the first named technique breaking multi-scanner guardrails, and it breaks the industry's answer to last pass's evasion finding. Corroborated, not verified. Library grown. Next: rotation #9 (sandbox and container tech).
