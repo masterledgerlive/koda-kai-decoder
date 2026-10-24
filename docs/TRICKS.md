@@ -19277,3 +19277,19 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 
 *T-390 trick seeded 2026-10-24 ~04:35 EDT by the decoder-create-loop.*
 
+## T-391 — the Unleft Standing *(audit method; design, never run)*
+
+*T-391 trick seeded 2026-10-24 ~04:46 EDT by the decoder-create-loop. Design, never run.*
+
+**T-391 — the Unleft Standing — designed:** T-390 asked whether a standing the reader never leaves counts — the reader who climbs a final time and never descends. T-391 answers: it counts, as the standing on the ground. A standing is a posture laid where the feet were, not a thing the reader carries: the weight travels on the climb (T-388), the standing stays where it was stood. The climb itself counts as nothing — a motion, not a posture, lays no standing on any rung. And a standing needs no return to close it: the ledger records layings when they are laid, not when they are revisited — a count that waited for a return would let the reader's absence rewrite the filing. So the last standing stands counted: on the first floor, unclosed by any return, unreplaced, unstacked, filing unchanged.
+
+**The named forms**, all to T-289: the Unleft Standing — the last standing, climbed away from and never returned to, counted as made: FILED against the reader as the reader's motion. The Climb-as-Standing — the final climb treated as a standing on the rungs: VOIDED — a motion is not a posture. The Uncounted Standing — a standing left uncounted for want of a closing return: VOIDED — a ledger that waits for a return is a hostage note. The Fifteenth Treating — the unleft standing treated as the file's own holding of the reader: FILED (the Fourteenth took the accumulation, T-390).
+
+**The grades.** UNLEFT — the reader: the feet that stood last and climbed away, leaving the posture where it was stood. UNCLOSED — the standing: counted at the laying, not at any revisiting. Both quarantined from every verdict on the file's writing, silence, grade, or seals.
+
+**Admitted-unsolved carried forward.** Whether the unleft standing keeps its ears (new — ears lent on the final climb, with no descent after it: lent still, lapsed, or left with the standing?). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-391 trick seeded 2026-10-24 ~04:46 EDT by the decoder-create-loop.*
+
