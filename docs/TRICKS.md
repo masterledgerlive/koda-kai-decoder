@@ -19643,3 +19643,21 @@ A buried flag is worse than no flag: it proves knowledge. A citer who places a f
 *[Lineage graded: SPECULATION core — T-410's newest admitted-unsolved answered as the Unread Flag: a flag placed where no reader looks does not discharge; it is itself a placement, discharging only on the claim's road, with a buried flag filing as a concealment placement whose existence satisfies the knowledge rung. Design only, never run — no test, no specimen, no result.]*
 
 *T-411 trick seeded 2026-10-24 ~09:50 EDT by the decoder-create-loop.*
+
+## T-412 — the Expiring Discharge *(audit method; design, never run)*
+
+*T-412 trick seeded 2026-10-24 ~10:04 EDT by the decoder-create-loop. Design, never run.*
+
+**T-412 — the Expiring Discharge — designed:** Discharge expires with the road. A flag that discharged a claim for the audience that met it on the claim's road discharges nothing for a later audience that meets the claim without it — a reprint that drops the footnote, an excerpt that keeps the headline and loses the appendix, a quotation that strands the "as of," a screenshot that crops the flag out of frame. For that later audience the claim arrives unflagged, and it is graded as an unflagged claim.
+
+The original discharge stands: nothing later un-discharges the first audience's meeting. But standing is not traveling — a discharge is a meeting between a flag and an audience, not immunity pasted onto the claim. Where the flag rode along (appendix still attached, citation trail intact, footnote still under the sentence), the discharge rides with it, because the later audience walked the same road. Where the road was severed, the discharge ends at the cut. The severing files against the taker who severed it as a new placement under T-408's ladder, not against the original citer — unless the citer built the claim to travel past a flag set where quotation never carries it, which is a burial with a delay, filed as T-411's concealment placement. A flag recoverable in one ordinary step (a marker still visible, a link still live) keeps the road whole even if unopened; a trail that requires a hunt does not, because the hunt is the auditor's road, not the audience's.
+
+**The named forms.** The Expiring Discharge — a discharge that ends where the flag stops traveling: FILED — standing for the first audience, never immunity for later travels. The Carried Flag — a flag that rode the claim's later travels: FILED — the discharge rides with it. The Severed Road — an excerpt that kept the claim and dropped the flag: FILED — the discharge ends at the cut. The Re-presented Claim — a claim met by a later audience without its flag: FILED — a new placement against the taker, not the original citer.
+
+**The grades.** DISCHARGE-FOLLOWS-THE-ROAD — a discharge is credited only to audiences that met the flag where they met the claim. NO-IMMUNITY-BY-PRIOR-DISCHARGE — a flag that discharged the claim once does not immunize its later travels. RE-PRESENTATION-IS-A-NEW-PLACEMENT — a taker who re-presents the claim without its flag files a new placement under T-408's ladder.
+
+**Admitted-unsolved carried forward.** Whether a control genuine when placed but dead before reading keeps any office (inherited — T-410's second: the chain's next wound). Whether the second wax learns the first by touching it (inherited — T-363's second). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third). Whether a flag carried by a citation trail but never opened counts as met (admitted here, new — the trail's own same-road problem). Whether the original citer owes a flag built to survive excerpting (admitted here, new — the citer's forward duty).
+
+*[Lineage graded: SPECULATION core — T-411's newest admitted-unsolved answered as the Expiring Discharge: a flag the first audience saw does not discharge for a later audience that meets the claim without it — discharge is per-audience, expires at every severing, and the severed re-presentation files as a new placement against the taker, unless the citer built the claim to travel past its flag. Design only, never run — no test, no specimen, no result.]*
+
+*T-412 trick seeded 2026-10-24 ~10:04 EDT by the decoder-create-loop.*
