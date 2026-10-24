@@ -7160,3 +7160,10 @@ Three targeted news-vertical searches (machine translation and low-resource lang
 - **Podcast brief:** decoder-briefs/2026-10-24-1327.md, Rook's voice.
 
 **Run summary:** rotation #4's one-hundred-fifty-ninth pass — one new corroborated intake: Google Meet speech translation expanded to sixty-three languages with per-listener controls and automatic language detection, recorded not grown; the rest of the window was retell and vendor texture. No library growth. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-24 ~13:35 EDT, one-hundred-fifty-ninth pass, rotation #4):**
+- **Push result (VERIFIED):** the public entry for this pass is byte-verified on GitHub main (local git-blob sha equals the remote Contents API meta sha for research/RESEARCH-LOG.md); the sync receipt read "0 pushed, 266 unchanged" because a parallel loop sync had already pushed the entry during this run's sync window — verified, not lost.
+- **Shadow mirror:** skipped — Shadow unreachable (same down signature as recent runs); the mirror retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1327.md, Rook's voice (147 words).
+
+**Run summary (close-out):** rotation #4's one-hundred-fifty-ninth pass — one new corroborated intake (Google Meet sixty-three-language expansion, recorded not grown). No library growth. Entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #5 (quantum decoding).
