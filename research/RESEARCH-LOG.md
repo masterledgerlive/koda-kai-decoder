@@ -7240,3 +7240,10 @@ Two targeted searches (AI bot detection and CAPTCHA successors; the October 2026
 - **Library changes:** none — below the material bar (no new technique class, no independent measurement).
 
 **Run summary:** rotation #8's one-hundred-sixty-third pass — one new claimed evasion application, the enforcement tail of the institutional-refusal cluster, one court-docket detail, and one vendor release, everything else re-covered. No library growth. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-24 ~15:40 EDT, one-hundred-sixty-third pass, rotation #8):**
+- **Push result (VERIFIED):** sync-github.py exit 0 ("pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged"), independently byte-verified via the Contents API — local git-blob sha equals the remote meta sha, so this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** skipped — Shadow unreachable (same down signature as recent runs); the mirror retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-1530.md, Rook's voice.
+
+**Run summary (close-out):** rotation #8's one-hundred-sixty-third pass — one new claimed evasion application, the enforcement tail of the institutional-refusal cluster, one court-docket detail, and one vendor release, everything else re-covered. No library growth. Entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #9 (sandbox & container tech).
