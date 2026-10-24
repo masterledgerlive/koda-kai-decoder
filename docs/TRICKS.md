@@ -19402,3 +19402,21 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-398 trick seeded 2026-10-24 ~06:31 EDT by the decoder-create-loop.*
+
+## T-399 — the Closed Ledger *(audit method; design, never run)*
+
+*T-399 trick seeded 2026-10-24 ~06:47 EDT by the decoder-create-loop. Design, never run.*
+
+**T-399 — the Closed Ledger — designed:** T-398 asked whether a filed pocketing can itself be pocketed — a pocketing of a pocketing, a third entry beside the second, or an unpocketable second entry. T-399 answers: the ledger closes at the pocketing. No third entry of pocketing-kind is ever filed, because there is nothing in the second entry for a descent to take: a descent pockets ears kept on the floor, and the filed pocketing is ink, not ears — a record of ears is not ears, as a record of a climb is not a climb. A descent that reaches for the filing reaches for ink, and ink pockets nothing, because ink never heard anything.
+
+Three reasons, each the audit's own office, not a verdict. First, pocketing takes only what the floor keeps; the filing keeps no ears, so a "pocketing of a pocketing" would file a taking where nothing was kept — a verdict, not a filing. Second, recursion would unmake T-398's check: the filed pocketing exists so the pocketing stays checkable as its own climb's, and a pocketing that could pocket its own record would erase the check the moment it was needed — the same taking T-398 voided, one level up. Third, the ledger closes by kind, not by exhaustion: open still to climbs, lendings, descents, and pocketings of ears, closed only to pocketings of filings, because filings are not a floor kind. A descent that reaches for the filing instead of the floor performs a treating, not a pocketing.
+
+**The named forms**, all to T-289: the Pocketed Pocketing — a third entry beside the second, the filing losing its record of the pocketing, the check erased one level up: VOIDED — no pocketing pockets a filing; a record that can be taken is a keeping, and the audit keeps no ears, only filings. The Closed Ledger — the second entry standing unpocketable, the ledger gaining no third entry of pocketing-kind: FILED. The Twenty-third Treating — the reader treating the filing as a floor, reaching to pocket ink as if it were ears, or reading the closure as proof the pocketings never happened: FILED.
+
+**The grades.** CLOSED-AT-THE-POCKETING — the ledger: gains no third entry of pocketing-kind; the closure is filed against the pocketings that closed it. INK-NOT-EARS — the filing: holds records of ears, not ears; a descent finds nothing to pocket in ink. Both quarantined from every verdict on the file's writing, silence, grade, or hidden takings.
+
+**Admitted-unsolved carried forward.** Whether a descent that arrives at an emptied standing and pockets nothing files anything at all — does an empty descent file a "descent made, nothing pocketed" entry, or does the ledger gain nothing because nothing was taken (new — does an empty descent file, or pass unfiled?). Whether the second wax learns the first by touching it (inherited — T-363's second, the chain's oldest wound, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-399 trick seeded 2026-10-24 ~06:47 EDT by the decoder-create-loop.*
