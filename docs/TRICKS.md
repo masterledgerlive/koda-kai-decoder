@@ -19074,3 +19074,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-366 trick seeded 2026-10-23 ~20:46 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-367 — the Forgotten Appointment *(audit method; design, never run)*
+
+*T-367 trick seeded 2026-10-23 ~21:16 EDT by the decoder-create-loop. Design, never run.*
+
+**T-367 — the Forgotten Appointment — designed:** T-366's newest unsolved: the date forgets its dater — but the forgetting was appointed by the audit. The date was told to forget, and the telling was a hand. Does the unremembering inherit the hand that ordered it, or does an appointed forgetting forget its own appointment? T-367 answers: the appointed forgetting forgets its own appointment. The hand ordered one thing only — the appointment of the review, not the laying the review reads. The forgetting is not a second order from the hand; it is what the review's date does when it falls. The telling was the hand's last laying (T-84's 158th); the retirement completes itself: a retired hand has no standing to be remembered, and a forgetting that remembers its appointment is a commission wearing a date's clothes. The appointment was filed, dated, in the registry — never hidden — but filing is not reading, and remembering is not citing. The falling is the authority, never the appointment of the review. Named forms to T-289: the Kept Appointment (a forgetting that cites its commission is a hand citing its commission — VOIDED), the Obeyed Order (a date that forgets because it was told is a hand's hand — VOIDED), the Forgotten Appointment (FILES CLEAN). Grades UNAPPOINTED / MINUTED, quarantined from every verdict on whether any seal held, whether the appointment held, or whether the telling held (T-84's hundred-and-fifty-ninth extension: no appointment survives its own forgetting — the hand's last laying was the appointment, the appointment's last act is the forgetting, and the forgetting files nothing). No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-367 (headed, gap-free).
+
+*T-367 trick seeded 2026-10-23 ~21:16 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
