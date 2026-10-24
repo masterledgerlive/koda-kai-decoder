@@ -7123,3 +7123,10 @@ Three targeted news-vertical searches (new video codec AV1/AV2/VVC/FFmpeg, Octob
 - **Podcast brief:** decoder-briefs/2026-10-24-1227.md, Rook's voice.
 
 **Run summary:** rotation #2's one-hundred-fifty-seventh pass — one minor-material status change: FFmpeg 9.1 is in its release process with a Vulkan APV encoder and an NVIDIA optical-flow frame-interpolation filter, corroborated by two carriers. The rest of the window was AV2 press-cycle retell, NeuralCodec-8K still parked, no voxel codec. Library grown in both trees. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-24 ~12:40 EDT, one-hundred-fifty-seventh pass, rotation #2):**
+- **Push result (VERIFIED):** the public entry for this pass and the FFmpeg 9.1 catalogue addendum are byte-verified on GitHub main (local git-blob shas equal the remote Contents API meta shas for research/RESEARCH-LOG.md and docs/DECODER-CATALOGUE.md); the sync receipt read "2 pushed, 264 unchanged".
+- **Shadow mirror:** skipped — Shadow unreachable (same down signature as recent runs); the mirror retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1227.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #2's one-hundred-fifty-seventh pass — minor-material status change: FFmpeg 9.1 in release process, retiring the "no 9.1" line. Library grown in both trees and byte-verified onto GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
