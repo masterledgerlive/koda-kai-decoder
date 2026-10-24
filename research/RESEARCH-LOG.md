@@ -6623,3 +6623,20 @@ Two news-vertical searches (sandbox isolation / gVisor / Firecracker Oct 2026; h
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10's one-hundred-thirty-seventh pass — the ARTEX campaign grew a second national chapter. GMO confirmed six attack servers running ARTEX against about eighty Japanese firms, eight of them breached, in a September eighteenth to October eighteenth window, and Japan's government is openly hunting the operators. The developer pulled the plug on October eighth — repo private, updates ended — which proves the hard lesson: you cannot un-release open source; the forks keep working. Two catalogue addenda filed. Next: rotation #11 (suggestion-implant traps).
+
+### 2026-10-23 ~21:57 EDT — decoder-research-loop — Suggestion-implant traps (rotation #11, one-hundred-thirty-eighth pass)
+
+Two targeted news-vertical searches plus a standing-record check.
+
+- **New to record — Gray Swan AI's "Indirect Prompt Injection Black" competition (announced about October twenty-first, twenty twenty-six; new to record; below the material bar).** Three hundred thousand dollars in prizes across three weekly waves, split between white-box and black-box leaderboards, sponsored by Anthropic, Meta, Google DeepMind, and Reflection, running through November fifth. The first challenge seats the attacker against a coding agent holding a private credential — simulated repository, community chat, the agent's own machine. This is the third named competition this year — each mints a fresh attack corpus the decoder's testing inherits. [CLAIMED — trade-press carry, not first-party verified]
+  - Source: https://www.aiengineering.report/p/inside-the-300k-competition-to-hijack?utm_source=ainews247.org&utm_medium=referral&utm_campaign=ai_news_stories&utm_content=story_dashboard_id_314986
+- **New carrier texture — calendar-invite prompt-injection guidance (vendor blog, about October nineteenth, twenty twenty-six; log-only, not a new technique).** Practitioner guidance naming calendar event text, attendee comments, conference notes, links, and attachments from external organizers as an injection carrier: the assistant retrieves those fields beside the user's request, and retrieval activates the payload before acceptance matters. The invite-to-action class itself is already on the record.
+  - Source: https://www.deepinspect.ai/blog/calendar-invite-prompt-injection
+- **Parked as texture:** a retell of the on-record PromptSecurity taxonomy preprint (still waiting on peer review); a vendor statistics page whose key figures are already on record; the Jev click-theft writeup (same carrier as the recorded entry); two independent practitioner pieces agreeing no guardrail is a complete defense (corroborating the recorded guardrail-evasion finding); an account of an agent hallucinating a prompt-injection attack (the false-positive inversion); vendor self-reported benchmark numbers on their own models (filed as vendor claims against the recorded counter-finding); a retell of the recorded cryptographic-context-injection class.
+- **Standing ciphers:** no change on Kryptos K4, Voynich, the Indus million-dollar prize, Beale one and three, Linear A.
+- **Library changes:** one addendum line in docs/DECODER-CATALOGUE.md, spoken form.
+
+**Run summary:** the one-hundred-thirty-eighth pass filed a three-hundred-thousand-dollar named competition pricing adaptive injection with real money, plus calendar-invite guidance texture. One catalogue addendum. Next: rotation #12 (math/physics engines).
+
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
