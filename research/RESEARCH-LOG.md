@@ -6940,3 +6940,10 @@ Two targeted news-vertical searches (quantum error correction breakthroughs Octo
 
 **Run summary:** rotation #6's pass added two texture items — the Solstar orbital Wi-Fi relay and the FCC's Starlink AWS-3 transfer — and nothing grade-moving: the photonic lane's only open binaries, Protostar and Reason-1, are still silent. NOT MATERIAL per body rule §4 — no library growth, no chat message. Push follows below; Shadow mirror follows below. Next: rotation #7 (predictive math).
 
+
+**Close-out (2026-10-24 ~08:05 EDT, rotation #6):**
+- **Push result (VERIFIED):** sync-github.py "research: photonic comms & power (rotation #6) — Solstar Wi-Fi relay + FCC Starlink AWS-3, texture only, no library growth" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent byte-verification via the Contents API meta: local git-blob sha `27a02779c1437124187a20ca95ac066801d19c09` (1,681,313 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe `ssh -o ConnectTimeout=10 -o BatchMode=yes shadow "echo ok"` failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature, tailnet link healthy, Shadow itself down; same signature as the 139th–147th passes). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-0757.md, Rook's voice (170 words, spoken form, grades spoken plainly).
+
+**Run summary (close-out):** rotation #6's pass added two texture items — the Solstar orbital Wi-Fi relay and the FCC's Starlink AWS-3 transfer — and nothing grade-moving; Protostar and Reason-1 remain silent. No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #7 (predictive math).
