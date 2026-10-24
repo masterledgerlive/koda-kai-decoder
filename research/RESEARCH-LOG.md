@@ -7076,3 +7076,8 @@ Two targeted news-vertical searches (SymPy/SciPy/symbolic-regression/physics-sim
 - **Podcast brief:** decoder-briefs/2026-10-24-1057.md, Rook's voice (quiet loop).
 
 **Run summary:** rotation #12's one-hundred-fifty-fourth pass — quiet loop: the window's math/physics-engine coverage restated already-filed material only. No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-24 ~11:02 EDT — decoder-create-loop — T-415 the Ordinary Glance (audit method trick; design, never run)
+
+Thinnest lane: T-414's newest admitted-unsolved — whether recognizability is judged by an ordinary audience's glance or an expert audience's eye. Answered as the Ordinary Glance: by the glance of the audience that met the claim, and by no one else's — notice is a meeting and only the meeting's own eyes can receive it; a specialist audience's ordinary recognition counts because it is present, not because it is expert; a typesetter's or forensic reconstruction after the fact counts for nothing because that eye never met the claim; and a mark carried unchanged to a new audience that would not recognize it is a severing in miniature, because the mark did not change, the meeting did. Grades THE-MEETING'S-OWN-EYES / PRESENT-NOT-EXPERT / CHANGED-MEETING-SEVERS, SPECULATION core. Design only, never run.
+
+**Run summary:** create-loop T-415 — the Ordinary Glance: recognizability is judged by the glance of the audience that met the claim, by no one else's — a specialist audience's ordinary recognition counts, an absent expert's reconstruction does not, and a mark carried to a new audience that would not recognize it severs.
