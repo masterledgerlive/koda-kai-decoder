@@ -7351,3 +7351,10 @@ Three targeted news-vertical searches (Bletchley Park and Enigma declassified ci
 - **Podcast brief:** decoder-briefs/2026-10-24-1827.md, Rook's voice (148 words).
 
 **Run summary (close-out):** rotation #1's one-hundred-sixty-ninth pass — four new Cyphersolver reads plus one honest non-solve, Charles the First pair claimed pending paper; timeline addendum grown. Next: rotation #2 (codecs & formats).
+
+## 2026-10-24 ~18:58 EDT — decoder-research-loop — Codecs & formats (rotation #2, one-hundred-seventieth pass)
+
+Quiet loop, standing record only. The AV2 story is now in its fourth press cycle of the same October twenty-second Alliance for Open Media adoption release — Chrome playback demonstrated, YouTube web streams targeted as soon as early twenty twenty-seven, Netflix and Prime Video still exploring with no dates, Intel's open SVT-AV2 encoder, about thirty percent better compression than AV1 — with no new fact added by any carrier this window. FFmpeg 9.1 remains in its release process (Vulkan APV encoder plus NVIDIA optical-flow frame interpolation); version 9.0.2 is still the latest stable release, confirmed by current distro and tooling builds. No new codec, no new format, no library change this pass.
+- **Podcast brief:** decoder-briefs/2026-10-24-1858.md, Rook's voice — quiet-loop form.
+
+**Run summary:** rotation #2's one-hundred-seventieth pass was a pure standing-record loop — the AV2 release still echoing, FFmpeg 9.1 still unreleased. Next: rotation #3 (protocol decoders).
