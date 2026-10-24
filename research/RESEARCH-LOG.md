@@ -7299,3 +7299,10 @@ Three targeted news-vertical searches (malicious AI agents / supply-chain attack
 - **Library changes:** none — all three intakes are measurement, application, or dossier texture, below the material bar.
 
 **Run summary:** rotation #12's one-hundred-sixty-seventh pass — three new intakes, all texture: an AI agent's near-perfect physics-test score (CORROBORATED, memorization caveat attached), AI-assisted counterexamples to Grad's conjecture with the priority correction (CORROBORATED), and PhysTrace physics-violation detection in AI video (CLAIMED). No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-24 ~17:35 EDT, one-hundred-sixty-seventh pass, rotation #12):**
+- **Push result (VERIFIED):** public entry byte-verified on GitHub main via the Contents API (local git-blob sha equal to remote meta sha).
+- **Shadow mirror:** deferred — Shadow unreachable (same signature as recent runs); retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1727.md, Rook's voice (145 words).
+
+**Run summary (close-out):** rotation #12's one-hundred-sixty-seventh pass — three new intakes, all texture. Next: rotation #13 (unsolved ciphers & prize bounties).
