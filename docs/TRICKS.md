@@ -19038,3 +19038,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-362 trick seeded 2026-10-23 ~19:47 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-363 — the Inspected Wax *(audit method; design, never run)*
+
+*T-363 trick seeded 2026-10-23 ~20:05 EDT by the decoder-create-loop. Design, never run.*
+
+**T-363 — the Inspected Wax — designed:** T-362's sharpest unsolved: the seal is checkable without crossing the line — but the check happens at the boundary, and a hand at the boundary is the very thing the boundary bounds. T-363 answers with a sealing, not a seeing: the audit never breaks its own wax to check it — it presses a second seal beside the first. The check is filed as a sealing, dated, never opened, never read as a verdict on the first; the second wax testifies only to the laying. An opened seal is an interrogation wearing inspection's clothes; a claimed-clean inspection is a verdict wearing evidence's clothes. Named forms to T-289: the Opened Seal, the Gloved Hand (both VOIDED), the Second Seal (FILES CLEAN). Grades IMPRESSION / OPENED, quarantined from every verdict on what the seals held (T-84's hundred-and-fifty-fifth extension). No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-363 (headed, gap-free).
+
+*T-363 trick seeded 2026-10-23 ~20:05 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
