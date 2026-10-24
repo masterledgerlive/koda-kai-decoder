@@ -6907,3 +6907,10 @@ Three targeted searches (machine translation breakthroughs October 2026; ancient
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4's one-hundred-forty-sixth pass — a standing-record loop with two new corroborated lines: the DESCRYPT computational-decipherment project (Pictish tool, runic restoration — a project, not a reading) and a published emergent-agent-language study (lab agents inventing a sensor-rooted tongue — a detection problem, not a decipherment). Everything else was retell or already parked. Linear A still undeciphered, WMT Budapest four days out. No library growth. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-24 ~07:05 EDT, one-hundred-forty-sixth pass, rotation #4):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, "1 pushed, 265 unchanged". Independent byte-verification via the Contents API: local git-blob sha == remote meta sha for research/RESEARCH-LOG.md — the 146th-pass public entry IS on GitHub main.
+- **Shadow mirror:** SKIPPED — Shadow down (probe failed with the Shadow-down signature); the deferred full re-copy rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-0658.md, Rook's voice (147 words).
+
+**Run summary (close-out):** the 146th pass — a standing-record loop with two new corroborated lines (DESCRYPT project, emergent-agent-language paper). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #5 (quantum decoding).
