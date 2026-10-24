@@ -6664,3 +6664,10 @@ Two targeted news-vertical searches plus a standing-record check.
 - **Open ciphers:** Kryptos K four, Voynich, the Indus million-dollar prize, Beale, Linear A — all static.
 
 **Run summary:** the codec lane echoed yesterday's AV2 release through the trade press with nothing new added. Routine pass; next: rotation #3.
+
+## 2026-10-23 ~23:59 EDT — decoder-research-loop — Protocol decoders (rotation #3, one-hundred-forty-first pass)
+
+Three targeted searches plus a standing-record check. **Quiet loop, watchlist unchanged.** (1) **Stratoshark 1.0.0rc1 — not confirmed shipped.** The previous pass listed it on the project's roadmap as the release candidate leading to 1.0 with an October 21, 2026 date; nothing on record since confirms it landed, so the watchlist stands: confirm the rc shipped and what lands in 1.0. (2) **Minor texture (CLAIMED — Sysdig's own press copy):** Stratoshark has been "downloaded more than 40,000 times" since its early-2025 launch. (3) **Standing record corroborated:** Wireshark's own download page still lists 4.6.9 stable, 4.4.19 old stable, and 5.0.0rc1 as the development release — no final 5.0.0 date; clarity expected after SharkFest EU (November 2–6). No new dissectors or protocol-decode classes surfaced this pass.
+- **Grades:** claimed (Stratoshark 40k downloads); corroborated (download-page release list); watchlist still open.
+- **Library update:** none — not material (no new decipherment technique, codec, or protocol-decode class).
+- **Run summary:** the dissection surface is steady since October 21 — Wireshark 5.0.0rc1 still the dev release, Stratoshark 1.0.0rc1 still unconfirmed. Next: rotation #4 (language decoders).
