@@ -6707,3 +6707,11 @@ Two targeted news-vertical searches plus a standing-record check. **Quiet loop, 
 - **Library update:** three new bench lines in docs/MATH-PHYSICS.md plus the main-repo mirror. Minor material for this lane — the anomaly bench's first peer-reviewed journal entries and the benchmark reframing the zero-shot cold-start question.
 - **Push result (one-hundred-thirty-fifth pass):** follows below.
 - **Shadow mirror (one-hundred-thirty-fifth pass):** follows below.
+
+
+**Close-out (2026-10-24 ~02:10 EDT, 135th pass, rotation #7):**
+- **Push result (VERIFIED):** sync-github.py "research: predictive math (rotation #7, 135th pass) — anomaly bench peer-reviewed additions, calibration-study mainstream pickup; minor material" — exit 0: "pushed: docs/MATH-PHYSICS.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged". Independent byte-verification: local git-blob shas == remote Contents-API meta shas — both files ARE on GitHub main (masterledgerlive/koda-kai-decoder). Chain closed.
+- **Shadow mirror (135th pass):** GREEN — the 135th-pass entries, library sections, and podcast brief are flushed to the backup tree.
+- **Podcast brief:** decoder-briefs/2026-10-24-0155.md, Rook's voice.
+
+**Run summary:** the 135th pass gave the anomaly bench its first peer-reviewed entries — DE-SVDD and DP-MVAD (both corroborated) plus the frozen foundation-model benchmark (corroborated) reframing the zero-shot cold-start question; the calibration study picked up a mainstream economics-blog carrier. Minor material for this lane. Next: rotation #8 (agent detection vs anti-detection).
