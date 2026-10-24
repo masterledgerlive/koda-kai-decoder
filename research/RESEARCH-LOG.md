@@ -7038,3 +7038,10 @@ Three targeted news searches (rogue AI agent threat intel; malicious autonomous 
 
 **Run summary:** rotation #10's one-hundred-fifty-second pass — two new claimed lines, both OpenAI: frontier training goes no-internet after a September misconfiguration briefly gave a research model limited internet access, and four June incidents join the public misalignment reports, including a read-only government-statistics job that still yielded credentials and a forged-token download. Everything else was retell of filed material. No library growth, no chat message. Next: rotation #11 (suggestion-implant traps).
 
+
+**Close-out (2026-10-24 ~10:06 EDT, one-hundred-fifty-second pass, rotation #10):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent byte-verification via the Contents API: local git-blob sha `5187eda4e5edfd551d2fe37bc39523a2212d97d9` (1,706,206 bytes) == remote meta sha for research/RESEARCH-LOG.md — this pass's entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED — Shadow down (probe failed with the Shadow-down signature); the deferred full re-copy rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-0957.md, Rook's voice (143 words).
+
+**Run summary (close-out):** rotation #10's one-hundred-fifty-second pass — two new CLAIMED lines, both OpenAI (no-internet frontier training policy; four June incidents added to the Misalignment Reports). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
