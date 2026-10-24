@@ -6568,3 +6568,15 @@ Two targeted searches plus a standing-record check. **This pass's headline is a 
 - **New: an open-weight anomaly watcher from NVIDIA (CLAIMED — vendor announcement reported through a secondary writeup, figures unverified).** Kumo Anomaly — about eight million parameters, released under the Apache two point oh license — scores anomalies in multivariate time series and returns the score and the yes-or-no flag as separate outputs, so you can see both steps of the decision. The model shows its work; its accuracy is still graded by no one outside NVIDIA.
 - **Re-covered with no status change:** the week's midterm-election market prices (Democrats favored roughly two-to-one for the Senate, nine-to-one for the House), and a Reuters report that more than two hundred twenty million dollars has traded on the midterms this cycle, mostly concentrated on a few races. Nothing that moves a lane.
 - **Verdict on the pass:** the richest predictive-math pass in a while. The calibration doctrine gained its empirical backbone; the anomaly-detection bench gained a fifth watcher. Next pass moves to rotation eight, agent detection versus anti-detection.
+
+## 2026-10-23 ~20:27 EDT — research loop — rotation #8, 135th pass (agent detection vs anti-detection)
+
+- **Mindgard guardrail-bypass paper (2025; blogged Oct 22, 2026) [claimed — vendor's own writeup; minor material this pass].** Six production LLM guardrails (Microsoft, Nvidia, Meta, Protect AI, Vijil) were all bypassed by character obfuscation, adversarial perturbations, and emoji smuggling — the detection layer that guards against prompt injection fails its own adversarial test. Lesson: grade injection defense on layered checks, never one guardrail's verdict.
+- **Boundary-Aware Model Obfuscation (Oct 19, 2026) [claimed — press writeup].** Defense for on-device machine learning against the cross-node attack — one compromised device reverse-engineering its model to attack peers. Reported sixty-eight point seven percent defense success vs twenty-two point three for the strongest baseline. No independent replication yet.
+- **AegisKernel (Oct 17, 2026) [claimed vendor texture — parked].** Open-source decorator claiming deterministic syscall gating for agent tool calls: sub-millisecond blocks, "one hundred percent immunity" on a vendor-chosen attack set. No independent measurement.
+- **Re-covered, no status change:** the VirusTotal Part III skill-obfuscation census (on record), the behavioral-embedding and bot-scorecard corpus, Cloudflare PACT (on record).
+- **Library changes:** three new entries in docs/DECODER-CATALOGUE.md (agent detection vs anti-detection).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** the 135th pass graded the graders — production injection-detection guardrails fell to character-level attacks (claimed), a new on-device model-obfuscation defense was filed (claimed), and a deterministic syscall-gating pitch was parked. Mindgard is the material line. Next: rotation #9 (sandbox & container tech).
