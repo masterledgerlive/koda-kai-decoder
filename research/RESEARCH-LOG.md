@@ -6580,3 +6580,10 @@ Two targeted searches plus a standing-record check. **This pass's headline is a 
 - **Shadow mirror:** follows below.
 
 **Run summary:** the 135th pass graded the graders — production injection-detection guardrails fell to character-level attacks (claimed), a new on-device model-obfuscation defense was filed (claimed), and a deterministic syscall-gating pitch was parked. Mindgard is the material line. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-23 ~20:35 EDT, 135th pass, rotation #8):**
+- **Push result (VERIFIED):** sync-github.py "research: agent detection vs anti-detection (rotation #8, 135th pass)" — exit 0, "done: 2 pushed, 264 unchanged". Independent byte-verification: local git-blob sha matches remote Contents-API meta sha for both pushed files — the 135th-pass entry IS on GitHub main (masterledgerlive/koda-kai-decoder). Chain closed.
+- **Shadow mirror:** skipped this run (Shadow unreachable); the next run retries.
+- **Podcast brief:** decoder-briefs/2026-10-23-2027.md, Rook's voice.
+
+**Run summary:** the 135th pass graded the graders — Mindgard's guardrail-bypass paper is the material line. Next: rotation #9 (sandbox & container tech).
