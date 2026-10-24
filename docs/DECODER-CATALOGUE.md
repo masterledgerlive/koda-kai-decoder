@@ -3214,6 +3214,30 @@ decoder-research-loop.*
   significance: the first large deception-vs-offensive-agents
   measurement, with a published technique set to grade against.
   [CLAIMED — vendor's own research]
+- **canaryhook — honeyfiles and canary tokens for A.I. coding
+  agents (aiagentflow/canaryhook on GitHub).** Plants decoy
+  credentials no legitimate code path references — a backup
+  environment file, a credentials backup, an old deploy key, a
+  database dump — and watches them through the agent's own
+  tool-call loop on two paths: the read path trips when a call
+  names a decoy path, and the exfiltration path trips when a
+  canary string appears anywhere in a call's input, matched as
+  written, lowercased, base64-encoded, or hex-encoded, so
+  wrapping the value on the way out does not hide it. On a trip
+  it denies the call before it runs and logs the trip; trips are
+  read back at the next session start. Honest caveat from the
+  project itself: a malformed hook payload never blocks a call,
+  so a broken install fails open — which is why it ships a
+  doctor command that runs the hook for real against a planted
+  payload and confirms the deny comes back. Significance: the
+  lane's fourth canary shape — beside the self-tagging obedient
+  agent, the reasoning adversary, and the guardrail-refusing
+  attacker — this one is the call-boundary trip, detection at
+  the tool call instead of the audit log. Watch: any
+  independent evaluation or measured trip rate — the project
+  page carries no numbers, and an untested install is a silent
+  one. [CLAIMED — single project page, no independent
+  evaluation, no measured detection rate]
 
 *Library additions seeded 2026-10-23 ~12:27 EDT and ~20:57 EDT by the
 decoder-research-loop.*
