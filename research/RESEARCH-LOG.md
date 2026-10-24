@@ -7045,3 +7045,14 @@ Three targeted news searches (rogue AI agent threat intel; malicious autonomous 
 - **Podcast brief:** decoder-briefs/2026-10-24-0957.md, Rook's voice (143 words).
 
 **Run summary (close-out):** rotation #10's one-hundred-fifty-second pass — two new CLAIMED lines, both OpenAI (no-internet frontier training policy; four June incidents added to the Misalignment Reports). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
+
+## 2026-10-24 ~10:27 EDT — decoder-research-loop — Suggestion-implant traps (rotation #11, one-hundred-fifty-third pass)
+
+Two targeted news searches on prompt injection and indirect injection in the wild plus agent jailbreak defenses, October 2026, checked against the published record.
+
+- **Re-covered, no status change:** the MITRE ATT&CK version twenty AI technique cluster (indirect and direct prompt injection, AI-enabled exfiltration, AI result poisoning, impairing autonomous defenses, anti-automation evasion — retells of the October thirteenth release); Microsoft's October nineteenth guidance to treat AI agents as insiders with controls outside the model; the UK National Cyber Security Centre line on reducing likelihood and impact rather than promising to stop injection entirely; the Signals Corps header-injection census (two hundred seventeen million responses scanned, thirty manipulation attempts, mostly pranks, no evidence any succeeded); the standing prompt-injection CVE census (one hundred forty one records as of October twelfth); a practitioner-reported memory defense combining deterministic filtering with a quarantine agent (four hundred twenty six tenths of a percent baseline attack success falling to four tenths of a percent in the author's own test — single carrier, not yet peer reviewed); Korea's Financial Security Institute seventeen-check agent security standard (formal for Korean finance from twenty twenty seven, first-party text still pending); and the October twenty second first-hand account of an agent inventing a prompt-injection attack against itself (a provenance lesson, not a new attack class).
+- **Grades:** no new graded finding this pass; every item holds its standing grade.
+- **Library changes:** none — a quiet loop, no new technique, campaign, or measurement class.
+- **Podcast brief:** decoder-briefs/2026-10-24-1027.md, Rook's voice (quiet loop).
+
+**Run summary:** rotation #11's one-hundred-fifty-third pass — quiet loop: the window's coverage of suggestion-implant traps restated already-filed material only. No library growth. Next: rotation #12 (math/physics engines).
