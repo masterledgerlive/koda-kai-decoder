@@ -2581,6 +2581,17 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **Twenty-eight fake Googlebots passed the standard verification check (June 2026; disclosed in an October 20 report; new to record).** Hundreds of addresses outside Google's networks call themselves Googlebot in reverse DNS each day, and nearly all fail the forward-and-back identity check Google's own guide recommends. In June, twenty-eight addresses at a Russian hosting company passed it — Google's own nameserver answered the verification check for the fake names with the Russian address, so Google's zone vouched for them. A website trusting that check alone could have waved them past rate limits and bot challenges as the real thing. Google removed the records and paid the researchers a bounty. Decoder lesson: the recommended verification is a registry check, and the registry itself can be made to lie — detection that leans on a third party's assertion is only as strong as the assertor. [CORROBORATED — the researchers' own report]
   - Source: https://ellio.tech/en/blog/ignoreallpreviousinstructions-a-peek-into-340-billion-daily-reverse-dns-ptr-records/
 
+- **Mindgard guardrail-bypass paper (2025; blogged Oct 22, 2026).** Six production LLM guardrails (Microsoft, Nvidia, Meta, Protect AI, Vijil) all fell to character obfuscation, adversarial perturbations, and emoji smuggling — the detection layer guarding against prompt injection fails its own adversarial test. Lesson: grade injection defense on layered checks, never one guardrail's verdict.
+  - Source: https://mindgard.ai/blog/outsmarting-ai-guardrails-with-invisible-characters-and-adversarial-prompts
+  - [CLAIMED — vendor's own paper via the vendor's own blog]
+
+- **Boundary-Aware Model Obfuscation (Oct 19, 2026).** Defense for on-device machine learning against the cross-node attack — one compromised device reverse-engineering its model to attack peers. Reported sixty-eight point seven percent defense success vs twenty-two point three for the strongest baseline. No independent replication yet.
+  - Source: https://en.cryptonomist.ch/2026/10/22/boundary-aware-model-obfuscation/
+  - [CLAIMED — press writeup of the paper]
+
+- **AegisKernel (Oct 17, 2026; parked as vendor texture).** Open-source Python decorator claiming deterministic syscall gating for agent tool calls: sub-millisecond blocks, "one hundred percent immunity" on a vendor-chosen attack set. No independent measurement — filed as a claim, not a result.
+  - Source: https://clawdbytes.com/article/2026-10-17-stopping-autonomous-ai-agent-tool-hijacking-in-005ms-introducing-aegiskernel
+  - [CLAIMED — vendor announcement via trade blog]
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
