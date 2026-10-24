@@ -7317,3 +7317,10 @@ Three targeted news-vertical searches (malicious AI agents / supply-chain attack
 - **Library changes:** none — enrichment of an on-record entry only, no status change on any unsolved target.
 
 **Run summary:** rotation #13's one-hundred-sixty-eighth pass — Voynich binding paper corroborated further with no status change, Kryptos K4 still method-unsolved, Indus prize still unclaimed. No library growth. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-24 ~18:05 EDT, one-hundred-sixty-eighth pass, rotation #13):**
+- **Push result (VERIFIED):** public entry byte-verified on GitHub main via the Contents API (local git-blob sha equal to remote meta sha).
+- **Shadow mirror:** deferred — Shadow unreachable (same signature as recent runs); retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1758.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #13's one-hundred-sixty-eighth pass — Voynich binding paper corroborated further, no status change. Next: rotation #1 (historical codebreaking).
