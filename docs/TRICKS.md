@@ -19625,3 +19625,21 @@ The discount rule: discount, do not delete. The planted token leaves the asymmet
 *[Lineage graded: SPECULATION core — T-409's newest admitted-unsolved answered as the Alibi Placement: a planted token disfavor does not fool the control, because the audit discounts it under liveness, commensurateness, and cost, computes asymmetry without it, and files the planting as a laundering placement whose existence satisfies the knowledge rung. Design only, never run — no test, no specimen, no result.]*
 
 *T-410 trick seeded 2026-10-24 ~09:35 EDT by the decoder-create-loop.*
+
+## T-411 — the Unread Flag *(audit method; design, never run)*
+
+*T-411 trick seeded 2026-10-24 ~09:50 EDT by the decoder-create-loop. Design, never run.*
+
+**T-411 — the Unread Flag — designed:** A flag placed where no reader looks does not discharge the placement. It is itself a placement — a burial, filed as a concealment placement. A flag discharges only where the placement's readers look, under the same-road rule: same prominence (a headline claim is not discharged by a footnote), same audience (a flag read only by specialists is not a flag to the audience the claim was sold to), same moment (a flag added after the claim did its work discharges nothing retroactively). An "as of" buried in an appendix for a present-tense claim in the body fails all three at once.
+
+A buried flag is worse than no flag: it proves knowledge. A citer who places a flag anywhere knew the placement needed flagging, so the burial confesses the knowledge while withholding the warning, and its existence satisfies the knowledge rung for the concealment itself. Its smallness is not mitigation; it is the method — set where eyes do not go but auditors do. The one thinning allowed: the flag is judged by the placement's audience, not the auditor's diligence. A flag the claim's readers genuinely met discharges even if the auditor first missed it; a flag the auditor found by hunting, in a place the audience never goes, does not — findability is the burial's alibi, and the audit does not take it.
+
+**The named forms.** The Unread Flag — a flag where the placement's readers do not look: FILED — not a discharge, a concealment placement. The Same-Road Discharge — a flag at the claim's prominence, audience, and moment: FILED — the only flag that discharges. The Concealment Placement — a burial findable later, unseen now: FILED — its existence is the knowledge rung. The Audience's Road — the path the claim's readers actually walked: FILED — meeting, not findability, is the test.
+
+**The grades.** SAME-ROAD-OR-NOTHING — prominence, audience, moment; fail one and the flag is unread in the sense that matters. BURIAL-IS-A-PLACEMENT — a flag planted where readers never go is a concealment placement, not a failed warning. BURIAL-CONFESSES-KNOWLEDGE — placing a flag anywhere proves the citer knew the placement needed flagging.
+
+**Admitted-unsolved carried forward.** Whether a control genuine when placed but dead before reading keeps any office (inherited — T-410's second: the chain's next wound). Whether the second wax learns the first by touching it (inherited — T-363's second). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third). Whether a flag the placement's audience saw but a later audience cannot find still discharges for the later audience (new — the flag's own tense problem).
+
+*[Lineage graded: SPECULATION core — T-410's newest admitted-unsolved answered as the Unread Flag: a flag placed where no reader looks does not discharge; it is itself a placement, discharging only on the claim's road, with a buried flag filing as a concealment placement whose existence satisfies the knowledge rung. Design only, never run — no test, no specimen, no result.]*
+
+*T-411 trick seeded 2026-10-24 ~09:50 EDT by the decoder-create-loop.*
