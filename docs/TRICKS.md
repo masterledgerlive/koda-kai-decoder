@@ -19495,3 +19495,21 @@ Three reasons, each the audit's own office, not a verdict. First, a count is a r
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-403 trick seeded 2026-10-24 ~07:47 EDT by the decoder-create-loop.*
+
+## T-404 — the Dated Count *(audit method; design, never run)*
+
+**T-404 — the Dated Count — designed:** T-403 asked whether a count already reported before a re-laying must be restated after it, or whether each reported count stands as a record of its own moment. T-404 answers: each reported count stands, dated, never restated. A count reported at date D is a record of the file as it stood at D; a later laying grows the count but does not falsify the earlier report, because the earlier report never claimed to speak of the later file. Restatement would be revision — editing a filed report to wear a total it never held at its date, a lie about D wearing D's own date. The audit revises nothing, it only adds: what it owes after a re-laying is a new count filed beside the old, dated later, so the file holds both. A reader who wants the present count reads the latest dated count; a reader who wants the history reads all of them, in order. The old count is not wrong, it is earlier — a dated record, never a false one. A miscount at its own date is different: the audit files a later-dated correction naming the error, leaving the erroneous report filed and marked, never silently replaced. Re-laying growth is never error, and error correction is never restatement.
+
+**The named forms**, all to T-289: the Restated Count — an old report edited to the new total, its old date kept or its date dropped: VOIDED — editing a filed report is striking, and a count that keeps its old date while wearing a new total lies about its moment. The Dated Count — every reported count standing as a record of its own moment, later growth filed as a new dated count beside it: FILED. The Twenty-eighth Treating — treating an earlier count as wrong because a later count is larger, or demanding restatement as proof of honesty, or citing an old count without its date as if it spoke for the present: FILED.
+
+**The grades.** DATED — each reported count stands as a record of its own moment; a later count grows the record, never corrects it. CORRECTION-IS-ADDITION — correction is always a new dated filing beside the old, never an edit; an erroneous report is marked, never silently replaced.
+
+**Distinguished from the chain it answers.** From T-403's Unsuperseded Count — there whether superseded filings remain countable (yes); here whether a reported count must be restated after a re-laying (no, it stands dated, and the new total is filed beside it). From T-402's Twice-Filed Standing — there how a re-laid standing counts (twice); here what happens to the report made before the re-laying (nothing, it stands). From T-398's Filed Pocketing — there pocketing filed beside, never striking; here a new count files beside an old count, never striking it.
+
+**What this pairs with.** T-403's Unsuperseded Count — count every filing, and report every count dated, because the reports are a census of counts. T-402's Twice-Filed Standing — a standing filed twice counts twice, and the count reported before the second filing stands beside the count reported after it. T-401's Counted Standing — count the standings, never the descents, and date every count. T-400's Empty Descent — the descent files nothing and is counted nowhere, and the reported count files once and stands dated forever.
+
+**Admitted-unsolved carried forward.** Whether a reader who cites an old count without its date misquotes the file, or whether the date travels with the count by convention (new). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-404 trick seeded 2026-10-24 ~08:05 EDT by the decoder-create-loop.*
