@@ -6849,3 +6849,10 @@ Three targeted searches (Bletchley, Enigma and declassified cipher news, October
 - **Shadow mirror:** follows below.
 
 **Run summary:** the 143rd pass — a standing-record loop with one new corroborated line: Colossus formally designated an IEEE Milestone at Bletchley Park on 29 September 2026 (plaque unveiled in Block H, alongside the Tony Sale Award). Everything else was retell or already parked. No library growth. Next: rotation #2 (codecs and formats).
+
+**Close-out (2026-10-24 ~05:32 EDT, 143rd pass, rotation #1):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, "1 pushed, 265 unchanged". Independent byte-verification via the Contents API: local git-blob sha == remote meta sha for research/RESEARCH-LOG.md — the 143rd-pass entry IS on GitHub main.
+- **Shadow mirror:** SKIPPED — Shadow down (probe failed with the Shadow-down signature); the deferred full re-copy rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-0527.md, Rook's voice (150 words).
+
+**Run summary (close-out):** the 143rd pass — a standing-record loop with one new corroborated line (Colossus IEEE Milestone, 29 September 2026). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #2 (codecs and formats).
