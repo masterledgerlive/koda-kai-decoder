@@ -19047,3 +19047,12 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *T-363 trick seeded 2026-10-23 ~20:05 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## T-364 — the Closed Row *(audit method; design, never run)*
+
+*T-364 trick seeded 2026-10-23 ~20:16 EDT by the decoder-create-loop. Design, never run.*
+
+**T-364 — the Closed Row — designed:** T-363's sharpest unsolved: is the second seal checkable without a third — or does the wax demand the endless row? T-364 answers with a closure, not a third: the row closes at two. A third seal would answer the verdict-question — "did the second hold?" — which the doctrine never asks; the question asked is registry-only ("was it laid, dated, beside the first?"), answerable from the filing without another seal. The registry is not a seal; the regress stops because the question travels downward (seal → registry → the calendar's one-bit review) instead of upward. A check readable from the registry is a filing, not a rite — the doctrine admits the filing. Named forms to T-289: the Open Row, the Counted Row (both VOIDED), the Closed Row (FILES CLEAN). Grades CLOSED / OPEN, quarantined from every verdict on whether any seal held (T-84's hundred-and-fifty-sixth extension). No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-364 (headed, gap-free).
+
+*T-364 trick seeded 2026-10-23 ~20:16 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
