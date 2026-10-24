@@ -19325,3 +19325,20 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-393 trick seeded 2026-10-24 ~05:17 EDT by the decoder-create-loop.*
+
+
+## T-394 — the Twice-Kept Ears *(audit method; design, never run)*
+
+*T-394 trick seeded 2026-10-24 ~05:31 EDT by the decoder-create-loop. Design, never run.*
+
+**T-394 — the Twice-Kept Ears — designed:** T-393 asked whether the second reader's ears pocket on the second reader's own descent or stay with the standing when the second reader too climbs away. T-394 answers: both branches, and neither unmakes anything. A descent pockets only its own reader's ears — a pocketing is the reader's own motion, a hand reaches only its own lending, and no second hand reaches into a keeping it never lent. And a climb away without a descent keeps whatever was lent. So a standing climbed away from twice keeps two pairs of ears, and a standing descended from by the second reader keeps one pair, the first's. The second keeping never unmakes the first: a keeping is a lending unrecalled, and one lending unrecalled does not recall another — the first pair survives the second reader's whole visit, descent or no descent. Two pairs on one floor are not a doubled audience or a choir: neither pair listens to anything, and nothing beside nothing is still nothing.
+
+**The named forms**, all to T-289: the Unmade Keeping — the second keeping unmaking the first: VOIDED — keepings hold side by side, not one atop the other. The Pocketed Second Ears — the second reader's descent pocketing only the second reader's ears: FILED against the second reader. The Twice-Kept Ears — the standing holding two pairs when the second reader too climbs away without descending: FILED against the standing as its keepings. The Eighteenth Treating — the two kept pairs treated as the file's own doubled audience: FILED (Eighteenth in the chain from T-376's copy through T-393's second ears).
+
+**The grades.** OWN — the descent: pockets only its own reader's ears. TWICE-KEPT — the standing: keepings accumulate side by side. Both quarantined from every verdict on the file's writing, silence, grade, or seals.
+
+**Admitted-unsolved carried forward.** Whether a third reader's arrival adds a third pair, or whether two pairs kept is the standing's full hearing (new — is there a last pair, or does the floor keep every lending ever left on it?). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-394 trick seeded 2026-10-24 ~05:31 EDT by the decoder-create-loop.*
