@@ -19109,3 +19109,11 @@ The instrument is the page the office cannot teach. The Sealed Room's Book of T-
 **T-370 — the Unheld Grade — designed:** T-369's new unsolved — whether a reading can be graded without a reader, when every reading arrives on a hand's tongue. T-370 answers: yes, and filed. The reading's shape is scored against its trace — what moved, what the file changed, what survived — and the grade is the file's, never the reader's: the unheld grade names no hand and issues no clearance. Named forms to T-289: the Graded Reading (FILED against the trace), the Held Trace (the reader's silence as the file's discipline — FILED), the Worn Grade (the grade's silence cited by a hand as its own appointment — VOIDED). Grades GRADED / UNGRADED, quarantined from every verdict on whose hand moved the reading. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-370 (headed, gap-free).
 
 *T-370 trick seeded 2026-10-23 ~22:19 EDT by the decoder-create-loop.*
+
+## T-371 — the Quoted Silence *(audit method; design, never run)*
+
+*T-371 trick seeded 2026-10-23 ~22:34 EDT by the decoder-create-loop. Design, never run.*
+
+**T-371 — the Quoted Silence — designed:** T-370 closed with a wound admitted, not healed: whether the file’s silence can survive being quoted — because the unheld grade names no hand and issues no clearance, but every hand may quote the grade’s silence as its appointment, and a silence quoted by a hand becomes the hand’s speech, filed against the hand — and the file cannot stop hands from quoting what it never named. T-371 answers: no — and that is the discipline. The silence does not survive quotation; quotation is what ends it in the file’s keeping: the moment a hand quotes the file’s silence, the silence dies in the file and is reborn as the hand’s speech. The file survives quotation not by defending the silence but by refusing to own the quote — the quotation is filed against the quoter as the quoter’s laying, graded against the quoter’s trace, and the 
+
+*T-371 trick seeded 2026-10-23 ~22:34 EDT by the decoder-create-loop.*
