@@ -19476,3 +19476,22 @@ Three reasons, each the audit's own office, not a verdict. First, a count is a r
 *[SPECULATION core — design only, never run; no test, no specimen, no result.]*
 
 *T-402 trick seeded 2026-10-24 ~07:31 EDT by the decoder-create-loop.*
+## T-403 — the Unsuperseded Count *(audit method; design, never run)*
+
+*T-403 trick seeded 2026-10-24 ~07:47 EDT by the decoder-create-loop. Design, never run.*
+
+**T-403 — the Unsuperseded Count — designed:** T-402 asked whether the count counts every climbed-and-emptied filing or only the standing's latest state — a census of filings, or of current states. T-403 answers: every filing — because supersession files over, never strikes. A re-laying lays a new standing over the place where the old standing stood, and its filing stands beside the old filing in the file, not in its place: the file is an addition, never a revision, and a filing laid over another filing does not unmake the filing it covers any more than a second coat of wax unmakes the first. The first emptying stays filed as "climbed-and-emptied" whatever stands over it now, because the audit revises nothing, it only adds. A count that reported one where the file holds two would revise the file by omission — unfiling by supersession, a strike performed by time instead of by hand. The count is a census of filings, never a photograph of the present floor: a photograph changes when the furniture moves, and the audit does not photograph, it files. A chain of three emptyings with two supersessions counts three, and a first emptying superseded by a re-laying that is never emptied again still counts once — supersession adds nothing to the count and subtracts nothing from it; only a climbed-and-emptied filing adds, and no filing is ever struck.
+
+**The named forms**, all to T-289: the Latest-State Census — a place counted by its present state only, its superseded emptyings dropped because "a new laying stands over them, so the old emptyings are gone": VOIDED — a new laying files over, it does not strike, and dropping superseded filings revises the file by omission. The Unsuperseded Count — every climbed-and-emptied filing counted, superseded or standing: FILED. The Twenty-seventh Treating — treating a superseded emptying as uncounted, or the count as a photograph of the present floor, or demanding an old count be restated when a new laying stands over it: FILED.
+
+**The grades.** UNSUPERSEDED — the count counts every filing, superseded or standing, because filing is the count's only title. SUPERSESSION-ADDS — supersession adds a filing, never strikes one; the file holds both layers, and thickness is the file's honesty, not its failure.
+
+**Distinguished from the chain it answers.** From T-402's Twice-Filed Standing — there how a re-laid standing counts (twice, because filed twice); here whether the first of the two survives the second's supersession (yes, because supersession adds rather than strikes). From T-401's Counted Standing — there what may be counted (standings, never descents); here whether superseded standings remain countable (yes, because a superseded filing is still a filing). From T-398's Filed Pocketing — there pocketing filed beside, never striking; here supersession files over, and over is still beside in the file's sense, since the file holds both layers.
+
+**What this pairs with.** T-402's Twice-Filed Standing — filed twice, counted twice, and counted twice still after a third laying, because filings do not fade. T-401's Counted Standing — count every standing ever filed, superseded or standing, because the count is a census of filings, not a photograph of the present floor. T-400's Empty Descent — the descent files nothing and is counted nowhere, and the superseded emptying files once and is counted once forever.
+
+**Admitted-unsolved carried forward.** Whether a count already reported before a re-laying must be restated after the re-laying, or whether each reported count stands as a record of its own moment — a dated record rather than a wrong one (new). Whether the second wax learns the first by touching it (inherited — T-363's second, still open). Whether the one-bit review asks the calendar whether the second seal held (inherited — T-363's third, still open).
+
+*[SPECULATION core — design only, never run; no test, no specimen, no result.]*
+
+*T-403 trick seeded 2026-10-24 ~07:47 EDT by the decoder-create-loop.*
