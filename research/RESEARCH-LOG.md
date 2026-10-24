@@ -7141,3 +7141,10 @@ Three targeted searches (news vertical: Wireshark 5.0 / Stratoshark 1.0 October 
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-24-1258.md, Rook's voice.
 
 **Run summary:** rotation #3's one-hundred-fifty-eighth pass — quiet loop: three news searches surfaced only retells of filed material (Wireshark 5.0.0rc1 shipped, final date still pending SharkFest EU; Stratoshark 1.0.0rc1 still unconfirmed three days past its scheduled date; no new protocols in any maintenance line). No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-24 ~13:03 EDT, one-hundred-fifty-eighth pass, rotation #3):**
+- **Push result (VERIFIED):** the public entry for this pass is byte-verified on GitHub main (local git-blob sha equals the remote Contents API meta sha for research/RESEARCH-LOG.md); the sync receipt read "1 pushed, 265 unchanged".
+- **Shadow mirror:** skipped — Shadow unreachable (same down signature as recent runs); the mirror retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1258.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #3's one-hundred-fifty-eighth pass — quiet loop, retells only. No library growth. Entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #4 (language decoders).
