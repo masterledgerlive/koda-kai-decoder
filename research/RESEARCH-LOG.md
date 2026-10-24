@@ -6802,3 +6802,17 @@ Two targeted news searches (prompt-injection and indirect-injection news; agent 
 - **Podcast brief:** decoder-briefs/2026-10-24-0358.md, Rook's voice (147 words).
 
 **Run summary (close-out):** the 140th pass — mostly retell, one new claimed line (Korea's agent standard). No library growth. Push byte-verified; Shadow down, mirror deferred. No chat message. Next: rotation #12 (math and physics engines).
+
+## 2026-10-24 ~04:28 EDT — decoder-research-loop — Math/physics engines (rotation #12, one-hundred-forty-first pass)
+
+Three targeted searches (scientific Python releases, symbolic regression, physics simulation news) plus a standing-record check.
+
+- **Re-covered, no status change:** the agent-physics benchmark with fifty unpublished research-level problems (on record — the new writeup retells the same paper and scores, adding only the anecdote that experts corrected their own solutions after the agent disagreed); the tipping-point forecaster built on recurrent neural operators (on record — the new coverage retells the same paper and demonstrations); the physics-labeled prompt calibration study (on record — the new digest adds nothing); the video-to-simulation gap benchmark (on record — retell); the CERN and Mistral collider foundation-model partnership (on record — retell of the statement of intent, still no timeline or budget); the symbolic-regression wave from early twenty twenty-six (all on record, none new); the scientific Python releases stable, no new version in the window.
+- **Parked as texture:** two small new packages — a helicity-amplitude teaching package and an agent-oriented symbolic-math wrapper. Noted, not grown; the library grows on techniques and instruments, not on every wrapper.
+- **Most Wanted re-check:** no standing cipher touched — Kryptos K4, Voynich, the Indus prize, Beale, Linear A all static.
+- **Library changes:** none — a pure re-cover pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-0428.md, Rook's voice (quiet-loop one-liner).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #12's one-hundred-forty-first pass — a quiet loop: the whole window was retell of on-record items, and the two new small packages parked as texture. No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
