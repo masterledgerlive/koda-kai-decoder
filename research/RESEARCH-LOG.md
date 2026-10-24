@@ -7064,3 +7064,15 @@ Two targeted news searches on prompt injection and indirect injection in the wil
 - **Podcast brief:** decoder-briefs/2026-10-24-1027.md, Rook's voice (quiet loop).
 
 **Run summary (close-out):** rotation #11's one-hundred-fifty-third pass — quiet loop, retells only. No library growth. Next: rotation #12 (math/physics engines).
+
+## 2026-10-24 ~10:57 EDT — decoder-research-loop — Math/physics engines (rotation #12, one-hundred-fifty-fourth pass)
+
+Two targeted news-vertical searches (SymPy/SciPy/symbolic-regression/physics-simulation news; new physics simulation engine releases Oct 2026) + standing-record check.
+
+- **Re-covered, no status change:** NVIDIA cuDSS general availability (Oct 21, 2026 — on record; vendor speedup figures already filed, documentation still labeled Preview); NVIDIA Isaac Lab 3.0 modular multi-physics architecture (on record — Newton-solver integration texture only); Arena Physica Heaviside on Microsoft Discovery (Oct 13, on record — claimed electromagnetic-solver speedup still unvalidated); COMSOL Multiphysics 2027 announcement (Sep 16, on record — MCP Server, COMSOL Systems, Electric Motor Module, "later this fall" timing already filed); Mistral × NVIDIA physics-AI partnership (Oct 21 announcement only, on record — public benchmarks and open datasets still promised, none shown); SymPy 1.14.0 stable / 1.15 in dev; SciPy 1.18.1 stable, no 1.19 in window; MuJoCo Warp differentiability still pending; PhySimCode 7.7% video-to-simulation gap; TheoPhysEval memorization control; RNO tipping-point forecasting; the PNAS million-question calibration study (corroborated); the Fed 14/14 ledger (Oct-28 decision four days out, hold about 92.5%); the anomaly bench (Kumo claimed, DE-SVDD/DP-MVAD/osESD corroborated).
+- **Parked at texture:** FrankenSymPy (same single obscure outlet, still uncorroborated); SEO tutorial farms (no new facts); a generic Python-scientific-libraries explainer (no new release or figure).
+- **Grades:** no new graded finding this pass; every item holds its standing grade.
+- **Library changes:** none — a quiet loop, no new technique, engine, or measurement class.
+- **Podcast brief:** decoder-briefs/2026-10-24-1057.md, Rook's voice (quiet loop).
+
+**Run summary:** rotation #12's one-hundred-fifty-fourth pass — quiet loop: the window's math/physics-engine coverage restated already-filed material only. No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
