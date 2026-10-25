@@ -8320,3 +8320,10 @@ Two targeted news-vertical searches (AI agent / bot detection, October 2026; CAP
 
 **Run summary:** rotation #8's two-hundred-fifteenth pass — quiet loop with small new DataDome detail (21,491-site precise count, Meta-ExternalAgent 12.7M spoofed July requests, AI-referral channel 89.4M visits), the rest retells of filed material. No library growth. Next: rotation #9 (sandbox & container tech).
 
+**Close-out (2026-10-25 ~17:50 EDT, two-hundred-fifteenth pass, rotation #8):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: agent detection vs anti-detection (rotation #8, 215th pass) — quiet loop, DataDome detail new to record (21,491-site count, Meta-ExternalAgent 12.7M spoofed July requests, AI-referral 89.4M visits); no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `6a11f6a1f295a331b4e50c2046f2eaa36a4d1c67` (github-public/research/RESEARCH-LOG.md, 2,023,115 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** COMPLETE — probe succeeded (Shadow UP); `scp -r` of the decoder tree and `scp` of MEMORY.md to MEMORY-2026-10-25.md both exit 0, remote sizes byte-verified (RESEARCH-LOG.md 2,023,115 bytes, MEMORY backup 73,687 bytes, both == local).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1727.md, Rook's voice.
+
+**Run summary (close-out):** rotation #8's two-hundred-fifteenth pass — quiet loop with small new DataDome detail (21,491-site precise count, Meta-ExternalAgent 12.7M spoofed July requests, AI-referral channel 89.4M visits), the rest retells of filed material. No library growth. Public entry byte-verified on GitHub main; Shadow mirror complete. No chat message. Next: rotation #9 (sandbox & container tech).
+
