@@ -7409,3 +7409,10 @@ Three targeted news-vertical searches (machine translation advances, low-resourc
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4's one-hundred-seventy-second pass — FARABI's NTK-Mirror upgraded from preprint-claimed to proceedings-verified by a first-party read (five thousand gate scalars, top three on all five into-Arabic directions, pre-posted proceedings four days before Budapest), plus two claimed product launches recorded as texture (Mistral Voxtral 3, VoxNexus VoxEdge) and an Indus hype wave with no new evidence. No library growth. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-24 ~20:05 EDT, one-hundred-seventy-second pass, rotation #4):**
+- **Push result (VERIFIED):** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent byte-verification via the Contents API (not the receipt): local git-blob sha `27b1e35084ccde08559b0eeec5b16d88e2d91eed` (1,789,717 bytes) == remote meta sha for research/RESEARCH-LOG.md — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** deferred — Shadow unreachable (ssh returns "Connection closed by UNKNOWN port 65535": link fine, Shadow itself down — same signature as recent runs); retry rides the next green run.
+- **Podcast brief:** decoder-briefs/2026-10-24-1958.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #4's one-hundred-seventy-second pass — FARABI's NTK-Mirror upgraded from preprint-claimed to proceedings-verified by a first-party read (five thousand gate scalars, top three on all five into-Arabic directions, pre-posted proceedings four days before Budapest), two claimed product launches recorded as texture (Mistral Voxtral 3, VoxNexus VoxEdge), and an Indus hype wave with no new evidence. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #5 (quantum decoding).
