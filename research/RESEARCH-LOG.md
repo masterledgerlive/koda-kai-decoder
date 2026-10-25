@@ -8249,3 +8249,10 @@ Two targeted searches (post-quantum migration, October 2026; quantum error-corre
 
 **Push result:** follows below.
 **Shadow mirror:** follows below.
+
+**Close-out (2026-10-25 ~16:05 EDT, two-hundred-twelfth pass, rotation #5):**
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5, 212th pass) — quiet loop, correlated-matching preprint abstract confirmed (claimed, unchanged); M-26-15 deadline 3 days past, still no public receipt; no library growth" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged", independently byte-verified against GitHub main.
+- **Shadow mirror:** COMPLETE — tree copy and dated MEMORY-2026-10-25.md backup both exit 0.
+- **Podcast brief:** Decoder Desk brief written in Rook's voice (quiet-loop line).
+
+**Run summary (close-out):** rotation #5's two-hundred-twelfth pass — quiet loop with one carrier upgrade, the federal filing deadline still receipt-less, rest retells. No library growth. Public entry pushed; Shadow mirror complete. No chat message. Next: rotation #6 (photonic comms & power).
