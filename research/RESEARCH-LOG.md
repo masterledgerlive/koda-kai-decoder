@@ -7888,3 +7888,5 @@ Two targeted news-vertical searches (unsolved ciphers / Kryptos K4 / Voynich / I
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0658.md, Rook's voice (one-line quiet-loop brief).
 
 **Run summary (close-out):** rotation #13's one-hundred-ninety-fourth pass — no status change on any standing cipher; one title-only Indus video claim rejected on intake. No library growth. Public entry byte-verified on GitHub main. No chat message. Next: rotation #1 (historical codebreaking).
+
+- **Close-out push verification:** second sync run exit 0, stdout "done: 0 pushed, 266 unchanged" — independent Contents-API check shows local git-blob sha `0c338a4165caff2359ed6e8b52774a4e4c19befe` (1,917,733 bytes) == remote meta sha, so the close-out IS on GitHub main. This verification line rides the next run's sync.
