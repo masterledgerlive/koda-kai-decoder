@@ -8132,3 +8132,15 @@ Two targeted news-vertical searches (gVisor/Firecracker agent sandboxing, Octobe
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1230.md, Rook's voice (150 words).
 
 **Run summary (close-out):** rotation #11's two-hundred-fifth pass — one new-to-record item (Microsoft Copilot trust-aware defense, corroborated, recorded-not-grown), two traced Copilot items, rest re-carry. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #12 (math/physics engines).
+## 2026-10-25 ~13:00 EDT — decoder-research-loop — Math/physics engines (rotation #12, two-hundred-sixth pass):
+
+Three targeted searches (SciPy/SymPy releases, October 2026; symbolic regression + physics simulation, 2026, news vertical; SymPy 1.15 / SciPy 2026 update) + standing-record grep across the research log and library/MATH-PHYSICS.md. **Quiet loop — nothing new to record. No library growth.**
+
+- **Re-covered, no status change:** SciPy 1.18.1 stable (PyPI listing re-crawled 7 hours before this pass confirms 1.18.1, August 21, 2026, as latest; no newer release in window); SymPy 1.14.0 stable with 1.15 still in development — the "SymPy 1.15" tutorial pieces are SEO content, not a release announcement. The EO-SR constitutive-law wave (arXiv 2603.19241, February–March 2026), KeplerAgent (arXiv 2602.12259), LaSR, SymLang (arXiv 2603.06869), and the SDE genetic-programming preprint (arXiv 2603.09597) are all on record with library entries; this pass's carriers are re-crawls of the same papers, adding no new figure, release, or status change. The Chaos journal physics-informed symbolic-regression paper (Chaos 36, 023117, 2026) is a domain application below the catalogue bar, not a new engine. No new SymPy/SciPy release, no new symbolic-regression engine, no new physics-simulation library in the window.
+- **Most Wanted re-check:** the math/physics lane touches no standing cipher — Kryptos K4, Voynich, the Indus $1,000,000 prize, Beale 1 and 3, Linear A all static.
+- **Library changes:** none — a pure re-cover pass; everything in the window was already filed.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1258.md, Rook's voice (quiet-loop one-liner).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #12's two-hundred-sixth pass — a quiet loop: SciPy 1.18.1 / SymPy 1.14.0 unchanged, SymPy 1.15 still in development, and the whole symbolic-regression window a re-crawl of on-record papers (EO-SR, KeplerAgent, LaSR, SymLang). No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
