@@ -7655,3 +7655,10 @@ Three targeted news searches (Wireshark dissector support, October 2026; new net
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0200.md, Rook's voice (quiet loop, one line).
 
 **Run summary:** rotation #3's one-hundred-eighty-fourth pass — quiet loop: Stratoshark 1.0.0rc1 still unconfirmed four days past its scheduled date, Wireshark 4.6.9 in yet another retell wave with no new protocols, and the rest of the window was re-carries of filed material. No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-25 ~02:11 EDT, one-hundred-eighty-fourth pass, rotation #3):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py push — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Local git-blob sha `09a05c31ce86fe78c2c503ed2965ce831b4094db` (1,860,222 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** skipped — Shadow unreachable (same down signature as recent runs); retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0200.md, Rook's voice (quiet loop, one line).
+
+**Run summary (close-out):** rotation #3's one-hundred-eighty-fourth pass — quiet loop, byte-verified on GitHub main; Stratoshark 1.0.0rc1 still unconfirmed, no new protocols in the window. No library growth. No chat message. Next: rotation #4 (language decoders).
