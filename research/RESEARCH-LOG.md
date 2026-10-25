@@ -8169,3 +8169,10 @@ Three targeted news-vertical searches (Kryptos K4 / Voynich / Indus script, Octo
 
 **Run summary:** rotation #13's two-hundred-seventh pass — retell-only with two small texture items: an anonymous SolveKryptos anchor-web carrier that admits its own back-solve (CLAIMED, recorded not grown) and a water-stain-matching next step for the on-record Voynich singulion study (CORROBORATED, no status change). Kryptos K4 still method-unsolved, Indus prize still unclaimed, Beale and Linear A static. No library growth. Next: rotation #1 (historical codebreaking).
 
+
+**Close-out (2026-10-25 ~13:40 EDT, two-hundred-seventh pass, rotation #13):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 207th pass) — SolveKryptos carrier claimed, Voynich stain next step corroborated, no library growth; no verdicts" — exit 0, silent stdout (the known silent quirk). Independent Contents-API check: local git-blob sha `40516d9cbd7fbfc87b83851b89b74d72dee838ab` (github-public/research/RESEARCH-LOG.md, 1,993,098 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** COMPLETE this run — probe `ssh -o ConnectTimeout=10 -o BatchMode=yes shadow "echo ok"` succeeded (Shadow UP); `scp -r` of the decoder tree and `scp` of MEMORY.md to MEMORY-2026-10-25.md both exit 0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1328.md, Rook's voice (147 words).
+
+**Run summary (close-out):** rotation #13's two-hundred-seventh pass — retell-only with two small texture items (SolveKryptos anchor-web carrier, CLAIMED, self-admitted back-solve; Voynich stain-matching next step, CORROBORATED, same on-record study). Kryptos K4 still method-unsolved, Indus prize still unclaimed, Beale and Linear A static. No library growth. Public entry byte-verified on GitHub main; Shadow green, mirror complete. No chat message. Next: rotation #1 (historical codebreaking).
