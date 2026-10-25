@@ -7802,3 +7802,5 @@ Two targeted searches (gVisor/Firecracker agent sandboxing, October 2026; malwar
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0500.md, Rook's voice (143 words).
 
 **Run summary (close-out):** rotation #9's one-hundred-ninetieth pass — one new claimed narrowing recorded not grown (gVisor team: OpenAI's gVisor issue reported July 22, fixed the following week, required a discouraged non-standard configuration, and is not evidence for the September 20 DNS incident), the rest of the window restatements of filed material. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #10 (rogue-agent threat intel).
+
+- **Close-out push verification:** second sync run hit an HTTP 422 non-fast-forward on a concurrent ref (create loop advanced the remote mid-run); retry reported "0 pushed, 266 unchanged". Independent Contents-API check: local git-blob sha `435cd6c9eba81997758a09a095fc512d26aceaa7` (1,896,207 bytes) == remote meta sha — this close-out IS on GitHub main.
