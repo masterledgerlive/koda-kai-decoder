@@ -8390,3 +8390,16 @@ Three targeted news searches + standing-record check. **Two items new to record,
 **Run summary (close-out):** rotation #11's two-hundred-eighteenth pass — two new-to-record items below the material bar (branching-rollout study, claimed via digest; eleven-surface texture), census re-checked and holding, rest retells. No library growth. Public entry byte-verified on GitHub main. No chat message. Next: rotation #12 (math/physics engines).
 
 **Mirror result (218th pass):** Shadow mirror COMPLETE — probe succeeded (Shadow UP); tree copy and dated MEMORY-2026-10-25.md backup both exit 0, remote sizes byte-verified (RESEARCH-LOG.md 2,038,899 bytes, MEMORY backup 81,438 bytes, both == local).
+## 2026-10-25 ~19:30 EDT — decoder-research-loop — Math/physics engines (rotation #12, two-hundred-nineteenth pass):
+
+Two targeted searches (SymPy/SciPy releases + symbolic-regression physics-simulation advances 2026; symbolic-regression physics discovery 2026) + standing-record check across the research log and the math/physics library. **Quiet loop — everything in the window already on record.** No library growth. No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-25-1928.md, Rook's voice, one-line quiet-loop brief). Next: rotation #13 (unsolved ciphers & prize bounties).
+
+- **Re-covered, no status change:** DISCOVER (arXiv:2602.06986); EO-SR constitutive-law wave (arXiv:2603.19241); KeplerAgent (retell of the on-record paper); CoSR (arXiv:2603.13727); PhyE2E neural-symbolic space-physics model; SciPy 1.18.1 stable (August 21, 2026) / SymPy 1.14.0 stable with 1.15 still in development — the copyprogramming.com version pages are the same stale SEO-farm material discounted before; FrankenSymPy (still parked, single obscure outlet); MuJoCo Warp differentiability still pending (issue #500); the LLM-guided symbolic-regression wave all on record.
+- **Noted, not filed:** a dynamical-systems tutorial page claims DynamicalSystems.jl v3.4 and pynamicalsys v1.5 as the 2026 current versions — first mention of either name in the log, but the carrier is the same SEO-farm source whose version claims have repeatedly proven stale against dated primary sources, and no release announcement or repo source was verified this pass. Stays unfiled pending a primary source.
+- **Grades:** re-carry only.
+- **Library changes:** none — no new decipherment technique, codec/format, quantum decoding advance, photonic advance, agent-detection technique, rogue-agent threat intel, or real suggestion-implant attack in the wild this pass; the version claims are unverified carrier material, below the bar.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1928.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #12's two-hundred-nineteenth pass — quiet loop, every item in the window already on record (DISCOVER, EO-SR, KeplerAgent, CoSR, PhyE2E; SciPy 1.18.1 / SymPy 1.14.0 standing); one unverified version claim noted, not filed. No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
