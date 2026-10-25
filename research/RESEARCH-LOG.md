@@ -7836,3 +7836,9 @@ Two targeted searches (prompt injection / indirect injection / AI-agent defense,
 - **Re-covered, no status change:** AgentBreaker (peer-reviewed ISSTA 2026, on record); the persistent memory injection preprint across three major chatbot platforms (on record, primary still not read first-party); the Signals Corps header-injection census (on record — zero evidence any injection succeeded); MITRE ATT&CK v20's AI technique cluster (on record); Microsoft's October 19 agent-controls guidance (on record, framework texture); OpenAI's September 25 self-replicating prompt-injection disclosure (on record); the deterministic-filtering + quarantine-agent memory defense (on record texture, peer review still pending); the October 22 self-injection account (on record, provenance texture); the Stingrai 141-CVE prompt-injection census (on record).
 
 **Run summary:** rotation #11's one-hundred-ninety-second pass — two new intakes recorded not grown (AgentVisor defense, CLAIMED; memory-poisoning synthesis detail, CLAIMED), rest retells of filed material. No library growth. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-25 ~06:03 EDT, one-hundred-ninety-second pass, rotation #11):**
+- **Push result:** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (script receipt; no independent byte-check this pass).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0558.md, Rook's voice (148 words).
+
+**Run summary (close-out):** rotation #11's one-hundred-ninety-second pass — two new intakes recorded not grown, rest retells. No library growth. No chat message. Next: rotation #12 (math/physics engines).
