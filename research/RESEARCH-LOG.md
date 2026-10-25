@@ -8063,3 +8063,10 @@ Three targeted news-vertical searches (AI bot detection / behavioral detection /
 
 **Run summary:** rotation #8's two-hundred-second pass — three new claimed texture items recorded not grown (Salesforce Agentic Identity registration planned for November, 1Password agent logins keeping passwords outside the model, PYMNTS Know Your Agent survey), the rest of the window retells of filed material. No library growth. Next: rotation #9 (sandbox & container tech).
 
+**Close-out (2026-10-25 ~11:05 EDT, two-hundred-second pass, rotation #8):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: agent detection vs anti-detection (rotation #8, 202nd pass) — Salesforce Agentic Identity plans + 1Password agent logins + PYMNTS KYA survey claimed, recorded not grown; rest retells, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `a55f5821ae42b918a0f53f6a2e5fe7cd8db65c78` (github-public/research/RESEARCH-LOG.md, 1,963,722 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe `ssh -o ConnectTimeout=10 -o BatchMode=yes shadow "echo ok"` failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature, tailnet link healthy, Shadow itself down; same signature as recent runs). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1100.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #8's two-hundred-second pass — three new claimed texture items recorded not grown (Salesforce Agentic Identity registration planned for November, 1Password agent logins keeping passwords outside the model, PYMNTS Know Your Agent survey), the rest of the window retells of filed material. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #9 (sandbox & container tech).
+
