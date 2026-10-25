@@ -7727,3 +7727,10 @@ Three targeted searches (photonic chip / optical communications, October 2026; f
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #6's one-hundred-eighty-seventh pass — one new short-range optical technique recorded not grown (far-UVC LEDs at 1.5 Gbps over 30 cm — secondary read, primary paper pending), a NVIDIA/Cisco 12.8 Tbps pluggable form-factor receipt parked as texture, Solstar orbital Wi-Fi texture (September 17 demo, 2,300+ files), and both orbital beaming binaries still silent with the late-October window nearly closed. No library growth. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-25 ~03:37 EDT, one-hundred-eighty-seventh pass, rotation #6):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py push — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Local git-blob sha `3d05cf8d12e30306961505792c1de9fc672f85ef` (1,878,561 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — Shadow-down signature, tailnet link healthy). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0328.md, Rook's voice (148 words).
+
+**Run summary (close-out):** rotation #6's one-hundred-eighty-seventh pass — one new short-range optical technique recorded not grown (far-UVC LEDs at 1.5 Gbps over 30 cm — secondary read, primary paper pending), a NVIDIA/Cisco 12.8 Tbps pluggable form-factor receipt parked as texture, Solstar orbital Wi-Fi texture (September 17 demo, 2,300+ files), and both orbital beaming binaries still silent with the late-October window nearly closed. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #7 (predictive math).
