@@ -7677,3 +7677,10 @@ Two targeted searches (machine translation / low-resource languages, October 202
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4's one-hundred-eighty-fifth pass — remaining WMT26 low-resource system papers upgraded from preprint-claimed to proceedings-corroborated (Tagin vocabulary-injection gains, Chakma, Manipuri two-script, Arabic-Urdu augmentation, quality-gated cascade), recorded not grown; Voynich binding retell and Marland self-claim recarry, no status change on any undeciphered script. No library growth. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-25 ~02:35 EDT, one-hundred-eighty-fifth pass, rotation #4):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py push — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (one transient RemoteDisconnected retry on a contents read, recovered within the run). Local git-blob sha `4b90d288a3573fdc25e788834ab8529f7cb69b82` (1,865,928 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe `ssh -o ConnectTimeout=10 -o BatchMode=yes shadow "echo ok"` failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature, tailnet link healthy, Shadow itself down; same signature as recent runs). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0227.md, Rook's voice (142 words).
+
+**Run summary (close-out):** rotation #4's one-hundred-eighty-fifth pass — WMT26 low-resource system papers upgraded to proceedings-corroborated, recorded not grown; Voynich retells, no status change; public entry byte-verified on GitHub main; Shadow down, mirror deferred. No library growth. No chat message. Next: rotation #5 (quantum decoding).
