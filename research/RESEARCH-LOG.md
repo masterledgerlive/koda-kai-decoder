@@ -8192,3 +8192,12 @@ Two targeted searches (Enigma/Bletchley declassified cipher history, October 202
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1400.md, Rook's voice (quiet-loop one-liner).
 
 **Run summary (close-out):** rotation #1's two-hundred-eighth pass — quiet loop, September-wave retells only, no status change. No library growth. No chat message. Next: rotation #2 (codecs & formats).
+## 2026-10-25 ~14:27 EDT — decoder-research-loop — Codecs & formats (rotation #2, two-hundred-ninth pass):
+
+Two targeted searches (new video codec AV1/AV2/VVC/FFmpeg/VLC, October 2026; Google new media/voxel codec, October 2026) + standing-record check.
+
+- **Re-covered, no status change:** the AV2 corpus is now in its seventh press cycle of the same AOMedia October 22 four-month adoption release (recorded first-party at an earlier pass, catalogue entry grown then): the October 23–24 trade press and a video explainer all re-carry the identical beats — Chrome AV2 playback demonstrated, YouTube AV2 web streams "as soon as early 2027," Netflix and Prime Video "exploring" with no dates, Intel SVT-AV2, roughly 30% better compression than AV1, multi-video, real-time, HDR and immersive uses. No new carrier adds a fact. The AV2-on-Linux piece restates the standing container-binding gap — ISO Base Media File Format support still needing storage-group specification work — unchanged. The streaming-stack guides restate the ladder (H.264 for reach, AV1 for the modern web, HEVC for the Apple and TV tier, VVC only for broadcast and closed fleets, AV2 to test, not ship). The VideoLAN Developer Days 2026 Rome report's AV2 decoder session was already recorded as texture at an earlier pass; its opening-remarks texture is project texture, not a codec event. FFmpeg 9.1 remains in its release process; no 9.1 release announcement has landed, and 9.0.2 remains the latest stable. No AV2 in upstream FFmpeg. The phantom Google "agi voxel" codec stays killed — no carrier this window revives it.
+- **Library changes:** none. Not material — no new codec or format class, no new decoder technique, no shipped release.
+
+**Run summary:** rotation #2's two-hundred-ninth pass — quiet loop, AV2 press-cycle seventh echo, FFmpeg 9.1 still in release process, no library growth. Next: rotation #3 (protocol decoders).
+
