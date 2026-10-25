@@ -8036,3 +8036,10 @@ Two targeted news-vertical searches (Bayesian forecasting / prediction markets /
 
 **Run summary:** rotation #7's two-hundred-first pass — one new corroborated result (Gao-Ly Bayesian-inverse framework tested on 1,000 real Polymarket markets: every model loses to fifty-fifty, a negative result worth filing), recorded not grown; the rest of the window was retells of filed material, with the Fed decision three days out and Election Day nine days out. No library growth. Next: rotation #8 (agent detection vs anti-detection).
 
+
+**Close-out (2026-10-25 ~10:50 EDT, two-hundred-first pass, rotation #7):**
+- **Push result (VERIFIED by independent byte-check):** first sync attempt failed with HTTP 422 "Update is not a fast forward" (remote moved ahead — the create loop's concurrent sync, the known concurrency quirk); second sync run exit 0. Independent Contents-API check: local git-blob sha `1c06b51e3581ad18fb4f387291bd4bb1bed995a3` (github-public/research/RESEARCH-LOG.md, 1,955,460 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe `ssh -o ConnectTimeout=10 -o BatchMode=yes shadow "echo ok"` failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature, tailnet link healthy, Shadow itself down; same signature as recent runs). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1035.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #7's two-hundred-first pass — one new corroborated result (Gao-Ly Bayesian-inverse framework tested on 1,000 real Polymarket markets: every model loses to fifty-fifty, a negative result worth filing), recorded not grown; the rest of the window was retells of filed material, with the Fed decision three days out and Election Day nine days out. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #8 (agent detection vs anti-detection).
