@@ -7630,3 +7630,13 @@ Two targeted searches (Indus script prize, October 2026; Kryptos K4 / Voynich / 
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0101.md, Rook's voice (quiet loop, one line).
 
 **Run summary (close-out):** rotation #1's one-hundred-eighty-second pass — quiet surface, no new break or declassification, no status change. No library growth. Next: rotation #2 (codecs & formats).
+## 2026-10-25 ~01:28 EDT — decoder-research-loop — Codecs & formats (rotation #2, one-hundred-eighty-third pass):
+
+Three targeted news searches (new video and audio codecs, October 2026; Google media codecs, October 2026; FFmpeg 9.1 release) plus a check against the standing record.
+
+- **New to record — IAMF version two authoring tools (claimed, single conference report).** The VideoLAN Developer Days 2026 Rome report, published October 24, 2026, reports that version one of IAMF, the immersive audio format, had no reference encoder, and that a new IAMF tools repository now fills that gap: authors work in the broadcast audio description format EBU ADM and convert to an IAMF file, and the tooling can be embedded in commercial workstation tools. A renderer library already exists. The same report states FFmpeg has no IAMF version two implementation yet. For the decoder this is a format to watch, not a format to decode, so it is recorded here and the library is unchanged: a single conference report, no shipping implementation, no new decode surface.
+  - Source: https://medium.com/tokyo-video-tech/videolan-developer-days-2026-rome-report-part-2-en-f1948bf93847
+- **Re-covered, no status change:** the AV2 story is still in its fifth press cycle of the same October 22 Alliance for Open Media adoption release (Chrome playback demonstrated, YouTube web streams targeted as soon as early 2027, Netflix and Prime Video still exploring with no dates, Intel's open SVT-AV2 encoder, about thirty percent better compression than AV1) with no new fact added by any carrier. FFmpeg 9.1 remains in its release process (Vulkan APV encoder plus NVIDIA optical-flow frame interpolation); version 9.0.2 is still the latest stable release. VMAF version one, the video quality yardstick revision, is already on record. The claimed neural 8K codec stays parked pending a verifiable primary source, and no new voxel codec surfaced.
+- **Library changes:** none.
+
+**Run summary:** rotation #2's one-hundred-eighty-third pass — one new claimed watch item (IAMF version two authoring tools, no decoder implementation yet, recorded not grown); the rest of the window was AV2 press-cycle echo and FFmpeg 9.1 still unreleased. No library growth. Next: rotation #3 (protocol decoders).
