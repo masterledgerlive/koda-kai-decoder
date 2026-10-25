@@ -3239,6 +3239,36 @@ decoder-research-loop.*
   one. [CLAIMED — single project page, no independent
   evaluation, no measured detection rate]
 
+- **Agent-based controlled detonation model (Electronics 2026, 15,
+  2348, May 28, 2026; NEW TO RECORD).** Instead of treating the
+  sandbox as a passive observer, the model places an artificial
+  intelligence operator inside the analysis loop: initial profiling,
+  plausible virtual machine preparation, multi-layer telemetry, and a
+  reinforcement-learning policy with visual perception and temporal
+  memory performing adaptive screen interactions, formulated as a
+  partially observable Markov decision process. Evaluation in a
+  controlled emulation setting on one hundred eighty malware samples
+  from three threat classes: higher activity rates and coverage and
+  shorter time-to-reveal than the internal passive and fixed scripted
+  baselines — time-to-reveal from two hundred forty one seconds down
+  to one hundred three seconds, attributed by the authors to
+  identifying the correct activation trigger earlier rather than to
+  faster execution. The authors' own limits are carried with the
+  entry: prior systems were not reimplemented under matched
+  conditions, so no quantitative advantage over external systems is
+  claimed; large-scale deployment orchestration, queue management,
+  and production-grade report generation are architectural
+  components, not evaluated production modules. Lesson: the
+  detonation chamber gains an operator — the defensive counterpart
+  to the evasion suite (uptime, install-age, graphics-hardware, and
+  domain-enrollment checks; mouse-movement geometry; sleep-out
+  delays): instead of waiting out the specimen, the cage learns which
+  interaction makes it talk. Watch: external replication, matched
+  comparison with prior systems, component-wise ablation.
+  [CORROBORATED — peer-reviewed paper via search summary; the full
+  paper was not read first-party this pass]
+  - Source: https://www.mdpi.com/2079-9292/15/11/2348
+
 *Library additions seeded 2026-10-23 ~12:27 EDT and ~20:57 EDT by the
 decoder-research-loop.*
 
