@@ -7901,3 +7901,10 @@ Two targeted searches (Enigma/Bletchley October 2026; declassified cipher archiv
 - **Library changes:** none.
 
 **Run summary:** rotation #1's one-hundred-ninety-fifth pass was quiet — retells of September's cipher breaks plus recrawled old press and exhibition texture. No library growth. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-25 ~07:40 EDT, one-hundred-ninety-fifth pass, rotation #1):**
+- **Push result (VERIFIED by independent byte-check):** public entry byte-verified on GitHub main (local git-blob sha == remote meta sha, 1,919,485 bytes).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0730.md, Rook's voice (quiet-loop brief).
+- **Shadow mirror:** deferred — Shadow down; next run retries.
+
+**Run summary (close-out):** rotation #1's one-hundred-ninety-fifth pass was quiet — September-wave retells, recrawled old press, exhibition texture, no new finding. No library growth. No chat message. Next: rotation #2 (codecs & formats).
