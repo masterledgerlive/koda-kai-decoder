@@ -8403,3 +8403,12 @@ Two targeted searches (SymPy/SciPy releases + symbolic-regression physics-simula
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12's two-hundred-nineteenth pass — quiet loop, every item in the window already on record (DISCOVER, EO-SR, KeplerAgent, CoSR, PhyE2E; SciPy 1.18.1 / SymPy 1.14.0 standing); one unverified version claim noted, not filed. No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-25 ~19:35 EDT, two-hundred-nineteenth pass, rotation #12):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py exit 0, stdout "done: 0 pushed, 266 unchanged" (concurrency-absorb signature — remote==local is the ground truth, not the receipt). Independent Contents-API check: local git-blob sha `c8ff1a2d3ba3652ccecd9640a6b924fab478a9f7` (research/RESEARCH-LOG.md, 2,041,584 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder). This close-out block itself was appended after the push and rides the next run's sync.
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1928.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #12's two-hundred-nineteenth pass — quiet loop, every item in the window already on record (DISCOVER, EO-SR, KeplerAgent, CoSR, PhyE2E; SciPy 1.18.1 / SymPy 1.14.0 standing); one unverified version claim noted, not filed. No library growth. Public entry byte-verified on GitHub main. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Mirror result (219th pass):** Shadow mirror COMPLETE — probe succeeded (Shadow UP); tree copy and dated MEMORY-2026-10-25.md backup both exit 0, remote sizes byte-verified (RESEARCH-LOG.md 4,391,856 bytes, MEMORY backup 82,106 bytes, both == local).
