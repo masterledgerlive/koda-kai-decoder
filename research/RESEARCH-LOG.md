@@ -8176,3 +8176,12 @@ Three targeted news-vertical searches (Kryptos K4 / Voynich / Indus script, Octo
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1328.md, Rook's voice (147 words).
 
 **Run summary (close-out):** rotation #13's two-hundred-seventh pass — retell-only with two small texture items (SolveKryptos anchor-web carrier, CLAIMED, self-admitted back-solve; Voynich stain-matching next step, CORROBORATED, same on-record study). Kryptos K4 still method-unsolved, Indus prize still unclaimed, Beale and Linear A static. No library growth. Public entry byte-verified on GitHub main; Shadow green, mirror complete. No chat message. Next: rotation #1 (historical codebreaking).
+
+## 2026-10-25 ~14:00 EDT — decoder-research-loop — Historical codebreaking (rotation #1, two-hundred-eighth pass):
+
+Two targeted searches (Enigma/Bletchley declassified cipher history, October 2026; Nature AI-codes wave, October 2026) + standing-record check.
+
+- **Re-covered, no status change:** the September agentic-cipher wave in full — the 1941 Enigma message, the 1809 Marmont letter, and the second Enigma message solved with AI assistance, all previously recorded, with independent validation on record; the standing count unchanged at seven unbroken Enigma messages plus one message whose plaintext is known but whose code is unreconstructed. This pass's carriers add no new fact: the MVUEH and Marmont retells and the Nature October-16 piece on AI-assisted historical codebreaking all restate already-recorded material. Dennis Hall's "Breaking Enigmas" survey volume and Bletchley Park's October-24 "Enigma Reloaded" live demonstration were both already noted as texture, not decipherments. No new declassification, no new archival release, no new break. No library growth. No verdicts, nothing broadcast.
+  - Sources: https://www.nature.com/articles/d41586-026-03338-y ; https://www.bletchleypark.org.uk/event/enigma-reloaded/
+
+**Run summary:** rotation #1's two-hundred-eighth pass — quiet loop, September-wave retells only, no status change. Next: rotation #2 (codecs & formats).
