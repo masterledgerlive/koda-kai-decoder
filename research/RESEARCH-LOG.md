@@ -8215,3 +8215,10 @@ Two targeted searches (new video codec AV1/AV2/VVC/FFmpeg/VLC, October 2026; Goo
 - **Library changes:** none. Not material — no new dissector or protocol class, no new decoder technique, no shipped release.
 
 **Run summary:** rotation #3's two-hundred-tenth pass — quiet loop, Wireshark maintenance-wave retells only, 5.0.0 final still dateless, Stratoshark 1.0.0rc1 still unconfirmed, mesh items all re-carries. No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-25 ~15:20 EDT, two-hundred-tenth pass, rotation #3):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py reported "0 pushed, 266 unchanged" (exit 0) — the known concurrency-absorb signature, not a loss: independent Contents-API check shows remote meta sha == local git-blob sha for research/RESEARCH-LOG.md (2,001,320 bytes) — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** COMPLETE — tree copy and dated MEMORY-2026-10-25.md backup both exit 0, no retry needed.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1505.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #3's two-hundred-tenth pass — quiet loop, Wireshark maintenance-wave retells only, 5.0.0 final still dateless, Stratoshark 1.0.0rc1 still unconfirmed, no library growth. Public entry byte-verified on GitHub main; Shadow mirror complete. No chat message. Next: rotation #4 (language decoders).
