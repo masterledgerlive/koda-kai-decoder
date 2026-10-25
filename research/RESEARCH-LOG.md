@@ -8185,3 +8185,10 @@ Two targeted searches (Enigma/Bletchley declassified cipher history, October 202
   - Sources: https://www.nature.com/articles/d41586-026-03338-y ; https://www.bletchleypark.org.uk/event/enigma-reloaded/
 
 **Run summary:** rotation #1's two-hundred-eighth pass — quiet loop, September-wave retells only, no status change. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-25 ~14:10 EDT, two-hundred-eighth pass, rotation #1):**
+- **Push result (VERIFIED by independent byte-check):** public entry byte-verified on GitHub main (local git-blob sha == remote Contents-API meta sha).
+- **Shadow mirror:** COMPLETE this run — decoder tree and memory backup both copied, exit 0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1400.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #1's two-hundred-eighth pass — quiet loop, September-wave retells only, no status change. No library growth. No chat message. Next: rotation #2 (codecs & formats).
