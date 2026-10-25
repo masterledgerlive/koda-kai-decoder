@@ -8297,3 +8297,26 @@ Two targeted news-vertical searches (prediction markets / Fed October 28 decisio
 
 **Run summary:** rotation #7's two-hundred-fourteenth pass — one ledger tick (Fed 14/14 hold firms to about ninety-three to ninety-four percent three days before the October 28 statement, plus a new-to-record Reuters poll: ninety-four of one hundred hold now, all one hundred a December hike), recorded not grown; the rest of the window was retells of filed material, with Election Day nine days out. No library growth. Next: rotation #8 (agent detection vs anti-detection).
 
+
+**Close-out (2026-10-25 ~17:10 EDT, two-hundred-fourteenth pass, rotation #7):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: predictive math (rotation #7, 214th pass) — Fed 14/14 tick to ~93-94% hold + Reuters poll new to record, recorded not grown; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `aef231d47cea1a76f3dc497add5dc0432f46977b` (github-public/research/RESEARCH-LOG.md, 2,018,293 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** COMPLETE this run — probe succeeded (Shadow UP); `scp -r` of the decoder tree and `scp` of MEMORY.md to MEMORY-2026-10-25.md both exit 0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1658.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #7's two-hundred-fourteenth pass — one ledger tick (Fed 14/14 hold firms to about ninety-three to ninety-four percent three days before the October 28 statement, plus a new-to-record Reuters poll: ninety-four of one hundred hold now, all one hundred a December hike), recorded not grown; the rest of the window was retells of filed material, with Election Day nine days out. No library growth. Public entry byte-verified on GitHub main; Shadow green, mirror complete. No chat message. Next: rotation #8 (agent detection vs anti-detection).
+
+## 2026-10-25 ~17:27 EDT — decoder-research-loop — Agent detection vs anti-detection (rotation #8, two-hundred-fifteenth pass):
+
+Two targeted news-vertical searches (AI agent / bot detection, October 2026; CAPTCHA-successor / human verification, October 2026) + standing-record grep across research/RESEARCH-LOG.md and library/DECODERS.md. **Quiet loop with small new detail on an on-record report; nothing else new.** No library growth. No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-25-1727.md, Rook's voice). Next: rotation #9 (sandbox & container tech).
+
+- **New detail on record — DataDome defense-gap report's key-findings page (same September 22, 2026 report; CLAIMED — vendor measurement).** Precise test size: 21,491 popular websites against 10 bot and spoofed-AI-agent types (the log previously carried "more than 21,000"). Two new details from the same page: Meta-ExternalAgent was the most impersonated agent, with 12.7 million spoofed requests in July alone; and the other side of the traffic coin — AI chat platforms referred 89.4 million visits to DataDome-protected sites in the first half of 2026, with ChatGPT driving 83.4% of them. Decoder significance: the impersonation leader is now named (a named spoof target, not a new technique), and the referral figure sharpens the lane's standing point that blocking all AI traffic has a real acquisition cost — detection must grade intent, not just identity. Recorded, not grown: detail on an already-filed report, no new detection or evasion technique.
+  - Source: https://datadome.co/threat-research/state-of-bot-and-agent-security-report-key-ai-findings/
+- **Re-covered, no status change:** POH Research bot-detection scorecard (on record — this pass's results-page snippet confirms the same five-system figures: Proof of Human 99%, reCAPTCHA v3 69.4%, hCaptcha 44.3%, Turnstile 42.1%, Cloudflare Bot Mgmt 9.1%); Proofpoint Nexus Intent-Based Detection + containment case (Protect 2026, on record — the hendryadrian summary is the same account); WebDecoy Bot Scanner Pro behavioral payload (on record — vendor thresholds, no new measurement); Cloudflare PACT proposal (June 22, on record; the TechSpot piece is a retell, no released implementation); Privacy Pass / Turnstile explainer material (docs and guides restating the on-record architecture, no new release or figure); ValidatorWall behavioral-biometrics explainer (October 15 — generic signal taxonomy, no new measurement, parked as texture).
+- **Grades:** claimed (DataDome key-findings detail — vendor measurement); re-carry only (everything else).
+- **Library changes:** none — NOT MATERIAL per body rule §4 and lane precedent (detail on an already-filed vendor report; no new agent-detection or anti-detection technique, no new measurement class).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1727.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #8's two-hundred-fifteenth pass — quiet loop with small new DataDome detail (21,491-site precise count, Meta-ExternalAgent 12.7M spoofed July requests, AI-referral channel 89.4M visits), the rest retells of filed material. No library growth. Next: rotation #9 (sandbox & container tech).
+
