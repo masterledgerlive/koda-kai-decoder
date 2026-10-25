@@ -7594,3 +7594,5 @@ Three targeted news-vertical searches (SymPy/SciPy symbolic-regression physics-s
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-24-2358.md, Rook's voice (148 words).
 
 **Run summary (close-out):** rotation #12's one-hundred-eightieth pass — two new abstract-level equation-discovery methods (Coordinated Genetic Search, journal-published; SORT, spectral framework), both CLAIMED texture pending first-party reads; everything else re-covered. No library growth. Entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+- **Close-out push verification:** second sync run exit 0 with stdout "done: 0 pushed, 266 unchanged" (receipt understates, as before); independent Contents-API check: local git-blob sha `00af0c853c128f139cba78a4c9be536a7b17fe60` (1,849,069 bytes) == remote meta sha — this close-out IS on GitHub main. Remote==local is the ground truth, not the receipt.
