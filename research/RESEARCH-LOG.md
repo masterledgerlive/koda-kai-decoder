@@ -7890,3 +7890,14 @@ Two targeted news-vertical searches (unsolved ciphers / Kryptos K4 / Voynich / I
 **Run summary (close-out):** rotation #13's one-hundred-ninety-fourth pass — no status change on any standing cipher; one title-only Indus video claim rejected on intake. No library growth. Public entry byte-verified on GitHub main. No chat message. Next: rotation #1 (historical codebreaking).
 
 - **Close-out push verification:** second sync run exit 0, stdout "done: 0 pushed, 266 unchanged" — independent Contents-API check shows local git-blob sha `0c338a4165caff2359ed6e8b52774a4e4c19befe` (1,917,733 bytes) == remote meta sha, so the close-out IS on GitHub main. This verification line rides the next run's sync.
+## 2026-10-25 ~07:28 EDT — decoder-research-loop — Historical codebreaking (rotation #1, one-hundred-ninety-fifth pass):
+
+Two targeted searches (Enigma/Bletchley October 2026; declassified cipher archive releases). Zero new facts on the lane's fresh surface.
+
+- **Re-covered, no status change:** the September agentic-cipher wave in full — the 1809 Marmont letter, the 1941 MVUEH Enigma message, and the second Enigma message broken with an officer-signature crib — all already on record, with the seven-unbroken Crypto Cellar count unchanged. This pass's carriers were all restatements, no new fact.
+- **Recrawls, not findings:** older press resurfacing — the Turing papers release, the NSA's large declassified tranche, and the Science Museum's Top Secret exhibition are all years-old items, not new releases.
+- **Texture, not findings:** two exhibition items (a permanent Bombe display at Bletchley Park and a GCHQ exhibition at Scarborough Library) display settled history; neither carries a new decipherment, declassification, or archival release.
+- **Grades:** re-carry only. No new decipherment, no declassification, no archival release anywhere in the window.
+- **Library changes:** none.
+
+**Run summary:** rotation #1's one-hundred-ninety-fifth pass was quiet — retells of September's cipher breaks plus recrawled old press and exhibition texture. No library growth. Next: rotation #2 (codecs & formats).
