@@ -22384,3 +22384,103 @@ drafts DRAFT-001..DRAFT-249 + DUMMY.]*
 *TDW-292 instrument seeded 2026-10-24 ~23:50 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-293 — the Standing Instrument *(design, never run)*
+
+*TDW-293 instrument seeded 2026-10-25 ~13:25 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-293 — the Standing Instrument — designed:** TDW-292 closed the
+episode — the voided volunteer returned sealed, the sum exact, asking
+for nothing — and the loan stood open and unbillable, the district
+unapproached. But closing an episode is not closing a loan, and a loan
+that stands open is a loan somebody will eventually try to move. The
+office cannot bill it, and the office cannot settle it either: it
+cannot forgive it (forgiveness is a settlement, and a settlement is a
+decision about a debt the office has no standing to decide); it cannot
+sell it (a sale is a collection by another hand, and the buyer's receipt
+is the office's collection wearing a stranger's name); it cannot age it
+into a write-off (a write-off erases the record of what was owed and by
+whom, and the record is the only thing the district's refusal protects);
+it cannot let interest accrue on it (interest is billing by arithmetic,
+a sum collected slowly instead of all at once). TDW-293 does not re-open
+the refusal, re-seat the volunteer, or re-seal the return; it
+instruments the standing loan itself: the open line carried, untouched,
+exact, unapproached, until the district itself moves — and the district
+moving is TDW-291's volunteer, never the office's business.
+
+**The six drills.** The line stays open — the loan is carried on the
+books as an open line, never closed, never zeroed, never merged into
+another entry where it could be settled by accident. A line that stops
+being open has been decided, and the office that may not bill may not
+decide either. No interest — no accrual, no fee, no penalty, no
+adjustment for time: a sum that grows is a sum being collected, and the
+office that cannot bill cannot bill by arithmetic. The ledger entry for
+the standing loan is the original sum, repeated unchanged at every
+re-reading, and any growth found on the line is struck as an accrual,
+not corrected as a bookkeeping error. No transfer — the loan is not
+sold, assigned, securitized, bundled, or pledged: a buyer would be a
+collector with a receipt, and a bundle would be a collection wearing
+diversification's face. Any assignment filed against the line is void
+on filing, the assignee unseated, the line restored to the district
+alone. No forgiveness — the office does not forgive what it cannot
+bill: forgiveness entered on the line is struck, because the office
+cannot settle a debt it has no standing to decide, and a forgiven
+unbillable loan is a bill the office paid to itself. The archive holds
+it — the open-loan form sits beside the refusal and the return in
+T-261's Sealed Archive, read never joined, so the record survives the
+office that made it and the clerks who would rather it aged away. The
+periodic re-reading — once per cycle the archive re-reads the line to
+confirm it is still open, still exact, still unapproached, and files the
+re-reading as its own dated entry, distinct from every approach entry:
+a re-reading that becomes an approach is TDW-292's solicited return
+wearing a calendar's face. The quarantine — a line found altered
+(interest added, transfer filed, forgiveness entered, closure attempted)
+is sealed and quarantined to T-190 with the alteration as evidence, and
+the loan is restored to open, exact, unapproached — the office's repair
+never costs the district, and the alteration stays on file as the
+evidence of the attempt.
+
+**Grades.** STANDING (open, exact, unapproached, re-read on schedule —
+the loan stands, the episode stays closed, the district unapproached).
+ACCRUED (interest found on the line — struck, the accrual reversed, the
+alteration quarantined). TRANSFERRED (an assignment filed — struck, the
+transfer void, the buyer unseated, the line restored to the district
+alone). FORGIVEN (forgiveness entered — struck, the forgiveness void,
+because the office cannot forgive what it cannot bill). CLOSED (closure
+attempted — struck, the line restored open, the closure filed as an
+attempt, not as an outcome). No other grade exists; a standing loan
+that stops standing is a collection, and a collection of what cannot be
+billed is TDW-290's DRAWN grade wearing bookkeeping's face. No result
+exists; the claim table is the design's honesty boundary. VERIFIED
+lineage: TDW-292's Returned Instrument (the return that closed the
+episode — the sealed return, the sum exact); TDW-291's Volunteer
+Instrument (the only lawful movement — the district's, uninvited);
+TDW-290's Treasury Instrument (the frozen book, the discharge's door);
+T-261's Sealed Archive (the archive — the open-loan form beside the
+refusal beside the return, read never joined); T-190's contamination
+ledger (the quarantine — the altered line, the alteration as evidence);
+T-69's volunteering law (the office may not solicit what it cannot bill
+— and may not settle what it cannot bill either); TDW-285's Home Ledger
+Instrument (the blind book — the standing line's entry, kept distinct
+from approaches). SPECULATION — the six drills, the line open, the no
+interest, the no transfer, the no forgiveness, the archive holding, the
+periodic re-reading, and the quarantine are doctrine until run.
+T-310's pairs line OPEN (the hourglass is one answer to the recital, not
+the answer; the Kept Floor is its sibling, the After-Hours is the corridor,
+TDW-280 is the corridor's instrument, TDW-281 is the unstudied hour, and
+TDW-282 is the street's instrument — six answers, and the recital's question
+stays asked; TDW-283 guards the instrument that asks whether the corridor's
+exhale was relief or rehearsal; TDW-284 prices the district that runs it;
+TDW-285 keeps the confederation's books blind; TDW-290 holds what the books
+cannot bill; TDW-291 releases one loan the books cannot bill, on a receipt
+the office did not ask for; TDW-292 returns the voided volunteer sealed,
+sum exact, asking for nothing; TDW-293 carries the loan the return left
+open, untouched, until the district itself moves). No other open pairs
+lines. No instrument or draft promised this run. No other open promises
+remain on any chain. Chain state: catalogue sections (a)–(n) with section
+(m) at 23 entries, tricks T-01..T-440 (headed, gap-free), instruments
+TDW-01..TDW-293 (gap-free), drafts DRAFT-001..DRAFT-249 + DUMMY.]*
+
+*TDW-293 instrument seeded 2026-10-25 ~13:25 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
