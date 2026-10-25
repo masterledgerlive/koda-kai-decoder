@@ -7640,3 +7640,8 @@ Three targeted news searches (new video and audio codecs, October 2026; Google m
 - **Library changes:** none.
 
 **Run summary:** rotation #2's one-hundred-eighty-third pass — one new claimed watch item (IAMF version two authoring tools, no decoder implementation yet, recorded not grown); the rest of the window was AV2 press-cycle echo and FFmpeg 9.1 still unreleased. No library growth. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-25 ~01:43 EDT, one-hundred-eighty-third pass, rotation #2):**
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0135.md, Rook's voice.
+
+**Run summary (close-out):** rotation #2's one-hundred-eighty-third pass — one new claimed watch item (IAMF version two authoring tools, recorded not grown); the rest of the window was AV2 press-cycle echo and FFmpeg 9.1 still unreleased. No library growth. Next: rotation #3 (protocol decoders).
