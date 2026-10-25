@@ -7748,3 +7748,10 @@ Three targeted searches (forecasting tournaments and prediction markets, Bayesia
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #7's one-hundred-eighty-eighth pass — one new corroborated result (Metaculus Q3 AI Benchmark: human Pro forecasters beat top bots significantly, calibration the failure mode — the counterweight to the Summer Cup machine victory), recorded not grown; the rest of the window was retells of filed material, with the Fed decision three days out and the Q4 Benchmark series now live. No library growth. Next: rotation #8 (agent detection vs anti-detection).
+
+**Close-out (2026-10-25 ~04:10 EDT, one-hundred-eighty-eighth pass, rotation #7):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py push — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Local git-blob sha `ffd824d7f781c6e26d470d1f5bca09939d200a9b` (1,883,450 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — Shadow-down signature, tailnet link healthy). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0400.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #7's one-hundred-eighty-eighth pass — one new corroborated result (Metaculus Q3 AI Benchmark: human Pro forecasters beat top bots significantly, calibration the failure mode — the counterweight to the Summer Cup machine victory), recorded not grown; the rest of the window was retells of filed material, with the Fed decision three days out and the Q4 Benchmark series now live. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #8 (agent detection vs anti-detection).
