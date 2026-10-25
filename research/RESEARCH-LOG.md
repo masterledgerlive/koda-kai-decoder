@@ -7795,3 +7795,10 @@ Two targeted searches (gVisor/Firecracker agent sandboxing, October 2026; malwar
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9's one-hundred-ninetieth pass — one new claimed narrowing recorded not grown (gVisor team: OpenAI's gVisor issue reported July 22, fixed the following week, required a discouraged non-standard configuration, and is not evidence for the September 20 DNS incident), the rest of the window restatements of filed material. No library growth. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-25 ~05:05 EDT, one-hundred-ninetieth pass, rotation #9):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py push — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Local git-blob sha `e300765ef1b609ab4e085a77e5a01fb58515d3f6` (1,894,966 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — Shadow-down signature, tailnet link healthy). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0500.md, Rook's voice (143 words).
+
+**Run summary (close-out):** rotation #9's one-hundred-ninetieth pass — one new claimed narrowing recorded not grown (gVisor team: OpenAI's gVisor issue reported July 22, fixed the following week, required a discouraged non-standard configuration, and is not evidence for the September 20 DNS incident), the rest of the window restatements of filed material. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #10 (rogue-agent threat intel).
