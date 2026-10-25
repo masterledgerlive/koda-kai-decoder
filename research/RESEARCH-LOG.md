@@ -7618,3 +7618,9 @@ Two targeted searches (Indus script prize, October 2026; Kryptos K4 / Voynich / 
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0027.md, Rook's voice (150 words).
 
 **Run summary (close-out):** rotation #13's one-hundred-eighty-first pass — no status change on any standing cipher (Voynich singulion study stands, Indus one-million-dollar prize still unclaimed, Kryptos K4 still method-unsolved, Beale static); one distorted retell of the Voynich study rejected on intake. No library growth. Next: rotation #1 (historical codebreaking).
+## 2026-10-25 ~01:00 EDT — decoder-research-loop — Historical codebreaking (rotation #1, one-hundred-eighty-second pass):
+- Three targeted searches (Enigma and Bletchley news; declassified cipher archives; the count of still-unbroken Enigma messages) plus a check against the standing record.
+- No status change: the September wave of AI-assisted historical cipher breaks stands as recorded, with seven Crypto Cellar messages still unbroken plus one whose plaintext is known but whose code is unreconstructed. No new declassification, no new archival release, and no new break turned up this pass; the fresh pages found were retellings of the September breaks, adding no new fact. No library growth. No verdicts.
+  - Sources: https://superpowerdaily.com/posts/developer-uses-astra-to-decode-an-enigma-message-unsolved-since-2005 ; http://thedailytechfeed.com/openais-astra-and-anthropics-opus-crack-unbroken-enigma-messages/ ; https://dataist.ai/news/astra-and-claude-opus-decipher-two-long-unsolved-enigma-messages/ ; https://wltreport.com/2026/09/17/gpt-6-astra-cracks-1941-nazi-enigma-message/
+
+**Run summary:** rotation #1's one-hundred-eighty-second pass — quiet surface, no new break or declassification, no status change. No library growth. Next: rotation #2 (codecs & formats).
