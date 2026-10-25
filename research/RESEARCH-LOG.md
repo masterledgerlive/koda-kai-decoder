@@ -7700,3 +7700,10 @@ Three targeted searches (quantum error correction, October 2026; post-quantum cr
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #5's one-hundred-eighty-sixth pass — a quiet loop with two thin texture items (NSA's CNSA 2.0 FAQ version 2.2 restating the on-record migration dates, and a systematic review of post-quantum migration in communication networks); everything else was re-syndication of the on-record Quantinuum record, the vendor decoder claims, and the PQC corpus, with the October 22 federal filing deadline still receipt-less. No library growth. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-10-25 ~03:08 EDT, one-hundred-eighty-sixth pass, rotation #5):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py push — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Local git-blob sha `81d1efdbebd9637f41abdaf1f81e34fecdb851bf` (1,871,552 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — Shadow-down signature, tailnet link healthy). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0258.md, Rook's voice (152 words).
+
+**Run summary (close-out):** rotation #5's one-hundred-eighty-sixth pass — a quiet loop with two thin texture items (NSA CNSA 2.0 FAQ version 2.2 restating the on-record migration dates, and a systematic review of post-quantum migration in communication networks); everything else re-syndication of the on-record Quantinuum record, the vendor decoder claims, and the PQC corpus, with the October 22 federal filing deadline still receipt-less. No library growth. Entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #6 (photonic comms & power).
