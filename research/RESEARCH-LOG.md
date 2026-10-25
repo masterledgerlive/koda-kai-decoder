@@ -7778,3 +7778,5 @@ Two targeted news-vertical searches (AI bot detection / behavioral detection / C
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0428.md, Rook's voice (153 words).
 
 **Run summary (close-out):** rotation #8's one-hundred-seventy-seventh pass — one new claimed control design recorded not grown (Synodic connection escrow, author-only suite), a novelty game spotted, and the rest of the window was retells of filed material. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #9 (sandbox & container tech).
+
+- **Close-out push verification:** second sync run exit 0, "2 pushed, 264 unchanged" (docs/TRICKS.md absorbed from the create loop's own change — the known concurrency quirk — plus this pass's close-out). Independent Contents-API check: local git-blob sha `723b4fb0f2d457c840ce97c3b42444f64dbc1460` (1,890,684 bytes) == remote meta sha — this close-out IS on GitHub main.
