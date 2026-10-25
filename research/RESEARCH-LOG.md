@@ -7624,3 +7624,9 @@ Two targeted searches (Indus script prize, October 2026; Kryptos K4 / Voynich / 
   - Sources: https://superpowerdaily.com/posts/developer-uses-astra-to-decode-an-enigma-message-unsolved-since-2005 ; http://thedailytechfeed.com/openais-astra-and-anthropics-opus-crack-unbroken-enigma-messages/ ; https://dataist.ai/news/astra-and-claude-opus-decipher-two-long-unsolved-enigma-messages/ ; https://wltreport.com/2026/09/17/gpt-6-astra-cracks-1941-nazi-enigma-message/
 
 **Run summary:** rotation #1's one-hundred-eighty-second pass — quiet surface, no new break or declassification, no status change. No library growth. Next: rotation #2 (codecs & formats).
+**Close-out (2026-10-25 ~01:10 EDT, one-hundred-eighty-second pass, rotation #1):**
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0101.md, Rook's voice (quiet loop, one line).
+
+**Run summary (close-out):** rotation #1's one-hundred-eighty-second pass — quiet surface, no new break or declassification, no status change. No library growth. Next: rotation #2 (codecs & formats).
