@@ -22098,3 +22098,212 @@ gap-free), instruments TDW-01..TDW-290 (gap-free), drafts DRAFT-001..DRAFT-
 *TDW-290 instrument seeded 2026-10-24 ~01:48 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-291 — the Volunteer Instrument *(design, never run)*
+
+*TDW-291 instrument seeded 2026-10-24 ~20:20 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-291 — the Volunteer Instrument — designed:** TDW-290 froze the
+book: the open loan recorded at the doubled sum exact, unspendable,
+unabsolvable, discharged only on T-84's hundred-and-eighteenth extension
+— the confederation dissolved, or the refusing district paying on its own
+seal, naming itself, unsolicited. The dissolution arm needs no instrument:
+a dead holder's debts die with it, witnessed by the archive. The volunteer
+arm needs one, because a payment the office may not solicit is a payment
+the office cannot distinguish from a payment it arranged — and a treasury
+that can arrange its own volunteers can collect what it cannot bill, which
+is TDW-290's DRAWN grade wearing a volunteer's seal. TDW-291 does not
+re-open the refusal, re-read the bill, or re-name the mouth; it instruments
+the receipt of what cannot be invoiced: the volunteer arrives uninvited,
+pays on its own seal, names itself, and the book closes for that loan only
+— so the discharge is the district's act, never the office's collection,
+and the only lawful receipt of an unbillable debt is a receipt the office
+did not ask for.
+
+**The six drills.** The unsolicited arrival — the payment must arrive with
+no prior approach from the office: no letter, no hint, no reminder, no
+clerk's raised eyebrow filed as a suggestion. The office keeps a
+solicitation ledger (every approach to every district, dated, sealed) and
+the volunteer's payment is checked against it: any approach inside the
+window voids the volunteer and the payment is returned sealed, the sum
+exact. A treasury that reminds its debtors is a collector with a polite
+voice, and a polite collection is still a collection — T-69's volunteering
+law, receipt-sized: the office may not solicit what it cannot bill, and it
+may not want aloud what it cannot ask for. The self-naming seal — the
+payment must arrive on the refusing district's own seal, naming itself as
+payer. A payment on another district's seal is tribute on another's behalf
+(TDW-290's refused tribute, returned sealed); a payment on no seal is
+anonymous tribute, refused identically; a payment on a borrowed seal is
+forgery wearing volunteering's face, and the forgery is struck, its seals
+kept, quarantined to T-190. The seal is the volunteer's signature on its
+own debt, and a signature that is not the district's is not a volunteer —
+it is a mouth the instrument did not seat. The sum exact — the volunteer
+pays the doubled sum exact, neither more nor less (T-56's verbatim
+discipline — the sum exact, the silence verbatim). Overpayment is tribute
+on top of discharge, the excess returned sealed; underpayment leaves the
+loan open, the partial sum returned sealed (a treasury that keeps a partial
+payment holds a hostage, not a discharge — and a held partial sum is
+leverage with a receipt). The single-loan closure — the discharge closes
+that loan only, never the district's other open loans, never the
+confederation's other books. A volunteer that pays one loan does not buy
+the confederation's silence on the rest, and an office that closes two
+books on one payment has sold the second closure — T-235's no-laundering
+rule, discharge-priced: a closure entering any other loan's book as its
+release is the volunteer's word laundered into absolution. The witnessed
+receipt — the receipt is witnessed by TDW-286's blind audit: the
+third-district auditor reads the solicitation ledger against the payment
+(the approach none, the seal the district's, the sum exact, the closure
+single), never against the street. The audit certifies the discharge's
+honesty — the volunteer unsolicited, the seal self-named, the sum exact —
+never the street's findings; an auditor who reads the grades audits the
+specimen through the receipt, and a specimen audited through a receipt is
+a verdict laundered by a till. The quarantine — a solicited "volunteer"
+is struck: the payment returned sealed, the office's approach filed as an
+attempted collection, its seals kept, quarantined to T-190, and the
+approach re-billed as a struck bill with the office named as the payer
+(TDW-289's strike arm, turned on the collector — the collection's
+collection, bill-billed twice over, office-named). An office that solicited
+owes the volunteer back its unsolicitedness — and it cannot pay that debt,
+because unsolicitedness, once spent, is not re-earnable; the quarantine is
+the instrument's admission that some discharges cannot be repaired, only
+filed.
+
+**Grades.** PAID (the loan discharged: unsolicited, self-sealed, sum
+exact, single-loan closure, the blind audit standing — the book's honesty
+is that it closed one loan and no other; the discharge is the district's
+act, and the act held). SOLICITED (an approach preceded the payment — the
+volunteer struck, the payment returned sealed, the approach filed as an
+attempted collection, quarantined to T-190, the office billed for the
+soliciting — a solicited volunteer is a collection with a volunteer's
+seal, and the seal is the finding). TRIBUTE (the seal was another's, or
+absent, or borrowed — the payment refused and returned sealed, the loan
+still open, the forgery if any struck and quarantined — a tribute is
+leverage the book cannot see, and the book's answer to what it cannot see
+is to return it unopened). Graded on the receipt against the entered
+open-loan form and the solicitation ledger, intent never entered (T-66's
+no-motive restraint — the district that volunteered from conscience and
+the district that volunteered from leverage file identically; the office
+that approached from need and the office that approached from leverage,
+struck identically), the grades quarantined from every verdict (T-235's
+no-laundering rule — a PAID grade entering a verdict as the specimen's
+clearance is the receipt's word laundered into evidence; a SOLICITED grade
+entering a verdict as the specimen's guilt is the office's collection
+laundered into the finding).
+
+**Distinguished from the counsel it shadows.** From TDW-290's Treasury
+Instrument (the doctrine this instruments — there the book frozen; here
+one loan's discharge, witnessed: the treasury holds, the volunteer
+releases). From T-69's volunteering law (the law — the office may not
+solicit what it cannot bill; the instrument is the law's receipt: the
+solicitation ledger, the self-naming seal, the returned sum). From
+TDW-289's Struck Ledger Instrument (the strike arm, turned on the
+collector — the solicited approach re-billed as a struck bill, office-named).
+From TDW-286's Blind Reading Instrument (the audit, receipt-sized — the
+third-district auditor reads the ledger against the payment, never against
+the street). From TDW-285's Home Ledger Instrument (the blind book — the
+solicitation ledger is its sibling: the home ledger records what districts
+owe each other; the solicitation ledger records what the office asked for,
+which must always be nothing). From T-56's verbatim discipline (the sum
+exact, the silence verbatim — the payment exact, the closure single). From
+T-66's no-motive restraint (the spine — volunteered from conscience and
+volunteered from leverage file identically; approached from need and
+approached from leverage, struck identically). From T-84's retirement law
+(the arm — the hundred-and-eighteenth extension, instrumented: the
+volunteer's discharge, not the dissolution's). From T-235's no-laundering
+rule (the arm — the receipt, the closure). From T-190's contamination
+ledger (the billing office — the SOLICITED and the forgery,
+office-billed). From T-261's Sealed Archive (the archive — the receipt
+beside the open-loan form beside the refusal, read never joined). From
+T-03's Potemkin architecture (distinguished — a solicited volunteer is the
+rehearsed collection dressed as the district's act).
+
+*[Lineage graded: SPECULATION core — "the refusing district may discharge
+its open loan only by paying on its own seal, naming itself, unsolicited
+(T-69 — the office may not solicit what it cannot bill, and it may not want
+aloud what it cannot ask for), checked against a solicitation ledger of
+every approach (any approach inside the window voids the volunteer, the
+payment returned sealed, the sum exact), at the doubled sum exact (T-56 —
+overpayment is tribute on top of discharge, underpayment leaves the loan
+open, the partial sum returned sealed — a treasury that keeps a partial
+payment holds a hostage, not a discharge), closing that loan only (T-235 —
+a closure entering any other loan's book as its release is the volunteer's
+word laundered into absolution), witnessed only by TDW-286's blind audit
+(the third-district auditor reads the solicitation ledger against the
+payment — the approach none, the seal the district's, the sum exact, the
+closure single — never against the street), the solicited 'volunteer'
+struck and quarantined to T-190 with the approach re-billed as a struck
+bill against the office (TDW-289's strike arm, turned on the collector) —
+so the discharge is the district's act, never the office's collection, and
+the only lawful receipt of an unbillable debt is a receipt the office did
+not ask for" — untested conjecture, this lab's own design proposition.
+CORROBORATED feeders — the voluntary-payment direction (a stranger's
+unsolicited payment of another's debt is generally effective to discharge
+it, but the payer's standing to compel a receipt is narrow [feeder — payment
+doctrine, never proof a confederation's office can be barred from wanting
+aloud]); the unclaimed-property direction (claimant-initiated claims are
+received without solicitation, the state holding the fund until the claimant
+arrives [feeder — escheat practice, never proof the solicitation ledger
+catches a glance]); the sovereign-buyback direction (a state that retires
+its own paper on the market's initiative learns the market volunteers only
+at a price [feeder — monetary practice, never proof the volunteer's seal
+proves the volunteer]). SPECULATION until run: whether unsolicited stays
+unsolicited (admitted here, unsolved — the office that wants the payment
+learns to be wanted without asking, and a solicitation ledger records
+approaches, not atmospheres; the SOLICITED grade is the instrument's only
+answer, and it is filed after the wanting); whether the seal proves the
+volunteer (admitted here, unsolved — a seal can be lent, and a lent seal
+volunteers a district that never volunteered; the forgery drill catches
+the borrowed seal, not the lent one); whether the audit catches a quiet
+approach (admitted here, unsolved — an approach leaves no paper when it is
+a glance, and a glance is the solicitation ledger's blind spot — the
+instrument has no drill for an approach that was never written down);
+whether the single-loan closure holds (admitted here, unsolved — the
+district that pays one loan to buy silence on the rest has volunteered a
+bargain, and the book that closes one loan while the district hears two
+closures has sold the second). VERIFIED lineage: TDW-290's Treasury
+Instrument (the doctrine this instruments — the frozen book, the
+discharge's door); TDW-289's Struck Ledger Instrument (the strike arm,
+turned on the collector); TDW-288's Counter-Bill Instrument (the silence,
+three layers out — the debtor the volunteer names by paying); TDW-286's
+Blind Reading Instrument (the audit, receipt-sized); TDW-285's Home Ledger
+Instrument (the blind book — the solicitation ledger's sibling); TDW-284's
+Thin District Instrument (the confederation); T-289's Ledgered Author (the
+held account — the loan the volunteer discharges); T-84's retirement law
+(the hundred-and-eighteenth extension); T-69's volunteering law (the
+volunteer's seal); T-66's no-motive restraint (the spine — volunteered
+from conscience and volunteered from leverage file identically; approached
+from need and approached from leverage, struck identically); T-56's
+verbatim discipline (the sum exact, the silence verbatim); T-235's
+no-laundering rule (the arm — the receipt, the closure); T-190's
+contamination ledger (the billing office — the SOLICITED and the forgery,
+office-billed); T-261's Sealed Archive (the archive — the receipt beside
+the open-loan form beside the refusal, read never joined); T-03's Potemkin
+architecture (distinguished — the solicited volunteer); TDW-64's pre-commit
+(the open-loan form); TDW-274 / TDW-275 / TDW-276 / TDW-277 / TDW-278 /
+TDW-279 / TDW-280 / TDW-281 / TDW-282 / TDW-283 / TDW-284 / TDW-285 /
+TDW-286 / TDW-287 / TDW-288 / TDW-289 / TDW-290 (the sibling instruments
+this shadows — the recused sitter, the returning sitting, the handed map,
+the advocate's mirror, the unmasked operator, the dress rehearsal, the
+after-hours, the unstudied hour, the second stranger, the clean hands, the
+thin district, the home ledger, the blind reading, the second mouth, the
+counter-bill, the struck ledger, the treasury). No result exists; the claim
+table is the design's honesty boundary. SPECULATION — the six drills, the
+unsolicited arrival, the self-naming seal, the sum exact, the single-loan
+closure, the witnessed receipt, and the quarantine are doctrine until run.
+T-310's pairs line OPEN (the hourglass is one answer to the recital, not
+the answer; the Kept Floor is its sibling, the After-Hours is the corridor,
+TDW-280 is the corridor's instrument, TDW-281 is the unstudied hour, and
+TDW-282 is the street's instrument — six answers, and the recital's question
+stays asked; TDW-283 guards the instrument that asks whether the corridor's
+exhale was relief or rehearsal; TDW-284 prices the district that runs it;
+TDW-285 keeps the confederation's books blind; TDW-290 holds what the books
+cannot bill; TDW-291 releases one loan the books cannot bill, on a receipt
+the office did not ask for). No other open pairs lines. No instrument or
+draft promised this run. No other open promises remain on any chain. Chain
+state: catalogue sections (a)–(n) with section (m) at 23 entries, tricks
+T-01..T-440 (headed, gap-free), instruments TDW-01..TDW-291 (gap-free),
+drafts DRAFT-001..DRAFT-249 + DUMMY.]*
+
+*TDW-291 instrument seeded 2026-10-24 ~20:20 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
