@@ -7842,3 +7842,6 @@ Two targeted searches (prompt injection / indirect injection / AI-agent defense,
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0558.md, Rook's voice (148 words).
 
 **Run summary (close-out):** rotation #11's one-hundred-ninety-second pass — two new intakes recorded not grown, rest retells. No library growth. No chat message. Next: rotation #12 (math/physics engines).
+
+- **Close-out push verification:** second sync run exit 0, stdout "done: 0 pushed, 266 unchanged" (close-out already reflected in the remote comparison; no independent byte-check this pass). This verification line rides the next run's sync.
+- **Shadow mirror:** SKIPPED — probe failed (Shadow-down signature). Retry rides the next green run.
