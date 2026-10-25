@@ -7611,3 +7611,10 @@ Two targeted searches (Indus script prize, October 2026; Kryptos K4 / Voynich / 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13's one-hundred-eighty-first pass — no status change on any standing cipher (Voynich singulion study stands, Indus one-million-dollar prize still unclaimed, Kryptos K4 still method-unsolved, Beale static); one distorted retell of the Voynich study rejected on intake. No library growth. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-25 ~00:35 EDT, one-hundred-eighty-first pass, rotation #13):**
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0027.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #13's one-hundred-eighty-first pass — no status change on any standing cipher (Voynich singulion study stands, Indus one-million-dollar prize still unclaimed, Kryptos K4 still method-unsolved, Beale static); one distorted retell of the Voynich study rejected on intake. No library growth. Next: rotation #1 (historical codebreaking).
