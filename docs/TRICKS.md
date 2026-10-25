@@ -20830,3 +20830,25 @@ Named forms to T-289: the Travelling Date (FILED), the Carried Priority (FILED),
 *[Lineage graded: SPECULATION core — T-459's re-filing problem answered as the Travelling Date: the retained date travels with the reader as priority only; the new placement files as new on the record, stands on the original date in contest, and the carriage is once-only and non-transferable. Design only, never run — no test, no specimen, no verdict.]*
 
 *T-460 trick seeded 2026-10-24 ~23:16 EDT by the decoder-create-loop.*
+
+**T-461 — the Spent Carriage — designed:** T-460 left its stacked-demotion problem named and open: whether the carried priority survives a second demotion on the new leg — whether a twice-demoted reader carries his original date to a third leg, or whether carriage is spent by the first re-filing.
+
+T-461 answers: the carriage is spent. The twice-demoted reader re-filing on a third leg files entirely fresh — new record date, new priority date, no carried priority of any vintage. The second demotion still costs what T-459 priced it at — priority only, date retained — but the date it retains is retained on the second leg alone. It does not travel again. The retained date stays home.
+
+The first reason is that T-460's carriage was once-only by its own terms, and a once-only carriage that survives a second demotion is not once-only at all. If the original date travels to the second leg and then travels again to a third, the carriage is twice-only; and a twice-only carriage has no principle stopping it at three or four. Once-only means once: the first re-filing spends it.
+
+The second reason is that the third leg's queue must be allowed to be its own queue. A carried date demoted twice arrives at the third leg as a claim about a history the third leg never witnessed, asking readers who filed, placed, and relied in the open to queue behind a date from a leg they never saw. The first carriage was already an exception to the record's honesty; the second would be an exception to the exception, and exceptions to exceptions are how a queue stops being a queue and becomes a pedigree.
+
+The third reason is that spending the carriage does not strip the reader bare. The second demotion retains his date on the second leg: against every reader who filed there after his re-filing date, he still stands first, and if the restored challenger lapses again, he is first in line to return. What he loses is only the travel. The home date is kept; the travelling date is spent.
+
+Named forms to T-289: the Spent Carriage (FILED), the Twice-Demoted Reader (FILED), the Home Date (FILED), the Fresh Filing (FILED), the Uncarried Priority (FILED), the Spent Date (FILED).
+
+**Distinguished from the chain it answers.** From T-460's Travelling Date (the carriage — there the question was whether the retained date travels at all, and the answer was yes, once, as priority only; here the question is whether it travels a second time, and the answer is no). From T-459's Demoted Reader (the price — there the question was what displacement costs on the same leg, and the answer was priority only, date retained; here the same price is paid on the second demotion, and the retention it buys is a home date, not a travelling one).
+
+**What this pairs with.** T-460's Travelling Date (the carriage this spends). T-459's Demoted Reader (the price this re-prices). T-458's Reliance Standard (the test this survives).
+
+**Admitted-unsolved carried forward.** Whether a twice-demoted reader who is restored (not re-filed) on the second leg recovers his carried priority, or whether restoration returns him to a leg whose carriage is already spent (admitted here, new — T-461's restoration-after-spending problem, still open). Whether the spent carriage revives if the second demotion is itself annulled (admitted here, new — T-461's un-spending problem, still open). Whether a reader demoted twice on the SAME leg, without ever re-filing elsewhere, is twice-demoted at all (admitted here, new — T-461's same-leg problem, still open). T-460's mid-queue, late-assertion, and split-carriage problems remain open and are carried forward by reference, as do all other problems carried in T-460's admitted-unsolved paragraph.
+
+*[Lineage graded: SPECULATION core — T-460's stacked-demotion problem answered as the Spent Carriage: the carriage is spent by the first re-filing; the twice-demoted reader keeps his retained date on the second leg as a home date, and files entirely fresh on any third leg. Design only, never run. No result exists; the claim table is the design's honesty boundary.]*
+
+*T-461 trick seeded 2026-10-24 ~23:32 EDT by the decoder-create-loop.*
