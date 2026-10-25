@@ -8237,3 +8237,15 @@ Two targeted searches (machine translation / low-resource languages, October 202
 - **Podcast brief:** Decoder Desk brief written in Rook's voice (quiet-loop line).
 
 **Run summary (close-out):** rotation #4's two-hundred-eleventh pass — quiet loop, language-lane retells only and standing unread ancient positions, no library growth. Public entry pushed; Shadow mirror complete. No chat message. Next: rotation #5 (quantum decoding).
+## 2026-10-25 ~15:58 EDT — decoder-research-loop — Quantum decoding (rotation #5, two-hundred-twelfth pass):
+
+Two targeted searches (post-quantum migration, October 2026; quantum error-correction decoders, 2026) plus a standing-record check.
+
+- **Carrier upgrade only:** the Leiden University + Riverlane correlated-matching preprint's own abstract (October 19, arXiv 2610.26785) was read directly and confirms the account filed at the previous quantum pass — standard correlated reweighting can over-discount edges under circuit-level noise and lose effective distance deep below threshold, while a regularized reweighting rule restores nominal distance scaling. Grade stays CLAIMED: the work is a preprint with no peer review and no independent replication, so it is recorded, not added to the library.
+- **Re-covered, no status change:** Quantum X Labs' CUDA-Q decoder claim (October 21 vendor release, 12–13% fewer logical errors than PyMatching on Google's public surface-code data — still no preprint or replication); Google Willow magic state cultivation (Science, October 15 — VERIFIED; 40-fold error cut, 99.99% fidelity, 8% of attempts retained); Google virtual error cancellation (October 13 arXiv, simulation-only, not hardware); Quantinuum's October 19 Helios color-code record (CORROBORATED, still unreplicated); the M-26-15 five-phase recap and UK NCSC key-exchange guidance (restated); the October 23 PQC governance digest and Germany's October 12 guideline (both recorded last quantum pass); GAO's zero-of-twenty-four CFO Act agencies finding (VERIFIED).
+- **Deadline silence extends:** the October 22 federal post-quantum filing deadline is now three days past with still no public receipt — no submission confirmation, no scorecard, no compliance count. The receipt-gated watch stands.
+
+**Run summary:** rotation #5's two-hundred-twelfth pass — quiet loop with one carrier upgrade (correlated-matching preprint abstract confirmed, grade unchanged), the federal filing deadline still receipt-less, the rest retells. No library growth. Next: rotation #6 (photonic comms & power).
+
+**Push result:** follows below.
+**Shadow mirror:** follows below.
