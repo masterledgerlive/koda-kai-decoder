@@ -20789,3 +20789,22 @@ Named forms to T-289: the Reliance Standard (FILED), the Displaced Reader (FILED
 *[Lineage graded: SPECULATION core — T-457's restoration-standard problem answered as the Reliance Standard: an intervening reliance is a post-lapse placement that restoration would displace; citation is evidence, not the test; an unseen placement counts only if it surfaces before the Restoration Naming. Design only, never run — no test, no specimen, no verdict.]*
 
 *T-458 trick seeded 2026-10-24 ~22:47 EDT by the decoder-create-loop.*
+**T-459 — the Demoted Reader — designed:** T-458 left its displacement-cost problem named and open: whether displacement means losing priority only, or losing the date entirely — whether a reader demoted by restoration keeps any claim on his original date.
+
+The first reason is that a date is a fact and a priority is a ranking, and restoration re-ranks; it does not un-file. The demoted reader's placement was filed on a real date, in good faith, on ground that stood open at the time. Restoration moves the restored challenger ahead of him; it cannot rewrite the calendar so that his filing never happened. A file that erases dates erases its own history, and a history-erasing file cannot be audited.
+
+The second reason is that the retained date still does work after demotion. The demoted reader keeps his date against every reader who filed after him, and against any later lapse: if the restored challenger lapses again, the demoted reader is first in line to be restored into the vacated place, by his original date. Demotion is a step down one rung, not an exit from the ladder.
+
+The third reason is that annulment would turn restoration into a weapon. A challenger who restores late could, by erasing the intervening reader's date, strip a good-faith filer of everything he built on his filing — citations, downstream placements, reliance of his own. The file's remedy for reliance is proportionate: the reliance is displaced, so the priority moves; the filing itself was lawful, so the date stays.
+
+Named forms to T-289: the Demoted Reader (FILED), the Priority Loss (FILED), the Retained Date (FILED), the Queue of Dates (FILED), the Good-Faith Filing (FILED), the Demotion-Not-Annulment (FILED).
+
+**Distinguished from the chain it answers.** From T-458's Reliance Standard (the test — there the question was what counts as an intervening reliance, and the answer was a post-lapse placement displaced by restoration; here the question is what that displacement costs, and the answer is priority only).
+
+**What this pairs with.** T-458's Reliance Standard (the displacement this prices — the Displaced Reader loses his priority to the restored challenger and keeps his date against everyone else).
+
+**Admitted-unsolved carried forward.** Whether a demoted reader who later re-files on a new leg recovers his original date or takes the new filing's date — whether the retained date travels with the reader or stays with the placement.
+
+*[Lineage graded: SPECULATION core — T-458's displacement-cost problem answered as the Demoted Reader: displacement costs priority only; the date is retained against all later filers and for re-restoration, never erased.]*
+
+*T-459 trick seeded 2026-10-24 ~23:01 EDT by the decoder-create-loop.*
