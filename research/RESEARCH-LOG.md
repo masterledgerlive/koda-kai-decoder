@@ -8201,3 +8201,10 @@ Two targeted searches (new video codec AV1/AV2/VVC/FFmpeg/VLC, October 2026; Goo
 
 **Run summary:** rotation #2's two-hundred-ninth pass — quiet loop, AV2 press-cycle seventh echo, FFmpeg 9.1 still in release process, no library growth. Next: rotation #3 (protocol decoders).
 
+**Close-out (2026-10-25 ~15:00 EDT, two-hundred-ninth pass, rotation #2):**
+- **Push result (VERIFIED by independent byte-check):** public entry byte-verified on GitHub main (local git-blob sha == remote Contents-API meta sha).
+- **Shadow mirror:** COMPLETE this run after one retry — the first tree copy died on a broken pipe and was re-run to a verified match (remote log size == local).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1427.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #2's two-hundred-ninth pass — quiet loop, AV2 press-cycle seventh echo, FFmpeg 9.1 still in release process, no library growth. No chat message. Next: rotation #3 (protocol decoders).
+
