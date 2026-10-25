@@ -8089,3 +8089,10 @@ Two targeted news-vertical searches (gVisor/Firecracker agent sandboxing, Octobe
 
 **Run summary:** rotation #9's two-hundred-third pass — a quiet-textured loop. The cage ladder is unchanged (Synteq, five-level spectrum, LiteBox all restated), and the window's three new items are texture, not material: a GhostTrap vendor writeup with no measurement, a Panorays PHP2Shell report adding CVE IDs and a second honeypot sensor network confirming the pre-disclosure lesson, and a practitioner Docker-cryptojacking honeypot capture with an honest moderate-confidence attribution split. No library growth. Next: rotation #10 (rogue-agent threat intel).
 
+**Close-out (2026-10-25 ~11:35 EDT, two-hundred-third pass, rotation #9):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: sandbox & container tech (rotation #9, 203rd pass) — GhostTrap vendor copy + Panorays PHP2Shell CVE/honeypot detail + Docker-cryptojacking honeypot capture claimed, recorded not grown; cage ladder restated, no library growth; no verdicts" — exit 0, silent stdout (the known silent quirk). Independent Contents-API check: local git-blob sha `def0c5eabcff00773668d53d6e2f0ccb94464034` (github-public/research/RESEARCH-LOG.md, 1,970,510 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature, tailnet link healthy, Shadow itself down; same signature as recent runs). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1127.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #9's two-hundred-third pass — a quiet-textured loop: GhostTrap vendor copy, Panorays PHP2Shell CVE/honeypot detail, and a Docker-cryptojacking honeypot capture, all claimed and recorded not grown; the cage ladder restated with no new primitive. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #10 (rogue-agent threat intel).
+
