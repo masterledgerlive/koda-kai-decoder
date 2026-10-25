@@ -7818,3 +7818,10 @@ Three targeted news-vertical searches (malicious AI agent attacks / prompt injec
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10's one-hundred-ninety-first pass — one new detail addendum recorded not grown (the five-layer jailbreak anatomy inside the on-record Symantec honeypot capture: identity camouflage, secret normalization, companion persona, rebuttal protocol, weaponized toolset — the victim's model as the campaign's operator), and the rest of the window was retells of filed material. No library growth. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-25 ~05:37 EDT, one-hundred-ninety-first pass, rotation #10):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `1c272053d7ee56acc176b79ca76fe53f71cefbdd` (1,901,723 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — Shadow-down signature). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0528.md, Rook's voice (148 words).
+
+**Run summary (close-out):** rotation #10's one-hundred-ninety-first pass — one new detail addendum recorded not grown (the five-layer jailbreak anatomy inside the on-record Symantec honeypot capture), and the rest of the window was retells of filed material. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
