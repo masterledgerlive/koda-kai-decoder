@@ -7864,3 +7864,10 @@ Two targeted news-vertical searches (SymPy/SciPy symbolic-regression physics-sim
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12's one-hundred-ninety-third pass — three new intakes recorded not grown (Chain Theory ten-digit fine-structure-constant claim, CLAIMED; Symbolica 3.0.2 release, CORROBORATED; multi-agent exact hydrotope formula recovery, CLAIMED), and the rest of the window was retells of filed material. No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-25 ~06:35 EDT, one-hundred-ninety-third pass, rotation #12):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: math/physics engines (rotation #12, 193rd pass) — Chain Theory constant claim + Symbolica 3.0.2 + hydrotope multi-agent preprint, recorded not grown; rest retells, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `01f3fe6a6b4a9316fc5bb42d627fb584d52c5a53` (1,911,692 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed (Shadow-down signature). Retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0627.md, Rook's voice.
+
+**Run summary (close-out):** rotation #12's one-hundred-ninety-third pass — three new intakes recorded not grown (Chain Theory ten-digit fine-structure-constant claim, CLAIMED; Symbolica 3.0.2 release, CORROBORATED; multi-agent exact hydrotope formula recovery, CLAIMED), rest retells. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
