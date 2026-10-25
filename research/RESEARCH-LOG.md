@@ -8381,3 +8381,12 @@ Three targeted news searches + standing-record check. **Two items new to record,
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11's two-hundred-eighteenth pass — two new-to-record items below the material bar (branching-rollout study locating the injection-compliance decision in reasoning, claimed via digest; eleven-surface map texture on the on-record self-injection account), Stingrai census re-checked and holding, the rest retells of filed material. No library growth. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-25 ~19:05 EDT, two-hundred-eighteenth pass, rotation #11):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `16d2c8736b6561f837fc06833fee4550d49b7bab` (research/RESEARCH-LOG.md, 2,037,835 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder). This close-out block itself was appended after the push and rides the next run's sync.
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-1900.md, Rook's voice (140 words).
+
+**Run summary (close-out):** rotation #11's two-hundred-eighteenth pass — two new-to-record items below the material bar (branching-rollout study, claimed via digest; eleven-surface texture), census re-checked and holding, rest retells. No library growth. Public entry byte-verified on GitHub main. No chat message. Next: rotation #12 (math/physics engines).
+
+**Mirror result (218th pass):** Shadow mirror COMPLETE — probe succeeded (Shadow UP); tree copy and dated MEMORY-2026-10-25.md backup both exit 0, remote sizes byte-verified (RESEARCH-LOG.md 2,038,899 bytes, MEMORY backup 81,438 bytes, both == local).
