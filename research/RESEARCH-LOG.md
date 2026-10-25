@@ -7968,3 +7968,10 @@ Two targeted searches (machine translation / low-resource languages, October 202
 **Shadow mirror:** follows below.
 
 - **Close-out push verification:** this verification line rides the next run's sync.
+
+**Close-out (2026-10-25 ~09:10 EDT, one-hundred-ninety-eighth pass, rotation #4):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: language decoders (rotation #4, 198th pass) — quiet loop, retells + ancient-side restatements, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `82b836b3035c985b20c519e3f66e241e5dc7f888` (github-public/research/RESEARCH-LOG.md, 1,935,183 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder). This same file contains the 197th pass's entry, so the 197th pass's pending verification is also closed by this byte-check.
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0858.md, Rook's voice (142 words, quiet-loop brief).
+
+**Run summary (close-out):** rotation #4's one-hundred-ninety-eighth pass was a quiet loop — retells plus ancient-side restatements, no new finding. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #5 (quantum decoding).
