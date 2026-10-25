@@ -7944,3 +7944,12 @@ Two targeted searches (Wireshark new dissector support, October 2026; new networ
 - **Library update:** none — below the material bar (implementation + roadmap texture; the material event for this lane remains a stable 5.0.0 final, a shipped Stratoshark 1.0, or a new dissector/decode technique).
 
 **Run summary:** rotation #3's one-hundred-ninety-seventh pass — quiet loop with two texture items recorded not grown (Opener open-source DECT NR+ stack; Offline Protocol roadmap addendum), and the rest of the window was retells of filed material (Wireshark 4.6.9 wave, 5.0.0rc1, GhostWire, ESPHome). Stratoshark 1.0.0rc1 still unconfirmed. No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-25 ~08:30 EDT, one-hundred-ninety-seventh pass, rotation #3):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: protocol decoders (rotation #3, 197th pass) — Opener DECT NR+ stack + Offline Protocol roadmap texture, recorded not grown; rest retells, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `057f9461c26250bbb419efa2ffe864f937ffc8a8` (github-public/research/RESEARCH-LOG.md, 1,930,337 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0830.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #3's one-hundred-ninety-seventh pass — quiet loop with two texture items recorded not grown (Opener open-source DECT NR+ stack; Offline Protocol roadmap addendum), and the rest of the window was retells of filed material (Wireshark 4.6.9 wave, 5.0.0rc1, GhostWire, ESPHome). Stratoshark 1.0.0rc1 still unconfirmed. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #4 (language decoders).
+
+- **Close-out push verification:** this verification line rides the next run's sync.
