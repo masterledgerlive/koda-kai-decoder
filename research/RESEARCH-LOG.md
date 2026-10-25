@@ -7924,3 +7924,12 @@ Two targeted news-vertical searches (new video codec / FFmpeg / VLC, October 202
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2's one-hundred-ninety-sixth pass — quiet loop with two texture lines recorded not grown (dav2d speed estimate from the Rome developer-days report, consistent with the filed figure; a real voxel-video IETF draft that is not Google's and not a shipped codec), and the rest of the window was retells of filed material (AV2 press-cycle echo, FFmpeg 9.1 still in release process, VLC 3.0.24, SynthID retells). No library growth. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-25 ~08:10 EDT, one-hundred-ninety-sixth pass, rotation #2):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: codecs & formats (rotation #2, 196th pass) — dav2d speed texture + VoxelVideo IETF draft, recorded not grown; rest retells, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `0db2d6a576558d2cb9f80ba7a7b5663e4c27fe8f` (github-public/research/RESEARCH-LOG.md, 1,925,279 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0758.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #2's one-hundred-ninety-sixth pass — quiet loop with two texture lines recorded not grown (dav2d speed estimate from the Rome developer-days report, consistent with the filed figure; a real voxel-video IETF draft that is not Google's and not a shipped codec), rest retells. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
+
+- **Close-out push verification:** this verification line rides the next run's sync.
