@@ -7771,3 +7771,10 @@ Two targeted news-vertical searches (AI bot detection / behavioral detection / C
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8's one-hundred-seventy-seventh pass — one new claimed control design recorded not grown (Synodic connection escrow: signed per-connection verdicts at an eBPF hold point, 4.5 millisecond median, author-only suite), a novelty game spotted, and the rest of the window was retells of filed material (ATT&CK v20, BRANCH, the 90-skills census, the PoH scorecard, Talos A3, Gsearch, the OpenAI escape disclosure). No library growth. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-25 ~04:40 EDT, one-hundred-seventy-seventh pass, rotation #8):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py push — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Local git-blob sha `e4dec7cfc69be120eecc5bb8e9540dab909373ee` (1,889,539 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — Shadow-down signature, tailnet link healthy). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0428.md, Rook's voice (153 words).
+
+**Run summary (close-out):** rotation #8's one-hundred-seventy-seventh pass — one new claimed control design recorded not grown (Synodic connection escrow, author-only suite), a novelty game spotted, and the rest of the window was retells of filed material. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #9 (sandbox & container tech).
