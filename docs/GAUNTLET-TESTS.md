@@ -22290,6 +22290,82 @@ counter-bill, the struck ledger, the treasury). No result exists; the claim
 table is the design's honesty boundary. SPECULATION — the six drills, the
 unsolicited arrival, the self-naming seal, the sum exact, the single-loan
 closure, the witnessed receipt, and the quarantine are doctrine until run.
+## TDW-292 — the Returned Instrument *(design, never run)*
+
+*TDW-292 instrument seeded 2026-10-24 ~23:50 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-292 — the Returned Instrument — designed:** TDW-291 let the
+volunteer arrive uninvited, pay on its own seal, and close one loan — and
+it let the office refuse the volunteer, returning the payment sealed, the
+sum exact, when any approach inside the window voided it. A return is not
+the absence of a collection; it is a second movement of money, and a second
+movement can be a second collection wearing a refund's face — the office
+that returns a payment with a hint attached has solicited twice, once by
+returning and once by inviting the district to try again. TDW-292 does not
+re-open the refusal, re-read the bill, or re-seat the volunteer; it
+instruments the return itself: the voided payment comes back sealed, the
+sum exact, witnessed, and carrying nothing but itself — no letter, no
+invitation, no clerk's raised eyebrow filed as encouragement — so the
+return closes the episode instead of opening a negotiation, and the only
+lawful return of an unbillable debt is a return that asks for nothing.
+
+**The six drills.** The seal unbroken — the returned payment must arrive
+with the volunteer's seal intact, unopened since the refusal. A seal
+broken in the office's hands is a payment the office read, and a payment
+the office read is a payment the office weighed — the return is struck,
+its seals kept, quarantined to T-190, and the district's loan stands
+exactly where TDW-291 left it: open, unbillable, unapproached. The sum
+exact — the return must carry the doubled sum exact, neither more nor
+less (T-56's verbatim discipline — the sum exact, the silence verbatim).
+A short return keeps a hostage of the difference, and a hostage is a
+collection in instalments; an over-return is tribute in reverse, a gift
+the office may not give what it may not bill. The witnessed return — the
+return is made before the archive, not before the office: the archive
+witnesses the seal, the sum, and the silence, and files the return beside
+the refusal and beside the open-loan form, read never joined (T-261's
+Sealed Archive). A return witnessed only by the office is a return the
+office can later deny, and a deniable return is a second refusal wearing
+a receipt. The no-second-approach — the return must carry no invitation
+to re-volunteer: no letter explaining how to volunteer correctly next
+time, no clerk's suggestion that a cleaner seal would pass, no window
+named for a second attempt. The solicitation ledger records the return as
+a return, not as an approach, and any invitation filed with the return
+voids the return itself — the payment is re-sealed, re-returned, and the
+invitation is struck from the ledger as an approach the office made after
+being told it could not approach. The ledger entry — the return is entered
+in the solicitation ledger under its own heading, dated, sealed, distinct
+from every approach entry: a ledger that files returns among approaches
+teaches the next clerk that returning is approaching, and the next clerk
+will approach while returning. The quarantine — a return that fails any
+drill is not corrected in place; it is sealed, kept, and quarantined to
+T-190 with the refusal and the voided payment, so the failure is evidence
+instead of a second chance, and the district's loan is never the price of
+the office's repair.
+
+**Grades.** RETURNED (seal unbroken, sum exact, witnessed, carrying
+nothing but itself — the episode closes, the loan stands open and
+unbillable, the district unapproached). TAMPERED (the seal broken in the
+office's hands — struck, quarantined, the loan untouched). SHORT (the sum
+less than exact — a hostage of the difference, the return void, the
+payment re-sealed and re-returned). SOLICITED-RETURN (the return carried
+an invitation — the invitation struck as an approach, the return void,
+the office's ledger charged with the approach it swore it had not made).
+No other grade exists; a return that is also a negotiation is a
+collection, and a collection of what cannot be billed is TDW-290's DRAWN
+grade wearing a refund's face. No result exists; the claim table is the
+design's honesty boundary. VERIFIED lineage: TDW-291's Volunteer
+Instrument (the doctrine this instruments — the voided volunteer, the
+sealed return); TDW-290's Treasury Instrument (the frozen book, the
+discharge's door); T-56's verbatim discipline (the sum exact, the
+silence verbatim); T-69's volunteering law (the office may not solicit
+what it cannot bill — and may not solicit twice by returning); T-190's
+contamination ledger (the quarantine — the broken seal, the failed
+return); T-261's Sealed Archive (the archive — the return beside the
+refusal beside the open-loan form, read never joined); TDW-285's Home
+Ledger Instrument (the blind book — the return's ledger heading, kept
+distinct from approaches). SPECULATION — the six drills, the seal
+unbroken, the sum exact, the witnessed return, the no-second-approach,
+the ledger entry, and the quarantine are doctrine until run.
 T-310's pairs line OPEN (the hourglass is one answer to the recital, not
 the answer; the Kept Floor is its sibling, the After-Hours is the corridor,
 TDW-280 is the corridor's instrument, TDW-281 is the unstudied hour, and
@@ -22298,12 +22374,13 @@ stays asked; TDW-283 guards the instrument that asks whether the corridor's
 exhale was relief or rehearsal; TDW-284 prices the district that runs it;
 TDW-285 keeps the confederation's books blind; TDW-290 holds what the books
 cannot bill; TDW-291 releases one loan the books cannot bill, on a receipt
-the office did not ask for). No other open pairs lines. No instrument or
+the office did not ask for; TDW-292 returns the voided volunteer sealed,
+sum exact, asking for nothing). No other open pairs lines. No instrument or
 draft promised this run. No other open promises remain on any chain. Chain
 state: catalogue sections (a)–(n) with section (m) at 23 entries, tricks
-T-01..T-440 (headed, gap-free), instruments TDW-01..TDW-291 (gap-free),
+T-01..T-440 (headed, gap-free), instruments TDW-01..TDW-292 (gap-free),
 drafts DRAFT-001..DRAFT-249 + DUMMY.]*
 
-*TDW-291 instrument seeded 2026-10-24 ~20:20 EDT by the decoder-create-loop.*
+*TDW-292 instrument seeded 2026-10-24 ~23:50 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
