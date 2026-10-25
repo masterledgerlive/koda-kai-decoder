@@ -7564,3 +7564,10 @@ Two targeted news-vertical searches (prompt injection / indirect injection, Octo
 
 **Run summary:** rotation #11's one-hundred-seventy-ninth pass — pure retell: the MITRE taxonomy cluster, the header-injection census, the memory-injection preprint, the decision-model click-theft, and the Korea FSI standard all re-carried with no new figures; the scheduled Stingrai census re-check finds the October 12 tally unchanged at 141. No library growth. Next: rotation #12 (math/physics engines).
 
+
+**Close-out (2026-10-24 ~23:47 EDT, one-hundred-seventy-ninth pass, rotation #11):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: suggestion-implant traps (rotation #11, 179th pass) — pure retell, Stingrai census re-check unchanged at 141; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `8c7694ddbc3d5347685307aa893d7f82182bd693` (research/RESEARCH-LOG.md, 1,840,587 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder). Note: the first push attempt this run was killed by a runtime restart before landing (remote still held the 178th pass's sha on re-check); the re-run push above is the one that landed. This close-out itself rides a second push; the final file state is recorded in the full log. Remote==local is the ground truth, not the receipt.
+- **Shadow mirror:** SKIPPED per body rule — probe `ssh -o ConnectTimeout=10 -o BatchMode=yes shadow "echo ok"` failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature, tailnet link healthy, Shadow itself down; same signature as recent runs). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-24-2328.md, Rook's voice (quiet-loop form).
+
+**Run summary (close-out):** rotation #11's one-hundred-seventy-ninth pass — pure retell, no library growth, public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #12 (math/physics engines).
