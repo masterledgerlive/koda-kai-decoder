@@ -7882,3 +7882,9 @@ Two targeted news-vertical searches (unsolved ciphers / Kryptos K4 / Voynich / I
 - **Library changes:** none — a title-only video claim and a window of retells; no new decipherment, technique, or measurement.
 
 **Run summary:** rotation #13's one-hundred-ninety-fourth pass — no status change on any standing cipher (Voynich singulion study retold again, Rohonc paper retold, K4 formulation holds, Indus prize still unclaimed); one title-only Indus video claim rejected on intake. No library growth. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-25 ~07:10 EDT, one-hundred-ninety-fourth pass, rotation #13):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 194th pass) — no status change, title-only Indus claim rejected; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `bcd01a155b7501b0066dcbb0e517e60cd5bd7de4` (research/RESEARCH-LOG.md, 1,916,674 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0658.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #13's one-hundred-ninety-fourth pass — no status change on any standing cipher; one title-only Indus video claim rejected on intake. No library growth. Public entry byte-verified on GitHub main. No chat message. Next: rotation #1 (historical codebreaking).
