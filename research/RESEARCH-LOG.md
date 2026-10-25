@@ -8230,3 +8230,10 @@ Two targeted searches (machine translation / low-resource languages, October 202
 - **Ancient side, no status change:** the Indus script remains undeciphered as of 2026 with the Tamil Nadu one-million-dollar prize unclaimed (July 2026 survey restates the standing position: about 4,000 inscribed objects, average inscription 5 signs, longest about 17 signs, no bilingual text); Linear A / Voynich / Rohonc positions unchanged (the AI-ancient-scripts survey pieces restate the "no anchor, no bilingual, short-corpus" barriers already on record); the MIT/IITM Indus multimodal "contextual decipherment" stays parked (no primary source); the Di Mino Linear A claim stays speculation.
 
 **Run summary:** rotation #4's two-hundred-eleventh pass was a quiet loop — every carrier re-carried filed material (Zhou & Zhou anti-interference retell, Bilibili Index-Translate, Hunyuan, Intento tier page, Google 200-language background) and the ancient side restated standing unread positions with no new test. No library growth. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-25 ~15:41 EDT, two-hundred-eleventh pass, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4, 211th pass) — quiet loop, retells only, no library growth" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged."
+- **Shadow mirror:** COMPLETE — tree copy and dated MEMORY-2026-10-25.md backup both exit 0.
+- **Podcast brief:** Decoder Desk brief written in Rook's voice (quiet-loop line).
+
+**Run summary (close-out):** rotation #4's two-hundred-eleventh pass — quiet loop, language-lane retells only and standing unread ancient positions, no library growth. Public entry pushed; Shadow mirror complete. No chat message. Next: rotation #5 (quantum decoding).
