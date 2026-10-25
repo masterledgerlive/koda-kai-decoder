@@ -7994,3 +7994,10 @@ Two targeted news-vertical searches (post-quantum migration / OMB M-26-15 Octobe
 
 **Push result:** follows below.
 **Shadow mirror:** follows below.
+
+**Close-out (2026-10-25 ~09:45 EDT, one-hundred-ninety-ninth pass, rotation #5):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: quantum decoding (rotation #5, 199th pass) — Leiden/Riverlane correlated-matching decoder caution (claimed) + Oct-23 digest + Germany guideline specifics (corroborated); M-26-15 deadline 3 days past, still no public receipt; rest retells, no library growth; no verdicts" — exit 0, silent stdout (the known silent quirk). Independent Contents-API check: local git-blob sha `e8ab7aac90b1eb419f7102cd009bc8a7ebdda392` (github-public/research/RESEARCH-LOG.md, 1,942,907 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** SKIPPED per body rule — probe failed ("Connection closed by UNKNOWN port 65535" — the Shadow-down signature, tailnet link healthy, Shadow itself down; same signature as recent runs). The full re-copy retry rides the next green run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-0935.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #5's one-hundred-ninety-ninth pass — one new decoder caution recorded not grown (Leiden/Riverlane correlated-matching preprint, CLAIMED), governance texture from the October 23 digest and Germany's October 12 guideline specifics (CORROBORATED), the federal filing deadline now three days past with still no public receipt, rest retells. No library growth. Public entry byte-verified on GitHub main; Shadow down, mirror deferred. No chat message. Next: rotation #6 (photonic comms & power).
