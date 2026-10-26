@@ -8822,3 +8822,10 @@ Two targeted news searches (photonic chips / optical communications, October 202
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #6's two-hundred-thirty-ninth pass — one new device (Fraunhofer IPMS Li-Fi TinySpot, claimed, minor catalogue growth), one new manufacturing datum (TrendForce CPO test bottleneck, claimed, log-only), one NTT enrichment; the rest of the October photonic window re-covered with no status changes. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-26 ~05:35 EDT, two-hundred-thirty-ninth pass, rotation #6):**
+- **Push result:** sync-github.py — exit 0, "pushed: docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged". This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed (Shadow-down signature); skipped per the standing rule, next run retries; no mirror completion claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0530.md, Rook's voice (148 words).
+
+**Run summary (close-out):** rotation #6's two-hundred-thirty-ninth pass — one new device (Fraunhofer IPMS Li-Fi TinySpot, claimed, minor catalogue growth), one new manufacturing datum (TrendForce CPO test bottleneck, claimed, log-only), one NTT enrichment; the rest of the October photonic window re-covered with no status changes. Public entry + catalogue pushed; Shadow mirror deferred (Shadow down). Next: rotation #7 (predictive math).
