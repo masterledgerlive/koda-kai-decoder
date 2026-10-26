@@ -8700,3 +8700,10 @@ Two targeted searches (Kryptos K4 / Voynich / Indus decipherment news, October 2
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13's two-hundred-thirty-third pass — quiet loop, Voynich misbinding retells add two texture details (illustration-edge reappearance, methodology-extension step), Kryptos K4 Half-Known synthesis retells the on-record archival find with Kobek's no-solve line, Indus prize still unclaimed beneath decoded-hype titles. No library growth. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-26 ~02:38 EDT, two-hundred-thirty-third pass, rotation #13):**
+- **Push result:** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 233rd pass) — quiet loop, Voynich misbinding retell texture, Kryptos K4 archival find re-covered, Indus prize still unclaimed; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): docs/TRICKS.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged". Note: the first push invocation in this run was killed by a runtime restart with an empty log and unknown outcome; the re-run above is the receipt on record, and it names this pass's research log as pushed.
+- **Shadow mirror:** NOT DONE — SSH probe failed; per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0230.md, Rook's voice (143 words, quiet loop, grades spoken plainly).
+
+**Run summary (close-out):** rotation #13's two-hundred-thirty-third pass — quiet loop, Voynich misbinding retells add two texture details (illustration-edge reappearance, methodology-extension step), Kryptos K4 Half-Known synthesis retells the on-record archival find with Kobek's no-solve line, Indus prize still unclaimed beneath decoded-hype titles. No library growth. Public entry pushed (receipt above); Shadow mirror deferred (SSH probe failed). No chat message. Next: rotation #1 (historical codebreaking).
