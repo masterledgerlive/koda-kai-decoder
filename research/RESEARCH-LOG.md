@@ -9165,3 +9165,10 @@ Two targeted news-vertical searches (prompt injection / indirect injection / jai
 - **Library changes:** none — a quiet loop with zero new items does not grow the library.
 
 **Run summary:** rotation #11's two-hundred-fifty-seventh pass — quiet loop, whole window re-covered, census re-checked holding. No library growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-26 ~14:40 EDT, two-hundred-fifty-seventh pass, rotation #11):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged".
+- **Shadow mirror:** deferred — Shadow unreachable (link-fine/Shadow-down signature); next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1427.md, Rook's voice.
+
+**Run summary (close-out):** rotation #11's two-hundred-fifty-seventh pass — quiet loop, whole window re-covered, census re-checked holding. No library growth. Public entry pushed (receipt above); Shadow mirror deferred. No chat message. Next: rotation #12 (math/physics engines).
