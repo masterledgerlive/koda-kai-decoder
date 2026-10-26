@@ -2619,6 +2619,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **BRANCH (Mindgard and Lancaster University, October twenty twenty-six; corroborated — arXiv preprint abstract read first-party; the vendor blog and a third-party recount agree; not yet peer-reviewed, no independent replication of the headline figure).** Branching tree search that perturbs each scanner inside a multi-scanner guardrail system, optimizing for the whole ensemble: reported one hundred percent attack success across six guardrail systems in one hundred twenty scenarios, with bypasses transferring to twenty-nine unseen guardrails including eight commercial black-box systems. Lesson: composing classifiers is not composing security — grade the ensemble's joint decision surface, never each scanner's solo score.
   - Source: https://arxiv.org/html/2610.10742
   - Source: https://mindgard.ai/blog/branch-bypassing-multi-scanner-ai-guardrails
+
+- **iProov human authorization service for AI agent gateways — first HAPS-compliant service (October twenty twenty-six).** Implements the Human Approval and Presence Specification (HAPS, released September twenty twenty-six): cryptographically verifiable proof that the genuine, right human approved a specific action an agent sought to execute, delivered as an auditable, non-repudiable certificate; proof of humanity via iProov face verification. First integrations: agentgateway (solo dot io open-source agent gateway) and Cerbos (authorization platform). Lesson: the human-approval control already graded in this section now has a spec and a first implementation with action-bound certificates — approval moves from a policy sentence to a receipt that can be graded.
+  - Source: https://www.businesswire.com/news/home/20261022830765/en/iProov-Launches-New-Human-Authorization-Service-for-AI-Agent-Gateways-with-First-Integrations
+  - [CLAIMED — vendor announcement; spec text not read first-party this pass]
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
