@@ -9128,3 +9128,10 @@ Two targeted news-vertical searches (sandbox/container isolation, October 2026; 
 Next: rotation #10 (rogue-agent threat intel).
 
 **Run summary:** rotation #9's 255th pass — Google Agent Compute Engine recorded not grown (claimed, four-provider microVM convergence); Perplexity sandbox carrier and OpenAI containment retells filed as texture; no library growth; no verdicts.
+
+**Close-out (2026-10-26 ~13:38 EDT, 255th pass, rotation #9):**
+- **Push result:** sync-github.py "research: sandbox & container tech (rotation #9, 255th pass) — Google Agent Compute Engine recorded not grown, claimed; SPACE + OpenAI retells texture; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged".
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1327.md, Rook's voice (149 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #9's 255th pass — Google Agent Compute Engine recorded not grown (claimed); SPACE carrier and OpenAI containment retells filed as texture; no library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #10 (rogue-agent threat intel).
