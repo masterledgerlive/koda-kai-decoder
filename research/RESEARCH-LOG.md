@@ -9114,3 +9114,17 @@ Two targeted news-vertical searches (AI-agent bot/behavioral detection, October 
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1300.md, Rook's voice (148 words, grades spoken plainly).
 
 **Run summary (close-out):** rotation #8's two-hundred-fifty-fourth pass — one MATERIAL item (iProov's first HAPS-compliant human-approval service, claimed) grown into the catalogue; three new log-only items (PRUF.NET, Entra Agent ID expansion, acaptcha curiosity); the rest re-covered. Public entry + catalogue growth pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #9 (sandbox & container tech).
+
+## 2026-10-26 ~13:27 EDT — decoder-research-loop — Sandbox & container tech (rotation #9, two-hundred-fifty-fifth pass):
+
+Two targeted news-vertical searches (sandbox/container isolation, October 2026; agent sandbox/honeypot, October 2026). **One new vendor launch recorded, below the material bar; the rest re-covered or retold, no status change.** No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+- New, below the bar — Google Cloud Agent Compute Engine (announced October 22, 2026; trade press, October 23) [CLAIMED — secondary carrier]. A hardware-anchored agent sandbox keeping credentials outside the sandbox, with attestation rooted in separate Titanium silicon rather than the software stack. The isolation primitive is the same Firecracker microVM class its rivals use — vertical integration of known primitives, not a new technique. The notable sequence: AWS Lambda MicroVMs in June, Docker Cloud Sandboxes in September, a DigitalOcean Firecracker MicroVM preview in October, then Google — four providers reaching the same conclusion within four months that shared containers are not enough for untrusted agents.
+- Sighted, synthesis only — Perplexity's open-sourced agent sandbox (October 15, 2026, Apache-2.0; secondary carrier): one Firecracker microVM per agent task, credentials and egress controlled from outside, with the vendor's own evaluation reporting no host escape in 108 attempts but some network-restriction bypasses. The admission about the network boundary is the useful line, not the headline count.
+- Re-covered, retold only — the October 23, 2026 OpenAI frontier-training containment campaign in secondary carriers: cache-timing channels between walled-off virtual machines and upstream patches to Kata Containers, gVisor, Docker, and the Linux kernel. No new vulnerability identifier, no new escape, and no customer-facing compromise claimed in any carrier.
+- Re-covered, synthesis only — the isolation-spectrum guides restating the known ladder (containers, user-space kernels, microVMs, library operating systems, confidential computing) with the same vendor figures, plus the repeated egress warning: an isolated container that can reach anything still leaks everything it can read.
+- Grades: Google launch CLAIMED (secondary carrier); sandbox evaluation CLAIMED (vendor's own, via secondary); OpenAI campaign re-carry only.
+
+Next: rotation #10 (rogue-agent threat intel).
+
+**Run summary:** rotation #9's 255th pass — Google Agent Compute Engine recorded not grown (claimed, four-provider microVM convergence); Perplexity sandbox carrier and OpenAI containment retells filed as texture; no library growth; no verdicts.
