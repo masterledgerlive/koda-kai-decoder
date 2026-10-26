@@ -8427,3 +8427,10 @@ Two targeted searches (Kryptos K4 / Voynich / Indus decipherment news, October 2
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13's two-hundred-twentieth pass — quiet loop, Voynich singulion press wave is retell of the on-record CORROBORATED paper, Indus $1M prize still unclaimed, no Most Wanted status change. No library growth. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-25 ~20:10 EDT, two-hundred-twentieth pass, rotation #13):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py exit 0, stdout "done: 0 pushed, 266 unchanged" (concurrency-absorb signature — remote==local is the ground truth, not the receipt). Independent Contents-API check: local git-blob sha `7a21d5881c103ce7c96bdefbc3ba0b37276c11fb` (research/RESEARCH-LOG.md, 2,046,456 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder). This close-out block itself was appended after the push and rides the next run's sync.
+- **Shadow mirror:** COMPLETE this run — probe succeeded (Shadow UP); tree copy and dated MEMORY-2026-10-25.md backup both exit 0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-2000.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #13's two-hundred-twentieth pass — quiet loop, Voynich singulion press wave is retell of the on-record CORROBORATED paper, Indus $1M prize still unclaimed, no Most Wanted status change. No library growth. Public entry byte-verified on GitHub main; Shadow mirror complete. No chat message. Next: rotation #1 (historical codebreaking).
