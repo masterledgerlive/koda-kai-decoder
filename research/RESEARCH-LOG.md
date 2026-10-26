@@ -8596,3 +8596,10 @@ Two targeted searches (AI bot detection / behavioral CAPTCHA successors, 2026; a
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8's two-hundred-twenty-eighth pass — quiet loop with three new claimed texture items (Imanian 36-intrusion identity catalog, ClawdBytes long-horizon stress test, CrowdStrike October 22 telemetry report via secondary), the rest retells of filed material. No library growth. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-26 ~00:07 EDT, two-hundred-twenty-eighth pass, rotation #8):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run, not absorbed). Independent Contents-API check: local git-blob sha `554a4f941353f7676ce8f9f0711c8b4c87fbdc8e` (github-public/research/RESEARCH-LOG.md, 2,090,431 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-2359.md, Rook's voice (153 words, three claimed items + calibration line).
+
+**Run summary (close-out):** rotation #8's two-hundred-twenty-eighth pass — quiet loop with three new claimed texture items (Imanian 36-intrusion identity catalog, ClawdBytes long-horizon stress test, CrowdStrike October 22 telemetry report via secondary), the rest retells of filed material. No library growth. Public entry byte-verified on GitHub main. No chat message. Next: rotation #9 (sandbox & container tech).
