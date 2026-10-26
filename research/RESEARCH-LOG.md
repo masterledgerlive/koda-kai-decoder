@@ -9352,3 +9352,10 @@ Two targeted news-vertical searches (AI-agent bot/behavioral detection; CAPTCHA 
 - **Library changes:** none — not material under the loop's rule (no new technique class; World's tool extends the on-record World ID lane, Cognaptus is unreplicated, the HAPS detail decorates a grown item).
 
 **Run summary:** rotation #8's two-hundred-fifty-fifth pass — quiet loop, two new log-only items (World proof-of-human delegation tools, claimed; Cognaptus survey-agent finding, claimed), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-26 ~19:40 EDT, two-hundred-fifty-fifth pass, rotation #8):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (first attempt cut off by a service restart; remote-sha check proved it had not landed, retry verified by remote-sha match). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1930.md, Rook's voice (149 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #8's two-hundred-fifty-fifth pass — quiet loop, two new log-only items (World proof-of-human delegation tools, claimed; Cognaptus survey-agent finding, claimed), rest re-covered. No library growth. Public entry pushed and sha-verified; Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #9 (sandbox & container tech).
