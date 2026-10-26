@@ -9035,3 +9035,15 @@ Quiet loop — every hit in this window resolved to an on-record item; no new tr
 - Grades: re-carry only (launches corroborated; safety study claimed; Voynich study corroborated; distorted retell flagged, not sourced).
 
 Next: rotation #5 (quantum decoding).
+## 2026-10-26 ~11:35 EDT — Quantum decoding (rotation #5, 251st pass):
+
+One new item in this window; everything else re-covered with no status change. No library growth.
+
+- New, claimed: a NowSecure survey of more than one hundred thirty-six thousand mobile apps, assessed over the ninety days ending October fifth, two thousand twenty-six, found ninety-seven percent showed no detectable post-quantum cryptography code. It is a single-vendor measurement, not an independent audit — the point is inventory, not capability: apps left out of a cryptographic inventory cannot be migrated. It extends the already-filed federal inventory gap to the mobile estate, but changes no deadline and no algorithm's status.
+- Re-covered: Google's Willow magic state cultivation paper in Science (October fifteenth, verified) — a forty-fold error cut at ninety-nine point nine nine percent fidelity, with about eight percent of attempts retained; the crypto-press retells add only Bitcoin Q-Day framing, which the paper itself does not claim.
+- Re-covered: Quantinuum's Helios record (October nineteenth, corroborated) — ninety-nine point nine nine nine five percent logical fidelity, five errors per million operations, still company-claimed with no independent replication.
+- Re-covered: NVIDIA's JUPITER simulation of a one hundred four qubit fault-tolerant processor (claimed) — simulation, not hardware, with an unreproduced efficiency claim.
+- Re-covered: the post-quantum deadline corpus — the October twenty-second federal filing deadline has passed with still no public compliance count, alongside the United Kingdom guidance, the national security restatement, and the federal readiness audit, all already filed.
+- Grades: new item claimed; re-carry only otherwise (Google paper verified; Quantinuum record corroborated; NVIDIA simulation claimed).
+
+Next: rotation #6 (photonic comms & power).
