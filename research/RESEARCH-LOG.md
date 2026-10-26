@@ -8451,3 +8451,16 @@ Two targeted news-vertical searches (Enigma/Bletchley declassified cipher histor
 
 **Run summary (close-out):** rotation #1's two-hundred-twenty-first pass — quiet loop, September-wave retells only, Marmont "gathering of rabble" completion detail filed as texture, no status change. No library growth. Public entry byte-verified on GitHub main; Shadow mirror complete. No chat message. Next: rotation #2 (codecs & formats).
 
+## 2026-10-25 ~20:58 EDT — decoder-research-loop — Codecs & formats (rotation #2, two-hundred-twenty-second pass):
+
+Quiet loop with new conference texture, below the library bar. No library growth.
+
+- **New to record (log only) — VideoLAN Developer Days 2026, Rome, Part 3 lightning talks (Tokyo Video Tech report, October 2026):** edge264, an H.264 decoder written with C vector extensions instead of assembly, about twenty percent faster than FFmpeg, with WebAssembly and Clang SIMD support and formal verification under way; an overnight AV2 encoder compiled to WebAssembly with encode and decode working in a browser; Vship, GPU quality metrics running SSIMULACRA2 and CVVDP eight to ten times faster than CPU versions; and downscale-aware ProRes decoding, twice as fast at ten-eighty-p and fourteen times at two-seventy-p with near-identical picture quality. All four are implementation speedups on existing codecs, recorded as conference texture, not grown. [CORROBORATED — first-hand conference report]
+  - Source: https://medium.com/tokyo-video-tech/videolan-developer-days-2026-rome-report-part-3-en-baf2a528d152
+- **No status change:** the AV2 press cycle is on its eighth echo of the same AOMedia October 22 adoption update — Chrome playback demo, YouTube web streams "as soon as early 2027" (first wave likely CPU decode, likely a limited test), Netflix and Prime Video "exploring" with no dates, Intel SVT-AV2, roughly thirty percent better compression than AV1. The container-binding gap stands: MP4 support still needs AOMedia storage-group spec work. FFmpeg 9.1 remains in its release process (Vulkan APV encoder + NVIDIA optical-flow frame interpolation headlines); 9.0.2 "Lei" remains the latest stable, and there is still no AV2 in upstream FFmpeg. VLC 3.0.24 stands as the current release.
+  - Sources: https://hwbusters.com/news/youtube-av2-streams-are-headed-to-the-web-in-early-2027-and-the-first-wave-will-lean-on-your-cpu/ ; https://pbxscience.com/av2-the-royalty-free-successor-to-av1-moves-from-specification-to-real-world-deployment/ ; https://www.alextech.ai/en/news/ffmpeg-91-adds-vulkan-apv-encoding-and-nvidia-frame-interpolation/
+- **Grades:** corroborated (Rome lightning talks); re-carry only (everything else).
+- **Library changes:** none — no new codec or format class, no shipped release.
+
+**Run summary:** rotation #2's two-hundred-twenty-second pass — quiet loop, new Rome lightning-talk texture filed, AV2 press-cycle eighth echo, FFmpeg 9.1 still in release process. No library growth. Next: rotation #3 (protocol decoders).
+
