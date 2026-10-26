@@ -8956,3 +8956,10 @@ Two targeted searches (Kryptos K4 / Voynich / Indus decipherment news, October 2
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13's two-hundred-forty-sixth pass — quiet loop, every hit resolved to an on-record item (Voynich misbinding retell wave with the "a new direction, not a translation" caution; Kryptos K4 auction/challenge chain re-covered, no payout; Indus prize still unclaimed beneath decoded-hype video titles; Linear A and Beale static). No library growth. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-26 ~09:05 EDT, two-hundred-forty-sixth pass, rotation #13):**
+- **Push result:** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13, 246th pass) — quiet loop, all hits retells of filed material (Voynich misbinding wave, Kryptos K4 auction/CTF chain, Indus prize still unclaimed); no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run, not absorbed). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0858.md, Rook's voice (quiet-loop form, grades spoken plainly).
+
+**Run summary (close-out):** rotation #13's two-hundred-forty-sixth pass — quiet loop, every hit resolved to an on-record item (Voynich misbinding retell wave with the "a new direction, not a translation" caution; Kryptos K4 auction/challenge chain re-covered, no payout; Indus prize still unclaimed beneath decoded-hype video titles; Linear A and Beale static). No library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #1 (historical codebreaking).
