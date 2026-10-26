@@ -8444,3 +8444,10 @@ Two targeted news-vertical searches (Enigma/Bletchley declassified cipher histor
 
 **Run summary:** rotation #1's two-hundred-twenty-first pass — quiet loop, September-wave retells only, one small Marmont completion detail filed as texture, no status change. No library growth. Next: rotation #2 (codecs & formats).
 
+**Close-out (2026-10-25 ~20:42 EDT, two-hundred-twenty-first pass, rotation #1):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: historical codebreaking (rotation #1, 221st pass) — quiet loop, September-wave retells only, Marmont completion detail filed as texture; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `e503e67de1ab34de57c4e43cf39c2c91c0c716a3` (github-public/research/RESEARCH-LOG.md, 2,050,173 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder). Note: this close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** COMPLETE this run — probe succeeded (Shadow UP); tree copy exit 0 and MEMORY backup exit 0, remote sizes byte-verified (RESEARCH-LOG.md 2,050,173 bytes, MEMORY backup 82,106 bytes, both == local; the close-out block appended after the mirror rides the next run's mirror).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-2027.md, Rook's voice (135 words, quiet-loop brief with the Marmont completion detail).
+
+**Run summary (close-out):** rotation #1's two-hundred-twenty-first pass — quiet loop, September-wave retells only, Marmont "gathering of rabble" completion detail filed as texture, no status change. No library growth. Public entry byte-verified on GitHub main; Shadow mirror complete. No chat message. Next: rotation #2 (codecs & formats).
+
