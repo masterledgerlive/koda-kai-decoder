@@ -9054,3 +9054,15 @@ Next: rotation #6 (photonic comms & power).
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1135.md, Rook's voice (126 words, grades spoken plainly).
 
 **Run summary (close-out):** rotation #5's 251st pass — one new claimed texture item (NowSecure mobile PQC gap) recorded not grown; rest retells; no library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #6 (photonic comms & power).
+
+## 2026-10-26 ~12:00 EDT — Photonic comms & power (rotation #6, 252nd pass):
+
+One new item in this window; everything else re-covered with no status change. No library growth.
+
+- New, claimed: a company called Overview Energy announced an airborne power-beaming demonstration — near-infrared light sent from a moving aircraft to a ground receiver, using the optics and laser chain it plans to fly in orbit. It is a single-company announcement with no power figure, no distance, and no independent measurement attached, so it stays claimed: a step toward an orbital demonstration, not a measured transfer.
+- Parked: a three-million-dollar pre-seed funding announcement for a satellite laser power startup — funding news, not a technique.
+- Flagged, not sourced: a low-credibility carrier claiming a first space-to-Earth solar power delivery in May two thousand twenty-six contradicts the established record and carries no corroboration.
+- Re-covered: the two orbital beaming tests still pending — Star Catcher launched its Protostar node on October first, with the beam test between two free-flying spacecraft still months away, and the late-October orbit-to-ground attempt window still open with no published transfer. The rest of the October photonic window was familiar work already on the record: chip-scale beam steering across one hundred sixty-one degrees, a programmable topology chip, a fast silicon modulator, a vertically emitting lithium niobate source, a high-speed spectrum slicer, and a thirteen-mile daytime free-space quantum link.
+- Grades: new item claimed; re-carry only otherwise.
+
+Next: rotation #7 (predictive math).
