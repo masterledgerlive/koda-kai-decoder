@@ -9203,3 +9203,10 @@ Three targeted searches (Kryptos K4 / Voynich / Indus decipherment news, October
 - **Library changes:** none — a quiet loop with one small log-only negative result does not grow the library.
 
 **Run summary:** rotation #13's two-hundred-fifty-ninth pass — quiet loop, Kryptos K4 re-confirmed unsolved as of today, Voynich October wave all retells, Indus prize still unclaimed, Beale static, one small new log-only item (Copenhagen cryptogram negative result, claimed). No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-26 ~15:40 EDT, two-hundred-fifty-ninth pass, rotation #13):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (sync took ~10 minutes wall-clock, slower than the usual ~4 — one transient RemoteDisconnected retry on an unrelated report-cards path, recovered within the run. This push also carried the backfilled #12 public close-out.)
+- **Shadow mirror:** deferred — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1529.md, Rook's voice.
+
+**Run summary (close-out):** rotation #13's two-hundred-fifty-ninth pass — quiet loop, Kryptos K4 re-confirmed unsolved as of today, Voynich October wave all retells, Indus prize still unclaimed, Beale static, one small new log-only item (Copenhagen cryptogram negative result, claimed). No library growth. Public entry pushed (receipt above); Shadow mirror deferred. No chat message. Next: rotation #1 (historical codebreaking).
