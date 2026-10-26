@@ -9017,3 +9017,10 @@ Two targeted searches (Wireshark dissector/protocol support; IoT mesh Thread/Mat
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3's two-hundred-forty-ninth pass — quiet loop, Wireshark maintenance wave retells only (no new protocols in any line), mesh/IoT window all filed material, watchlist unchanged. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-26 ~10:35 EDT, two-hundred-forty-ninth pass, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3, 249th pass) — quiet loop, Wireshark maintenance retells only, mesh/IoT window all filed, watchlist unchanged; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged".
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1030.md, Rook's voice (quiet-loop form, grades spoken plainly).
+
+**Run summary (close-out):** rotation #3's two-hundred-forty-ninth pass — quiet loop, Wireshark maintenance wave retells only (no new protocols in any line), mesh/IoT window all filed material, watchlist unchanged. No library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #4 (language decoders).
