@@ -8780,3 +8780,10 @@ Two targeted news searches (machine translation / low-resource languages; ancien
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4's two-hundred-thirty-seventh pass — quiet loop, every hit resolved to an on-record item (WMT 2026 low-resource proceedings papers; Voynich misbinding retells plus a recycled AI-Hebrew title). No library growth. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-26 ~04:35 EDT, two-hundred-thirty-seventh pass, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4, 237th pass) — quiet loop, all hits retells of filed material; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed ("Connection closed by UNKNOWN port 65535", Shadow-down signature; /root/.ssh/config present). Next run retries; no mirror completion claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0428.md, Rook's voice (quiet loop).
+
+**Run summary (close-out):** rotation #4's two-hundred-thirty-seventh pass — quiet loop, every hit resolved to an on-record item (WMT 2026 low-resource proceedings papers; Voynich misbinding retells plus a recycled AI-Hebrew title). No library growth. Public entry pushed; Shadow mirror deferred (Shadow down). No chat message. Next: rotation #5 (quantum decoding).
