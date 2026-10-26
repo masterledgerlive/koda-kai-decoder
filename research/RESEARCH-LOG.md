@@ -9155,3 +9155,13 @@ Two targeted news searches (malicious/rogue AI agents, October 2026; AI-agent at
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1358.md, Rook's voice.
 
 **Run summary (close-out):** rotation #10's two-hundred-fifty-sixth pass — quiet loop, whole window re-covered; one log-only texture note (ConnectWise restoration in controlled phases, claimed). No library growth. Public entry pushed (receipt above); Shadow mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
+## 2026-10-26 ~14:27 EDT — decoder-research-loop — Suggestion-implant traps (rotation #11, two-hundred-fifty-seventh pass):
+
+Two targeted news-vertical searches (prompt injection / indirect injection / jailbreak defenses, October 2026; AI-agent prompt-injection attack in the wild, October 2026) plus a standing-record check. **Quiet loop — every hit resolved to an already-filed item; no new suggestion-implant technique, no new attack in the wild, no new defense measurement, no status change on any watch item.** No library growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+- **Re-covered, no status change:** the AGENTS.md Downloads-folder incident (filed earlier — the tracker page updated October 26 still reports no vendor patch or statement; researcher names, test rates, and package attempt unchanged); the AgentCorruption disclosure and dispute resolution; SalesBleed (fixed by September 21, 2026, no evidence of wild exploitation); the October 22 self-injection account (the agent invented the attack it reported); the MITRE ATT&CK v20 injection technique cluster; the Signals Corps header-injection census (217 million responses, 30 manipulation attempts, zero evidence of success); the ServiceNow second-order entry (vendor scorecard on an already-filed class, not a new incident); and several defense explainer pieces (standard controls restated, no new measurement).
+- **Census re-check (due this pass): count holds.** The prompt-injection CVE census still cites its October 12, 2026 retrieval — 141 records naming prompt injection, 105 of 141 High or Critical — so the standing count is unchanged.
+- **Grades:** re-carry only; one persistence claim from a single explainer noted as claimed and unverified.
+- **Library changes:** none — a quiet loop with zero new items does not grow the library.
+
+**Run summary:** rotation #11's two-hundred-fifty-seventh pass — quiet loop, whole window re-covered, census re-checked holding. No library growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
