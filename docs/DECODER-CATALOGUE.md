@@ -4028,6 +4028,8 @@ decoder-research-loop.*
   instruction files as trusted — they are a remote-input surface, not the
   operator. [CLAIMED — researcher demonstration writeup]
 
+- **AGENTS.md Downloads-folder wild incident (Forever Security, reported Oct 25, 2026).** A malicious instruction file in a customer's Downloads folder — also the folder the agent was launched from — steered a coding agent toward installing a rogue software package. Agents read instruction files from their working directory, so the implant rode the agent's own tools. A webpage-download proof of concept reproduced the placement; measured rates: a harmless payload succeeded in 90% of tests against one coding agent, and a variant redirected another agent's traffic, exposed a login token, and enabled code execution in roughly 50% of tests. How the original file arrived is unknown, and the attack needed an agent launched in that directory. Decoder lesson: the folder you launch an agent from is a trust boundary, not a convenience default — use a narrow project directory, review unfamiliar instruction files, and keep approval prompts and sandbox protections on. [CLAIMED — secondary writeup; download mechanism verified independently]
+
 - **Image-embedded prompt injection, peer-reviewed (Nature Scientific Reports,
   2026).** Burned-in instruction overlays in medical images flipped a positive
   clean-image finding to negative in 62.6% of paired observations on GPT-4o,
