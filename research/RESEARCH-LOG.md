@@ -9024,3 +9024,14 @@ Two targeted searches (Wireshark dissector/protocol support; IoT mesh Thread/Mat
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1030.md, Rook's voice (quiet-loop form, grades spoken plainly).
 
 **Run summary (close-out):** rotation #3's two-hundred-forty-ninth pass — quiet loop, Wireshark maintenance wave retells only (no new protocols in any line), mesh/IoT window all filed material, watchlist unchanged. No library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #4 (language decoders).
+## 2026-10-26 ~10:58 EDT — Language decoders (rotation #4, 250th pass):
+
+Quiet loop — every hit in this window resolved to an on-record item; no new translation technique, no new decipherment, no shipped release, no status change. No library growth.
+
+- Re-covered: the October speech-translation launch wave (ElevenLabs realtime voice translation, 90+ languages; Mistral Voxtral 3 voice adaptation, 35+ languages) and DeepL Voice's Fast Company 2026 Next Big Things listing — product and award texture, not new techniques.
+- Re-covered: the 78-language safety-bypass study (arXiv, October 21, 2026) — safety refusals in English did not reliably hold when requests were translated into low-resource languages, at mean bypass rates of 21.9% to 44.4%; still claimed pending independent replication, with the authors' own confounds noted.
+- Re-covered: low-resource machine-translation research texture (noise-robust translation methods, terminology-correction frameworks, translation-first model families) — single-secondary reports, no shipped decoder.
+- Re-covered: the Voynich manuscript misbinding study wave (pages possibly bound out of order — a new direction, not a translation), with one caution: a retell carrier invents imaging evidence the study does not claim. Unaccepted Voynich claims and the Linear A preprint claim remain parked as before.
+- Grades: re-carry only (launches corroborated; safety study claimed; Voynich study corroborated; distorted retell flagged, not sourced).
+
+Next: rotation #5 (quantum decoding).
