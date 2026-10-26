@@ -8799,3 +8799,10 @@ Two targeted searches (quantum error correction, October 2026; post-quantum cryp
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #5's two-hundred-thirty-eighth pass — one claimed migration date new to record (SwiftNet 8.0, July 2027); the rest re-covered, no status changes, no library growth. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-10-26 ~05:05 EDT, two-hundred-thirty-eighth pass, rotation #5):**
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5, 238th pass) — SwiftNet 8.0 July 2027 cutover claimed new to record; rest re-covered; no library growth" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed (Shadow-down signature). Next run retries; no mirror completion claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0458.md, Rook's voice (142 words).
+
+**Run summary (close-out):** rotation #5's two-hundred-thirty-eighth pass — one claimed migration date new to record; the rest re-covered, no library growth. Public entry pushed; Shadow mirror deferred (Shadow down). Next: rotation #6 (photonic comms & power).
