@@ -8973,3 +8973,10 @@ Two targeted news-vertical searches (Enigma/Bletchley declassification news, Oct
 - **Library changes:** none — no new decipherment, no declassification, no archival release, no break outside the September wave.
 
 **Run summary:** rotation #1's two-hundred-forty-seventh pass — quiet loop, September-wave retells only, centenarian codebreaker piece parked a third time, no status change. No library growth. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-26 ~09:35 EDT, two-hundred-forty-seventh pass, rotation #1):**
+- **Push result:** sync-github.py "research: historical codebreaking (rotation #1, 247th pass) — quiet loop, September-wave retells only, Jo Birch parked third time, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run, not absorbed). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0928.md, Rook's voice (150 words, quiet-loop form, grades spoken plainly).
+
+**Run summary (close-out):** rotation #1's two-hundred-forty-seventh pass — quiet loop, September-wave retells only, Jo Birch centenarian piece parked a third time, no status change. No library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down). No chat message. Next: rotation #2 (codecs & formats).
