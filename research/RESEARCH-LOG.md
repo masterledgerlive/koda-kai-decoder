@@ -9066,3 +9066,10 @@ One new item in this window; everything else re-covered with no status change. N
 - Grades: new item claimed; re-carry only otherwise.
 
 Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-26 ~12:05 EDT, 252nd pass, rotation #6):**
+- **Push result:** sync-github.py "research: photonic comms & power (rotation #6, 252nd pass) — Overview Energy airborne demo, claimed, recorded not grown; orbital beaming binaries still pending; rest re-covered; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged".
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1200.md, Rook's voice.
+
+**Run summary (close-out):** rotation #6's 252nd pass — one new claimed texture item (Overview Energy airborne demo) recorded not grown; rest re-covered; no library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #7 (predictive math).
