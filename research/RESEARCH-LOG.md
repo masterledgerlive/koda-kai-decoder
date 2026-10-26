@@ -8721,3 +8721,10 @@ Two targeted news-vertical searches (Enigma/Bletchley declassification news, Oct
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1's two-hundred-thirty-fourth pass — quiet loop, September-wave retells only, Mavis Batey obituary recrawled a third time, Lorenz/Tunny history retold, no status change. No library growth. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-26 ~03:02 EDT, two-hundred-thirty-fourth pass, rotation #1):**
+- **Push result:** sync-github.py "research: historical codebreaking (rotation #1, 234th pass) — quiet loop, September-wave retells only, Mavis Batey recrawl flagged, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Note: this close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed; per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0257.md, Rook's voice (quiet-loop brief, grades spoken plainly).
+
+**Run summary (close-out):** rotation #1's two-hundred-thirty-fourth pass — quiet loop, September-wave retells only, Mavis Batey obituary recrawled a third time, Lorenz/Tunny history retold, no status change. No library growth. Public entry pushed (receipt above); Shadow mirror deferred (SSH probe failed). No chat message. Next: rotation #2 (codecs & formats).
