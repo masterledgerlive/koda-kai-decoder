@@ -9002,3 +9002,18 @@ Two targeted searches (new audio/video codec + FFmpeg/VLC, October 2026; Google 
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0958.md, Rook's voice (quiet-loop form, grades spoken plainly).
 
 **Run summary (close-out):** rotation #2's two-hundred-forty-eighth pass — quiet loop, AV2 press-cycle ninth echo, FFmpeg 9.1 still in release process, VDD26/IAMF and VLC 3.0.24 and VVC/Android 17 all re-covered, no status change. No library growth. Public entry byte-verified on GitHub main (absorbed by a concurrent sync); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #3 (protocol decoders).
+
+## 2026-10-26 ~10:30 EDT — decoder-research-loop — Protocol decoders (rotation #3, two-hundred-forty-ninth pass):
+
+Two targeted searches (Wireshark dissector/protocol support; IoT mesh Thread/Matter updates) + standing-record check. **Quiet loop — every hit resolved to an on-record item; no new protocol family, no new dissector, no shipped release, no status change.** No library growth. No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-26-1030.md, Rook's voice, quiet-loop form). Next: rotation #4 (language decoders).
+
+- **Re-covered, no status change — Wireshark maintenance wave:** the 4.4.13 announce note surfaced again (three 2026 security advisories, updated dissectors including IEEE 802.11, NAS-5GS, QUIC, SOME/IP-SD, Thrift; "no new protocols in this release") — this is the January 2026 long-term-support release, already noted as such, not a new release. The 4.6.8 / 4.6.9 retells restate the on-record September 23 release — 19 advisories, roughly thirty refreshed dissectors, zero new protocols.
+- **Re-covered, no status change — mesh / IoT protocol window, all filed:** UniFi Network 11 Matter/Thread device identification (on record from the mid-October product event); the Wi-Fi 7 / Thread 1.4 / Matter convergence piece (landscape context, no dissector); Matter 1.4 lighting guides and a Matter-over-Thread outdoor plug writeup (consumer texture, no new protocol surface); GhostWire (on record, no specification follow-up surfaced); Offline Protocol SDK v0.29.0 (on record, no new version).
+- **Watchlist carried forward, unchanged:** Wireshark 5.0.0 final still dateless (release candidate from October 21, 37 new dissectors, on record); the next maintenance pair still roadmapped for November 12, 2026; Ultra Ethernet Consortium 1.1 still with no dissector.
+- **Grades:** re-carry only (Wireshark maintenance corpus and mesh-window items corroborated via their own pages on record); no new grade assigned this pass.
+- **Library changes:** none — no new protocol family, no new dissector, no shipped release; a quiet loop with zero new items does not grow the library.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1030.md, Rook's voice (quiet-loop form).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #3's two-hundred-forty-ninth pass — quiet loop, Wireshark maintenance wave retells only (no new protocols in any line), mesh/IoT window all filed material, watchlist unchanged. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
