@@ -8886,3 +8886,10 @@ Two targeted news-vertical searches (gVisor/Firecracker/microVM agent sandbox is
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9's two-hundred-forty-second pass — new DepthFirst V8 escape trio (two memory corruptions + shared-WebAssembly-memory lifetime escape, two renderer chains, claimed) filed as minor §(i) library growth in both trees, plus a log-only Chrome V8 use-after-free CVE-2026-110168; rest retells, Wasmtime pair still unexploited. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-26 ~07:05 EDT, two-hundred-forty-second pass, rotation #9):**
+- **Push result:** sync-github.py — exit 0, stdout "pushed: docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" (this pass's public entry AND library growth pushed by my own run, not absorbed). This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed with the Shadow-down signature ("Connection closed by UNKNOWN port 65535"); skipped per the standing rule, next run retries; no mirror completion claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0659.md, Rook's voice (145 words, DepthFirst V8 trio claimed, Wasmtime retells, grades spoken plainly).
+
+**Run summary (close-out):** rotation #9's two-hundred-forty-second pass — new DepthFirst V8 escape trio (two memory corruptions + shared-WebAssembly-memory lifetime escape, two renderer chains, claimed) filed as minor §(i) library growth in both trees, plus a log-only Chrome V8 use-after-free CVE-2026-110168; rest retells, Wasmtime pair still unexploited. Public entry + library addition pushed; Shadow mirror deferred (Shadow down). Next: rotation #10 (rogue-agent threat intel).
