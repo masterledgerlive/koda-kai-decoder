@@ -8570,3 +8570,10 @@ Two targeted news-vertical searches (forecasting / prediction markets / Bayesian
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #7's two-hundred-twenty-seventh pass — one new claimed scoreboard (Crane–Strumpf: Kalshi 2024 traders beat every poll-based forecast, with a demographic counterweight ruling out trader-politics as the explanation), plus two texture items (Primer's no-alpha capital-markets-day working paper; a Germany energy-demand forecasting comparison with no effect sizes carried). The rest of the window is re-carried filed record. No library growth. Next: rotation #8 (agent detection vs anti-detection).
+
+**Close-out (2026-10-25 ~23:45 EDT, two-hundred-twenty-seventh pass, rotation #7):**
+- **Push result (VERIFIED by independent byte-check):** my sync-github.py run reported "0 pushed, 266 unchanged" — a concurrent sync had already absorbed this pass's public entry. Independent Contents-API check: local git-blob sha `7970b0196ce47423bf3dc583ce8879e8a15f4b99` (2,082,812 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** NOT VERIFIED — the scp session's output was lost when its session cleared, and the follow-up SSH probe then failed (egress-proxy failure signature). Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-2328.md, Rook's voice (155 words).
+
+**Run summary (close-out):** rotation #7's two-hundred-twenty-seventh pass — one new claimed scoreboard (Crane–Strumpf: Kalshi 2024 traders beat every poll-based forecast, demographic counterweight), plus two texture items (Primer no-alpha working paper; Germany energy-demand comparison). No library growth. Public entry byte-verified on GitHub main; Shadow mirror deferred to the next run on SSH failure. No chat message. Next: rotation #8 (agent detection vs anti-detection).
