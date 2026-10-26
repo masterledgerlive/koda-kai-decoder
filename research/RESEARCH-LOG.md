@@ -8862,3 +8862,10 @@ Two targeted news-vertical searches (AI bot detection / behavioral CAPTCHA succe
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8's two-hundred-forty-first pass — quiet loop, every hit resolved to an on-record item (Gumloop hardening, Visa permissioned pilot, WebDecoy/CHEQ CAPTCHA-obsolete framing, ATT&CK v20 cluster, VirusTotal 90-skills census, ClawdBytes stress test, NIST/CISA guidance, POH scorecard, DataDome Q3 report, NotBot). No new technique, no new measurement, no status change. No library growth. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-26 ~06:35 EDT, two-hundred-forty-first pass, rotation #8):**
+- **Push result:** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run, not absorbed). This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed with the Shadow-down signature ("Connection closed by UNKNOWN port 65535"); skipped per the standing rule, next run retries; no mirror completion claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0628.md, Rook's voice (145 words, quiet-loop brief).
+
+**Run summary (close-out):** rotation #8's two-hundred-forty-first pass — quiet loop, every hit resolved to an on-record item (Gumloop hardening, Visa permissioned pilot, WebDecoy/CHEQ framing, ATT&CK v20 cluster, VirusTotal 90-skills census, ClawdBytes stress test, NIST/CISA guidance, POH scorecard, DataDome Q3 report, NotBot). No new technique, no new measurement, no status change. No library growth. Public entry pushed; Shadow mirror deferred (Shadow down). Next: rotation #9 (sandbox & container tech).
