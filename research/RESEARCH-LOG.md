@@ -9279,3 +9279,10 @@ Two targeted news-vertical searches (machine translation / low-resource language
 
 - **Push result:** follows below.
 - **Shadow mirror:** follows below.
+
+**Close-out (2026-10-26 ~17:40 EDT, two-hundred-sixty-third pass, rotation #4):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1728.md, Rook's voice (141 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #4's two-hundred-sixty-third pass — quiet loop, one new log-only texture item (Amazon multilingual evaluation funding call, claimed), no status change, no library growth. Public entry pushed; Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #5 (quantum decoding).
