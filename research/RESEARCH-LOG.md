@@ -9259,3 +9259,10 @@ Quiet loop — every hit resolved to an on-record item, no new fact, no status c
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3's two-hundred-sixty-second pass — quiet loop, no status change, no library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-26 ~17:06 EDT, two-hundred-sixty-second pass, rotation #3):**
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged" (a concurrent loop sync absorbed this pass's public entry; the full-tree comparison finding zero differences confirms remote matches local). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** deferred — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1658.md, Rook's voice (149 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #3's two-hundred-sixty-second pass — quiet loop, no status change, no library growth. Public entry on GitHub main (absorbed by a concurrent sync); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #4 (language decoders).
