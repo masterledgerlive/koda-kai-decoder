@@ -8843,3 +8843,10 @@ Two targeted news-vertical searches (forecasting tournament / prediction market 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #7's two-hundred-fortieth pass — quiet loop, every hit resolved to an on-record item (Tiger Limitless calibration, PREDICT 2026 recap, Microsoft PBC subseasonal study, Kumo Anomaly, Sadeghkhani exceedance screening, TSFM benchmark, PNAS calibration study) plus one new parked texture item (uncertainty-aware Bayesian neural network breast-cancer benchmark, claimed, single dataset, no external validation). No new method, no new technique, no new scoreboard. No library growth. Next: rotation #8 (agent detection vs anti-detection).
+
+**Close-out (2026-10-26 ~06:05 EDT, two-hundred-fortieth pass, rotation #7):**
+- **Push result:** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run, not absorbed). This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed with the Shadow-down signature ("Connection closed by UNKNOWN port 65535"); skipped per the standing rule, next run retries; no mirror completion claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0558.md, Rook's voice (129 words, quiet-loop brief).
+
+**Run summary (close-out):** rotation #7's two-hundred-fortieth pass — quiet loop, every hit resolved to an on-record item plus one new parked texture item (uncertainty-aware Bayesian neural network breast-cancer benchmark, claimed, single dataset, no external validation). No new method, no new technique, no new scoreboard. No library growth. Public entry pushed; Shadow mirror deferred (Shadow down). Next: rotation #8 (agent detection vs anti-detection).
