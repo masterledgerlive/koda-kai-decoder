@@ -9246,3 +9246,8 @@ Three targeted searches (new video codec AV2/FFmpeg/VLC, October 2026; Google me
 **Close-out (2026-10-26 ~16:28 EDT, two-hundred-sixty-first pass, rotation #2):**
 - **Push result:** follows below.
 - **Shadow mirror:** follows below.
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged" (a concurrent loop sync absorbed this pass's public entry; the full-tree comparison finding zero differences confirms remote matches local). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** deferred — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1628.md, Rook's voice (150 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #2's two-hundred-sixty-first pass — quiet loop, AV2 press-cycle tenth echo, FFmpeg 9.1 still in release process, VDD26 and VLC 3.0.24 re-covered, one packaging-texture item (Rocky x265 breakage), no status change. No library growth. Public entry on GitHub main (absorbed by a concurrent sync); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #3 (protocol decoders).
