@@ -8787,3 +8787,15 @@ Two targeted news searches (machine translation / low-resource languages; ancien
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0428.md, Rook's voice (quiet loop).
 
 **Run summary (close-out):** rotation #4's two-hundred-thirty-seventh pass — quiet loop, every hit resolved to an on-record item (WMT 2026 low-resource proceedings papers; Voynich misbinding retells plus a recycled AI-Hebrew title). No library growth. Public entry pushed; Shadow mirror deferred (Shadow down). No chat message. Next: rotation #5 (quantum decoding).
+## 2026-10-26 ~04:58 EDT — Quantum decoding (rotation #5, two-hundred-thirty-eighth pass):
+
+Two targeted searches (quantum error correction, October 2026; post-quantum cryptography migration, October 2026) plus a check against the standing record. **One small migration item new to record, below the material bar; everything else re-covered with no status change. No library growth.**
+
+- **New to record, migration texture — Swift's post-quantum network date (CLAIMED — secondary source; no Swift primary release read this pass).** Swift plans to release SwiftNet 8.0, its post-quantum-cryptography-enabled network, at the end of July 2027, described as a mandatory major release with no upgrade path from release 7.7 and support for release 7.9 ending fifteen months after 8.0 becomes available, for more than eleven thousand five hundred connected institutions. A hard, dated, sector-wide cutover — logged, not grown, until a Swift primary release confirms the dates.
+  - Source: https://www.keyfactor.com/blog/post-quantum-readiness-the-timeline-is-now-written-down/
+- **Re-covered, no status change:** Quantinuum's October 19 color-code record on Helios (ninety-nine point nine nine nine five percent logical fidelity, five errors per million operations — on record, CORROBORATED); Quantum X Labs' CUDA-Q decoder (CLAIMED) and its LayerQake sibling (CLAIMED) — same vendor releases, still no preprint or independent replication; Google Willow "magic state cultivation" (Science, October 15 — VERIFIED); NVIDIA JUPITER, Iceberg "Crevasse," IBM agent-factory, LLM-designed decoding circuits, Alice & Bob LDPC-cat, Google virtual error cancellation, IonQ qLDPC, modular hyperbolic codes (all on record); Executive Order 14412 / OMB M-26-15 dates, NIST FIPS 203/204/205, NSA CNSA 2.0, GAO, R Street bottleneck analysis, NCSC TLS guidance, Germany/Singapore guidance, Starknet/Aztec/Ethereum roadmaps (all on record).
+- **Deadline silence extends:** the October 22 federal PQC filing deadline is now four days past with still no public confirmation of submissions, no extension notice, no scorecard, and no compliance count. The receipt-gated watch stands.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #5's two-hundred-thirty-eighth pass — one claimed migration date new to record (SwiftNet 8.0, July 2027); the rest re-covered, no status changes, no library growth. Next: rotation #6 (photonic comms & power).
