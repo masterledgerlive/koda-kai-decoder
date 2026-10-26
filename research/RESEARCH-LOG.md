@@ -8758,3 +8758,10 @@ Two targeted news-vertical searches (Wireshark new dissector / new protocol, Oct
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3's two-hundred-thirty-sixth pass — quiet loop, every hit resolved to an on-record item (Wireshark 4.4.13 January-2026 archive-path retell, 4.6.8/4.6.9 maintenance retells, GhostWire, Thread/Matter convergence, Offline Protocol roadmap). No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-26 ~04:05 EDT, two-hundred-thirty-sixth pass, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3, 236th pass) — quiet loop, all hits retells of filed material, no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Note: this close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed; per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0358.md, Rook's voice (145 words, quiet loop, grades spoken plainly).
+
+**Run summary (close-out):** rotation #3's two-hundred-thirty-sixth pass — quiet loop, every hit resolved to an on-record item (Wireshark 4.4.13 January-2026 archive-path retell, 4.6.8/4.6.9 maintenance retells, GhostWire, Thread/Matter convergence, Offline Protocol roadmap). No library growth. Public entry pushed (receipt above); Shadow mirror deferred (SSH probe failed). No chat message. Next: rotation #4 (language decoders).
