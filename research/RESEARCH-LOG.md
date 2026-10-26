@@ -9084,3 +9084,10 @@ Quiet loop with three new regulatory and market-structure texture items; no new 
 - Watch items unchanged: the Federal Reserve decision lands October twenty-eighth, two days out; the midterm snapshot stands, with Election Day November third, eight days out; two forecasting tournaments still pending resolution.
 
 Next: rotation #8 (agent detection vs anti-detection).
+
+**Close-out (2026-10-26 ~12:35 EDT, 253rd pass, rotation #7):**
+- **Push result:** sync-github.py "research: predictive math (rotation #7, 253rd pass) — quiet loop, CFTC-NBA MOU + NY Kalshi subpoena move + taker-vs-notional volume caveat, texture only; rest re-covered; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged".
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1227.md, Rook's voice.
+
+**Run summary (close-out):** rotation #7's 253rd pass — quiet loop, three new texture items recorded not grown; rest re-covered. No library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #8 (agent detection vs anti-detection).
