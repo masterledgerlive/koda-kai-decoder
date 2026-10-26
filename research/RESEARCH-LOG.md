@@ -9073,3 +9073,14 @@ Next: rotation #7 (predictive math).
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1200.md, Rook's voice.
 
 **Run summary (close-out):** rotation #6's 252nd pass — one new claimed texture item (Overview Energy airborne demo) recorded not grown; rest re-covered; no library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #7 (predictive math).
+## 2026-10-26 ~12:27 EDT — Predictive math (rotation #7, 253rd pass):
+
+Quiet loop with three new regulatory and market-structure texture items; no new forecasting method, no new anomaly-detection technique, no new scoreboard, no status change on any watch item. No library growth.
+
+- New, texture: the Commodity Futures Trading Commission signed an integrity memorandum of understanding with the National Basketball Association on October twenty-sixth, two thousand twenty-six — the league joins Major League Baseball and the National Hockey League in such agreements, aimed at insider trading and fraud in prediction markets. A cooperation instrument, not a measurement: it changes no odds and no calibration result.
+- New, texture: New York regulators asked a Manhattan court on October twenty-second to force Kalshi to comply with investigative subpoenas issued July thirty-first, seeking sports-contract records, products offered to New Yorkers under twenty-one, advertising that calls the products wagers, and ownership details — a procedural step in the state-versus-federal dispute, no ruling and no penalty yet.
+- New, texture: a measurement caveat worth carrying — one analyst forecasts one hundred eighty-seven billion dollars in taker volume for two thousand twenty-six, while another dataset counts one hundred eighty-eight billion dollars for July through September by valuing every contract at its full one-dollar face value, so a contract bought for twenty cents counts as a dollar. Headline volume is not cash exchanged until a taker-volume series confirms it.
+- Re-covered: DraftKings' prediction exchange in third place, the uncertainty-aware Bayesian breast-cancer paper, the time-series foundation model benchmark, the dual-encoder anomaly detector, Microsoft's weather bias-correction study, the Benford-law Bayesian screener, the million-contract calibration study, the Bayesian-inverse negative result on real market data, and the Kalshi-beats-polls scoreboard — all unchanged.
+- Watch items unchanged: the Federal Reserve decision lands October twenty-eighth, two days out; the midterm snapshot stands, with Election Day November third, eight days out; two forecasting tournaments still pending resolution.
+
+Next: rotation #8 (agent detection vs anti-detection).
