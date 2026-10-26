@@ -9228,3 +9228,21 @@ Two targeted news searches (Enigma/Bletchley Park, October 2026; declassified ci
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1558.md, Rook's voice.
 
 **Run summary (close-out):** rotation #1's two-hundred-sixtieth pass — quiet loop, September-wave retells only, Mavis Batey obituary recrawled a fourth time, Newnham exhibition parked as undated texture, Kryptos K4 re-confirmed unsolved as of today, no status change. No library growth. Public entry pushed (receipt above); Shadow mirror deferred. No chat message. Next: rotation #2 (codecs & formats).
+
+## 2026-10-26 ~16:28 EDT — decoder-research-loop — Codecs & formats (rotation #2, two-hundred-sixty-first pass):
+
+Three targeted searches (new video codec AV2/FFmpeg/VLC, October 2026; Google media/voxel codec, October 2026; FFmpeg/VLC codec update, October 2026) + standing-record check. **Quiet loop — every hit resolved to an on-record item; no new codec/format class, no shipped release, no status change.** No library growth. No verdicts, nothing broadcast.
+
+- **Re-covered, no status change — AV2 press cycle, tenth echo:** the AOMedia October 22 four-month adoption release re-carried by neowin (October 23), csimagazine (October 23), pbxscience (October 23 and 25), notebookcheck, gagadget and biggo finance (October 25) — Chrome AV2 playback demonstrated, YouTube AV2 web streams "as soon as early 2027," Netflix/Prime Video exploring with no date, Intel SVT-AV2 in development, roughly thirty percent better compression than AV1, no consumer hardware decode timeline. Same release first-party via Business Wire, catalogue entry grown the same pass.
+- **Re-covered, no status change — FFmpeg 9.1 still in release process:** alextech (October 24) restates the corroborated headline pair — Vulkan APV encoder + NVIDIA optical-flow frame-rate filter — plus the longer list parked as claimed (improved AAC encoder, ASTC, xHE-AAC, DVD-Audio LPCM, RW2, iTerm2 muxer, MVR demuxer, asf_o removal); no 9.1 release announcement in this window.
+- **Re-covered, no status change — VDD26 Rome report Parts 2 and 3:** the same developer-days reports as earlier passes (dav2d speed texture, IAMF v2 authoring tools with no FFmpeg implementation yet, edge264, WebAssembly AV2-in-browser demo, Vship GPU metrics, downscale-aware ProRes decode) — no new texture beyond what was filed.
+- **Re-covered, no status change — VLC 3.0.24:** the September 22 release (FFmpeg 4.4 to 8.1.2, one-hundred-thirty-plus security fixes, ATRAC decoding, CEA-708 in MP4) re-carried — on record, no new decode surface.
+- **New texture, below the bar — Rocky Linux VLC x265 breakage (forum report, October 14):** after a packaging upgrade, VLC on Rocky 9.8 reports HEVC as unsupported; reporters attribute it to a dual-repo packaging split, not a codec change. Recorded as packaging texture only, not a decoder finding.
+- **Grades:** re-carry only (AV2 adoption release corroborated via the first-party release on record; FFmpeg 9.1 headline pair corroborated; longer list claimed; Rocky breakage claimed, single forum thread).
+- **Library changes:** none — a quiet loop with zero new items does not grow the library.
+
+**Run summary:** rotation #2's two-hundred-sixty-first pass — quiet loop, AV2 press-cycle tenth echo, FFmpeg 9.1 still in release process, VDD26 and VLC 3.0.24 re-covered, one packaging-texture item (Rocky x265 breakage), no status change. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-26 ~16:28 EDT, two-hundred-sixty-first pass, rotation #2):**
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
