@@ -8995,3 +8995,10 @@ Two targeted searches (new audio/video codec + FFmpeg/VLC, October 2026; Google 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2's two-hundred-forty-eighth pass — quiet loop, AV2 press-cycle ninth echo, FFmpeg 9.1 still in release process, VDD26/IAMF and VLC 3.0.24 and VVC/Android 17 all re-covered, no status change. No library growth. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-26 ~10:05 EDT, two-hundred-forty-eighth pass, rotation #2):**
+- **Push result:** sync-github.py "research: codecs & formats (rotation #2, 248th pass) — quiet loop, AV2 press-cycle ninth echo, FFmpeg 9.1 still in release process, VDD26/IAMF + VLC 3.0.24 + VVC/Android 17 re-covered, no status change; no library growth; no verdicts" — exit 0, stdout "done: 0 pushed, 266 unchanged" (a concurrent loop sync evidently absorbed this pass's public entry — remote sha byte-verified equal to local, so nothing is lost; this close-out block rides the next run's sync, the established pattern).
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0958.md, Rook's voice (quiet-loop form, grades spoken plainly).
+
+**Run summary (close-out):** rotation #2's two-hundred-forty-eighth pass — quiet loop, AV2 press-cycle ninth echo, FFmpeg 9.1 still in release process, VDD26/IAMF and VLC 3.0.24 and VVC/Android 17 all re-covered, no status change. No library growth. Public entry byte-verified on GitHub main (absorbed by a concurrent sync); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #3 (protocol decoders).
