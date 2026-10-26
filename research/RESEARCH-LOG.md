@@ -9047,3 +9047,10 @@ One new item in this window; everything else re-covered with no status change. N
 - Grades: new item claimed; re-carry only otherwise (Google paper verified; Quantinuum record corroborated; NVIDIA simulation claimed).
 
 Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-10-26 ~11:45 EDT, 251st pass, rotation #5):**
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5, 251st pass) — NowSecure mobile PQC gap, claimed, recorded not grown; rest retells; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged".
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Per the loop's standing rule, the mirror is skipped on SSH failure and the next run retries; no mirror completion is claimed for this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1135.md, Rook's voice (126 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #5's 251st pass — one new claimed texture item (NowSecure mobile PQC gap) recorded not grown; rest retells; no library growth. Public entry pushed (receipt above); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #6 (photonic comms & power).
