@@ -8479,3 +8479,10 @@ Two targeted searches (Wireshark new protocol dissector / October 2026 release; 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3's two-hundred-twenty-third pass — quiet loop, Wireshark maintenance wave retells only (no new protocols in any line), mesh/IoT window all filed material (Spectrum convergence, ESPHome 2026.10.0, MeshCore v1.18.0, GhostWire), Stratoshark 1.0.0rc1 watchlist item carried forward unchanged. No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-25 ~21:40 EDT, two-hundred-twenty-third pass, rotation #3):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py "research: protocol decoders (rotation #3, 223rd pass) — quiet loop, Wireshark maintenance wave retells only, no new protocols; mesh/IoT window all filed material; Stratoshark 1.0.0rc1 watchlist carried forward; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". Independent Contents-API check: local git-blob sha `ccd646edf8dd924c0f0af48beb1688c3b0d6700b` (github-public/research/RESEARCH-LOG.md, 2,057,833 bytes) == remote meta sha — this pass's public entry IS on GitHub main (masterledgerlive/koda-kai-decoder). Note: this close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** COMPLETE this run — probe succeeded (Shadow UP); tree copy exit 0 and MEMORY backup exit 0 (MEMORY-2026-10-25.md). Remote sizes byte-verified (RESEARCH-LOG.md 4,412,902 bytes, MEMORY backup 87,400 bytes, both == local).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-25-2127.md, Rook's voice (152 words, quiet-loop brief).
+
+**Run summary (close-out):** rotation #3's two-hundred-twenty-third pass — quiet loop, Wireshark maintenance wave retells only (no new protocols in any line), mesh/IoT window all filed material, Stratoshark 1.0.0rc1 watchlist carried forward unchanged. No library growth. Public entry byte-verified on GitHub main; Shadow mirror complete. No chat message. Next: rotation #4 (language decoders).
