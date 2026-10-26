@@ -9221,3 +9221,10 @@ Two targeted news searches (Enigma/Bletchley Park, October 2026; declassified ci
 - **Grades:** re-carry CORROBORATED (the September wave as a whole); recrawl/texture items ungraded, filed as texture only.
 
 **Run summary:** rotation #1's two-hundred-sixtieth pass — quiet loop, September-wave retells only, Mavis Batey obituary recrawled again, Newnham exhibition parked as undated texture, Kryptos K4 re-confirmed unsolved as of today, no status change. No library growth. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-26 ~16:07 EDT, two-hundred-sixtieth pass, rotation #1):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (one transient RemoteDisconnected retry on an unrelated path, recovered within the run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** deferred — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1558.md, Rook's voice.
+
+**Run summary (close-out):** rotation #1's two-hundred-sixtieth pass — quiet loop, September-wave retells only, Mavis Batey obituary recrawled a fourth time, Newnham exhibition parked as undated texture, Kryptos K4 re-confirmed unsolved as of today, no status change. No library growth. Public entry pushed (receipt above); Shadow mirror deferred. No chat message. Next: rotation #2 (codecs & formats).
