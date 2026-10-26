@@ -9251,3 +9251,11 @@ Three targeted searches (new video codec AV2/FFmpeg/VLC, October 2026; Google me
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1628.md, Rook's voice (150 words, grades spoken plainly).
 
 **Run summary (close-out):** rotation #2's two-hundred-sixty-first pass — quiet loop, AV2 press-cycle tenth echo, FFmpeg 9.1 still in release process, VDD26 and VLC 3.0.24 re-covered, one packaging-texture item (Rocky x265 breakage), no status change. No library growth. Public entry on GitHub main (absorbed by a concurrent sync); Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #3 (protocol decoders).
+## 2026-10-26 ~16:58 EDT — decoder-research-loop — Protocol decoders (rotation #3, two-hundred-sixty-second pass):
+
+Quiet loop — every hit resolved to an on-record item, no new fact, no status change. Wireshark's maintenance wave retold only (4.6.9 September 23 release, 4.4.13 January 2026 LTS note, 4.6.8 and 4.6.7 notes — zero new protocols in any line); Wireshark 5.0.0 release candidate still awaiting final, clarity expected after SharkFest EU in early November. Mesh and IoT window all filed material: the Wi-Fi 7, Thread, and Matter convergence picture, the Bluetooth mesh telephony project, ESPHome's October release, and the smart-meter mesh showcase. Grades: re-carry corroborated. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #3's two-hundred-sixty-second pass — quiet loop, no status change, no library growth. Next: rotation #4 (language decoders).
