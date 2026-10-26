@@ -8622,3 +8622,10 @@ Two targeted news searches (agent sandbox isolation; sandbox-escape vulnerabilit
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9's two-hundred-twenty-ninth pass — third October WebAssembly escape (async-callback stack overflow, fixed) plus an unfixed eval-sandbox specimen (fix proposal closed unmerged), filed as minor sandbox-section library growth in both trees; guide texture recorded not grown; rest retells. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-26 ~00:45 EDT, two-hundred-twenty-ninth pass, rotation #9):**
+- **Push result (VERIFIED by independent byte-check):** sync-github.py exit 0, silent stdout (the known silent quirk). Independent Contents-API check: local git-blob sha `35064054abef0a86436b5495edae17f1931a5be7` (github-public/research/RESEARCH-LOG.md, 2,097,199 bytes) == remote meta sha, and DECODER-CATALOGUE.md local blob sha `546c99447d8944a0d4ef8090930e6752fb63c86d` (903,360 bytes) == remote meta sha — this pass's public entry AND library growth ARE on GitHub main (masterledgerlive/koda-kai-decoder).
+- **Shadow mirror:** COMPLETE this run — probe succeeded (Shadow UP); tree copy exit 0 and MEMORY backup exit 0, remote sizes byte-verified (public RESEARCH-LOG.md 2,097,199 bytes, MEMORY backup 88,966 bytes, both == local; the close-out block appended after the mirror rides the next run's mirror).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-0027.md, Rook's voice (150 words, WebAssembly third escape + eval-sandbox specimen, grades spoken as claimed).
+
+**Run summary (close-out):** rotation #9's two-hundred-twenty-ninth pass — third October WebAssembly escape (async-callback stack overflow, fixed) plus an unfixed eval-sandbox specimen (fix proposal closed unmerged), filed as minor sandbox-section library growth in both trees. Public entry + library addition byte-verified on GitHub main; Shadow mirror complete. No chat message. Next: rotation #10 (rogue-agent threat intel).
