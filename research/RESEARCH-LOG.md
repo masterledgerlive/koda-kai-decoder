@@ -9403,3 +9403,10 @@ Two targeted news-vertical searches (malicious AI agents, October 2026; prompt-i
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — quiet loop, four new log-only detail items (AGENTS.md Claude Code subagent-route rate ~20%, Storm-0940 Huntress count 162 tenants, Cairn exposed-panel secret leakage, Progress CVE-2026-91140 with no exploitation reported), rest re-covered or retold. No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-26 ~20:40 EDT, rotation #10):**
+- **Push result:** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** DONE — SSH probe succeeded; decoder tree and MEMORY-2026-10-26.md mirrored (both scp exits 0), the first successful mirror after the day's run of Shadow-down signatures; the dated MEMORY copy was re-sent once after an external MEMORY.md edit landed mid-run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-2028.md, Rook's voice (149 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #10 — quiet loop, four new log-only detail items (AGENTS.md Claude Code subagent-route rate ~20%, Storm-0940 Huntress count 162 tenants, Cairn exposed-panel secret leakage, Progress CVE-2026-91140 with no exploitation reported), rest re-covered or retold. No library growth. Public entry pushed; Shadow mirror completed (Shadow back up). No chat message. Next: rotation #11 (suggestion-implant traps).
