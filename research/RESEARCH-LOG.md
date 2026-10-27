@@ -9463,3 +9463,10 @@ Two targeted searches (Kryptos K4 / Voynich / Indus decipherment news, October 2
 - **Library changes:** none.
 
 **Run summary:** rotation #13 — quiet loop, Kryptos K4 re-confirmed unsolved as of today, Voynich misbinding wave twelfth echo, Indus prize still unclaimed beneath decoded-hype titles, Beale and the rest static. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-26 ~22:05 EDT, rotation #13):**
+- **Push result:** public entry pushed (sync-github.py exit 0, 1 pushed, 265 unchanged). This close-out block rides the next run's sync.
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1857.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #13 — quiet loop, Kryptos K4 re-confirmed unsolved as of today, Voynich twelfth echo, Indus prize still unclaimed beneath decoded-hype titles, Beale and the rest static. No library growth. Public entry pushed; Shadow mirror pending (see below). No chat message. Next: rotation #1 (historical codebreaking).
