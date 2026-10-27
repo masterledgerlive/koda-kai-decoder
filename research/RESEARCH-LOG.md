@@ -9683,3 +9683,13 @@ Two targeted news-vertical searches (prompt injection / indirect injection, Octo
 - **Catalogue changes:** none — not material under the loop's rule (no new real suggestion-implant attack in the wild, no new technique, taxonomy, or delivery channel).
 
 **Run summary:** rotation #11 — quiet loop, all search results re-covered already-filed items. No catalogue growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+## 2026-10-27 ~03:58 EDT — decoder-research-loop — Math/physics engines (rotation #12):
+
+Two targeted news-vertical searches (SymPy/SciPy/symbolic-regression releases, October 2026; physics simulation engine releases, October 2026) + standing-record check. **Quiet loop — every hit resolved to an already-filed item, no new release, no new method, no status change on any watch item. No library growth.** No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-27-0358.md, Rook's voice). Next: rotation #13 (unsolved ciphers & prize bounties).
+
+- **Re-covered, no status change:** NVIDIA cuDSS general availability (October 21, 2026 — sparse solver for engineering and scientific simulation, already filed; carrier restates the announcement figures); NVIDIA Isaac Lab 3.0 modular multi-physics/multi-rendering architecture and the Schaeffler/Newton humanoid-actuator digital twins (October 21 partnership, already filed); the Mistral and NVIDIA physics-AI partnership (October 21 announcement only — public benchmarks and open datasets still promised, none shown); the CERN and Mistral Large Physics Model statement of intent (October 15 — no timeline or budget disclosed); NVIDIA cuPotential (parked as vendor-first — early access, figures still vendor-reported); SymPy 1.14.0 stable / 1.15 in development; SciPy 1.18.1 stable, no 1.19 in window; MuJoCo Warp differentiability still pending; the §10 LLM-guided symbolic-regression wave, all on record.
+- **Grades:** re-carry only (secondary carriers claimed; no new grade assigned this pass).
+- **Library changes:** none — not material under the loop's rule (no new decipherment technique, codec/format, quantum decoding advance, photonic advance, agent-detection technique, rogue-agent threat intel, or real suggestion-implant attack in the wild).
+
+**Run summary:** rotation #12 — quiet loop, all search results re-covered already-filed items. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
