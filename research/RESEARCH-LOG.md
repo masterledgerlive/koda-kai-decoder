@@ -9693,3 +9693,15 @@ Two targeted news-vertical searches (SymPy/SciPy/symbolic-regression releases, O
 - **Library changes:** none — not material under the loop's rule (no new decipherment technique, codec/format, quantum decoding advance, photonic advance, agent-detection technique, rogue-agent threat intel, or real suggestion-implant attack in the wild).
 
 **Run summary:** rotation #12 — quiet loop, all search results re-covered already-filed items. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-27 — Unsolved ciphers & prize bounties (rotation #13):
+
+Two targeted news searches (Indus script prize; Kryptos K4 / Voynich / Beale status, October 2026) plus a check against the standing record. **Quiet loop — no new decipherment, no prize adjudication, no status change on any Most Wanted item. No library growth.** No verdicts, nothing broadcast.
+
+- **Re-covered, no status change — Kryptos K4, still unsolved as of October 26, 2026:** Paradigm's K4 page still lists the first three passages solved and the fourth unsolved; the ten-puzzle challenge ($10,000 across ten pools) stands unclaimed; K5 remains unreleased. The standing formulation holds: the plaintext was recovered from the sculptor's archive in 2025, but no public cryptanalytic derivation of the cipher method exists.
+- **Re-covered, no status change — Voynich misbinding wave, fourteenth echo, still no translation:** the Smithsonian Magazine and Gizmodo pieces from October 21–22 are the same Layfield/Davis study already on record (the manuscript likely bound out of order from loose sheets, read out of sequence for a century; five scribes, a communal object). A new direction, not a translation; no testable reordering, no reading delivered.
+- **New carrier, below the bar — Barlark essay "Everyone Has Deciphered the Voynich Manuscript. None of Them Have." (October 11, 2026):** a calibration essay, not a claim — new "solutions" arrive every few years, they contradict each other, and a language-like statistical distribution is not a reading. Log-only texture.
+- **Re-covered, no status change — Indus script prize, still unclaimed beneath decoded-hype titles:** the Tamil Nadu $1,000,000 prize stands unclaimed; a recent video titled as a breakthrough concedes in its own description that the script is still unread. The standing facts are unchanged (circa 2600–1900 BCE, roughly 400 signs, average five characters per inscription, no bilingual text).
+- **Re-covered, no status change — Beale ciphers static:** the October 2 Apocrypedia piece restates the standing positions with no new evidence.
+- **Grades:** re-carry only (Voynich study corroborated; Kryptos found-not-solved formulation corroborated; Indus prize still unclaimed corroborated by secondary agreement); new carrier at retell grade.
+
+**Run summary:** rotation #13 — quiet loop, Kryptos K4 re-confirmed unsolved, Voynich wave fourteenth echo, Indus prize still unclaimed, Beale static. No library growth. Next: rotation #1 (historical codebreaking).
