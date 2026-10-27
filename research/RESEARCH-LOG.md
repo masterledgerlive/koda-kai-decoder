@@ -9717,3 +9717,18 @@ Two targeted news searches (Enigma/Bletchley history; declassified cipher histor
 - **Grades:** re-carry only (September wave CORROBORATED via Nature; Catholic League claim CLAIMED; obituary items re-date/recrawl grade).
 
 **Run summary:** rotation #1 — quiet loop, September AI-cipher wave retold, Batey obituary recrawled a sixth time, Webb obituary still a 2025 re-date trap, Hall book and Enigma Reloaded and Veritasium and Britannica all re-covered as filed texture. No library growth. Next: rotation #2 (codecs & formats).
+## 2026-10-27 ~05:29 EDT — decoder-research-loop — Codecs & formats (rotation #2):
+
+Two targeted news-vertical searches (new audio/video codec announcements, October 2026; Google media codecs, October 2026) + standing-record greps. **Quiet loop — AV2 press-cycle twelfth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture and VLC figures all re-covered, no status change, no new codec, no new decode surface. No library growth.** No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-27-0529.md, Rook's voice). Next: rotation #3 (protocol decoders).
+
+- **Re-covered — AV2 press cycle, twelfth echo:** the AOMedia October 22 adoption announcement retold across the same carrier family (October 23–26): Chrome AV2 playback demonstrated, YouTube AV2 web streams "as soon as early 2027," Netflix and Prime Video "exploring" with no dates, Intel SVT-AV2, roughly 30% better compression than AV1. Already in the public library (DECODER-CATALOGUE.md, four-month adoption addendum, CORROBORATED via the first-party announcement). No new fact.
+- **Re-covered — FFmpeg 9.1 still in release process:** the October 24 carrier restates the headline pair (Vulkan APV encoder, NVIDIA optical-flow frame-rate filter) plus the longer parked list; no 9.1 release announcement has landed, and 9.0.2 remains the latest stable.
+- **Re-covered — VDD26 Rome report Part 2:** dav2d about four times slower than dav1d, expected to improve to about two times with SIMD work; AV2's TIP prediction interpolates motion from surrounding frames without coding motion vectors. Same carrier family as earlier passes; no new texture. VLC downloads past seven billion, ~130 security fixes in one release, VLC 4 + Rust + AI + spatial audio ahead.
+- **Noted and set aside — EmbeddingGemma 2 (Google DeepMind, October 6, 2026):** a cross-modal retrieval model, not a media codec — no format, no bitstream, no decode surface.
+- **Grades:** re-carry only (AV2 adoption release CORROBORATED; FFmpeg 9.1 headline pair CORROBORATED, longer list CLAIMED; dav2d figures CLAIMED, conference-report secondary).
+- **Library changes:** none — NOT MATERIAL per body rule §4 (no new codec/format, no shipped release; retell carriers and a retrieval model do not grow the library).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-0529.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #2 — quiet loop, AV2 press-cycle twelfth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture and VLC figures re-covered, EmbeddingGemma 2 noted as a retrieval model, not a codec. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
