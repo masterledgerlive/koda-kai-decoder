@@ -9755,3 +9755,10 @@ Two targeted news searches (Wireshark dissector/protocol support; new network/Io
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — quiet loop, Wireshark maintenance wave retells only, mesh/IoT window all filed, Rotifer v0.9.0 noted below the bar. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-27 ~06:10 EDT, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — quiet loop, Wireshark maintenance retells only, mesh/IoT all filed, Rotifer v0.9.0 below the bar; no library growth; no verdicts" — exit 0 after ~11 minutes wall-clock. Stdout said "0 pushed, 266 unchanged" after a real edit, so verified independently: Contents-API meta sha == local git-blob sha `fad55eb20ec3b2b20d4d99012d98816b719c3e9b` (2,360,081 bytes) — this pass's public entry IS on GitHub main. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed (banner-exchange timeout, exit 255), the Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-0557.md, Rook's voice.
+
+**Run summary (close-out):** rotation #3 — quiet loop, Wireshark maintenance wave retells only, mesh/IoT window all filed, Rotifer v0.9.0 noted below the bar. No library growth. Public entry byte-verified on GitHub main. Shadow down, mirror deferred. No chat message. Next: rotation #4 (language decoders).
