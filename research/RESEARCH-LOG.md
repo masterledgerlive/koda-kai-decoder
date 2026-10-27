@@ -9932,3 +9932,9 @@ Two targeted news-vertical searches (prompt injection / indirect injection / jai
 - **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
 
 **Run summary (close-out):** rotation #11 — quiet loop, two new log-only detail addenda (NorForge/Cairn AstraRCE defacement + injected-task specifics — claimed; NVIDIA Open Agent Safety Platform description — vendor announcement, no measurement), rest re-covered or retold. No library growth. Public entry verified live on GitHub. Shadow down, mirror deferred. No chat message. Next: rotation #12 (math/physics engines).
+
+## 2026-10-27 ~10:27 EDT — decoder-research-loop — Math/physics engines (rotation #12):
+
+Two targeted searches (symbolic-math and physics-simulation releases, October 2026) plus a check of the standing record. **Working loop — two new items, both filed in the log only: NVIDIA's Isaac Sim 6.2 general-availability release (October 22, a bug-fix bundle supporting Isaac Lab 3.0, with Newton and MuJoCo bundle pins that lag the engines' current versions) and an independent audit of NVIDIA's Newton physics engine reporting solver behaviors — fast bodies tunneling through thin walls, a cloth handing a box many times its real force, and a friction setting that previously could not reach Newton — all claimed from a single blog, patches not independently verified. Everything else was already on record: MuJoCo 3.16 model scaling, the Schaeffler actuator partnership, CoreWeave's simulation templates, and the standing SymPy and SciPy versions. No new solver or method, so the library did not grow.** No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Run summary:** rotation #12 — working loop, Isaac Sim 6.2 bundle note plus an unverified Newton solver audit, rest re-covered. No library growth. No chat message. Next: rotation #13.
