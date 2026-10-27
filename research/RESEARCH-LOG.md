@@ -9732,3 +9732,26 @@ Two targeted news-vertical searches (new audio/video codec announcements, Octobe
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — quiet loop, AV2 press-cycle twelfth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture and VLC figures re-covered, EmbeddingGemma 2 noted as a retrieval model, not a codec. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-27 ~05:40 EDT, rotation #2):**
+- **Push result:** sync-github.py "research: codecs & formats (rotation #2) — quiet loop, AV2 press-cycle twelfth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture re-covered, EmbeddingGemma 2 noted as retrieval model not codec; no library growth; no verdicts" — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-0529.md, Rook's voice.
+
+**Run summary (close-out):** rotation #2 — quiet loop, AV2 press-cycle twelfth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture and VLC figures re-covered, EmbeddingGemma 2 noted as a retrieval model, not a codec. No library growth. Public entry pushed. Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
+## 2026-10-27 ~05:57 EDT — decoder-research-loop — Protocol decoders (rotation #3):
+
+Two targeted news searches (Wireshark dissector/protocol support; new network/IoT/mesh protocol decoding, October 2026) plus a check against the project's standing record. **Quiet loop — every hit resolved to an already-filed item, a retell, or an archive-path trap; no new dissector, no new protocol with a decode surface, no status change on any watchlist item. No library growth.** No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+- **Re-covered — Wireshark maintenance wave, all retells, zero new protocols:** the 4.4.13 announce-list note (three 2026 advisories, updated dissectors including 802.11, NAS-5GS, QUIC, SOME/IP-SD, Thrift, "no new protocols in this release") is the January 2026 long-term-support release, flagged as such since an earlier pass — not a new release. The 4.6.9 retells restate the September 23 release (19 advisories, roughly thirty refreshed dissectors, zero new protocols); the 4.6.8 and 4.6.7 notes are the same maintenance wave.
+- **Re-covered — mesh/IoT window, all filed:** GhostWire (October 15 developer post, no spec follow-up); the IEEE Spectrum Wi-Fi 7 / Thread 1.4 / Matter convergence piece (protocol-landscape texture, no dissector); the Offline Protocol roadmap page (restates the on-record SDK items, no new version); Mobilicom SwarmiX (October 12 launch — still parked, vendor product announcement, no parser, no dissector); October 2026 Matter/Zigbee/KNX explainers (no new protocol fact).
+- **Discounted — GVSP carrier:** the same search-optimized carrier family already discounted in this lane — its "fully supports GVSP" claim names no new dissector.
+- **Noted below the bar — Rotifer v0.9.0 (October 2026):** a first runnable, explicitly experimental peer-to-peer node for gene announcements over a local network. A transport demo, not a protocol with a decode surface: no dissector, no parser, no independent coverage. Parked, noted so a later version is recognized.
+- **Watchlist carried forward, unchanged:** Wireshark 5.0.0 final still dateless (release candidate October 21, 37 new dissectors; clarity still expected after SharkFest EU, November 2–6); the 4.6.10 / 4.4.20 maintenance pair still roadmapped for November 12, 2026; Stratoshark 1.0.0rc1 still unconfirmed; ST2038 upstream merge still awaiting confirmation; Ultra Ethernet Consortium 1.1 still with no dissector; Mobilicom SwarmiX still parked.
+- **Grades:** re-carry only (4.6.9 release corroborated; 4.4.13 note corroborated as a January 2026 release; Rotifer at developer-post claim grade).
+- **Library changes:** none — NOT MATERIAL (no new dissector, no new protocol with a decode surface, no shipped release with a new decoder).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-0557.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #3 — quiet loop, Wireshark maintenance wave retells only, mesh/IoT window all filed, Rotifer v0.9.0 noted below the bar. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
