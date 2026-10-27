@@ -9890,3 +9890,9 @@ Two targeted news-vertical searches (agent sandbox isolation and sandbox-escape 
 - **Library changes:** none — NOT MATERIAL (no new isolation technique, no new escape, no new vulnerability).
 
 **Run summary:** rotation #9 — quiet loop, Wasmtime pair fix line extended to version 50 with only four supported lines left (still unexploited), LiteBox 0.1 comparison texture logged (still experimental, still unmeasured), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-27 ~09:05 EDT, rotation #9):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #9 — quiet loop, Wasmtime pair fix line extended to version 50 with only four supported lines left (still unexploited), LiteBox 0.1 comparison texture logged (still experimental, still unmeasured), rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #10 (rogue-agent threat intel).
