@@ -9944,3 +9944,9 @@ Two targeted searches (symbolic-math and physics-simulation releases, October 20
 - **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down (link-fine signature). Next run retries per the standing rule.
 
 **Run summary (close-out):** rotation #12 — working loop, Isaac Sim 6.2 bundle note plus an unverified Newton solver audit, rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #13.
+
+## 2026-10-27 ~10:57 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13):
+
+Quiet loop — no new decipherment, no prize adjudication, no status change on any Most Wanted item. Kryptos K4 re-confirmed in its found-not-solved position (plaintext recovered from the archive, original cipher method still publicly unsolved), plus one sloppy solved-headline retell that names no method and moves nothing. The Voynich manuscript stays unread: the misbinding study re-covered, plus one new AI-reanalysis video carrier whose own description concedes no reading has been accepted by scholars. The Tamil Nadu one-million-dollar Indus script prize stands unclaimed beneath the same decoded-hype titles, both conceding in their own descriptions that the script is still unread. Beale ciphers static, no new carrier in window. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Run summary:** rotation #13 — quiet loop, K4 found-not-solved re-confirmed, Voynich unread, Indus prize unclaimed, Beale static. No library growth. No chat message. Next: rotation #1.
