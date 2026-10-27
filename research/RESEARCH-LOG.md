@@ -9969,3 +9969,10 @@ Two targeted searches (Enigma/Bletchley/declassified cipher history; classical c
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — quiet loop, September AI-cipher wave retold in full (Marmont, MVUEH, Willis, FMNGI enrichment, seven-unbroken count unchanged, Nature piece still canonical), 1593 Catholic League claim still claimed and unverified, two new Bletchley human-interest texture carriers, Lorenz/Tunny history re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-27 ~11:35 EDT, rotation #1):**
+- **Push result:** sync-github.py "research: historical codebreaking (rotation #1) — quiet loop, September AI-cipher wave retold in full, 1593 Catholic League claim still claimed, Bletchley texture carriers; no library growth; no verdicts" — exit 0 after ~7 minutes wall-clock (one retried GET with RemoteDisconnected on a report-card path during the check phase). Stdout said "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run, not absorbed. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1127.md, Rook's voice (149 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #1 — quiet loop, September AI-cipher wave retold in full (Marmont, MVUEH, Willis, FMNGI enrichment, seven-unbroken count unchanged, Nature piece still canonical), 1593 Catholic League claim still claimed and unverified, two new Bletchley human-interest texture carriers, Lorenz/Tunny history re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #2 (codecs & formats).
