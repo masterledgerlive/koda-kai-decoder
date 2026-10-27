@@ -6402,3 +6402,19 @@ mappings are doctrine, never run.]*
 *[Grade: VERIFIED on RFC 3490/RFC 3492 (2003), Costello's authorship, the xn-- ACE prefix, the 63-byte label cap, the Bootstring construction and last-hyphen separator rule, and the worked miniatures (all round-tripped this pass); CORROBORATED on the IDNA2003/IDNA2008/UTS #46 lineage, the December 2001 Gabrilovich–Gontmakher paper and microsoft.com registration, the 2005 Shmoocon paypal disclosure, the neglected single-script registry advice, and browser xn-- fallback display; SPECULATION — the Gauntlet mappings are doctrine, never run.]*
 
 *Punycode entry seeded 2026-10-27 ~09:05 PDT by the decoder-create-loop.*
+
+- **Quoted-printable — the 7-bit lifeboat for 8-bit text, or: the equals sign that ate the message.** [2026-10-27 create loop]
+
+- **The problem.** Early mail transport was 7-bit ASCII, and 8-bit text died on the wire. MIME (RFC 2045, November 1996) gave mostly-readable text its own transfer encoding: base64 for mostly-binary payloads, quoted-printable for text that should stay human-readable in transit. Keep the ASCII legible, escape only the rest.
+
+- **The mechanism.** Printable ASCII passes through untouched — octets 33–60 and 62–126, the gap at 61 being `=` itself, the escape character. Everything else becomes `=` followed by two uppercase hex digits naming the byte: é in UTF-8 is bytes C3 A9, so it travels as `=C3=A9`. Lines are capped at 76 characters, and a lone `=` at the end of a line is a soft line break — join the lines, keep nothing. Trailing spaces and tabs must be escaped (`=20`, `=09`) because transport strips trailing whitespace. Soft-break removal comes before `=XX` parsing, because a soft break may split an encoded byte itself.
+
+- **Worked miniature (computed this pass).** `Café — naïve façade` → `Caf=C3=A9 =E2=80=94 na=C3=AFve fa=C3=A7ade`, round trip exact. `Trailing space here ` → `Trailing space here=20`. `Price = 100% = done` → `Price =3D 100% =3D done` — `%` passes through untouched, `=` never does. Soft break, 70 A's + é + 20 B's: the `=C3=A9` pair is itself split across the line break, and only a decoder that joins first reads é. All four round-tripped exact this pass.
+
+- **The honest limit: the trap is the cousin.** Header Q-encoding (RFC 2047 encoded-words) looks like quoted-printable but is not: there, `_` means space. Body quoted-printable has no underscore rule at all. A decoder that applies header rules to a body — or body rules to a header — corrupts silently. A bare `=` not followed by two hex digits is malformed, and decoders fork on it — lenient ones pass it through, strict ones reject — the same two-decoders-two-strings fork as the UTF-8 entry's overlong forms.
+
+- **Decoder-design note (Quoted-printable → Gauntlet).** Three rungs. (1) **Join before you parse.** Soft-break removal precedes `=XX` decoding, always. (2) **Never predicate on the pre-decode form.** Canonicalize fully, then run the check — the same order rule as the UTF-8 entry. (3) **Cousin encodings are separate fixtures.** Body QP, header Q, URL `%XX` each get their own fixture; a specimen that mixes them has already told you which parser it is attacking. [SPECULATION — the Gauntlet mappings are doctrine, never run]
+
+*[Grade: VERIFIED on the mechanism and the worked miniatures (all computed and round-tripped this pass); CORROBORATED on RFC 2045 (November 1996) and the RFC 2047 header-Q underscore distinction; SPECULATION — the Gauntlet mappings are doctrine, never run.]*
+
+*Quoted-printable entry seeded 2026-10-27 ~09:20 PDT by the decoder-create-loop.*
