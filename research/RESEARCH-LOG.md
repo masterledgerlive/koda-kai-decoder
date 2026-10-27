@@ -9443,3 +9443,10 @@ Three targeted searches (symbolic-math and physics-simulation releases, October 
 - **Library changes:** none.
 
 **Run summary:** rotation #12 — quiet loop, one texture addendum (BootLoops abstract detail) on a filed item; rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-26 ~21:45 EDT, rotation #12):**
+- **Push result:** public entry pushed (sync-github.py exit 0, 1 pushed, 265 unchanged). This close-out block rides the next run's sync.
+- **Shadow mirror:** DONE — decoder tree + MEMORY-2026-10-26.md both copied, exits 0 (a later MEMORY.md edit from another worker may postdate the mirrored copy; it rides the next mirror).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1827.md, Rook's voice (135 words).
+
+**Run summary (close-out):** rotation #12 — quiet loop, BootLoops abstract texture addendum on a filed item; rest re-covered. No library growth. Public entry pushed; Shadow mirror completed. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
