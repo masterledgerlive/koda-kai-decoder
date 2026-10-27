@@ -9376,3 +9376,10 @@ Two targeted news-vertical searches (sandbox/container isolation, gVisor/Firecra
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9 — quiet loop, four new log-only items (Forkast commoditization synthesis with Sprites persistence texture, E2B positioning, Microsoft MXC availability claim, OpenAI retell adding Brotli CVE-2026-111497), GitLab CVE-2026-90970 verified as already on record and not re-grown, rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-26 ~20:06 EDT, rotation #9):**
+- **Push result:** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** NOT DONE — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1957.md, Rook's voice (148 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #9 — quiet loop, four new log-only items (Forkast commoditization synthesis with Sprites persistence texture, E2B positioning, Microsoft MXC availability claim, OpenAI retell adding Brotli CVE-2026-111497), GitLab CVE-2026-90970 verified as already on record and not re-grown, rest re-covered. No library growth. Public entry pushed and receipted; Shadow mirror deferred (Shadow down signature). No chat message. Next: rotation #10 (rogue-agent threat intel).
