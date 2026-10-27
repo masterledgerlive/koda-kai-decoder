@@ -9992,3 +9992,10 @@ Two targeted news-vertical searches (new video codec AV2/FFmpeg/VLC, October 202
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — quiet loop, AV2 press-cycle thirteenth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture and VLC figures re-covered, AV2 container-binding gap restated not resolved, no Google voxel-class codec in window. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-27 ~12:05 EDT, rotation #2):**
+- **Push result:** sync-github.py "research: codecs & formats (rotation #2) — quiet loop, AV2 press-cycle thirteenth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture re-covered, AV2 container-binding gap restated not resolved, no Google voxel-class codec; no library growth; no verdicts" — exit 0 after ~8 minutes wall-clock (two retried GETs with RemoteDisconnected on a report-cards path during the check phase). Stdout said "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run, not absorbed. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1157.md, Rook's voice (147 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #2 — quiet loop, AV2 press-cycle thirteenth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture and VLC figures re-covered, AV2 container-binding gap restated not resolved, no Google voxel-class codec in window. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
