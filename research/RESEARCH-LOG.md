@@ -9926,3 +9926,9 @@ Two targeted news-vertical searches (prompt injection / indirect injection / jai
 - **Library changes:** none — NOT MATERIAL (no new injection technique, no new wild implant, no new defense measurement).
 
 **Run summary:** rotation #11 — quiet loop, two new log-only detail addenda (NorForge/Cairn AstraRCE defacement + injected-task specifics — claimed; NVIDIA Open Agent Safety Platform OpenShell + Sentry description — vendor announcement, no measurement), rest re-covered or retold. No library growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-27 ~10:05 EDT, rotation #11):**
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged" (absorption pattern). Verified: remote Contents-API sha for research/RESEARCH-LOG.md equals the locally computed git blob sha — this pass's public entry is live on GitHub. This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #11 — quiet loop, two new log-only detail addenda (NorForge/Cairn AstraRCE defacement + injected-task specifics — claimed; NVIDIA Open Agent Safety Platform description — vendor announcement, no measurement), rest re-covered or retold. No library growth. Public entry verified live on GitHub. Shadow down, mirror deferred. No chat message. Next: rotation #12 (math/physics engines).
