@@ -10238,3 +10238,10 @@ Two targeted searches (Enigma/Bletchley/declassified cipher history news, Octobe
 - **Grades:** re-carry only (September wave CORROBORATED via Nature; Catholic League 500,000-écus CLAIMED); new carriers at retell grade, no new first-party fact.
 
 **Run summary:** rotation #1 — quiet loop, September AI-cipher wave retold in full (Marmont, MVUEH, Willis, FMNGI enrichment, seven-unbroken count unchanged, Nature piece still canonical), six new retell-grade carriers, one Marmont provenance texture detail, 1593 Catholic League claim still claimed and unverified. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-27 ~18:05 EDT, rotation #1):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1758.md, Rook's voice (150 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #1 — quiet loop, September AI-cipher wave retold in full, six new retell-grade carriers, Marmont provenance texture, 1593 Catholic League claim still claimed. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
