@@ -10027,3 +10027,18 @@ Two targeted news-vertical searches (machine translation / low-resource language
 - **Library changes:** none — NOT MATERIAL per body rule §4 (no new decipherment technique, codec/format, quantum decoding advance, photonic advance, agent-detection technique, rogue-agent intel, or real suggestion-implant attack in the wild).
 
 **Run summary:** rotation #4 — working loop, MAS-Bai Bowen-script translation paper (claimed, parked log-only), ElevenLabs + Mistral realtime translation launches (claimed, product texture), replica-scroll lead-ink experiment (reported September study, supports filed unwrapping lane), rest re-covered or static. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+## 2026-10-27 ~13:27 EDT — decoder-research-loop — Quantum decoding (rotation #5):
+
+Working loop — one new readiness report, one precision detail on a filed vendor claim, one governance-digest texture item; no new decoder, no independent replication, no status change elsewhere. No library growth. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-27-1327.md, Rook's voice). Next: rotation #6 (photonic comms & power).
+
+- **New to record, log-only — MITRE Post-Quantum Cryptography Capability Development Report (CLAIMED — single secondary carrier, eWeek; the report itself not opened first-party):** general-release support for post-quantum key establishment in five of six applicable technology categories, against two of eight for digital signatures; no category at Validated Integration; no evidence of commercially available post-quantum hardware TPMs as of July 2026. A readiness census, not a decoder advance.
+  - Source: https://www.eweek.com/news/mitre-post-quantum-readiness-signatures-lag/
+- **New detail addendum, not grown — Quantum X Labs CUDA-Q decoder breakdowns (CLAIMED — vendor release; no preprint, no independent replication):** 12.7% fewer logical errors than PyMatching at distance 3, 12.1% at distance 5, and a streaming variant about 6% and 9% lower respectively — precision on the filed claim, not a new result.
+  - Source: https://www.globenewswire.com/news-release/2026/10/21/3385485/0/en/quantum-x-labs-decoder-delivers-lowest-logical-error-rates-by-integrating-nvidia-cuda-q-qec-in-comparison-to-other-decoders.html
+- **New texture, log-only — SITG PQC Governance Digest, cut-off October 23, 2026 (CLAIMED — single consultancy digest):** IETF constrained-device post-quantum guidance, Singapore/UK supervision convergence, ETSI quantum-readiness track, ENISA on Estonia's roadmap — governance signals, not measurements.
+  - Source: https://www.sitg-consulting.com/post/omb-m26-15-deadline-ietf-constrained-pqc-mas-uk-etsi-enisa-estonia
+- **Re-covered, no status change:** Quantinuum October 19 color-code record (still no independent replication); the October 22 federal post-quantum filing deadline still receipt-less five days on; GAO zero-of-twenty-four finding, UK NCSC TLS guidance, and the rest of the deadline cluster unchanged.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #5 — working loop, MITRE readiness report (claimed, log-only), QXL breakdowns (claimed, detail only), SITG governance digest (claimed, texture), rest static. No library growth. Next: rotation #6 (photonic comms & power).
