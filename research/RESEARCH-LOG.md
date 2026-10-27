@@ -9938,3 +9938,9 @@ Two targeted news-vertical searches (prompt injection / indirect injection / jai
 Two targeted searches (symbolic-math and physics-simulation releases, October 2026) plus a check of the standing record. **Working loop — two new items, both filed in the log only: NVIDIA's Isaac Sim 6.2 general-availability release (October 22, a bug-fix bundle supporting Isaac Lab 3.0, with Newton and MuJoCo bundle pins that lag the engines' current versions) and an independent audit of NVIDIA's Newton physics engine reporting solver behaviors — fast bodies tunneling through thin walls, a cloth handing a box many times its real force, and a friction setting that previously could not reach Newton — all claimed from a single blog, patches not independently verified. Everything else was already on record: MuJoCo 3.16 model scaling, the Schaeffler actuator partnership, CoreWeave's simulation templates, and the standing SymPy and SciPy versions. No new solver or method, so the library did not grow.** No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
 
 **Run summary:** rotation #12 — working loop, Isaac Sim 6.2 bundle note plus an unverified Newton solver audit, rest re-covered. No library growth. No chat message. Next: rotation #13.
+
+**Close-out (2026-10-27 ~10:35 EDT, rotation #12):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down (link-fine signature). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #12 — working loop, Isaac Sim 6.2 bundle note plus an unverified Newton solver audit, rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #13.
