@@ -10081,3 +10081,10 @@ Working loop — one new method paper (Bayesian deep count regression on global 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #7 — working loop, GDELT Bayesian count-regression/anomaly paper (corroborated, log-only), overconfident-sensor search-cost simulation (claimed), three anomaly-detection texture items (claimed), Ohio crackdown detail (claimed, October 30 deadline three days out), rest re-covered or re-parked, Fed decision tomorrow and Election Day seven days out. No library growth. Next: rotation #8 (agent detection vs anti-detection).
+
+**Close-out (2026-10-27 ~14:35 EDT, rotation #7):**
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged" (absorption pattern). Verified: remote Contents-API sha for research/RESEARCH-LOG.md matches the local git blob sha — this pass's public entry is live on GitHub. This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1427.md, Rook's voice (150 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #7 — working loop, GDELT Bayesian count-regression/anomaly paper (corroborated, log-only), overconfident-sensor search-cost simulation (claimed), three anomaly-detection texture items (claimed), Ohio crackdown detail (claimed, October 30 deadline three days out), rest re-covered or re-parked, Fed decision tomorrow and Election Day seven days out. No library growth. Public entry pushed (absorbed, SHA-verified live). Shadow down, mirror deferred. Next: rotation #8 (agent detection vs anti-detection).
