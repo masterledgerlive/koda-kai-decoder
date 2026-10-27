@@ -10055,3 +10055,10 @@ Quiet loop — every hit in the October window resolved to an on-record entry; n
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #6 — quiet loop, entire October photonic and power-beaming window re-covered already filed; Reason-1 late-October attempt window open with no result published yet. No library growth. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-27 ~14:01 EDT, rotation #6):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1357.md, Rook's voice (148 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #6 — quiet loop, October photonic/power-beaming window re-covered already filed; Reason-1 attempt window open, no result published. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. Next: rotation #7 (predictive math).
