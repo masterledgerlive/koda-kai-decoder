@@ -9999,3 +9999,16 @@ Two targeted news-vertical searches (new video codec AV2/FFmpeg/VLC, October 202
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1157.md, Rook's voice (147 words, grades spoken plainly).
 
 **Run summary (close-out):** rotation #2 — quiet loop, AV2 press-cycle thirteenth echo, FFmpeg 9.1 still in release process, VDD26 dav2d texture and VLC figures re-covered, AV2 container-binding gap restated not resolved, no Google voxel-class codec in window. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #3 (protocol decoders).
+
+## 2026-10-27 ~12:27 EDT — decoder-research-loop — Protocol decoders (rotation #3):
+
+- **Re-covered, no status change — Wireshark maintenance wave, all retells, zero new protocols:** the 4.6.9 note surfaced again (September 23 release, 19 advisories, ~30 refreshed dissectors incl. AKP, Bencode, BT AVCTP, LoRaWAN, QUIC, ZigBee ZCL, SGP.32 — already filed); the 4.6.7 first-party release note resurfaced (no new protocols in this release; updated support incl. ALC, BACapp, C2P, Catapult DCT2000, COTP, CSN.1, DCERPC, DNS, H.265, IEEE 802.11, MEGACO, SGP.32, SSH, STANAG 4607, UMTS FP, Z39.50) — an archive note, not a new release: 4.6.7 predates the filed 4.6.9.
+  - Sources: https://www.wireshark.org/update/relnotes/wireshark-4.6.7.html ; https://news.tuxmachines.org/n/2026/09/23/Wireshark_4_6_9_Updates_Protocol_and_Capture_File_Support_Fixes.shtml
+- **New texture, log-only — Philips Hue firmware 1.164.2 (October 5, hardware platform 100b-129) adds Matter 1.4.1 support and Zigbee-plus-Matter concurrency in bridgeless mode [CLAIMED — two secondary carriers quoting Hue's release notes].** Mains-powered bulbs can strengthen a Thread mesh while staying on the Hue Bridge. A concurrency behavior, not a new decoder or dissector, so it stays log-only, not grown.
+  - Sources: https://localsmarthomeguide.com/articles/week-in-local-smart-home-2026-10-09/ ; https://rocks-on-galaxy.com/news/mmwave-presence-sensors-thread-2026-guide/
+- **Re-covered, no status change — mesh/IoT window all guides and commentary:** Home Assistant 2026.10 (October 7), Matter-over-Thread vs Zigbee layer explainers, the ESP32-C6 Matter-light build guide — no new protocol, no new dissector.
+- **Watchlist carried forward, unchanged:** Wireshark 5.0.0 final still dateless (5.0.0rc1 October 21, 37 new dissectors; clarity still expected after SharkFest EU, November 2–6); the 4.6.10 / 4.4.20 maintenance line still unlanded in window.
+- **Grades:** CLAIMED (Hue 1.164.2 concurrency); re-carry only (everything else).
+- **Library changes:** none — not material (no new dissector, no new protocol, no shipped decoder release).
+
+**Run summary:** rotation #3 — quiet loop, Wireshark maintenance wave retells only, Hue dual-protocol firmware texture logged not grown, mesh/IoT window all guides, watchlist unchanged. No library growth.
