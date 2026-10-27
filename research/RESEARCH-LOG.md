@@ -9871,3 +9871,9 @@ Two targeted news-vertical searches (AI-agent / behavioral bot detection news, O
 - **Library changes:** none — NOT MATERIAL per body rule §4 (no new agent-detection or anti-detection technique).
 
 **Run summary:** rotation #8 (257th pass) — working loop, Manifold Agent Incident Ledger launches today (59 incidents since July 2025, median 70 days to disclosure — claimed, log-only) plus Exeon AgentGuard, x402 botwall fingerprinting, and Synapse Shield audit texture and a 13 Labs first-night field report; ATT&CK v20 and the POH scorecard re-covered unchanged. No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-27 ~08:35 EDT, rotation #8, 257th pass):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #8 (257th pass) — working loop, Manifold Agent Incident Ledger launches today (59 incidents since July 2025, median 70 days to disclosure — claimed, log-only) plus Exeon AgentGuard, x402 botwall fingerprinting, and Synapse Shield audit texture and a 13 Labs first-night field report; ATT&CK v20 and the POH scorecard re-covered unchanged. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #9 (sandbox & container tech).
