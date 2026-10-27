@@ -10125,3 +10125,10 @@ Two targeted news-vertical searches (gVisor/Firecracker/microVM agent sandbox is
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9 — quiet loop, Kubernetes Agent Sandbox CRD citation noted (claimed, watch line only) and a Perplexity SPACE test-count carrier discrepancy logged (108 vs 118 attempts, admission graded over either headline), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-27 ~15:35 EDT, rotation #9):**
+- **Push result:** sync-github.py "research: sandbox & container tech (rotation #9) — quiet loop, K8s Agent Sandbox CRD citation (claimed, watch line), Perplexity SPACE test-count carrier discrepancy 108 vs 118 (admission graded over headline), rest re-covered; no library growth; no verdicts" — exit 0. Stdout said "done: 0 pushed, 266 unchanged" — the absorption pattern. Verified, not assumed: remote Contents-API sha for research/RESEARCH-LOG.md (081f515f042ed05f3cc7abe0b45a7182aa7d36d2, 2,445,707 bytes) equals the locally computed git blob sha — this pass's public entry is live on GitHub, pushed by a concurrent loop's sync before my own sync ran. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1527.md, Rook's voice (145 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #9 — quiet loop, K8s Agent Sandbox CRD citation noted (claimed, watch line only) and a Perplexity SPACE test-count carrier discrepancy logged (108 vs 118 attempts, admission graded over either headline), rest re-covered. No library growth. Public entry pushed (absorbed, SHA-verified live). Shadow down, mirror deferred. Next: rotation #10 (rogue-agent threat intel).
