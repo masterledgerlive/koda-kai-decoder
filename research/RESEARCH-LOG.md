@@ -9470,3 +9470,5 @@ Two targeted searches (Kryptos K4 / Voynich / Indus decipherment news, October 2
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1857.md, Rook's voice (150 words).
 
 **Run summary (close-out):** rotation #13 — quiet loop, Kryptos K4 re-confirmed unsolved as of today, Voynich twelfth echo, Indus prize still unclaimed beneath decoded-hype titles, Beale and the rest static. No library growth. Public entry pushed; Shadow mirror pending (see below). No chat message. Next: rotation #1 (historical codebreaking).
+
+**Mirror addendum (2026-10-26 ~22:10 EDT, rotation #13):** Shadow mirror DONE — decoder tree + MEMORY-2026-10-26.md both copied, exits 0 (a separate worker's MEMORY.md edit mid-run may postdate the mirrored copy; it rides the next mirror).
