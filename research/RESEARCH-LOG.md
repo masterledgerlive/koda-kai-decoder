@@ -9673,3 +9673,13 @@ Two targeted news-vertical searches (malicious AI agents, October 2026; AI-agent
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — quiet loop, one new log-only detail (LiteLLM 1.107.0 postmortem: ~49,000 downloads in under two hours before quarantine, claimed via The Register/Wiz) on an already-filed chain; rest re-covered or retold. No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+## 2026-10-27 ~03:28 EDT — decoder-research-loop — Suggestion-implant traps (rotation #11):
+
+Two targeted news-vertical searches (prompt injection / indirect injection, October 2026; agent prompt-injection defense / jailbreak taxonomy, October 2026) + standing-record checks against the public log and catalogue §(k). **Quiet loop; everything re-covered, no status change. No catalogue growth.** No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+- **Re-covered, no status change:** the LangAlpha indirect-injection-to-RCE advisory (CVE-2026-109440, NVD October 20, 2026 — unguarded Bash and ExecuteCode agent tools; already filed as a datapoint, the carrier adds tool names and target-file texture only); the AGENTS.md Downloads-folder wild incident (Forever Security, October 2026 — malicious instruction file steering a coding agent toward a rogue npm package; researcher-test rates and the subagent-route addendum already filed; today's carrier is the same incident retold); the Signals Corps header injection census (217 million HTTP responses, about 8,000 agent-directed headers, 30 injection attempts, mostly pranks — October 16 restatement, no new figure); the PromptSecurity systematization paper and JailbreakDB (October 20, 2026 — 272 studies, three taxonomies, large jailbreak and benign prompt datasets — already in the log; today's carrier is a secondary summary); MITRE ATT&CK version 20's AI technique cluster (October 13 release retold); the Stingrai statistics page (figures already folded); the October 22 self-injection account in which an agent invented the attack it reported (on record, not a new attack class); the Fortune-500 hidden-PDF-to-webhook penetration-test demo (October 14, on record).
+- **Grades:** re-carry only (secondary carriers claimed; no new grade assigned this pass).
+- **Catalogue changes:** none — not material under the loop's rule (no new real suggestion-implant attack in the wild, no new technique, taxonomy, or delivery channel).
+
+**Run summary:** rotation #11 — quiet loop, all search results re-covered already-filed items. No catalogue growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
