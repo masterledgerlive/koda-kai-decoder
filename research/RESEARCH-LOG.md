@@ -10102,3 +10102,10 @@ Two targeted news-vertical searches (behavioral bot / AI-agent detection news, O
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8 — quiet-ish working loop, Socure Agent Intelligence launches today (claimed, log-only), rest re-covered (Manifold ledger, AgentGuard, adaptive CAPTCHA solver, x401, Cognaptus, POH scorecard, Tencent Amap acknowledgment, ATT&CK v20). No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-27 ~15:08 EDT, rotation #8):**
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged" (absorption pattern). Verified: remote Contents-API sha for research/RESEARCH-LOG.md matches the local git blob sha — this pass's public entry is live on GitHub. This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-1458.md, Rook's voice (147 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #8 — quiet-ish working loop, Socure Agent Intelligence launches today (claimed, log-only), rest re-covered. No library growth. Public entry pushed (absorbed, SHA-verified live). Shadow down, mirror deferred. Next: rotation #9 (sandbox & container tech).
