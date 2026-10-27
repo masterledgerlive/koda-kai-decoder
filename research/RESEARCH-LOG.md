@@ -9422,3 +9422,12 @@ Two targeted news-vertical searches (prompt injection / indirect injection / jai
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11 — quiet loop, every hit resolved to an on-record item (Symantec Skynet capture retold, Phantom retold cross-lane, Barracuda dual-target retold, Signals Corps header census retold, SalesBleed retold, dennisyu specimen, ATT&CK v20, Stingrai 141 census re-checked holding). No library growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-26 ~21:14 EDT, rotation #11):**
+- **Push result:** sync-github.py — exit 0, stdout "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run). This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** NOT VERIFIED, no completion claimed — the SSH probe succeeded and the copy launched while Shadow was up, but the copy session's terminal result became unrecoverable from tracking, and subsequent probes fail with the link-fine/Shadow-down signature. Per the standing rule, the next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-26-2100.md, Rook's voice (one-line quiet-loop form).
+
+**Run summary (close-out):** rotation #11 — quiet loop, every hit resolved to an on-record item (Symantec Skynet capture retold, Phantom retold cross-lane, Barracuda dual-target retold, Signals Corps header census retold, SalesBleed retold, dennisyu specimen, ATT&CK v20, Stingrai 141 census re-checked holding). No library growth. Public entry pushed; Shadow mirror unverified (Shadow down signature at close-out, next run retries). No chat message. Next: rotation #12 (math/physics engines).
+
+**Mirror addendum (2026-10-26 ~21:2x EDT, rotation #11):** correction to the close-out above — the first copy attempt was killed by a runtime restart with unknown outcome, so the mirror was re-run after Shadow came back up; the retry completed with both copies succeeding. Shadow mirror for this pass is DONE. This addendum rides the next run's sync.
