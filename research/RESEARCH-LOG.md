@@ -9780,3 +9780,10 @@ Two targeted news searches (machine translation and low-resource language news; 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4 — working loop, PHerc. 343 prize upgraded from claimed to corroborated, Leipzig Digital Rosetta Stone project completion logged as grammar infrastructure, WMT 2026 lineup and the rest of the language window re-covered, Voynich misbinding wave fifteenth echo with its own disclaimer. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-27 ~06:44 EDT, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4) — working loop, PHerc. 343 prize claimed to corroborated, Leipzig Rosetta project completion log-only, WMT26 lineup re-covered, Voynich fifteenth echo; no library growth; no verdicts" — exit 0; stdout "0 pushed" verified independently (remote Contents-API sha == local git-blob sha, 2,365,699 bytes) — this pass's public entry IS on GitHub main. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-0628.md, Rook's voice.
+
+**Run summary (close-out):** rotation #4 — working loop, PHerc. 343 prize upgraded from claimed to corroborated, Leipzig Digital Rosetta Stone project completion logged as grammar infrastructure, WMT 2026 lineup re-covered, Voynich fifteenth echo. No library growth. Public entry byte-verified on GitHub main. Shadow down, mirror deferred. No chat message. Next: rotation #5 (quantum decoding).
