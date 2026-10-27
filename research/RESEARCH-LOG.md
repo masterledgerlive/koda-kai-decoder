@@ -10150,3 +10150,9 @@ Two targeted news-vertical searches (malicious AI agents / prompt injection in t
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — working loop, two material entries grown (Sublime Unicode-Tag invoice-fraud injection aimed at email AI agents, October 22 — claimed; CyberStrikeAI forty-four-agent campaign against Japan targets, October 2026 — claimed), plus NetScaler C2 autonomous-framework and ECHOTRIBBLE solicitation texture notes, rest re-covered. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-27 ~13:10 PDT, rotation #10):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed: docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry and the grown catalogue section pushed by my own run.
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #10 — working loop, two material entries grown (Sublime Unicode-Tag invoice-fraud injection aimed at email AI agents, October 22 — claimed; CyberStrikeAI forty-four-agent campaign against Japan targets, October 2026 — claimed), public entry + grown catalogue pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
