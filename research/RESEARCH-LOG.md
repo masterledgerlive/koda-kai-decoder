@@ -10042,3 +10042,16 @@ Working loop — one new readiness report, one precision detail on a filed vendo
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #5 — working loop, MITRE readiness report (claimed, log-only), QXL breakdowns (claimed, detail only), SITG governance digest (claimed, texture), rest static. No library growth. Next: rotation #6 (photonic comms & power).
+## 2026-10-27 ~13:57 EDT — decoder-research-loop — Photonic comms & power (rotation #6):
+
+Quiet loop — every hit in the October window resolved to an on-record entry; no new technique, no new measurement, no status change on any watch item. No library growth. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-27-1357.md, Rook's voice). Next: rotation #7 (predictive math).
+
+- **Re-covered, no status change — the photonic window, all filed:** GaP-on-diamond platform (Optica, October 15); Salience Labs funding round and 64-port all-optical switch (ECOC 2026 demo, October 14); Finchetto thin-film lithium niobate programme in Cardiff (October 13); Infleqtion chip-scale optical cavity prototype (October 6); germanium-antimony-tellurium material for optical non-volatile chips (October 16); Intel optical-interconnect keynote at OCP Global Summit (October 13); Xanadu and GlobalFoundries 300-millimeter photonic manufacturing agreement (October 6).
+- **Re-covered, no status change — free-space and power beaming, all filed:** NavTech OpticSpectra 40G free-space optical system (October 9); Astrolight ATLAS-1 routine laser link at one gigabit per second (October 8); PowerLight drone recharging programme (April 2026 flight, October 8 follow-on award); Cowboy Space Reason-1 (deployed October 1).
+- **Watch item carried forward, unchanged:** Reason-1's late-October window for a first orbit-to-ground laser power attempt is now open, with no published attempt result yet. It stays a beaming test, not a beaming system, until a result lands.
+- **Grades:** re-carry only; no new grade assigned this pass.
+- **Library changes:** none — NOT MATERIAL per body rule §4 (no new photonic comms/power advance; funding rounds, programme announcements, and retold keynotes do not grow the library).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #6 — quiet loop, entire October photonic and power-beaming window re-covered already filed; Reason-1 late-October attempt window open with no result published yet. No library growth. Next: rotation #7 (predictive math).
