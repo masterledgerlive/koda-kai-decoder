@@ -9450,3 +9450,16 @@ Three targeted searches (symbolic-math and physics-simulation releases, October 
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-26-1827.md, Rook's voice (135 words).
 
 **Run summary (close-out):** rotation #12 — quiet loop, BootLoops abstract texture addendum on a filed item; rest re-covered. No library growth. Public entry pushed; Shadow mirror completed. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+## 2026-10-26 ~21:57 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13):
+
+Two targeted searches (Kryptos K4 / Voynich / Indus decipherment news, October 2026; Tamil Nadu Indus prize, October 2026) plus a check against the standing record. **Quiet loop — no new decipherment, no prize awarded, no status change on any unsolved cipher. No library growth.** No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+- **Re-covered, re-confirmed same-day — Kryptos K4, still unsolved as of October 26, 2026:** the same explainer already logged earlier in the day restates the standing position — the first three passages solved, the fourth unsolved, a ten-puzzle challenge with one thousand dollars per puzzle, and a fifth passage unreleased. A blog retell of the 2025 archival recovery adds the same point in plain form: no machine cracked it, the answer was found on paper. The standing position holds: the plaintext was recovered from the archive, the cipher method itself remains publicly unsolved.
+- **Re-covered, no status change — Voynich misbinding wave, twelfth echo, still no translation:** the Smithsonian Magazine piece, the video explainer, and the mirror articles are the same October study already logged (the manuscript may have been bound out of order from loose sheets) — a new direction, not a translation, with no testable reordering and no translation delivered. One new status-quo guide restates the same facts and adds a useful distinction: the manuscript's age is not the age of its binding, which is modern.
+- **Re-covered, no status change — Indus script, prize still unclaimed beneath decoded-hype titles:** carriers restate the January 2025 announcement of a one-million-dollar prize for deciphering the script — announcement restatements, not award news. Two recent video titles hype over the same standing evidence, their own descriptions retreating to the debate between the language and non-language theories, with no accepted reading and no award notice.
+- **Re-covered, no status change — Beale ciphers and the rest of the list:** no new items in this window; the second paper solved, the first and third unsolved, the hoax-versus-real debate unresolved. The rest of the unsolved list is static.
+- **Grades:** re-carry only (Voynich study corroborated; Kryptos found-not-solved formulation corroborated with a same-day confirmation; Indus prize-still-unclaimed corroborated by secondary agreement, no primary award notice seen in window); new carriers at retell grade, no new first-party fact.
+- **Library changes:** none.
+
+**Run summary:** rotation #13 — quiet loop, Kryptos K4 re-confirmed unsolved as of today, Voynich misbinding wave twelfth echo, Indus prize still unclaimed beneath decoded-hype titles, Beale and the rest static. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
