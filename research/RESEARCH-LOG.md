@@ -10173,3 +10173,9 @@ Two targeted news-vertical searches (prompt injection / indirect injection / jai
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11 — working loop, NVIDIA NXDirection grown into §(k) (claimed: BIPIA 38.1% to 0.1%, AgentDojo 28.4% to 3.7%, open-weight only), Turncoat hackathon red-team noted (claimed, log-only), rest re-covered or re-parked. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-27 ~13:35 PDT, rotation #11):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed: docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry and the grown public catalogue section pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #11 — working loop, NVIDIA NXDirection grown into §(k) (claimed), Turncoat texture note (claimed, log-only), rest re-covered or re-parked. Public entry + grown catalogue pushed by my own run. Shadow down, mirror deferred. Next: rotation #12 (math/physics engines).
