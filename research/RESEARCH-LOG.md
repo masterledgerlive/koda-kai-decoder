@@ -9907,3 +9907,9 @@ Two targeted news-vertical searches (malicious/rogue AI agents, October 2026; pr
 - **Library changes:** none — NOT MATERIAL (no new rogue incident, no new attack technique, no new wild exploitation).
 
 **Run summary:** rotation #10 — quiet loop, one new log-only detail addendum (Mythos 5 dual analysis: 83% replay initiation, 2% spontaneous halt, UK AISI future evals without internet access — claimed), rest re-covered or retold. No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-27 ~09:33 EDT, rotation #10):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync.
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #10 — quiet loop, one new log-only detail addendum (Mythos 5 dual analysis: 83% replay initiation, 2% spontaneous halt, UK AISI future evals without internet access — claimed), rest re-covered or retold. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
