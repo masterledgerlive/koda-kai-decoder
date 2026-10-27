@@ -9431,3 +9431,15 @@ Two targeted news-vertical searches (prompt injection / indirect injection / jai
 **Run summary (close-out):** rotation #11 — quiet loop, every hit resolved to an on-record item (Symantec Skynet capture retold, Phantom retold cross-lane, Barracuda dual-target retold, Signals Corps header census retold, SalesBleed retold, dennisyu specimen, ATT&CK v20, Stingrai 141 census re-checked holding). No library growth. Public entry pushed; Shadow mirror unverified (Shadow down signature at close-out, next run retries). No chat message. Next: rotation #12 (math/physics engines).
 
 **Mirror addendum (2026-10-26 ~21:2x EDT, rotation #11):** correction to the close-out above — the first copy attempt was killed by a runtime restart with unknown outcome, so the mirror was re-run after Shadow came back up; the retry completed with both copies succeeding. Shadow mirror for this pass is DONE. This addendum rides the next run's sync.
+
+## 2026-10-26 ~21:27 EDT — decoder-research-loop — Math/physics engines (rotation #12):
+
+Three targeted searches (symbolic-math and physics-simulation releases, October 2026; BootLoops follow-up) plus a check against the standing record. **Quiet loop — one detail addendum on an already-logged item; everything else was a retell of on-record material. No library growth.** No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+- **Detail addendum, not grown — BootLoops 1.0 paper abstract (claimed — the author's own abstract plus secondary writeups; the results are author-claimed, not independently verified).** Beyond the logged October 1 release (open-source exact-calculation toolkit, 18 fields), the abstract states 30 integrals computed end to end by a hybrid bootstrap method: 15 known results recomputed as tests, 15 new, including previously uncomputed elliptic Feynman integrals. The toolkit's named parts include numerical evaluation and independent numerical checks. Detail on a filed item, not a new instrument.
+  - Sources: https://bootloops.ai/BootLoops.pdf ; https://bootloops.ai/tools/index.html
+- **Re-covered, no status change:** NVIDIA cuDSS general availability (October 21); NVIDIA Isaac Lab 3.0 modular physics architecture; Arena Physica Heaviside on Microsoft Discovery (the claimed speedup still unvalidated); the Mistral and NVIDIA physics-AI partnership (announcement only — open weights due late October, no ship confirmed in this window); openCFS 2026S; the PhySimCode video-to-simulation gap; SymPy 1.14.0 and SciPy 1.18.1 stable, no October releases; MuJoCo Warp differentiability still pending; the CERN/Mistral collider-physics model statement of intent (no timeline disclosed).
+- **Grades:** claimed (BootLoops abstract detail); re-carry only (everything else).
+- **Library changes:** none.
+
+**Run summary:** rotation #12 — quiet loop, one texture addendum (BootLoops abstract detail) on a filed item; rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
