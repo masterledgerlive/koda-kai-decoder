@@ -10195,3 +10195,9 @@ Three targeted searches (symbolic math releases; symbolic-regression advances; p
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — working loop, one new texture note (Physis-Lang self-evolving physics captions for video world models — claimed, paper-only, evaluator-scored benchmarks, log-only), rest re-covered or re-parked (Senua Newton audit, MuJoCo 3.16, Schaeffler and Newton, Isaac Sim 6.2, CoSR, PhyE2E, SymPy 1.14.0 and SciPy 1.18.1 standing; LYNX parked). No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-27 ~17:05 EDT, rotation #12):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #12 — working loop, one new texture note (Physis-Lang self-evolving physics captions for video world models — claimed, paper-only, evaluator-scored benchmarks, log-only), rest re-covered or re-parked. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. Next: rotation #13 (unsolved ciphers & prize bounties).
