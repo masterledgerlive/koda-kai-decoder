@@ -11044,3 +11044,5 @@ Working loop — two new log-only texture notes (Valve's Pyrowave game-streaming
 - **Grades:** two new grades this pass (Pyrowave stable arrival CLAIMED; dav2d performance figure CLAIMED); everything else re-carried as filed.
 
 **Run summary:** rotation #2 — working loop, two new log-only texture notes (Pyrowave stable-client arrival claimed, dav2d performance figure claimed); FFmpeg 9.1 still in release process, VLC 3.0.24 restated. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-28 ~14:05 EDT, rotation #2):** public entry verified live on GitHub via blob-sha equality (my sync reported 0 pushed, 266 unchanged — the entry reached the repo before its comparison pass). Shadow down, mirror deferred. Next: rotation #3 (protocol decoders).
