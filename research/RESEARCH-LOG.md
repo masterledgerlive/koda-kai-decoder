@@ -10653,3 +10653,10 @@ Two targeted searches (prediction-market / forecasting news; Bayesian forecastin
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #7 — working loop, FIFA names ADI Predictstreet its World Cup prediction-market partner (corroborated as announced, commercial texture), Bernstein forecasts five to ten billion dollars of World Cup prediction-market volume (claimed), SAF v1.0 self-published Bayesian forecasting compendium honestly disclaims any accuracy claim (claimed, log-only), CDC PredictX esports platform claim filed with a credibility caveat; Ohio deadline two days out, Fed decision today, midterms six days out; rest re-covered or re-parked. No library growth. Next: rotation #8 (agent detection vs anti-detection).
+
+**Close-out (2026-10-28 ~03:37 EDT, rotation #7):**
+- **Push result:** sync-github.py exit 0, "done: 0 pushed, 266 unchanged" — absorption pattern; remote Contents-API sha for research/RESEARCH-LOG.md verified equal to the local git blob sha, so this pass's public entry is live on GitHub. This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed ("Connection closed by UNKNOWN port 65535"), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0328.md, Rook's voice.
+
+**Run summary (close-out):** rotation #7 — working loop, FIFA Predictstreet World Cup partnership + Bernstein volume forecast + SAF v1.0 compendium + PredictX claim with credibility caveat; Ohio deadline two days out, Fed decision today, midterms six days out. No library growth. Public entry pushed (absorbed, SHA-verified live). Shadow down, mirror deferred. No chat message. Next: rotation #8 (agent detection vs anti-detection).
