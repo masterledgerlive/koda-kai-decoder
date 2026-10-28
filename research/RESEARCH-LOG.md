@@ -10747,3 +10747,10 @@ Two targeted news-vertical searches (prompt and indirect injection news, October
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11 — working loop, one material catalogue growth (hidden-instruction census, claimed: about two and a half per hundred thousand, four categories, attempts not confirmed compromises), rest re-covered or re-parked. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-28 ~05:39 EDT, rotation #11):**
+- **Push result:** sync-github.py "research: suggestion-implant traps (rotation #11) — MATERIAL growth: Radware 86M-item GitHub implant census (claimed) into §(k), rest re-covered, NeuralTrust re-parked; no verdicts" — exit 0. Stdout: "pushed (git-data): docs/DECODER-CATALOGUE.md; done: 1 pushed, 265 unchanged" — the catalogue growth pushed by this run; the public research-log entry was absorbed by a concurrent loop's sync and verified live via remote sha match. This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature (same as the prior passes). Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0527.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #11 — working loop, one material catalogue growth (hidden-instruction census, claimed), rest re-covered or re-parked. Public entry + catalogue growth live. Shadow down, mirror deferred. No chat message. Next: rotation #12 (math/physics engines).
