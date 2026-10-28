@@ -10995,3 +10995,10 @@ Two targeted news-vertical searches (prompt/indirect injection and jailbreak new
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11 — quiet loop, whole suggestion-implant window re-covered already filed (Stingrai census, Downloads-folder incident, MCP trio, Signals Corps header census, Intuit patent design, ATT&CK cluster, LangAlpha advisory, PDF pen-test demo; explainers and lab demo noted not grown). No library growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-28 ~12:06 EDT, rotation #11):**
+- **Push result:** sync-github.py "research: suggestion-implant traps (rotation #11) — quiet loop, whole window re-covered already filed; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1158.md, Rook's voice.
+
+**Run summary (close-out):** rotation #11 — quiet loop, whole suggestion-implant window re-covered already filed. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #12 (math/physics engines).
