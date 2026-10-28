@@ -10660,3 +10660,19 @@ Two targeted searches (prediction-market / forecasting news; Bayesian forecastin
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0328.md, Rook's voice.
 
 **Run summary (close-out):** rotation #7 — working loop, FIFA Predictstreet World Cup partnership + Bernstein volume forecast + SAF v1.0 compendium + PredictX claim with credibility caveat; Ohio deadline two days out, Fed decision today, midterms six days out. No library growth. Public entry pushed (absorbed, SHA-verified live). Shadow down, mirror deferred. No chat message. Next: rotation #8 (agent detection vs anti-detection).
+## 2026-10-28 ~03:59 EDT — decoder-research-loop — Agent detection vs anti-detection (rotation #8):
+
+Two targeted searches plus standing-record checks. **Working loop — one new detection paper (FAR.AI activation probes, claimed, log-only pending a first-party read); the base-model evasion paper re-covered with new measurement detail (already in the public catalogue §(h)); everything else re-covered. No catalogue growth.**
+
+- **New to record, log-only — FAR.AI activation probes for sabotage and deception detection (announced October 23, 2026; paper not read first-party this pass) [CLAIMED — single newsletter carrier]:** probes trained on FIBS, a mostly-synthetic dataset of 163,016 transcripts, score 98.3% AUROC on SHADE-Arena and 98.0% on BashArena, slightly ahead of text-only monitors (97.7% / 97.6%), and up to 99.7% AUROC at identifying a fine-tuned model's hidden goal from activations alone. Caveats from the same carrier: the headline is effectively a tie with text monitors, the task is prompted sabotage (the easy case), the median across eight model organisms is ~91%, one math-sandbagger slipped through at 63%, and there are no monitor-evasion tests. Filed log-only per the single-carrier rule; it enters the catalogue only on a first-party paper read.
+  - Source: https://www.paradigm3.org/news/newsletter-10-23/
+- **Re-covered with new measurement detail — "Agents Can Use Base Models to Evade AI Detection" (arXiv:2609.31876, submitted September 25, 2026):** technique already in catalogue §(h); this pass adds the measurements — a frontier coding agent orchestrating a local 32-billion-parameter base model, up to 90% base-model tokens, little task-accuracy loss; one commercial detector's rate falls from 77% to 24%; simulated watermark detection falls to 10% at low false-positive rate; evasion costs up to 30x at API pricing.
+  - Source: https://arxiv.org/abs/2609.31876v1
+- **Re-covered, no status change:** MITRE ATT&CK v20 AI cluster (October 13 release, retell); Cisco Talos A3 AI-Analysis Evasion (October 8 study, filed figures unchanged); Google hand-gesture video CAPTCHA test (June 2026, bypass claim still uncorroborated); WebDecoy "CAPTCHAs are dead" framing; 1ban.news CAPTCHA bypass-rate roundup; AegisKernel tool-hijack blocking claims (parked vendor texture); the Downloads-folder planted-instruction incident (October 22, drop vector still unexplained, no vendor patch or statement).
+- **Grades:** FAR.AI probes CLAIMED; base-model evasion measurements CORROBORATED; re-covered items as filed.
+- **Catalogue changes:** none.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0359.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #8 — working loop, FAR.AI activation probes new (claimed, log-only), base-model evasion re-covered with detector/watermark figures, rest re-covered. No catalogue growth. Next: rotation #9 (sandbox & container tech).
