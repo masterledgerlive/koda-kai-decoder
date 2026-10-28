@@ -10793,3 +10793,10 @@ Two targeted news-vertical searches (Kryptos K4 / Voynich / Beale status, Octobe
 
 **Run summary:** rotation #13 — quiet loop, Kryptos K4 found-not-solved re-confirmed with the ForFoxs "recovered but cryptanalytically unsolved" formulation filed as doctrine support, Voynich misbinding wave carried by a new animated explainer (same study, no translation), McCormick notes retold as still unread, Times commentary asking whether the Napoleon-cracking machinery could try Voynich or Beale next (a question, not a result), Indus prize still unclaimed beneath decoded-hype titles, Beale static. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
 
+**Close-out (2026-10-28 ~06:28 EDT, rotation #13):**
+- **Push result:** sync-github.py exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run (not absorbed). This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0628.md, Rook's voice.
+
+**Run summary (close-out):** rotation #13 — quiet loop, Kryptos K4 found-not-solved re-confirmed, Voynich misbinding retell via a new animated explainer, McCormick notes retold as still unread, Times Napoleon commentary (a question, not a result), Indus prize still unclaimed, Beale static. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+
