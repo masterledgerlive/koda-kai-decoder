@@ -10624,3 +10624,10 @@ Two targeted news-vertical searches (photonic chip / optical computing, October 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #6 — quiet loop, entire October photonic and free-space window re-covered already filed (KTH topology chip, TDK beam-scanning PIC, Illinois quantum memory, slow-light 200G modulator, Neurophos/Julia Lab, Astrolight, OpticSpectra, Astrogate/Spacebeam); Reason-1 late-October attempt window closes with no published transfer, Protostar still silent. No library growth. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-28 ~03:09 EDT, rotation #6):**
+- **Push result:** sync-github.py "research: photonic comms & power (rotation #6) — quiet loop, October photonic/free-space window re-covered already filed, Reason-1 window closes with no published transfer, Protostar still silent; no library growth; no verdicts" — exit 0 after ~6.7 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run (one transient RemoteDisconnected retry on an unrelated report-cards GET, recovered within the run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0300.md, Rook's voice (quiet-loop brief).
+
+**Run summary (close-out):** rotation #6 — quiet loop, entire October photonic and free-space window re-covered already filed; Reason-1 late-October attempt window closes with no published transfer, Protostar still silent. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #7 (predictive math).
