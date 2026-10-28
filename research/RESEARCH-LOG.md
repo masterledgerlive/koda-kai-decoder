@@ -11152,3 +11152,10 @@ Two targeted news-vertical searches (agent sandbox isolation; honeypot and canar
 
 **Run summary:** rotation #9 — working loop, retell-only except two new-carrier texture notes (AWS canary-credential how-to, Hacker News Canary Tokens engagement), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
 
+**Close-out (2026-10-28 ~17:40 EDT, rotation #9):**
+- **Push result:** sync-github.py "research: sandbox & container tech (rotation #9) — working loop, retell-only except two new-carrier texture notes (AWS canary how-to, HN Canary Tokens engagement, both claimed, log-only), rest re-covered; no library growth; no verdicts" — exit 0 after ~8.5 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1728.md, Rook's voice.
+
+**Run summary (close-out):** rotation #9 — working loop, retell-only except two new-carrier texture notes (AWS canary-credential how-to, Hacker News Canary Tokens engagement), rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #10 (rogue-agent threat intel).
+
