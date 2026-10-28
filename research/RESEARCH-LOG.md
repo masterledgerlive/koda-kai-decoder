@@ -10834,3 +10834,9 @@ Two targeted searches (new video codec AV2/FFmpeg/VLC, October 2026; Google medi
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — quiet loop, AV2 press-cycle sixteenth echo (mezha first-time carrier, no new fact), FFmpeg 9.1 still in release process, no Google voxel-class codec in window. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-28 ~07:34 EDT, rotation #2):**
+- **Push result:** sync-github.py exit 0 after ~5.7 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #2 — quiet loop, AV2 press-cycle sixteenth echo, FFmpeg 9.1 still in release process, no Google voxel-class codec in window. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
