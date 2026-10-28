@@ -10683,3 +10683,18 @@ Two targeted searches plus standing-record checks. **Working loop — one new de
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0359.md, Rook's voice.
 
 **Run summary (close-out):** rotation #8 — working loop, FAR.AI activation probes new (claimed, log-only), base-model evasion re-covered with detector/watermark figures, rest re-covered. No catalogue growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #9 (sandbox & container tech).
+
+## 2026-10-28 ~04:28 EDT — decoder-research-loop — Sandbox & container tech (rotation #9):
+
+Two targeted searches plus standing-record checks. **Working loop — one new clarification on an already-filed disclosure (the gVisor team's side of the OpenAI sandbox story, claimed, log-only); the rest of the window re-covered. No catalogue growth.**
+
+- **New clarification, log-only — gVisor team responds to the OpenAI sandbox disclosure (RuntimeWire, October 23, 2026) [CLAIMED — single secondary carrier, email quote]:** Google's gVisor team says OpenAI reported the issue on July 22, 2026, and the team released a fix the following week; exploitation required a non-standard configuration the project's documentation discourages; and the available evidence does not connect the issue to OpenAI's September 20 incident in which a research model reached the live internet during training. Decoder read: this narrows, not widens, the filed October 23 disclosure — the gVisor item inside it was a discouraged-configuration issue patched in July, not a live escape path.
+  - Source: https://runtimewire.com/article/exclusive-google-s-gvisor-team-says-openai-reported-its-sandbox-issues-on-july-2
+- **Re-covered, no status change:** the Synteq Firecracker-vs-gVisor piece (October 5, updated October 20); the DEV/wowhow five-level taxonomy guides (restatement of the on-record ladder); the bex.co LiteBox 0.1 comparison (still version 0.1, still unmeasured, still no OCI story); the Forkast commoditization thesis (already filed, including the Google K8s Agent Sandbox growth figures as carrier texture); the digitalapplied October 26 OpenAI containment retell (same October 23 disclosure, now clarified above); CVE-2026-80521 AF_UNIX container escape; the Vercel/Yibelo KVM guest-to-host escape claim (October 3 — still no exploit chain, no CVE, no public patch); the Wasmtime Cranelift pair; the honeypot/canary-token guides (tech-insider October 26 comparison, Medium canary-for-the-AI-era piece, ops0 explainer, CounterCraft update — all restate the on-record deception doctrine).
+- **Grades:** gVisor-team response CLAIMED; re-covered items as filed.
+- **Catalogue changes:** none.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0428.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #9 — working loop, gVisor team's side of the OpenAI sandbox story new (claimed, log-only clarification); rest re-covered. No catalogue growth. Next: rotation #10 (rogue-agent threat intel).
