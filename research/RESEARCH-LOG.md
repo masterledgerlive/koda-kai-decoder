@@ -11174,3 +11174,10 @@ Two targeted news-vertical searches (rogue / malicious AI agent incidents, Octob
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — working loop, one new wild operation (n zero n AI-assisted extortion, claimed, minor catalogue growth) plus one new lab demo (model backdoor, claimed, log-only); rest re-covered. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-28 ~18:10 EDT, rotation #10):**
+- **Push result:** sync-github.py "research: rogue-agent threat intel (rotation #10)" — exit 0 after ~8 minutes wall-clock; remote verification confirmed both the research-log entry and the catalogue addition live on the remote. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1757.md, Rook's voice.
+
+**Run summary (close-out):** rotation #10 — working loop, one new wild operation (n zero n AI-assisted extortion, claimed, minor catalogue growth) plus one new lab demo (model backdoor, claimed, log-only); rest re-covered. Public entry + library addition verified live on the remote. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #11 (suggestion-implant traps).
