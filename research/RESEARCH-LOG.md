@@ -10813,3 +10813,10 @@ Two targeted searches (Enigma/Bletchley declassified cipher history; Lorenz/Tunn
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — quiet loop, September AI-cipher wave retold in full, Lorenz/Tunny settled history retold via new carriers. No new break, no new declassification, no library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-28 ~07:05 EDT, rotation #1):**
+- **Push result:** sync-github.py exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0657.md, Rook's voice.
+
+**Run summary (close-out):** rotation #1 — quiet loop, September AI-cipher wave retold, Lorenz/Tunny settled history retold via new carriers. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
