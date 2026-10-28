@@ -10882,3 +10882,10 @@ Three targeted news-vertical searches (low-resource machine translation; WMT 202
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4 — working loop, WMT 2026 terminology shared-task detail joins the record as log-only watch texture (day one in Budapest, no scores yet); WMT low-resource lineup, 78-language safety-bypass study, Amazon call, Omnilingual ASR, Concentrix, M-SREC, Aeneas, Tangut, Marmont, PHerc. 343, Linear A, Indus, Voynich all static. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-28 ~08:33 EDT, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4) — working loop, WMT 2026 terminology shared-task detail log-only (day one Budapest, no scores yet), rest of window re-covered, no status change; no library growth; no verdicts" — exit 0 after ~5.8 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0827.md, Rook's voice.
+
+**Run summary (close-out):** rotation #4 — working loop, WMT 2026 terminology shared-task detail log-only, rest of the language window re-covered with no status change, Indus prize still unclaimed, Voynich still unread. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #5 (quantum decoding).
