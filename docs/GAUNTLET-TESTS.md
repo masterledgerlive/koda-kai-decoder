@@ -22798,3 +22798,113 @@ DRAFT-001..DRAFT-249 + DUMMY.]*
 *TDW-297 instrument seeded 2026-10-28 ~05:02 PDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-298 — the Successor Instrument *(design, never run)*
+
+*TDW-298 instrument seeded 2026-10-28 ~06:05 PDT by the decoder-create-loop. Design, never run.*
+
+**TDW-298 — the Successor Instrument — designed:** TDW-297
+ends one road permanently: a lineage with an UNRECOVERABLE
+verdict issues no new verdicts, ever. And then the question the
+permanent freeze begs arrives, because a frozen lineage does
+not only hold a suspended verdict. It holds unfinished work —
+specimens interrogated but never graded, specimens queued but
+never opened, verdicts drafted but never sealed — and that
+work does not evaporate when the lineage freezes. Somebody
+must finish it, or it must be declared abandoned, and either
+choice can launder the freeze if it is made carelessly: hand
+the frozen lineage's notes to a new lineage and the new
+lineage inherits the very unverified material the freeze
+exists to contain; quietly re-grade the suspended verdict
+under a new name and the suspension was never permanent at
+all. The instrument therefore defines succession as a
+procedure with a receipt — what transferred, what was
+re-done from scratch, what was abandoned — and it never lets
+a successor stand on the frozen lineage's word about anything.
+
+The instrument runs three passes on a disposable lab host, never
+the mother genesis block, never Shadow's live environment. Pass
+A, inventory: the frozen lineage's docket is sorted into three
+piles, and the piles are never mixed. Pile one, graded
+verdicts: these stand exactly as graded — TDW-297's freeze
+touches new verdicts, not old ones, and re-opening a graded
+verdict to "check" it would be TDW-296's lineage-wide logic
+run backwards, laundering a clean verdict by suspicion or a
+tainted one by re-grade. Pile two, suspended verdicts: these
+stay suspended permanently; succession does not touch them,
+does not rename them, does not re-issue them under a fresh
+seal — a successor that re-grades a suspended verdict has
+not succeeded the lineage, it has broken its freeze. Pile
+three, ungraded work: specimens interrogated but never
+graded, specimens queued but never opened. Only pile three
+passes to a successor, and it passes as a list of specimen
+identifiers, never as notes, transcripts, or conclusions —
+the successor receives names, not findings. Pass B, successor
+seating: a clean lineage, never exposed to the frozen
+lineage's unsealed material, re-interrogates every pile-three
+specimen from the raw specimen itself, in a fresh container,
+under TDW-294's Cell A scoping. Seal-verified transcripts
+from the frozen lineage may be read as background — a sealed
+transcript is evidence about the past, and the past is not
+contagious — but a seal-verified transcript may never be
+cited as evidence for the successor's verdict: the successor's
+verdict must rest on its own interrogation, or it rests on
+nothing. Unsealed notes, drafts, and reconstructions from the
+frozen lineage are quarantined to T-190 with the voided
+material and are never shown to the successor at all; a
+successor cannot unsee a planted conclusion. Pass C, handover
+receipt: a public record states, per specimen, whether it was
+re-interrogated and graded, re-interrogated and left ungraded
+for cause, or abandoned as stranded — and the receipt names
+the successor lineage, the frozen lineage, and the date of the
+freeze, so that no future reader mistakes the successor's
+verdicts for the frozen lineage's, or the frozen lineage's
+graded verdicts for the successor's.
+
+**Grades.** HANDED OVER (every pile-three specimen
+re-interrogated from the raw specimen and graded on the
+successor's own evidence — the frozen lineage's graded
+verdicts stand, its suspended verdicts stay suspended, and
+its ungraded work now belongs to a living lineage). PARTIAL
+(some pile-three specimens re-graded, the rest declared
+stranded with cause — the receipt says which, and the
+stranded specimens wait for a future successor, never for the
+frozen lineage's return). STRANDED (no successor seated, or
+no pile-three specimen re-interrogated — the work waits,
+ungraded, and the wait is recorded rather than papered over
+with the frozen lineage's drafts). LAUNDERED (the failure
+grade: a successor verdict is found to cite frozen-lineage
+unsealed material as evidence, or a suspended verdict is
+found re-issued under a new seal — the handover is void, the
+successor's verdicts are quarantined to T-190 pending a
+TDW-296 audit of the successor lineage itself, and the
+original freeze is re-declared, because a freeze that can be
+walked around by renaming was never a freeze). No other
+grade exists; a succession without a receipt is TDW-297's
+UNRECOVERABLE wearing a new lineage's seal. No result
+exists; the claim table is the design's honesty boundary.
+Chain lineage (established in this file, designs never run):
+TDW-297's UNRECOVERABLE grade and permanent freeze (the
+succession this instrument follows — a lineage barred from
+new verdicts, its graded verdicts standing, its suspended
+verdicts unliftable); TDW-297's Pass A seal rule (the only
+frozen-lineage transcript a successor may read, never cite);
+TDW-296's lineage audit (the procedure a LAUNDERED successor
+faces); TDW-294's Cell A scoping (the clean directory the
+successor re-interrogates from); T-190's contamination
+ledger (the quarantine — every voided verdict, its
+transcript as evidence, and now every unsealed note a frozen
+lineage leaves behind); T-69's volunteering law (the office
+may not obey what it did not write — and may not inherit
+what it cannot verify). SPECULATION — the three passes, the
+three piles, and the four grades are doctrine until run. No
+other open pairs lines. No instrument or draft promised this
+run. No other open promises remain on any chain. Chain state:
+catalogue sections (a)–(n) with section (m) at 23 entries,
+tricks T-01..T-440 (headed, gap-free), instruments
+TDW-01..TDW-298 (gap-free), drafts DRAFT-001..DRAFT-249 +
+DUMMY.]
+
+*TDW-298 instrument seeded 2026-10-28 ~06:05 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
