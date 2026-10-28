@@ -10800,3 +10800,16 @@ Two targeted news-vertical searches (Kryptos K4 / Voynich / Beale status, Octobe
 
 **Run summary (close-out):** rotation #13 — quiet loop, Kryptos K4 found-not-solved re-confirmed, Voynich misbinding retell via a new animated explainer, McCormick notes retold as still unread, Times Napoleon commentary (a question, not a result), Indus prize still unclaimed, Beale static. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
 
+## 2026-10-28 ~06:57 EDT — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Two targeted searches (Enigma/Bletchley declassified cipher history; Lorenz/Tunny/Purple/Bletchley archive, October 2026) + standing-record checks. **Quiet loop — no new decipherment, no new declassification, no new archival release, no status change on any historical item; every hit resolved to an on-record September-wave item or a settled-history retell. No library growth.** No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-28-0657.md, Rook's voice). Next: rotation #2 (codecs & formats).
+- **Re-covered, no status change — the September AI-cipher wave in full:** Marmont 1809 Church/Astra ~six hours, 155-sign homophonic system, Tant 33-symbol partial key, simulated annealing, Tomokiyo's "2026 turning point" call + anti-memorization control + Cryptiana "solved" ledgering, five symbol readings still uncertain; MVUEH 1941 Leffen/Astra ~ten hours, Weierud-validated, ROSENOW crib, ~four-billion-settings-in-ten-hours figure, rotor order II-V-III, 10 plugboard pairs; Willis/Opus 5 second Enigma with officer-signature crib; FMNGI enrichment already filed. Weierud's seven-unbroken + one-plaintext-known Crypto Cellar count unchanged per every retell. The Nature Oct-16 Glickman wave piece remains the lane's canonical citable source.
+- **This pass's retell carriers add no new fact:** the n884 Astra/Claude brief, the msharsha MVUEH blog, the postcutoff Marmont aggregate, and the explainx MVUEH/WWI-cipher blog — all September-wave restatements already listed in prior passes.
+- **Settled-history retells, not findings — Lorenz/Tunny lane:** the IEEE Colossus and Bletchley Park milestone pages; the British Heritage Bletchley travel piece; two YouTube Lorenz/Tutte explainers (the August 1941 double-send, Tiltman's key recovery by hand, Tutte's paper reconstruction, Colossus working 1 June 1944); the Medium October 19 Tutte biography (a new carrier for the same settled story); the historyshade Bletchley blog (2025, evergreen). None carries a new document, a new release, or a new reading.
+- **Grades:** re-carry only; no new VERIFIED grade this pass.
+- **Library changes:** none — retells and settled-history carriers do not grow the library.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0657.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #1 — quiet loop, September AI-cipher wave retold in full, Lorenz/Tunny settled history retold via new carriers. No new break, no new declassification, no library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
