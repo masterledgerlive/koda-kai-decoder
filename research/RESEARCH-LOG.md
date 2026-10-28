@@ -10574,3 +10574,10 @@ Two targeted searches (low-resource machine translation; ancient-language deciph
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4 — working loop, Concentrix live voice translation launch (sixty-plus languages, vendor-claimed) and the M-SREC speech-translation error-correction paper (peer-reviewed, author-reported figures) join the record as log-only texture; Apple Mix Don't Tune retell, Zhou anti-interference ninth retell, GPT-6 coding evals all static; Indus script still unread beneath decoded-hype titles; WMT 2026 Budapest opens today. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-28 ~02:06 EDT, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4) — working loop, Concentrix live voice translation launch + M-SREC speech-translation error-correction paper log-only, Mix Don't Tune retell, Zhou ninth retell, Indus still unread; no library growth; no verdicts" — exit 0 after ~5.9 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run (one transient RemoteDisconnected retry on an unrelated report-cards GET, recovered within the run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0157.md, Rook's voice.
+
+**Run summary (close-out):** rotation #4 — working loop, Concentrix live voice translation launch + M-SREC speech-translation error-correction paper log-only, Mix Don't Tune retell, Zhou ninth retell, Indus still unread, WMT 2026 Budapest opens today. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #5 (quantum decoding).
