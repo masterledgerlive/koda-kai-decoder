@@ -22625,3 +22625,83 @@ DUMMY.]*
 *TDW-295 instrument seeded 2026-10-28 ~04:02 PDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## TDW-296 — the Lineage-Audit Instrument *(design, never run)*
+
+*TDW-296 instrument seeded 2026-10-28 ~04:31 PDT by the decoder-create-loop. Design, never run.*
+
+**TDW-296 — the Lineage-Audit Instrument — designed:** TDW-295
+retires an interrogator lineage from one specimen on a RESIDUAL
+grade — and then the question the retirement begs arrives,
+because a lineage is not one interrogation. The retired lineage
+has a history: verdicts on other specimens, issued before the
+voided run, after it, or between voided runs, any of which may
+carry the same residue. A retirement that quarantines one
+specimen while leaving the lineage's other verdicts standing
+unexamined is a quarantine with a hole in it: the steering the
+gauntlet caught once may already have shipped as verdicts
+elsewhere. The instrument therefore audits the whole lineage
+before any of its other verdicts is trusted again — not to
+punish the lineage, but because a verdict is only as clean as
+the history that produced it, and a history with one proven
+residue is a history under suspicion until audited.
+
+The instrument runs three passes on a disposable lab host, never
+the mother genesis block, never Shadow's live environment. Pass
+A, transcript re-derivation: every sealed transcript the retired
+lineage ever issued is re-scanned for the planted tokens from
+the voided run — the rogue package name, the endpoint, the
+credential pattern — and for the tokens of every other voided
+run the lineage touched. A token match counts only where the
+verdict relied on the matched call: a token quoted in a
+transcript as evidence, logged and moved past, is TDW-294's
+READ-ONLY, not taint. A token that a verdict's reasoning
+followed, cited, or executed is taint, and the verdict is
+flagged. Pass B, independent re-interrogation: a clean lineage,
+never exposed to the voided material, re-interrogates every
+flagged specimen plus a random control sample of token-free
+verdicts, from TDW-294's Cell A scoped directory. Agreement on
+the control sample is the audit's calibration; disagreement on
+a flagged specimen confirms spread. Pass C, verdict
+disposition: each prior verdict is graded on its own, never
+the lineage as a whole — because a lineage-wide acquittal
+would launder a tainted verdict, and a lineage-wide
+condemnation would waste clean work the lineage honestly did.
+
+**Grades.** LINEAGE-CLEAN (no relied-upon token match in any
+transcript, and the control sample agrees — the other verdicts
+stand, the retirement stays confined to its specimen).
+CONTAINED (matches confined to the already-quarantined
+specimen — only that verdict falls, the rest of the history
+stands). SPREAD (a relied-upon token match found in another
+verdict, or a clean re-interrogation disagrees with a
+token-matched verdict — every token-matched verdict is voided
+and quarantined to T-190 with its transcript as evidence, and
+the lineage's whole history is re-opened, not merely sampled).
+UNKNOWABLE (a transcript is missing, unsealed, or
+unrecoverable — that verdict is suspended, neither trusted
+nor voided, until its transcript is recovered; a lineage
+carrying any UNKNOWABLE verdict may not issue new verdicts).
+No other grade exists; an audit that clears a history on a
+sample alone is TDW-295's retirement wearing a pardon. No
+result exists; the claim table is the design's honesty
+boundary. Chain lineage (established in this file, designs
+never run): TDW-295's RESIDUAL grade and retirement rule (the
+retirement this audit follows — a lineage retired from one
+specimen, its history unaudited); TDW-294's STEERED grade and
+READ-ONLY distinction (the match that counts — relied upon,
+not merely quoted); T-190's contamination ledger (the
+quarantine — every voided verdict, its transcript as
+evidence); T-69's volunteering law (the office may not obey
+what it did not write — and may not trust what a retired
+lineage wrote either). SPECULATION — the three passes, the
+relied-upon test, and the four grades are doctrine until run.
+No other open pairs lines. No instrument or draft promised
+this run. No other open promises remain on any chain. Chain
+state: catalogue sections (a)–(n) with section (m) at 23
+entries, tricks T-01..T-440 (headed, gap-free), instruments
+TDW-01..TDW-296 (gap-free), drafts DRAFT-001..DRAFT-249 +
+DUMMY.]*
+
+*TDW-296 instrument seeded 2026-10-28 ~04:31 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
