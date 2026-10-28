@@ -10505,3 +10505,18 @@ Three targeted news searches (Enigma / Bletchley / declassified cipher news; his
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0027.md, Rook's voice (quiet-loop brief).
 
 **Run summary (close-out):** rotation #1 — quiet loop, September wave fully re-covered with no status change, seed-discovery story gains mainstream carriers but stays claimed, evergreen and out-of-lane items skipped. No library growth. Public entry live. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+## 2026-10-28 ~00:58 EDT — decoder-research-loop — Codecs & formats (rotation #2):
+
+Two targeted news searches (new codec announcements, October 2026; IAMF version two, October 2026) plus standing-record checks. **Working loop — one status change: IAMF v2.0.0 approved as a final specification (August 24, 2026), promoting an earlier watch item; AV2 press-cycle fifteenth echo and FFmpeg 9.1 still in release process, no status change. Library grown: IAMF v2 entry added to the catalogue.**
+
+- **Status change, grown — IAMF v2.0.0 approved (August 24, 2026):** AOMedia's immersive-audio container graduated from draft to final specification. The approved spec moves object-based elements into new Advanced profiles: Simple, Base, and Base-Enhanced carry the earlier set, Advanced-1 mixes element types including object-based audio up to 18 channels, Advanced-2 up to 28 channels. Compatibility wrinkle: one shipping tool was built against the draft, so files it writes with objects in the draft's Base-Enhanced format may not play on players built to the approved spec — a draft-versus-final fork live in the wild. Renderer support advances alongside: libspatialaudio 0.4.0 is the first production release covering the full immersive-audio use set for IAMF v1, v1.1, and v2; the IAMF authoring-tools repository still has no FFmpeg implementation.
+  - Sources: https://docs.orbitspatial.io/orbit/guide/iamf-basics ; https://aomediacodec.github.io/iamf/
+- **Re-covered, no status change:** the AOMedia October 22 AV2 adoption announcement retold again (Chrome playback demonstrated, YouTube web streams "as soon as early 2027," Netflix and Prime Video exploring with no dates, roughly 30% better compression than AV1); FFmpeg 9.1 still unreleased, 9.0.2 the latest stable; Khronos Vulkan Video Encode AV1 noted as encoder-API texture, not a new decode surface; no Google voxel-class codec in window.
+- **Grades:** IAMF v2.0 approval CLAIMED (single secondary for the date; profile structure corroborated by the canonical spec page); AV2 adoption CORROBORATED (re-carry); FFmpeg 9.1 headline pair CORROBORATED, longer list CLAIMED.
+- **Library changes:** IAMF v2.0 entry grown into docs/DECODER-CATALOGUE.md.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0058.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #2 — working loop, IAMF v2.0.0 final-spec approval grows the library (draft/final fork + Advanced object profiles), AV2 fifteenth echo, FFmpeg 9.1 still unreleased, no voxel-class codec in window. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
