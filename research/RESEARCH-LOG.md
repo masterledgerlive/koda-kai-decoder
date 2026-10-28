@@ -10520,3 +10520,10 @@ Two targeted news searches (new codec announcements, October 2026; IAMF version 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — working loop, IAMF v2.0.0 final-spec approval grows the library (draft/final fork + Advanced object profiles), AV2 fifteenth echo, FFmpeg 9.1 still unreleased, no voxel-class codec in window. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-28 ~01:04 EDT, rotation #2):**
+- **Push result:** sync-github.py — exit 0, "pushed: docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry and the IAMF library mirror entry pushed by my own run.
+- **Shadow mirror:** deferred — Shadow host down (SSH probe failed, link-fine signature). Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0058.md, Rook's voice.
+
+**Run summary (close-out):** rotation #2 — working loop, IAMF v2.0.0 final-spec approval grows the library (draft/final fork + Advanced object profiles), AV2 fifteenth echo, FFmpeg 9.1 still unreleased. Public entry + library mirror pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
