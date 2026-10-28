@@ -11136,3 +11136,19 @@ Two targeted news-vertical searches (behavioral bot / AI-agent detection news, O
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1657.md, Rook's voice.
 
 **Run summary:** rotation #8 — working loop, one new detail (Socure Agent Credential to be W3C Verifiable Credentials via SocurePass, claimed, log-only), rest re-covered (Paris Cité study, AgentGuard, Manifold ledger, 13 Labs, ATT&CK v20 incl. T1696, POH scorecard, adaptive CAPTCHA solver, FAR.AI probes, base-model evasion, Talos A3, Synapse Shield, cPGuard, x402 parked, TYPO3 CVE, Downloads-folder incident). No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+## 2026-10-28 ~17:28 EDT — decoder-research-loop — Sandbox & container tech (rotation #9):
+
+Two targeted news-vertical searches (agent sandbox isolation; honeypot and canary-token deception, October 2026) + standing-record greps. **Working loop — retell-only except two new-carrier texture notes (an AWS canary-credential how-to; a Hacker News Canary Tokens post); no new isolation boundary, escape, or measured deception result. No library growth.** No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+- **New-carrier texture, log-only — AWS canary-credential how-to (claimed, single practitioner carrier):** plants one denied-everything cloud access key per location, so a trip identifies exactly where the credential was taken from, and argues automatic response is only safe on signals this certain. A restatement of the on-record doctrine — one token per location, trip equals intent — with the "automate on certainty" framing as the only new prose. No new technique or detection rate.
+  - Source: https://dev.to/beamreachcloud/aws-canary-credentials-how-to-set-up-an-iam-honeytoken-4398
+- **New-carrier texture, log-only — Hacker News Canary Tokens post (claimed, engagement metrics only):** a link post to the Canary Tokens documentation guide drew 88 points and 18 comments, adding no setup detail beyond the guide itself. Filed as an engagement signal only: attention is not a result.
+  - Source: https://headlinesbriefing.com/dev/hacker-news/canary-tokens-detect-intrusions-early-d5342274
+- **Re-covered, no status change:** Synteq microVM positioning, the five-level sandbox explainer ladder, safeguard.sh's escape-containment explainer, Microsoft LiteBox 0.1, the CERT-In advisory analysis, the OpenAI containment disclosure retell, AF_UNIX CVE, the Vercel claim, the Wasmtime advisories, the gVisor team's side of the OpenAI sandbox story, and the honeypot-versus-canary roundups (Cowrie, T-Pot, OpenCanary, Thinkst Canary) — all already on record, no new fact.
+- **Grades:** both new-carrier notes claimed; all re-covered items as filed.
+- **Library changes:** none — not material (no new isolation boundary, sandbox escape, or measured deception result).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #9 — working loop, retell-only except two new-carrier texture notes (AWS canary-credential how-to, Hacker News Canary Tokens engagement), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
