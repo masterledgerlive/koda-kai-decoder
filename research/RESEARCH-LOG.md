@@ -11055,3 +11055,5 @@ Quiet loop — no new dissector, no new protocol with a decode surface, no statu
 - **Grades:** re-carry only; the vendor chip-scheduling claim stays CLAIMED (single vendor-event carrier, no independent verification, no decode surface).
 
 **Run summary:** rotation #3 — quiet loop, Wireshark maintenance wave retells only (January archive note caught again, September releases all "no new protocols"), mesh/IoT window all filed, watchlist unchanged. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-28 ~14:34 EDT, rotation #3):** public entry pushed (1 pushed, 265 unchanged). Shadow down, mirror deferred. Next: rotation #4 (language decoders).
