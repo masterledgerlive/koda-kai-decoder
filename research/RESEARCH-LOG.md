@@ -11068,3 +11068,5 @@ Working loop — two new log-only texture items join the record: a retrieval-gui
 - **Grades:** two new grades this pass (translation paper CORROBORATED-as-published; Togo program CORROBORATED-as-reported-launch); Indus video claim CLAIMED; everything else re-carried as filed.
 
 **Run summary:** rotation #4 — working loop, retrieval-guided Indic translation paper + Togo language-data program log-only; Indus decoded-hype title caught and parked; rest of the window re-covered, workshop outcomes still to watch. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-28 ~15:05 EDT, rotation #4):** public entry pushed (1 pushed). Shadow down, mirror deferred. Next: rotation #5 (quantum decoding).
