@@ -10314,3 +10314,10 @@ Two targeted news-vertical searches (quantum error correction, October 2026; pos
 - **Library changes:** none — NOT MATERIAL per body rule §4 (no new quantum decoding advance — the Quantinuum record is already grown into library/DECODERS.md; a final transition-guidance report adds a migration reference, not a decoder technique, a codec, or a measured error-correction result; re-syndications and deadline restatements do not grow the library).
 
 **Run summary:** rotation #5 — working loop, NIST IR 8547 final (corroborated as published, log-only: the post-quantum transition report graduates from 2024 draft to final, 2035 horizon with 2030 key-establishment rung), rest re-covered with no status change, October 22 federal filing still receipt-less five days on. No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-10-27 ~20:29 EDT, rotation #5):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed (exit 255). Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-2011.md, Rook's voice.
+
+**Run summary (close-out):** rotation #5 — working loop, NIST IR 8547 final (corroborated as published, log-only), rest re-covered with no status change, October 22 federal filing still receipt-less five days on. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
