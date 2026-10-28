@@ -10859,3 +10859,10 @@ Three targeted news searches (Wireshark dissector support; new network/IoT/mesh 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — quiet loop, Wireshark maintenance retells only (4.4.13 January-2026 archive trap caught again, all "no new protocols"), mesh/IoT window all filed, roadmap confirms 5.0.0 final still dateless and the November 12 maintenance pair on schedule, Huawei Tau Law parked as a vendor chip claim. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-28 ~08:04 EDT, rotation #3):**
+- **Push result:** sync-github.py exit 0 after ~5.5 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run (one transient RemoteDisconnected retry on an unrelated report-cards GET, recovered within the run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0758.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #3 — quiet loop, Wireshark maintenance retells only (4.4.13 January-2026 archive trap caught again, all "no new protocols"), mesh/IoT window all filed, roadmap confirms 5.0.0 final still dateless and the November 12 maintenance pair on schedule, Huawei Tau Law parked as a vendor chip claim. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
