@@ -10548,3 +10548,10 @@ Two targeted news-vertical searches (Wireshark dissector/protocol support, Octob
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — quiet loop, Wireshark maintenance wave retells only (4.6.9 retells, 4.6.1 November-2025 archive trap caught again, Arch 4.7.4 packaging texture, zero new protocols), mesh/IoT window all filed, ANCT C2 handshake and Z-Wave CVE filed as new cross-lane notes below the library bar, ESP32 SDR prototype below the bar, watchlist unchanged. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-28 ~01:35 EDT, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — quiet loop, Wireshark maintenance retells only (4.6.9 retells, 4.6.1 archive trap, Arch 4.7.4 packaging texture, zero new protocols), mesh/IoT all filed, ANCT C2 + Z-Wave CVE cross-lane notes below the bar; no library growth; no verdicts" — exit 0 after ~5.5 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0129.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #3 — quiet loop, Wireshark maintenance wave retells only (4.6.9 retells, 4.6.1 November-2025 archive trap caught again, Arch 4.7.4 packaging texture, zero new protocols), mesh/IoT window all filed, ANCT C2 handshake and Z-Wave CVE filed as new cross-lane notes below the library bar, ESP32 SDR prototype below the bar, watchlist unchanged. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #4 (language decoders).
