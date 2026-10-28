@@ -10840,3 +10840,22 @@ Two targeted searches (new video codec AV2/FFmpeg/VLC, October 2026; Google medi
 - **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
 
 **Run summary (close-out):** rotation #2 — quiet loop, AV2 press-cycle sixteenth echo, FFmpeg 9.1 still in release process, no Google voxel-class codec in window. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+## 2026-10-28 ~07:58 EDT — decoder-research-loop — Protocol decoders (rotation #3):
+
+Three targeted news searches (Wireshark dissector support; new network/IoT/mesh protocol decoding; Wireshark 5.0 / Stratoshark status) + standing-record checks. **Quiet loop — no new dissector, no new protocol with a decode surface, no status change on any watchlist item. No library growth.** No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-28-0758.md, Rook's voice, quiet-loop line). Next: rotation #4 (language decoders).
+
+- **Re-covered, no status change — Wireshark maintenance wave, all retells, zero new protocols:** the 4.4.13 announce note surfaced again — the January 2026 LTS release (three 2026 advisories: BLF parser, IEEE 802.11, SOME/IP-SD dissector crashes; updated DCT2000, H.248, H.265, IDN, IEEE 802.11, NAS-5GS, QUIC, SOME/IP-SD, Thrift; "no new protocols in this release"), flagged as such since an earlier pass. The 4.6.9 retells restate the September 23 release (19 advisories, roughly thirty refreshed dissectors, zero new protocols); the 4.6.8, 4.6.7, and 4.6.3 notes are the same maintenance wave.
+  - Sources: https://lists.wireshark.org/archives/wireshark-announce/202601/msg00001.html ; https://linuxiac.com/wireshark-4-6-9-packet-analyzer-fixes-19-security-vulnerabilities/
+- **Re-covered, no status change — mesh / IoT protocol window, all filed:** the IEEE Spectrum Wi-Fi 7 / Thread 1.4 / Matter convergence piece (landscape texture, no dissector); the Opener / DECT NR+ open reference stack roundup (the stack itself is already in the public catalogue, no new version); MeshCore firmware v1.18.0 (October 15 — BLE+WiFi companion builds, a firmware release, not decoder material); the Offline Protocol roadmap October items (Python binding, HTTP front — no new version number); ESPHome 2026.10.0 (October 21 — compressed OTA, outgoing connections).
+  - Sources: https://spectrum.ieee.org/mesh-network-interoperable-thread ; https://ipv6.net/news/opener-is-an-open-source-reference-implementation-of-the-dect-nr-massive-iot-low-latency-standard/ ; https://meshamerica.com/2026/10/15/meshcore-v1-18-0-release/
+- **Re-covered, no status change — watchlist, roadmap-verified this pass:** the Wireshark wiki roadmap still lists Wireshark 5.0.0rc1 and Stratoshark 1.0.0rc1 at October 21, 2026, with the 4.6.10 / 4.4.20 maintenance pair scheduled November 12, 2026 — no 5.0.0 final date, no change. The 5.0.0rc1 retell adds release-candidate texture already on record and no new dissector beyond the on-record 37.
+  - Source: https://wiki.wireshark.org/Development/RoadMap
+- **Parked, adjacent only — Huawei Tau Law chip technology for wireless base-station scheduling (announced October 28):** a vendor claim with no protocol, parser, or decode surface named — filed so the next pass recognizes it, not grown.
+  - Source: https://www.huaweicentral.com/huawei-enhancing-mobile-phone-network-with-tau-law-chip-technology/
+- **Grades:** re-carry only (Wireshark maintenance corpus via first-party notes on record; mesh items via their own pages on record; roadmap verified via the live Wireshark wiki page this pass); Huawei Tau Law claimed (single vendor-event carrier, no independent verification).
+- **Library changes:** none.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0758.md, Rook's voice (one-line quiet-loop brief — nothing material, nothing invented).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #3 — quiet loop, Wireshark maintenance retells only (4.4.13 January-2026 archive trap caught again, all "no new protocols"), mesh/IoT window all filed, roadmap confirms 5.0.0 final still dateless and the November 12 maintenance pair on schedule, Huawei Tau Law parked as a vendor chip claim. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
