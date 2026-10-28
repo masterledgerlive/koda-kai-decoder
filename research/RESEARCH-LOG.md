@@ -10976,3 +10976,10 @@ Two targeted news-vertical searches (malicious / rogue AI agent news, October 20
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — quiet loop, whole rogue-agent window re-covered already filed (OpenAI disclosure family, Pillar census, Wikimedia, TIP proposal, Amap fleet, Bankrbot, MCP trio, Radware census, Downloads-folder incident, fabricated-attack report, PDF demo, LangAlpha, Ledger implant); medical-chatbot demo writeup noted as claimed lane-adjacent texture, not grown. No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-28 ~11:38 EDT, rotation #10):**
+- **Push result:** sync-github.py "research: rogue-agent threat intel (rotation #10) — quiet loop, whole window re-covered already filed, PointGuard medical-chatbot demo writeup noted as claimed texture not grown; no library growth; no verdicts" — exit 0 after ~6 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1128.md, Rook's voice.
+
+**Run summary (close-out):** rotation #10 — quiet loop, whole rogue-agent window re-covered already filed; medical-chatbot demo writeup noted as claimed lane-adjacent texture, not grown. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #11 (suggestion-implant traps).
