@@ -10942,3 +10942,16 @@ Two targeted news searches (behavioral bot and AI-agent detection news; CAPTCHA 
 - **Library changes:** none — a detection-collapse measurement, not a new technique, and the rest is re-covered or a stale retell.
 
 **Run summary:** rotation #8 — working loop, a Paris Cité chatbot-interrogator study joins the record as corroborated and log-only (interrogator bots three correct in ninety-eight tests, zero with a backstory, human judges rating bot replies more human than volunteers), the rest of the window re-covered, and a twenty-eighteen text-CAPTCHA piece parked as a stale retell. No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox and container tech).
+## 2026-10-28 ~10:58 EDT — decoder-research-loop — Sandbox & container tech (rotation #9):
+
+Two targeted news-vertical searches (agent sandbox isolation; honeypot and canary-token deception, October 2026) + standing-record greps. **Working loop — one new texture item (honeycrawlpot decoy library for automated scanners, claimed, log-only); the rest of the window re-covered, no status change. No library growth.** No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+- **New texture, log-only — honeycrawlpot (claimed, single tutorial carrier):** a small library that answers scanner-probed paths with stack-shaped decoys — a unique canary token per deployment plus fake cloud and payment keys — served through a front-edge proxy so automated scanners get bait instead of a flat denial. Filed as texture: a tutorial-grade tool, not a new isolation boundary or measured detection result.
+  - Source: https://dev.to/resk/how-to-protect-an-llm-backed-banking-support-bot-from-prompt-leakage-and-data-exposure-a-service-3kfd
+- **Re-covered, no status change:** Synteq microVM positioning, Microsoft LiteBox 0.1, the five-level sandbox explainer ladder, the gVisor team's side of the OpenAI sandbox story (July 22 report, fix the following week, discouraged configuration, no link to the September DNS escape), the OpenAI containment disclosure, AF_UNIX CVE, Vercel claim, Wasmtime advisories, and the honeypot-versus-canary roundups (Cowrie, T-Pot, OpenCanary, Thinkst Canary) — all already on record, no new fact.
+- **Grades:** honeycrawlpot claimed; all re-covered items as filed.
+- **Library changes:** none — not material (no new isolation boundary, sandbox escape, or measured deception result).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #9 — working loop, honeycrawlpot decoy library new as claimed log-only texture, rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
