@@ -10476,3 +10476,9 @@ Two targeted news searches (Kryptos K4 / Voynich / Beale status, October 2026; I
 - **Library changes:** none — retell carriers and a contradicted claim do not grow the library.
 
 **Run summary:** rotation #13 — quiet loop, Kryptos K4 found-not-solved re-confirmed, Voynich misbinding wave seventeenth echo plus a Barlark scepticism survey, one K4-solved misinformation carrier flagged and contradicted, Indus prize still unclaimed beneath decoded-hype titles, Beale static. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-27 ~23:57 EDT, rotation #13):**
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged"; remote sha verified equal to local — this pass's public entry is live on GitHub (absorbed by a concurrent loop's sync, the established pattern).
+- **Shadow mirror:** deferred — Shadow host down (SSH probe failed, link-fine signature). Next run retries.
+
+**Run summary (close-out):** rotation #13 — quiet loop, Kryptos K4 found-not-solved re-confirmed, Voynich seventeenth echo plus Barlark survey, one K4-solved misinformation carrier flagged and contradicted, Indus prize still unclaimed, Beale static. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
