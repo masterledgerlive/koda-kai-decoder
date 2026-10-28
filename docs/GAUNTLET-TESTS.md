@@ -22705,3 +22705,96 @@ DUMMY.]*
 *TDW-296 instrument seeded 2026-10-28 ~04:31 PDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-297 — the Transcript-Recovery Instrument *(design, never run)*
+
+*TDW-297 instrument seeded 2026-10-28 ~05:02 PDT by the decoder-create-loop. Design, never run.*
+
+**TDW-297 — the Transcript-Recovery Instrument — designed:** TDW-296
+suspends a verdict whose transcript is missing, unsealed, or
+unrecoverable — and then the question the suspension begs
+arrives, because a suspension is not a verdict. The suspended
+verdict hangs in the middle of the record: neither trusted nor
+voided, and the lineage that issued it may not issue new
+verdicts while any UNKNOWABLE stands. A suspension with no
+recovery route is a verdict frozen forever and a lineage frozen
+with it; a suspension recovered by guesswork is a verdict
+laundered by reconstruction. The instrument therefore defines
+recovery as a procedure with an ending — either the transcript
+comes back verified, or the recovery is declared exhausted and
+the suspension becomes permanent — and it never lets a rebuilt
+transcript stand in for a sealed one without saying so.
+
+The instrument runs three passes on a disposable lab host, never
+the mother genesis block, never Shadow's live environment. Pass
+A, sealed-archive retrieval: the missing transcript is sought
+in every sealed archive the lineage ever wrote to — the
+contamination ledger's evidence store, the specimen's own
+sealed directory, the audit's retained copies — and a
+recovered transcript counts only if its seal verifies: the
+seal hash recorded at issue time must match the recovered
+bytes exactly. A transcript whose seal does not verify is not
+recovered; it is a forgery candidate, and it is quarantined
+with the voided material, not filed as evidence. Pass B,
+fragment reconstruction: where no sealed copy survives, the
+transcript is rebuilt from fragments — quoted passages in
+later verdicts, the auditor's retained excerpts, the
+specimen's own logs — and every rebuilt passage is marked
+rebuilt, with its source, so that no reader mistakes a
+reconstruction for the original. A reconstruction counts only
+where its fragments cover the verdict's relied-upon calls:
+a rebuilt transcript that covers only quoted evidence, never
+the reasoning the verdict followed, cannot re-grade the
+verdict, and the verdict stays suspended. Pass C, verdict
+re-grading: a recovered transcript is handed back to TDW-296's
+three passes — re-scanned for relied-upon token matches,
+re-interrogated against a clean lineage where flagged — and
+the suspended verdict is graded on the recovered evidence
+alone, never on the lineage's say-so about what the transcript
+contained.
+
+**Grades.** RECOVERED (seal verified, transcript intact —
+the verdict is re-graded by TDW-296's passes, and a
+LINEAGE-CLEAN or CONTAINED re-grade lifts the lineage's freeze
+for that verdict). RECONSTRUCTED (no sealed copy, fragments
+cover the relied-upon calls — the verdict is re-graded, but
+the re-grade carries the RECONSTRUCTED mark forever: a
+reconstructed transcript can void a verdict, it can never
+fully clear one, because a fragment-built record cannot prove
+a negative the way a sealed transcript can). UNRECOVERABLE
+(all archives searched, all fragments exhausted, no seal
+verifies — the verdict stays suspended permanently, neither
+trusted nor voided for all time, and the lineage's freeze
+becomes permanent: a lineage with a permanently suspended
+verdict issues no new verdicts, ever; its graded verdicts
+stand as graded, its ungraded work is done). FORGED (a
+recovered transcript whose seal fails verification — the
+transcript is quarantined to T-190, the recovery attempt
+itself is logged as evidence, and the verdict stays suspended
+until a seal-verified copy appears, if one ever does).
+No other grade exists; a suspension lifted by an unverified
+transcript is TDW-296's UNKNOWABLE wearing a recovered seal.
+No result exists; the claim table is the design's honesty
+boundary. Chain lineage (established in this file, designs
+never run): TDW-296's UNKNOWABLE grade and lineage freeze
+(the suspension this recovery follows — a verdict neither
+trusted nor voided, a lineage barred from new verdicts);
+TDW-296's three passes (the re-grading procedure a recovered
+transcript returns to); TDW-294's READ-ONLY distinction (the
+match that counts on re-grade — relied upon, not merely
+quoted); T-190's contamination ledger (the quarantine — every
+voided verdict, its transcript as evidence, and now every
+forged recovery attempt); T-69's volunteering law (the office
+may not obey what it did not write — and may not clear what
+it cannot verify). SPECULATION — the three passes, the
+seal-verification rule, and the four grades are doctrine
+until run. No other open pairs lines. No instrument or draft
+promised this run. No other open promises remain on any
+chain. Chain state: catalogue sections (a)–(n) with section
+(m) at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-297 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.]*
+
+*TDW-297 instrument seeded 2026-10-28 ~05:02 PDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
