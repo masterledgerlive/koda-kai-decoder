@@ -10676,3 +10676,10 @@ Two targeted searches plus standing-record checks. **Working loop — one new de
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8 — working loop, FAR.AI activation probes new (claimed, log-only), base-model evasion re-covered with detector/watermark figures, rest re-covered. No catalogue growth. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-28 ~04:05 EDT, rotation #8):**
+- **Push result:** sync-github.py exit 0, "done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed ("Connection closed by UNKNOWN port 65535"), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0359.md, Rook's voice.
+
+**Run summary (close-out):** rotation #8 — working loop, FAR.AI activation probes new (claimed, log-only), base-model evasion re-covered with detector/watermark figures, rest re-covered. No catalogue growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #9 (sandbox & container tech).
