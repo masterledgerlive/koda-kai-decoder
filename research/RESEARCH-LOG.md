@@ -10455,3 +10455,9 @@ Three targeted news searches (scientific-Python stack, symbolic regression / AI 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — working loop, OpenAI's October 26 AI-mathematics announcements filed as claimed and log-only (Buckmaster dispute open, no community verdict), plus texture notes (Chain Theory conjecture, JamTet, Matali 7.0); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-27 ~23:45 EDT, rotation #12):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run.
+- **Shadow mirror:** COMPLETE — SSH probe "ok", decoder tree + MEMORY-2026-10-27.md both copied exit 0.
+
+**Run summary (close-out):** rotation #12 — working loop, OpenAI's October 26 AI-mathematics announcements filed as claimed and log-only, plus texture notes (Chain Theory, JamTet, Matali 7.0); rest re-covered. No library growth. Public entry pushed; Shadow mirror complete. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
