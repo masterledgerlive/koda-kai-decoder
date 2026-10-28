@@ -11198,3 +11198,10 @@ Two targeted news-vertical searches (prompt injection in the wild, October 2026;
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11 — working loop, three new lab techniques (target rebinding, cross-modal trust laundering, compositional skill-chain violations — all claimed, one compact growth); rest re-covered. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-28 ~18:47 EDT, rotation #11):**
+- **Push result:** sync-github.py "research: suggestion-implant traps (rotation #11)" — exit 0 after ~9.8 minutes wall-clock. Stdout: "pushed (git-data): docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" (one transient RemoteDisconnected retry, recovered). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1830.md, Rook's voice (146 words).
+
+**Run summary (close-out):** rotation #11 — working loop, three new lab techniques (target rebinding, cross-modal trust laundering, compositional skill-chain violations — all claimed, one compact growth); rest re-covered. Public entry + library addition pushed (2 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #12 (math/physics engines).
