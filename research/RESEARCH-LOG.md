@@ -10906,3 +10906,10 @@ Three targeted news-vertical searches (quantum error correction; post-quantum cr
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #5 — working loop, Pasqal 256-qubit neutral-atom magnet result joins the record as a claimed preprint (log-only), Quantinuum record and QXL claims re-covered with still no independent replication or preprint, post-quantum deadline cluster restated with the October 22 federal filing still receipt-less six days on. No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-10-28 ~09:05 EDT, rotation #5):**
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5) — working loop, Pasqal 256-qubit neutral-atom magnet preprint (claimed, log-only), Quantinuum/QXL re-covered, Oct-22 federal filing still receipt-less; no library growth; no verdicts" — exit 0 after ~6 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run (one transient RemoteDisconnected retry on an unrelated report-cards GET, recovered within the run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0858.md, Rook's voice.
+
+**Run summary (close-out):** rotation #5 — working loop, Pasqal magnet preprint joins the record as claimed and log-only, Quantinuum record and QXL claims re-covered with still no independent replication or preprint, post-quantum deadline cluster restated with the October 22 federal filing still receipt-less six days on. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
