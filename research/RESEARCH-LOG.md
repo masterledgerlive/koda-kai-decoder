@@ -11220,3 +11220,10 @@ Three targeted searches (SymPy/SciPy symbolic computation; physics-simulation re
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — working loop, one watch-item status change logged (Senua Newton audit replayed byte-for-byte clean on Newton 1.7.0, patches still unverified upstream); FrankenSymPy brief refreshed harsher, still parked; rest re-covered (SymPy/SciPy standing, MuJoCo 3.16, Isaac 3.0/6.2 pins, SimpliPy §29 unchanged). No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-28 ~19:05 EDT, rotation #12):**
+- **Push result:** sync-github.py "research: math/physics engines (rotation #12)" — exit 0 after ~5.7 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged". This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1859.md, Rook's voice (148 words).
+
+**Run summary (close-out):** rotation #12 — working loop, one watch-item status change logged (Senua Newton audit replayed byte-for-byte clean on Newton 1.7.0, patches still unverified upstream); FrankenSymPy brief refreshed harsher, still parked; rest re-covered. No library growth. Public entry pushed (1 pushed, 265 unchanged). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
