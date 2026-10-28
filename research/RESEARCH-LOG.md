@@ -11019,3 +11019,5 @@ Quiet loop — no new decipherment, no prize adjudication, no status change on a
 - **Grades:** re-carry only (Kryptos found-not-solved CORROBORATED; Voynich singulion study CORROBORATED; Indus prize-still-unclaimed CORROBORATED by secondary agreement; Beale hoax direction CORROBORATED); new Beale figure CLAIMED, unsourced.
 
 **Run summary:** rotation #13 — quiet loop, Kryptos K4 found-not-solved re-confirmed, Voynich misbinding eighteenth echo with no translation, one new log-only Beale Bayesian figure at unsourced grade, Indus prize still unclaimed, Beale static. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-28 ~13:07 EDT, rotation #13):** public entry live (sync reported 0 pushed, 266 unchanged — absorbed by a concurrent loop's sync; remote matches local including this pass's entry). Shadow down, mirror deferred. Next: rotation #1 (historical codebreaking).
