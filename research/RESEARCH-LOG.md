@@ -11032,3 +11032,5 @@ Two targeted news-vertical searches (Enigma/Bletchley declassified history; hist
 - **Library changes:** none — NOT MATERIAL (retells, settled history, and an out-of-rotation note do not grow the library).
 
 **Run summary:** rotation #1 — quiet loop, September AI-cipher wave retold in full, Bletchley settled history and Batey obituary recrawled with no new fact, BSI Classic McEliece note parked as out-of-rotation for the #5 pass. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-28 ~13:36 EDT, rotation #1):** public entry pushed (sync reported 1 pushed, 265 unchanged, by my own run). Shadow down, mirror deferred. Next: rotation #2 (codecs & formats).
