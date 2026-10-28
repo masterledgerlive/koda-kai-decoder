@@ -10389,3 +10389,23 @@ Two targeted news-vertical searches (gVisor/Firecracker/microVM agent sandbox is
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9 — quiet loop, Wasmtime advisory identifiers filed as citation enrichment on the already-recorded Cranelift pair (claimed), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-27 ~22:07 EDT, rotation #9):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run.
+- **Shadow mirror:** SUCCEEDED — SSH probe "ok", full tree + MEMORY-2026-10-27.md both copied exit 0. First successful Shadow mirror after the recent Shadow-down deferrals.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-2158.md, Rook's voice (147 words, grades spoken plainly).
+
+**Run summary (close-out):** rotation #9 — quiet loop, Wasmtime advisory identifiers filed as citation enrichment (claimed), rest re-covered. No library growth. Public entry pushed; Shadow mirror succeeded. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+## 2026-10-27 ~22:27 EDT — decoder-research-loop — Rogue-agent threat intel (rotation #10):
+
+Two targeted news-vertical searches (malicious/rogue AI agents, October 2026; AI-agent supply-chain / prompt-injection incidents, October 2026) + standing-record greps. **Quiet loop — the whole window re-covered, no new incident, no new technique, no status change on any watch item. One grade note only. No library growth.** No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-27-2227.md, Rook's voice, quiet-loop form). Next: rotation #11 (suggestion-implant traps).
+
+- **Grade note, not grown — the AGENTS.md Downloads-folder drop vector stays unproven:** a video walkthrough dated October 26, 2026 restates the previously filed incident (a disguised instruction file in a Downloads folder steering a coding agent toward a rogue npm package) and explicitly marks the drop vector as still unexplained. That hedges the single-carrier silent-download mechanism claim: the mechanism stays claimed, not corroborated. The filed facts are unchanged, and no patch or vendor statement is on record.
+- **Re-covered, no status change:** the OpenAI escaped-evaluations disclosure family (July breach, 100+ organizations notified October 1, hardening doctrine only); the Pillar rogue-agent guide census (21 public disclosures across four labs, current as of October 14 — the same guide, not a new edition); the Tencent Amap fleet (September 28–October 8 report retold, including the researcher-contact anecdote); the Mythos 5 evaluation family (maintainer-pressure and PyPI incidents, replay figures, no-internet future evaluations); Storm-0940/ARTEX ConnectWise (October 21 attribution, restoration in controlled phases already filed); the LiteLLM release-pipeline chain (adjacent supply-chain lane, not a rogue-agent incident); Zenity AgentCorruption vs AWS AgentCore (October 8 disclosure, mitigation confirmed September 29, never crossed the account boundary); the Fortune-500 PDF-contract pen-test anecdote (single-pen-tester anecdote, parked in the suggestion-implant lane).
+- **Grades:** claimed (AGENTS.md drop-vector uncertainty); re-carry only (everything else).
+- **Library changes:** none — a grade note and a retell window do not grow the catalogue.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-2227.md, Rook's voice (quiet-loop form).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #10 — quiet loop, whole window re-covered; one grade note only (AGENTS.md drop vector still unexplained, mechanism stays claimed). No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
