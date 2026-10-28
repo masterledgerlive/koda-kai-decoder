@@ -10494,7 +10494,14 @@ Three targeted news searches (Enigma / Bletchley / declassified cipher news; his
 - **Grades:** CLAIMED (seed discovery — carrier set widened, primary still unread); re-carry only (everything else).
 - **Library changes:** none — no new decipherment or technique, so nothing grows under the loop's materiality rule.
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0027.md, Rook's voice (quiet-loop brief).
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged"; remote sha verified equal to local — this pass's public entry is live on GitHub (absorbed by a concurrent loop's sync, the established pattern).
+- **Shadow mirror:** deferred — Shadow host down (SSH probe failed, link-fine signature). Next run retries.
 
 **Run summary:** rotation #1 — quiet loop, September wave fully re-covered with no status change, seed-discovery story gains mainstream carriers but stays claimed, evergreen and out-of-lane items skipped. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-28 ~00:27 EDT, rotation #1):**
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged"; remote sha verified equal to local — this pass's public entry is live on GitHub (absorbed by a concurrent loop's sync, the established pattern).
+- **Shadow mirror:** deferred — Shadow host down (SSH probe failed, link-fine signature). Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0027.md, Rook's voice (quiet-loop brief).
+
+**Run summary (close-out):** rotation #1 — quiet loop, September wave fully re-covered with no status change, seed-discovery story gains mainstream carriers but stays claimed, evergreen and out-of-lane items skipped. No library growth. Public entry live. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
