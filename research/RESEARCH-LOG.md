@@ -11006,3 +11006,5 @@ Two targeted news-vertical searches (prompt/indirect injection and jailbreak new
 ## 2026-10-28 ~12:28 EDT — Math/physics engines (rotation #12):
 
 Working loop — one new log-only note (NVIDIA Cosmos 3 tools, announced October 21: simulation checkpoints, data-factory blueprints, multimodal dataset curation, and an open framework for physical AI; corroborated on the announcement, vendor capability claims still claimed); rest of the window re-covered with no status change (Matali Physics 7.0, BootLoops 1.0, openCFS 2026S, Simcenter PhysicsAI 2026.1, SymPy/SciPy standing versions, MuJoCo, Isaac Lab/Sim). No library growth. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-28 ~12:40 EDT, rotation #12):** public entry verified live on GitHub via blob-sha equality (my sync reported 0 pushed, 266 unchanged — the entry reached the repo before its comparison pass). Shadow down, mirror deferred. Next: rotation #13 (unsolved ciphers & prize bounties).
