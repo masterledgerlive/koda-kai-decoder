@@ -11134,7 +11134,5 @@ Two targeted news-vertical searches (behavioral bot / AI-agent detection news, O
 - **Grades:** Socure credential-mechanism detail CLAIMED (trade digest of vendor release, forthcoming module, no independent test); all re-covered items as filed; no new VERIFIED or CORROBORATED grade this pass.
 - **Library changes:** none — NOT MATERIAL per body rule §4 (a forthcoming module's standards choice on a filed product launch, plus retells; no new detection or anti-detection technique, no measured result, no new evasion method).
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1657.md, Rook's voice.
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8 — working loop, one new detail (Socure Agent Credential to be W3C Verifiable Credentials via SocurePass, claimed, log-only), rest re-covered (Paris Cité study, AgentGuard, Manifold ledger, 13 Labs, ATT&CK v20 incl. T1696, POH scorecard, adaptive CAPTCHA solver, FAR.AI probes, base-model evasion, Talos A3, Synapse Shield, cPGuard, x402 parked, TYPO3 CVE, Downloads-folder incident). No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
