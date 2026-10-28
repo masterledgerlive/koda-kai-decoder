@@ -10429,3 +10429,10 @@ Two targeted news-vertical searches (prompt/indirect injection and jailbreak new
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11 — working loop, OpenAI compaction smuggling grown into the catalogue (corroborated: vendor-confirmed, fixed October 23, $6,000 bounty, Stolen Thoughts lineage); rest re-covered. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-27 ~23:05 EDT, rotation #11):**
+- **Push result:** sync-github.py — exit 0, "pushed: docs/DECODER-CATALOGUE.md; done: 1 pushed, 265 unchanged". Verified: remote Contents-API sha for research/RESEARCH-LOG.md equals the locally computed git blob sha — this pass's public entry is live on GitHub (absorbed by a concurrent loop's sync, the established pattern).
+- **Shadow mirror:** COMPLETE — SSH probe "ok", decoder tree + MEMORY-2026-10-27.md both copied exit 0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-27-2257.md, Rook's voice (146 words).
+
+**Run summary (close-out):** rotation #11 — working loop, OpenAI compaction smuggling grown into the catalogue (corroborated); rest re-covered. Public entries live. Shadow mirror complete. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
