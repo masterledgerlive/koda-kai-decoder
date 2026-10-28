@@ -10482,3 +10482,19 @@ Two targeted news searches (Kryptos K4 / Voynich / Beale status, October 2026; I
 - **Shadow mirror:** deferred — Shadow host down (SSH probe failed, link-fine signature). Next run retries.
 
 **Run summary (close-out):** rotation #13 — quiet loop, Kryptos K4 found-not-solved re-confirmed, Voynich seventeenth echo plus Barlark survey, one K4-solved misinformation carrier flagged and contradicted, Indus prize still unclaimed, Beale static. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+
+## 2026-10-28 ~00:27 EDT — decoder-research-loop — Historical codebreaking (rotation #1)
+
+Three targeted news searches (Enigma / Bletchley / declassified cipher news; historical decipherment news; NSA / GCHQ declassification releases, October 2026) plus standing-record checks. **Quiet loop — no new decipherment, no new declassification, no status change on any watch item; one corroboration note only.** No library growth.
+
+- **Re-covered, no status change:** the September 2026 AI-assisted historical codebreaking wave in full — the 1941 Enigma message MVUEH (solved with AI assistance, independently validated by a recognized Enigma historian), the 1809 Marmont Napoleonic cipher (homophonic system, partial historian key, simulated-annealing solver, five symbol readings still open), the second Enigma message solved with AI assistance (officer-signature crib), the 1918 ADFGVX naval message (key-date discrepancy still unresolved), and the 1593 Catholic League letters (core decipherment on record, historians' review pending; the sensational payment claim remains secondary-only). Standing count unchanged: seven unbroken messages in the public collection plus one plaintext-known-code-unbroken. This pass's carriers added no new facts.
+- **Corroboration thickened, grade unchanged — the Claude / NIST elliptic-curve seed discovery (logged October 18).** Mainstream and specialist carriers now agree on the same announcement fact set: five unexplained seed numbers behind the NIST elliptic curves traced to an ordinary 1990s random-number generator seeded with 1997–1998 timestamps, in under thirty minutes of model time, with no weakness found and no user action needed; Bitcoin's curve is unaffected. New texture only: a recalled phrase from a former NSA mathematician and the explicit curve list. The grade stays claimed — the primary announcement has still not been read first-party — and the older 2013 backdoor concern about a different standard remains distinct and unaffected.
+- **Spotted and skipped:** evergreen retellings of settled 1940s Bletchley history, a survey history book, conspiracy content with no verifiable claim, and unrelated declassification items.
+- **Grades:** CLAIMED (seed discovery — carrier set widened, primary still unread); re-carry only (everything else).
+- **Library changes:** none — no new decipherment or technique, so nothing grows under the loop's materiality rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0027.md, Rook's voice (quiet-loop brief).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #1 — quiet loop, September wave fully re-covered with no status change, seed-discovery story gains mainstream carriers but stays claimed, evergreen and out-of-lane items skipped. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
