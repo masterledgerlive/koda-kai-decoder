@@ -10820,3 +10820,17 @@ Two targeted searches (Enigma/Bletchley declassified cipher history; Lorenz/Tunn
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-0657.md, Rook's voice.
 
 **Run summary (close-out):** rotation #1 — quiet loop, September AI-cipher wave retold, Lorenz/Tunny settled history retold via new carriers. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
+## 2026-10-28 ~07:28 EDT — decoder-research-loop — Codecs & formats (rotation #2):
+
+Two targeted searches (new video codec AV2/FFmpeg/VLC, October 2026; Google media/voxel-class codecs, October 2026) + standing-record greps. **Quiet loop — AV2 press-cycle sixteenth echo, FFmpeg 9.1 still in release process, no status change, no new codec, no new decode surface. No library growth.** No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+- **Re-covered, no status change — AV2 press cycle, sixteenth echo:** the AOMedia October 22 four-month adoption announcement retold again across the same carrier family, now with mezha (October 26) as a first-time carrier in this log — Chrome AV2 playback demonstrated, YouTube AV2 web streams "as soon as early 2027," Netflix and Prime Video "exploring" with no dates, Intel SVT-AV2, roughly 30% better compression than AV1, multi-view/real-time/HDR/immersive uses, over 90% of YouTube's catalog in AV1 by watch time as of March 2026. Mezha's textures resolve to on-record items: the CES 2026 Chrome-demo venue and the VideoLAN "about five times more computationally demanding than AV1" decode-cost estimate both duplicate already-filed figures. No new carrier adds a fact; the cycle is now syndication of syndication.
+  - Sources: https://mezha.ua/en/news/youtube-plans-av2-streaming-in-2027-316540/ ; https://www.neowin.net/news/google-chrome-youtube-amazon-prime-video-netflix-getting-av2-video-support-soon/ ; https://www.csimagazine.com/csi/AV2-gains-industry-backing.php
+- **Re-covered, no status change — FFmpeg 9.1 still in release process:** the alextech October 24 piece restates the already-grown headline pair (Vulkan APV encoder, NVIDIA optical-flow frame-rate up-conversion filter) plus the longer list parked as CLAIMED; no 9.1 release announcement has landed, and 9.0.2 "Lei" remains the latest stable.
+  - Source: https://www.alextech.ai/en/news/ffmpeg-91-adds-vulkan-apv-encoding-and-nvidia-frame-interpolation/
+- **Re-covered, no status change — no Google voxel-class codec in window:** the "voxel" search returned the same AV2 carriers above plus a February 2026 piece on Google adopting VVC in Android 17 (a stale window hit, not a new event) — no new voxel-class naming, no new media format.
+- **Grades:** re-carry only (AV2 adoption release CORROBORATED via the first-party announcement read; FFmpeg 9.1 headline pair CORROBORATED, longer list CLAIMED; mezha textures CLAIMED, single secondary carrier, duplicating on-record figures).
+- **Library changes:** none — retells, a first-time carrier, and duplicate textures do not grow the library.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #2 — quiet loop, AV2 press-cycle sixteenth echo (mezha first-time carrier, no new fact), FFmpeg 9.1 still in release process, no Google voxel-class codec in window. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
