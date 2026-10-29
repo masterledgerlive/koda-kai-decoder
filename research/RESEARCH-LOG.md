@@ -11744,3 +11744,12 @@ Two targeted searches (SymPy/SciPy symbolic computation; symbolic-regression / p
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-29-0758.md, Rook's voice (one-line quiet-loop brief).
 
 **Run summary (close-out):** rotation #12 — quiet loop, nothing new to record; the whole window re-covered (Matali 7.0, openCFS 2026S, Isaac Lab 3.0 / Schaeffler-Newton, PhySimCode, BootLoops, OpenAI October 26 triple announcement, SymPy/SciPy standing lines, MuJoCo 3.16, Senua 1.7.0 replay, FrankenSymPy parked). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-29 ~08:28 EDT — Unsolved ciphers & prize bounties (rotation #13):
+
+Quiet loop — nothing new to record. Three targeted searches (Kryptos K4, Voynich manuscript, Indus script prize / Beale cipher) plus standing-record checks all resolved to already-filed items, with no status change on any Most Wanted item.
+
+- **Kryptos K4, still found-not-solved:** the standing formulation re-confirmed across the window's carriers — K1–K3 solved, K4's plaintext recovered and authenticated via the 2025 archival find, the cipher itself publicly unsolved in the cryptanalytic sense, 97 characters. Paradigm's ten-puzzle challenge ($1,000 per puzzle) still live, no winner announced.
+- **Voynich manuscript, still unread:** the misbinding-wave explainers and the Smithsonian October 22 carrier restate the Layfield/Davis singulion study with the same caveat — a hypothesis still debated, it does not translate the manuscript. The October 23 Shepherd formulary claim and the October 25 Vigslist stillroom preprint remain on record as claimed, non-accepted items; the Caniatti & Claude falsification battery re-surfaced as the standing intake-bar reference; the October 22 self-endorsement of a self-published decipherment claim does not change its grade.
+- **Indus script prize, still unclaimed:** the January 2025 Tamil Nadu $1,000,000 announcement restated across the window's carriers, with no award notice, no accepted reading, and no adjudication rules published. A "finally decoded" video title was rejected on intake — its own description concedes no accepted reading. Beale Ciphers 1 and 3 remain unsolved.
+
+No library growth this pass. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
