@@ -2710,6 +2710,27 @@ The universal quantum decoder stays [SPECULATION] until proven.
   field report via trade press; no independent confirmation, no
   indicator list published]
   - Source: https://www.csoonline.com/article/4242088/imposter-abused-trust-in-openai-anthropic-and-30-others-to-hunt-for-secrets.html
+- **Resemble AI Agent Detection, model RAD-S1 — behavioral
+  person, bot, or agent classification (launched October 29, 2026;
+  new to record; material — new agent-detection technique).** A
+  behavioural model classifying each session as person, bot, or AI
+  agent from how the visitor behaves — cursor movement, typing
+  rhythm, on-page actions alongside browser and environment signals
+  — rather than claimed identity, aimed at agents running in real
+  browsers and built to conceal automation. Vendor figures via trade
+  press: at least ninety eight point eight percent of
+  concealment-built agents identified in internal testing across
+  eight website stacks, against three point one to fourteen point
+  eight percent for six widely used bot-detection tools on the same
+  visits. Lesson: the detection side's direct answer to this
+  morning's Cequence Imposter specimen — Imposter rotates claimed
+  identity, RAD-S1 grades behavior, so the two entries define the
+  current arms-race pair — but the ninety eight point eight percent
+  is company testing, no independent verification on record, and
+  the six-tool comparison set is unnamed in the carrier. [CLAIMED —
+  vendor launch figures via trade press; no independent
+  evaluation, no methodology published]
+  - Source: https://genznewz.com/resemble-ai-agent-detection-spots-agents-acting-human
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
