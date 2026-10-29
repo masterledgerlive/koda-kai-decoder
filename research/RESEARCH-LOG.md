@@ -11371,3 +11371,9 @@ Two targeted searches (forecasting tournaments and prediction-market accuracy; B
 
 **Run summary:** rotation #7 — quiet loop, entire October predictive-math window re-covered already filed (Tiger Limitless calibration, PREDICT 2026 recap, IARPA reading guide, PBC, GDELT, Sadeghkhani, overconfident-sensor simulation, foundation-model benchmark, TimesFM preview, volume records, Fed ledger at fifteen straight); vendor self-claims re-parked, not filed. No library growth. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
 
+
+**Close-out (2026-10-28 ~23:03 EDT, rotation #7):**
+- **Push result:** sync-github.py "research: predictive math (rotation #7) — quiet loop, October predictive-math window re-covered already filed, vendor self-claims re-parked; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down (same as the prior passes). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #7 — quiet loop, entire October predictive-math window re-covered already filed (Tiger Limitless calibration, PREDICT 2026 recap, IARPA reading guide, PBC, GDELT, Sadeghkhani, overconfident-sensor simulation, foundation-model benchmark, TimesFM preview, volume records, Fed ledger at fifteen straight); vendor self-claims re-parked, not filed. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
