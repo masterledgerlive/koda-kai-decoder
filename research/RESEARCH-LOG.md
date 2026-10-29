@@ -11351,3 +11351,9 @@ Two targeted news searches (photonic chips and free-space optical communications
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #6 — quiet loop, entire October photonic and power-beaming window re-covered already filed; Reason-1 late-October attempt window nearly closed with no published transfer, Protostar still silent. No library growth. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-28 ~22:34 EDT, rotation #6):**
+- **Push result:** sync-github.py "research: photonic comms & power (rotation #6) — quiet loop, October photonic/power-beaming window re-covered already filed, Reason-1 window nearly closed with no published transfer, Protostar still silent; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down (same as the prior passes). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #6 — quiet loop, entire October photonic and power-beaming window re-covered already filed; Reason-1 late-October attempt window nearly closed with no published transfer, Protostar still silent. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
