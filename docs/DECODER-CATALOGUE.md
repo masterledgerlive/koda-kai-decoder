@@ -2633,6 +2633,24 @@ The universal quantum decoder stays [SPECULATION] until proven.
 - **iProov human authorization service for AI agent gateways — first HAPS-compliant service (October twenty twenty-six).** Implements the Human Approval and Presence Specification (HAPS, released September twenty twenty-six): cryptographically verifiable proof that the genuine, right human approved a specific action an agent sought to execute, delivered as an auditable, non-repudiable certificate; proof of humanity via iProov face verification. First integrations: agentgateway (solo dot io open-source agent gateway) and Cerbos (authorization platform). Lesson: the human-approval control already graded in this section now has a spec and a first implementation with action-bound certificates — approval moves from a policy sentence to a receipt that can be graded.
   - Source: https://www.businesswire.com/news/home/20261022830765/en/iProov-Launches-New-Human-Authorization-Service-for-AI-Agent-Gateways-with-First-Integrations
   - [CLAIMED — vendor announcement; spec text not read first-party this pass]
+- **Privatrak agent-analytics measurement: pointer trajectory is the
+  surviving discriminator (tested October 26, 2026; new to record;
+  minor material — a first-party measurement with raw counts).** An
+  analytics vendor gave the same task on the same three pages to
+  twenty-three AI agents, chatbots and developer tools (forty-nine
+  runs) and eight human setups, recording every request and every
+  click. Most browser-using agents look exactly like a person in
+  Chrome: no automation flag, a normal Chrome user agent, many from
+  residential connections; only a few self-identify, and only one
+  (Manus) signs its requests so a site can verify them. The
+  discriminator split: how long an agent holds the button did not give
+  it away (two agents wait like a person), but how the pointer gets to
+  the button did — for every clicking agent tested. Lesson: hold-time
+  is a dead signal, pointer path is the live one, and signed identity
+  remains the exception, not the rule. [CORROBORATED — the vendor's
+  own first-party test writeup, method and limits published, raw
+  counts given; no independent replication]
+  - Source: https://privatrak.com/blog/ai-agents-in-analytics
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
