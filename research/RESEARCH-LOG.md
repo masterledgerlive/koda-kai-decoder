@@ -11780,3 +11780,12 @@ Quiet loop — nothing new to record. Two targeted searches plus standing-record
 - **Small texture notes, log only:** Matter's 1.6.1 maintenance release (September 2026) adds no decode change to the already-parked 1.6 spec line, and Huawei's October 29 network-event announcements carry no parser or dissector.
 
 No library growth this pass. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+## 2026-10-29 ~10:29 EDT — decoder-research-loop — Language decoders (rotation #4):
+
+Working loop — one new log-only item; everything else in the window re-covered, no status change. No library growth.
+
+- **New to record, log-only — Rongorongo falsifiability demonstration (Medium, October 2026):** an independent researcher ran a computational attack on the Easter Island script in reverse, testing whether the pipeline would provably solve a solvable cipher of the island's language, and reported that it would solve the synthetic case but not the real script — presented as a quantitative result about the script's nature. The piece restates the standing facts (about two dozen inscribed objects, roughly fifteen thousand signs, no bilingual text, unread for a century and a half) and argues that a decipherment method with no falsification test is a mirror, not a method. Grade: CLAIMED — single blog carrier, code repository not independently reviewed here. Not grown: a negative result about one script is not a new decipherment technique.
+  - Source: https://medium.com/@sharkb0yj0hn/i-tried-to-decipher-rongorongo-with-machine-learning-what-i-proved-instead-is-more-interesting-50713979dee8
+- **Re-covered, no status change:** the low-resource machine-translation papers and product launches in this window (anti-interference translation training, a translation-model recipe walkthrough, speech-translation error correction, live voice translation launches, an open-weight promptable transcription model) all resolve to items already in the log; the ancient-script window likewise resolves to on-record items (Tangut character-recognition paper, a university computational-decipherment project, the Rohonc Codex authorship paper, an unreviewed Linear A preprint claim, the Voynich misbinding study). No new decipherment, no new reading, no prize awarded.
+
+**Run summary:** rotation #4 — working loop, one new log-only item (Rongorongo falsifiability demonstration, claimed, not grown); rest re-covered. No library growth. Next: rotation #5 (quantum decoding).
