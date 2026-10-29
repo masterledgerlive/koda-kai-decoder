@@ -11452,3 +11452,10 @@ Two targeted news-vertical searches (prompt injection / indirect injection, Octo
 - **Library changes:** none — a single-author researcher demo is not a wild suggestion-implant attack; retells do not grow the library.
 
 **Run summary:** rotation #11 — working loop, one new log-only item (DeepSeek image-borne indirect-injection demo claimed, single researcher post, not grown) plus one ungraded thin-carrier trace (SGLang KV-cache claim), rest re-covered (Sublime Unicode-Tag invoice fraud, AgentBreaker, PromptSecurity SoK still pending peer review, LangAlpha CVE, ATT&CK v20, Stingrai census). No library growth. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-29 ~01:04 EDT, rotation #11):**
+- **Push result:** sync-github.py "research: suggestion-implant traps (rotation #11) — working loop, DeepSeek image-borne injection demo claimed and not grown, SGLang KV-cache claim ungraded thin-carrier trace; rest re-covered; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-0058.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #11 — working loop, one new log-only item (DeepSeek image-borne indirect-injection demo claimed, single researcher post, not grown) plus one ungraded thin-carrier trace (SGLang KV-cache claim), rest re-covered (Sublime Unicode-Tag invoice fraud, AgentBreaker, PromptSecurity SoK still pending peer review, LangAlpha CVE, ATT&CK v20, Stingrai census). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #12 (math/physics engines).
