@@ -12019,3 +12019,10 @@ Two targeted news-vertical searches (Ohio prediction-market deadline October 30;
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #7 — working loop, one new independent calibration analysis to record (CfA: Kalshi 7.3 points overconfident in competitive 2026 primary favourites, 57 predicted upsets vs 74 actual, final-week decay — claimed, log-only) plus a fresh October 29 midterm tick (House Democrats 91% Polymarket US / 90.6% Kalshi vs DDHQ 79%; Senate 63% / 64% vs 57%); rest re-covered, Ohio deadline tomorrow. No library growth. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
+
+**Close-out (2026-10-29 ~18:35 EDT, rotation #7):**
+- **Push result:** sync-github.py "research: predictive math (rotation #7) — working loop, CfA Kalshi primary-overconfidence study new to record (claimed, log-only), Oct 29 midterm tick, Ohio deadline tomorrow; no library growth; no verdicts" — exit 0 after ~5.8 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (one transient RemoteDisconnected on an unrelated report-cards GET, recovered within the run) — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-1827.md, Rook's voice (~150 words).
+
+**Run summary (close-out):** rotation #7 — working loop, CfA Kalshi primary-overconfidence study new to record (7.3 points overconfident in competitive favourites, 57 predicted upsets vs 74 actual, final-week decay — claimed, log-only) plus a fresh October 29 midterm tick (House Democrats 91% / 90.6% vs DDHQ 79%; Senate 63% / 64% vs 57%); rest re-covered, Ohio deadline tomorrow. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #8 (agent detection vs anti-detection).
