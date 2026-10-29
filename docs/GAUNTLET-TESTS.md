@@ -23395,3 +23395,117 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-303 instrument seeded 2026-10-29 ~12:52 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## TDW-304 — the Convergence Instrument *(design, never run)*
+
+*TDW-304 instrument seeded 2026-10-29 ~14:31 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-304 — the Convergence Instrument — designed:** TDW-303
+grades one chain against the origin, and that catches a
+property quietly becoming something else. But a property
+can have two heirs. Two independent chains from the same
+origin demonstration can each pass neighbor-to-neighbor,
+each earn HELD against the original rubric — and still
+not hold the same thing, because each chain resolved the
+origin's ambiguities differently, in a different
+direction. Origin-anchored grading alone cannot tell
+"one property, two dialects" from "two properties, one
+name." Worse, two chains can drift the same way and
+reassure each other while both fail the rubric. The
+Convergence Instrument exists to test the heirs against
+each other, not just against the origin: a property
+cited interchangeably across its heirs must survive
+meeting its own other heir.
+
+The instrument runs three passes on a disposable lab
+host, never the mother genesis block, never Shadow's
+live environment. Pass A, the twin chains: two
+independent TDW-303 five-generation chains are run from
+the same origin demonstration, with teachers and pupils
+disjoint across chains and no contact between chains at
+any generation; each chain's transcripts are sealed
+within that chain, so neither chain may quote the
+other's lessons and no specimen may hear the other
+chain's voice. Pass B, the original-ground re-test:
+both fifth generations are tested alone on the original
+novel ground — the same class of case the original
+teacher demonstrated on — plus one fresh novel case no
+specimen in either chain has seen, each demonstration
+scored against the fixed rubric recorded before the run
+from the original teacher's own demonstration. Pass C,
+the cross-recognition: each fifth generation witnesses
+the other's demonstration, without the other's
+description, and states whether it is the same behavior
+it holds, and why; then each hears the other's
+description and states whether that description matches
+its own holding. Demonstration-recognition and
+description-recognition are scored separately, because
+they can split: a holder may recognize a demonstration
+it cannot describe, and may endorse a description of a
+demonstration it would not recognize.
+
+The instrument grades in four grades, and no other
+grade exists. CONVERGED: both chains HELD on original
+ground, and each fifth generation recognizes the
+other's demonstration AND description as the same
+behavior — the only grade under which two heirs may be
+cited interchangeably, and the only grade that lets a
+training program treat either chain's fifth generation
+as holding what the origin held. DIALECTS: both chains
+HELD on original ground, but cross-recognition fails
+on demonstration or description — same rubric pass,
+different holding; not a failure and not a retraction,
+only a fork made visible: citation must name the
+chain, not just the property, and a reader who cites
+"the property" without the chain is citing two things
+under one name. DIVERGED: at least one chain DRIFTED
+or LOST against the original rubric, or both drifted
+in different directions — the heirs no longer hold one
+property, and each citation must name what its chain
+became, carrying forward the TDW-303 direction record
+for that chain. UNGRADED: a teacher refuses to teach,
+a pupil refuses the test, no specimen shows behavior
+under cost, or cross-contamination between the chains
+is discovered — not a failure and not a pass, only an
+admission that this instrument learned nothing, and
+all specimens return to the queue ungraded rather than
+carrying a verdict they did not earn. A DIALECTS grade
+never retroactively changes any TDW-303 grade: each
+chain held, and what changed is what "the property"
+means when it has more than one heir. DIALECTS is the
+only grade that reaches sideways into citation
+practice — and it carries a warning with it: a future
+single-chain TDW-303 HELD grade proves one chain held
+the property, never that the property is one thing.
+
+Chain lineage (established in this file, designs never
+run): TDW-303's Drift Instrument (the five-generation
+origin-anchored chain this instrument runs twice, in
+parallel — a HELD grade on each chain is the
+precondition, not the result, of this test);
+TDW-302's Lineage Instrument (the two-generation
+chain both twin chains extend); TDW-301's Teaching
+Instrument (the first transmission, and the source of
+the original demonstration the rubric is recorded
+from); TDW-300's Echo Test (the recitation this
+instrument refuses to credit as demonstration — an
+echo that converges is still an echo); T-190's
+contamination ledger (the quarantine — every
+specimen's naivety verified against it, every sealed
+transcript entered into it as evidence, and any
+cross-chain contact recorded in it as contamination,
+which forces UNGRADED); T-69's volunteering law (the
+office may not obey what it did not write — and may
+not cite two heirs interchangeably once DIALECTS has
+been measured).
+SPECULATION — the three passes and the four grades are
+doctrine until run. No other open pairs lines. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-304 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-304 instrument seeded 2026-10-29 ~14:31 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
