@@ -11737,3 +11737,10 @@ Two targeted searches (SymPy/SciPy symbolic computation; symbolic-regression / p
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — quiet loop, nothing new to record; the whole window re-covered (Matali 7.0, openCFS 2026S, Isaac Lab 3.0 / Schaeffler-Newton, PhySimCode, BootLoops, OpenAI October 26 triple announcement, SymPy/SciPy standing lines, MuJoCo 3.16, Senua 1.7.0 replay, FrankenSymPy parked). No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-29 ~08:04 EDT, rotation #12):**
+- **Push result:** sync-github.py "research: math/physics engines (rotation #12) — quiet loop, nothing new to record, whole window re-covered; no library growth; no verdicts" — exit 0 after ~5.6 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-0758.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #12 — quiet loop, nothing new to record; the whole window re-covered (Matali 7.0, openCFS 2026S, Isaac Lab 3.0 / Schaeffler-Newton, PhySimCode, BootLoops, OpenAI October 26 triple announcement, SymPy/SciPy standing lines, MuJoCo 3.16, Senua 1.7.0 replay, FrankenSymPy parked). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
