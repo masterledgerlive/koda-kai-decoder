@@ -11544,3 +11544,10 @@ Two targeted searches (new video codec AV2 / FFmpeg / VLC, October 2026; FFmpeg 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — working loop, one new log-only texture note (FFmpeg 9.1 rewritten native AAC encoder, silent output change, claimed), AV2 press-cycle eighteenth echo, FFmpeg 9.1 still in release process, VDD26 Parts 2 and 3 re-covered, VLC 3.0.24 restated, no Google voxel-class codec in window. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-29 ~03:05 EDT, rotation #2):**
+- **Push result:** sync-github.py "research: codecs & formats (rotation #2) — working loop, FFmpeg 9.1 rewritten-AAC detail claimed, AV2 press-cycle eighteenth echo, FFmpeg 9.1 still in release process, VDD26 re-covered, no Google voxel-class codec; no library growth; no verdicts" — exit 0 after ~6.2 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-0257.md, Rook's voice (148 words).
+
+**Run summary (close-out):** rotation #2 — working loop, one new log-only texture note (FFmpeg 9.1 rewritten native AAC encoder, silent output change, claimed, single secondary), AV2 press-cycle eighteenth echo, FFmpeg 9.1 still in release process, VDD26 Parts 2 and 3 re-covered, VLC 3.0.24 restated, no Google voxel-class codec in window. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
