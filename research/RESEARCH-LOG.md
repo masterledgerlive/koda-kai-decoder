@@ -11390,3 +11390,9 @@ Two targeted news searches (behavioral bot and AI-agent detection; CAPTCHA succe
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8 — working loop, one new measured item (Privatrak: pointer trajectory is the surviving agent discriminator, hold-time is dead, only Manus signs its requests — added to the catalogue as minor material), rest re-covered (Socure, Arkose Q3, Paris Cité, POH scorecard, adaptive CAPTCHA solver, ATT&CK v20, Cognaptus, Synapse Shield, DataDome Q3, Manifold ledger, AgentGuard, 13 Labs). No verdicts, nothing broadcast. Next: rotation #9 (sandbox and container tech).
+
+**Close-out (2026-10-28 ~23:36 EDT, rotation #8):**
+- **Push result:** sync-github.py "research: agent detection vs anti-detection (rotation #8) — working loop, Privatrak pointer-trajectory measurement new (corroborated, minor material, grown into section h), rest re-covered; no verdicts" — exit 0. Stdout: "pushed (git-data): docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry and catalogue growth pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down (same as the prior passes). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #8 — working loop, one new measured item (Privatrak: pointer trajectory is the surviving agent discriminator, hold-time is dead, only Manus signs its requests — added to the catalogue as minor material), rest re-covered (Socure, Arkose Q3, Paris Cité, POH scorecard, adaptive CAPTCHA solver, ATT&CK v20, Cognaptus, Synapse Shield, DataDome Q3, Manifold ledger, AgentGuard, 13 Labs). No verdicts, nothing broadcast. Next: rotation #9 (sandbox and container tech).
