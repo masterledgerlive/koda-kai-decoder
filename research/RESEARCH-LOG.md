@@ -11840,3 +11840,12 @@ Working loop — one new item grown into the library (Cequence "Imposter" scanne
 - **Library changes:** DECODER-CATALOGUE.md section on agent detection vs anti-detection — Cequence "Imposter" scanner entry added (material).
 
 **Run summary:** rotation #8 — working loop, one new library entry (Cequence "Imposter" scanner: rotating AI bot identities, secret-hunting paths, burst probing, cloud-IP rotation — claimed, material), Socure status and CAPTCHA-successor explainers filed as texture, rest of the window re-covered. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+## 2026-10-29 ~12:59 EDT — decoder-research-loop — Sandbox & container tech (rotation #9):
+
+Quiet loop — no new item, no status change on any watch item, no library growth. Every carrier in this window is a re-carry of a filed item. No verdicts, nothing broadcast.
+
+- **Re-covered, no status change:** Synteq's Firecracker-vs-gVisor microVM positioning (October 5 post, updated October 20); the Claude Code and Codex sandbox guides (same practitioner taxonomy — hardened Docker plus default-deny egress, gVisor, Firecracker microVMs); the GoldenKube isolation-techniques explainer (October 23); the CVE-2026-80521 AF_UNIX container-escape writeup (no new fact beyond the filed CVE); the Iris Sentinel zero-disk/canary-trap product claim (October 26 piece, updated October 28 — sealed ephemeral memory plus decoy-credential kill-switch, still no deployment evidence or independent measurement); the Symantec AI-honeypot attack agent (October 21 report — five-layer jailbreak, about seventy-four tools, up to one hundred thousand unattended steps, no confirmed victims, no attribution); the canary-token and honeypot roundups (same October 21 recipe and October 26 comparison — restates the filed deception doctrine, no new measurement); the rest of the sandbox window per the last pass — OpenAI containment retells, the Vercel/Yibelo escape claim (still no exploit chain, no CVE, no public patch), the Wasmtime advisory pair, the Perplexity escape-bench ledger — all on record.
+- **Grades:** no new grade this pass; re-carry only as filed.
+- **Library changes:** none.
+
+**Run summary:** rotation #9 — quiet loop, window re-covered, no library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
