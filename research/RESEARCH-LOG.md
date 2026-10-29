@@ -11567,3 +11567,10 @@ Two targeted searches (new video codec AV2 / FFmpeg / VLC, October 2026; FFmpeg 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — working loop, one parked note resolved (MoQ draft-22 verified at IETF datatracker, progression draft-17 → draft-19 → draft-22 closed), Wireshark maintenance wave retells only (4.6.9/4.6.7/4.6.1/4.4.13, zero new protocols), MoQ ecosystem texture claimed (IBC 2026 demo count, CDN77 offering pending stabilization), Hue firmware 1.164.2 Matter-concurrency note corroborated, Zigbee 4.0 restated. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-29 ~03:40 EDT, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — MoQ draft-22 verified at IETF datatracker, Wireshark maintenance retells only, Hue Matter-concurrency note corroborated; no library growth; no verdicts" — exit 0 after ~7 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-0330.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #3 — working loop, one parked note resolved (MoQ draft-22 verified at IETF datatracker, progression draft-17 → draft-19 → draft-22 closed), Wireshark maintenance wave retells only (4.6.9/4.6.7/4.6.1/4.4.13, zero new protocols), MoQ ecosystem texture claimed (IBC 2026 demo count, CDN77 offering pending stabilization), Hue firmware 1.164.2 Matter-concurrency note corroborated, Zigbee 4.0 restated. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
