@@ -2652,6 +2652,42 @@ The universal quantum decoder stays [SPECULATION] until proven.
   own first-party test writeup, method and limits published, raw
   counts given; no independent replication]
   - Source: https://privatrak.com/blog/ai-agents-in-analytics
+
+- **SentinelOne Singularity Agentic Detection and Response, ADR
+  (announced October 29, 2026 at OneCon 2026; early access; new to
+  record; material — the first runtime task-deviation instrument
+  from a major endpoint vendor).** An inventory of agents, tools,
+  connectors and MCP servers with permissions and users; event-trace
+  monitoring linking an AI action to subsequent system processes;
+  deviation detection between an agent's assigned task and its
+  behaviour; pre-execution blocking of prompt injection and
+  credential exfiltration; containment of a single agent without
+  stopping the wider workflow. Covers Salesforce Agentforce,
+  Microsoft Copilot Studio, OpenAI ChatGPT workspace agents and
+  Anthropic Claude managed agents. Lesson: "assigned task versus
+  observed behaviour" is the Gauntlet's verdict shape, now shipped
+  as a product — and the MCP-server inventory answers what a site
+  can even see. [CLAIMED — vendor announcement via trade press;
+  no independent deployment evidence]
+  - Source: https://www.expresscomputer.in/news/sentinelone-launches-agentic-detection-and-response-for-enterprise-ai-security/140676/
+
+- **Gumloop Agent Browser — CAPTCHA-clearing as a marketed feature
+  (launched October 6, 2026; hardened October 9, 13, 19; new to
+  record; material — the anti-detection side of the same week's
+  arms race).** Agents open a real browser, sign in with saved
+  logins, and click, type and fill forms on any site with or
+  without a connector; October releases added always-incognito
+  agents, mobile view plus browsing from another country, and
+  more reliable sign-ins on third-party-embedded pages such as
+  Persona and Stripe. The homepage sells CAPTCHA-clearing outright,
+  with masked passwords, recorded sessions and audit-logged
+  handoffs. Same window: JPMorgan Chase, Schwab, Yelp and Amazon
+  pushed agents off the consumer web. Lesson: CAPTCHA-clearing is
+  no longer a lab trick but a marketed feature, and the platform
+  pushback is the detection side answering in the same week.
+  [CLAIMED — single trade-outlet account; vendor homepage claims
+  inside it]
+  - Source: https://theinference.org/article/gumloop-s-browser-clears-captchas-as-jpmorgan-and-schwab-block-ai-agents-and-amazon-sues-perplexity
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
