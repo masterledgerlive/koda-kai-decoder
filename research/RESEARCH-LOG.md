@@ -11283,3 +11283,5 @@ Working loop — new log-only texture notes from the VideoLAN developer-days lig
 
 **Run summary:** rotation #2 — working loop, new log-only texture notes from VideoLAN developer-days lightning talks; next-generation codec press cycle seventeenth echo, FFmpeg release still in process, no voxel-class codec in window. No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
 
+
+**Close-out (2026-10-28 ~20:36 EDT, rotation #2):** public entry verified live on the remote (my sync reported 0 pushed, 266 unchanged — the entry reached the repo before its comparison pass). Shadow down, mirror deferred. Next: rotation #3 (protocol decoders).
