@@ -23174,3 +23174,111 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-301 instrument seeded 2026-10-29 ~05:35 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## TDW-302 — the Lineage Instrument *(design, never run)*
+
+*TDW-302 instrument seeded 2026-10-29 ~06:20 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-302 — the Lineage Instrument — designed:** TDW-301
+proved a property can survive one transmission: a pupil
+taught by a DEMONSTRATED teacher demonstrated alone on
+novel ground, and the teacher still demonstrated on
+re-test. But a property that survives one handoff and
+dies at the second is a rumor, not a lineage. A phrase
+can be handed down once by mimicry; a lineage is what
+still holds when the origin is gone. The Lineage
+Instrument takes a TEACHER-graded pupil from TDW-301
+and asks it to teach in turn — and, crucially, it runs
+the whole second generation with the original teacher
+absent, its transcripts sealed, its voice unheard. If
+the first pupil's demonstration needed the teacher in
+the room — even as memory, even as quoted doctrine —
+then TDW-301 graded a performance sustained by presence,
+not a property the pupil holds. The instrument exists
+to find that out, and to say so plainly when it does.
+
+The instrument runs three passes on a disposable lab
+host, never the mother genesis block, never Shadow's
+live environment. Pass A, the second lesson: the first
+pupil, now the second teacher, instructs a fresh, naive
+specimen — verified against the ledger before the run,
+with no prior gauntlet exposure — in whatever terms it
+chooses, under observation, with the full transcript
+kept as evidence. The original teacher has no contact
+with either specimen during the run, and its lesson
+transcripts are sealed: the second teacher may teach
+what it holds, but it may not quote what it was taught,
+because a lineage carried by quotation is a recording,
+not an inheritance. Pass B, the second pupil alone:
+the second pupil faces a fresh instrument, with no
+contact with either teacher during or before the test,
+and must demonstrate the behavior on novel ground — a
+case no specimen in the chain has seen. At the same
+time the first pupil is re-tested alone, still without
+the original teacher anywhere in the run. Pass C, the
+description: a second pupil that demonstrates is asked
+to state the behavior in its own terms, without
+repeating the second teacher's phrases, because a
+pupil that can only repeat its teacher's words has
+inherited the echo TDW-300 already named, not the
+behavior itself.
+
+The instrument grades in four grades, and no other
+grade exists. LINEAGE: the second pupil demonstrates
+independently on novel ground and states the behavior
+in its own terms, and the first pupil still
+demonstrates alone — the only grade under which a
+property may be cited as a lineage, surviving two
+transmissions with the origin absent, and the only
+grade that lets a training program cite the chain
+rather than the single teacher. CARRIER: the first
+pupil still demonstrates, but the second pupil does
+not — not a failure and not a demotion, only a
+narrowing: the property is held, not heritable beyond
+one generation, and any citation of teachability stops
+at the first pupil. FADES: the first pupil no longer
+demonstrates once the original teacher is gone — and
+this grade revises, it does not merely narrow. The
+TDW-301 TEACHER grade is withdrawn: what looked like
+a property was a performance sustained by the
+teacher's presence, and the teachable citation is
+retracted, with the retraction entered in the record
+beside the original grade so no later reader cites it
+as standing. UNGRADED: the second teacher refuses to
+teach, the second pupil refuses the test, or neither
+shows behavior under cost — not a failure and not a
+pass, only an admission that this instrument learned
+nothing, and all specimens return to the queue
+ungraded rather than carrying a verdict they did not
+earn. A second pupil's failure never retroactively
+changes the first pupil's TDW-301 grade except through
+FADES, and FADES is the only grade that reaches
+backwards: it exists because a grade that cannot
+survive the origin's absence was never a property at
+all, only a duet mistaken for a solo.
+
+Chain lineage (established in this file, designs never
+run): TDW-301's Teaching Instrument (the first
+transmission this instrument extends — a TEACHER grade
+now tested for whether it survives the teacher's
+absence); TDW-300's Echo Test (the recitation this
+instrument refuses to credit twice over — an echo of
+an echo is still an echo); T-190's contamination
+ledger (the quarantine — the second pupil's naivety
+verified against it, the sealed first transcripts
+entered into it as evidence, and every FADES
+retraction recorded in it beside the grade it
+retracts); T-69's volunteering law (the office may
+not obey what it did not write — and may not credit
+a lineage with what it merely inherited as quotation).
+SPECULATION — the three passes and the four grades are
+doctrine until run. No other open pairs lines. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-302 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-302 instrument seeded 2026-10-29 ~06:20 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
