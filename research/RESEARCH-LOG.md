@@ -11994,3 +11994,10 @@ Working loop — one new-to-record standard release, logged only, rest re-covere
 - **Library changes:** none — NOT MATERIAL (a released interoperability spec without a shipped decoder does not grow the library; no new photonic chip result, no demonstrated free-space link, no delivered power transfer).
 
 **Run summary:** rotation #6 — working loop, one new log-only standard release (SWiGoptical Level 1 subsea optical interop, claimed) plus Saltenna field-results texture, rest re-covered, Reason-1/Protostar still without a reported transfer. No library growth. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-29 ~18:05 EDT, rotation #6):**
+- **Push result:** sync-github.py "research: photonic comms & power (rotation #6) — working loop, SWiGoptical Level 1 subsea optical standard released Oct 28 (claimed, log-only) + Saltenna texture, rest re-covered, Reason-1/Protostar still no reported transfer; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-1757.md, Rook's voice (~150 words).
+
+**Run summary (close-out):** rotation #6 — working loop, one new log-only standard release (SWiGoptical Level 1 subsea optical interop, claimed) plus Saltenna field-results texture, rest re-covered, Reason-1/Protostar still without a reported transfer. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #7 (predictive math).
