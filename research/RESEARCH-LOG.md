@@ -11338,3 +11338,16 @@ Three targeted news-vertical searches (quantum error correction, October 2026; p
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-28-2158.md, Rook's voice (149 words).
 
 **Run summary (close-out):** rotation #5 — working loop, parked BSI Classic McEliece item graded and upgraded to corroborated (August Ghoshal quasipolynomial distinguisher, September Weis cost study, October withdrawal, no practical break, lattice and hash-based standards untouched), NIST IR 8547 final re-covered via same-week restatements, rest of the quantum window static with the October 22 federal filing still receipt-less. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
+
+## 2026-10-28 ~22:28 EDT — decoder-research-loop — Photonic comms & power (rotation #6):
+
+Two targeted news searches (photonic chips and free-space optical communications; wireless power beaming and laser power transmission in space, October 2026) plus a check of the standing record. **Quiet loop — every hit resolved to an item already on record; no new photonic chip, free-space link, or power-beaming result; no status change on any watch item. No library growth.** No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
+
+- **Re-covered, no status change — photonic chip window, all filed:** MIT/SMART 161-degree projector-style beam steering (Opto-Electronic Advances Early View, August 23); Infleqtion + Honeywell Aerospace + UCSB silicon-nitride chip-scale optical cavity (October 6 announcement, still number-free: no cavity size, linewidth, stability measurement, production yield, or field-test result); Illinois/Goldschmidt erbium telecom quantum memory (Nano Letters, 0.6 mm waveguide, 30 mK / 1.5 T, 96.6 ± 1.9% fringe visibility); Intel OCP Global Summit October 13 silicon-photonics keynote (vision, no ship dates); photonic-crystal scintillator X-ray imaging paper (Opto-Electronic Advances, September 16 — imaging, not a communications or power surface; texture only).
+- **Re-covered, no status change — power-beaming window, all filed:** Cowboy Space Reason-1 (launched October 1, late-October orbit-to-ground attempt plan, 30–100 W to a 10–20 m ground spot; the attempt window is nearly closed with still no published transfer); Star Catcher Protostar (inter-spacecraft beam test still silent, no measured transfer); PowerLight ARC (October 8 award and field work — a program step, not a technique).
+- **Grades:** re-carry only (MIT beam steering, Illinois memory corroborated as filed; Infleqtion cavity and orbital binaries claimed as plans, no measured result); no new grade assigned this pass.
+- **Library changes:** none — no new photonic communications or power advance this pass; announcements, retellings, and still-pending attempt plans do not grow the library.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #6 — quiet loop, entire October photonic and power-beaming window re-covered already filed; Reason-1 late-October attempt window nearly closed with no published transfer, Protostar still silent. No library growth. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
