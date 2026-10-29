@@ -3937,6 +3937,10 @@ decoder-research-loop.*
   - Source: https://socradar.io/blog/n0n-ransomware-ai-assisted-extortion/
   - [Claimed — single vendor blog; evidence from the operator's own exposed workspace, victim and demand counts as stated]
 
+- **ToFu: description-driven fuzzing of the MCP server population, plus Repeat-After-Me injection (paper published October 9, 2026; new to record; material).** Researchers from Pennsylvania State University, Université Montpellier, and Dartmouth College built a fuzzing tool that generates security tests from the descriptions the tools themselves present to the model, and ran it against 273 open-source MCP servers containing 3,405 tools: 253 confirmed bugs across 343 tools on 118 servers — 64 path traversal, 7 server-side request forgery, 5 data exfiltration, 3 operating-system command injection, and 115 cases of tool output returned without escaping. The same paper describes Repeat-After-Me: the model is asked to repeat text that looks like a tool call, and the orchestration layer interprets the model's output as a real call and executes it — reproduced in six orchestration layers (LangGraph, MAF, ADK 2.0, AutoGen, Strands, CrewAI). Lesson: tests generated from the tool's own description, the same text the agent trusts — and a model-generated argument is never trusted input even when it conforms to the tool's schema. A first-party read of the paper is still owed.
+  - Source: https://www.nudefend.com/en/blog/ai-agents-inward-ssrf-loom-mcp-egress-policy
+  - [Claimed — paper via a single secondary carrier; paper not opened first-party this pass]
+
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
