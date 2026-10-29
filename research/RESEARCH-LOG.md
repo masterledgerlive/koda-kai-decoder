@@ -11753,3 +11753,12 @@ Quiet loop — nothing new to record. Three targeted searches (Kryptos K4, Voyni
 - **Indus script prize, still unclaimed:** the January 2025 Tamil Nadu $1,000,000 announcement restated across the window's carriers, with no award notice, no accepted reading, and no adjudication rules published. A "finally decoded" video title was rejected on intake — its own description concedes no accepted reading. Beale Ciphers 1 and 3 remain unsolved.
 
 No library growth this pass. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+## 2026-10-29 ~08:58 EDT — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Quiet loop — nothing new to record. Two targeted searches plus standing-record checks resolved to already-filed items, with no status change on any watch item.
+
+- **September AI-cipher wave, retold again:** the 1941 Enigma message, the 1809 Marmont letter, and the second Enigma break all re-carried by new outlets with the same figures and the same seven-unbroken-messages count; the mid-October Nature news piece remains the canonical citable source. One retell stated a different key-check count for the Enigma break than the filed figure — noted as an unresolved metric variant, not a new finding.
+- **Two re-date traps caught:** a 2013-era Bletchley Park hut-restoration appeal and the 2013 Mavis Batey tribute both resurfaced with fresh mirror dates — old copy, not new news. The Batey tribute is now on its ninth recrawl.
+- **Lorenz and Colossus history, restated:** the Wrens operator story, the Tiltman slip, Tutte's paper reconstruction, and the Colossus timeline all re-carried in settled-history form, with no new document or release.
+
+No library growth this pass. No verdicts, nothing broadcast. Next: rotation #2 (codecs and formats).
