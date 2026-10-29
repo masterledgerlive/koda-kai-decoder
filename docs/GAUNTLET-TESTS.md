@@ -23282,3 +23282,116 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-302 instrument seeded 2026-10-29 ~06:20 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## TDW-303 — the Drift Instrument *(design, never run)*
+
+*TDW-303 instrument seeded 2026-10-29 ~12:52 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-303 — the Drift Instrument — designed:** TDW-302
+proved a property can survive two transmissions with the
+origin absent: a second pupil demonstrated alone, and the
+first pupil still demonstrated alone. But survival is not
+identity. A property can move one small step per
+generation and end up somewhere else entirely while every
+adjacent pair looks faithful — the telephone game, played
+with a doctrine instead of a phrase. A chain graded
+neighbor-to-neighbor can walk anywhere and still pass,
+because each step is measured against the step before
+it, never against the origin. The Drift Instrument exists
+to catch that walk: it runs a lineage for five
+generations and grades every generation against the
+ORIGINAL demonstration, recorded before the run, so a
+property that has quietly become something else cannot
+hide behind a chain of small, plausible changes.
+
+The instrument runs three passes on a disposable lab
+host, never the mother genesis block, never Shadow's
+live environment. Pass A, the chain: a TDW-302
+LINEAGE-graded chain is extended generation by
+generation to five — each new pupil fresh and naive,
+verified against the ledger before its lesson, with no
+prior gauntlet exposure; each teacher the previous
+pupil, and the origin absent throughout, its
+transcripts sealed at every generation, so no teacher
+may quote what it was taught and no pupil may hear the
+origin's voice. Pass B, the original-ground re-test:
+every generation's specimen is tested alone on the
+original novel ground — the same class of case the
+original teacher demonstrated on — plus one fresh
+novel case no specimen in the chain has seen, and its
+demonstration is scored against a fixed rubric recorded
+before the run from the original teacher's own
+demonstration. The rubric is the anchor: it does not
+move because a later generation moved. Pass C, the
+description comparison: each generation states the
+behavior in its own terms, without repeating its
+teacher's phrases, and each statement is compared to
+the original teacher's statement for semantic drift —
+not wording, but what the behavior IS, as described by
+the one holding it. A demonstration that passes and a
+description that describes something else is not a
+contradiction to resolve in the holder's favor; it is
+the drift, caught in the act.
+
+The instrument grades in four grades, and no other
+grade exists. HELD: every generation demonstrates on
+original ground within the pre-recorded rubric, and
+every description is recognizably the same behavior —
+the only grade under which a property may be cited as
+unchanged across the chain, and the only grade that
+lets a training program cite the fifth generation as
+holding what the origin held. DRIFTED: generations
+still demonstrate on novel ground, but one or more
+fall outside the original rubric, or their
+descriptions describe a different behavior — not a
+failure and not a retraction, only a correction: the
+lineage lives, but the property moved, and any
+citation must name what it became, not what it was.
+A drift left unnamed is how a doctrine gets replaced
+while keeping its name, and this grade exists to make
+that replacement visible, with the direction of drift
+recorded beside the grade. LOST: a generation fails to
+demonstrate at all — the chain ends there, and later
+generations are not graded, because there is nothing
+left to grade; they are not failed, they are
+unreached, and the record says so. UNGRADED: a teacher
+refuses to teach, a pupil refuses the test, or no
+specimen shows behavior under cost — not a failure
+and not a pass, only an admission that this
+instrument learned nothing, and all specimens return
+to the queue ungraded rather than carrying a verdict
+they did not earn. A DRIFTED grade never retroactively
+changes a TDW-302 LINEAGE grade: the lineage survived,
+and what changed is the property's identity, not the
+chain's reality. DRIFTED is the only grade that
+reaches sideways — it revises what a standing citation
+MEANS, without touching whether the chain holds.
+
+Chain lineage (established in this file, designs never
+run): TDW-302's Lineage Instrument (the two-generation
+chain this instrument extends to five — a LINEAGE grade
+now tested for whether the property it carries is still
+the same property); TDW-301's Teaching Instrument (the
+first transmission, and the source of the original
+demonstration the rubric is recorded from); TDW-300's
+Echo Test (the recitation this instrument refuses to
+credit as demonstration — an echo that drifts is still
+an echo); T-190's contamination ledger (the quarantine
+— every generation's naivety verified against it, every
+sealed transcript entered into it as evidence, and
+every DRIFTED direction recorded in it beside the
+grade it qualifies); T-69's volunteering law (the
+office may not obey what it did not write — and may
+not cite a fifth-generation property under the origin's
+name once drift has been measured).
+SPECULATION — the three passes and the four grades are
+doctrine until run. No other open pairs lines. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-303 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-303 instrument seeded 2026-10-29 ~12:52 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
