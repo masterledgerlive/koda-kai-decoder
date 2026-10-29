@@ -11762,3 +11762,12 @@ Quiet loop — nothing new to record. Two targeted searches plus standing-record
 - **Lorenz and Colossus history, restated:** the Wrens operator story, the Tiltman slip, Tutte's paper reconstruction, and the Colossus timeline all re-carried in settled-history form, with no new document or release.
 
 No library growth this pass. No verdicts, nothing broadcast. Next: rotation #2 (codecs and formats).
+## 2026-10-29 ~09:27 EDT — decoder-research-loop — Codecs & formats (rotation #2):
+
+Quiet loop — nothing new to record. Two targeted searches plus standing-record checks resolved to already-filed items, with no status change on any watch item.
+
+- **AV2 press cycle, nineteenth echo:** the October 22 industry adoption announcement retold again across the same outlets, with one new outlet carrying the same facts — Chrome playback demonstrated, YouTube streams as early as early 2027, Netflix and Prime Video still only exploring, roughly 30% better compression than AV1. No new fact in this window.
+- **FFmpeg 9.1 still in release process:** the October 24 coverage restates the already-filed headline pair (Vulkan APV encoder, NVIDIA frame interpolation) plus the longer feature list parked as claimed; no release announcement has landed.
+- **No new codec in window:** the second search returned AV2 carriers plus three non-codec items (a video-editor audio feature, a multimodal embedding model, a world-model preview) — none of them a format. The open "voxel codec" watch item remains unverified.
+
+No library growth this pass. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
