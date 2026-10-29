@@ -11432,3 +11432,9 @@ Two targeted news-vertical searches (rogue / malicious AI agent incidents, Octob
 - **Library changes:** none — a grade upgrade on an already-filed vendor breach, with its automation claim still unconfirmed, is not a new rogue-agent technique or wild implant; retells do not grow the library.
 
 **Run summary:** rotation #10 — working loop, one grade upgrade log-only (Warp breach disclosure corroborated, "agent swarm" claim still claimed and parked), rest retell or re-covered (Cairn, OpenAI disclosure family, Pillar census, AGENTS.md incident, n0n, QLoRA demo, Bankrbot, MCP trio). No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-29 ~00:35 EDT, rotation #10):**
+- **Push result:** sync-github.py "research: rogue-agent threat intel (rotation #10) — working loop, Warp breach disclosure corroborated, agent-swarm claim still claimed and parked; rest retell or re-covered; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down (same as the prior passes). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #10 — working loop, one grade upgrade log-only (Warp breach disclosure corroborated, "agent swarm" claim still claimed and parked), rest retell or re-covered (Cairn, OpenAI disclosure family, Pillar census, AGENTS.md incident, n0n, QLoRA demo, Bankrbot, MCP trio). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
