@@ -11264,3 +11264,10 @@ Two targeted searches (Enigma/Bletchley declassified history, 2026; Lorenz/Purpl
 
 **Run summary:** rotation #1 — quiet loop, September AI-cipher wave retold in full (Marmont, MVUEH, Willis, FMNGI enrichment, seven-unbroken count unchanged, Nature piece still canonical), Catholic League claim still claimed and unverified, Lorenz/Tunny settled history restated via old and filed carriers. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
 
+**Close-out (2026-10-28 ~20:10 EDT, rotation #1):**
+- **Push result:** sync-github.py run — exit 0, "0 pushed, 266 unchanged" (public entry already live on the remote via a concurrent loop's sync, verified after the run). This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-28-1958.md, Rook's voice (quiet-loop brief).
+
+**Run summary (close-out):** rotation #1 — quiet loop, September AI-cipher wave retold in full, seven-unbroken count unchanged, Catholic League claim still claimed, Lorenz/Tunny settled history restated. No library growth. Public entry verified live on the remote. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
+
