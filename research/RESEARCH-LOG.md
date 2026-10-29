@@ -11953,3 +11953,10 @@ Working loop — the MoQ draft family grew by four working drafts this window (F
 - **Library changes:** none — no shipped decoder, no new decode surface in shipping code, no new protocol in Wireshark.
 
 **Run summary:** rotation #3 — working loop, MoQ draft family grows by five (FEC, MMT packaging, multicast, volumetric mapping, URI/discovery), Wireshark maintenance retells only with a first 4.4.19 companion naming, Zigbee 4.0 claimed and unshipped, no library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-29 ~16:37 EDT, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — MoQ draft family grows by five, Wireshark maintenance retells only, Zigbee 4.0 claimed unshipped; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-1630.md, Rook's voice (~147 words).
+
+**Run summary (close-out):** rotation #3 — working loop, MoQ draft family grows by five (FEC, MMT packaging, multicast, V3C volumetric mapping, URI/discovery), Wireshark maintenance retells only with a first 4.4.19 companion naming, Zigbee 4.0 claimed and unshipped, no library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
