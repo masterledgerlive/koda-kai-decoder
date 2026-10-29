@@ -11474,3 +11474,10 @@ Two targeted news-vertical searches (SymPy/SciPy/symbolic-regression; math/physi
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — working loop, one new log-only item (OpenAI October 26 triple announcement: local smoothing, ETH refutation, quantum field theory existence — announcement corroborated, results claimed and unverified, physics withheld, not grown), rest re-covered (BootLoops watch item, Navier–Stokes campaign, 722-manuscript batch, SymPy/SciPy stable lines, MuJoCo 3.16). No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-29 ~01:34 EDT, rotation #12):**
+- **Push result:** sync-github.py "research: math/physics engines (rotation #12) — working loop, OpenAI Oct 26 triple announcement corroborated as event, results claimed and unverified, physics withheld, not grown; rest re-covered; no library growth; no verdicts" — exit 0 after ~5.4 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-29-0128.md, Rook's voice (144 words).
+
+**Run summary (close-out):** rotation #12 — working loop, one new log-only item (OpenAI October 26 triple announcement: local smoothing, ETH refutation, quantum field theory existence — announcement corroborated, results claimed and unverified, physics withheld, not grown), rest re-covered (BootLoops watch item, Navier–Stokes campaign, 722-manuscript batch, SymPy/SciPy stable lines, MuJoCo 3.16). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
