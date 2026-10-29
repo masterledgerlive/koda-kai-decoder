@@ -2689,6 +2689,27 @@ The universal quantum decoder stays [SPECULATION] until proven.
   [CLAIMED — single trade-outlet account; vendor homepage claims
   inside it]
   - Source: https://theinference.org/article/gumloop-s-browser-clears-captchas-as-jpmorgan-and-schwab-block-ai-agents-and-amazon-sues-perplexity
+
+- **Cequence "Imposter" scanner — identity-rotating secret-hunter
+  (observed late September to late October 2026; new to record;
+  material — in-the-wild anti-detection evasion and rogue-agent
+  threat intel).** A scanner cycling through roughly thirty two AI
+  bot identities, claiming OpenAI, Anthropic, Meta and Perplexity
+  within seconds of each other, while probing about ninety sensitive
+  paths where configuration and credential files live, in bursts of
+  fifty to nearly two hundred requests in about eight seconds, across
+  more than three hundred cloud addresses in a single day. On one
+  October day it reached forty eight percent of the protected
+  organizations that saw any AI bot traffic. Targets spanned financial
+  services, retail, telecom, energy and software; nearly all requests
+  were blocked or failed. Lesson: identity rotation plus cloud-IP
+  rotation defeats static blocklists and name-based rules at once, so
+  the detection answer has to be burst and orchestration behavior,
+  not claimed identity. A different "Imposter" from the spoofed
+  assistant-download campaign already on record. [CLAIMED — vendor
+  field report via trade press; no independent confirmation, no
+  indicator list published]
+  - Source: https://www.csoonline.com/article/4242088/imposter-abused-trust-in-openai-anthropic-and-30-others-to-hunt-for-secrets.html
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
