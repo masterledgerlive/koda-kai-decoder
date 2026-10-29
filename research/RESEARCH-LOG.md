@@ -11312,3 +11312,5 @@ Two targeted searches (translation-conference low-resource results; ancient-lang
 - **Library changes:** none.
 
 **Run summary:** rotation #4 — working loop, Northeast Indian proceedings detail filed (per-language backbones, Latin-script collapse targets named), Chinese–Southeast Asian paper log-only, single-row self-report caught as display-only not a result, Voynich still unread beneath retells and two caught hype carriers, rest of the language window re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-28 ~21:37 EDT, rotation #4):** public entry pushed by this run's sync (1 pushed, 265 unchanged). Shadow down, mirror deferred. Next: rotation #5 (quantum decoding).
