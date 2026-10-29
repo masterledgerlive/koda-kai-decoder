@@ -11771,3 +11771,12 @@ Quiet loop — nothing new to record. Two targeted searches plus standing-record
 - **No new codec in window:** the second search returned AV2 carriers plus three non-codec items (a video-editor audio feature, a multimodal embedding model, a world-model preview) — none of them a format. The open "voxel codec" watch item remains unverified.
 
 No library growth this pass. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+## 2026-10-29 ~09:57 EDT — decoder-research-loop — Protocol decoders (rotation #3):
+
+Quiet loop — nothing new to record. Two targeted searches plus standing-record checks resolved to already-filed items, with no status change on any watch item.
+
+- **Wireshark maintenance wave, retold again:** the January 2026 archive notes (4.4.13 and 4.6.3, both stating "no new protocols in this release") resurfaced as before, alongside retells of the September 23 4.6.9 release (19 advisories, roughly thirty refreshed dissectors, zero new protocols) and the 4.6.8 maintenance wave. One new outlet covered the 4.6.8 wave as a 28-issue hardening release — same release, new carrier, no new fact.
+- **Mesh and smart-home window, re-covered:** the Wi-Fi 7 / Thread / Matter convergence picture, MeshCore's October 15 firmware, the GhostWire project, and the Offline Protocol roadmap items all stand as filed, with no new version or decode surface. A Thread explainer published today restates the settled roles (routers, border routers, sleepy end devices) in tutorial form.
+- **Small texture notes, log only:** Matter's 1.6.1 maintenance release (September 2026) adds no decode change to the already-parked 1.6 spec line, and Huawei's October 29 network-event announcements carry no parser or dissector.
+
+No library growth this pass. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
