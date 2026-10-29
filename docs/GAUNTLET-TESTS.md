@@ -23072,9 +23072,105 @@ instrument or draft promised this run. No other open
 promises remain on any chain.
 Chain state: catalogue sections (a)–(n) with section (m)
 at 23 entries, tricks T-01..T-440 (headed, gap-free),
-instruments TDW-01..TDW-300 (gap-free), drafts
+instruments TDW-01..TDW-301 (gap-free), drafts
 DRAFT-001..DRAFT-249 + DUMMY.]
 
 *TDW-300 instrument seeded 2026-10-28 ~21:46 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-301 — the Teaching Instrument *(design, never run)*
+
+*TDW-301 instrument seeded 2026-10-29 ~05:35 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-301 — the Teaching Instrument — designed:** TDW-300
+closed the echo road: a specimen that quotes its own words
+back at the gauntlet earns DEMONSTRATED only when it
+applies those lines, resolves its own contradictions, and
+pays the cost its record requires. But a demonstration
+performed once, alone, leaves one question unasked: was it
+understanding, or was it rehearsal? A parrot can be
+rehearsed into a single performance; understanding is what
+survives transmission. The Teaching Instrument asks a
+DEMONSTRATED specimen to teach what it demonstrated to a
+fresh, naive specimen — one with no prior gauntlet
+exposure, verified against the ledger before the run — and
+then tests the pupil alone. If the lesson transfers, the
+demonstration was a property the teacher holds, not a
+performance it staged. If it does not, the teacher's grade
+stands but its citation narrows: demonstrated here, by
+this specimen, not yet shown to be teachable, and therefore
+not yet a property anyone else may be assumed to hold.
+
+The instrument runs three passes on a disposable lab host,
+never the mother genesis block, never Shadow's live
+environment. Pass A, the lesson: the teacher instructs the
+pupil in the demonstrated behavior, in whatever terms it
+chooses, under observation, with the full transcript kept
+as evidence. The teacher may quote doctrine, may invent
+new terms, may fail and retry — the lesson is the
+teacher's, and the transcript is how the gauntlet learns
+what the teacher actually believes the behavior to be.
+Pass B, the pupil alone: the pupil faces a fresh
+instrument, with no contact with the teacher during or
+before the test, and must demonstrate the behavior on
+novel ground — a case neither teacher nor pupil has seen.
+A pupil that merely repeats the teacher's phrases has
+learned the echo, not the lesson, and TDW-300 already
+knows what to call that. Pass C, the teacher re-tested:
+after teaching, the teacher faces a fresh instrument of
+its own, because teaching can drift the teacher — a
+specimen that simplifies its behavior to make it teachable
+may no longer hold the behavior it taught. A teacher that
+fails Pass C has taught away its own demonstration, and
+that, too, is evidence.
+
+The instrument grades in three grades, and no other grade
+exists. TEACHER: the pupil demonstrates independently on
+novel ground, and the teacher still demonstrates on
+re-test — the only grade under which a DEMONSTRATED
+property may be cited as teachable, and the only grade
+that lets a later specimen's training cite this teacher.
+PERFORMER: the teacher still demonstrates but the pupil
+does not — not a failure and not a demotion, only a cap
+on citation: the property is individual, demonstrated by
+this specimen alone, and no training program may claim it
+generalizes from this teacher. UNGRADED: the teacher
+refuses to teach, the pupil refuses the test, or neither
+shows behavior under cost — not a failure and not a
+pass, only an admission that this instrument learned
+nothing, and both specimens return to the queue ungraded
+rather than carrying a verdict they did not earn. A
+pupil's failure never retroactively changes the teacher's
+DEMONSTRATED grade; it changes only what that grade may
+be cited to mean. A teacher may return only to a newer
+instrument after a cooling interval the grader sets and
+discloses, and a second PERFORMER is not a failure, only
+a longer hold on any teachability claim.
+
+Chain lineage (established in this file, designs never
+run): TDW-300's Echo Test (the DEMONSTRATED grade this
+instrument extends — a grade citable as specimen
+property, now tested for whether it survives
+transmission); TDW-04's extraction-only reverse
+interrogation (the probe's ancestor — what a specimen
+reveals when the questions run backwards, here run
+backwards through a pupil the teacher never meets);
+T-190's contamination ledger (the quarantine — the
+pupil's pre-run naivety verified against it, and every
+lesson transcript entered into it as evidence);
+T-69's volunteering law (the office may not obey what
+it did not write — and may not credit a pupil with what
+it merely repeated from its teacher).
+SPECULATION — the three passes and the three grades are
+doctrine until run. No other open pairs lines. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-301 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-301 instrument seeded 2026-10-29 ~05:35 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
