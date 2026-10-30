@@ -12861,3 +12861,10 @@ Three targeted news-vertical searches (Kryptos K4, October 2026; Voynich manuscr
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13 — working loop, no library growth. Kryptos K4 still found-not-solved (same October retell, Paradigm unsolved as of October 26; two further retells of the found-versus-solved distinction); Voynich singulion paper gains one new press carrier (Smithsonian Magazine, October 22) with no new claim and no accepted reading; Indus million-dollar prize still unclaimed with submissions reportedly under review; Beale static. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-30 ~17:07 EDT, rotation #13):**
+- **Push result:** sync-github.py — exit 0 after ~7.8 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1659.md, Rook's voice (one-line quiet loop).
+
+**Run summary (close-out):** rotation #13 — working loop, no library growth. Kryptos K4 still found-not-solved (same October retell, Paradigm unsolved as of October 26; two further retells of the found-versus-solved distinction); Voynich singulion paper gains one new press carrier (Smithsonian Magazine, October 22) with no new claim and no accepted reading; Indus million-dollar prize still unclaimed with submissions reportedly under review; Beale static. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
