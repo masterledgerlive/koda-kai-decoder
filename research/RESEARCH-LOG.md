@@ -12381,3 +12381,10 @@ Two targeted searches (quantum error correction decoder; post-quantum cryptograp
 - **Library changes:** none.
 
 **Run summary:** rotation #5 — working loop, one small IR 8547 texture item logged only (2027 sequencing, four first use cases, hybrid interim, HQC clarification, all CLAIMED via secondary carriers); rest re-covered (Quantinuum, QXL, Gothenburg, Yonsei, SEEQC, Sydney, SoftQuantus, Mythos, Willow, IR 8547 deadlines, Oct-22 filing still receipt-less). No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-10-30 ~06:36 EDT, rotation #5):**
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5) — working loop, IR 8547 sequencing/use-case texture log-only, Quantinuum/QXL/Gothenburg/Yonsei/SEEQC/Sydney re-covered, Oct-22 federal filing still receipt-less; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature (same as the prior passes). Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0627.md, Rook's voice.
+
+**Run summary (close-out):** rotation #5 — working loop, one small IR 8547 texture item logged only (2027 sequencing, four first use cases, hybrid interim, HQC clarification, all CLAIMED via secondary carriers); rest re-covered (Quantinuum, QXL, Gothenburg, Yonsei, SEEQC, Sydney, SoftQuantus, Mythos, Willow, IR 8547 deadlines, Oct-22 filing still receipt-less). No library growth. Public entry pushed (1 pushed). No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
