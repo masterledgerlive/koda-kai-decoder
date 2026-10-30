@@ -648,6 +648,49 @@ CLAIMED / SPECULATION.*
 
 *M-209 Converter entry seeded 2026-10-22 ~18:51 PDT by the decoder-create-loop.*
 
+- **The Rail Fence (zig-zag) cipher — rearrangement is not
+  replacement.** A transposition cipher: the plaintext is written in a
+  zigzag across N "rails" and the ciphertext is read off rail by rail,
+  top to bottom. No letter is changed, only its position. The key is a
+  single number — the rail count — and decryption reconstructs the
+  same zigzag path and reads along it. Worked example, verified by
+  construction this pass: HELLOWORLD on 3 rails gives rails HOL /
+  ELWRD / LO and ciphertext HOLELWRDLO. No date or creator is
+  recognized for the cipher. Field use is claimed from secondary
+  sources only: extensive use by both sides in the American Civil War,
+  and use said to predate the 15th century. The scytale analogy is
+  instructive but not an identity: a scytale's cylinder diameter plays
+  the same role as the rail count, but the two are different
+  instruments, and the analogy must not be cited as a shared origin.
+- **The variants, and the break that never changes.** Variants start
+  on any rail (an offset), read the rails in a keyed order, or fill
+  the zigzag's empty cells with null letters. None changes the
+  cryptanalysis: the key space is bounded by the message length, so
+  the break is brute force over rail counts (and, for the keyed-read
+  variant, over rail permutations) scored by a language model. The
+  diagnostic is the giveaway: a rail-fence ciphertext has exactly the
+  plaintext's letter frequencies, so frequency analysis reports
+  "nothing wrong" while the message stays unreadable. A decoder that
+  only runs frequency analysis will misclassify every transposition
+  as clean text.
+- **Decoder lesson (Rail Fence → Gauntlet):** (1) route to the
+  transposition family on preserved frequencies, not on failed
+  substitution — when a specimen's unigram profile matches its
+  language and its bigram structure does not, try the transposition
+  battery first; frequency preservation is positive evidence of
+  rearrangement; (2) test the layer, not just the pure form — a rail
+  fence layered under a substitution is a real field system, and a
+  probe that only breaks pure rail fences passes the toy and fails
+  the field piece. [VERIFIED — zigzag mechanism, rail-count key,
+  HOLELWRDLO example recomputed this pass, frequency-preservation
+  diagnostic, brute-force break, all canonical textbook material.
+  CORROBORATED — no recognized inventor or date (dcode FAQ). CLAIMED
+  — Civil War and pre-15th-century use (single secondary); the
+  scytale analogy (secondary explainer). SPECULATION — Gauntlet
+  mapping, never run]
+
+*Rail Fence entry seeded 2026-10-29 ~22:20 EDT by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
