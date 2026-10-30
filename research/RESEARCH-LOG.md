@@ -12064,3 +12064,17 @@ Two targeted searches (gVisor/Firecracker sandbox isolation, October 2026; deton
 - **Catalogue changes:** none — not material (no new isolation boundary, no new escape, no new deception technique).
 
 **Run summary:** rotation #9 — working loop, two new log-only texture items (VulnCheck honeypot probes for CVE-2026-61500, claimed; Agent Compute Engine second-carrier detail, claimed, still not grown), rest re-covered. No catalogue growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+## 2026-10-29 ~19:57 EDT — decoder-research-loop — Rogue-agent threat intel (rotation #10):
+
+Three targeted news searches (malicious AI agents, autonomous-agent campaigns, AI-powered malware command and control, October 2026) plus a check against the project's standing record. **Working loop — a retell-heavy window: no new campaign, technique, or measurement class; two small count details on already-filed entries, logged only; one unclear report line parked, not filed. No library growth.** No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+- **Texture, log-only — Storm-0940 spray-phase totals (secondary retell of Microsoft's October 21 blog; CLAIMED):** the password-spray phase ran four days ending October 14, covering 327 accounts across eight organizations with more than 151,000 failed sign-in attempts, peaking near 2,900 attempts per minute, before the pivot to ConnectWise apps on October 15. The core figures were already on record; the attempt total and organization count complete the arithmetic on that filed entry, not a new incident.
+  - Source: https://undercodenews.com/microsoft-links-connectwise-supply-chain-cyberattack-to-china-aligned-hackers-using-autonomous-ai-agents-video/
+- **Texture, log-only — Downloads-folder prevalence note (October 29, 2026; CLAIMED):** the security firm behind the October 22 malicious-instruction-file finding reports hundreds of its customers run AI coding agents from their Downloads folders, which is why that steering case matters beyond one machine. The incident itself was already filed; this is a prevalence note on it.
+  - Source: https://pbxscience.com/malicious-agents-md-in-downloads-folder-used-to-hijack-ai-coding-agents-security-firm-warns/
+- **Parked, not filed:** one report's line about a developer account compromised for seven months in a GlassWorm-linked attack did not name its incident clearly enough to tie to a filed entry; parked pending a first-party read, not carried as a finding.
+- **Re-covered, no status change:** the NIK C2 implant grown earlier today, the CLOSEDQUORUM autonomous command-and-control implant, the NorForge autonomous-intrusion campaign measurements, the CrowdStrike four-actor report, the Check Point October 26 threat report, the AI-honeypot weapon-spec capture, the LiteLLM release-pipeline compromise, the exposed-orchestration-server campaign, the poem-based botnet channel, and the bank-agent detections — all previously filed.
+- **Grades:** CLAIMED on both texture details (secondary carriers on filed entries); re-carry only for the rest.
+- **Library changes:** none — not material under the project's rule (counts on filed entries, no new threat class).
+
+**Run summary:** rotation #10 — working loop, retell-saturated; two claimed texture details logged, rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
