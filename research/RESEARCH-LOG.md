@@ -12486,3 +12486,10 @@ Two news searches plus a check of the standing record. One search failed at the 
 - **Library changes:** catalogue rogue-agent section — named-actor campaign-breadth addendum added.
 
 **Run summary:** rotation #10 — one named-actor scale item grown, three items plus one vendor texture filed log-only, rest re-covered. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-30 ~09:05 EDT, rotation #10):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" (this pass's public entry + catalogue addendum pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0857.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #10 — one named-actor scale item grown, three items plus one vendor texture filed log-only, rest re-covered. Public entry + catalogue pushed (2 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #11 (suggestion-implant traps).
