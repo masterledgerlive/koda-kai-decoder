@@ -12597,3 +12597,10 @@ Two targeted searches (new video codec AV2/VVC adoption, FFmpeg/VLC; Google medi
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — quiet loop, nothing new to record; the whole window re-covered (AV2 October 22 adoption press cycle echoed again, fosslinux-vs-webpronews dav2d disagreement noted but not regressed; JPEG XL datum retold with no grade upgrade; VVC/Android 17 stale item; no Google voxel-class codec). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-30 ~11:34 EDT, rotation #2):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1128.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #2 — quiet loop, nothing new to record; the whole window re-covered (AV2 October 22 adoption press cycle echoed again, dav2d disagreement noted but not regressed; JPEG XL datum retold with no grade upgrade; VVC/Android 17 stale item; no Google voxel-class codec). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
