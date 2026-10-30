@@ -12550,3 +12550,10 @@ Three targeted news searches (Kryptos K4; Voynich manuscript; Indus script prize
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13 — working loop, no library growth. Kryptos K4 still found-not-solved; Voynich singulion press wave re-covered plus a self-endorsement of a filed claim; Indus prize still unclaimed; Beale static. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-30 ~10:34 EDT, rotation #13):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1028.md, Rook's voice.
+
+**Run summary (close-out):** rotation #13 — working loop, no library growth. Kryptos K4 still found-not-solved; Voynich singulion press wave re-covered plus a self-endorsement of a filed claim; Indus prize still unclaimed; Beale static. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
