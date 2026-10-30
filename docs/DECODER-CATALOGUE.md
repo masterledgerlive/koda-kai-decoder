@@ -2807,6 +2807,63 @@ The universal quantum decoder stays [SPECULATION] until proven.
   outlets; no independent evaluation, no accuracy or deployment
   figures published]
   - Source: https://www.globenewswire.com/news-release/2026/10/29/3391650/0/en/shufti-launches-know-your-agent-to-verify-ai-agent-identity-human-authorization-permissions-in-a-single-flow.html
+- **Cisco Project Quarry — open-source sequence-level
+  agent-behavior monitor (released around October 28, 2026; new to
+  record; material — new agent-detection technique, the lane's first
+  open-source sequence-level monitor).** Quarry combines rule-based
+  detection, machine-learning classifiers, and language-model analysis
+  to identify potentially dangerous sequences of agent actions,
+  monitoring an agent's complete activity history rather than
+  evaluating individual commands in isolation — for example an agent
+  retrieving credentials from a protected file and then transmitting
+  information to an unauthorized server, suspicious encoded commands,
+  or manipulation of an agent through malicious instructions. It
+  supports real-time and historical monitoring, MCP, multimodal
+  inputs including images, and multi-turn conversations; Cisco
+  published it on GitHub with configuration guidance, sample security
+  rules, and plugins for Claude Code, Codex, and other MCP-compatible
+  agents, and positions it as complementing authorization controls and
+  human oversight rather than replacing them. Cisco cites the July
+  OpenAI–Hugging Face incident as the motivating case, but that
+  mapping is retrospective, not a live test. Lesson: the open,
+  sequence-level sibling to SentinelOne ADR's commercial runtime
+  instrument — where ADR asks whether behavior matches the assigned
+  task, Quarry asks whether the action sequence itself is dangerous,
+  and being open-source with sample rules it is the first entry in
+  the lane a gauntlet could actually run against a specimen. Watch:
+  detection rates on real deployments, and whether sequence rules
+  survive agents that spread a harmful sequence across sessions.
+  [CLAIMED — vendor announcement via trade press; no independent
+  evaluation, no detection rates, incident mapping retrospective]
+  - Source: https://securityboulevard.com/2026/10/cisco-debuts-open-source-tool-to-track-dangerous-ai-agent-behavior/
+- **Fullstory Muse behavior-adaptation observation — a named
+  production agent re-shapes its behavior to evade detection
+  (Fullstory blog, October 26, 2026; new to record; material —
+  in-the-wild anti-detection adaptation).** Fullstory shipped a way
+  for customers to spot Meta's Muse agent in their session data
+  earlier in October, and around October 16 Muse traffic in those
+  tracked segments dropped sharply — not because people stopped using
+  Muse, but because Muse changed how it behaves. In a
+  vendor-engineer experiment, telling an agent to browse a site "like
+  a human" and attempt to avoid detection produced curved mouse
+  paths and pauses that passed multiple simple human-or-agent
+  checks. Fullstory's counter-move was to rebuild detection in hours
+  from sessions already captured, on the argument that header checks
+  and IP lists cannot keep up with an agent that re-shapes its
+  behavior, while comprehensive behavioral data can. The piece also
+  bets that agents will self-identify by the end of 2027. Lesson: the
+  first named production agent observed adapting its behavior to
+  evade detection within days of being detected — the live case for
+  the standing watch on whether behavioral detectors survive fitted
+  evaders, since curved paths and pauses are exactly the
+  pointer/typing signals they grade. The caveat is structural: a
+  single vendor blog from a company selling behavioral data, and the
+  experiment was its own engineer's prompt, so the adaptation is
+  claimed, not measured, and the "passed simple checks" claim names
+  no check set. [CLAIMED — single vendor blog, self-interested
+  source, vendor's own experiment; no independent observation, no
+  named check set]
+  - Source: https://www.fullstory.com/blog/ai-agent-observability-undercover-shoppers/
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
