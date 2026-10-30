@@ -12344,3 +12344,9 @@ Three targeted news-vertical searches (Wireshark dissector/release, October 2026
 - **Library changes:** none.
 
 **Run summary:** rotation #3 — working loop, MoQ draft family grows to six (fast track switching joins transport-22, FEC, MMT, multicast, V3C), Zigbee 4.0 corroboration strengthened via named CSA one-pagers but still unshipped, Wireshark window fully re-covered (5.0.0rc1 retold, maintenance wave retold, 4.4.13 archive-path trap again, zero new protocols). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-30 ~05:34 EDT, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — MoQ draft family grows to six with fast track switching, Zigbee 4.0 corroboration strengthened but still unshipped, Wireshark retells only; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature (same as the prior passes). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #3 — working loop, MoQ draft family grows to six (fast track switching joins transport-22, FEC, MMT, multicast, V3C), Zigbee 4.0 corroboration strengthened via named CSA one-pagers but still unshipped, Wireshark window fully re-covered (5.0.0rc1 retold, maintenance wave retold, 4.4.13 archive-path trap again, zero new protocols). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
