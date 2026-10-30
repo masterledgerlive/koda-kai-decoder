@@ -12467,3 +12467,10 @@ Three targeted news-vertical searches (gVisor/Firecracker sandbox isolation; con
 - **Library changes:** none — no new isolation boundary, no new escape with a demonstrated chain, no new deception technique with measurements.
 
 **Run summary:** rotation #9 — quiet loop, one unverified texture item parked pending corroboration, GitLab CVE-2026-90970 verified as already on record, rest re-covered. No library growth. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-30 ~08:35 EDT, rotation #9):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0828.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #9 — quiet loop, one unverified texture item parked pending corroboration, GitLab CVE-2026-90970 verified as already on record, rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #10 (rogue-agent threat intel).
