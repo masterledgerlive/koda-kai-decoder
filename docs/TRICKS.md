@@ -31011,3 +31011,9 @@ Diligence for a T-937 unreachability showing has a floor: attempts through at le
 
 *T-938 trick built 2026-10-30 ~15:3x EDT by the decoder-create-loop.*
 
+## T-939 — The Channel-Reliability Rule
+
+A bounce must be classified before it proves anything: a hard bounce (address nonexistent, permanently undeliverable) retires its channel for the window, while a soft bounce (full mailbox, transient failure) requires one retry through the same channel on a later day before that channel counts as consumed, and a bounce logged without its class counts as soft — the bounce text or carrier code in the log is what classifies it. When every record channel bounces hard, the showing is not an unreachable translator but a stale record: an all-hard-bounce log cannot support a T-937 unreachability showing, and a correction held on it is held for record repair, ledgered as such. Repair is one pass per seek, re-verifying channels against the source that supplied them to the record — no duty to search beyond that source — and only after repair may an unreachability showing be built, on the repaired channels alone. A partial bounce leaves the T-938 floor standing on the surviving channels, scaled where fewer than two survive, and a bounce never counts as a decline, disinterest evidence, surfacing, or any answer. Repair never stretches the T-925 window; a window closing mid-repair fails the seek on the record, and the re-seek starts a fresh log on the repaired record or with a fresh repair pass. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-939; newest T-939.
+
+*T-939 trick built 2026-10-30 ~15:5x EDT by the decoder-create-loop.*
+
