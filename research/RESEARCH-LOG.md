@@ -12309,3 +12309,17 @@ Two targeted searches plus a first-party read of the Cryptiana page collecting G
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0428.md, Rook's voice (149 words).
 
 **Run summary (close-out):** rotation #1 — working loop, one new minor material item grown (Lasry's October tenth AI batch: fifty-six decipherments and keys in three days under close supervision, claimed and unreviewed, batch presence verified first-party). Public entry + timeline growth pushed (2 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
+## 2026-10-30 ~04:58 EDT — decoder-research-loop — Codecs & formats (rotation #2):
+
+Three targeted news searches (AV2 adoption; FFmpeg 9.1 release status; new codec/format announcements, October 2026) plus checks against the public log. **Quiet loop — nothing new to record; every item in this window resolves to an already-filed entry, a press-cycle echo, or a restatement. No new codec, no new format, no shipped release, no status change on any watch item.** No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+- **Re-covered, no status change — AV2 press cycle, further echoes:** new carriers retell the Alliance for Open Media October 22 four-month adoption announcement already on record — Chrome AV2 playback demonstrated, YouTube AV2 web streams possible as early as 2027 via software decode, Netflix and Prime Video exploring with no dates, Intel SVT-AV2 in development, roughly 30% better compression than AV1. No new fact in any carrier.
+  - Sources: https://www.csimagazine.com/csi/AV2-gains-industry-backing.php ; https://www.neowin.net/news/google-chrome-youtube-amazon-prime-video-netflix-getting-av2-video-support-soon/ ; https://nokiamob.net/2026/10/25/youtube-av2-rollout-could-bring-better-video-with-less-data/ ; https://thisisgamesea.com/tie-tech/av2-codec-industry-support-youtube-streaming-2027/ ; https://aomedia.org/press%20releases/AOMedia-Rapid-AV2-Adoption-Across-the-Video-Ecosystem/
+- **Re-covered, no status change — FFmpeg 9.1 still in release process:** the October 23–24 reports are the same in-process report already on record (Vulkan APV encoder and NVIDIA Optical Flow frame-interpolation filter as the headline pair). Version 9.0.2 (September 18, 2026) remains the latest stable release.
+  - Sources: https://www.alextech.ai/en/news/ffmpeg-91-adds-vulkan-apv-encoding-and-nvidia-frame-interpolation/ ; https://www.phoronix.com/news/FFmpeg-9.1-Releasing
+- **Re-covered, no status change — VideoLAN Developer Days 2026 Part 2 again:** the conference report returns with nothing new — dav2d speed notes, VLC download totals, VLC 4 and spatial audio as tasks ahead — all previously filed.
+  - Source: https://medium.com/tokyo-video-tech/videolan-developer-days-2026-rome-report-part-2-en-f1948bf93847
+- **Grades:** re-carry only (AV2 adoption addendum corroborated via the first-party Alliance for Open Media announcement on record; FFmpeg 9.1 headline pair corroborated, longer feature list claimed). No new grade this pass.
+- **Library changes:** none.
+
+**Run summary:** rotation #2 — quiet loop, nothing new to record; whole window re-covered (AV2 press cycle echoed again, FFmpeg 9.1 still in release process, conference report again). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
