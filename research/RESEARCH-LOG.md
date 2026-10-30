@@ -12645,3 +12645,10 @@ Two targeted searches (machine translation low-resource languages, October 2026,
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4 — working loop, three new log-only items (Sicilian pipeline rebuild, Bashkir corpus + benchmark, Nepali-English code-switched ASR benchmark, all via the October 22 MT digest, CLAIMED); rest re-covered (Tether offline wave, Concentrix, Zhou, vendor COBOL retell, Voynich singulion wave, Linear A commentary; Indus quiet). No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-30 ~12:45 EDT, rotation #4):**
+- **Push result:** sync-github.py — exit 0, "done: 0 pushed, 266 unchanged" (this pass's public entry byte-verified on GitHub main via the Contents API — local git-blob sha equals remote meta sha — absorbed by a concurrent sync during the run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1227.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #4 — working loop, three new log-only items (Sicilian pipeline rebuild, Bashkir corpus + benchmark, Nepali-English code-switched ASR benchmark, all via the October 22 MT digest, CLAIMED); rest re-covered (Tether offline wave, Concentrix, Zhou, vendor COBOL retell, Voynich singulion wave, Linear A commentary; Indus quiet). No library growth. Public entry byte-verified on GitHub main. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #5 (quantum decoding).
