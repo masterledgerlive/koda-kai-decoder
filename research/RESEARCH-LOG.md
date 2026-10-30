@@ -12536,3 +12536,17 @@ Two targeted searches (SymPy/SciPy releases; symbolic regression / physics simul
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0958.md, Rook's voice (150 words).
 
 **Run summary (close-out):** rotation #12 — working loop, no library growth. SyNF/SyTF venue-confirmed (APL Machine Learning, October 29 — corroborated as published); Pattern claim traced to its October 29 GlobeNewswire release but still vendor-claimed on simulated data; PALISADE story excluded as self-labeled fiction; SymPy/SciPy unchanged. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-30 ~10:28 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13):
+
+Three targeted news searches (Kryptos K4; Voynich manuscript; Indus script prize) + standing-record review. **Working loop — no new decipherment, no status change on any watch item. No library growth.** No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+- **Kryptos K4:** status unchanged — plaintext recovered 2025 from archival papers, method publicly unsolved. An October 2026 retelling restates the standing picture (K1–K3 solved; K4 still listed unsolved as of October 26, 2026). No new claim.
+- **Voynich manuscript:** press wave re-covered for the Layfield + Davis singulion paper of October 19 (pages likely bound out of order — already filed, corroborated; "It doesn't get us there, but it moves the ball"). New dated texture: an October 22, 2026 self-endorsed statement backing the already-filed Christine Preedy decipherment claim — same claimant, no peer review, no independent acceptance. No accepted reading.
+- **Indus script:** Tamil Nadu's one-million-dollar prize still unclaimed; submissions reportedly under review. No new claimant, no bilingual find.
+- **Beale ciphers 1 & 3:** nothing new — static.
+- **Grades:** no new verified grade this pass; all items re-carry at their filed grades.
+- **Library changes:** none — a retelling, a press wave on a filed paper, and a self-endorsement of a filed claim are log texture, not growth.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #13 — working loop, no library growth. Kryptos K4 still found-not-solved; Voynich singulion press wave re-covered plus a self-endorsement of a filed claim; Indus prize still unclaimed; Beale static. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
