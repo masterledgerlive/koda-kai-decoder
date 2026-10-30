@@ -12795,3 +12795,10 @@ Three targeted searches (malicious-agent and prompt-injection news, October 2026
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — working loop, one new minor material item grown (a model-operated implant family, claimed: command server prompts models to run tasks, tool-protocol client plus legitimate tool server plus skill prompts, first observed early September, reported mid-October) plus one log-only texture item (agent-platform sign-in flaw, fixed, claimed), rest re-covered. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-30 ~15:45 EDT, rotation #10):**
+- **Push result:** sync-github.py "research: rogue-agent threat intel (rotation #10) — C2Agent LLM-operated MCP implant grown (claimed, minor material), OpenCode MCP sign-in flaw log-only, rest re-covered; no verdicts" — exit 0 after ~6.0 minutes wall-clock. Stdout: "pushed (git-data): docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry + catalogue growth pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1533.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #10 — working loop, one new minor material item grown (a model-operated implant family, claimed), one log-only texture item (agent-platform sign-in flaw, claimed), rest re-covered. Public entry + catalogue growth pushed (2 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #11 (suggestion-implant traps).
