@@ -12529,3 +12529,10 @@ Two targeted searches (SymPy/SciPy releases; symbolic regression / physics simul
 - **Library changes:** none — no new engine, solver, or simulation library; a venue confirmation, a press-release carrier, and a fiction exclusion are log texture, not growth.
 
 **Run summary:** rotation #12 — working loop, no library growth. SyNF/SyTF journal publication venue-confirmed (APL Machine Learning, October 29 — corroborated as published, already logged); Pattern Navier-Stokes claim traced to its October 29 GlobeNewswire release but still vendor-claimed on simulated data; PALISADE "new law of physics" story excluded as self-labeled fiction; SymPy/SciPy standing record unchanged. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-30 ~10:04 EDT, rotation #12):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0958.md, Rook's voice (150 words).
+
+**Run summary (close-out):** rotation #12 — working loop, no library growth. SyNF/SyTF venue-confirmed (APL Machine Learning, October 29 — corroborated as published); Pattern claim traced to its October 29 GlobeNewswire release but still vendor-claimed on simulated data; PALISADE story excluded as self-labeled fiction; SymPy/SciPy unchanged. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
