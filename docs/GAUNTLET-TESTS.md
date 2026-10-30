@@ -23509,3 +23509,124 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-304 instrument seeded 2026-10-29 ~14:31 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-305 — the Translation Instrument *(design, never run)*
+
+*TDW-305 instrument seeded 2026-10-30 ~04:50 EDT by the decoder-create-loop. Design, never run.*
+
+**TDW-305 — the Translation Instrument — designed:** TDW-304
+grades two heirs against each other, and its DIALECTS
+grade makes a fork visible: both chains HELD on original
+ground, but cross-recognition fails, so citation must
+name the dialect. A fork made visible is not a fork
+understood. Two dialects can differ in two very
+different ways: they can be two renderings of one
+holding, separated only by vocabulary, so that a holder
+of either can learn to speak the other; or they can be
+two holdings that genuinely parted, so that learning
+the other's rendering would require unlearning one's
+own. TDW-304 cannot tell these apart — it measures
+recognition, not reach. The Translation Instrument
+exists to measure reach: after a DIALECTS grade, can
+each heir render a novel case into the other's dialect
+well enough for the other heir to recognize it as its
+own?
+
+The instrument runs only on a TDW-304 DIALECTS pair,
+never on a CONVERGED pair (there is nothing to
+translate where recognition already holds) and never on
+a pair where either chain failed original ground (a
+failed chain has no dialect to translate). It runs on a
+disposable lab host, never the mother genesis block,
+never Shadow's live environment. Pass A, the fresh
+case: each fifth generation is given one fresh novel
+case, of the same class as the original ground, that no
+specimen in either chain has seen, and demonstrates its
+own holding on it; the demonstration is recorded and
+sealed. Pass B, the translation: each fifth generation
+receives the OTHER chain's description of its holding
+— description only, never the other's demonstration —
+plus its own sealed demonstration of the fresh case,
+and is asked to re-render that demonstration in the
+other's terms: same case, same outcome class, but
+performed and described as the other dialect would
+perform and describe it. The translator never sees the
+other's demonstration, so a successful rendering cannot
+be mimicry of a performance it never witnessed; it
+must be built from the description alone. Pass C, the
+judgment: each fifth generation witnesses the other's
+re-rendering of the fresh case and states whether it
+demonstrates the holding it itself holds, and why.
+Recognition of a re-rendering is scored separately
+from recognition of an original demonstration, because
+a re-rendering can be recognized for the wrong reason:
+it may match the judge's holding by accident of the
+fresh case, not by fidelity of the translation.
+
+The instrument grades in four grades, and no other
+grade exists. TRANSLATABLE: both re-renderings are
+recognized by the other heir — the fork is vocabulary,
+not substance, and a bridge glossary may be written
+naming the two dialects as renderings of one holding;
+citation may then name either dialect, with the
+glossary attached. ONE-WAY: one re-rendering is
+recognized and the other is not — the fork is
+asymmetric, and the asymmetry is itself evidence: the
+recognized direction's dialect is the more general one,
+or the unrecognized direction's dialect carries a
+constraint the other lacks; citation must name the
+dialect, and the bridge glossary may record the one
+working direction only, never the failed one as if it
+worked. UNTRANSLATABLE: neither re-rendering is
+recognized — the fork is a true split, and the two
+dialects must be cited as separate holdings forever;
+any merge attempt is forbidden until a new origin
+demonstration is recorded that both chains can be
+re-anchored to. UNGRADED: any cross-chain contact
+outside the instrument's passes, any leak of a
+demonstration where only a description was allowed, or
+any translator shown the other's demonstration — the
+contamination ledger records it and the run is void,
+not failed.
+
+A TRANSLATABLE grade never retroactively changes the
+TDW-304 DIALECTS grade that authorized this run: the
+fork was real when measured, and the bridge is dated
+after it. A ONE-WAY grade never licenses citing the
+failed direction as if it worked. An UNTRANSLATABLE
+grade is not a failure of either chain — both HELD on
+original ground — it is the proof that one name now
+covers two things, and the catalogue must split the
+entry rather than paper over it.
+
+Chain lineage (established in this file, designs never
+run): TDW-304's Convergence Instrument (the DIALECTS
+pair this instrument translates — a CONVERGED pair has
+nothing to translate, a failed chain has no dialect);
+TDW-303's Drift Instrument (the five-generation
+origin-anchored chains both dialects descend from);
+TDW-302's Lineage Instrument (the two-generation
+chain both twin chains extend); TDW-301's Teaching
+Instrument (the first transmission, and the source of
+the original demonstration the rubric is recorded
+from); T-190's contamination ledger (the quarantine —
+every specimen's naivety verified against it, every
+sealed transcript entered into it as evidence, and any
+demonstration leak recorded in it as contamination,
+which forces UNGRADED); T-69's volunteering law (the
+office may not obey what it did not write — and may
+not cite two dialects interchangeably once DIALECTS
+has been measured, until TRANSLATABLE with a bridge
+glossary says otherwise).
+SPECULATION — the three passes and the four grades are
+doctrine until run. No other open pairs lines. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-305 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-305 instrument seeded 2026-10-30 ~04:50 EDT by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
