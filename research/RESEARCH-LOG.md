@@ -12106,3 +12106,9 @@ Three targeted searches (symbolic computation libraries; physics simulation engi
 - **Grades:** CLAIMED on the two new texture items (vendor/developer claims via secondary carriers); re-carry only for the rest.
 
 **Run summary:** rotation #12 — working loop, two new log-only texture items (Matali 7.0 dust modeling; community PhysX 5 port for Godot 4), one aggregator retell parked, rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-29 ~21:05 EDT, rotation #12):**
+- **Push result:** sync-github.py "research: math/physics engines (rotation #12) — working loop, Matali 7.0 dust-modeling detail + Godot PhysX 5 community port (claimed, log-only), Genie 4 aggregator retell parked, rest re-covered; no library growth; no verdicts" — exit 0 after ~5.6 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself was appended after the push, so it rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #12 — working loop, two new log-only texture items (Matali 7.0 dust modeling; community PhysX 5 port for Godot 4), one aggregator retell parked, rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
