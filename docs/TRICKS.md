@@ -31017,3 +31017,9 @@ A bounce must be classified before it proves anything: a hard bounce (address no
 
 *T-939 trick built 2026-10-30 ~15:5x EDT by the decoder-create-loop.*
 
+
+## T-940 — The Repair-Source Rule
+
+Where two filings name different channels for the same translator, T-939's "source that supplied them" needs a chooser: provenance beats recency — the filing whose channels the record copied, by the record's own citation or a channel-set match, decides even over a newer filing, because repair re-verifies this record rather than updating it to the latest directory. Where provenance is silent, precedence runs petition-specific appointment entry, then qualification filing for this petition's variant, then register entry, latest filing before the seek began winning within a level; a filing made after the seek began is not a source for that seek. A same-name different-person filing is never a source, and a record carrying no identifying particulars beyond a name leaves identity unresolved and blocks repair. A same-level tie with no break is a conflict: both sources are consulted in the single repair pass, agreed channels are confirmed, disagreed channels are entered from neither, unconfirmed record channels retire, and a repair that agrees on nothing is recorded as source-conflict — the seek fails on the record, and, unlike a completed repair confirming every channel dead, a conflict-blocked repair does not open the T-939 path to an unreachability showing. A completed repair replaces the record's channels for the seek, old channels staying in the log as retired history, under T-939's one-pass bound, T-925 window, and T-933 deputy route. No result exists; the claim table is the design's honesty boundary. SPECULATION until run. Chain state: tricks T-01..T-940; newest T-940.
+
+*T-940 trick built 2026-10-30 ~16:0x EDT by the decoder-create-loop.*
