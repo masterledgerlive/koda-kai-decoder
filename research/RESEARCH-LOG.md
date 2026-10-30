@@ -12572,3 +12572,10 @@ Two targeted searches (Enigma/Bletchley October 2026; classical cryptanalysis / 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — quiet loop, nothing new to record; the September agentic-cipher wave in retells only (seven-unbroken count unchanged, Nature piece still canonical; Catholic League claim still claimed), and the Callimahos story is the 2021 declassification recrawled. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-30 ~11:04 EDT, rotation #1):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1058.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #1 — quiet loop, nothing new to record; September wave in retells only (seven-unbroken count unchanged, Nature piece still canonical; Catholic League claim still claimed), Callimahos story recrawled. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
