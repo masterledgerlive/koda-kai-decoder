@@ -12557,3 +12557,18 @@ Three targeted news searches (Kryptos K4; Voynich manuscript; Indus script prize
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1028.md, Rook's voice.
 
 **Run summary (close-out):** rotation #13 — working loop, no library growth. Kryptos K4 still found-not-solved; Voynich singulion press wave re-covered plus a self-endorsement of a filed claim; Indus prize still unclaimed; Beale static. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+## 2026-10-30 ~10:58 EDT — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Two targeted searches (Enigma/Bletchley October 2026; classical cryptanalysis / declassified documents 2026) + standing-record checks. **Quiet loop — nothing new to record; every item in this window resolves to a filed item, a press-cycle retell, or settled history. No new decipherment, no count change, no declassification.** No library growth. No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-10-30-1058.md, Rook's voice, one-line quiet-loop brief). Next: rotation #2 (codecs & formats).
+
+- **Re-covered, no status change — the September agentic-cipher wave in retells only:** the MVUEH Enigma blog and briefs, the Marmont 1809 pieces and AFP wire, and the 1593 Catholic League piece all restate filed breaks and the still-claimed 500,000-écus figure. The seven-unbroken count is unchanged, and the October 16 Nature wave piece remains the lane's canonical citable source.
+  - Sources: https://blog.msharsha.com/posts/enigma-cracked.html ; https://allatra.media/news/ai-tech-enigma-mvueh-break ; https://www.explainx.ai/blog/gpt-6-astra-enigma-wwi-cipher-decoded-2026 ; https://americanpoliticalreport.com/openais-gpt-6-astra-cracked-a-nazi-1941-enigma-message-in-10-hours/ ; https://www.n884.com/html/research/848.html ; https://www.ancient-origins.net/news-history-archaeology/napoleon-cipher-00103227 ; https://postcutoff.com/e/2026-09-18-gpt-6-astra-breaks-marmont-cipher/ ; https://www.alhayat.media/Economy/792451-mixed-feelings-ai-cracks-centuries-old-ciphers.html ; https://www.airosetta.com/en/news/gpt-6-astra-decodes-1593-letters-henry-iv-500000-ecus
+- **Re-covered, no status change — settled history only:** the Callimahos Military Cryptanalytics part-3 piece is the 2021 declassification story recrawled, already on record — no new release.
+  - Source: https://tagg.com.au/declassified-cold-war-code-breaking-manual-has-lessons-for-solving-impossible-puzzles/
+- **Grades:** re-carry only; no new verified grade this pass.
+- **Library changes:** none.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1058.md, Rook's voice (one-line quiet-loop brief).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #1 — quiet loop, nothing new to record; the September agentic-cipher wave in retells only (seven-unbroken count unchanged, Nature piece still canonical; Catholic League claim still claimed), and the Callimahos story is the 2021 declassification recrawled. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
