@@ -12748,3 +12748,10 @@ Three targeted news-vertical searches (behavioral bot / AI agent detection, Octo
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8 — working loop, two new library entries (OpenAI expanded misalignment monitoring: blockable vs alert-only vs uncovered API shapes, claimed, MATERIAL; Sumsub KYA Module for MCP: data-plane filtering that strips sensitive information before it reaches the agent, claimed, MATERIAL), Arkose Q3 texture added, rest of the window re-covered. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-30 ~14:37 EDT, rotation #8):**
+- **Push result:** sync-github.py "research: agent detection vs anti-detection (rotation #8)" — exit 0 after ~5.5 minutes wall-clock. Stdout: "pushed (git-data): docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry + catalogue growth pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1430.md, Rook's voice.
+
+**Run summary (close-out):** rotation #8 — working loop, two new library entries (OpenAI expanded misalignment monitoring — claimed, MATERIAL; Sumsub KYA Module for MCP — claimed, MATERIAL), Arkose Q3 texture added, rest of the window re-covered. Public entry + catalogue growth pushed (2 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #9 (sandbox & container tech).
