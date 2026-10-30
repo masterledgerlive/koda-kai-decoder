@@ -12323,3 +12323,9 @@ Three targeted news searches (AV2 adoption; FFmpeg 9.1 release status; new codec
 - **Library changes:** none.
 
 **Run summary:** rotation #2 — quiet loop, nothing new to record; whole window re-covered (AV2 press cycle echoed again, FFmpeg 9.1 still in release process, conference report again). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-30 ~05:05 EDT, rotation #2):**
+- **Push result:** sync-github.py "research: codecs & formats (rotation #2) — quiet loop, AV2 press cycle echoed, FFmpeg 9.1 still in release process, VDD26 Part 2 again; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature (same as the prior passes). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #2 — quiet loop, nothing new to record; whole window re-covered (AV2 press cycle echoed again, FFmpeg 9.1 still in release process, conference report again). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
