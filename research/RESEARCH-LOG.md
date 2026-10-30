@@ -12362,3 +12362,9 @@ Two targeted searches (low-resource machine translation; ancient-language deciph
 - **Library changes:** none.
 
 **Run summary:** rotation #4 — working loop, one new log-only item (MAP agentic-LLM refugee translation field report, EMNLP 2026 workshop, honest web-search error taxonomy, CLAIMED); rest re-covered (78-language safety-bypass study, M-SREC, Apple Mix Don't Tune, GPT-6 evals, Indus still unread with prize unclaimed). No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-30 ~06:05 EDT, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4) — MAP agentic-LLM refugee translation field report log-only, 78-language study + M-SREC + Mix Don't Tune retells, Indus still unread; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature (same as the prior passes). Next run retries per the standing rule.
+
+**Run summary (close-out):** rotation #4 — working loop, one new log-only item (MAP agentic-LLM refugee translation field report, EMNLP 2026 workshop, honest web-search error taxonomy, CLAIMED); rest re-covered (78-language safety-bypass study, M-SREC, Apple Mix Don't Tune, GPT-6 evals, Indus still unread with prize unclaimed). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
