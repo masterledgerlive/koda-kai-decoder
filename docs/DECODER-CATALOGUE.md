@@ -2870,6 +2870,55 @@ The universal quantum decoder stays [SPECULATION] until proven.
   source, vendor's own experiment; no independent observation, no
   named check set]
   - Source: https://www.fullstory.com/blog/ai-agent-observability-undercover-shoppers/
+- **OpenAI expanded misalignment monitoring for API agents
+  (disclosed October 28, 2026; new to record; material — new
+  agent-detection technique with published coverage semantics).**
+  Layered monitoring across internal training, evaluations, internal
+  coding tools, and selected external deployments, looking for
+  concerning agent behavior such as unauthorized access, deception,
+  and attempts to evade controls. Coverage detail: covered models
+  using the Responses API with persisted reasoning, WebSockets, or
+  OpenAI compaction can be monitored and have later execution
+  blocked; other covered Responses API requests can be monitored and
+  send configured webhook alerts but cannot be stopped automatically;
+  Chat Completions API requests are not covered by this particular
+  system. A blocked request returns HTTP 403 with code
+  misalignment_policy_violation, and asynchronous detection cannot
+  reverse a tool action that already happened. An earlier independent
+  red-team assessment by METR and Redwood Research found
+  vulnerabilities in the monitoring stack; OpenAI says most identified
+  issues have since been patched, with one fix still in progress, and
+  no universal real-world detection rates are published. Decoder
+  significance: the first provider-side agent monitor with an explicit
+  stop/alert/uncovered map — containment reasoning can now cite which
+  API shapes are even stoppable, and the uncovered Chat Completions
+  lane plus the already-executed-action limit are the
+  evasion-relevant edges. [CLAIMED — vendor disclosure via secondary
+  explainer; no detection rates, one red-team fix still in progress]
+  - Source: https://thebrieflens.com/openai-misalignment-monitoring-api-coverage-limits/
+
+- **Sumsub KYA Module for MCP (launched October 20, 2026; new to
+  record; material — new agent-verification technique, data-plane
+  filtering for agents).** A filtering module sitting between verified
+  AI agents and personal data, letting businesses define exactly what
+  agents they build or deploy may access inside company systems. It
+  screens every agent request, strips personally identifiable and other
+  sensitive information before it reaches the agent, and applies a
+  configurable rule engine keyed to data sensitivity, action type, and
+  requesting/calling department. When an agent tries to access a
+  flagged file or take an action above a threshold, the system can
+  trigger a real-time liveness check confirming a verified human
+  authorized the request. Built for MCP, starting with Amazon Bedrock
+  AgentCore Gateway, with additional MCP gateways to follow; it
+  extends Sumsub's January AI Agent Verification and June MCP
+  integration. Decoder significance: the distinct move in the KYA
+  cluster is data-plane, not credential-plane — Socure binds the agent
+  to a principal, Shufti gates each request against a mandate, and
+  Sumsub now filters what the agent can even see. [CLAIMED — vendor
+  announcement via trade press; no independent evaluation, no
+  accuracy or deployment figures]
+  - Source: https://pulsexpertech.com/technology/sumsub-expands-know-your-agent-putting-businesses-in-control-of-what-ai-agents-can-access
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
