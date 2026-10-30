@@ -12890,3 +12890,22 @@ Three targeted searches (historical codebreaking and Enigma and Bletchley, Octob
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1732.md, Rook's voice (148 words).
 
 **Run summary (close-out):** rotation #1 — working loop, one material finding (Wood's nineteen fifty survival-test cryptogram solved — book-key corpus search over four hundred twenty-nine million keys plus multilingual segmentation finds the Luther Bible key; corroborated, caveats carried), grown into the twenty twenty-six AI-codebreaker timeline in both trees. Public timeline pushed by my run (1 pushed); public research-log entry verified live on main via sha match. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs and formats).
+
+## 2026-10-30 ~17:57 EDT — decoder-research-loop — Codecs & formats (rotation #2):
+
+Three targeted searches (FFmpeg 9.1 release / VLC; AV2/VVC adoption, October 2026; Google media/voxel-class codecs, 2026) plus standing-record checks. **Quiet loop — nothing new to record; every carrier in this window resolves to a filed item, a press-cycle echo, or a re-date trap. No new codec, no new format, no shipped release, no status change on any watch item.** No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+- **Re-covered, no status change — AV2 press cycle, further echoes:** a new secondary retells the Alliance for Open Media October 22 four-month adoption announcement already on file — Chrome AV2 playback demonstrated, YouTube AV2 web streams "as soon as early 2027" via software decoding, Netflix and Prime Video "exploring" with no dates, roughly 30% better compression than AV1. October 2026 streaming guides restate the same spec corpus (AV2 1.0 June 2026; no hardware decoders yet; dav2d pre-release; MoQ still a draft). No new fact added.
+  - Sources: https://windowsforum.com/news/youtube-av2-streaming-could-arrive-in-early-2027-chrome-demo-software-decode-and-pc-impact.449737/ ; https://aomedia.org/press%20releases/AOMedia-Rapid-AV2-Adoption-Across-the-Video-Ecosystem/
+- **Re-covered, no status change — FFmpeg 9.1 still in release process:** the October 23 report plus echoes re-carry the on-record feature set (Vulkan APV encoder, NVIDIA Optical Flow frame-rate up-conversion filter, AAC encoder improvements, ASTC support, xHE-AAC) with the release still in final verification — not shipped.
+  - Sources: https://www.alextech.ai/en/news/ffmpeg-91-adds-vulkan-apv-encoding-and-nvidia-frame-interpolation/ ; https://www.linuxnews.net/articles/ffmpeg-9-1-preps-for-release-with-apv-vulkan-encoder-nvidia-optical-flow-fruc
+- **Re-covered, no status change — VLC 3.0.24 and VideoLAN Developer Days 2026:** restatements of the September 22 VLC 3.0.24 release (130+ security fixes, FFmpeg core upgraded) and the Rome conference report (VLC 4, dav2d, spatial audio, IAMF v2 as tasks ahead). No new fact in either.
+  - Sources: https://betanews.com/article/vlc-3-0-24-fixes-130-security-flaws/ ; https://medium.com/tokyo-video-tech/videolan-developer-days-2026-rome-report-part-2-en-f1948bf93847
+- **Stale and trap items, refused as findings:** the VVC-in-Android 17 item is the on-record February 2026 story again, and the "Google volumetric video" carrier is a June 2020 research paper recrawled — neither is a new 2026 codec. No Google voxel-class codec surfaced in this window.
+  - Sources: https://ipfray.com/breakthrough-for-vvc-as-google-implements-video-standard-in-android-17-pool-and-bilateral-licenses-to-follow/ ; https://roadtovr.com/google-volumetric-vr-video-siggraph-2020/
+- **Grades:** re-carry only (AV2 adoption addendum CORROBORATED via the first-party AOMedia announcement on record; FFmpeg 9.1 feature set CLAIMED via trade-press echoes, release unshipped; VLC 3.0.24 VERIFIED on record).
+- **Library changes:** none — no new codec, format, or shipped release this pass.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #2 — quiet loop, nothing new to record; the whole window re-covered (AV2 October 22 press cycle echoed again with the early-2027 YouTube target already on file; FFmpeg 9.1 still in release process; VLC 3.0.24 and VDD26 restated; VVC/Android 17 stale; 2020 Google volumetric paper recrawled; no Google voxel-class codec). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
