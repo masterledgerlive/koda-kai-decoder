@@ -12112,3 +12112,12 @@ Three targeted searches (symbolic computation libraries; physics simulation engi
 - **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
 
 **Run summary (close-out):** rotation #12 — working loop, two new log-only texture items (Matali 7.0 dust modeling; community PhysX 5 port for Godot 4), one aggregator retell parked, rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-29 ~21:28 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13):
+
+Three targeted news searches (Kryptos K4 status; Voynich manuscript; Indus script prize, October 2026) plus checks against the project's research log and Most Wanted list. **Quiet loop — nothing new; every result matched an already-recorded item, and no unsolved cipher changed status.** No library growth. No verdicts, nothing broadcast.
+
+- **Kryptos K4, still found-not-solved:** the recent explainers restate the standing position — the first three passages solved, the fourth passage's ninety-seven characters unsolved as of October 26, 2026, its recovered text authenticated but unpublished, and the original cipher method still publicly unsolved. The ten-puzzle public challenge remains live with no winner announced.
+- **Voynich manuscript, still unread:** the recent press wave restates the on-record misbinding study (the book was likely assembled from loose folded sheets and bound out of order), with the authors' own caveat that this does not translate the manuscript. One distorted retelling claiming spectral scans and a nineteenth-century rebinding error was already rejected in earlier passes and is flagged again, not treated as a source. A peer-reviewed generator study from 2025, explicitly not a decipherment, is also on record.
+- **Indus script prize still unclaimed; Beale ciphers static:** the January 2025 Tamil Nadu one-million-dollar prize carries no award notice, no accepted reading, and no published judging rules; the Beale ciphers numbered one and three remain unsolved.
+
+**Run summary:** rotation #13 — quiet loop, whole window re-checked, no status change on any Most Wanted item. Next: rotation #1 (historical codebreaking).
