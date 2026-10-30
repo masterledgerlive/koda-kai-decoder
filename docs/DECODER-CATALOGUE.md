@@ -2777,6 +2777,36 @@ The universal quantum decoder stays [SPECULATION] until proven.
   vendor launch figures via trade press; no independent
   evaluation, no methodology published]
   - Source: https://genznewz.com/resemble-ai-agent-detection-spots-agents-acting-human
+- **Shufti Know Your Agent — agent verification in a single flow:
+  identity, human authorization, mandate (launched October twenty
+  ninth, two thousand twenty six; new to record; material — new
+  agent-detection and verification technique).** A verification
+  solution for autonomous agents acting for individuals and
+  businesses: it verifies the agent's identity, confirms a real
+  person authorized the action, and checks the agent's permissions
+  before it can access data or trigger a transaction. Each agent
+  receives a unique time-bound credential that can be revoked; known
+  agents are recognised by name and new or unfamiliar agents are
+  assessed through behavioural biometrics, with a trust score per
+  agent. Authorization starts with a principal-set mandate covering
+  permitted actions, limits, expiry, and revocation; risk-based
+  authorization escalates out-of-mandate or high-risk requests to a
+  human-in-the-loop selfie liveness check, and an audit trail links
+  requests, decisions, and revocations to each agent and principal.
+  Lesson: the third agent-verification launch in three days
+  alongside Socure and Resemble — but the distinct move here is
+  mandate-first: Socure binds the agent to a verified principal and
+  Resemble grades behaviour, while Shufti gates each request against
+  a stated mandate with a revocable credential, the closest shipped
+  answer yet to the question of authorized for what, until when, and
+  revocable by whom. The caveat is structural as with the others:
+  the launch is a vendor wire release carried by multiple outlets,
+  not an independent evaluation, and no accuracy, false-positive, or
+  deployment figures are published in the carrier. [CLAIMED —
+  vendor launch announcement via wire release carried by multiple
+  outlets; no independent evaluation, no accuracy or deployment
+  figures published]
+  - Source: https://www.globenewswire.com/news-release/2026/10/29/3391650/0/en/shufti-launches-know-your-agent-to-verify-ai-agent-identity-human-authorization-permissions-in-a-single-flow.html
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
