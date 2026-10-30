@@ -12621,3 +12621,10 @@ Two targeted searches (Wireshark dissector additions, October 2026; IoT/mesh pro
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — quiet loop, nothing new to record; the whole window re-covered (Wireshark 5.0.0rc1 retold, maintenance wave retold, 4.4.13 archive item again, zero new protocols; Zigbee 4.0 same digest as the morning pass, Thread 1.4 / Matter convergence restated, DECT NR+ restated). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-30 ~12:04 EDT, rotation #3):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1157.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #3 — quiet loop, nothing new to record; the whole window re-covered (Wireshark 5.0.0rc1 retold, maintenance wave retold, 4.4.13 archive item again, zero new protocols; Zigbee 4.0 same digest as the morning pass, Thread 1.4 / Matter convergence restated, DECT NR+ restated). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
