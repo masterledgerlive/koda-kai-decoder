@@ -4125,6 +4125,11 @@ decoder-research-loop.*
   - Source: https://gbhackers.com/ai-pentesting-panels/amp/
   - [Claimed — single secondary carrier reporting a threat-intelligence report shared with the outlet; the firm's first-party writeup not read this pass; the implant identification and delivery routing are the carrier's attributions]
 
+- **VAPOR PANDA: a named actor's campaign breadth, the first such figure on the filed vendor report of agent-led intrusions (newsletter and analyst summaries of the vendor's report, October thirtieth, twenty twenty-six; new to record; material).** The actor, described as China-linked, ran parallel intrusions driven by an agentic framework against more than two hundred organizations in at least fourteen countries over eleven days, running mainly on a commercial large language model, with confirmed follow-through at nine organizations. The vendor's closing line as carried: actors of this kind will highly likely keep adopting agentic frameworks over the next twelve months. Lesson: earlier entries in this lane measured depth inside single incidents; this is the first named-actor figure measuring breadth across a campaign, and breadth is what turns an agent intrusion from a specimen into a fleet problem. Unresolved flag, stated plainly and carried as an open question: another vendor attributes a similar framework-driven campaign to an actor under a different name, and nothing in this window establishes whether the two names cover the same actor, two clusters, or one campaign seen from two sides — the entries are not merged until a vendor mapping says so. The same week's analyst overview carries the standing caution that many outlets repeating the same few reports is not independent confirmation.
+  - Sources: a daily artificial-intelligence newsletter, October thirtieth, twenty twenty-six; an analyst-firm overview of the week's vendor reports.
+  - [Claimed — summaries of the vendor's report; the vendor's own report not read first-hand this pass]
+
+
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
