@@ -4185,6 +4185,11 @@ decoder-research-loop.*
   - [Claimed — summaries of the vendor's report; the vendor's own report not read first-hand this pass]
 
 
+- **C2Agent: a language-model-operated Windows malware family that uses the agent tool protocol and skill prompts (reported October thirteenth, twenty twenty-six, first observed September tenth, twenty twenty-six; new to record; minor material).** Per a security vendor's mid-October threat roundup: a Go-based Windows malware family whose command server prompts language models to perform tasks on infected systems; the implant also acts as a client of the agent tool protocol, communicates with a legitimate tool server, and uses skill-based prompts supplied by its controller. Reported as under active development. Lesson: the third model-delegated implant shape in this section — where an earlier implant delegated the decision to a panel of models and another delegated analysis while billing the victim, this one delegates tasking through the agent's own tool protocol, so its orders hide inside legitimate agent chatter. The roundup's own caution is carried forward: model or protocol use alone does not prove autonomous operation or a control bypass, so this is graded as a model-operated implant, not an autonomous agent, until a first-party analysis lands. Where a criminal operation earlier used the tool protocol as its command channel, here the protocol carries model-prompted tasking instead of operator commands.
+  - Source: a security vendor's mid-October threat roundup.
+  - [Claimed — single secondary roundup this pass; the primary report not read; first-observed and active-development claims are the carrier's]
+
+
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
