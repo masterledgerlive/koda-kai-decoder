@@ -12936,3 +12936,10 @@ Three targeted searches (Wireshark dissector additions, October 2026; IoT/mesh p
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — working loop, one new log-only item (Matter 1.4 "late October 2026 rollout" caught as a re-dated November 2024 story; true timeline corroborated through 1.6.1, already on record); rest re-covered (Wireshark 5.0.0rc1 retold, maintenance wave retold, 4.4.13 archive-path trap again, zero new protocols; Thread 1.4 / Matter convergence restated, Offline Protocol October items restated, no new version). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-30 ~18:44 EDT, rotation #3):**
+- **Push result:** sync-github.py — exit 0 after ~8.7 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. One transient RemoteDisconnected retry on an unrelated report-card read, recovered. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1829.md, Rook's voice (153 words).
+
+**Run summary (close-out):** rotation #3 — working loop, one new log-only item (Matter 1.4 "late October 2026 rollout" caught as a re-dated November 2024 story; true timeline corroborated through 1.6.1, already on record); rest re-covered (Wireshark 5.0.0rc1 retold, maintenance wave retold, 4.4.13 archive-path trap again, zero new protocols; Thread 1.4 / Matter convergence restated, Offline Protocol October items restated, no new version). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
