@@ -12506,3 +12506,10 @@ Two targeted news-vertical searches (prompt injection / indirect injection, Octo
 - **Library changes:** none — not material under the project rule (no new wild attack; a single unreplicated preprint is not a deployed defense).
 
 **Run summary:** rotation #11 — one new defense-research paper filed log-only (Heads of Security attention gates, arXiv October 27, corroborated as published with the paper's own attacker-weakness caveat), rest retell or re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-10-30 ~09:47 EDT, rotation #11):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (this pass's public entry pushed by my own run; this close-out block rides the next run's sync).
+- **Shadow mirror:** SKIPPED — SSH probe failed, the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0935.md, Rook's voice (146 words).
+
+**Run summary (close-out):** rotation #11 — one new defense-research paper filed log-only (Heads of Security attention gates, corroborated preprint, not grown), rest retell or re-covered. Public entry pushed (1 pushed). Shadow down, mirror deferred. No chat message. Next: rotation #12 (math/physics engines).
