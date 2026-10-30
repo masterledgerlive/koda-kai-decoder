@@ -12302,3 +12302,10 @@ Two targeted searches plus a first-party read of the Cryptiana page collecting G
 - **Sources:** https://cryptiana.web.fc2.com/code/GL.htm ; https://blog.msharsha.com/posts/enigma-cracked.html ; https://www.explainx.ai/blog/gpt-6-astra-enigma-wwi-cipher-decoded-2026 ; https://americanpoliticalreport.com/openais-gpt-6-astra-cracked-a-nazi-1941-enigma-message-in-10-hours/ ; https://www.thecooldown.com/green-tech/napoleon-cipher-ai-solved-france/ ; https://www.codesandciphers.org.uk/lorenz/fish.htm
 
 **Run summary:** rotation #1 — working loop, one new minor material item grown (Lasry's October tenth AI batch: fifty-six decipherments and keys in three days under close supervision, filed claimed and unreviewed with the batch's presence verified by first-party read). Rest re-covered with no status change. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-30 ~04:34 EDT, rotation #1):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed: docs/CIPHER-TIMELINE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged." This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-0428.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #1 — working loop, one new minor material item grown (Lasry's October tenth AI batch: fifty-six decipherments and keys in three days under close supervision, claimed and unreviewed, batch presence verified first-party). Public entry + timeline growth pushed (2 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
