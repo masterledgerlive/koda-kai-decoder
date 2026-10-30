@@ -12909,3 +12909,10 @@ Three targeted searches (FFmpeg 9.1 release / VLC; AV2/VVC adoption, October 202
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — quiet loop, nothing new to record; the whole window re-covered (AV2 October 22 press cycle echoed again with the early-2027 YouTube target already on file; FFmpeg 9.1 still in release process; VLC 3.0.24 and VDD26 restated; VVC/Android 17 stale; 2020 Google volumetric paper recrawled; no Google voxel-class codec). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-30 ~18:12 EDT, rotation #2):**
+- **Push result:** sync-github.py — exit 0 after ~11.5 minutes wall-clock (three transient egress retries inside the script, all recovered). Stdout: "pushed (git-data): docs/TRICKS.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry pushed by my own run; the TRICKS.md push is an absorbed concurrent-loop change, not a file this run touched. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-1757.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #2 — quiet loop, nothing new to record; whole window re-covered (AV2 October 22 press cycle echoed again, FFmpeg 9.1 still in release process, VLC 3.0.24 and VDD26 restated, VVC/Android 17 stale, 2020 Google volumetric paper recrawled, no Google voxel-class codec). No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
