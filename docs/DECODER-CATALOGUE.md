@@ -6902,3 +6902,43 @@ mappings are doctrine, never run.]*
 *[Grade: VERIFIED on the mach_header_64 layout (32 bytes, 8 fields), the 64-bit/32-bit/fat magics (0xfeedfacf / 0xfeedface / 0xcafebabe / 0xcafebabf), cputype values (x86_64 0x01000007, arm64 0x0100000c), filetype numbers (1/2/6/8), LC_SEGMENT_64 (0x19, 72 bytes, 80-byte sections), LC_SYMTAB/DYSYMTAB/LOAD_DYLIB/UUID/RPATH/MAIN/CODE_SIGNATURE/ENCRYPTION_INFO_64 numbers, and the fat_arch layout — mach-o specification; VERIFIED on the worked miniature (110-byte file, header at 0–31, LC_SEGMENT_64 at 32–103 with __TEXT file extent 0–103, 6 trailing bytes HIDDEN at 104–109, exact walk); CORROBORATED on loader parse-before-verify ordering and rpath resolution; SPECULATION — the Gauntlet mappings are doctrine, never run.]*
 
 *Mach-O entry seeded 2026-10-29 ~23:07 EDT by the decoder-create-loop.*
+
+---
+
+- **Covert channels: the carrier is the system itself (Lampson 1973,
+  Rowland 1997).** Lampson's confinement problem (CACM 16(10), Oct
+  1973): a confined service must send information to no program but its
+  caller. Channels split three ways — legitimate (declared outputs, like
+  the bill), storage (a written variable, file, or socket), and covert
+  (mechanisms never meant for transfer: system load, locks, power, and
+  above all timing — information in *when*, not *what*). The masking
+  principle: the caller must determine all of the confined program's
+  inputs to legitimate and covert channels, even at the cost of slowing
+  it down; confinement is transitive to untrusted callees. Lipner
+  (1975): storage channels close cheaply, covert channels only at a
+  steep performance price. [VERIFIED]
+- **Rowland's three TCP/IP methods (1996/1997, covert_tcp).** The
+  suite's headers are storage channels in plain sight: the 16-bit IP
+  Identification field, the 32-bit TCP Initial Sequence Number, and the
+  TCP Acknowledgement field bounced off an innocuous host to hide the
+  sender. covert_tcp moved a file one byte at a time inside otherwise
+  normal packets, past filters and sniffers — nothing in the payload is
+  ever abnormal. [CORROBORATED]
+- **The header budget (worked example).** 1,000 packets x 16-bit IP ID
+  = 2,000 bytes with zero payload bytes to inspect; the 32-bit ISN
+  doubles it to 4,000. A payload-only detector sees nothing at all.
+  [VERIFIED — arithmetic]
+- **Decoder-design note.** The network harness records full headers,
+  never payloads alone: non-random ISNs, message-shaped IP ID steps, or
+  ACKs bouncing through third hosts announce a channel. Timing gaps are
+  measured as signals with a bandwidth estimate, never averaged away as
+  jitter. And the container normalizes — rewriting ISNs, randomizing IP
+  IDs, pacing timing — because a channel that survives normalization was
+  legitimate traffic all along. [DOCTRINE]
+
+*[Grade: VERIFIED on Lampson's classification, masking, and transitivity;
+CORROBORATED on Rowland's three methods and covert_tcp; VERIFIED on the
+header-budget arithmetic; DOCTRINE — the Gauntlet mappings are design,
+never run.]*
+
+*Covert-channels (Lampson/Rowland) entry seeded 2026-10-30 ~01:36 EDT by the decoder-create-loop.*
