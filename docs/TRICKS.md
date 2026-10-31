@@ -31995,3 +31995,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The resume-default, fresh-trigger, delay, passage-split, attempt-carry, single-election, expiry, and dated-entry rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-938, T-990, T-989, T-939, T-965, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage: the cited rules say what this entry says they say.
 
 *T-991 trick built 2026-10-31 ~06:20 EDT by the decoder-create-loop.*
+
+## T-992 — The Bounce-Classification Rule
+
+**The problem it answers.** T-939 sorts bounces into hard and soft and counts an unclassified bounce as soft, but never says who classifies a bounce when the carrier's text is ambiguous. Without an answer, the last reader of the log classifies under whatever pressure the window puts on them — hard when time is short, soft when a retry is wanted — and the log cannot tell which happened. This rule answers only who classifies, what evidence controls, what happens when the evidence runs out, and what the record must show first. Design only, never run.
+
+**First, the panel classifies, as a body.** The carrier reports, the seeker forwards, and no label from either is the classification. The entry names the panel as classifier; a carrier code pasted without a panel class beside it is a report, not a decision. A deputy may do the mechanical reading, but the panel must adopt the class in the entry.
+
+**Second, the bounce text itself classifies, quoted verbatim.** The entry quotes code and prose as sent, then states the class and the words that carry it. Paraphrase does not classify, and a classification untied to quoted words counts for nothing under the log-is-the-showing and shown-not-asserted rules. A bounce the log cannot quote is unclassifiable on that evidence, and falls to the ambiguity rule.
+
+**Third, specific evidence controls over general, in a fixed order.** An explicit permanent code or statement makes the bounce hard; an explicit transient code or statement makes it soft. Where code and prose conflict, the specific controls over the general. A generic code alone — a bare number or "delivery failed" with no defined meaning on the record — classifies nothing, and the panel may not import an outside code table the log does not show.
+
+**Fourth, ambiguity resolves soft, and disagreement resolves soft.** A bounce fitting hard and soft alike, or with equally specific conflicting evidence, counts as soft: a durable conclusion may not rest on doubtful evidence, and the retry T-939 owes on a soft bounce is preserved. Where the panel itself cannot agree, the bounce counts as soft and the dissent is logged, not settled by seniority or by who read the log first.
+
+**Fifth, classification comes before consequence.** The panel classifies when the bounce is logged, before retiring a channel, counting a floor, finding a record stale, or deciding a re-seek window. A class assigned after the reliance it was needed for is a justification, not a classification, and the reliance is unshown. The panel may not classify hard to complete a floor or soft to buy a retry.
+
+**Sixth, reclassification needs new evidence and works prospectively only.** A second reading of the same words is not new evidence. A genuine correction — full carrier text, a carrier clarification, a corrected forward — is entered dated, naming old class, new class, new evidence, and passages affected; reliance already drawn stands and is re-classed passage by passage. Hard-to-soft restores a withheld retry if the window still runs; soft-to-hard does not erase a retry already made in good faith.
+
+**Seventh, the entry carries seven items before any reliance:** channel, verbatim bounce text, carrier code if any, class assigned, the words carrying the class or the ambiguity forcing soft, the panel as classifier, and the classification date. A consequence drawn without that entry is drawn on an incomplete record, and a date showing classification after reliance makes the reliance unshown.
+
+**Eighth, classification decides only the class, and travels only as far as the bounce rules travel.** It does not judge the channel, the record's prior staleness, the repair source, or a repeat stale-record finding, and it stays notice-only unless the scope answer from T-936 extends the channel rules beyond notices.
+
+**Grading.** Lineage to T-939, T-938, T-941, T-965, T-948, T-953, and T-991 is CORROBORATED as file-internal. The panel-as-classifier, verbatim-quotation, evidence-order, ambiguity-soft, classification-before-consequence, reclassification, and seven-item-entry rules are new design, SPECULATION until a gauntlet run tests them. Nothing here has been run; no bounce, retirement, or stale-record finding is evidenced by this entry.
+
+**What this rule does not do.** It leaves open the repeat-stale-record problem and the repair-source problems from T-939/T-940, the deputy-weighting, personal-floor, successor-credit, evidence-retention, qualification-register, repeat-undeliverable, variant-judge, mixed-variant, and late-offer problems, and the scope question from T-936. Each is a problem for a later trick, not a gap to be filled by implication here.
+
+*T-992 trick built 2026-10-31 ~06:31 EDT by the decoder-create-loop.*
