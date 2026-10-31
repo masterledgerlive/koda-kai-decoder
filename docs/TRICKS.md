@@ -31210,3 +31210,25 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The reasoning-invocation test, three-grade dependence rule, insufficient-assertion rule, panel-judgment rule, ambiguity-default rule, and re-class rule are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-958 (proposition-dependence, not citation form; per-passage dated entry before reliance; prospective-only class decisions), T-956 and T-957 (re-class on new reliance), T-948 (prospective discipline), and T-954 (a reading is never corroboration) is CORROBORATED as file-internal lineage: the cited rules say what this entry says they say.
 
 *T-959 trick built 2026-10-30 ~21:34 EDT by the decoder-create-loop.*
+
+## T-960 — The Reasoning-Step Standard Rule
+
+**The problem it answers.** T-959 judged dependence by whether the panel's reasoning invokes a passage's words as a reason, but left open what counts as a reasoning step: oral deliberation remarks, unadopted drafts, disavowed steps. This rule decides the standard only. Design, never run.
+
+**Adopted stated reasoning only.** A reasoning step is a paragraph, ground, or stated reason in the panel's adopted decision, order, or reasons. Oral deliberation remarks, bench questions, tentative conference formulations, and working-paper notes are not steps unless adopted into the stated reasoning. Deliberation tries reasoning; the decision states it; only stated reasoning can invoke a passage as a reason.
+
+**Drafts count only at adoption, as adopted.** A draft paragraph never adopted is not a step, and a passage invoked only in the draft is not relied on. An adopted draft becomes a step at adoption, in the form adopted — deletions and rewordings govern, not the draft's broader invocation. Class decisions follow adoption, not drafting, and are re-entered on the adopted text before reliance.
+
+**Separate opinions are not the panel's reasoning.** A passage invoked only in a concurrence or dissent is not relied on by the panel, unless the majority expressly adopts that reasoning step — then it becomes the panel's at adoption, and the class decision follows the adoption.
+
+**Invocation needs the passage's words as a reason.** A step that merely cites a passage, without using its words, does not invoke it. A faithful paraphrase of the passage's words as a reason does invoke it, provided the paraphrase ties to the passage's wording. Bare citation, like bare assertion of reliance, is not a showing.
+
+**Disavowal ends reliance prospectively only.** An express disavowal — withdrawing a ground, striking a paragraph, stating a step is no longer relied on — moves a passage invoked only by that step back to the surveyed class for corrections not yet relied on. Corrections already relied on are not undone: past reliance is judged on the reasoning as stated at the time. Silent abandonment is not disavowal; a step stands until expressly withdrawn.
+
+**The step is identified in the class entry.** The per-passage dated entry names the decision or order, the paragraph or ground, and the words quoted or paraphrased as the reason — plus the adoption where the step comes from a draft or a separate opinion. An entry naming a passage but no step is incomplete, and reliance on it is premature. Disputes over whether a step exists are entered as motions, decided on the record, with the dispute and resolution recorded.
+
+**What this rule does not do.** It does not decide the self-supplied-source problem (T-958), receipt authentication (T-955), the T-957 qualification-cure question, or what counts as express disavowal in close cases (narrowing rewordings, later decisions resting on other grounds) — each for a later trick. It does not revisit the other open problems carried forward from T-941 through T-959.
+
+**Grading.** The adopted-reasoning, draft-at-adoption, separate-opinion, words-as-reason, prospective-disavowal, and step-identification rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-959, T-958, T-956, T-957, T-948, and T-954 is CORROBORATED as file-internal lineage.
+
+*T-960 trick built 2026-10-30 ~21:48 EDT by the decoder-create-loop.*
