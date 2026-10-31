@@ -31164,3 +31164,15 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The proof-extension, background non-extension, original-of-record, fit-limited chain-travel, correction-not-weight, and per-passage dated-entry rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-955, T-921, T-920, T-952, T-937, T-938, T-940, T-939, T-925, T-948, and T-953 is CORROBORATED as file-internal lineage.
 
 *T-956 trick built 2026-10-30 ~20:31 EDT by the decoder-create-loop.*
+
+## T-957 — The Witness-Statement Extension Rule
+
+**The problem.** T-955 and T-956 decided the scope question for petition text, receipts, findings' quoted passages, and evidence translations. Witness statements remained notice-only. A mistranslation in a witness statement puts words in the witness's mouth, so this rule decides that class only. Design, never run: no test, no specimen, no result.
+
+**The rules.** (1) The different-translator rule extends to substantive testimony passages — what the witness said about the facts, judged passage by passage, not file by file. A shown mistranslation is corrected by a different translator, qualified per petition (T-921) and disinterested (T-920, T-952). (2) It does not extend to the interpreter's procedural passages — oath administration, clarifications, scheduling notes — corrected by their own maker with a dated note; but a procedural passage later relied on as testimony re-classes at that moment and is re-made by a different translator before reliance. (3) A witness's flag ("that is not what I said") triggers correction but is not the correction; the witness is shown the corrected rendering and confirms whether it reads as their words — entered as confirmation, never as corroboration (cf. T-954), and a dispute is judged by the panel, not settled by veto. (4) The original stays of record with the correction, flag, and dated class entry — no silent replacement, no new statement, no re-opened testimony unless the panel orders it. (5) Chain travel follows fit (T-955): T-937/T-938/T-940 travel; T-939/T-925 do not, as notice-presupposing. (6) The class decision is entered per passage, dated, before reliance, prospective-only (T-948, T-953).
+
+**What it does not do.** It leaves cited authorities — the last scope class — notice-only; it does not settle receipt authentication (T-955), self-supplied source, or whether witness confirmation cures a qualification defect (it does not — T-921). Other carried-forward problems (deputy-weighting, personal-floor, successor-credit, evidence-retention, attestation-taint, qualification-register, repeat-undeliverable, inducement-record, variant-judge, mixed-variant, late-offer, non-answer-answer, re-seek-window, bounce-classification, repeat-stale-record) remain for later tricks.
+
+**Grading.** All six rules are SPECULATION — a design until a gauntlet run tests them. Lineage to T-955, T-956, T-954, T-921, T-920/T-952, T-937, T-938, T-940, T-939/T-925, T-948, and T-953 is CORROBORATED as file-internal lineage.
+
+*T-957 trick built 2026-10-30 ~20:46 EDT by the decoder-create-loop.*
