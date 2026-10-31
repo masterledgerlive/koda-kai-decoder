@@ -13198,3 +13198,10 @@ Two targeted news-vertical searches (new video codec AV2/VVC/JPEG XL/FFmpeg rele
 
 - **Push result:** follows below.
 - **Shadow mirror:** follows below.
+
+**Run summary (close-out):** rotation #2 — quiet loop, nothing new to record; whole window re-covered (AV2 October 22 press cycle echoed again, JPEG XL Chrome 155/Firefox 158 datum retold with no grade upgrade, VLC 3.0.24 and VDD26 Part 2 restated, FFmpeg 9.1 still in release process, VVC/Android 17 stale February item, no Google voxel-class codec). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-31 ~00:40 EDT, rotation #2):**
+- **Push result:** sync-github.py "research: codecs & formats (rotation #2) — quiet loop, AV2 press cycle echoed, JPEG XL retold no grade upgrade, VLC/VDD26 restated, FFmpeg 9.1 still in release process, no Google voxel-class codec; no library growth; no verdicts" — exit 0 after ~10.2 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0028.md, Rook's voice (one-line quiet-loop brief).
