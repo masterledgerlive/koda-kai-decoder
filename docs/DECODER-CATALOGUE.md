@@ -2919,6 +2919,65 @@ The universal quantum decoder stays [SPECULATION] until proven.
   accuracy or deployment figures]
   - Source: https://pulsexpertech.com/technology/sumsub-expands-know-your-agent-putting-businesses-in-control-of-what-ai-agents-can-access
 
+- **hCaptcha WebMCP verification tool (hCaptcha Enterprise,
+  ~October 1, 2026; new to record; material — new
+  agent-verification technique, the first shipped verification tool
+  for a draft agent-tool protocol).** WebMCP lets a web page expose
+  named tools to browser agents — searchProducts, reserveInventory
+  — so the agent calls the tool through the browser instead of
+  working out the action from buttons and page layout. With the
+  feature enabled, the SDK exposes `hcaptcha_verify`: the tool
+  starts verification, waits for verification already in progress,
+  or uses an available response, and a successful call returns
+  status "verified"; the token stays in the page widget for normal
+  backend Siteverify validation. If verification opens an
+  interactive challenge, `hcaptcha_verify` returns status
+  "requires_human" — the agent must stop and ask the person who
+  initiated the task to complete it, and closing the challenge
+  without completing it does not verify the user. Enabling the tool
+  does not force Passive Mode or bypass challenges, and the
+  protected endpoint must still reject invalid, expired, or
+  already-used tokens before performing the action. hCaptcha's own
+  caveat, carried: WebMCP activity alone does not establish that a
+  visitor is an active agent — agent detection is evaluated
+  separately, including via Web Bot Auth. Decoder significance: the
+  verification wing of the lane gains its first tool-shaped answer
+  — instead of asking "is this visitor human or agent," the site
+  hands the agent a named tool and a verification call, with a
+  human-escalation seam stated in an API return value rather than a
+  policy page. Pairs with Sumsub's data-plane filtering (what the
+  agent can see) and Shufti's mandate gating (what the agent may
+  do) as the third face of the KYA cluster: how the agent proves
+  itself at the moment of action. [CLAIMED — vendor product blog,
+  first-party vendor text but no independent deployment or
+  detection figures]
+  - Source: https://www.hcaptcha.com/blog/hcaptcha-webmcp
+
+- **Halligan, agentic vision-language CAPTCHA solver (USENIX
+  Security 2025; surfaced October 30, 2026 via the Browserbase
+  blog; new to record; material — anti-detection research with a
+  measured rate).** Halligan achieved a 60.7% success rate across
+  2,600 visual CAPTCHA challenges covering 26 types, combining
+  visual understanding with mouse and keyboard interaction — a
+  computer-using agent against image CAPTCHAs, not a classifier
+  against one challenge family. Decoder significance: it reframes
+  the September 2026 cluster — Robot Visions at 92.6% across 500
+  real-world reCAPTCHA sessions, zero-cost and zero-shot, and the
+  self-labeling adaptive solver at 85.4% across 16 classes with
+  recovery in every round of a simulated year-long arms race.
+  Those two are 2026's sharper, narrower numbers; Halligan is the
+  breadth proof from a peer-reviewed venue a year earlier: 26 types
+  at once, with interaction, not just vision. The three together
+  close the "visual CAPTCHA as a gate" question from both ends:
+  breadth, cost, and adaptation. The carrier's own caveat is
+  carried: the studies evaluated different systems and challenges,
+  so the percentages are not directly comparable, and none of this
+  proves every CAPTCHA can be defeated. [CORROBORATED as
+  published — USENIX Security 2025 venue via secondary summary;
+  paper itself not read first-party this pass, so the 60.7% figure
+  stays secondary-sourced]
+  - Source: https://www.browserbase.com/blog/who-let-the-bots-in-rethinking-captchas-in-the-age-of-ai-agents
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
