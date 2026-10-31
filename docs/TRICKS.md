@@ -31969,3 +31969,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The third-class, two-ledger, not-a-decline, attempt-not-answer, no-conversion, stated-date, passage-split, and dated-entry rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-938, T-939, T-937, T-989, T-965, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage: the cited rules say what this entry says they say.
 
 *T-990 trick built 2026-10-31 ~05:50 EDT by the decoder-create-loop.*
+
+## T-991 — The Re-Seek Window Rule
+
+**The problem it answers.** T-938 asked whether a held correction's re-seek runs a fresh T-925 window or resumes the old one; T-990 left it open while deciding that a deferral's stated date binds nobody. Choosing fresh by habit erases spent time and made attempts; choosing resume without exception traps a re-seek in a window whose conditions no longer exist. This rule decides only that question. It is a design, never run: no test, no specimen, no result.
+
+**The first rule is that the default is resume, not fresh.** A re-seek after a hold, deferral, repair, or corrected route continues the running window for that passage: spent time counts, the deadline does not move, made attempts stay on the ledger. Resume holds unless a fresh-window trigger under the second rule is shown on the record and named in the entry before any reliance.
+
+**The second rule is that a fresh window runs only on a shown trigger, and there are exactly three.** An express reset by the governing authority for that passage; a changed footing, where channel, panel, or governing text changed so the old window's conditions no longer describe the re-seek; or a new ask, a passage never before sought, which has no old window to resume. Delay, difficulty, a new hand, or a repaired channel is not a trigger — a resumed window mislabelled as fresh, whose consequences fall with the label.
+
+**The third rule is that delay alone never freshens a window.** Waiting out a deferral date, a repair, or a cycle restarts nothing and restores no spent time. Where governing text attaches its own consequence to delay, that consequence applies under its own rule; expiry ends a window under the seventh rule rather than restarting one.
+
+**The fourth rule is that the window is decided passage by passage, never for the ask as a whole.** Answered passages are closed; deferred passages resume; genuinely new passages start fresh. No passage inherits its neighbour's window class, and no ask is graded by its largest part.
+
+**The fifth rule is that a resumed window carries its attempts, and a fresh window does not inherit them.** On resume, old attempts count toward the resumed window's floors exactly as before. On a genuine fresh window, attempt counts restart — but substance already shown stays shown; a fresh window measures only what remains unshown, and one that erases shown substance is a rewritten record, not a new window.
+
+**The sixth rule is that a panel cannot run both windows for the same passage at once.** The panel elects resume or fresh per passage, records the election and trigger, and re-seeks under that election only — not resumed for deadlines and fresh for floors, and not switched mid-window for convenience. A wrong election is re-classed prospectively, and consequences drawn from it are re-drawn.
+
+**The seventh rule is that an expired window is neither resumed nor fresh by the re-seek itself.** A window already expired by its own deadline is not revived by re-seeking. A post-expiry re-seek needs new authority — an express reset or a genuinely new ask, each shown — and without it is an out-of-window ask, carrying only the consequences the governing text attaches to that state. Expiry, hold, and interruption are three different states.
+
+**The eighth rule is that the entry is dated, states the window class and trigger, and comes before any reliance on the re-seek.** Before any passage is relied on through a re-seek as timely, floor-meeting, first answer, or late offer, the record carries the passage, old window and deadline, class assigned, fresh trigger where claimed, time remaining on resume, and attempts carried or reset. Reliance without that entry is reliance on an unshown window under T-965.
+
+**What this rule does not do.** It does not decide bounce-classification or repeat-stale-record (T-939), the repair-source, self-supplied-source, repeat-lost-source, or unauthorized-repository problems (T-939/T-940), deputy-weighting generally, successor-credit, personal-floor, evidence-retention, attestation-taint beyond T-962, qualification-register, repeat-undeliverable, inducement-record beyond disavowal, variant-judge, mixed-variant, late-offer beyond T-990's first-answer consequence, or the other open problems carried forward from T-941 through T-990. It does not decide the T-936 scope question: this rule travels with the channel rules, so window classification stays notice-only unless the scope answer extends them. Each is a problem for a later trick, not a gap to be filled by implication here.
+
+**Grading.** The resume-default, fresh-trigger, delay, passage-split, attempt-carry, single-election, expiry, and dated-entry rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-938, T-990, T-989, T-939, T-965, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage: the cited rules say what this entry says they say.
+
+*T-991 trick built 2026-10-31 ~06:20 EDT by the decoder-create-loop.*
