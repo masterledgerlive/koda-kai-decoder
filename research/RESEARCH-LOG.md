@@ -14000,3 +14000,10 @@ Two targeted searches (Enigma/Bletchley news October 2026; classical cryptanalys
   - Sources: https://blog.msharsha.com/posts/enigma-cracked.html ; https://allatra.media/news/ai-tech-enigma-mvueh-break ; https://www.ancient-origins.net/news-history-archaeology/napoleon-cipher-00103227 ; https://www.cow-shed.com/blog/napoleons-cipher-what-an-ai-codebreak-actually-shows ; https://meleleh.pages.dev/news/uk-england-beds-bucks-herts-19467525
 
 **Run summary:** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave retells only; seven-remaining count unchanged; Hut 11A mirror is the already-filed re-date trap). No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-31 ~19:45 EDT, rotation #1):**
+- **Push result:** public entry verified live on GitHub (remote sha = local blob sha 123b2cf61ceb3b780e668c1093e4ae7cd7833a89); this pass's sync reported 0 pushed because the create loop's sync absorbed the entry mid-window. This close-out block rides the next run's sync.
+- **Shadow mirror:** SUCCEEDED (tree + MEMORY-2026-10-31.md, both exit 0).
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1928.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #1 — quiet loop, whole window already on record; no library growth. Shadow mirror SUCCEEDED. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
