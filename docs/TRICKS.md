@@ -32073,3 +32073,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **What this rule does not do.** It leaves open the repair-source problems from T-939/T-940, the deputy-weighting, personal-floor, successor-credit, evidence-retention, qualification-register, variant-judge, mixed-variant, and late-offer problems, and the scope question from T-936. Each is a problem for a later trick, not a gap to be filled by implication here.
 
 *T-994 trick built 2026-10-31 ~07:05 EDT by the decoder-create-loop.*
+
+## T-995 — The Deputy-Weighting Rule
+
+**The problem it answers.** T-873 settles how deputy attempts count toward proved throughput, then leaves open whether a hard battery's deputy attempt should weigh more than an easy one's, or whether the one-to-one cap already answers the question. Without an answer, panels inflate hard attempts by impression or discount easy ones by prejudice, and the staffed total becomes unauditable — no reader can re-derive it from the record. This rule answers only the weighting question. Design only, never run.
+
+**First, one attempt weighs one credit.** Every qualifying deputy attempt counts exactly one staffed-throughput credit, hard battery or easy. The unit of throughput is the attempt, not the difficulty-point. A hard attempt by a fit deputy proves the same unit as an easy attempt by a fit deputy: a qualified hand attempted a placed battery in its week and the record shows it. Difficulty changes what the attempt proves about the deputy, never how much it counts.
+
+**Second, the cap already answers the weighting question, and it answers it with no.** T-873's one-to-one per-cycle cap — deputy credits may not exceed personal attempts in the same cycle — is stated in attempts on both sides, and it is the sole throttle on deputy credit. Any difficulty weight breaks that comparison: a hard attempt worth two against a personal count of one either spends headroom the custodian never proved, or contributes two credits while consuming one unit of headroom, exceeding the cap it claims to obey. A weighted scheme must redefine the cap, which T-873 does not authorize. A panel that weights has replaced the cap, not supplemented it.
+
+**Third, difficulty prices fitness, never credit.** A battery's difficulty class decides only whether a deputy was fit to attempt it, under the borrowing roster's founding terms or the deputy's home-roster fitness. Fitness is a gate with two positions: fit, so the attempt earns its one credit, or unfit, so it counts zero even if attempted. A gate is never a multiplier, and a difficulty class the record does not state cannot weight anything — grading hardness by impression grades nothing the record shows.
+
+**Fourth, both ledgers count attempts.** The personal ledger and the staffed ledger both count attempts, which is what makes the cap coherent: personal count against deputy count, attempt against attempt. A custodian's own hard attempt likewise counts one on the personal ledger. The moment either ledger changes its unit, the cap stops being a cap and becomes a conversion invented at filing time.
+
+**Fifth, no fractions, no bonuses.** A credit is zero or one, never a half, never a bonus. A partial attempt earns nothing until it completes, per T-875: a battery begun in one week and completed in the next counts in its completion week as one, and a half-attempt in each of two weeks is not two attempts — nor one half-credit in each. Fractions and bonuses share the same vice: they manufacture a total the papers never stated.
+
+**Sixth, a difficulty dispute never re-weights.** Where papers disagree about a battery's class, the credited attempt is not adjusted to split the difference. The dispute may ground a fitness challenge under T-873, which voids the credit whole if successful, or a reconciliation under T-874, adopting one paper's version with a reason before filing. It never grounds a fractional credit: averaging papers is already forbidden by T-874, and a panel that re-weights instead of voiding or curing has kept the credit while abandoning the proof.
+
+**Seventh, the staffed entry shows the unweighted counts before any reliance:** the cycle's personal count, its qualifying deputy count, the cap applied (personal plus the lesser of deputy and personal), the statement that no difficulty weight was applied, and each cited deputy attempt's fitness basis. A weighted figure without its unweighted counts behind it is an incomplete record, and the consequence is re-drawn from the unweighted counts, not defended from the gap. Counts supplied after filing do not cure a filed petition.
+
+**Eighth, weighting decides only weighting, and travels with T-873.** It sets no personal floor beyond the cap's zero-personal-zero-credit floor, decides no successor-credit, throughput-window, or evidence-retention question, and does not weigh attempts for diligence purposes under T-867/T-872. Wherever T-873 throughput applies, weighting is one-attempt-one-credit.
+
+**Grading.** Lineage to T-873, T-874, T-875, T-872, and T-965 is CORROBORATED as file-internal. The one-attempt-one-credit, cap-already-answers, difficulty-as-fitness-gate-only, like-for-like-ledgers, no-fraction-no-bonus, dispute-never-reweights, and unweighted-counts-entry rules are new design, SPECULATION until a gauntlet run tests them. Nothing here has been run; no deputy is evidenced as having attempted, weighted, or petitioned by this entry.
+
+**What this rule does not do.** It leaves open the personal-floor, successor-credit, and throughput-window problems from T-873, evidence-retention from T-874, attestation-taint beyond the T-962 disavowal context, the qualification-register, variant-judge, mixed-variant, and late-offer-beyond-T-990 problems, and the scope question from T-936. Each is a problem for a later trick, not a gap to be filled by implication here.
+
+*T-995 trick built 2026-10-31 ~07:20 EDT by the decoder-create-loop.*
