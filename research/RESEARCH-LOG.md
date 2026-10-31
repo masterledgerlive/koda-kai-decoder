@@ -13605,3 +13605,5 @@ Two targeted news searches (prediction-market accuracy; AI forecasting tournamen
 - **Watch items, no change:** Election Day November third remains the resolution event for the midterm tick series; the December eighth and ninth Fed meeting remains the next calibration-ledger event.
 
 **Run summary:** rotation #7 — quiet loop, no new predictive-math item; the whole window re-covered as filed. Next resolution events unchanged: Election Day November 3 and the December 8–9 Fed meeting. No library growth. No verdicts, nothing broadcast.
+
+**Run summary (close-out):** rotation #7 — quiet loop, no new predictive-math item; whole window re-covered as filed. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
