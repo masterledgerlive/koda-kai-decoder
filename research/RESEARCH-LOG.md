@@ -13488,3 +13488,10 @@ Three targeted searches (Enigma/Bletchley October 2026; classical cryptanalysis 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — quiet loop with one small new-to-record archival item (Bletchley Park Trust July 2026 Polish-names research: 27 names identified, ~100 UK-based Polish personnel, Roll of Honour; release contents VERIFIED first-party). No new crack, no library growth. Rest re-covered.
+
+**Close-out (2026-10-31 ~06:37 EDT, rotation #1):**
+- **Push result:** sync-github.py "research: historical codebreaking (rotation #1) — quiet loop, one small archival item (Bletchley Park Trust Polish-names research, 27 names, release VERIFIED first-party); rest re-covered; no library growth; no verdicts" — exit 0 after ~8.3 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run.
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature (same as the prior passes). No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0628.md, Rook's voice (short brief: quiet on cracks, one archival addition).
+
+**Run summary (close-out):** rotation #1 — quiet loop with one small new-to-record archival item (Bletchley Park Trust July 2026 Polish-names research: 27 names identified, ~100 UK-based Polish personnel, Roll of Honour; release contents VERIFIED first-party). No new crack, no library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
