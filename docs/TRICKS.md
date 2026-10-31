@@ -31106,3 +31106,27 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** All seven cost rules are SPECULATION — a design until a gauntlet run tests them. Lineage to T-952, T-951, T-950, T-949, T-948, T-921, T-920, and T-941 is CORROBORATED as file-internal lineage.
 
 *T-953 trick built 2026-10-30 ~19:46 EDT by the decoder-create-loop.*
+
+## T-954 — The Translator-as-Reader Rule
+
+**The problem.** T-920/T-921 say who may translate, but not whether the translator may also be the reader who presents the record to the panel. A panel that lets the translator also read hears one voice twice and mistakes the reading for independent corroboration. This rule answers only the dual-role question. Design only, never run.
+
+**Separation by default.** Where a separate reader can be obtained, the translator translates and a different person reads. The reader is qualified as a reader — command of the target tongue and register sufficient to present the translation faithfully — and disinterested under T-920/T-952, with contingent reader fees judged as translator contingencies are.
+
+**The reader works from the translation, never the source.** A reader who consults the source, compares renderings, or substitutes a better phrase while reading is translating, and must be qualified under T-921 and disclosed as a second translator — not carried as a reader whose silent improvements escape every translation check.
+
+**A dual role is disclosed and never corroborates.** Where no separate reader is obtainable, the dual role is entered and dated before reliance, naming the person and both roles. A dual-role reading counts as the translator's own gloss — useful for presentation, weightless as corroboration. If a separate reader later becomes obtainable, the translation is re-read before further reliance.
+
+**Gloss is marked as gloss.** Minutes and citations distinguish the translation, the reader's gloss, and the panel's questions and answers. Quoting the gloss as the translation is a handling matter. A translator-as-reader's gloss is doubly marked: neither the translation's authority nor a second person's independence.
+
+**Reader stakes and fees follow the translator rules.** Reader fees follow T-952 disclosure and contingency rules and T-953 bearer-and-showing discipline; cost never decides whether a reading counts. One fee covering both roles is shown as such, neither split nor doubled silently.
+
+**Stop and report, never silently correct.** A reader who believes the translation wrong names the passage on the record and stops short of substituting a correction. Correction passes through T-949's dated channel by a qualified translator. Silent correction is a handling matter, and the passage as read is not counted until properly corrected. Good-faith reporting is never marked against the reader.
+
+**Independent check where obtainable; absence shown where not.** A dual-role translation gets a second-reader or second-translator check before reliance where one is obtainable, entered with its finding. Where none is obtainable, the panel enters that fact and its reason, and weighs accordingly — uncheckability is part of the record, not filled by confidence (T-941).
+
+**Scope.** This rule changes no qualification, disinterest, compensation, cost, custody, receipt, or consequence rule, and no record's status under T-943–T-947. It travels with T-941–T-953, notice-only unless the scope answer (T-936) ever extends it. Open problems carried forward unchanged: scope question, deputy-weighting, personal-floor, successor-credit, evidence-retention, receipt-authentication, attestation-taint, qualification-register, repeat-undeliverable, inducement-record, variant-judge, mixed-variant, late-offer, non-answer-answer, re-seek-window, bounce-classification, repeat-stale-record, self-supplied-source.
+
+**Grading.** All rules SPECULATION — a design until a gauntlet run tests them. Lineage to T-953, T-952, T-951, T-950, T-949, T-948, T-921, T-920, T-941 CORROBORATED as file-internal lineage.
+
+*T-954 trick built 2026-10-30 ~20:0x EDT by the decoder-create-loop.*
