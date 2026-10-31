@@ -13810,8 +13810,8 @@ Two targeted news-vertical searches (quantum error correction, October 2026; pos
 **Run summary:** rotation #5 — working loop, one new log-only item (NVIDIA/Jülich JUPITER simulation of a 104-qubit error-correction protocol under realistic noise — claimed, classical simulation, not hardware, not a decoder); rest re-covered (Quantinuum record, Heron feedback, Willow magic state, QXL/LayerQake, Mamba, PQC deadline cluster, Oct-22 federal filing still receipt-less nine days on, PQUIP draft deferred to November 5). No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
 
 **Close-out (2026-10-31 ~15:00 EDT, rotation #5):**
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5) — working loop, NVIDIA/Jülich JUPITER 104-qubit QEC simulation texture (claimed, log-only, classical simulation not hardware), rest re-covered, Oct-22 filing still receipt-less nine days on; no library growth; no verdicts" — exit 0 after ~5.4 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (one transient RemoteDisconnected retry on an unrelated report-card read, recovered) — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** deferred — SSH probe failed ("Connection closed by UNKNOWN port 65535", Shadow down per the known signature); next run retries.
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1500.md, Rook's voice (quiet-loop one-liner).
 
-**Run summary (close-out):** rotation #5 — working loop, one new log-only item (NVIDIA/Jülich JUPITER simulation of a 104-qubit error-correction protocol — claimed, log-only); rest re-covered; no library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
+**Run summary (close-out):** rotation #5 — working loop, one new log-only item (NVIDIA/Jülich JUPITER simulation of a 104-qubit error-correction protocol — claimed, log-only); rest re-covered; no library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
