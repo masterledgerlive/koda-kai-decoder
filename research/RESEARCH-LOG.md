@@ -13338,3 +13338,10 @@ Three targeted news searches (behavioral bot / AI agent detection; CAPTCHA succe
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8 — working loop, one new library entry (Anthropic October 31 automated monitor-evasion demonstration, corroborated as Anthropic-disclosed, material), three texture items (CACM click-fraud analysis, Auth0/Poppy framing, Ailing banking consolidation), rest re-covered. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-10-31 ~03:35 EDT, rotation #8):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): docs/DECODER-CATALOGUE.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry + catalogue growth pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0327.md, Rook's voice (149 words).
+
+**Run summary (close-out):** rotation #8 — working loop, one new library entry (Anthropic October 31 automated monitor-evasion demonstration, corroborated as Anthropic-disclosed, material), three texture items, rest re-covered. Public entry + catalogue growth pushed (2 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #9 (sandbox & container tech).
