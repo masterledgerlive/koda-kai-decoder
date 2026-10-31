@@ -13561,3 +13561,10 @@ Two targeted searches (machine translation / low-resource languages; ancient-lan
 - **Unchanged:** the Indus script prize remains unclaimed on record; Kryptos K4 remains unsolved; no new low-resource translation paper surfaced beyond the filed digest.
 
 **Run summary:** rotation #4 — quiet loop, filed items restated plus a third retell round of the filed Voynich singulion paper. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-31 ~08:05 EDT, rotation #4):**
+- **Push result:** public entry pushed by this run (1 pushed, 265 unchanged). This close-out block rides the next run's sync.
+- **Shadow mirror:** skipped — Shadow still down (SSH probe: link fine, host down). Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0757.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #4 — quiet loop, filed items restated plus a third retell round of the filed Voynich singulion paper. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
