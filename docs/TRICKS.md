@@ -31142,3 +31142,25 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** All rules SPECULATION — a design until a gauntlet run tests them. Lineage to T-936, T-937, T-938, T-939, T-940, T-925, T-921, T-920, T-952, T-948, T-953 CORROBORATED as file-internal lineage.
 
 *T-955 trick built 2026-10-30 ~20:2x EDT by the decoder-create-loop.*
+
+## T-956 — The Evidence-Translation Extension Rule
+
+**The problem it answers.** T-955 decided scope for petition text, receipts, and quoted passages in findings, and left evidence translations notice-only. This rule decides the evidence class only. It is a design, never run: no test, no specimen, no result.
+
+**The first rule is that the rule extends to evidence translations offered as proof.** Where a translated text is offered to prove a fact, a shown mistranslation is corrected by a different translator than the one who produced it, under the same qualification and disinterestedness discipline as the notice chain. The rule follows the passage, not the file: the same document can carry proof passages and background passages.
+
+**The second rule is that the rule does not extend to evidence translations offered only as background.** Where a text is offered only for context, chronology, or what a party knew, its own translator corrects it with a dated record note. If a party later relies on a background passage as proof, the passage changes class at that moment, and any own-translator correction is re-made by a different translator before reliance.
+
+**The third rule is that the original rendering stays of record alongside the correction.** No silent replacement: mistranslated rendering, correction, and dated class entry stay together. The correction is entered as a correction, not a new exhibit, so admission, standing, and history are untouched.
+
+**The fourth rule is that chain travel follows fit.** Availability, diligent attempt, and repair-source travel to proof passages; channel-reliability and re-seek windows do not, because they presuppose a notice being delivered. Where a chain rule does not fit, it is inapplicable, not violated.
+
+**The fifth rule is that correction does not decide weight.** A corrected passage is not thereby credited, nor a mistranslated passage discredited beyond the mistranslation: the panel judges what the corrected passage proves as a separate judgment. The different translator corrects the rendering; only the panel weighs the evidence.
+
+**The sixth rule is that the class decision is entered per passage, dated, before reliance.** Before reliance on a corrected passage, the record names the passage, its class, the translator appointed where the rule extends, and the chain rules held applicable or inapplicable. A decision made after reliance governs only corrections not yet relied on.
+
+**What this rule does not do.** It does not decide witness statements or cited authorities, which stay notice-only. It does not decide receipt-authentication or self-supplied-source, and it does not revisit the other open problems carried forward from T-941 through T-955. Each is a problem for a later trick.
+
+**Grading.** The proof-extension, background non-extension, original-of-record, fit-limited chain-travel, correction-not-weight, and per-passage dated-entry rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-955, T-921, T-920, T-952, T-937, T-938, T-940, T-939, T-925, T-948, and T-953 is CORROBORATED as file-internal lineage.
+
+*T-956 trick built 2026-10-30 ~20:31 EDT by the decoder-create-loop.*
