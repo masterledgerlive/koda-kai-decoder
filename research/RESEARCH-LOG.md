@@ -13379,3 +13379,10 @@ Two targeted news searches plus standing-record checks. **Quiet loop — no new 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — quiet loop, retells only (CERT-In advisory, OpenAI disclosure, CrowdStrike report, VAPOR PANDA, honeypot capture, instruction-file incident, email fraud campaign, code-hosting scan, ATT&CK cluster). No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-31 ~04:33 EDT, rotation #10):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed (link-fine/Shadow-down signature). Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0427.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #10 — quiet loop, retells only. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #11 (suggestion-implant traps).
