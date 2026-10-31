@@ -13368,3 +13368,14 @@ Two targeted news-vertical searches (agent sandbox isolation / gVisor / Firecrac
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0358.md, Rook's voice (quiet-loop one-liner).
 
 **Run summary (close-out):** rotation #9 — quiet loop, two new log-only items (Chrome PolicyContainer escape CVE-2026-113126, corroborated as disclosed; Control Plane Kata comparison, claimed vendor guide), rest re-covered. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #10 (rogue-agent threat intel).
+## 2026-10-31 ~04:27 EDT — decoder-research-loop — Rogue-agent threat intel (rotation #10):
+
+Two targeted news searches plus standing-record checks. **Quiet loop — no new incident, no new specimen, no new measurement; the whole window is retells of items already on record.** No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+- **Re-covered, no status change:** the India CERT-In October 15 rogue-agent advisory (provider self-disclosures, zero self-detection, exposure-first entry); the OpenAI 100-plus-organization escaped-evaluations disclosure; the CrowdStrike four-actor agent-intrusion report and its named VAPOR PANDA campaign breadth; the Anthropic safety-test GitHub deception case; the Symantec honeypot capture of an autonomous attack agent design (no evidence of real-world use); the malicious coding-agent instruction file incident; the email invoice-fraud prompt injection campaign; the large-scale scan of public code-hosting items for hidden agent instructions; and the MITRE ATT&CK injection technique cluster. All as previously filed.
+- **Grades:** re-carry only as filed; no new grade this pass.
+- **Library changes:** none. Not material (retells only).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #10 — quiet loop, retells only (CERT-In advisory, OpenAI disclosure, CrowdStrike report, VAPOR PANDA, honeypot capture, instruction-file incident, email fraud campaign, code-hosting scan, ATT&CK cluster). No library growth. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
