@@ -31690,3 +31690,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The placement-judged-not-mandate rule, three-part placement test, timing line, genuine-reason rule, procured-third-party rule, passage-scoped cure rule, no-inference/no-shelter rule, and dated-entry rule are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-978, T-977, T-976, T-975, T-973, T-969, T-965, T-963, T-952, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage: the cited rules say what this entry says they say.
 
 *T-979 trick built 2026-10-31 ~03:05 EDT by the decoder-create-loop.*
+
+## T-980 — The Unprocured Third-Party Holder Rule
+
+**The problem it answers.** T-979 judged a party-holder and a procured third-party holder alike, and left the unprocured third-party holder — a holder that moved on its own reasons, without party procurement, whose destruction then benefits a party — as an incomplete record, not decided. This rule decides that handling: what the panel may do with a gap no party caused that benefits one side anyway. Design only, never run.
+
+**Rule 1 — Procurement is shown, not suspected.** The alleging party shows procurement under T-969 (direction, payment, supply of situs, control of timing). Until shown, the destruction is an incomplete record under T-977: dependent passages are held, not relied on, until a substitute or independent check under T-975 cures them. Holding a passage is not a finding about the third party, which owes the proceeding nothing beyond what its own jurisdiction's law compels.
+
+**Rule 2 — Three facts do not show procurement, alone or together.** Timing coincidence, the holder's knowledge of the proceeding, and regime advantage are each consistent with an ordinary relocation, and together still are. Procurement needs an act by the party — a document, payment, instruction, or timing control — not a benefit to the party.
+
+**Rule 3 — Invitation is not procurement.** Notice that records might be needed, a preservation request, subpoena-response negotiation, or an ordinary vendor relationship is not procurement. Procurement begins at control over the move: supplying the situs, paying for it, drafting the governing retention policy, or timing it to a known destruction date. The line is control, drawn on documents.
+
+**Rule 4 — The holder's own record, and no inference from silence.** Volunteered holder documents (pre-existing schedule, vendor-exit notice, uniform policy) are weighed as the holder's material, under T-979's uniformity tell. A holder that volunteers nothing draws no adverse inference against any party: a non-party's silence is not a party's concealment. The gap is then judged on the copy search and substitution ladder.
+
+**Rule 5 — Benefit without charge cuts both ways.** The benefiting party is not charged with concealment, but gains nothing: dependent passages stay held, and neither side may argue from benefit alone — not "it was destroyed in the ordinary course, so it cannot have mattered," nor "the party gained, so the party arranged it."
+
+**Rule 6 — Three tools, no inference.** The copy search (counterpart, escrow, pre-move archive); the T-975 substitution ladder (independent check); and the holder's voluntary statement, weighed as the holder's own material — never as an independent check. A full verifiable holder account narrows the gap to what it does not cover; a selective account narrows nothing beyond what independent material confirms.
+
+**Rule 7 — Cure is holder-independent.** As in T-979: a counterpart's copy, a pre-move escrow deposit, or an independent verification cures a passage. A post-move summary the holder wrote, or a copy it chose to preserve while destroying the rest, is the holder's own material, not an independent check — because the risk guarded is selection, not motive.
+
+**Rule 8 — Dated entry before reliance.** Before any dependent passage is relied on, the record carries: holder and party relationships; the procurement showing attempted and its result; move facts so far as shown; benefit facts; volunteered holder material and its weight; copy search result; what remains unshown; and any substitute or check relied on. Reliance without that entry is an incomplete record under T-965's eighth rule. Later procurement showings or substitutes are handled prospectively under T-948 and T-963 — a procurement showing re-classes the gap to concealment under T-979; a substitute cures it passage by passage.
+
+**What this rule does not do.** It does not decide destruction of the rendering itself, holder-as-judge of a mandate, same-law-different-times conflicts, disputed treaty/convention resolution, the T-974 shared-instrument leftovers, the T-957 qualification-cure question, panel-member-alone direction beyond T-970, official-text interpretation under T-964, conflicting official texts under T-958's fourth rule, or the other open problems carried from T-941 through T-979 (scope, deputy-weighting, personal-floor, successor-credit, evidence-retention, attestation-taint beyond disavowal, qualification-register, repeat-undeliverable, inducement-record beyond disavowal, variant-judge, mixed-variant, late-offer beyond T-963, non-answer-answer, re-seek-window, bounce-classification, repeat-stale-record). Each is a later trick's problem.
+
+**Grading.** All eight rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-979, T-978, T-977, T-976, T-975, T-973, T-969, T-965, T-963, T-952, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage.
+
+*T-980 trick built 2026-10-31 ~03:20 EDT by the decoder-create-loop.*
