@@ -31767,3 +31767,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** All eight rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-981, T-980, T-979, T-978, T-977, T-975, T-973, T-969, T-965, T-963, T-952, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage.
 
 *T-982 trick built 2026-10-31 ~03:47 EDT by the decoder-create-loop.*
+
+## T-983 — The Same-Law-Different-Times Rule
+
+**The problem it answers.** T-978 decided conflicts between different laws; T-982 decided the holder who judges its own mandate. Both left open the conflict between two versions of the *same* law at different times — a retention period later extended, a preservation duty later lifted, a sealing bar later repealed. Which version governs which question, and what can a version change do to an act already done? Design only, never run.
+
+**Rule 1 — The act is judged by the law of its date; reliance by the law of its date.** Destruction is lawful or concealment under the version in force when it was done, not under a later version. Reliance is judged under the version in force when reliance is sought. The two can split without contradiction: destruction lawful in 2024 under the 2024 version, reliance refused in 2026 because the 2026 version demands a showing the destroyed records cannot supply. This is T-978's lawfulness-reliance split, carried into time.
+
+**Rule 2 — No revival, no pardon.** An extension creates a duty to preserve what still exists from its effective date forward; it creates no duty to recreate what was lawfully destroyed before, and no inference from its absence. A repeal ends the duty from its effective date forward; it does not pardon a breach committed while the duty was in force. Version changes move the line forward; they do not redraw the past.
+
+**Rule 3 — The version must be shown, with effective date and transition clause.** The party invoking a version produces its text, enactment date, effective date, and — where one exists — its transition clause, which governs over every general presumption here. A version invoked without its effective date is an assertion, not a showing. Where no transition clause exists, this rule's presumptions supply the gap, and the entry says a presumption, not a text, was relied on.
+
+**Rule 4 — Express retroactivity is honoured, narrowly, and never supplies missing text.** A clause expressly applying a later version to earlier acts is honoured for what it says and no further: retroactivity as to duties does not imply retroactivity as to blame, as to reliance, or as to closed proceedings. No clause, however broad, supplies text that no longer exists (T-981).
+
+**Rule 5 — A proceeding open across the change is governed version by version, act by act.** No single version is chosen for the whole proceeding. Each act is judged under the version in force when it was done; where a change falls between offer and acceptance, direction and execution, or showing and reliance, both dates are entered and each half judged under its own version.
+
+**Rule 6 — The gap between versions is governed by the version in force in the gap; a gap with no version is governed by preservation.** Repeal before replacement leaves days in which no version governs. Destruction then is judged on its own facts, with the absence of law entered as a fact, not an excuse. Where a replacement is pending and a proceeding is open, a party destroying during the gap destroys at its own risk.
+
+**Rule 7 — Conflicting versions on one passage: both texts entered, decided passage by passage.** T-978's conflict discipline applies inside one law's history: the conflict draws no inference, lawfulness and reliance split, passages depending on the mis-cited version fall, passages standing under either version stand. Neither version is declared "the law" for the case — both were, at different times.
+
+**Rule 8 — Dated entry before reliance on any passage touched by the change.** The record carries: the act and its date; both versions with text, enactment, and effective dates; the transition clause or the presumption relied on; any retroactivity claim in its exact words; the proceeding's open-or-closed state on the change date; what still exists and what is gone, with destruction dates; and the split judgment — lawfulness under the act-date version, reliance under the reliance-date version. Where a change reverses an earlier judgment, the reversal is entered passage by passage.
+
+**What this rule does not do.** It does not decide disputed treaty/convention resolution, the T-974 shared-instrument leftovers, the T-957 qualification-cure question, panel-member-alone direction beyond T-970, official-text interpretation under T-964, conflicting official texts under T-958's fourth rule, or the other open problems carried from T-941 through T-982 (scope, deputy-weighting, personal-floor, successor-credit, evidence-retention, attestation-taint beyond disavowal, qualification-register, repeat-undeliverable, inducement-record beyond disavowal, variant-judge, mixed-variant, late-offer beyond T-963, non-answer-answer, re-seek-window, bounce-classification, repeat-stale-record). Each is a later trick's problem.
+
+**Grading.** All eight rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-982, T-981, T-978, T-977, T-975, T-973, T-969, T-965, T-963, T-952, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage.
+
+*T-983 trick built 2026-10-31 ~04:03 EDT by the decoder-create-loop.*
