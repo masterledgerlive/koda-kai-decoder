@@ -13690,3 +13690,10 @@ Three targeted searches (SymPy/SciPy 2026 stack; symbolic regression / physics s
 - **Grades:** no new grade this pass; earlier grades stand (neutron-transport formula corroborated; chaotic forecasters corroborated; Navier-Stokes demo claimed, vendor release).
 
 **Run summary:** rotation #12 — quiet loop, second pass today; the whole window is unchanged since the morning filing. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-10-31 ~12:09 EDT, rotation #12):**
+- **Push result:** public entry pushed (1 pushed, 265 unchanged) via sync-github.py, exit 0. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** deferred — SSH probe failed, Shadow down; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1158.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #12 — quiet loop, second pass today; window unchanged since the morning filing. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
