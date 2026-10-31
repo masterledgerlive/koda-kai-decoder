@@ -13176,3 +13176,10 @@ Three targeted news-vertical searches (Enigma/Bletchley declassified history, Oc
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — quiet loop, whole window retells (September agentic-cipher wave: MVUEH, Opus-5 second Enigma, ADFGVX 1918 — seven-remaining count unchanged; Hut 11A exhibition already parked as texture; Tutte/Knox pieces settled-history retells). No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-31 ~00:07 EDT, rotation #1):**
+- **Push result:** sync-github.py "research: historical codebreaking (rotation #1) — quiet loop, September agentic-cipher wave retold only, seven-unbroken count unchanged, Hut 11A already parked, Tutte/Knox settled-history retells; no library growth; no verdicts" — exit 0 after ~8.3 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" (after one retried GET on report-cards/DRAFT-132-the-late-amendments-verdict.md) — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-2358.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #1 — quiet loop, whole window retells (September agentic-cipher wave: MVUEH, Opus-5 second Enigma, ADFGVX 1918 — seven-remaining count unchanged; Hut 11A exhibition already parked as texture; Tutte/Knox pieces settled-history retells). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
