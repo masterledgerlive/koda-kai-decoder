@@ -31252,3 +31252,25 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The drop-the-words test, other-grounds rule, partial-disavowal rule, effective-moment rule, re-adoption rule, and disavowal-entry rule are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-960, T-959, T-958, and T-948 is CORROBORATED as file-internal lineage.
 
 *T-961 trick built 2026-10-30 ~22:05 EDT by the decoder-create-loop.*
+
+## T-962 — The Tainted-Disavowal Rule
+
+**The problem it answers.** T-961 left open whether a disavowal procured by inducement, or entered under a tainted attestation, stands. This rule decides tainted disavowals only. Design, never run.
+
+**Two different taints, judged separately.** A disavowal is inducement-tainted where a benefit conditioned on the disavowal — payment, favour, threat, promise of re-engagement, or any outcome-contingent advantage — moved the panel to disavow. Ordinary argument, however forceful, is not inducement, and a benefit not conditioned on the disavowal does not taint it. A disavowal is attestation-tainted where its entry rests on a false, forged, or disqualified attestation. A clean attestation does not cleanse an induced decision, and a disinterested decision does not cleanse a false attestation — either taint alone holds the disavowal.
+
+**A tainted disavowal is held, not void and not effective.** From the filing of a taint motion, the disavowal takes no effect on any reliance class: passages invoked by the disavowed step remain relied on, and nothing falls back to the surveyed class by virtue of the tainted act. The hold preserves the status quo while the panel decides. It is never backdated: even if the panel finds no taint, the disavowal takes effect prospectively from the decision, never from the tainted statement. Reliance already earned before the motion keeps standing.
+
+**A motion on the record holds; an allegation does not.** Taint must be filed as a motion on the step, naming the inducement or attestation defect with testable particulars — who benefited, what was conditioned, or what the attestation misstates. Whispered taint or taint asserted without a motion holds nothing. Once filed, the hold applies until the panel decides the motion on the record, naming the taint found or not found.
+
+**A finding of taint leaves the disavowal ineffective until a clean re-adoption.** The panel may still disavow the step, but only by a fresh, clean act: a re-statement on the record by a panel free of the inducement, entered with a clean attestation, naming the step and ground. The cure is effective prospectively from the clean re-adoption; corrections made during the hold stay under the pre-disavowal class unless a fresh class decision and fresh reliance follow. A cure reusing the tainted attestation, or made by a panel still under the inducement, is no cure.
+
+**Disclosure does not cleanse an inducement.** A disclosed inducement is still an inducement — disclosure aids testing and cure but does not make the tainted disavowal effective, under T-952's discipline that panel payment does not cleanse a contingency. Likewise, re-attesting an induced disavowal cures only attestation taint, not decision taint; where both taints are present, both must be cured, each by its own clean act.
+
+**Every stage is entered before the affected class is relied on.** The dated entry names the step, the stage (taint motion, hold, finding, clean re-adoption), the effective date of each stage, and the passages held in reliance or released. No passage is relied on under a tainted disavowal's class at any time, and no passage is relied on under a post-disavowal class until the cure entry is made. Disputes over conditioning or attestation are entered as motions, decided on the record, with dispute and resolution recorded.
+
+**What this rule does not do.** It does not decide the self-supplied-source problem (T-958), receipt authentication (T-955), the T-957 qualification-cure question, or the other open problems carried forward from T-941 through T-961 — each for a later trick.
+
+**Grading.** The two-taints rule, hold rule, motion rule, clean-re-adoption rule, no-cleanse-by-disclosure rule, and taint-entry rule are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-961, T-960, and T-952 is CORROBORATED as file-internal lineage.
+
+*T-962 trick built 2026-10-30 ~22:31 EDT by the decoder-create-loop.*
