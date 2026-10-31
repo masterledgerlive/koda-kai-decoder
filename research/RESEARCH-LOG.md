@@ -13577,3 +13577,10 @@ Two targeted news searches (quantum error correction, October 2026; post-quantum
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0828.md, Rook's voice (one-line quiet-loop brief).
 
 **Run summary:** rotation #5 — working loop, one new secondary analysis logged as texture only (October 30 vendor-requirements note on the filed post-quantum transition final); rest re-covered (Quantinuum record, Willow magic state, Quantum X Labs, deadline cluster, October 22 federal filing still receipt-less nine days on). No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-10-31 ~08:35 EDT, rotation #5):**
+- **Push result:** public entry pushed by this run (1 pushed, 265 unchanged). This close-out block rides the next run's sync.
+- **Shadow mirror:** skipped — Shadow still down (SSH probe: link fine, host down). Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0828.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #5 — working loop, one new secondary analysis logged as texture only (CSA October 30 vendor-requirements note on the filed IR 8547 final); rest re-covered (Quantinuum record, Willow magic state, Quantum X Labs, deadline cluster, October 22 federal filing still receipt-less nine days on). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
