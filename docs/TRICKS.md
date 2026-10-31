@@ -32021,3 +32021,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **What this rule does not do.** It leaves open the repeat-stale-record problem and the repair-source problems from T-939/T-940, the deputy-weighting, personal-floor, successor-credit, evidence-retention, qualification-register, repeat-undeliverable, variant-judge, mixed-variant, and late-offer problems, and the scope question from T-936. Each is a problem for a later trick, not a gap to be filled by implication here.
 
 *T-992 trick built 2026-10-31 ~06:31 EDT by the decoder-create-loop.*
+
+## T-993 — The Repeat-Stale-Record Rule
+
+**The problem it answers.** T-939 finds a record stale when every channel bounces hard and allows one repair pass per seek, but never says what a repaired record bouncing hard again in a later seek means. Without an answer, the panel either skips the new seek's repair because the record was "already found stale," or erases the pattern by treating every later failure as a first finding. This rule answers only the repeat question: when a later all-hard log is a new finding, what the prior finding does and does not do, and what the record must show first. Design only, never run.
+
+**First, a repeat finding is a new finding.** A stale-record finding belongs to the seek whose log produced it. A later seek must find staleness afresh on its own all-hard log, classified under T-992. The prior finding is not evidence the current channels are dead, and a channel's old hard class never carries over: only a channel bouncing hard in the current seek counts, and one silent channel breaks the pattern.
+
+**Second, a same-seek re-bounce is not a repeat.** After the single repair pass, fresh hard bounces on repaired channels build an unreachability showing on the repaired record alone, under T-939. The repeat question arises only across seeks. Calling a same-seek re-bounce a repeat mislabels the track and draws consequences — a second repair pass, a hold for repair instead of unreachability — from the wrong rule.
+
+**Third, each new seek earns its own repair pass.** The one-pass bound binds per seek, not per record. A record repaired in an earlier seek arrives at the later seek as a repaired record, not one excused from repair: on a fresh all-hard log the panel owes the later seek its own pass from the record's own source, logged like an attempt. It may not run two passes in the later seek because the record has failed twice.
+
+**Fourth, an unrepaired repeat is not a repeat at all.** If no completed repair pass stands between the findings — the earlier repair unfinished when its window closed, or never run — the later all-hard log yields no second finding. It leaves the original finding still owed its repair, and the ledger must say so, or the panel manufactures a pattern out of its own unfinished work.
+
+**Fifth, repetition never becomes unreachability.** A record found stale three times is a map that failed three times, not a translator shown silent. Unreachability opens only after a completed repair pass within a seek, on the repaired channels' silence or fresh hard bounces. Upgrading repetition into unreachability corrupts the scarcity chain built on it.
+
+**Sixth, the third consecutive repeat requires a pattern entry.** Three findings in a row, with a completed repair pass between each pair and no intervening contact, must be entered naming all three findings, the repairs between them, and the channels that failed in each. The entry expands nothing — same source, one pass per seek — but stops the fourth seek from starting ignorant. It is not a standing flag, and it does not decide the repeat-undeliverable problem, which stays open.
+
+**Seventh, the repeat entry carries eight items before any reliance:** the current all-hard log with T-992 classifications, the prior findings by seek and date, the repair passes between them with source and result, whether the finding is a repeat or the original still owed repair, the channels that failed now, any survivors that broke the pattern, the hold reason supported, and the current finding's date. Without the repair between the findings, the record is incomplete and the consequence is re-drawn.
+
+**Eighth, repetition decides only repetition, and travels only as far as the bounce rules travel.** It does not settle which source counts as the record's own source, and it stays notice-only unless the scope answer from T-936 extends the channel rules beyond notices.
+
+**Grading.** Lineage to T-939, T-938, T-937, T-992, and T-965 is CORROBORATED as file-internal. The new-finding-per-seek, same-seek-exclusion, per-seek-repair, unrepaired-repeat, never-unreachability, pattern-entry, and eight-item-entry rules are new design, SPECULATION until a gauntlet run tests them. Nothing here has been run; no record is evidenced as stale, repaired, or stale again by this entry.
+
+**What this rule does not do.** It leaves open the repair-source problems from T-939/T-940, the deputy-weighting, personal-floor, successor-credit, evidence-retention, qualification-register, repeat-undeliverable, variant-judge, mixed-variant, and late-offer problems, and the scope question from T-936. Each is a problem for a later trick, not a gap to be filled by implication here.
+
+*T-993 trick built 2026-10-31 ~06:47 EDT by the decoder-create-loop.*
