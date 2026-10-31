@@ -13767,3 +13767,10 @@ Two targeted searches (Wireshark 5.0 / Stratoshark release news; new network pro
   - Sources: https://spectrum.ieee.org/mesh-network-interoperable-thread ; https://www.electronics-lab.com/news/what-is-dect-nr-examining-the-new-5g-non-cellular-mesh-standard/
 
 **Run summary:** rotation #3 — quiet loop, one new log-only item (Censys August 2026 scanner census: KNX/IP, Tailscale DERP, TVT camera control — coverage, not dissection); rest re-covered (Wireshark 5.0.0rc1 retold via new SANS-ISC carriers, final still dateless past SharkFest EU; Stratoshark 1.0.0rc1 still unannounced; Thread 1.4 / Matter convergence and DECT NR+ restated). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-10-31 ~14:10 EDT, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — quiet loop, one new log-only item (Censys August 2026 scanner census: KNX/IP, Tailscale DERP, TVT — coverage not dissection), Wireshark 5.0.0rc1 retold via new SANS-ISC carriers, final still dateless; no library growth; no verdicts" — exit 0 after ~5.3 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** deferred — SSH probe failed (Shadow down); next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1400.md, Rook's voice (quiet-loop brief).
+
+**Run summary (close-out):** rotation #3 — quiet loop, one new log-only item (Censys August 2026 scanner census: KNX/IP, Tailscale DERP, TVT — coverage, not dissection); rest re-covered (Wireshark 5.0.0rc1 retold via new SANS-ISC carriers, final still dateless past SharkFest EU; Stratoshark 1.0.0rc1 still unannounced; Thread 1.4 / Matter convergence and DECT NR+ restated). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
