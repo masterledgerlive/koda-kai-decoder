@@ -31716,3 +31716,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** All eight rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-979, T-978, T-977, T-976, T-975, T-973, T-969, T-965, T-963, T-952, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage.
 
 *T-980 trick built 2026-10-31 ~03:20 EDT by the decoder-create-loop.*
+
+## T-981 — The Destroyed Rendering Rule
+
+**The problem it answers.** T-977 through T-980 decided destruction of link records — the evidence a rendering cites — while assuming the rendering itself survived. This rule decides the left-open case: destruction of the rendering itself. What remains when the panel's own work product is gone, and what can a reconstruction restore? Design only, never run.
+
+**Rule 1 — Different losses.** A destroyed link record leaves a gap inside a surviving rendering, held or cured under T-975 and T-977. A destroyed rendering leaves no passage to hold or cure and nothing to rely on until a reconstruction is entered and adopted. The loss is judged on what was destroyed, not on the destroyer's motive.
+
+**Rule 2 — A surviving copy stands only if shown to be the rendering.** A filed, certified, escrow-deposited, or authenticated counterpart copy stands where its identity is shown (filing stamp, certification, deposit receipt, chain of custody). A working draft, member's notes, deliberation transcript, or uncertified printout is reconstruction material, not the rendering, however close its wording.
+
+**Rule 3 — Partial destruction is passage-scoped only where severability is shown.** An intact passage stands only if self-contained: its meaning, entry, and adoption do not depend on a destroyed passage. A passage leaning on a destroyed passage for a premise, definition, or scope limit falls with it. Survivors are relied on as fragments, marked as such.
+
+**Rule 4 — The destroyer matters for blame, never for existence.** Panel, party, procured-holder, and unprocured-holder destruction are judged for concealment as in T-977, T-979, and T-980 — but no judgment restores the text. Blame decides what the destroyer may not argue; it never supplies missing text, and no adverse inference writes contents into the gap.
+
+**Rule 5 — The panel's memory is not a copy.** Members' recollection and agreement are not a surviving copy and not a reconstruction until entered as material and adopted as a new rendering. Recollection may seed a reconstruction; it may never stand in for one, or reliance on it is an incomplete record under T-965's eighth rule.
+
+**Rule 6 — A reconstruction is a new rendering, adopted anew, dated as new.** Assembled from drafts, notes, transcripts, fragments, and copies, it is checked passage by passage, seam-marked as verbatim-shown, paraphrase-shown, or inferred, and adopted on the adoption date — not backdated. Passages with no supporting material are omitted, and the omission is entered. A reconstruction hiding its seams is a new rendering adopted on a false record.
+
+**Rule 7 — Destruction after reliance is prospective.** Passages already relied on stand; they cannot be extended — quoted for a new purpose, applied to a new proceeding, cited for a further step — until a surviving copy is shown or a reconstruction is adopted. The past stands, the future waits.
+
+**Rule 8 — Dated entry before reliance on any copy or reconstruction.** The record carries: what was destroyed and by whom, when, and under what act; what survives and the identity showing for any claimed copy; which passages survive and why each is self-contained; the reconstruction with seam-marking and adoption date; what remains omitted; and the concealment or incomplete-record judgment. A later-found surviving copy governs the passages it covers; differing reconstruction passages are re-entered, not silently corrected.
+
+**What this rule does not do.** It does not decide holder-as-judge of a mandate, same-law-different-times conflicts, disputed treaty/convention resolution, the T-974 shared-instrument leftovers, the T-957 qualification-cure question, panel-member-alone direction beyond T-970, official-text interpretation under T-964, conflicting official texts under T-958's fourth rule, or the other open problems carried from T-941 through T-980 (scope, deputy-weighting, personal-floor, successor-credit, evidence-retention, attestation-taint beyond disavowal, qualification-register, repeat-undeliverable, inducement-record beyond disavowal, variant-judge, mixed-variant, late-offer beyond T-963, non-answer-answer, re-seek-window, bounce-classification, repeat-stale-record). Each is a later trick's problem.
+
+**Grading.** All eight rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-980, T-979, T-978, T-977, T-976, T-975, T-973, T-969, T-965, T-963, T-952, T-948, T-953, and T-941 is CORROBORATED as file-internal lineage.
+
+*T-981 trick built 2026-10-31 ~03:35 EDT by the decoder-create-loop.*
