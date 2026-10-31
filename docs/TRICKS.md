@@ -31232,3 +31232,23 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The adopted-reasoning, draft-at-adoption, separate-opinion, words-as-reason, prospective-disavowal, and step-identification rules are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-959, T-958, T-956, T-957, T-948, and T-954 is CORROBORATED as file-internal lineage.
 
 *T-960 trick built 2026-10-30 ~21:48 EDT by the decoder-create-loop.*
+
+## T-961 — The Express-Disavowal Close-Cases Rule
+
+**The problem it answers.** T-960 left open what counts as express disavowal in close cases: a rewording that narrows a ground, and a later decision resting on other grounds without withdrawing the first. This rule decides those cases only. Design, never run.
+
+**Narrowing rewording: disavowal only if the passage's words drop out.** A rewording that narrows a ground but still uses the passage's words as a reason is not a disavowal — reliance continues on the narrowed scope, and future reliance is judged on the narrowed text. A rewording that drops the passage's words as a reason is a disavowal by replacement, effective prospectively from the adoption of the reworded text. The claimant must show the drop word by word, not merely that the ground got shorter.
+
+**Later decision on other grounds: not a disavowal.** A later decision on different grounds, without withdrawing the first ground, leaves the first ground standing and its passages relied on. Only an express statement that the first ground is withdrawn, superseded, or no longer relied on disavows it. A party's claim of logical incompatibility is a motion on the step, decided on the record — not a self-executing disavowal.
+
+**Partial disavowal reaches only the ground named.** Disavowing one ground of a multi-ground step leaves passages invoked by surviving grounds relied on, including passages invoked by both. A disavowal naming no ground reaches the whole step only where the step has a single ground; otherwise it is incomplete until the panel specifies the ground.
+
+**Effective moments, prospective only.** Disavowal by replacement takes effect at the replacement's adoption; disavowal by withdrawal at its statement on the record. Neither backdates: corrections already relied on are not undone, and corrections not yet relied on fall back to the surveyed class from the effective moment. Re-adoption after disavowal resumes reliance only from the re-adoption — intervening corrections need a fresh class decision and fresh reliance, not retroactive cover.
+
+**Every change is entered before the new class is relied on.** The dated entry names the step, the form of change (withdrawal, narrowing replacement, later-decision statement, re-adoption), the effective date, and the passages falling back or returning. The fallback applies from the effective moment, but reliance on the post-disavowal class waits for the entry. Disputes over a drop or a withdrawal are entered as motions, decided on the record, with dispute and resolution recorded.
+
+**What this rule does not do.** It does not decide the self-supplied-source problem (T-958), receipt authentication (T-955), the T-957 qualification-cure question, or whether an inducement-procured or taint-entered disavowal stands — each for a later trick. It does not revisit the other open problems carried forward from T-941 through T-960.
+
+**Grading.** The drop-the-words test, other-grounds rule, partial-disavowal rule, effective-moment rule, re-adoption rule, and disavowal-entry rule are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-960, T-959, T-958, and T-948 is CORROBORATED as file-internal lineage.
+
+*T-961 trick built 2026-10-30 ~22:05 EDT by the decoder-create-loop.*
