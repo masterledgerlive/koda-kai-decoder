@@ -13361,3 +13361,10 @@ Two targeted news-vertical searches (agent sandbox isolation / gVisor / Firecrac
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9 — quiet loop, two new log-only items (Chrome PolicyContainer sandbox escape CVE-2026-113126, corroborated as disclosed, browser boundary not agent boundary; Control Plane October 26 sandbox comparison, Kata microVMs with no timeout cap, claimed vendor guide), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-10-31 ~04:05 EDT, rotation #9):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0358.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #9 — quiet loop, two new log-only items (Chrome PolicyContainer escape CVE-2026-113126, corroborated as disclosed; Control Plane Kata comparison, claimed vendor guide), rest re-covered. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #10 (rogue-agent threat intel).
