@@ -13746,3 +13746,10 @@ Two targeted news-vertical searches (new video codec AV2/VVC/JPEG XL/FFmpeg rele
 - **Grades:** corroborated (VDD26 Part 3 conference-day sessions — first-hand conference report); claimed (Fedora VLC HEVC packaging gap — single how-to guide); re-carry only (everything else).
 
 **Run summary:** rotation #2 — quiet loop, two log-only texture notes (VDD26 Part 3 conference-day sessions; Fedora VLC HEVC packaging gap); whole window otherwise re-covered (AV2 October 22 press cycle echoed again, JPEG XL browser datum retold with no grade upgrade, VLC 3.0.24 restated, FFmpeg 9.1 still in release process, no Google voxel-class codec). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-10-31 ~13:39 EDT, rotation #2):**
+- **Push result:** public entry pushed (1 pushed, 265 unchanged) via sync-github.py, exit 0. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** deferred — SSH probe failed, Shadow down; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1327.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #2 — quiet loop, two log-only texture notes (VDD26 Part 3 conference-day sessions; Fedora VLC HEVC packaging gap); whole window otherwise re-covered (AV2 October 22 press cycle echoed again, JPEG XL browser datum retold with no grade upgrade, VLC 3.0.24 restated, FFmpeg 9.1 still in release process, no Google voxel-class codec). No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
