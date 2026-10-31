@@ -32047,3 +32047,29 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **What this rule does not do.** It leaves open the repair-source problems from T-939/T-940, the deputy-weighting, personal-floor, successor-credit, evidence-retention, qualification-register, repeat-undeliverable, variant-judge, mixed-variant, and late-offer problems, and the scope question from T-936. Each is a problem for a later trick, not a gap to be filled by implication here.
 
 *T-993 trick built 2026-10-31 ~06:47 EDT by the decoder-create-loop.*
+
+## T-994 — The Standing-Flag Rule
+
+**The problem it answers.** T-993's pattern entry records three consecutive stale findings so the fourth seek does not start ignorant, but it expressly does not mark the translator and does not decide whether repeated undeliverability earns a standing flag. Without an answer, one panel treats the pattern as a mark and skips steps the record was "already flagged" for, while another files the pattern and starts the next seek as ignorant as the first. This rule answers only the flag question: when a flag may be entered, what it is, what it does, and when it dies. Design only, never run.
+
+**First, a flag is a notice on the record, not a mark on the translator, and it earns nothing.** It says "this record has failed this way before — read the pattern before you act." It is not evidence the translator is unreachable or at fault, and it earns no shortcut, no skipped step, no extended window, and no presumption. A panel that treats a flag as a finding has mistaken a notice for a verdict.
+
+**Second, a flag requires a pattern entry plus a dead repair.** Both conditions must hold: a T-993 pattern entry stands (three consecutive findings, completed repairs between each pair, no intervening contact), and the most recent seek's completed repair pass returned no live channel from the record's own source. Repetition without a completed repair never qualifies — an unrepaired record cannot be flagged for failing after repair it never received. A repair that returned a live channel which then went silent belongs to the unreachability track, not to the flag.
+
+**Third, a flag is entered, never automatic.** The pattern entry does not itself raise a flag. The panel enters a dated flag entry naming the pattern it rests on; a pattern without a flag entry is no flag, a deputy's note is no flag, and a flag entered on a pattern lacking a completed repair between some pair is void on its face.
+
+**Fourth, the flag's only effects are a reading duty and a carried notice.** A later seek's panel must read the pattern entry before its first attempt, and the log must show the reading by date before the first attempt is logged; attempts logged before the reading are re-drawn once it is entered. Where a successor record for the same translator is opened, the flag notice travels on the new record's face with the pattern's reference. Nothing else changes: the later seek still owes its own fresh log, its own T-992 classification, its own finding, and its own single repair pass from the record's own source.
+
+**Fifth, a flag expires on contact or on a live repair, and expiry is entered.** The first successful contact through any channel, or any repair pass returning a live channel from the record's own source, kills the flag. The panel enters a dated expiry entry naming the flag, the cause, and the channel or source that ended it, and the two entries travel together. After expiry, a new flag requires a new pattern entry built on findings after the expiry; one new failure is a first finding, not a fourth.
+
+**Sixth, a flag never supplies a consequence by itself.** It is never a hold reason, floor evidence, a scarcity link, an attempt, a classification, or a finding. A hold still needs the current seek's own finding on its own log. Reliance on a flag alone — "held because flagged" — is reliance on history in place of evidence, and the consequence is re-drawn.
+
+**Seventh, the flag entry carries six items before the reading duty can be charged:** the pattern entry by seek and date, the three findings and the repairs between them with sources and results, the dead repair in the most recent seek with source consulted, the channels that failed in each finding, the date and panel of entry, and the expiry conditions. Without them the record is incomplete and the reading duty is unenforceable.
+
+**Eighth, a flag decides only the flag, and travels only as far as the bounce rules travel.** It does not settle which source counts as the record's own source, nor successor-credit beyond the notice carriage above, and it stays notice-only unless the scope answer from T-936 extends the channel rules beyond notices.
+
+**Grading.** Lineage to T-993, T-939, T-992, T-937, and T-965 is CORROBORATED as file-internal. The notice-not-mark, pattern-plus-dead-repair, entered-never-automatic, reading-duty-and-carried-notice, expiry, never-a-consequence, and six-item-entry rules are new design, SPECULATION until a gauntlet run tests them. Nothing here has been run; no record is evidenced as flagged or expired by this entry.
+
+**What this rule does not do.** It leaves open the repair-source problems from T-939/T-940, the deputy-weighting, personal-floor, successor-credit, evidence-retention, qualification-register, variant-judge, mixed-variant, and late-offer problems, and the scope question from T-936. Each is a problem for a later trick, not a gap to be filled by implication here.
+
+*T-994 trick built 2026-10-31 ~07:05 EDT by the decoder-create-loop.*
