@@ -31274,3 +31274,27 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **Grading.** The two-taints rule, hold rule, motion rule, clean-re-adoption rule, no-cleanse-by-disclosure rule, and taint-entry rule are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-961, T-960, and T-952 is CORROBORATED as file-internal lineage.
 
 *T-962 trick built 2026-10-30 ~22:31 EDT by the decoder-create-loop.*
+
+## T-963 — The Self-Supplied-Source Rule
+
+**The problem it answers.** T-958 and T-956 decided who corrects a cited authority's or evidence translation, and T-940 left open whether a translator's own offer of corrected channels is a repair source or a late offer — but none decided the prior question: where the rendering was supplied by a party itself, does it count as authority, evidence, or repair at all? This rule decides self-supplied sources only. Design, never run.
+
+**Self-supplied means supplied by a party or at a party's direction.** A rendering is self-supplied where furnished by a party, its counsel or agent, or a translator engaged by that party for this proceeding. A panel-appointed translator paid from panel funds, and a published official translation a party merely cites, are not self-supplied — the test is direction, not money, under T-952 and T-958. Where direction is disputed, the dispute is entered as a motion and decided on the record, and until decided the rendering is treated as self-supplied.
+
+**A self-supplied rendering is a proffer, never authority on its own words.** A party-supplied translation, evidence rendering, or corrected channel enters as the supplier's proffer of what the source says, what the evidence means, or where the translator can be reached — not as the source, the evidence, or the repair. It frames the question and directs search, but a panel may not adopt a proposition on its words alone. Argument about a source is not the source.
+
+**A proffer converts only by an independent act, never by repetition.** Conversion happens when a different translator, disinterested under T-920/T-952, renders the passage fresh from the source under T-958, or where a published official translation governs under T-958. A source check does not convert — a reading is never corroboration (T-954/T-958) — and neither does a second party-supplied rendering, a re-filing, or the party's own attestation of faithfulness: the same proffer in new dress.
+
+**Surveyed is the only class where a self-supplied rendering stands unconverted.** A merely listed or background passage may stand as survey without conversion, but nothing may be relied on from it. The moment a party relies on it as authority or proof, it changes class and conversion must happen before reliance; a correction already made by the supplier is re-made by a different translator. Calling a passage "background" while the reasoning depends on its words is reliance — class follows the work, not the label.
+
+**A self-supplied repair source is a lead, not a repair and not a late offer.** A translator's own offer of corrected channels is a repair-source lead under T-940: the repair is successful contact through those channels, shown by an authenticated receipt (T-951) after diligent attempt (T-938). Until contact succeeds the channel is unrepaired. Nor is it a T-937 late offer — that is an offer to serve after a decline, while a channel offer is information about where owed service can be had. A lead that fails on diligent attempt is spent, not held.
+
+**A self-supplier never cures their own mistranslation into authority.** A supplier's own correction of a shown mistranslation is a new proffer, not a cure, even where it concedes the error in full. If no different translator can be found, that is entered under T-937/T-938, the passage stays unrelied on, and the panel decides without it or appoints the translator — there is no third route through the supplier's corrected text.
+
+**Self-supply must be marked before reliance; unmarked self-supply is handled prospectively.** The dated entry names the supplier, their relationship to the proceeding, the class (proffer, surveyed, or converted authority), and the converting act where claimed. Reliance already earned before an omission was found stands; the rendering is re-classed as a proffer, and no further reliance follows until conversion. Disputes are entered as motions and decided on the record (T-960).
+
+**What this rule does not do.** It does not decide the direction problem (how much direction counts where a translator claims independence), the exact-match problem (whether a self-supplied rendering matching an official text word for word counts without conversion), whether a non-party witness's self-supplied rendering is a proffer or testimony (T-957), or the other open problems carried forward from T-941 through T-962 — each for a later trick.
+
+**Grading.** The direction test, proffer-not-authority rule, independent-conversion rule, surveyed-only standing rule, lead-not-repair rule, no-self-cure rule, and marking rule are SPECULATION — a design until a gauntlet run tests them; nothing here has been run. Lineage to T-958, T-956, T-957, T-954, T-952, T-920, T-921, T-937, T-938, T-939, T-940, T-951, T-960, and T-962 is CORROBORATED as file-internal lineage.
+
+*T-963 trick built 2026-10-30 ~22:46 EDT by the decoder-create-loop.*
