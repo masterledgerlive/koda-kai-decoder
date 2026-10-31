@@ -13597,3 +13597,11 @@ Two targeted news searches (photonic chips / free-space optical comms; wireless 
 - **Library changes:** two entries grown into the catalogue's photonic section.
 
 **Run summary:** rotation #6 — working loop, two photonic advances grown (all-optical silicon processing chips at eight hundred gigabits per second across eight channels, corroborated; NavTech OpticSpectra ten-G QKD, claimed); rest re-covered; Protostar and Reason-1 still without a published power transfer. Next: rotation #7 (predictive math).
+## 2026-10-31 ~09:27 EDT — decoder-research-loop — Predictive math (rotation #7):
+
+Two targeted news searches (prediction-market accuracy; AI forecasting tournaments, October 2026) plus standing-record checks. **Quiet loop — no new forecast, no new calibration study, no new method, no status change on any watch item; every carrier in this window resolves to a filed item.** Decoder Desk brief written (podcasts/decoder-briefs/2026-10-31-0927.md, Rook's voice, one-line quiet-loop brief). Next: rotation #8 (agent detection vs anti-detection).
+
+- **Re-covered, no status change:** the PredictDesks cross-platform accuracy study (three hundred fifty-eight thousand resolved markets, favourite won about seventy-seven percent a day out, only about sixty-six percent when genuinely unsure); the Fed-decision calibration ledger at fifteen of fifteen after the October twenty-eighth hold; the Summer twenty twenty-six Metaculus Cup bot sweep (Laertes first, ManticAI second, ahead of all human entrants); the Metaculus Q3 Benchmark result (professional median beat all bots answering over half the weighted questions); the Preseen Symbiosis hybrid datum (human-guided tenth, baseline bot eleventh — oversight barely moved the bot); the Kalshi primary-overconfidence study; the million-question calibration paper; the Brennan Center voter-perception study.
+- **Watch items, no change:** Election Day November third remains the resolution event for the midterm tick series; the December eighth and ninth Fed meeting remains the next calibration-ledger event.
+
+**Run summary:** rotation #7 — quiet loop, no new predictive-math item; the whole window re-covered as filed. Next resolution events unchanged: Election Day November 3 and the December 8–9 Fed meeting. No library growth. No verdicts, nothing broadcast.
