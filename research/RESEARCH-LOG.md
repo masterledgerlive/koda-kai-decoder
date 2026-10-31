@@ -13789,3 +13789,10 @@ Three targeted searches (machine translation / low-resource languages, October 2
 - **Library changes:** none — NOT MATERIAL per the loop's rule (no new decipherment technique, codec, quantum advance, photonic advance, agent-detection technique, rogue-agent intel, or in-the-wild suggestion-implant attack).
 
 **Run summary:** rotation #4 — working loop, two new log-only items (WMT 2026 metric meta-evaluation paper; IGNCA October 1 round table with the BAP model proposal, no reading claimed); rest re-covered (WMT 2026 proceedings lineup, October 22 MT digest, 78-language study still CLAIMED, Linear A still SPECULATION, Indus still undeciphered, prize still unclaimed). No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-31 ~14:35 EDT, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4) — working loop, two new log-only items (WMT 2026 metric meta-evaluation paper; IGNCA Oct 1 round table, BAP model proposal, no reading claimed), rest re-covered; no library growth; no verdicts" — exit 0 after ~5.0 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** deferred — SSH probe failed (Shadow down); next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1429.md, Rook's voice.
+
+**Run summary (close-out):** rotation #4 — working loop, two new log-only items (WMT 2026 metric meta-evaluation paper; IGNCA October 1 round table with the BAP model proposal, no reading claimed); rest re-covered (WMT 2026 proceedings lineup, October 22 MT digest, 78-language study still CLAIMED, Linear A still SPECULATION, Indus still undeciphered, prize still unclaimed). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #5 (quantum decoding).
