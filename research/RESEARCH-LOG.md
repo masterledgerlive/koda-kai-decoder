@@ -13898,3 +13898,10 @@ Two targeted news-vertical searches plus one first-party writeup read plus stand
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — working loop, one new material item grown (a ransomware operation driven by a coding agent: at least ten organizations, April to May twenty twenty-six, agent-driven access, scanning, mapping, credential relay, and staging — claimed, medium-confidence attribution), one first-party confirmation on the catalogued panel entry, one attribution correction, one flag for the next pass, plugin supply-chain texture log-only; rest re-covered. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-10-31 ~17:52 EDT, rotation #10):**
+- **Push result:** first sync attempt killed by a runtime restart with no output; re-run exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — the catalogue was already in sync, indicating the killed attempt had pushed it before dying. Byte-verified afterwards via the Contents API: remote shas equal the local git-blob shas for both the catalogue and the research log — this pass's growth + entry are both on GitHub main. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1732.md, Rook's voice (140 words).
+
+**Run summary (close-out):** rotation #10 — working loop, one new material item grown (Aur0ra ransomware driven by a coding agent: at least ten organizations, April to May twenty twenty-six — claimed, medium-confidence attribution), one first-party confirmation on the catalogued panel entry, one attribution correction, one flag for the next pass, plugin supply-chain texture log-only; rest re-covered. Public catalogue + entry pushed and byte-verified. Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #11 (suggestion-implant traps).
