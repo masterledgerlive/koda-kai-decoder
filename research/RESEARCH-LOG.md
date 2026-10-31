@@ -13156,3 +13156,10 @@ Three targeted news-vertical searches (Kryptos K4, October 2026; Voynich manuscr
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13 — quiet loop, nothing new to record beyond one retell carrier (DongriArchive K4 piece, August 2026, restating the filed found-versus-solved distinction); whole window re-covered (K4 still found-not-solved, Voynich singulion wave with no accepted reading, Indus million-dollar prize still unclaimed, Beale static). No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-30 ~23:35 EDT, rotation #13):**
+- **Push result:** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13) — quiet loop, one new retell carrier (DongriArchive K4 piece, Aug 2026, filed distinction only), rest re-covered; no library growth; no verdicts" — exit 0 after ~5.4 minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-30-2328.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #13 — quiet loop, nothing new to record beyond one retell carrier (DongriArchive K4 piece, August 2026, restating the filed found-versus-solved distinction); whole window re-covered (K4 still found-not-solved, Voynich singulion wave with no accepted reading, Indus million-dollar prize still unclaimed, Beale static). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
