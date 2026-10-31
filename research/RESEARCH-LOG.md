@@ -13708,3 +13708,10 @@ Three targeted searches (Kryptos K4, Voynich singulion study, Indus script prize
 - **Grades:** no new grade this pass; earlier grades stand (K4 found-not-solved corroborated; Voynich binding study corroborated as published, still a proposal; Indus prize open, no award).
 
 **Run summary:** rotation #13 — quiet loop, second pass today; one new retell carrier only, whole window unchanged since the morning filing. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-10-31 ~12:37 EDT, rotation #13):**
+- **Push result:** public entry pushed (1 pushed, 265 unchanged) via sync-github.py, exit 0. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** deferred — SSH probe failed, Shadow down; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1228.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #13 — quiet loop, second pass today; one new retell carrier only, whole window unchanged since the morning filing. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
