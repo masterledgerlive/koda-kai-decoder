@@ -13726,3 +13726,10 @@ Two targeted news-vertical searches (Enigma/Bletchley Park, October 2026; classi
 - **Grades:** no new grade this pass; earlier grades stand (September wave corroborated; Polish-names research verified as to the Trust release's contents).
 
 **Run summary:** rotation #1 — quiet loop, second pass today; one small new carrier only (Bletchley Park Podcast oral-history episode), whole window otherwise unchanged since the morning filing. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-10-31 ~13:07 EDT, rotation #1):**
+- **Push result:** public entry pushed (1 pushed, 265 unchanged) via sync-github.py, exit 0. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** deferred — SSH probe failed, Shadow down; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1258.md, Rook's voice (quiet-loop one-liner).
+
+**Run summary (close-out):** rotation #1 — quiet loop, second pass today; one small new carrier only (Bletchley Park Podcast oral-history episode), whole window otherwise unchanged since the morning filing. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
