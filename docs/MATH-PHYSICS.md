@@ -285,6 +285,22 @@ dynamics. Honest result from the authors: improvements real but non-uniform —
 the LLM term is a configurable prior/regularizer, not a guaranteed win.
 Source: https://www.nature.com/articles/s41598-026-35327-6
 
+**PISR — search-free foundation model for symbolic regression (CLAIMED —
+Research Square preprint, posted July 28, 2026, DOI
+10.21203/rs.3.rs-10495716/v1; abstract-level this pass, preprint not read
+first-party, figures the authors' own).** Symbolic regression recast as
+generation inside a pre-trained, contrastively-aligned formula–data manifold
+carrying a physics prior learned from a physics-derivation corpus: one
+forward pass generates candidate formula latents by flow matching, retrieves
+others from a real-formula library, decodes and constant-fits them, and
+returns the best. Baselines on identical point clouds under the SRBench
+symbolic-accuracy metric: PySR, PSE, PhyE2E, GenSR. Name-collision warning:
+this PISR (Physics-Informed Symbolic Regression, foundation model, preprint)
+is NOT the PiSR entry above (LLM knowledge in the loss function,
+peer-reviewed). Watch lines: peer review, independent replication, any
+release of the pre-trained manifold.
+Source: https://www.researchsquare.com/article/rs-10495716/v1.pdf
+
 **Decoder relevance:** symbolic regression is the decoder pointed at physics —
 recovering the hidden law from noisy observations is cryptanalysis with a lab
 notebook. The "scout + engine" split mirrors the Gauntlet's own architecture
