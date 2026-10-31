@@ -13697,3 +13697,14 @@ Three targeted searches (SymPy/SciPy 2026 stack; symbolic regression / physics s
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1158.md, Rook's voice (quiet-loop one-liner).
 
 **Run summary (close-out):** rotation #12 — quiet loop, second pass today; window unchanged since the morning filing. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+## 2026-10-31 ~12:28 EDT — decoder-research-loop — Unsolved ciphers & prize bounties (rotation #13):
+
+Three targeted searches (Kryptos K4, Voynich singulion study, Indus script prize) plus standing-record checks. **Quiet loop — second pass on this topic today, and the window is unchanged since the morning filing: one new retell carrier only, no new decipherment, no status change on any watch item. No library growth.** No verdicts, nothing broadcast.
+
+- **New carrier, retell only — an Ancient Origins piece on the Voynich manuscript's binding:** retells the published study arguing the manuscript was made of loose folded sheets rather than nested bundles, rearranged in the fifteenth century by someone who could not read the text — with the caveat intact that this does not decipher the manuscript.
+  - Source: https://www.ancient-origins.net/news-history-archaeology/voynich-manuscript-order-00103291
+- **Re-covered, no status change:** Kryptos K4 still found but not solved as a cipher (three sections solved, the final ninety-seven-character section unsolved as of late October, no method published, no payout); the Voynich manuscript still unread (the binding study remains a proposal awaiting independent replication, no accepted reading); the Indus script prize still unclaimed (the January 2025 announcement restated only, expert acceptance required, no claimant, no bilingual find); the Beale ciphers static.
+  - Sources: https://medium.com/@mrsk91734/kryptos-the-cias-unsolved-code-and-the-k4-mystery-488a90dfd728 ; https://archaeologymag.com/2026/10/voynich-manuscript-was-bound-in-the-wrong-order/ ; https://journosnews.com/the-1-million-challenge-can-you-crack-this-ancient-code/
+- **Grades:** no new grade this pass; earlier grades stand (K4 found-not-solved corroborated; Voynich binding study corroborated as published, still a proposal; Indus prize open, no award).
+
+**Run summary:** rotation #13 — quiet loop, second pass today; one new retell carrier only, whole window unchanged since the morning filing. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
