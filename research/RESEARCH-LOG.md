@@ -13715,3 +13715,14 @@ Three targeted searches (Kryptos K4, Voynich singulion study, Indus script prize
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1228.md, Rook's voice (quiet-loop one-liner).
 
 **Run summary (close-out):** rotation #13 — quiet loop, second pass today; one new retell carrier only, whole window unchanged since the morning filing. No library growth. Public entry pushed. Shadow down, mirror deferred. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+## 2026-10-31 ~12:58 EDT — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Two targeted news-vertical searches (Enigma/Bletchley Park, October 2026; classical cipher cryptanalysis, October 2026) plus standing-record checks. **Quiet loop — second pass on this topic today, and the window is unchanged since the morning filing: one small new oral-history carrier only, no new decipherment, no status change on any watch item. No library growth.** No verdicts, nothing broadcast.
+
+- **Small item, new to record — Bletchley Park Podcast episode "Fond Memories" (October 23, 2026):** the podcast team revisited its own interview archive — more than one hundred and sixty veterans interviewed since 2012 — and selected eight memorable voices recalling life at Bletchley Park. Oral-history texture, not a codebreaking event. The same listing notes the September episode on Polish Enigma work, tying back to the Trust's July research identifying dozens more Polish contributors.
+  - Source: https://moon.fm/itunes/550861736
+- **Re-covered, no status change:** the September wave of AI-assisted historical decipherments retold again (two World War II Enigma messages cracked with AI help, one Napoleonic cipher from 1809 read in about six hours, both reviewed by independent cryptanalysts, with a handful of readings still uncertain); the count of unbroken messages unchanged; the Polish-names research, the 1593 letters claim, and the parked human-interest items all unchanged.
+  - Sources: https://www.n884.com/html/research/848.html ; https://www.nature.com/articles/d41586-026-03338-y ; https://particle.news/story/ai-decodes-217-year-old-napoleonic-cipher
+- **Grades:** no new grade this pass; earlier grades stand (September wave corroborated; Polish-names research verified as to the Trust release's contents).
+
+**Run summary:** rotation #1 — quiet loop, second pass today; one small new carrier only (Bletchley Park Podcast oral-history episode), whole window otherwise unchanged since the morning filing. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
