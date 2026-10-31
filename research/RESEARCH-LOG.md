@@ -13286,3 +13286,10 @@ Two targeted news-vertical searches (photonic chips / free-space optical comms; 
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #6 — quiet loop, nothing new to record; whole window re-covered (EPFL blue laser, Yokohama modulator, USTC quantum frequency converter, skyrmion transfer, NVision/HyperLight, Marvell module, Reason-1 and Protostar still without a published transfer, Reach Power / PowerLight / Helios still silent). No library growth. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
+
+**Run summary (close-out):** rotation #6 — quiet loop, nothing new to record; whole window re-covered (EPFL blue laser retold, Yokohama modulator retold, USTC quantum frequency converter retold, skyrmion transfer retold, NVision/HyperLight retold, Marvell module retold, Reason-1 and Protostar still without a published transfer, Reach Power / PowerLight / Helios still silent). No library growth. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-31 ~02:33 EDT, rotation #6):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the link-fine/Shadow-down signature. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-0227.md, Rook's voice (one-line quiet-loop brief).
