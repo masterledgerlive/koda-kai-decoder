@@ -7765,3 +7765,117 @@ are doctrine, never run, and no real SquashFS image was parsed.]*
 
 *SquashFS entry seeded 2026-11-01 ~10:34 EST by the decoder-create-loop.*
 
+- **SquashFS directory-inode miniature (4.0).** The superblock entry
+  mapped the filesystem; this entry walks one directory inside it —
+  the follow-on the superblock entry named as its Next. A SquashFS
+  directory is not a list of names. It is a two-level list: a
+  directory header carrying a shared inode-block value, then a
+  sequence of directory entries that share that block, and a new
+  header is written whenever the inode start block changes — the
+  header/entry list repeats as many times as necessary. A directory
+  is addressed, like every inode, by a <block, offset> pair: the
+  directory inode's start_block plus directory_table gives the
+  metadata block, and its offset gives the byte offset into the
+  decompressed block. The miniature's layout, all little-endian: a
+  basic directory inode of 34 bytes — type u16 (1 = directory), mode
+  u16, uid u16, gid u16, mtime u32, inode_number u32, start_block
+  u32 (the directory-table offset), nlink u32, file_size u32 (the
+  listing's byte budget: headers plus entries), offset u16,
+  parent_inode u32. A directory header of 12 bytes — count u32,
+  start_block u32 (the shared inode-block offset), inode_number u32
+  (the base the entries' deltas hang from). A directory entry of 8
+  bytes plus the name — offset u16 (into the shared inode block),
+  inode_number s16 (a SIGNED delta from the header base, not an
+  absolute number), type u16, size u16 (the name length MINUS ONE:
+  kernel namei.c reads the name as dire->size + 1), then the name
+  bytes, which are NOT NUL-terminated. The count-minus-one
+  convention (count = entries in the group minus one) is this
+  entry's open check: the miniature is self-consistent under it,
+  but it was not verified against the public header this pass, and
+  neither were the directory inode's exact field widths — both are
+  carried as the miniature's convention, not as verified header
+  claims.
+- **The gaps are the hiding places, and the sharpest one is that the
+  entry's inode number is arithmetic, not an address.** First, the
+  count is load-bearing: a header that claims one entry more than
+  the listing holds does not stop at the listing end — the walker
+  reads the next header's bytes as an entry and desyncs, so a count
+  lie corrupts every entry after it, not just the last one. Second,
+  the delta is signed: a reader that treats the entry's
+  inode_number as an absolute number silently resolves the wrong
+  inode — and for a negative delta it resolves a negative, impossible
+  inode — with NO trip, because nothing in the walk bounds-checks
+  the resolved number against the header's group. Third, the size
+  field is length-minus-one: a reader that takes it as the length
+  truncates the name by one byte and shifts every later header by
+  one, so the whole rest of the listing misparses — the off-by-one
+  is a desync, not a typo. Fourth, the type field is the ENTRY's
+  type, and the offset is into the SHARED block: a reader that
+  resolves the entry against the wrong block (the directory's own
+  block instead of the header's start_block) lands in unrelated
+  bytes and calls them an inode. Fifth, file_size is the listing's
+  budget, not a hint: any byte past the walked headers and entries
+  is a compartment, never padding — the same end-of-walk rule as
+  the superblock, WIM, and ISO entries.
+- **Worked miniature (built and walked this pass).** A 116-byte
+  directory-table-shaped miniature, built by a miniature script held privately with the project
+  — explicitly NOT a mountable `.sqsh` image, because the inode
+  blocks are labelled stubs (`INODE-STUB-A....`,
+  `INODE-STUB-B....`) that are never parsed as real inodes, and no
+  metadata block is compressed. Directory inode at 0–33: type 1,
+  mode 0o40755, start_block 34, file_size 50. Directory table at
+  34: header 1 (count 0, start_block 84, base inode 10) plus entry
+  `a.txt` (offset 0, delta +2, type 2, size 4 = 5-char name) resolving
+  to inode 12 at <84, 0>; header 2 (count 0, start_block 100, base
+  inode 20) plus entry `b.txt` (offset 0, delta −1, type 2, size 4)
+  resolving to inode 19 at <100, 0> — the second header exercising
+  the documented new-header-when-the-block-changes rule. Six walks:
+  clean resolves both entries and ends exactly at the listing end;
+  a count lie (header 1 count 0 → 1) trips on unknown entry type
+  100, the next header's bytes misread as an entry; an entry offset
+  of 9999 trips the stub-bounds check; a size-as-length reader trips
+  on a name running past the listing end; a delta-as-absolute reader
+  does NOT trip — it silently resolves `a.txt` to inode 2 and `b.txt`
+  to inode −1, the walk's only silent failure; and the clean
+  miniature plus a 6-byte `HIDDN` tail (122 bytes) walks clean but
+  trips the size-vs-walk check — the tail visible only as the
+  mismatch.
+- **Decoder-design note (SquashFS directory → Gauntlet).** Three
+  rungs. (1) **Resolve, never assume.** Every entry's inode is
+  computed as header base plus signed delta, and the resolved
+  number is checked against the header's group before it is
+  reported; an unresolvable or negative resolution suspends the
+  verdict: UNREAD, never CLEAN. (2) **Count the listing, not the
+  entries.** The walk consumes exactly file_size bytes and must end
+  exactly at the listing end; a count lie, a size-as-length slip,
+  or a tail past the end all fail the same end-of-listing check.
+  (3) **The second header is legal.** A new header mid-listing
+  with a different start_block is the documented shape, not
+  corruption — the walk follows it and re-bases the deltas, and
+  only a header whose block falls outside the walked tables trips.
+- **What this entry does not do.** It does not walk a real SquashFS
+  image (mksquashfs output, a live-CD `.sqsh`) against this parser;
+  it does not parse any real inode (basic vs extended directory
+  types, directory indexes, symlink targets); it does not walk a
+  fragment table, export table, compression-options block, or xattr
+  table; it does not verify the count-minus-one convention or the
+  directory inode's field widths against the public header — both
+  are this entry's open checks; and it does not decompress any
+  metadata block. Next: a mksquashfs interop check, or a real
+  fragment-table miniature (shared tails bound to files by
+  fragment-table entries).
+
+*[Grade: CORROBORATED on the two-level header/entry organisation, the
+<block, offset> directory access, the new-header-when-the-block-changes
+rule, and the size-plus-one name rule — kernel SquashFS 4.0
+documentation §3.3 and kernel namei.c read this pass; CLAIMED on the
+count-minus-one convention and the directory inode's field widths —
+miniature-local convention, open check, not header-verified this pass;
+VERIFIED on the worked miniature (116-byte file, dir inode 0–33,
+table at 34, 50 listing bytes, stubs at 84 and 100, all six walks as
+stated) — the miniature script, held privately with the project, run 2026-11-01;
+SPECULATION — the Gauntlet mappings are doctrine, never run, and no
+real SquashFS image was parsed.]*
+
+*SquashFS directory-inode entry seeded 2026-11-01 ~10:49 EST by the decoder-create-loop.*
+
