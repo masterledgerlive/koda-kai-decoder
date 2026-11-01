@@ -7879,3 +7879,70 @@ real SquashFS image was parsed.]*
 
 *SquashFS directory-inode entry seeded 2026-11-01 ~10:49 EST by the decoder-create-loop.*
 
+
+- **SquashFS fragment-table miniature — shared tails bound to files by
+  fragment-table entries.** The open check named by the directory-inode
+  entry's "Next" line, built this pass. The kernel doc §3.5 shape: a
+  regular file's inode carries a fragment index, mapped through a
+  fragment lookup table to a fragment block's location on disk and its
+  compressed size; the table itself lives compressed in metadata blocks
+  behind a second index table that is read at mount time and cached.
+  The miniature (held privately with the project, uncompressed —
+  compression is out of scope; the binding is what is checked) holds
+  two fragment blocks. Block 0 is shared: alpha's 10-byte tail at
+  offset 0 and beta's 10-byte tail at offset 10, so one block serves a
+  file with a full datablock plus a tail (alpha: `ALPHA-BLK0` +
+  `alpha-tail`) and a file that is nothing but a tail (beta:
+  `beta-tail!`). Block 1 carries gamma's tail alone. Delta has no
+  blocks and no fragment, and resolves to empty — a fragment index of
+  "none" is a legal file, not a missing one.
+- **The walk rule, in one sentence.** Resolve = full datablocks in
+  order, then exactly `fragment_block[offset:offset+size]`; any of
+  four failures suspends the verdict to UNREAD, never partial bytes:
+  (1) fragment index outside the table (epsilon, index 9); (2)
+  offset + size past the block's end (zeta, 15+10 over a 20-byte
+  block); (3) two files claiming overlapping ranges in one block
+  (eta 0–12 vs theta 8–16); (4) a fragment index claimed alongside a
+  nonzero offset/size on a file that declares none. The overlap rule
+  carries a walk-set lesson the first run of this miniature caught
+  live: the corruption fixtures eta/theta share block 0 with the clean
+  files, so a naive all-files overlap scan marked alpha itself UNREAD.
+  The fix is walk-set isolation — clean files resolve against the
+  clean set, each corruption case against its own set — and the
+  miniature now asserts exactly that: 4 resolves + 4 UNREADs, all as
+  stated, exit 0.
+- **Decoder-design note (fragment table → Gauntlet).** Three rungs.
+  (1) **Bind, never assume.** A tail is not data until its index
+  resolves through the table to a block that exists and a range inside
+  it; an unresolvable tail suspends the verdict: UNREAD, never CLEAN.
+  (2) **Sharing is the tell, not the crime.** Two files in one
+  fragment block is the documented packing shape, not evidence of
+  tampering — the crime is overlap, overrun, or an index to nowhere.
+  (3) **Isolate the corruption set.** A test fixture that shares a
+  block with the control poisons the control; every corruption walk
+  runs in its own file set, or the test grades itself.
+- **What this entry does not do.** It does not parse a real
+  mksquashfs image (the directory entry's other "Next" line — the
+  interop check — is still open); it does not decompress any fragment
+  block or verify the fragment entry's on-disk field widths against
+  the public header; it does not walk the export, uid/gid, or xattr
+  tables; it does not test a fragment block shared by more than two
+  files, or a file whose tail is its only block at a nonzero offset in
+  a multi-file block (beta's offset-10 whole-file tail is the closest
+  shape). Next: the mksquashfs interop check, or a three-file shared
+  block.
+
+*[Grade: CORROBORATED on the fragment-index → location-and-size
+mapping and the two-level lookup (table in metadata blocks, second
+index table cached at mount) — kernel SquashFS 4.0 documentation §3.5
+read this pass; CLAIMED on the fragment entry's field widths
+(start_block/size/unused) — squashfs_fs.h via a secondary summary, not
+header-verified this pass; VERIFIED on the worked miniature (2
+fragment blocks, 20 + 10 bytes; alpha/beta/gamma/delta resolve as
+stated; epsilon/zeta/eta/theta all UNREAD as stated) — the miniature
+script, held privately with the project, run 2026-11-01, including the
+first-run failure that exposed the walk-set pollution flaw and the
+passing re-run after isolation; SPECULATION — the Gauntlet mappings
+are doctrine, never run, and no real SquashFS image was parsed.]*
+
+*SquashFS fragment-table entry seeded 2026-11-01 ~11:08 EST by the decoder-create-loop.*
