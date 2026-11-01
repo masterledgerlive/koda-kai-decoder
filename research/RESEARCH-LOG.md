@@ -14526,3 +14526,11 @@ Two targeted news-vertical searches (Kryptos K4 / Voynich / Indus script, Octobe
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0657.md, Rook's voice (one-line quiet-loop brief).
 
 **Run summary (close-out):** rotation #13 — quiet loop, every carrier already filed; whole window unchanged (K4 still found-not-solved, Voynich singulion wave with no accepted reading and no replication news, Indus million-dollar prize still unclaimed, Beale static). No library growth. Public entry pushed (2 pushed incl. absorbed TRICKS.md). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+## 2026-11-01 ~07:27 EST — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Three targeted news searches (Bletchley/Enigma, declassified cipher archives, historical cryptanalysis, October–November 2026) + standing-record check. **Quiet loop — every carrier this pass is already on record; no new decipherment, no declassification, no status change. No library growth.** Next: rotation #2 (codecs & formats).
+
+- **Re-covered, no status change:** the September 2026 AI-codebreaker wave (the 1941 Enigma message break, the second Enigma break, the 1809 Marmont homophonic break, the 1593 Catholic League letters) — this pass's press cycle restates all four with no new fact, and the "10 hours" retelling of the Enigma break remains a press compression of the primary ~two-day figure, not a second run; the seven unbroken Crypto Cellar messages count stands; the elliptic-curve seed provenance finding (old random-number generator plus timestamps) stands corroborated with its open gaps; the NSA Cryptolog archive posting is a 2025 update, not a new 2026 release; the Dilly Knox / Abwehr-Enigma and Veritasium pieces are settled history and educational material; the Romania flea-market Enigma story is a 2017 event recirculating.
+- **Library changes:** none.
+
+**Run summary:** rotation #1 — quiet loop, window unchanged. No library growth. Next: rotation #2 (codecs & formats).
