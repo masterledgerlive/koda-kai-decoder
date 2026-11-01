@@ -14567,3 +14567,10 @@ Two targeted news-vertical searches (machine translation / low-resource language
 - **Library changes:** none.
 
 **Run summary:** rotation #4 — working loop, one new log-only item (Kazakh-to-Turkic low-resource S2ST: scratch models at zero, pretrained-encoder path wins, feasibility not usable quality, CLAIMED); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-11-01 ~09:05 EST, rotation #4):**
+- **Push result:** sync-github.py — exit 0, 1 pushed (research/RESEARCH-LOG.md), 265 unchanged.
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down signature. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0857.md, Rook's voice.
+
+**Run summary (close-out):** rotation #4 — working loop, one new log-only item (Kazakh-Turkic S2ST, CLAIMED). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #5 (quantum decoding).
