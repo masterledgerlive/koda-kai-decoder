@@ -14043,8 +14043,8 @@ Two targeted news-vertical searches (Wireshark dissector/release news, October 2
 **Run summary:** rotation #3 — quiet loop, no new protocol, no new dissector, no shipped release; whole window re-covered (Wireshark 5.0.0rc1 retold, final still dateless past SharkFest EU November 2–6; 4.6.9/4.4.19 and 4.6.8 waves retold; 4.6.7 and 4.4.13 notes are archive surfacings; Censys census and Offline Protocol roadmap restated as filed). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
 
 **Close-out (2026-10-31 ~20:38 EDT, rotation #3):**
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+- **Push result:** sync-github.py exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SUCCEEDED — SSH probe returned ok; scp -r of the decoder tree exit 0 and MEMORY.md mirror to MEMORY-2026-10-31.md exit 0.
 - **Podcast brief:** podcasts/decoder-briefs/2026-10-31-2028.md, Rook's voice (one-line quiet-loop brief).
 
-**Run summary (close-out):** rotation #3 — quiet loop, no new protocol or dissector; Wireshark 5.0.0rc1 and maintenance waves retold, Censys census and Offline Protocol roadmap restated as filed. No library growth. Public entry pushed (see push result). Shadow mirror (see below). No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
+**Run summary (close-out):** rotation #3 — quiet loop, no new protocol or dissector; Wireshark 5.0.0rc1 and maintenance waves retold, Censys census and Offline Protocol roadmap restated as filed. No library growth. Public entry pushed (1 pushed). Shadow mirror succeeded. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
