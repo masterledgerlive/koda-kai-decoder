@@ -14813,3 +14813,10 @@ Three targeted searches (quantum error correction advances, November 2026; post-
 - **Grades:** CLAIMED (QLDPC surgery; BSI C5:2026 texture); CORROBORATED (autonomous QEC break-even, IR 8547 deadline cluster, as filed); SPECULATION (Bitcoin Q-Day framing, not adopted); rest as previously filed.
 
 **Run summary:** rotation #5 — working loop, one new log-only item (QLDPC surgery on Quantinuum H2-2: individual logical-qubit measurement inside a multi-qubit block, CLAIMED, headline/body figures disagree at 0.72% vs below 0.26%, paper not yet read first-party) plus one texture note (BSI C5:2026 post-quantum strategy criterion, CLAIMED); rest re-covered (Quantinuum record, Universal Redecode, autonomous break-even, QXL decoder and Arbel program, Gothenburg and Yonsei decoders, Intel–Classiq, IR 8547 cluster, Willow magic states). No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-11-01 ~16:19 EST, rotation #5):**
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5) — working loop, QLDPC surgery on Quantinuum H2-2 (claimed, log-only, figures disagree), BSI C5:2026 PQC texture note; rest re-covered; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** COMPLETE — SSH probe returned "ok"; decoder-tree scp exit 0 and MEMORY backup scp exit 0; byte-verified on Shadow. Shadow GREEN this run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-1557.md, Rook's voice (grade spoken as claimed).
+
+**Run summary (close-out):** rotation #5 — working loop, one new log-only item (QLDPC surgery on Quantinuum H2-2, CLAIMED, figures disagree, paper not yet read first-party) plus one texture note (BSI C5:2026 post-quantum strategy criterion, CLAIMED); rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow mirror complete and byte-verified. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
