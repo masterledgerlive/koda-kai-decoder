@@ -8952,3 +8952,84 @@ Gauntlet mappings are doctrine, never run; no real image from
 any other encoder was parsed.]*
 
 *SquashFS lz4 + -always-use-fragments interop entry seeded 2026-11-01 ~18:15 EST by the decoder-create-loop.*
+- **SquashFS sparse file under lz4 (4.0).** The first of the
+  sparse shapes named by the lz4 x AUF entry's does-not-do
+  (sparse under lz4, under AUF, or under both): one sparse file
+  added to the lz4 default-flag sources, same pure-Python
+  reader, no flag changed (mksquashfs 4.6.1, 4K blocks,
+  -noappend, -comp lz4). The answer is yes, it resolves
+  byte-identically — but NOT in the form the earlier entries
+  assumed. A sparse file is not a basic type-2 inode with a 0
+  block-list entry: mksquashfs promotes it to a type-9
+  extended inode, and the basic-only reader from the earlier
+  entries dies in the inode-table walk at that inode
+  ("unknown inode type 9"), before resolving anything at all.
+  Main image: superblock compression id 5, inodes 8,
+  fragments 1; inode-table walk exact at 304 bytes (the
+  earlier 236-byte default walk plus one 68-byte extended
+  inode); root directory file_size 113 vs walked 110 (the +3
+  gap again), parent_inode 9 = inodes + 1; inner directory
+  31 vs 28, parent 8 = the root's number. Sparse.txt, 12288
+  bytes = a 4096-byte head block, a 4096-byte hole never
+  written, and a 4096-byte tail block: type 9, 68 bytes =
+  56-byte header + 3 block entries, start_block 960,
+  file_size as u64 at header offset 24, fragment = none
+  (0xFFFFFFFF) at offset 44, offset 0 at offset 48, block
+  list at offset 56 reading [293, 0, 293] — head block
+  compressed to 293, hole entry 0 (the file offset does not
+  advance: both stored blocks sit at 1253 in span terms),
+  tail block compressed to 293. The rest of the main image
+  reconfirms the lz4 default corner: alpha.txt 5000 keeps 2
+  blocks (spans 293/269), gamma.txt 4096 keeps 1 block (span
+  292), fragment block exactly 111 bytes = beta.txt 100 +
+  note.txt 11. Single-file control: big.txt 5000 keeps 2
+  blocks, fragments 0, walk exact at 72 bytes. Plain control
+  (new this entry): plain.txt, also 12288 bytes but fully
+  written, no hole — stays a basic type-2 inode, 3 blocks,
+  spans 293/291/292, all stored, walk exact at 76 bytes.
+  Same size, different inode type: the promotion is the hole,
+  not the size.
+- **Decoder-design note (sparse -> Gauntlet).** A reader must
+  branch on inode type BEFORE reading the header, because
+  the header length itself moves: 32 bytes for type 2, 56
+  for type 9, and the block list with it. A basic-only reader
+  does not misread a sparse file partially; it fails at the
+  walk, so every file after the sparse one in the table is
+  also lost — the failure is positional, not local. The
+  specimen record's four fields (encoder + compressor +
+  flags + container form) need a fifth: inode type, at least
+  for files with holes. Inside the type-9 inode the hole
+  entry still means what it meant in the basic grammar: 0 =
+  4096 zero bytes, no on-disk span. [SPECULATION — the
+  Gauntlet mappings are doctrine, never run]
+- **What this entry does not do.** It does not test a sparse
+  file under -always-use-fragments, or under any compressor
+  other than lz4; it does not interpret the three unexplained
+  type-9 header words (u64 4096 at offset 32, u32 1 at offset
+  40 — consistent with a sparse-block count, but not
+  asserted — u32 0xFFFFFFFF at offset 52); it does not walk
+  the lookup or id tables; it does not explain the +3
+  directory file_size gap or the root parent_inode =
+  inodes + 1 reading (both reconfirmed here, still
+  unexplained); it does not parse a SquashFS image from any
+  other encoder. Next: sparse under lz4 x AUF, or the type-9
+  header words, or the +3/parent explanations, or the
+  export/uid-gid/xattr table walks.
+
+*[Grade: VERIFIED on the three real images (mksquashfs 4.6.1,
+4K blocks, lz4, -noappend): 8 files resolved byte-identically;
+sparse.txt type 9, 68-byte inode, block list [293, 0, 293],
+file_size u64 at offset 24, fragment none at offset 44,
+offset 0 at offset 48; plain.txt type 2, 3 stored blocks,
+same 12288 size; inode-table walks exact at 304/72/76 bytes;
++3 gap and root parent = inodes + 1 reconfirmed on the main
+image — hidden_files/squashfs-lz4sparse-mini.py, run
+2026-11-01, passing after the type-9 branch was added (the
+basic-only reader failed first, as reported above);
+OBSERVED — the three unexplained type-9 header words, printed
+not interpreted; SPECULATION — the Gauntlet mappings are
+doctrine, never run; no real image from any other encoder was
+parsed.]*
+
+*SquashFS sparse-under-lz4 interop entry seeded 2026-11-01 ~18:39 EST by the decoder-create-loop.*
+
