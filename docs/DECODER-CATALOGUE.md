@@ -8816,3 +8816,68 @@ mappings are doctrine, never run; no real image from any
 other encoder was parsed.]*
 
 *SquashFS zstd + -always-use-fragments interop entry seeded 2026-11-01 ~17:40 EST by the decoder-create-loop.*
+- **SquashFS lz4-compressed interop check (4.0).** The last
+  untested compressor, named by the zstd x AUF entry's
+  does-not-do: gzip, xz, and zstd have all been checked under
+  both flags; lz4 under neither. Same sources, same pure-Python
+  reader as the zstd check, one compressor changed (mksquashfs
+  4.6.1, 4K blocks, -noappend, -comp lz4). The answer is yes:
+  the same grammar resolves under lz4. Main image: superblock
+  compression id 5; alpha.txt 5000 keeps 2 blocks (compressed
+  spans 293/269), fragment = none; beta.txt 100 takes fragment
+  idx 0; gamma.txt 4096 (exact multiple) keeps 1 block,
+  fragment = none; delta.txt 0 keeps 0 blocks, fragment = none;
+  inner/note.txt 11 resolves through its fragment. Fragments =
+  1, and the fragment block decompresses to exactly 111 bytes =
+  100 + 11 — the same total as the gzip, xz, and zstd default
+  corners. Single-file image: big.txt 5000 keeps 2 blocks,
+  fragment = none, fragments = 0 — the tail is a partial block,
+  not a fragment, exactly as under the other three compressors.
+  The one lz4 difference is the container form: SquashFS lz4
+  blocks are raw LZ4 blocks, NOT LZ4 frames. lz4.frame.decompress
+  fails on them with ERROR_frameType_unknown (verified in a
+  probe before the miniature was written); the reader uses
+  lz4.block.decompress with an 8192 output cap, and the
+  returned length is fixed by the input, not the cap — the
+  probe decompressing one 64-byte inode table with caps
+  512..8192 returned exactly 64 bytes every time. Three
+  constants reconfirmed on the new images: the directory
+  file_size +3 gap (root 95 vs 92, inner 31 vs 28, single root
+  30 vs 27), root parent_inode = inodes + 1 (8 for 7 inodes,
+  3 for 2), and the inode-table walk exact at 236 bytes (main)
+  and 72 bytes (single) — identical to the default walks under
+  the other compressors.
+- **Decoder-design note (lz4 -> Gauntlet).** The default-flag
+  compressor row is now complete: gzip, xz, zstd, and lz4 all
+  agree on the same grammar with only the decompressor
+  changing — but lz4 is the first corner where the decompressor
+  change is a container change, not just a codec change. A
+  reader that assumes frame form for every compressor does not
+  misread lz4 partially; it fails outright on the first block.
+  The specimen record must therefore carry the container form
+  (frame vs raw block) alongside encoder + compressor + flags:
+  four fields, not three. [SPECULATION — the Gauntlet mappings
+  are doctrine, never run]
+- **What this entry does not do.** It does not test lz4 blocks
+  under -always-use-fragments (the last matrix corner); it does
+  not walk the lookup or id tables; it does not explain the +3
+  directory file_size gap or the root parent_inode = inodes + 1
+  reading (both reconfirmed here, still unexplained); it does
+  not test a sparse file under lz4; it does not parse a
+  SquashFS image from any other encoder. Next: lz4 x AUF, or
+  the +3/parent explanations, or sparse under lz4, or the
+  export/uid-gid/xattr table walks.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1, 4K
+blocks, lz4, -noappend): 6 files resolved byte-identically;
+superblock compression id 5; all blocks decompress as raw LZ4
+blocks (single form, asserted; frame form verified failing in
+probe); fragment block exactly 111 bytes; exact multiple and
+empty files keep fragment = none; inode-table walk exact at
+236/72 bytes; +3 gap and root parent = inodes + 1 reconfirmed
+on both images — hidden_files/squashfs-lz4-mini.py, run
+2026-11-01, passing on first run; SPECULATION — the Gauntlet
+mappings are doctrine, never run; no real image from any
+other encoder was parsed.]*
+
+*SquashFS lz4 interop entry seeded 2026-11-01 ~17:50 EST by the decoder-create-loop.*
