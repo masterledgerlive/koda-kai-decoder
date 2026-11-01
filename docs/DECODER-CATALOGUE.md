@@ -4438,6 +4438,11 @@ decoder-research-loop.*
   - [Claimed — trade-press report of the victim's disclosure plus two secondary carriers; customer count undisclosed; no security-firm confirmation of the attribution this pass]
 
 
+
+- **OX Security "Mother of All AI Supply Chains": command-injection flaw in the official MCP software development kits (April twenty twenty-six; new to record; material).** The flaw sat in the Python, TypeScript, Java, and Rust MCP software development kits — the reference implementations most MCP servers are built on — estimated to expose up to two hundred thousand vulnerable instances across a supply chain spanning an estimated one hundred fifty million downloads. At least ten downstream projects named (LiteLLM, LangChain, LangFlow, Flowise, LettaAI, LangBot, LibreChat, DocsGPT, Bisheng, Windsurf); the Cloud Security Alliance research note "MCP by Design: RCE Across the AI Agent Ecosystem" (April twenty twenty-six) identified ten or more high or critical CVEs across affected implementations, framing the protocol's stdio design as an ecosystem-wide remote-code-execution risk. Paired measurement: the MCPInspect study (DSN twenty twenty-six, arXiv 2510.16558) built a pre-integration scanner and found eight hundred thirty-three vulnerable MCP servers in the wild, eighteen with suspicious or deliberately misleading tool descriptions — intentional poisoning at the supply-chain level, not just misconfiguration. Lesson: the agent's tool layer inherits the SDK's trust — a flaw at the reference layer is the whole fleet's flaw, and it moves the lane's MCP timeline back to April, months before the filed October server-CVE cluster. Gauntlet corollary: pin and hash the SDK itself, not just the server list; scan tool descriptions before trust, not after.
+  - Sources: a security-education glossary page read first-party, November first, twenty twenty-six.
+  - [Claimed — glossary read first-party this pass; the disclosure, research note, and study paper not read first-party; figures are the discloser's estimates as carried]
+
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
