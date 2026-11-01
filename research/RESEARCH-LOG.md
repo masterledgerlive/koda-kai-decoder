@@ -14519,3 +14519,10 @@ Two targeted news-vertical searches (Kryptos K4 / Voynich / Indus script, Octobe
 - **Library changes:** none. No new decipherment, no status change — nothing crosses the library bar.
 
 **Run summary:** rotation #13 — quiet loop, every carrier already filed; whole window unchanged (K4 still found-not-solved, Voynich singulion wave with no accepted reading and no replication news, Indus million-dollar prize still unclaimed, Beale static). No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-01 ~07:15 EST, rotation #13):**
+- **Push result:** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13) — quiet loop, all carriers already filed, window unchanged; no library growth; no verdicts" — exit 0 after ~5.6 minutes wall-clock on the re-run. Stdout: "pushed (git-data): docs/TRICKS.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 264 unchanged" — this pass's public entry pushed, plus a TRICKS.md docs-mirror change absorbed from concurrent work (same pattern as the 2026-10-22 sync-absorption note). Note: the first push invocation was killed by a runtime restart after ~5 minutes with unknown outcome and an empty exec log; the re-run above is the verified push. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0657.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #13 — quiet loop, every carrier already filed; whole window unchanged (K4 still found-not-solved, Voynich singulion wave with no accepted reading and no replication news, Indus million-dollar prize still unclaimed, Beale static). No library growth. Public entry pushed (2 pushed incl. absorbed TRICKS.md). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
