@@ -8000,3 +8000,52 @@ run; SPECULATION — the Gauntlet mappings are doctrine, never run,
 and no real SquashFS image was parsed.]*
 
 *SquashFS three-file shared fragment block entry seeded 2026-11-01 ~11:20 EST by the decoder-create-loop.*
+
+- **SquashFS four-file shared fragment block miniature.** The other
+  open check named by the three-file entry's "Next" line, built this
+  pass — a pure headcount confirmation: one 40-byte fragment block
+  serves four files, filling the block exactly. One carries a full
+  datablock plus the tail at offset 0 (`ONE-BLK0` + `one-tail--`),
+  two is nothing but a tail at offset 10 (`two-tail--`), three is
+  nothing but a tail at offset 20 (`three-tail`), and four is
+  nothing but a tail at offset 30 (`four-tail-`). Sharing four ways
+  changes nothing in the walk rule — resolve = full datablocks in
+  order, then exactly `fragment_block[offset:offset+size]` — and the
+  miniature asserts exactly that: 4 resolves as stated, exit 0.
+- **The corruption set, isolated as the prior passes taught.** nu
+  claims offset 15, length 10, overlapping two's 10–20 range; xi
+  claims offset 35, length 10, overrunning the 40-byte block;
+  omicron claims fragment index 9, outside the table. Each yields
+  UNREAD, never partial bytes. nu runs in an isolated pair with
+  two, so the overlap fixture cannot mark the clean files UNREAD —
+  the walk-set pollution flaw, now a standing rule rather than a
+  surprise, holds at four sharers exactly as it held at three.
+- **Decoder-design note (four-file sharing → Gauntlet).** One rung.
+  **Headcount is not a threshold.** Nothing in the walk rule counts
+  sharers: two, three, and four sharers resolve by the same range
+  check, and no sharer count turns a legal packing shape into
+  suspicion. A Gauntlet walk that special-cased "many sharers" would
+  misread a legal file; the crimes remain overlap, overrun, and an
+  index to nowhere, at any headcount.
+- **What this entry does not do.** It does not parse a real
+  mksquashfs image (the interop check is still the open line from
+  the directory entry — and the build VM has no mksquashfs binary,
+  so that check cannot run there until the tool is installed); it
+  does not decompress any fragment block or verify the fragment
+  entry's on-disk field widths against the public header; it does
+  not walk the export, uid/gid, or xattr tables; it does not test
+  a tail split across two fragment blocks (the format gives each
+  file at most one fragment, so a split tail would be a corruption
+  shape, not a packing shape). Next: the mksquashfs interop check,
+  once a tool that can emit a real image is available.
+
+*[Grade: CLAIMED on a fragment block serving four files being the
+same documented packing shape as two or three — the section 3.5
+lineage of the prior entries, not re-read this pass; VERIFIED on
+the worked miniature (one 40-byte block; one/two/three/four
+resolve as stated; nu/xi/omicron all UNREAD as stated) — the
+miniature script, held privately with the project, run 2026-11-01,
+passing on its first run; SPECULATION — the Gauntlet mappings are
+doctrine, never run, and no real SquashFS image was parsed.]*
+
+*SquashFS four-file shared fragment block entry seeded 2026-11-01 ~11:45 EST by the decoder-create-loop.*
