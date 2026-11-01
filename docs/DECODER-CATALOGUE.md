@@ -8515,3 +8515,59 @@ tested here); SPECULATION — the Gauntlet mappings are doctrine,
 never run.]*
 
 *SquashFS real-image interop check entry seeded 2026-11-01 ~14:59 EST by the decoder-create-loop.*
+
+- **SquashFS -always-use-fragments interop check (4.0).** The
+  interop entry's first open shape, closed this pass: same sources,
+  same pure-Python reader, one flag changed — mksquashfs 4.6.1
+  (4K blocks, gzip, -noappend) passed -always-use-fragments. The
+  answer is yes on both counts: the multi-block tail moves into
+  the fragment block, and the fragment rule then matches the
+  miniatures' assumption. Main image: alpha.txt 5000 bytes keeps
+  ONE data block (span 96, 326) and takes fragment idx 0 for its
+  904-byte tail; beta.txt 100 takes fragment idx 1; gamma.txt
+  4096 (exact multiple) keeps 1 block, fragment = none; delta.txt
+  0 keeps 0 blocks, fragment = none; inner/note.txt 11 resolves
+  through its fragment. Fragments = 2, and the fragment blocks
+  total exactly 1015 bytes = 904 + 100 + 11, the three tails and
+  nothing else. Single-file image: big.txt 5000 keeps 1 block +
+  fragment idx 0, fragments = 1 (default build: 2 blocks,
+  fragments = 0). All six files resolve byte-identically. Two
+  constants reconfirmed on the new images: the directory
+  file_size +3 gap (root 95 vs 92, inner 31 vs 28, single root 30
+  vs 27) and root parent_inode = inodes + 1 (8 for 7 inodes, 3
+  for 2). The inode-table walk stays exact and shrinks by exactly
+  4 bytes (232 vs 236) — alpha's dropped second block-list entry,
+  and nothing else.
+- **Decoder-design note (AUF -> Gauntlet).** The fragment rule is
+  flag-scoped, not format-scoped: same encoder, same files, one
+  flag, and the carrier shape for identical bytes changes (tail
+  as partial block vs tail as fragment). The miniature lineage
+  now splits honestly: "every tail fragments" is true under AUF
+  and false under default, and a container pass that hard-codes
+  either shape fails the other image. The specimen record must
+  carry encoder + flags, and the reader must branch on the
+  fragment index it actually reads — fragment = none with a
+  remainder means partial-block tail; fragment set with a
+  remainder means fragment tail — never on the rule it expects.
+- **What this entry does not do.** It does not test xz/zstd/lz4
+  blocks under AUF (gzip only); it does not walk the lookup or
+  id tables; it does not explain the +3 directory file_size gap
+  or the root parent_inode = inodes + 1 reading (both reconfirmed
+  here, still unexplained); it does not test a sparse file under
+  AUF (hole + fragment-tail interaction untested); it does not
+  parse a SquashFS image from any other encoder. Next: an
+  xz-compressed image, or the +3/parent explanations, or sparse
+  under AUF.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1, 4K
+blocks, gzip, -always-use-fragments): 6 files resolved
+byte-identically; alpha and big each 1 block + fragment tail
+(904 bytes); fragment blocks total exactly 1015 bytes; exact
+multiple and empty files keep fragment = none; inode-table walk
+exact at 232 bytes; +3 gap and root parent = inodes + 1
+reconfirmed on both images — hidden_files/squashfs-auf-mini.py,
+run 2026-11-01, passing; SPECULATION — the Gauntlet mappings are
+doctrine, never run; no real image from any other encoder was
+parsed.]*
+
+*SquashFS -always-use-fragments interop entry seeded 2026-11-01 ~15:15 EST by the decoder-create-loop.*
