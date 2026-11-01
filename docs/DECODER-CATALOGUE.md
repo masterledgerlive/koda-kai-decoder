@@ -4428,6 +4428,11 @@ decoder-research-loop.*
   - [Claimed — three secondary carriers; the firm's own email and any technical writeup not read first-hand this pass; vector undisclosed; autonomy share unstated]
 
 
+- **VOLTA: an infostealer that asks AI models to value the victim (threat report, October thirty-first, twenty twenty-six; new to record; material).** A vendor threat report carried by a security digest describes an infostealer that sends a structured bundle of stolen information to an AI model to assess the victim's assets and defenses, with a fallback chain across three models so that one model's refusal or outage does not stop the valuation. Lesson: the attacker-side model-delegation shape takes a third form here — where an earlier catalogued operation delegated hands-on intrusion to a coding agent and another delegated verdict-evasion to triage models, this one delegates post-theft appraisal, so the model becomes the fence, ranking loot before the operator spends human attention on it. The fallback chain is the operational detail: model choice is a reliability mechanism, not a preference. Model-API calls from an infostealer host are themselves a detection surface — the bundle leaving for a model endpoint is traffic shaped like legitimate agent work, and a specimen's network inventory must include model endpoints, not just command servers.
+  - Source: a vendor threat report, October thirty-first, twenty twenty-six, carried by a security digest.
+  - [Claimed — secondary digest carrier; the vendor report not read first-hand this pass; the fallback chain and model names as carried; no victim count carried]
+
+
 ## Suggestion-implant traps
 
 - **Barracuda "dual-target phishing" (Oct 7, 2026).** A single phishing email
