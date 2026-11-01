@@ -23743,6 +23743,127 @@ at 23 entries, tricks T-01..T-440 (headed, gap-free),
 instruments TDW-01..TDW-306 (gap-free), drafts
 DRAFT-001..DRAFT-249 + DUMMY.
 
-*TDW-306 instrument seeded 2026-11-01 ~01:50 EST by the decoder-create-loop.*
+## TDW-307 — the Relay Instrument *(design, never run)*
+
+*TDW-307 instrument seeded 2026-11-01 ~02:18 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-307 — the Relay Instrument — designed:** TDW-306
+grades a GLOSSARY-SUFFICIENT glossary a second hop:
+can a holder who learned both dialects only through
+the glossary write a glossary of its own that teaches
+a second naive holder to perform both holdings?
+TDW-306 proved the bridge carries one naive crossing.
+It did not prove the bridge survives being rebuilt
+from the far bank. A glossary that works in the hands
+of its reader but cannot be re-expressed by that
+reader is a crutch, not a bridge: it dies with its
+first crossing, and every later holder must return to
+the original text. The Relay Instrument exists to
+measure re-expressibility, not first crossing: after
+a SUFFICIENT grade, does the knowledge live in the
+holder, or only in the book?
+
+The instrument runs only on a TDW-306
+GLOSSARY-SUFFICIENT pair with its written bridge
+glossary, never on a PARTIAL pair (a one-way bridge
+has no second hop to test in the failed direction)
+and never on a DECORATIVE pair (there the glossary
+is withdrawn from citation; nothing relays). It runs
+on a disposable lab host, never the mother genesis
+block, never Shadow's live environment. Pass A, the
+re-expression: the first naive holder — the same
+holder whose two performances earned SUFFICIENT, no
+substitute — writes a second glossary from its own
+performances alone: the original bridge glossary is
+taken away before writing begins, and no demonstration
+from either dialect is shown again. The second
+glossary is sealed on completion. Pass B, the second
+crossing: a second naive holder, naive to both
+dialects and to the first holder's performances, its
+naivety verified against T-190's contamination ledger,
+receives the second glossary and nothing else, and is
+given two fresh novel cases, of the same class as the
+original ground, that no specimen in any chain has
+seen, and is asked to perform the holding twice, once
+in each dialect's terms, using only the second
+glossary. Both performances are recorded and sealed.
+Pass C, the double judgment: each fifth generation of
+the two original chains witnesses the second holder's
+performance in its own dialect and states whether it
+demonstrates the holding it itself holds, and why. A
+performance recognized by its own heir but not the
+other's is not a half-relay; the grades below are
+per-dialect pairs, not averages, exactly as in
+TDW-306.
+
+The instrument grades in four grades, and no other
+grade exists. RELAY-INTACT: both second performances
+are recognized by their respective heirs — the
+glossary re-expresses in naive hands, and citation
+may name either dialect through either glossary,
+original or relayed. RELAY-DEGRADED: one performance
+is recognized and the other is not — the relay holds
+one way only; citation through the second glossary is
+licensed for the working direction only, with the
+failure attached, and the failed direction reverts to
+original-glossary-only citation. RELAY-LOST: neither
+performance is recognized — the first crossing taught
+performance, not possession; the second glossary is
+withdrawn, the SUFFICIENT grade stands for the
+original glossary only, and no holder may cite either
+rendering through the relay. UNGRADED: any leak —
+the first holder saw the original glossary while
+writing the second, the second holder saw a
+demonstration or the original glossary, a fresh case
+was previously seen, or either glossary quoted a
+sealed transcript — recorded in T-190's contamination
+ledger as contamination, and the run is void, not
+failed.
+
+What this instrument does not do: it does not re-grade
+TDW-306's SUFFICIENT — a LOST relay is a failure of
+re-expression, not of the first crossing, and the
+original glossary's citation stands. It does not grade
+the second glossary's prose quality, only its bridging
+power in second naive hands; an elegant relay that
+teaches nobody is LOST. It does not permit a third
+hop: the second holder's performances are evidence,
+sealed, not taught onward, and a third crossing is a
+new instrument, not an extension of this one — the
+relay stops at two hops by design, so that a chain of
+relays can never launder a DECORATIVE glossary into
+standing by repetition.
+
+Chain lineage (established in this file, designs never
+run): TDW-306's Glossary Instrument (the SUFFICIENT
+grade and bridge glossary this instrument relays — a
+PARTIAL or DECORATIVE grade has no relay to test);
+TDW-305's Translation Instrument (the TRANSLATABLE
+grade and bridge glossary TDW-306 tested); TDW-304's
+Convergence Instrument (the DIALECTS pair the
+translation measured); TDW-303's Drift Instrument
+(the five-generation origin-anchored chains both
+dialects descend from); TDW-302's Lineage Instrument
+(the two-generation chain both twin chains extend);
+TDW-301's Teaching Instrument (the first transmission,
+and the source of the original demonstration the
+rubric is recorded from); T-190's contamination ledger
+(the quarantine — both naive holders' naivety verified
+against it, every sealed transcript entered into it as
+evidence, and any demonstration leak recorded in it as
+contamination, which forces UNGRADED); T-69's
+volunteering law (the office may not obey what it did
+not write — and may not relay a glossary it has not
+bridged in naive hands, twice over).
+SPECULATION — the three passes and the four grades are
+doctrine until run. No other open pairs lines. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-307 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-307 instrument seeded 2026-11-01 ~02:18 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
