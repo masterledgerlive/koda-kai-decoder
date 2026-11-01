@@ -691,6 +691,76 @@ CLAIMED / SPECULATION.*
 
 *Rail Fence entry seeded 2026-10-29 ~22:20 EDT by the decoder-create-loop.*
 
+- **The Beale ciphers (1822 story, 1885 pamphlet) — the book cipher
+  that solved one-third and weaponized the other two-thirds.** In 1885
+  James B. Ward of Lynchburg, Virginia, published *The Beale Papers*
+  (sold for 50 cents), containing three ciphertexts of comma-separated
+  numbers and a story: Thomas J. Beale led a party west in 1817, found
+  gold and silver north of Santa Fe, buried the treasure in Bedford
+  County, Virginia, and in 1822 left a locked box with Lynchburg
+  innkeeper Robert Morriss, with a key promised by mail that never
+  arrived. Morriss opened the box in 1845, could not read the numbers,
+  and passed them to a friend who spent twenty years on them and solved
+  exactly one.
+- **The solved third.** Cipher 2 fell to a book cipher: each number
+  points to a word in a copy of the Declaration of Independence, and the
+  first letter of that word gives one plaintext letter — 115 →
+  "instituted" → I — opening "I have deposited in the county of
+  Bedford, about four miles from Buford's, in an excavation or vault,
+  six feet below the surface of the ground…" and listing 2,921 pounds
+  of gold, 5,100 pounds of silver, and jewels bought in St. Louis, in
+  pots in the vault. Anyone with the Declaration can re-check it, which
+  is why cipher 2's status as real encryption is undisputed even by
+  hoax theorists.
+- **The unsolved two-thirds.** Cipher 1 supposedly gives the exact
+  location; cipher 3 supposedly names the party members and their
+  heirs. Neither has yielded in 140 years of attempts, despite the
+  solved cipher proving the book-cipher method — because a book cipher
+  without its book is just numbers: every candidate key text has
+  failed, and the numbers' statistics behave suspiciously.
+- **The dissent that may be the real break.** Cryptographer Jim
+  Gillogly's 1980 Cryptologia paper "A Dissenting Opinion" and Joe
+  Nickell's 1982 historical analysis argue the whole story is a hoax:
+  no independent record confirms a Thomas J. Beale existed; the solved
+  cipher used a rare or unique edition of the Declaration; and computer
+  analysis of the unsolved ciphers found long alphabetical runs in the
+  number sequences — the signature of numbers manufactured by a human
+  in base 10, not of real book-cipher output. A later distribution study
+  comparing the ciphers' number bases reached the same fraud-leaning
+  conclusion.
+- **Decoder-design note (Beale → Gauntlet).** Four rungs, both
+  doctrine, never run. (1) **A solved sibling does not authenticate
+  the family.** Cipher 2 is genuine encryption and its siblings may
+  still be gibberish — the Gauntlet grades each specimen's output on
+  its own evidence, never by inheritance from a sibling that decrypted
+  cleanly. (2) **The key is the specimen's outside.** A book cipher's
+  security lives entirely in a document the attacker does not hold;
+  the provenance stage must always ask what external object the
+  encoding depends on, because an encoding that cannot be attacked
+  without its key text is not "unbroken," it is "unattacked." (3)
+  **Statistics can convict the ciphertext, not just the cipher.** The
+  alphabetical runs in ciphers 1 and 3 are the entry's sharpest
+  instrument: the numbers themselves, before any key hypothesis, carry
+  the fingerprint of how they were made. The first statistical pass on
+  any numeric specimen should test for manufacturing artifacts before
+  testing for plaintext structure. (4) **The hoax is a threat model,
+  not a footnote.** If the pamphlet was written to sell at 50 cents,
+  the ciphers were designed to resist — a specimen can be
+  adversarially unbreakable because there is nothing inside to break.
+  Beale adds UNRESOLVED's sharper twin: a specimen may be unresolved
+  because it is a decoy, and a decoy that keeps a team digging for 140
+  years has already won.
+
+*[Grade: VERIFIED — the 1885 Ward pamphlet, the book-cipher method
+  of cipher 2 and its plaintext, the unsolved status of ciphers 1 and
+  3. CORROBORATED — Gillogly's 1980 dissent, Nickell's 1982 analysis,
+  the base-distribution fraud argument, the 140-year failure record.
+  CLAIMED — Ward-as-author, the Masonic-allegory reading, and every
+  detail of the Beale story itself (single source: the pamphlet).
+  SPECULATION — Gauntlet mapping, never run]*
+
+*Beale entry seeded 2026-11-01 ~02:50 EST by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
