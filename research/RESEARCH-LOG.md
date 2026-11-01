@@ -14588,3 +14588,10 @@ Three targeted news-vertical searches (quantum error correction, November 2026; 
 - **Library changes:** none.
 
 **Run summary:** rotation #5 — working loop, three new log-only items (autonomous trapped-ion QEC break-even, Nature Physics October 23, CORROBORATED; Quantum X Labs Arbel hardware QEC program, October 26, CLAIMED; Intel–Classiq acquisition filed from parked, agreement CORROBORATED, price CLAIMED) plus a watch-date pin (FAR Council PQC contractor rule proposal due December 19, 2026; IETF PQUIP telechat November 5 next). Rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-11-01 ~09:35 EST, rotation #5):**
+- **Push result:** sync-github.py — exit 0, 1 pushed (research/RESEARCH-LOG.md), 265 unchanged.
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down signature. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0927.md, Rook's voice.
+
+**Run summary (close-out):** rotation #5 — working loop, three new log-only items (autonomous trapped-ion QEC break-even, CORROBORATED; Quantum X Labs Arbel program, CLAIMED; Intel–Classiq filed from parked, agreement CORROBORATED, price CLAIMED) plus a watch-date pin (FAR Council proposal due December 19, 2026). No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
