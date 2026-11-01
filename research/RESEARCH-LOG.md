@@ -14272,3 +14272,9 @@ Two targeted searches (historical codebreaking / Enigma / Bletchley, October 202
 - **Grades:** no new VERIFIED grade this pass; all items re-carry at their filed grades.
 
 **Run summary:** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave unchanged, seven-remaining count unchanged; Löffelholz folio puzzle parked as object identification, not a decipherment). No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-11-01 ~02:10 EDT, rotation #1):**
+- **Push result:** sync-github.py — exit 0. Stdout: "done: 0 pushed, 266 unchanged" — the concurrent create-loop sync absorbed this pass's public entry mid-window; verified live independently (remote sha = local git blob sha 827368f5a8d186bcdf09c1d4c812fd56976053f8). This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SUCCEEDED — SSH probe returned "ok"; full-tree scp exit 0 and MEMORY-2026-11-01.md scp exit 0.
+
+**Run summary (close-out):** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave unchanged, seven-remaining count unchanged; Löffelholz folio puzzle parked as object identification, not a decipherment). No library growth. Public entry verified live on GitHub (absorbed by concurrent sync). Shadow mirror succeeded. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
