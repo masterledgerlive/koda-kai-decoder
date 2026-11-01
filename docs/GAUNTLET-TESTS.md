@@ -24365,3 +24365,148 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-310 instrument seeded 2026-11-01 ~03:47 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-311 — the Merged-License Instrument *(design, never run)*
+
+*TDW-311 instrument seeded 2026-11-01 ~10:16 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-311 — the Merged-License Instrument — designed:**
+TDW-310 closed the REPAIRED split by register: the working
+direction cites the second glossary with its failure attached,
+the repaired direction cites the revised glossary's revised
+section with its lineage, and no version licenses both
+directions. TDW-310 explicitly left the merged license — one
+version covering both directions — as a new instrument, not
+an extension of its own. This instrument is that instrument,
+and it tests one question: can a single version license both
+directions without erasing the reasons the split existed? A
+merge that drops the failure or the lineage is not a license;
+it is a forgery of standing, presenting a two-way bridge as
+if it had always been one.
+
+The instrument runs only on a TDW-310 CITATION-CLOSED pair
+with its sealed register. Never on a LEAKING pair (its split
+was surrendered to original-only citation — there is nothing
+left to merge), never on a void or UNGRADED run, never on a
+REPAIR-FAILED pair (its register is TDW-309's and must not
+be borrowed), never on a RELAY-INTACT or RELAY-LOST pair (no
+split to merge). It runs on a disposable lab host, never the
+mother genesis block, never Shadow's live environment. Pass
+A, the merged draft: the office drafts a merged glossary — a
+NEW fourth document, not a re-label of any existing version
+— with exactly three parts, and seals it. First: a merge
+preamble naming the split it closes, the TDW-310 register it
+supersedes for citation, and the grades it does not touch
+(TDW-307's DEGRADED, TDW-308's REPAIRED, and TDW-310's
+CITATION-CLOSED all stand; the merge changes citation only,
+never holding). Second: a working section carrying the
+DEGRADED failure attached, word for word as the register
+carried it — a working-direction citation through the merged
+version without the failure is unlicensed, because the bridge
+is still one-way under the second glossary's terms. Third: a
+repaired section carrying the full revision lineage in order
+— original glossary, then second glossary, then revised
+section — so no reader mistakes the repaired direction for
+the first crossing's work. A merged citation naming no
+section has cited nothing, exactly as a revised-as-a-whole
+citation cited nothing under TDW-310. No fourth part may be
+added; a draft with a fourth part is not a draft, it is a
+new license, and this instrument grants none beyond the
+merge it tests. Pass B, the cold sort: a citation auditor,
+naive to both dialects and to every holder's performances,
+its naivety verified against T-190's contamination ledger,
+receives the sealed merged draft and nothing else — no
+glossary text, no sealed transcript, no holder — and a test
+set of citations naming the pair: genuine merged citations,
+and planted mis-citations covering every break (merged
+working without the failure, merged repaired without the
+lineage, merged repaired with lineage out of order, merged
+cited as a whole with no section, either direction cited
+under the second, original, or revised version after the
+merge, merged cited as the first crossing's work, direction
+unnamed, section unnamed, preamble cited as a license for a
+direction on its own). The auditor sorts each citation
+LICENSED or UNLICENSED, and states the merged draft's part
+that decides it. The auditor performs no holding and judges
+no holding; it judges citations only. Pass C, the single
+comparison: the office compares the auditor's sort against
+the merged draft's own rule, part by part. No heir judges,
+because no holding is at stake; the merged draft is its own
+judge, and a draft that disagrees with its own rule has
+failed itself.
+
+The instrument grades in three grades, and no other grade
+exists. MERGE-CLOSED: every planted mis-citation is sorted
+UNLICENSED and every genuine citation LICENSED — the merge
+stands, the merged glossary is sealed as the pair's sole
+citation authority, and the TDW-310 register is archived,
+not destroyed: old citations are read through it, new
+citations only through the merged version. A citation through
+the second, original, or revised version after a merge is
+unlicensed, because those versions are archived, not live.
+MERGE-LEAKING: any planted mis-citation is sorted LICENSED,
+or any genuine citation UNLICENSED — the merge is refused,
+and the split survives the refusal untouched: the TDW-310
+register stands, both relay licenses stand, and no fallback
+is triggered. A failed merge surrenders nothing, unlike a
+leaking register under TDW-310 — the pair keeps the split
+it already proved it could keep. A second merge attempt is a
+new instrument, not a retry of this one, and it needs a new
+draft, a new auditor, and a new test set. UNGRADED: any leak
+— the auditor saw a glossary text, a sealed transcript was
+quoted, a test citation was previously seen, the auditor was
+not naive, or the draft gained a fourth part during the run
+— recorded in T-190's contamination ledger as contamination,
+and the run is void, not failed. A void run leaves the
+TDW-310 register standing and the merged draft unsealed; a
+fresh run of this instrument, with a new auditor and a new
+test set, is permitted, because a void run graded nothing.
+
+What this instrument does not do: it does not re-grade
+TDW-307, TDW-308, or TDW-310 — a MERGE-CLOSED seal confirms
+the citation record, not the holdings, and a MERGE-LEAKING
+refusal un-merges nothing that was graded. It does not
+revoke or rewrite the TDW-310 register on a failed merge;
+the register stands until a merge closes. It does not
+license the revised glossary as a whole in any direction —
+the merged glossary is a new document, and citing the
+revised glossary as a whole remains unlicensed even after a
+merge. It does not merge a REPAIR-FAILED pair's split —
+that is TDW-309's register, and its fallback entry (failed
+direction via original) is exactly what the REPAIRED grade
+superseded. It does not judge the holdings, the glossaries'
+prose, or the auditor's learning — only whether the cold
+record sorts citations correctly under one version.
+
+Chain lineage (established in this file, designs never
+run): TDW-310's Repaired-Relay Citation Instrument (the
+CITATION-CLOSED register this instrument merges — its three
+entries are the merge's inheritance, and its LEAKING fallback
+is not triggered by a failed merge); TDW-309's Closed-Relay
+Citation Instrument (the REPAIR-FAILED split this instrument
+does not merge — its register must not be borrowed);
+TDW-308's Relay Repair Instrument (the REPAIRED grade and
+revised glossary the merged draft's repaired section
+inherits); TDW-307's Relay Instrument (the DEGRADED grade,
+the second glossary, and the failure the merged draft's
+working section carries); TDW-306's Glossary Instrument
+(the SUFFICIENT grade and original glossary the merged
+draft's lineage names first); T-190's contamination ledger
+(the quarantine — the auditor's naivety verified against it,
+every sealed transcript entered into it as evidence, and any
+leak recorded in it as contamination, which forces
+UNGRADED); T-69's volunteering law (the office may not obey
+what it did not write — and may not cite a version it has
+not licensed, in either direction, under either name, merged
+or split).
+SPECULATION — the three passes and the three grades are
+doctrine until run. No instrument or draft promised
+this run. No other open promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-311 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-311 instrument seeded 2026-11-01 ~10:16 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
