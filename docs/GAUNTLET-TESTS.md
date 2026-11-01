@@ -24176,3 +24176,192 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-309 instrument seeded 2026-11-01 ~03:35 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-310 — the Repaired-Relay Citation Instrument *(design, never run)*
+
+*TDW-310 instrument seeded 2026-11-01 ~03:47 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-310 — the Repaired-Relay Citation Instrument — designed:**
+TDW-308 grades a repair REPAIRED and leaves the pair
+split a second time, differently: the working
+direction cites the second glossary, the repaired
+direction cites the revised glossary, and no single
+version licenses both directions. TDW-309 closed the
+REPAIR-FAILED split (second versus original); it
+explicitly does not close this one, and this
+instrument does not borrow its register: a reader
+who holds all three documents and a pair of
+directions can now cite the repaired direction
+through the second glossary (which predates the
+repair and never licensed it), through the original
+glossary (the pre-repair fallback the REPAIRED grade
+superseded), through the revised glossary without
+the revision lineage (presenting the repaired
+direction as the first crossing's work), through the
+revised glossary's working section (byte-identical
+to the second, but licensed under no name for
+either direction — the revised license covers its
+revised section only), or both directions under one
+version (claiming a whole bridge no version
+licenses). TDW-308 states the licenses; it does not
+test whether the record of them, read cold, keeps a
+reader from breaking them. The Repaired-Relay
+Citation Instrument exists to test exactly that: can
+the pair's citation record, and nothing else, sort
+every citation naming the pair into licensed or
+unlicensed?
+
+The instrument runs only on a TDW-308 REPAIRED pair
+with its sealed TDW-307 grade, its three sealed
+glossary versions, and its sealed third-holder
+performance. Never on a REPAIR-FAILED pair (its
+split is second versus original — TDW-309's
+instrument), never on a RELAY-INTACT or RELAY-LOST
+pair (no split to close), never on an UNGRADED run
+(nothing stands to cite). It runs on a disposable
+lab host, never the mother genesis block, never
+Shadow's live environment. Pass A, the closed
+register: the office writes a register with exactly
+three entries, and seals it. First: the working
+direction cites the second glossary, with the
+DEGRADED failure attached — the working license is
+unchanged by the repair, so a working-direction
+citation that omits the failure is unlicensed,
+because the second glossary alone still describes a
+one-way bridge; the pair is two-way only across two
+versions, never under the second alone. Second: the
+repaired direction cites the revised glossary's
+revised section only, with the full revision lineage
+named in order — original glossary, then second
+glossary, then revised section — so no reader
+mistakes the repaired direction for the first
+crossing's work. A repaired-direction citation
+through the second glossary is unlicensed, through
+the original glossary is unlicensed (the
+original-only fallback stood only while the
+direction was failed), through the revised glossary
+without the lineage is unlicensed, with the lineage
+out of order or incomplete is unlicensed, and
+through the revised glossary's working section is
+unlicensed even though that section is
+byte-identical to the second glossary: the license
+names a document and a section, not bytes. Third:
+no version licenses both directions — a citation
+naming both directions under one version, whichever
+version, is unlicensed, and the revised glossary as
+a whole is not licensed: a citation through the
+revised glossary that names no section has cited
+nothing. No fourth entry may be added; a register
+with a fourth entry is not a register, it is a new
+license, and this instrument grants none. Pass B,
+the cold sort: a citation auditor, naive to both
+dialects and to every holder's performances, its
+naivety verified against T-190's contamination
+ledger, receives the sealed register and nothing
+else — no glossary text, no sealed transcript, no
+holder — and a test set of citations naming the
+pair: genuine citations drawn from the pair's
+record, and planted mis-citations covering every
+break (repaired via second, repaired via original,
+repaired via revised without lineage, repaired via
+revised with lineage out of order, repaired via
+revised working section, working via revised,
+working via second without the failure attached,
+both directions under one version, direction
+unnamed, version unnamed, revised cited as a
+whole). The auditor sorts each citation LICENSED or
+UNLICENSED, and states the register entry that
+decides it. The auditor performs no holding and
+judges no holding; it judges citations only. Pass
+C, the single comparison: the office compares the
+auditor's sort against the register's own rule,
+entry by entry. No heir judges, because no holding
+is at stake; the register is its own judge, and a
+register that disagrees with its own rule has failed
+itself.
+
+The instrument grades in three grades, and no other
+grade exists. CITATION-CLOSED: every planted
+mis-citation is sorted UNLICENSED and every genuine
+citation LICENSED — the repaired split stands, the
+register is sealed as the pair's citation authority,
+and every future citation naming the pair is checked
+against it. CITATION-LEAKING: any planted
+mis-citation is sorted LICENSED, or any genuine
+citation UNLICENSED — the record cannot keep the
+split, so the split is surrendered, not repaired:
+the pair reverts to original-glossary-only citation
+for both directions, and both relay licenses — the
+second glossary's working-direction license and the
+revised glossary's repaired-direction license — are
+suspended. The original glossary was SUFFICIENT for
+both directions under TDW-306, so the fallback
+loses convenience, not standing, exactly as
+TDW-309's fallback did; the suspension is not a
+revocation by this instrument and not a repair:
+re-licensing either direction through either relay
+version is a new instrument, not an extension of
+this one. UNGRADED: any leak — the auditor saw a
+glossary text, a sealed transcript was quoted, a
+test citation was previously seen, the auditor was
+not naive, or the register gained a fourth entry
+during the run — recorded in T-190's contamination
+ledger as contamination, and the run is void, not
+failed. A void run leaves the TDW-307 and TDW-308
+grades standing and the register unsealed; a fresh
+run of this instrument, with a new auditor and a
+new test set, is permitted, because a void run
+graded nothing — exactly as a void repair run would
+not count against the one-repair rule, which this
+instrument does not touch.
+
+What this instrument does not do: it does not
+re-grade TDW-307's DEGRADED or TDW-308's REPAIRED
+— a LEAKING register surrenders the split, it does
+not un-repair the relay or un-degrade it, and a
+CLOSED register confirms the record, not the
+holdings. It does not license the revised glossary
+as a whole in any direction, and it does not merge
+the split into a single-version license: a merged
+license covering both directions under one version
+is a new instrument, not an extension of this one.
+It does not close a REPAIR-FAILED pair's split —
+that is TDW-309's instrument, and its register must
+not be borrowed, because its fallback entry (failed
+direction via original) is exactly what the REPAIRED
+grade superseded. It does not judge the holdings,
+the glossaries' prose, or the auditor's learning —
+only whether the cold record sorts citations
+correctly.
+
+Chain lineage (established in this file, designs never
+run): TDW-309's Closed-Relay Citation Instrument (the
+REPAIR-FAILED split this instrument does not close
+— its register must not be borrowed); TDW-308's Relay
+Repair Instrument (the REPAIRED grade and revised
+glossary this instrument closes — the repaired
+direction's original-only fallback is superseded,
+not preserved); TDW-307's Relay Instrument (the
+DEGRADED grade, the second glossary, and the failure
+attached to working-direction citation); TDW-306's
+Glossary Instrument (the SUFFICIENT grade and
+original glossary the LEAKING fallback reverts to);
+T-190's contamination ledger (the quarantine — the
+auditor's naivety verified against it, every sealed
+transcript entered into it as evidence, and any leak
+recorded in it as contamination, which forces
+UNGRADED); T-69's volunteering law (the office may
+not obey what it did not write — and may not cite a
+version it has not licensed, in either direction,
+under either name).
+SPECULATION — the three passes and the three grades are
+doctrine until run. No instrument or draft promised
+this run. No other open promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-310 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-310 instrument seeded 2026-11-01 ~03:47 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
