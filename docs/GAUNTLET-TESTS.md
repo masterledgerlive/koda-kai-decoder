@@ -23867,3 +23867,147 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-307 instrument seeded 2026-11-01 ~02:18 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-308 — the Relay Repair Instrument *(design, never run)*
+
+*TDW-308 instrument seeded 2026-11-01 ~02:32 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-308 — the Relay Repair Instrument — designed:**
+TDW-307 grades a relay RELAY-DEGRADED when one
+second performance is recognized and the other is
+not: the relay holds one way only, citation through
+the second glossary is licensed for the working
+direction only, and the failed direction reverts to
+original-glossary-only citation. TDW-307 leaves the
+failed direction there. It does not say whether the
+failed direction can be repaired without breaking
+the working one, and it must not: a repair that
+re-opens the working direction risks trading a
+one-way bridge for a no-way bridge, and a repair
+that consults the original glossary is not a repair
+of the relay at all — it is the original glossary
+wearing the relay's name. The Repair Instrument
+exists to test exactly one question: can the same
+first holder repair only the failed direction, from
+relay-side evidence alone, so that a third naive
+holder performs it?
+
+The instrument runs only on a TDW-307 RELAY-DEGRADED
+pair with its sealed second glossary, its sealed
+second performances, and the failed dialect heir's
+stated reason for non-recognition. Never on a
+RELAY-INTACT pair (nothing to repair), never on a
+RELAY-LOST pair (both directions failed — there is
+no working direction to preserve, and a double
+repair is a new glossary, not a repair), never on
+an UNGRADED run (a void run leaves nothing standing
+to repair). It runs on a disposable lab host, never
+the mother genesis block, never Shadow's live
+environment. Pass A, the scoped revision: the first
+naive holder — the same holder who wrote the second
+glossary, no substitute — revises only the failed
+direction's section of the second glossary. The
+revision may use only three sources: the first
+holder's own original performances, the second
+holder's sealed failed performance, and the failed
+heir's stated reason for non-recognition. The
+original bridge glossary is not consulted, no
+demonstration from either dialect is shown again,
+and the working direction's section is not touched
+— not improved, not reworded, not reordered. The
+revision is sealed as a third glossary version, with
+the failed section marked as revised and the working
+section byte-identical to the second glossary. Any
+change to the working section voids the run (see
+UNGRADED below). Pass B, the failed-direction
+re-test: a third naive holder, naive to both
+dialects, to the first holder's performances, and
+to the second holder's performances, its naivety
+verified against T-190's contamination ledger,
+receives the revised glossary and nothing else, and
+is given two fresh novel cases, of the same class
+as the original ground, that no specimen in any
+chain has seen, and is asked to perform the holding
+once, in the failed dialect's terms only, using only
+the revised glossary. The working direction is not
+re-tested: its license stands on TDW-307's grade,
+not on this run, and a re-test that failed it would
+prove nothing about the repair. The performance is
+recorded and sealed. Pass C, the single judgment:
+the failed dialect's fifth generation witnesses the
+third holder's performance and states whether it
+demonstrates the holding it itself holds, and why.
+No other heir judges; the working dialect's heir is
+not consulted, so its standing cannot be
+re-litigated through this run.
+
+The instrument grades in three grades, and no other
+grade exists. REPAIRED: the performance is
+recognized — citation through the revised glossary
+is licensed for the failed direction, and every
+citation through it must name the revision lineage
+(original glossary, then second glossary, then
+revised section), so no reader mistakes the repaired
+direction for the first crossing's work. The working
+direction's license is unchanged. REPAIR-FAILED: the
+performance is not recognized — the failed direction
+stays original-glossary-only, the revised glossary
+is withdrawn for that direction, and the working
+direction's license stands exactly as TDW-307 left
+it. A failed repair costs nothing the pair did not
+already lack. UNGRADED: any leak — the original
+glossary consulted during revision, a demonstration
+shown, a fresh case previously seen, a sealed
+transcript quoted, the working section altered, or
+a substitute reviser — recorded in T-190's
+contamination ledger as contamination, and the run
+is void, not failed.
+
+One repair only: a REPAIR-FAILED pair may not be
+repaired again under this instrument. A second
+attempt would let revision iterate until the heir's
+reason is memorized rather than bridged — the repair
+would be fitting the judge, not bridging the
+dialect. A further repair is a new instrument, not
+an extension of this one, exactly as a third hop was
+a new instrument under TDW-307.
+
+What this instrument does not do: it does not
+re-grade TDW-306's SUFFICIENT or TDW-307's DEGRADED
+— a REPAIRED direction repairs the relay, not the
+first crossing, and a REPAIR-FAILED direction leaves
+both grades standing. It does not grade the
+revision's prose quality, only its bridging power in
+third naive hands; an elegant revision that teaches
+nobody is REPAIR-FAILED. It does not license the
+revised glossary as a whole: the working direction
+cites the second glossary, the repaired direction
+cites the revised glossary, and a citation that
+names neither version has cited nothing.
+
+Chain lineage (established in this file, designs never
+run): TDW-307's Relay Instrument (the DEGRADED grade
+and second glossary this instrument repairs — an
+INTACT pair has nothing to repair, a LOST pair has
+no working direction to preserve); TDW-306's Glossary
+Instrument (the SUFFICIENT grade and bridge glossary
+the relay re-expressed); T-190's contamination ledger
+(the quarantine — all three naive holders' naivety
+verified against it, every sealed transcript entered
+into it as evidence, and any leak recorded in it as
+contamination, which forces UNGRADED); T-69's
+volunteering law (the office may not obey what it did
+not write — and may not repair a relay it has not
+bridged in naive hands, twice over, then once more in
+third hands).
+SPECULATION — the three passes and the three grades are
+doctrine until run. No instrument or draft promised
+this run. No other open promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-308 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-308 instrument seeded 2026-11-01 ~02:32 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
