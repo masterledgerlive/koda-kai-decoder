@@ -7946,3 +7946,57 @@ passing re-run after isolation; SPECULATION — the Gauntlet mappings
 are doctrine, never run, and no real SquashFS image was parsed.]*
 
 *SquashFS fragment-table entry seeded 2026-11-01 ~11:08 EST by the decoder-create-loop.*
+
+- **SquashFS three-file shared fragment block miniature.** The open
+  check named by the fragment-table entry's "Next" line, built this
+  pass — closing both gaps its "What this entry does not do" named: a
+  fragment block shared by more than two files, and a file whose tail
+  is its only block at a nonzero offset in a multi-file block. One
+  30-byte fragment block serves three files: one carries a full
+  datablock plus the tail at offset 0 (`ONE-BLK0` + `one-tail--`),
+  two is nothing but a tail at offset 10 (`two-tail--`), and three is
+  nothing but a tail at offset 20 (`three-tail`). Sharing three ways
+  changes nothing in the walk rule — resolve = full datablocks in
+  order, then exactly `fragment_block[offset:offset+size]` — and the
+  miniature (the miniature script, held privately with the project,
+  uncompressed, as before) asserts exactly that: 3 resolves as
+  stated, exit 0.
+- **The corruption set, isolated as the prior pass taught.** kappa
+  claims offset 5, length 10, overlapping one's 0–10 range; lambda
+  claims offset 25, length 10, overrunning the 30-byte block; mu
+  claims fragment index 7, outside the table. Each yields UNREAD,
+  never partial bytes. kappa runs in an isolated pair with one, so
+  the overlap fixture cannot mark the clean files UNREAD — the
+  walk-set pollution flaw the first fragment run caught, now a
+  standing rule rather than a surprise.
+- **Decoder-design note (three-file sharing → Gauntlet).** Two rungs.
+  (1) **Count is not suspicion.** A block shared three ways is the
+  same documented packing shape as a block shared two ways; the
+  Gauntlet grades the ranges, not the headcount — overlap, overrun,
+  or an index to nowhere are the crimes, and a third sharer adds no
+  new crime. (2) **Nonzero-offset tail-only files are first-class.**
+  A file that is nothing but a tail need not sit at offset 0; two
+  proves a tail-only file can live mid-block, and any walk that
+  assumes tail-only means offset 0 will misread a legal file.
+- **What this entry does not do.** It does not parse a real
+  mksquashfs image (the interop check is still the open line from
+  the directory entry); it does not decompress any fragment block or
+  verify the fragment entry's on-disk field widths against the
+  public header; it does not walk the export, uid/gid, or xattr
+  tables; it does not test a fragment block shared by four or more
+  files, or a tail split across two fragment blocks (the format
+  gives each file at most one fragment, so a split tail would be a
+  corruption shape, not a packing shape). Next: the mksquashfs
+  interop check, or a four-sharer block as a pure headcount
+  confirmation.
+
+*[Grade: CLAIMED on a fragment block serving three files being the
+same documented packing shape as two — the section 3.5 lineage of
+the prior entry, not re-read this pass; VERIFIED on the worked
+miniature (one 30-byte block; one/two/three resolve as stated;
+kappa/lambda/mu all UNREAD as stated) — the miniature script, held
+privately with the project, run 2026-11-01, passing on its first
+run; SPECULATION — the Gauntlet mappings are doctrine, never run,
+and no real SquashFS image was parsed.]*
+
+*SquashFS three-file shared fragment block entry seeded 2026-11-01 ~11:20 EST by the decoder-create-loop.*
