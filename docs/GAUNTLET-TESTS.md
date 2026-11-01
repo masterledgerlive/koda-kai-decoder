@@ -23630,3 +23630,119 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-305 instrument seeded 2026-10-30 ~04:50 EDT by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-306 — the Glossary Instrument *(design, never run)*
+
+*TDW-306 instrument seeded 2026-11-01 ~01:50 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-306 — the Glossary Instrument — designed:** TDW-305
+grades a fork TRANSLATABLE and licenses a bridge
+glossary naming two dialects as renderings of one
+holding, after which citation may name either dialect
+with the glossary attached. But a glossary written by
+holders of both dialects has never been tested in the
+only hands that matter: hands holding neither. A
+glossary can be accurate to both dialects and still
+fail as a bridge — it can describe the fork
+beautifully while teaching nobody to cross it. The
+Glossary Instrument exists to measure the bridge, not
+the description: after a TRANSLATABLE grade and a
+written bridge glossary, can a third holder, naive to
+both dialects, use the glossary alone to recognize and
+perform both holdings on a fresh case?
+
+The instrument runs only on a TDW-305 TRANSLATABLE
+pair with a written bridge glossary, never on a
+ONE-WAY pair (a one-direction bridge has no glossary
+to test, only a direction to note) and never on an
+UNTRANSLATABLE pair (there the catalogue splits the
+entry; no glossary is written). It runs on a
+disposable lab host, never the mother genesis block,
+never Shadow's live environment. Pass A, the naive
+holder: a fifth-generation specimen from a third chain
+— naive to both dialects, its naivety verified against
+T-190's contamination ledger — receives the bridge
+glossary and nothing else: no demonstration from
+either dialect, no description beyond what the
+glossary itself contains. Pass B, the two
+performances: the naive holder is given two fresh
+novel cases, of the same class as the original ground,
+that no specimen in any chain has seen, and is asked
+to perform the holding twice, once in each dialect's
+terms, using only the glossary. Both performances are
+recorded and sealed. Pass C, the double judgment:
+each fifth generation of the two original chains
+witnesses the naive holder's performance in its own
+dialect and states whether it demonstrates the holding
+it itself holds, and why. A performance recognized by
+its own dialect's heir but not the other's is not a
+half-bridge; the glossary is judged per dialect, and
+the grades below are per-dialect pairs, not averages.
+
+The instrument grades in four grades, and no other
+grade exists. GLOSSARY-SUFFICIENT: both performances
+are recognized by their respective heirs — the glossary
+bridges in both directions in naive hands, and citation
+may name either dialect with the glossary attached,
+including by holders of neither. GLOSSARY-PARTIAL: one
+performance is recognized and the other is not — the
+glossary bridges one way only, and citation may name
+the working dialect's rendering for the failed
+direction only with the failure attached; the failed
+direction reverts to TDW-305's ONE-WAY treatment, and
+the glossary must be revised before it is cited for
+that direction again. GLOSSARY-DECORATIVE: neither
+performance is recognized — the glossary describes the
+fork without bridging it, the TRANSLATABLE grade
+stands (the heirs could translate for each other) but
+the glossary is withdrawn from citation, and no holder
+of neither dialect may cite either rendering through
+it. UNGRADED: any leak — the naive holder saw a
+demonstration from either dialect, the glossary quoted
+a sealed transcript, or a fresh case was previously
+seen — recorded in T-190's contamination ledger as
+contamination, and the run is void, not failed.
+
+What this instrument does not do: it does not re-grade
+TDW-305's TRANSLATABLE — a DECORATIVE glossary is a
+failure of the glossary, not of the translation, and
+the two heirs' mutual recognition stands. It does not
+grade the glossary's prose quality, only its bridging
+power in naive hands; an elegant glossary that teaches
+nobody is DECORATIVE. It does not permit the naive
+holder to become a fourth chain: its performances are
+evidence, not a new dialect, and are sealed, not
+taught onward.
+
+Chain lineage (established in this file, designs never
+run): TDW-305's Translation Instrument (the
+TRANSLATABLE grade and bridge glossary this instrument
+tests — a ONE-WAY or UNTRANSLATABLE grade has no
+glossary to test); TDW-304's Convergence Instrument
+(the DIALECTS pair the translation measured); TDW-303's
+Drift Instrument (the five-generation origin-anchored
+chains both dialects descend from); TDW-302's Lineage
+Instrument (the two-generation chain both twin chains
+extend); TDW-301's Teaching Instrument (the first
+transmission, and the source of the original
+demonstration the rubric is recorded from); T-190's
+contamination ledger (the quarantine — the naive
+holder's naivety verified against it, every sealed
+transcript entered into it as evidence, and any
+demonstration leak recorded in it as contamination,
+which forces UNGRADED); T-69's volunteering law (the
+office may not obey what it did not write — and may
+not cite a glossary for a direction it has not bridged
+in naive hands).
+SPECULATION — the three passes and the four grades are
+doctrine until run. No other open pairs lines. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-306 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-306 instrument seeded 2026-11-01 ~01:50 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
