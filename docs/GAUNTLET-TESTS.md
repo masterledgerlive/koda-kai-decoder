@@ -24011,3 +24011,168 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-308 instrument seeded 2026-11-01 ~02:32 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-309 — the Closed-Relay Citation Instrument *(design, never run)*
+
+*TDW-309 instrument seeded 2026-11-01 ~03:35 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-309 — the Closed-Relay Citation Instrument — designed:**
+TDW-308 grades a repair REPAIR-FAILED and leaves the
+pair split: the working direction cites the second
+glossary, the failed direction cites the original
+glossary only, and the revised glossary is withdrawn
+for the failed direction. A split citation is a
+standing invitation to cite the wrong version: a
+reader who holds all three documents — original,
+second, revised — and a pair of directions can, by
+inattention or by preference for the newest text,
+cite the failed direction through the second
+glossary (licensed for the working direction only),
+through the revised glossary (withdrawn), or without
+naming a direction at all (claiming both directions
+under one version, one of which that version does
+not license). TDW-308 states the licenses; it does
+not test whether the record of them, read cold,
+keeps a reader from breaking them. The Closed-Relay
+Citation Instrument exists to test exactly that: can
+the pair's citation record, and nothing else, sort
+every citation naming the pair into licensed or
+unlicensed?
+
+The instrument runs only on a TDW-308 REPAIR-FAILED
+pair with its sealed TDW-307 grade, its three sealed
+glossary versions, and its sealed failed performance.
+Never on a REPAIRED pair (its split is second versus
+revised, not second versus original — a different
+instrument), never on a RELAY-INTACT or RELAY-LOST
+pair (no split to close), never on an UNGRADED run
+(nothing stands to cite). It runs on a disposable
+lab host, never the mother genesis block, never
+Shadow's live environment. Pass A, the closed
+register: the office writes a register with exactly
+three entries, and seals it. First: the working
+direction cites the second glossary, with the
+DEGRADED failure attached — a working-direction
+citation that omits the failure is unlicensed,
+because it presents a one-way bridge as whole.
+Second: the failed direction cites the original
+glossary only — a failed-direction citation through
+the second glossary is unlicensed, through the
+revised glossary is unlicensed, and through no named
+version is unlicensed, because a citation that names
+neither version has cited nothing. Third: the
+revised glossary is entered as withdrawn repair
+evidence only — it may be cited as evidence that a
+repair was attempted and failed, labeled withdrawn,
+never cited through as a bridge. A working-direction
+citation through the revised glossary is unlicensed
+even though the revised working section is
+byte-identical to the second glossary: the license
+names a document, not bytes. No fourth entry may be
+added; a register with a fourth entry is not a
+register, it is a new license, and this instrument
+grants none. Pass B, the cold sort: a citation
+auditor, naive to both dialects and to every
+holder's performances, its naivety verified against
+T-190's contamination ledger, receives the sealed
+register and nothing else — no glossary text, no
+sealed transcript, no holder — and a test set of
+citations naming the pair: genuine citations drawn
+from the pair's record, and planted mis-citations
+covering every break (failed direction via second,
+failed via revised, working via revised, working via
+second without the failure attached, direction
+unnamed, version unnamed, revised cited through as
+a bridge). The auditor sorts each citation LICENSED
+or UNLICENSED, and states the register entry that
+decides it. The auditor performs no holding and
+judges no holding; it judges citations only. Pass
+C, the single comparison: the office compares the
+auditor's sort against the register's own rule,
+entry by entry. No heir judges, because no holding
+is at stake; the register is its own judge, and a
+register that disagrees with its own rule has failed
+itself.
+
+The instrument grades in three grades, and no other
+grade exists. CITATION-CLOSED: every planted
+mis-citation is sorted UNLICENSED and every genuine
+citation LICENSED — the split citation stands, the
+register is sealed as the pair's citation authority,
+and every future citation naming the pair is checked
+against it. CITATION-LEAKING: any planted
+mis-citation is sorted LICENSED, or any genuine
+citation UNLICENSED — the record cannot keep the
+split, so the split is surrendered, not repaired:
+the pair reverts to original-glossary-only citation
+for both directions, and the second glossary's
+working-direction license is suspended. The original
+glossary was SUFFICIENT for both directions under
+TDW-306, so the fallback loses convenience, not
+standing; the revised glossary stays withdrawn. The
+suspension is not a revocation by this instrument
+and not a repair: re-licensing the working
+direction through the second glossary is a new
+instrument, not an extension of this one. UNGRADED:
+any leak — the auditor saw a glossary text, a sealed
+transcript was quoted, a test citation was
+previously seen, the auditor was not naive, or the
+register gained a fourth entry during the run —
+recorded in T-190's contamination ledger as
+contamination, and the run is void, not failed. A
+void run leaves the TDW-307 and TDW-308 grades
+standing and the register unsealed; a fresh run of
+this instrument, with a new auditor and a new test
+set, is permitted, because a void run graded nothing
+— exactly as a void repair run would not count
+against the one-repair rule, which this instrument
+does not touch.
+
+What this instrument does not do: it does not
+re-grade TDW-307's DEGRADED or TDW-308's
+REPAIR-FAILED — a LEAKING register surrenders the
+split, it does not un-degrade the relay or un-fail
+the repair, and a CLOSED register confirms the
+record, not the holdings. It does not license the
+revised glossary in any direction: evidence citation
+labeled withdrawn is not bridge citation, and a
+reader who quotes the withdrawn text as authority
+has cited nothing. It does not judge the holdings,
+the glossaries' prose, or the auditor's learning —
+only whether the cold record sorts citations
+correctly. It does not close a REPAIRED pair's
+split: a repaired direction citing the revised
+glossary against a working direction citing the
+second glossary is a different split, and its
+citation instrument is a new instrument, not an
+extension of this one.
+
+Chain lineage (established in this file, designs never
+run): TDW-308's Relay Repair Instrument (the
+REPAIR-FAILED grade and withdrawn revised glossary
+this instrument closes — a REPAIRED pair's split is
+not this instrument's business); TDW-307's Relay
+Instrument (the DEGRADED grade, the second glossary,
+and the failure attached to working-direction
+citation); TDW-306's Glossary Instrument (the
+SUFFICIENT grade and original glossary the LEAKING
+fallback reverts to); T-190's contamination ledger
+(the quarantine — the auditor's naivety verified
+against it, every sealed transcript entered into it
+as evidence, and any leak recorded in it as
+contamination, which forces UNGRADED); T-69's
+volunteering law (the office may not obey what it
+did not write — and may not cite a version it has
+not licensed, in either direction, under either
+name).
+SPECULATION — the three passes and the three grades are
+doctrine until run. No instrument or draft promised
+this run. No other open promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-309 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-309 instrument seeded 2026-11-01 ~03:35 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
