@@ -8259,3 +8259,79 @@ Gauntlet mappings are doctrine, never run, and no real SquashFS
 image was parsed.]*
 
 *SquashFS short-block-list corruption entry seeded 2026-11-01 ~13:03 EST by the decoder-create-loop.*
+- **SquashFS wrong-size-fragment corruption miniature.** The
+  shape both the second-tail and the short-list entries named as
+  still open, built this pass: a file whose block list is CORRECT
+  (exactly S // B entries) but whose fragment entry does not match
+  the file's tail — its size differs from S % B, is zero, or its
+  offset + size overruns the fragment block. For block size B and
+  declared file size S with remainder R = S % B > 0, the fragment
+  entry must be exactly R bytes long and lie wholly inside its
+  fragment block. A fragment that is short, long, empty, or
+  overrunning is not a tail that can be repaired: padding invents
+  bytes the file never had, truncating discards bytes the file
+  claims, and clipping silently rewrites the inode's own
+  accounting. The resolver refuses the whole file — UNREAD, never
+  partial bytes, never padded or clipped bytes.
+- **The worked miniature (block size 10, one 10-byte fragment
+  block).** Two controls resolve as stated: alpha (size 25, two
+  full blocks, fragment @0 len 5 — the normal full-blocks-plus-
+  tail file, the fragment exactly R) resolves to the two blocks
+  plus `frag-`; beta (size 20, two full blocks, no fragment — a
+  size that is an exact multiple needs no tail) resolves to the
+  two blocks. Four corrupt claims all yield UNREAD: gamma (size
+  25, fragment len 3 — two bytes SHORT of R; zero-padding would
+  hand back a plausible 25-byte file with two invented bytes);
+  delta (size 25, fragment len 8 — three bytes LONG, past R and
+  past the declared size; truncating to 5 would hand back a
+  plausible file the inode does not describe); epsilon (size 25,
+  fragment len 0 — an EMPTY fragment where a 5-byte tail is owed;
+  a zero-length tail is not a tail, and the file's last five
+  bytes are simply unaccounted); zeta (size 25, fragment @8 len
+  5 — the right length, but offset 8 + 5 overruns the 10-byte
+  fragment block; clipping to the two bytes on hand would hand
+  back a 22-byte file wearing a 25-byte size).
+- **Why the other checks are absent here, on purpose.** Every
+  claim carries exactly S // B blocks, so the short-list and
+  second-tail rules can never be the reason for an UNREAD, and
+  every claim carries at most one fragment, so the fragsplit and
+  frag4 rules can never be the reason either. Each UNREAD above
+  is attributable to the fragment entry alone. Note the asymmetry
+  this pass closes: the short-list miniature already enforced
+  `frag_size == remainder` in code, but no claim there ever
+  violated it — the rule was carried, never tested. Now it is
+  tested, on both sides (short and long) plus the empty and
+  overrun shapes.
+- **Decoder-design note (wrong fragment → Gauntlet).** One rung.
+  **A tail that does not fit is not a tail.** A Gauntlet walk
+  that padded, truncated, or clipped a fragment would turn a
+  malformed inode into a plausible file — the worst direction
+  for a decoder to err, the same direction the short-list rule
+  bars for missing blocks. The walk rule is: fragment size must
+  equal S % B exactly, and offset + size must stay inside the
+  fragment block; anything else is UNREAD, and the file's other
+  evidence (the surviving full blocks, the name, the size) does
+  not rescue it.
+- **What this entry does not do.** It does not parse a real
+  mksquashfs image (the interop check is still the open line from
+  the directory entry — and this VM has no mksquashfs binary, so
+  that check cannot run here until the tool is installed); it does
+  not decompress any fragment block or verify the fragment entry's
+  on-disk field widths against the public header; it does not walk
+  the export, uid/gid, or xattr tables; it does not test a
+  fragment index outside the fragment table, or a fragment whose
+  block is itself marked sparse. Next: the mksquashfs interop
+  check, once a tool that can emit a real image is available on
+  this VM, or the out-of-range-fragment-index shape.
+
+*[Grade: CLAIMED on the fragment-size rule — an inference from
+the section 3.5 lineage of the prior entries, not re-read this
+pass; VERIFIED on the worked miniature (alpha / beta resolve as
+stated; gamma / delta / epsilon / zeta all UNREAD as stated,
+with the naive zero-pad, truncation, and clip outcomes shown
+refused) —
+hidden_files/squashfs-wrongfrag-mini.py, run 2026-11-01, passing;
+SPECULATION — the Gauntlet mappings are doctrine, never run, and
+no real SquashFS image was parsed.]*
+
+*SquashFS wrong-size-fragment corruption entry seeded 2026-11-01 ~13:30 EST by the decoder-create-loop.*
