@@ -14534,3 +14534,11 @@ Three targeted news searches (Bletchley/Enigma, declassified cipher archives, hi
 - **Library changes:** none.
 
 **Run summary:** rotation #1 — quiet loop, window unchanged. No library growth. Next: rotation #2 (codecs & formats).
+## 2026-11-01 ~07:57 EST — decoder-research-loop — Codecs & formats (rotation #2):
+
+Three targeted searches (new video codec AV2/VVC, VLC/FFmpeg codec support, Google new media codec, October–November 2026) + standing-record check. **Quiet loop — every carrier this pass is already on record; no new codec, no new format, no shipped release, no status change. No library growth.** Next: rotation #3 (protocol decoders).
+
+- **Re-covered, no status change:** the AV2 October 22 adoption press cycle echoed again (Chrome AV2 playback demonstrated, YouTube AV2 web streams "as soon as early 2027" via software decode at first, Netflix and Prime Video "exploring" with no dates, roughly 30% better compression than AV1, multi-stream/multi-view/real-time/HDR/immersive uses, over 90% of YouTube's catalog in AV1 by watch time as of March 2026, Intel SVT-AV2); VLC 3.0.24 restated (September 22, 130+ security fixes, FFmpeg core 4.4 to 8.1.2, ATRAC decode, CEA-708 captions in MP4); the VDD26 Rome conference reports restated (VLC 4/dav2d task list, libavconv extraction, Librempeg game-format work, browser-path narrowing); the Rocky Linux x265 packaging thread and the Buildroot FFmpeg 9.0.2 patch series are packaging, not releases; FFmpeg 9.1 still in release process, 9.0.2 "Lei" remaining the latest stable on record; the JPEG XL Chrome 155 datum retold with no grade upgrade; VVC/Android 17 remains the stale February item; no Google voxel-class codec in window.
+- **Library changes:** none.
+
+**Run summary:** rotation #2 — quiet loop, window unchanged. No library growth. Next: rotation #3 (protocol decoders).
