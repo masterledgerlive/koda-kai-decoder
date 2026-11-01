@@ -8700,3 +8700,61 @@ never run; no real image from any other encoder was parsed.]*
 - **Decoder-design note (Chappe → Gauntlet).** Chappe inverts semaphore's lesson and completes the "no secrecy" set's fourth member: the arm positions were visible to anyone with a telescope — the channel hid nothing — and all the secrecy lived in the codebook, which never left the endpoints. Four lessons. (1) **Blind relays.** The stationnaires who re-transmitted every symbol could not read a word of it; they were carriers, not readers. A seized relay yields symbols, not meaning — so interrogation that captures an intermediary and finds nothing has not failed, it has found the architecture: compromise the codebook, not the carrier. (2) **Relay re-encoding compounds error.** Every tower re-set the arms from its own reading, so a misread propagated downstream as truth, with no end-to-end check anywhere in the line. A specimen that passes through many hands must be verified endpoint-to-endpoint, never trusted hop-by-hop. (3) **The network is the attack surface.** One compromised tower could inject, drop, or alter symbols for the whole downstream line — man-in-the-middle, 1794 edition — and the endpoints had no way to tell. Defence lives at the endpoints (verification), never in relay trust. (4) **Weather is denial-of-service.** Fog ended the message as surely as a cut wire; availability is a property of the channel, and the Gauntlet's "who could have seen this" (semaphore) extends to "when could anyone have seen this at all." [SPECULATION — the Gauntlet mappings are doctrine, never run]
 
 *Chappe optical telegraph entry seeded 2026-11-01 ~17:05 EST by the decoder-create-loop.*
+- **SquashFS zstd-compressed interop check (4.0).** The zstd
+  corner, the first of the two untested compressors the xz x AUF
+  entry named: same sources, same pure-Python reader as the xz
+  check, one parameter changed — mksquashfs 4.6.1 (4K blocks,
+  -noappend) passed -comp zstd. The answer is yes: the reader
+  resolves zstd images with exactly one new branch, the
+  decompressor. Main image: superblock compression id 6;
+  alpha.txt 5000 keeps 2 blocks (compressed spans 288, 276 —
+  different from xz's 332/308, as expected) and fragment = none;
+  beta.txt 100 takes fragment idx 0; gamma.txt 4096 (exact
+  multiple) keeps 1 block, fragment = none; delta.txt 0 keeps 0
+  blocks, fragment = none; inner/note.txt 11 resolves through
+  its fragment. Fragments = 1, and the fragment block is exactly
+  111 bytes = 100 + 11, holding both tails and nothing else.
+  Single-file image: big.txt 5000 keeps 2 blocks, fragments =
+  0 — the tail is a partial block, not a fragment, under zstd
+  exactly as under gzip and xz. Every block decompresses as a
+  plain zstd frame, single form asserted throughout (the xz
+  reader needed four candidate forms; zstd has one container).
+  Three constants reconfirmed on the new images: the directory
+  file_size +3 gap (root 95 vs 92, inner 31 vs 28, single root
+  30 vs 27), root parent_inode = inodes + 1 (8 for 7 inodes, 3
+  for 2), and the inode-table walk exact at 236 bytes (main)
+  and 72 bytes (single) — identical to the xz default walk.
+- **Decoder-design note (zstd -> Gauntlet).** The zstd corner
+  proves the compressor branch is genuinely pluggable: same
+  carrier grammar, same walk, new codec — and a reader that
+  hard-codes "the block decompressor" fails on any image whose
+  compressor it never met, while the grammar it failed on is
+  unchanged. The specimen record must therefore carry encoder +
+  compressor + flags as one triple, as the xz x AUF note held.
+  Zstd also sharpens the claim: a single-form decompressor
+  leaves no fallback ladder for a misbuilt image to hide behind,
+  so a zstd pass is a cleaner interop proof than the xz pass
+  was. [SPECULATION — the Gauntlet mappings are doctrine,
+  never run]
+- **What this entry does not do.** It does not test zstd under
+  -always-use-fragments (the second zstd corner); it does not
+  test lz4 blocks under either flag; it does not walk the lookup
+  or id tables; it does not explain the +3 directory file_size
+  gap or the root parent_inode = inodes + 1 reading (both
+  reconfirmed here, still unexplained); it does not test a
+  sparse file under zstd; it does not parse a SquashFS image
+  from any other encoder. Next: zstd x AUF, or lz4, or the
+  +3/parent explanations, or sparse under zstd.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1, 4K
+blocks, zstd, -noappend): 6 files resolved byte-identically;
+superblock compression id 6; all blocks decompress as zstd
+frames (single form, asserted); fragment block exactly 111
+bytes; exact multiple and empty files keep fragment = none;
+inode-table walk exact at 236/72 bytes; +3 gap and root
+parent = inodes + 1 reconfirmed on both images —
+hidden_files/squashfs-zstd-mini.py, run 2026-11-01, passing on
+first run; SPECULATION — the Gauntlet mappings are doctrine,
+never run; no real image from any other encoder was parsed.]*
+
+*SquashFS zstd-compressed interop entry seeded 2026-11-01 ~17:20 EST by the decoder-create-loop.*
