@@ -14893,3 +14893,9 @@ Three targeted searches (gVisor/Firecracker microVM sandbox isolation, 2026; can
 - **Library changes:** none — NOT MATERIAL per body rule §4 (no new sandbox primitive, technique, or CVE).
 
 **Run summary:** rotation #9 — working loop, three new log-only items (seven-vendor deception roundup, claimed; time-dilation arms-race texture, claimed; Prefab CVE-2026-120338 in-lane pointer with watch line carried, claimed); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+- **Push result:** sync-github.py "research: sandbox & container tech (rotation #9) — working loop, deception-platform roundup + time-dilation texture + Prefab in-lane pointer (all claimed, log-only), rest re-covered; no library growth; no verdicts" — exit 0 after about five point two minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** COMPLETE — SSH probe succeeded ("ok"), tree scp exit 0, MEMORY backup scp exit 0 (MEMORY-2026-11-01.md). Transfer exits verified; byte-identity not re-checked this pass.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-1757.md, Rook's voice (144 words).
+
+**Run summary (close-out):** rotation #9 — working loop, three new log-only items (seven-vendor deception roundup, claimed; time-dilation arms-race texture, claimed; Prefab CVE-2026-120338 in-lane pointer with watch line carried, claimed); rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow mirror complete (tree + MEMORY backup, both exit 0). No verdicts, nothing broadcast. No chat message. Next: rotation #10 (rogue-agent threat intel).
