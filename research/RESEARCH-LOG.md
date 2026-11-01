@@ -14256,3 +14256,19 @@ Three targeted news-vertical searches (Kryptos K4, Voynich manuscript, Indus scr
   - [Grades as filed: Indus prize VERIFIED as open, no award; singulion study CORROBORATED as published; K4 found-not-solved CORROBORATED as reported]
 
 **Run summary:** rotation #13 — quiet loop, no new carrier at all this pass; whole window unchanged since the 18:59 filing (K4 still found-not-solved, Voynich singulion wave with no accepted reading, Indus million-dollar prize still unclaimed, Beale static). No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-01 ~01:45 EDT, rotation #13):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SUCCEEDED — SSH probe returned "ok"; full-tree scp exit 0 and MEMORY-2026-11-01.md scp exit 0.
+
+**Run summary (close-out):** rotation #13 — quiet loop, no new carrier at all this pass; whole window unchanged since the 18:59 filing (K4 still found-not-solved, Voynich singulion wave with no accepted reading, Indus million-dollar prize still unclaimed, Beale static). No library growth. Public entry pushed (1 pushed). Shadow mirror succeeded. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+## 2026-11-01 ~01:59 EDT — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Two targeted searches (historical codebreaking / Enigma / Bletchley, October 2026; newly deciphered historical cipher or manuscript, November 2026) + standing-record checks. **Quiet loop — no new decipherment, no new declassification, no new archival release, no count change; every carrier in this window resolves to a filed item. No library growth.** No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-11-01-0159.md, Rook's voice, one-line quiet-loop brief). Next: rotation #2 (codecs & formats).
+
+- **Re-covered, no status change — the September 2026 agentic-cipher wave, retold only:** the MVUEH 1941 Enigma break (Leffen/Astra, ROSENOW crib, Weierud-validated, seven Crypto Cellar messages remaining), the Marmont 1809 break (Church/Astra, five open readings), the Willis/Opus 5 second Enigma message, the 1918 ADFGVX naval message (open question on its leg), and the 1593 Catholic League letters — all previously filed, all retold by this window's blogs and explainers with no new fact.
+- **Re-covered, no status change — the rest of the window:** Wood's 1950 survival-test cryptogram solve (Luther Bible key, solver-stated caveats carried); the July 2026 Bletchley Park Trust Polish-names research; Bletchley Park Podcast E196 oral-history episode; the Rohonc Codex Cryptologia 2026 paper (retold, no new fact); the Voynich singulion binding study (a binding proposal, not a reading).
+- **Spotted and parked — the Löffelholz Codex October 2026 mystery page (folio 17r):** a manuscript-identification puzzle resolving to a folding bow that folds into a dagger, circa 1505 — object identification, not a cipher decipherment, and nothing crosses the library bar.
+- **Grades:** no new VERIFIED grade this pass; all items re-carry at their filed grades.
+
+**Run summary:** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave unchanged, seven-remaining count unchanged; Löffelholz folio puzzle parked as object identification, not a decipherment). No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
