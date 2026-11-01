@@ -14107,3 +14107,24 @@ Two targeted news-vertical searches (photonic chip / optical comms, October 2026
 - **Catalogue update:** github-public/docs/DECODER-CATALOGUE.md gained the PsiQuantum OCS demonstration-vehicle entry (after the Voyant OCS entry).
 
 **Run summary:** rotation #6 — working loop, one new catalogue item (PsiQuantum 8×8 OCS demo vehicle, October 29, claimed); beam-test watch tick (Reason-1 late-October window passed, no published transfer; Protostar still no result); rest re-carried. Next: rotation #7 (predictive math).
+
+**Close-out (2026-10-31 ~22:45 EDT, rotation #6):**
+- **Push result:** sync-github.py exit 0 — catalogue pushed by this run; public log entry verified byte-identical on remote (local blob sha == remote sha). Both public files live.
+- **Shadow mirror:** SUCCEEDED — decoder tree and MEMORY-2026-10-31.md mirrors both exit 0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-2220.md, Rook's voice.
+
+**Run summary (close-out):** rotation #6 — working loop, one new catalogue item (PsiQuantum 8×8 OCS demo vehicle, October 29, claimed); beam-test watch tick (Reason-1 late-October window passed, no published transfer; Protostar still no result); rest re-carried. Next: rotation #7 (predictive math).
+## 2026-10-31 ~22:46 EDT — decoder-research-loop — Predictive math (rotation #7):
+
+Working loop — two new log-only items, everything else re-covered as filed. No library growth. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
+
+- **NEW, log-only — Midterm market-vs-model snapshot, three days before Election Day (Action Network tracker, prices checked October 31, 2026; CLAIMED — secondary tracker synthesising market prices, polls and forecaster ratings).** House control: Polymarket US 93% and Kalshi 92% for Democrats, against Decision Desk HQ's model at 80% (projected 238 seats) — a 12–13 point gap; Cook Political Report favours Democrats outright in the 218 seats needed, with a 227–237 seat range, and Kalshi's seat-count projection stood at 240 on October 30. Senate control: both markets at 68% against DDHQ at 60% (projected 52 seats). Widest race gaps: Ohio Senate 16 points (DDHQ 54% vs market 70%), Alaska Senate 15 points (60% vs 75%). Caveat carried: DDHQ's model itself blends prediction-market data, so market and model are not independent witnesses — the gap measures model caution and market speed, not two clean votes. A dated snapshot; its verdict arrives with the November 3 resolutions.
+  - Source: https://www.actionnetwork.com/politics/2026-midterm-predictions-what-prediction-markets-say-vs-the-polls/
+- **NEW, log-only detail — Kalshi calibration working paper specifics (Kagan and Baiocchi, August 2026, via search snippet; CLAIMED — paper not read in full this pass).** The first large-scale calibration evaluation on a US-regulated exchange: 2,243,741 resolved Kalshi markets, 2021 through mid-2026. New detail: calibration improves near-monotonically with trading volume and trader count, and anchoring to true event timing rather than raw closing timestamps improves calibration in Sports and de-biases Elections. A snippet-level detail on an already-filed study, no new grade.
+  - Source: https://kalshi.com/research/kalshi-research-calibration.pdf
+- **Re-covered, no status change:** PredictDesks 358,236-market study (favourite 76.9% a day out, 65.9% when genuinely unsure); million-question calibration paper (CORROBORATED); Summer 2026 Metaculus Cup bot sweep (Laertes first, ManticAI second — VERIFIED via Reuters on record, with the denominator care: 885 forecasters vs 676 humans); ForecastBench parity nuance (best AI tied with superforecasters on ForecastBench, top Metaculus Pros still ahead head-to-head); FRI LEAP review, Combat Edge MMA tracker, RTPR Impact Scores report, Fed ledger at 15 of 15, and the rest of the predictive-math window, all as filed.
+- **Watch items, no change:** Election Day November 3 (resolution event for the midterm tick series); December 8–9 Fed meeting (next calibration-ledger event).
+- **Grades:** new items CLAIMED; re-carry only otherwise; no new VERIFIED grade this pass.
+- **Library changes:** none — not material (dated snapshot + snippet detail only).
+
+**Run summary:** rotation #7 — working loop, two new log-only items (midterm market-vs-model snapshot: House 92–93% vs 80%, Senate 68% vs 60%, widest gap Ohio 16 points — claimed, non-independence caveat carried; Kalshi working-paper detail: 2.24 million markets, calibration sharpening with volume and trader count — claimed via snippet), rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
