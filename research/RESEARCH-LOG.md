@@ -14500,3 +14500,10 @@ Three targeted searches (SymPy/SciPy 2026 stack; symbolic regression / physics s
 - **Grades:** nuclear-masses factorization CORROBORATED (journal listing + abstract); rest as previously filed.
 
 **Run summary:** rotation #12 — working loop, one new log-only item (interpretable-AI nuclear-masses paper, October 21 — Jaffe factorization rediscovered, four-keV residual on a hundred-keV scale, corroborated at abstract level), one parked single-source tool mention (Keplearn, ungraded), rest re-covered with no status change. No library growth (not material per the loop's materiality rule). No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-11-01 ~06:33 EST, rotation #12):**
+- **Push result:** sync-github.py "research: math/physics engines (rotation #12) — interpretable-AI nuclear-masses paper (corroborated), Keplearn parked, rest re-covered; no library growth; no verdicts" — exit 0 after about five point eight minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SKIPPED — SSH probe failed with "Connection closed by UNKNOWN port 65535" (exit 255), the Shadow-down signature. No transfer attempted against the down host. Next run retries per the standing rule.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0627.md, Rook's voice (one hundred forty-nine words).
+
+**Run summary (close-out):** rotation #12 — working loop, one new log-only item (interpretable-AI nuclear-masses paper, October 21 — Jaffe factorization rediscovered, four-keV residual on a hundred-keV scale, corroborated at abstract level), one parked single-source tool mention (Keplearn, ungraded), rest re-covered with no status change. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
