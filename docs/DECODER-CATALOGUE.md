@@ -7574,3 +7574,48 @@ never run.]*
 
 *CAB entry seeded 2026-11-01 ~09:10 EST by the decoder-create-loop.*
 
+
+- **ISO 9660 primary volume descriptor miniature (ECMA-119).** The disc
+  image's table of contents starts at sector 16 (byte offset 32768): a
+  2048-byte Primary Volume Descriptor. Byte 0 = 1 (primary; 0 = boot
+  record, 2 = supplementary, 255 = set terminator), bytes 1–5 = `CD001`,
+  byte 6 = 1. The fields a reader must cross-check before trusting
+  anything else: system identifier (bytes 8–39) and volume identifier
+  (bytes 40–71), both space-padded; volume space size (bytes 80–87),
+  volume set size (120–123), volume sequence number (124–127), logical
+  block size (128–131), and path table size (132–139) — all stored
+  BOTH-endian (little-endian copy immediately followed by the big-endian
+  copy), so a reader that checks only one half accepts a doctored
+  descriptor; and the root directory record at bytes 156–189 (34 bytes:
+  length, extent location both-endian, data length both-endian, 7-byte
+  recording date/time with the timezone as a signed count of 15-minute
+  intervals from GMT, flags byte where bit 1 = directory, volume sequence
+  both-endian, file-id length 1, file id 0x00). The path table (located by
+  the type-L field at 140–143, mirrored big-endian at 148–151) lists every
+  directory in one flat table: the root entry is 10 bytes (length 1, ext
+  attr 0, extent, parent 1, name 0x00, padded to even). Worked miniature
+  (hidden_files/iso9660-mini.py, run this pass): a 20-sector volume,
+  volume id `MINI_ISO`, logical block 2048, path table at sector 18,
+  root extent at sector 19, flags 2 — parsed back field by field, then
+  four failure walks, each caught for the named reason: `CD002`
+  standard id rejected, 1000-byte truncated sector rejected, a
+  both-endian split (LE 20 / BE 21 volume space size) rejected, and a
+  root extent of 99 in a 20-sector volume rejected as outside the volume.
+  **What this entry does not do.** It does not walk the path table or the
+  directory tree beyond the root record (multi-level directory records,
+  Rock Ridge / Joliet supplementary descriptors, and multi-extent files
+  are described, not demonstrated); it does not parse a boot record or a
+  set terminator; and it does not test a real disc image against this
+  parser. Next: a two-directory path-table walk (parent pointers, the
+  even-padding rule on odd-length names), or the remaining uncovered
+  formats in section (m) (WIM, SquashFS).
+
+*[Grade: VERIFIED on the PVD field offsets, the both-endian layout, the
+root-record layout (34 bytes, flags bit 1 = directory, 7-byte recording
+date/time with quarter-hour timezone), and the worked miniature plus its
+four failure walks (hidden_files/iso9660-mini.py, run 2026-11-01); the
+ECMA-119 layout itself is public-standard material; SPECULATION — the
+Gauntlet mappings are doctrine, never run, and no real disc image was
+parsed.]*
+
+*ISO 9660 entry seeded 2026-11-01 ~09:20 EST by the decoder-create-loop.*
