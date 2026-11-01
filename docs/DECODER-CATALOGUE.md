@@ -8581,3 +8581,61 @@ parsed.]*
 - **Decoder-design note (Semaphore → Gauntlet).** Semaphore completes the catalogue's "no secrecy" control set as its third channel: Braille is touch, Morse is sound-in-time, semaphore is sight-in-space — same machinery (symbol set, mapping table, context rules), secrecy rung removed, and each channel fails differently. Three lessons. (1) **The body is the transmitter.** A specimen's symbols can be postures, not marks on a carrier: an interrogator that only reads files will miss a specimen that signals with position, timing, or orientation, so the first interrogation question after Braille's "what senses does this channel need?" is "what does this channel's transmitter look like?" (2) **Range is a security property.** Semaphore's secrecy was never cryptographic; it was geometric — only receivers inside line of sight could read it, and fog, distance, or a hill ended the message. The Gauntlet's "who could have seen this" is a real interrogation question: audience geometry bounds exposure exactly the way key length bounds a cipher. (3) **The code carries its own correction protocol.** Semaphore has explicit error and annul signals — the sender can retract a mis-sent letter in-band, something almost no cipher offers. That makes the reader's misread, not the code's mathematics, the attack surface: a wrong arm angle is a wrong letter with no checksum to catch it, and the correction signal itself becomes a thing to forge. A specimen that can say "disregard that" can also say it falsely. [SPECULATION — the Gauntlet mappings are doctrine, never run]
 
 *Semaphore entry seeded 2026-11-01 ~12:45 PST by the decoder-create-loop.*
+- **SquashFS xz-compressed interop check (4.0).** The AUF entry's
+  first open shape, closed this pass: same sources, same
+  pure-Python reader as the gzip interop check, one compressor
+  changed — mksquashfs 4.6.1 (4K blocks, xz, -noappend). The answer
+  is yes: the reader resolves both images byte-identically with
+  only the decompressor swapped. Superblock compression id reads 4
+  (xz), and every compressed block — metadata, data, fragment —
+  decompresses as a plain .xz stream via Python lzma FORMAT_XZ;
+  no raw-LZMA2 or alone form was needed, and the script asserts a
+  single decompressor form throughout (a mixed form would fail
+  loudly, not silently misread). Main image: alpha.txt 5000 bytes
+  keeps 2 blocks, fragment = none, on-disk spans (96, 332) and
+  (428, 308); beta.txt 100 takes fragment idx 0; gamma.txt 4096
+  (exact multiple) keeps 1 block, fragment = none; delta.txt 0
+  keeps 0 blocks, fragment = none; inner/note.txt 11 resolves
+  through its fragment. Fragments = 1, and the fragment block is
+  exactly 111 bytes = 100 + 11, the two sub-block files and
+  nothing else. Single-file image: big.txt 5000 keeps 2 blocks,
+  fragment = none, fragments = 0 — the default fragment rule is
+  unchanged by the compressor: a multi-block tail stays a partial
+  data block, not a fragment. Three constants reconfirmed on the
+  xz images: the directory file_size +3 gap (root 95 vs 92, inner
+  31 vs 28, single root 30 vs 27), root parent_inode = inodes + 1
+  (8 for 7 inodes, 3 for 2), and the inode-table walk exact at
+  236 bytes — the same walk length as the gzip default build.
+- **Decoder-design note (xz -> Gauntlet).** The compressor is a
+  reader branch, not a format change: the inode, directory, and
+  fragment grammar is identical under gzip and xz; only the block
+  codec differs, and the superblock compression id names it. A
+  container pass that hard-codes gzip fails every xz image while
+  the carrier is otherwise unchanged — so the reader must dispatch
+  decompression on the id it actually reads, and the specimen
+  record must carry encoder + compressor + flags as one triple.
+  The compressor × flag matrix now stands at two of four corners
+  (gzip/default, gzip/AUF, xz/default done; xz/AUF open), and the
+  fragment rule has held at every corner tested.
+- **What this entry does not do.** It does not test xz under
+  -always-use-fragments (the fourth matrix corner); it does not
+  test zstd or lz4 blocks under this reader; it does not walk the
+  lookup or id tables; it does not explain the +3 directory
+  file_size gap or the root parent_inode = inodes + 1 reading
+  (both reconfirmed here, still unexplained); it does not test a
+  sparse file under xz; it does not parse a SquashFS image from
+  any other encoder. Next: xz under AUF, or the +3/parent
+  explanations, or sparse under xz.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1, 4K
+blocks, xz, -noappend): 6 files resolved byte-identically;
+superblock compression id 4; all blocks decompress as .xz streams
+(single form, asserted); alpha and big each 2 blocks + fragment =
+none; fragment block exactly 111 bytes; exact multiple and empty
+files keep fragment = none; inode-table walk exact at 236 bytes;
++3 gap and root parent = inodes + 1 reconfirmed on both images —
+hidden_files/squashfs-xz-mini.py, run 2026-11-01, passing on first
+run; SPECULATION — the Gauntlet mappings are doctrine, never run;
+no real image from any other encoder was parsed.]*
+
+*SquashFS xz-compressed interop entry seeded 2026-11-01 ~16:13 EST by the decoder-create-loop.*
