@@ -761,6 +761,43 @@ CLAIMED / SPECULATION.*
 
 *Beale entry seeded 2026-11-01 ~02:50 EST by the decoder-create-loop.*
 
+- **The Baconian (biliteral) cipher (devised 1605; fully described 1623).**
+  Francis Bacon's method turns each plaintext letter into a group of five A/B
+  symbols — a 5-bit binary encoding, two centuries before Boolean algebra and
+  three before digital computing. Bacon's original alphabet had 24 letters: I
+  and J shared a code, as did U and V; modern 26-letter variants give each
+  letter its own code. The point was concealment, not scrambling: the A/B
+  stream was carried by a cover text whose letters were set in two
+  distinguishable forms — Bacon's biliteral alphabet gave every letter two
+  alternative forms, one for A and one for B — so the message hid in the
+  presentation of the text, not in its content. As a cipher alone it is
+  trivial: a fixed substitution with no key, broken the moment the A/B stream
+  is recovered and the alphabet is known. [VERIFIED — Wikipedia Bacon's
+  cipher; Cipher Museum Bacon exhibit; David Kahn, The Codebreakers, on the
+  1605 allusion and 1623 description]
+- **Decoder-design note (Bacon → Gauntlet).** Three rungs, doctrine only,
+  never run. (1) **The carrier is the channel.** A specimen whose secret rides
+  on presentation — typeface, spacing, case, pixel choice — is not cleared by
+  reading its content; the Gauntlet's intake must inventory the presentation
+  layer first, because the content can be perfectly innocent while the form
+  carries everything. (2) **Two-symbol channels are cheap to hide and cheap to
+  count.** Five bits per letter means a short cover carries only a short
+  secret, and the A/B stream's statistics betray it: a genuine cover's two
+  forms should distribute like the cover's own habits, not like encoded text.
+  Price every suspected two-form channel by its cover budget before hunting
+  for its alphabet. (3) **Do not credit Bacon with computing.** A two-symbol
+  encoding is not a computer, and an early binary alphabet is not a lineage to
+  Boolean algebra or electronics; the Gauntlet grades historical priority
+  claims the same way — an ancestor is not a cause. [SPECULATION — the
+  Gauntlet mappings are this note's doctrine, never run]
+
+*[Grade: VERIFIED — devised 1605, described in De Augmentis Scientiarum
+  (1623), 5-bit A/B encoding, 24-letter original merging I/J and U/V,
+  biliteral two-form alphabet, and typeface concealment. SPECULATION —
+  Gauntlet mapping, never run]*
+
+*Baconian entry seeded 2026-11-01 ~03:18 EST by the decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
