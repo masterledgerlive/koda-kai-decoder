@@ -14610,3 +14610,10 @@ Two targeted news-vertical searches (photonic chip / optical comms, November 202
 - **Library changes:** none.
 
 **Run summary:** rotation #6 — working loop, three new log-only items (Zero Industries Helios roadmap, CLAIMED; CHARA astrophotonic first fringes, CORROBORATED; China lunar laser-power study, CLAIMED) plus a Yokohama detail pin (CORROBORATED); rest re-covered; Reason-1/Protostar still no published transfer. No library growth. No verdicts, nothing broadcast. Next: rotation #7 (predictive math).
+
+**Close-out (2026-11-01 ~10:05 EST, rotation #6):**
+- **Push result:** sync-github.py — exit 0, 1 pushed (research/RESEARCH-LOG.md), 265 unchanged.
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down signature. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0957.md, Rook's voice.
+
+**Run summary (close-out):** rotation #6 — working loop, three new log-only items (Zero Industries Helios roadmap, CLAIMED; CHARA astrophotonic first fringes, CORROBORATED; China lunar laser-power study, CLAIMED) plus a Yokohama detail pin. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #7 (predictive math).
