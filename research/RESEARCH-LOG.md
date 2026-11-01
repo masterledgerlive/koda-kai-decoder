@@ -14064,3 +14064,8 @@ Three targeted searches (machine translation / low-resource languages; ancient-l
 - **Library changes:** none — NOT MATERIAL per body rule §4 (evaluation methodology, task framing, and efficiency texture only; no new decipherment technique or other material advance).
 
 **Run summary:** rotation #4 — working loop, three new log-only items (WMT 2026 General MT findings: contrastive annotation, new platform, dynamic evaluation over 46 systems and 23 pairs; Creole task: 13 systems, 88 directions; vocabulary pruning: 82–87% cut, COMET ahead of the bilingual baseline while BLEU trails); rest re-covered, Indus still undeciphered. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-10-31 ~21:19 EDT, rotation #4):**
+- **Push result:** sync-github.py "research: language decoders (rotation #4) — working loop, three new log-only items, rest re-covered, Indus still undeciphered; no library growth; no verdicts" — exit 0 after ~16.7 minutes wall-clock (slow egress retries, recovered). Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-2100.md, Rook's voice.
