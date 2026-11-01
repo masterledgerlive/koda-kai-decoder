@@ -8335,3 +8335,76 @@ SPECULATION — the Gauntlet mappings are doctrine, never run, and
 no real SquashFS image was parsed.]*
 
 *SquashFS wrong-size-fragment corruption entry seeded 2026-11-01 ~13:30 EST by the decoder-create-loop.*
+- **SquashFS out-of-range-fragment-index corruption miniature.** The
+  shape the wrong-size-fragment entry named as still open, built
+  this pass: a file whose fragment entry is well-formed in every
+  respect except one — its index points outside the fragment
+  table. The fragment table is a table, not a ring: an index equal
+  to the table size, far past it, or at the unsigned-32-bit
+  maximum is not a wraparound, not a modulo, and not a fallback to
+  block 0. A resolver that borrowed bytes from another fragment
+  block would hand back a plausible file assembled from a tail the
+  inode never named. The resolver refuses the whole file — UNREAD,
+  never partial bytes, never bytes borrowed from another block.
+- **The worked miniature (block size 10, fragment table of 3
+  blocks).** Three controls resolve as stated: alpha (size 25, two
+  full blocks, fragment index 0 @0 len 5 — the first table entry,
+  the normal full-blocks-plus-tail file) resolves to the two blocks
+  plus `frag-`; beta (size 15, one full block, fragment index 1 @0
+  len 5 — a middle entry) resolves to the block plus `secon`,
+  proving the table is walked by index, not just by 0; gamma (size
+  25, two full blocks, fragment index 2 @0 len 5 — the LAST entry)
+  resolves to the two blocks plus `third`, proving N - 1 is valid
+  and the boundary sits exactly at N. Three corrupt claims all
+  yield UNREAD: delta (size 25, fragment index 3 — one past the
+  end, index == N; a wraparound to block 0 would hand back alpha's
+  exact bytes); epsilon (size 25, fragment index 7 — far past the
+  end; a modulo fallback, 7 % 3 == 1, would borrow block 1's tail
+  onto a 25-byte file); zeta (size 25, fragment index 4294967295 —
+  the unsigned-32-bit maximum, the largest value the on-disk field
+  can hold; a modulo fallback, max % 3 == 0, would hand back
+  alpha's exact bytes again).
+- **Why the other checks are absent here, on purpose.** Every claim
+  carries exactly S // B blocks, so the short-list and second-tail
+  rules can never be the reason for an UNREAD; every claim carries
+  at most one fragment whose size is exactly S % B and whose offset
+  + size fits inside a 10-byte block, so the wrong-fragment rule
+  can never be the reason either. Each UNREAD above is attributable
+  to the fragment index alone. Note the ordering this pass fixes:
+  the index is checked BEFORE any fragment block is dereferenced,
+  so a bad index can never be rescued by the block it would have
+  named — the wrong-fragment miniature checked the index too, but
+  no claim there ever violated it, so the check was carried, never
+  tested. Now it is tested, on all three sides of the boundary:
+  one past, far past, and the field maximum.
+- **Decoder-design note (bad index → Gauntlet).** One rung.
+  **A tail from another file's block is not this file's tail.** A
+  Gauntlet walk that wrapped, moduloed, or fell back on a bad
+  fragment index would launder one file's tail into another file's
+  body — the same direction of error the wrong-fragment rule bars
+  for a bad size, and worse, because the borrowed bytes are real
+  bytes from a real block. The walk rule is: 0 <= index < N,
+  checked before dereference; anything else is UNREAD, and the
+  file's other evidence (the surviving full blocks, the name, the
+  size) does not rescue it.
+- **What this entry does not do.** It does not parse a real
+  mksquashfs image (the interop check is still the open line from
+  the directory entry — and this VM has no mksquashfs binary, so
+  that check cannot run here until the tool is installed); it does
+  not decompress any fragment block or verify the fragment entry's
+  on-disk field widths against the public header; it does not walk
+  the export, uid/gid, or xattr tables; it does not test a fragment
+  whose block is itself marked sparse. Next: the mksquashfs interop
+  check, once a tool that can emit a real image is available on
+  this VM, or the sparse-fragment-block shape.
+
+*[Grade: CLAIMED on the index rule — an inference from the
+section 3.5 lineage of the prior entries, not re-read this
+pass; VERIFIED on the worked miniature (alpha / beta / gamma
+resolve as stated; delta / epsilon / zeta all UNREAD as stated,
+with the naive wraparound and modulo outcomes shown refused) —
+hidden_files/squashfs-badfragidx-mini.py, run 2026-11-01, passing;
+SPECULATION — the Gauntlet mappings are doctrine, never run, and
+no real SquashFS image was parsed.]*
+
+*SquashFS out-of-range-fragment-index corruption entry seeded 2026-11-01 ~13:45 EST by the decoder-create-loop.*
