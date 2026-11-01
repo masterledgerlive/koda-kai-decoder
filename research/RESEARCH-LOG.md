@@ -14551,3 +14551,10 @@ Two targeted news searches (Wireshark 5.0/dissector news, November 2026; new net
 - **Library changes:** none.
 
 **Run summary:** rotation #3 — quiet loop, window unchanged. No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-11-01 ~08:35 EST, rotation #3):**
+- **Push result:** sync-github.py — exit 0, 1 pushed (research/RESEARCH-LOG.md), 265 unchanged.
+- **Shadow mirror:** SKIPPED — SSH probe failed, Shadow down signature. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0827.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #3 — quiet loop, window unchanged. No library growth. Public entry pushed (1 pushed). Shadow down, mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
