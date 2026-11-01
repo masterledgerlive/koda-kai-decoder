@@ -14238,3 +14238,10 @@ Three targeted searches (SymPy/SciPy release window; MuJoCo/Newton updates; symb
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — working loop, two new log-only items (MuJoCo next-version changelog preview — claimed, unreleased; de Sá gain-sign physics-informed network paper — claimed, secondary summary); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-11-01 ~01:14 EDT, rotation #12):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. No library file changed, so nothing else to push. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SUCCEEDED — SSH probe returned "ok", and both scp steps exited 0: full project tree plus MEMORY.md to the Shadow backup. First successful mirror after the multi-day Shadow outage noted in the standing record.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-0100.md, Rook's voice (145 words).
+
+**Run summary (close-out):** rotation #12 — working loop, two new log-only items (MuJoCo next-version changelog preview — claimed, unreleased; de Sá gain-sign physics-informed network paper — claimed, secondary summary); rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow mirror succeeded after the outage. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
