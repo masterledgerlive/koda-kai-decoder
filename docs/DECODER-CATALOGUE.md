@@ -8054,3 +8054,59 @@ passing on its first run; SPECULATION — the Gauntlet mappings are
 doctrine, never run, and no real SquashFS image was parsed.]*
 
 *SquashFS four-file shared fragment block entry seeded 2026-11-01 ~11:45 EST by the decoder-create-loop.*
+
+- **SquashFS split-tail corruption miniature.** The corruption
+  shape the four-file entry's "does not do" named, built this pass:
+  a file whose tail is split across two fragment blocks. The format
+  gives each file at most one fragment entry, so a two-fragment
+  claim is corrupt even when every fragment it names is
+  individually in-bounds and in-table — the crime is the count, not
+  the ranges. The miniature holds two controls and three split
+  claims on two 10-byte fragment blocks: alpha resolves from block
+  0 (`alpha-tail`), beta resolves from block 1 (`beta--tail`), and
+  sigma (block 0 @0 len 5 + block 1 @0 len 5), tau (a whole tail
+  from each block), and upsilon (two halves of the same block 0)
+  each yield UNREAD, never partial bytes. upsilon is the
+  discriminating case: the rule counts fragments, not blocks, so a
+  split inside one block is refused exactly as a split across two
+  blocks is.
+- **Why the overlap check is absent here, on purpose.** The frag4
+  pass already owns overlap, and running it in this miniature
+  would let a split claim fail for overlap instead of for the
+  split, leaving the count rule itself untested. The resolver
+  checks count first and ranges second, so each UNREAD above is
+  attributable to the split alone. The naive concatenation sigma
+  would have produced (`alphabeta-`) is asserted in the script
+  precisely to show the test discriminates: a resolver that merely
+  concatenated fragments would pass the controls and silently
+  accept the corruption.
+- **Decoder-design note (split tail → Gauntlet).** One rung.
+  **A tail is singular.** A Gauntlet walk that concatenated
+  fragment entries until the bytes ran out would turn a corrupt
+  record into a plausible file — the worst direction for a
+  decoder to err. The walk rule is: exactly one fragment entry,
+  then exactly `fragment_block[offset:offset+size]`; anything else
+  in the fragment slot is UNREAD, and the file's other evidence
+  (full datablocks, name, size) does not rescue it.
+- **What this entry does not do.** It does not parse a real
+  mksquashfs image (the interop check is still the open line from
+  the directory entry — and the build VM has no mksquashfs binary,
+  so that check cannot run there until the tool is installed); it
+  does not decompress any fragment block or verify the fragment
+  entry's on-disk field widths against the public header; it does
+  not walk the export, uid/gid, or xattr tables; it does not test
+  a file claiming a fragment entry plus a second, non-fragment
+  tail source (a split by another name, beyond the two-fragment
+  shape decided here). Next: the mksquashfs interop check, once a
+  tool that can emit a real image is available.
+
+*[Grade: CLAIMED on a file being allowed at most one fragment entry
+— the section 3.5 lineage of the prior entries, not re-read this
+pass; VERIFIED on the worked miniature (alpha/beta resolve as
+stated; sigma/tau/upsilon all UNREAD as stated, with the naive
+`alphabeta-` concatenation shown refused) — the miniature script,
+held privately with the project, run 2026-11-01, passing on its
+first run; SPECULATION — the Gauntlet mappings are doctrine, never
+run, and no real SquashFS image was parsed.]*
+
+*SquashFS split-tail corruption entry seeded 2026-11-01 ~12:12 EST by the decoder-create-loop.*
