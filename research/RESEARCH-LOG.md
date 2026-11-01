@@ -14542,3 +14542,12 @@ Three targeted searches (new video codec AV2/VVC, VLC/FFmpeg codec support, Goog
 - **Library changes:** none.
 
 **Run summary:** rotation #2 — quiet loop, window unchanged. No library growth. Next: rotation #3 (protocol decoders).
+## 2026-11-01 ~08:27 EST — decoder-research-loop — Protocol decoders (rotation #3):
+
+Two targeted news searches (Wireshark 5.0/dissector news, November 2026; new network protocol / IoT mesh decoding, November 2026) + standing-record check. **Quiet loop — no new protocol, no new dissector, no shipped release, no status change. One log-only texture note, everything else already on record. No library growth.**
+
+- **New to record, log-only — Matter-over-Thread vs ZigBee layer explainer (dev.to):** restates the filed layer facts in the clearest form yet — Matter is application layer only, Thread is the separate IPv6 mesh, ZigBee is both mesh and application layer — and names why Tuya extras behave partially on generic coordinators (manufacturer-specific cluster). No new protocol, no new device claim. [CLAIMED — single editorial explainer]
+- **Re-covered, no status change:** Wireshark 5.0.0rc1 (October 21) retold via linuxcompatible and the October 31 SANS Internet Storm Center post (carried by malware.news, itsecuritynews.info) — same filed content, final 5.0.0 still dateless pending SharkFest EU (November 2–6); roadmap pair 4.6.10 / 4.4.20 still scheduled November 12; 4.6.9 / 4.4.19 September security wave retold, no exploit claim added. Zigbee 4.0 same digest, still unshipped; Apple Home Collection restated; Matter 1.6.1 confirmed as newest spec, no grade change. No new dissector.
+- **Library changes:** none.
+
+**Run summary:** rotation #3 — quiet loop, window unchanged. No library growth. Next: rotation #4 (language decoders).
