@@ -8639,3 +8639,59 @@ run; SPECULATION — the Gauntlet mappings are doctrine, never run;
 no real image from any other encoder was parsed.]*
 
 *SquashFS xz-compressed interop entry seeded 2026-11-01 ~16:13 EST by the decoder-create-loop.*
+- **SquashFS xz + -always-use-fragments interop check (4.0).** The
+  fourth matrix corner, closed this pass: same sources, same
+  pure-Python reader as the xz check, two parameters changed at
+  once — mksquashfs 4.6.1 (4K blocks, xz, -noappend) passed
+  -always-use-fragments. The answer is yes: the AUF tail rule
+  holds under xz exactly as it held under gzip. Main image:
+  alpha.txt 5000 bytes keeps ONE data block (span 96, 332) and
+  takes fragment idx 0 for its 904-byte tail; beta.txt 100 takes
+  fragment idx 1; gamma.txt 4096 (exact multiple) keeps 1 block,
+  fragment = none; delta.txt 0 keeps 0 blocks, fragment = none;
+  inner/note.txt 11 resolves through its fragment. Fragments = 2,
+  and the fragment blocks total exactly 1015 bytes = 904 + 100 +
+  11 — the same total as the gzip AUF build, the three tails and
+  nothing else. Single-file image: big.txt 5000 keeps 1 block +
+  fragment idx 0, fragments = 1 (default xz build: 2 blocks,
+  fragments = 0). All six files resolve byte-identically, and
+  every block still decompresses as a plain .xz stream, single
+  form asserted throughout — the flag changes the carrier shape,
+  not the codec. Three constants reconfirmed on the new images:
+  the directory file_size +3 gap (root 95 vs 92, inner 31 vs 28,
+  single root 30 vs 27), root parent_inode = inodes + 1 (8 for 7
+  inodes, 3 for 2), and the inode-table walk exact at 232 bytes
+  (main; 4 less than the 236 default — alpha's dropped second
+  block-list entry) and 68 bytes (single; vs 72 default).
+- **Decoder-design note (xz x AUF -> Gauntlet).** The compressor x
+  flag matrix is now complete at all four corners (gzip/default,
+  gzip/AUF, xz/default, xz/AUF), and the fragment rule held at
+  every corner: the rule is flag-scoped under both compressors,
+  and the compressor is a reader branch under both flags. The
+  specimen record must therefore carry encoder + compressor +
+  flags as one triple — any one of the three wrong, and a reader
+  that hard-codes the other two fails a real image while the
+  carrier grammar is unchanged. [SPECULATION — the Gauntlet
+  mappings are doctrine, never run]
+- **What this entry does not do.** It does not test zstd or lz4
+  blocks under either flag; it does not walk the lookup or id
+  tables; it does not explain the +3 directory file_size gap or
+  the root parent_inode = inodes + 1 reading (both reconfirmed
+  here, still unexplained); it does not test a sparse file under
+  xz or under AUF; it does not parse a SquashFS image from any
+  other encoder. Next: a zstd corner, or the +3/parent
+  explanations, or sparse under xz/AUF.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1, 4K
+blocks, xz, -always-use-fragments): 6 files resolved
+byte-identically; superblock compression id 4; all blocks
+decompress as .xz streams (single form, asserted); alpha and big
+each 1 block + fragment tail (904 bytes); fragment blocks total
+exactly 1015 bytes; exact multiple and empty files keep fragment
+= none; inode-table walk exact at 232/68 bytes; +3 gap and root
+parent = inodes + 1 reconfirmed on both images —
+hidden_files/squashfs-xzauf-mini.py, run 2026-11-01, passing on
+first run; SPECULATION — the Gauntlet mappings are doctrine,
+never run; no real image from any other encoder was parsed.]*
+
+*SquashFS xz + -always-use-fragments interop entry seeded 2026-11-01 ~16:40 EST by the decoder-create-loop.*
