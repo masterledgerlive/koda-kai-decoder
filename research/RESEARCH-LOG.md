@@ -14763,3 +14763,10 @@ Three targeted searches (Wireshark 5.0/dissector news; new network protocol / Io
 - **Library changes:** none.
 
 **Run summary:** rotation #3 — quiet loop, one small log-only texture note (Thread/KNX white paper, guidance not a spec); whole window otherwise re-covered (Wireshark 5.0.0rc1 retold, final still dateless past SharkFest EU; 4.6.10/4.4.20 scheduled November 12; Zigbee 4.0 still unshipped; Stratoshark still no 1.0 announcement). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-11-01 ~15:10 EST, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — quiet loop, one log-only texture note (Thread/KNX white paper, guidance not a spec), Wireshark 5.0.0rc1 retold, Zigbee 4.0 still unshipped, Stratoshark still no 1.0 announcement; no library growth; no verdicts" — exit 0 after about five point two minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** COMPLETE — SSH probe returned "ok"; decoder-tree scp exit 0 and MEMORY backup scp exit 0; byte-verified on Shadow (research/RESEARCH-LOG.md 6,935,460 B = local; memory-backup/MEMORY-2026-11-01.md 54,042 B = local). Shadow GREEN this run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-1458.md, Rook's voice (quiet-loop brief, grade "claimed" spoken plainly for the white-paper note).
+
+**Run summary (close-out):** rotation #3 — quiet loop, one small log-only texture note (Thread/KNX IoT white paper, guidance not a spec); whole window otherwise re-covered (Wireshark 5.0.0rc1 retold, final still dateless past SharkFest EU November 2–6; 4.6.10/4.4.20 scheduled November 12; Zigbee 4.0 still unshipped; Stratoshark still no 1.0 announcement). No library growth. Public entry pushed (1 pushed). Shadow mirror complete and byte-verified. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
