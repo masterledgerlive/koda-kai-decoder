@@ -7648,3 +7648,120 @@ parsed.]*
 
 *WIM entry seeded 2026-11-01 ~09:52 EST by the decoder-create-loop.*
 
+- **SquashFS superblock miniature (4.0).** The read-only filesystem
+  that ships half of embedded Linux: a SquashFS image is built once by
+  mksquashfs and never modified in place, because every byte after the
+  superblock is compressed and packed — changing one byte would mean
+  decompressing, changing, and recompressing a block and reorganising
+  everything after it. The image is at most nine parts, packed on byte
+  alignment: superblock, compression options, data blocks and fragments,
+  inode table, directory table, fragment table, export table, uid/gid
+  lookup table, and xattr table. Data blocks run 4K to 1M (default
+  128K); metadata (inodes and directories) is packed into 8K blocks
+  with no alignment padding, so an inode may straddle two compressed
+  blocks. The superblock is 96 bytes, all little-endian, and it is the
+  only map: magic `hsqs` (0x73717368) at 0–3; inodes at 4–7; mkfs_time
+  at 8–11; block_size at 12–15; fragments at 16–19; compression at
+  20–21; block_log at 22–23; flags at 24–25; no_ids at 26–27; s_major
+  at 28–29; s_minor at 30–31; root_inode at 32–39; bytes_used at
+  40–47; id_table_start at 48–55; xattr_id_table_start at 56–63;
+  inode_table_start at 64–71; directory_table_start at 72–79;
+  fragment_table_start at 80–87; lookup_table_start at 88–95.
+  Compression ids: 1 zlib, 2 lzma, 3 lzo, 4 xz, 5 lz4, 6 zstd. Flags
+  bits 0, 1, and 2 read as inodes stored uncompressed (-noI), data
+  blocks stored uncompressed (-noD), and checksums present; the
+  remaining flag bits are carried, not interpreted here. The root
+  inode is a 64-bit inode reference: a metadata-block location plus
+  the offset into that block, the <block, offset> pair by which every
+  inode in the image is addressed. Each metadata block is prefixed by
+  a two-byte little-endian header whose top bit, when set, means the
+  block is stored uncompressed (it is uncompressed whenever -noI is
+  set, or whenever compression made it larger); the low 15 bits carry
+  the stored length, on this entry's reading — see the open check
+  below. Inodes are addressed by 16-bit indices into the id table
+  rather than by full 32-bit uids/gids, and file tails that do not
+  fill a block are packed together into fragment blocks, so one
+  fragment block's bytes routinely belong to several files at once.
+- **The gaps are the hiding places, and the sharpest one is that the
+  superblock is a map of claims, not a census.** First, every table
+  start is a claim about where a table lives: a table start past
+  bytes_used, or a walk that ends short of bytes_used, is malformed
+  before any table is read, and any bytes the walk does not account
+  for are a compartment, never padding — the same end-of-walk rule as
+  the WIM and ISO entries. Second, the compression id is a decoder
+  claim: a reader that lacks the named decompressor cannot verify a
+  single data block, and reporting the superblock's fields as the
+  filesystem's contents mistakes the map for the territory. Third,
+  the metadata header's top bit is trust: a block marked uncompressed
+  is taken at face value, so a doctored bit turns compressed bytes
+  into "plaintext" for any reader that does not cross-check the
+  length against the table walk. Fourth, fragment packing is shared
+  custody: a fragment block holds tails from several files, so no
+  per-file content claim is sound without the fragment-table entry
+  that binds this file's tail to its bytes in the shared block.
+  Fifth, the id table is indirection with the same limit as every
+  indirection in this library: an inode's uid index proves nothing
+  about ownership until the id table itself is walked and its entry
+  read — a reader that reports index 0 as uid 0 has guessed.
+- **Worked miniature (built and walked this pass).** A 122-byte
+  superblock-shaped miniature — explicitly NOT a mountable `.sqsh`
+  image, because it carries no real inode, no real directory entry,
+  no fragment/export/xattr table, and no xz stream. Superblock: 96
+  bytes, magic `hsqs`, version 4.0, inodes 2, block_size 131072
+  (128K), block_log 17, compression 4 (xz), flags 0, no_ids 1,
+  root_inode reference (96 << 16) | 0 — metadata block 96, offset 0.
+  Metadata block at offset 96: header 0x8010 (top bit set,
+  uncompressed, 16 bytes) plus the labelled stub `ROOTDIR-STUB....`,
+  which is not a directory inode and is never parsed as one.
+  Id-table region at offset 114: two u32 values, uid 1000 and gid
+  1000. bytes_used 122, and the walk — superblock, metadata block,
+  id region — ends exactly at 122. Seven walks: clean parses every
+  field and ends exactly at bytes_used; a corrupted magic (`hsqt`)
+  trips before any field is trusted; a 50-byte truncation trips on
+  superblock size; an unknown compression id 9 trips; a block_log of
+  16 against a 131072 block size trips the log2 cross-check; an
+  id_table_start of 9999 trips the bounds check; and the same
+  miniature plus a 5-byte `HIDDN` tail (127 bytes) trips the
+  bytes_used-vs-file-size check — the tail visible only as the
+  size-vs-walk mismatch.
+- **Decoder-design note (SquashFS → Gauntlet).** Three rungs. (1)
+  **Magic, size, and compression before descriptors.** The container
+  pass checks `hsqs` first, 96 bytes second, a known compression id
+  third, and block_log == log2(block_size) fourth; only then is any
+  table start trusted, and a table start past bytes_used suspends
+  the verdict: UNREAD, never CLEAN. (2) **Walk must end at
+  bytes_used.** Any tail past the table walk, and any gap the table
+  starts do not account for, is a compartment, never padding. (3)
+  **Shared blocks need shared-custody proof.** No per-file claim is
+  reported from a fragment block without its fragment-table entry,
+  and no ownership claim is reported from an inode without its id
+  table entry — indirection is walked, never assumed.
+- **What this entry does not do.** It does not walk a real SquashFS
+  image (mksquashfs output, a live-CD `.sqsh`) against this parser;
+  it does not parse any real inode or directory entry (basic vs
+  extended types, directory headers and indexes, symlink targets);
+  it does not decompress any xz/zlib/lz4/lzo/zstd block; it does not
+  build or walk a fragment table, export table, compression-options
+  block, or xattr table; and it does not verify the metadata-header
+  length convention against a real image — whether the low 15 bits
+  are the exact stored length or length-minus-one is this entry's
+  open check, and the miniature is self-consistent under the exact
+  reading only. Next: a real directory-inode miniature (basic
+  directory header plus one entry, with the <block, offset> reference
+  walked), or a mksquashfs interop check. With this entry, section
+  (m)'s named archive/container set is complete: CAB, WIM, ISO 9660,
+  and SquashFS.
+
+*[Grade: CORROBORATED on the 96-byte superblock field order and offsets,
+the `hsqs` magic (0x73717368), the 4K–1M block range with 128K default,
+the 8K metadata blocks, the two-byte metadata header with top bit =
+uncompressed, the nine-part layout, and the compression ids 1–6 —
+kernel SquashFS 4.0 documentation and the public squashfs-tools header
+layout read this pass; VERIFIED on the worked miniature (122-byte file,
+superblock 96, metadata block at 96 with header 0x8010, id region at
+114, bytes_used 122, all seven walks as stated) — the miniature script
+is held privately with the project; SPECULATION — the Gauntlet mappings
+are doctrine, never run, and no real SquashFS image was parsed.]*
+
+*SquashFS entry seeded 2026-11-01 ~10:34 EST by the decoder-create-loop.*
+
