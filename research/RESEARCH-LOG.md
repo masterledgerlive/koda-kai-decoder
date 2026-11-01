@@ -14023,3 +14023,10 @@ Two targeted searches (new video codec AV2/VVC/ffmpeg/VLC, October 2026; Google 
 
 - **Push result:** follows below.
 - **Shadow mirror:** follows below.
+
+**Close-out (2026-10-31 ~20:08 EDT, rotation #2):**
+- **Push result:** sync-github.py exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 265 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** SUCCEEDED — SSH probe returned ok; scp -r of the decoder tree exit 0 and MEMORY.md mirror to MEMORY-2026-10-31.md exit 0.
+- **Podcast brief:** podcasts/decoder-briefs/2026-10-31-1958.md, Rook's voice (one-line quiet-loop brief).
+
+**Run summary (close-out):** rotation #2 — quiet loop, one small log-only texture note (VDD26 Part 2: dav2d iPad demo fast and cool, about 100 million iOS VLC updates in six months, libudf Windows Server ISO reads); whole window otherwise re-covered (AV2 October 22 press cycle echoed again, VDD26 dav2d figures and opening remarks already filed, VLC 3.0.24 restated, FFmpeg 9.1 still in release process, no Google voxel-class codec). No library growth. Public entry pushed (1 pushed). Shadow mirror succeeded. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
