@@ -8408,3 +8408,110 @@ SPECULATION — the Gauntlet mappings are doctrine, never run, and
 no real SquashFS image was parsed.]*
 
 *SquashFS out-of-range-fragment-index corruption entry seeded 2026-11-01 ~13:45 EST by the decoder-create-loop.*
+
+- **SquashFS real-image interop check (4.0).** The open line since
+  the directory entry, closed this pass: a tool that can emit a
+  real image is available on this VM now (squashfs-tools 4.6.1,
+  installed from the Ubuntu archive), so the loop built two real
+  images with mksquashfs (4K blocks, gzip, -noappend) and resolved
+  files out of them with a pure-Python reader written from the
+  documented format — no unsquashfs output used as evidence for
+  this entry's claims. Main image: alpha.txt 5000 bytes, beta.txt
+  100, gamma.txt 4096, delta.txt 0, inner/note.txt 11. Single
+  image: big.txt 5000 alone. All six files resolved
+  byte-identically to their sources.
+- **What the real encoder taught the loop: five corrections to the
+  miniature lineage.** (1) Tables are index-prefixed: the
+  superblock's *_table_start points at an array of u64 entries,
+  each an ABSOLUTE file offset of a metadata block; the blocks
+  themselves live elsewhere in the file (here, immediately before
+  their index). The miniatures stored tables as bare metadata
+  blocks — a reader that seeks to table_start expecting a metadata
+  header reads an index entry as a header and fails (this pass's
+  first failure: header 0x04b1, length 1201, inside a 32-byte
+  region). (2) Inode references pack (metadata-block INDEX within
+  the inode table << 16 | offset in block), and a directory
+  header's start_block is the same kind of index — not a file
+  offset. The root's reference 140 means block 0, offset 140, not
+  file offset 140. (3) The basic directory inode is 32 bytes, not
+  the 34 the miniatures assumed: base (16) + start_block + nlink +
+  file_size (u16) + offset (u16) + parent_inode (u32). The
+  sequential inode-table walk with 32-byte dirs consumes exactly
+  the table (236 bytes, 7 inodes; 72 bytes, 2 inodes) — a 34-byte
+  walk misaligns at the second inode. The offset field is the
+  listing's offset within its directory-table block: listings for
+  several directories pack consecutively (inner's at 0, root's at
+  28 in the single-directory-table block). (4) The fragment rule,
+  as this encoder behaves by default: a fragment block holds ONLY
+  whole files smaller than the block size. A multi-block file's
+  tail is a trailing PARTIAL data block — alpha's block list has
+  two entries, spans (96, 326) and (422, 287), chaining exactly
+  96 + 326 = 422 and 422 + 287 = 709 = gamma's start, fragment =
+  none; the single-file image carries fragments = 0. The
+  miniatures assumed every tail fragments; that holds only for
+  sub-block files (beta, note — the 111-byte fragment block holds
+  exactly their 100 + 11 bytes) or, untested here, when
+  mksquashfs is passed -always-use-fragments. (5) bytes_used is
+  the filesystem length, not the file length: mksquashfs pads the
+  file to a 4K boundary (1335 vs 4096; 825 vs 4096).
+- **Two observed constants, mechanism open.** Directory file_size
+  reads exactly 3 bytes above the walked listing in all three
+  directories walked (root 95 vs 92, inner 31 vs 28, single root
+  30 vs 27). A reader that trusts file_size as the exact walk
+  length over-reads into the next table's block; the walk here
+  stops on header fit instead. A non-root directory's
+  parent_inode is its parent's number exactly (inner -> 7 =
+  root); the ROOT directory's parent_inode reads (number of
+  inodes + 1) in both images (8 for 7 inodes, 3 for 2) — a
+  sentinel or a quirk, not yet explained, and never used by the
+  walk.
+- **Decoder-design note (interop -> Gauntlet).** Three rungs. (1)
+  **The first real image breaks the miniature.** Five format
+  assumptions survived a dozen miniatures and all five were wrong
+  in detail (index prefix, reference packing, dir-inode width,
+  fragment rule, bytes_used). A container pass graded only
+  against self-built miniatures is graded against its own
+  assumptions; the interop check — real encoder output,
+  independent reader, byte-identical resolution — is the rung
+  that earns the word VERIFIED. (2) **Trust the walk, not the
+  header.** file_size over-states by 3, bytes_used under-states
+  the file, the fragment field says "none" where a tail exists
+  (as a partial block). Every length in the carrier is a claim;
+  the walk that resolves bytes is the evidence. A Gauntlet
+  container pass that stops at the first header disagreement, or
+  that trusts a size field over its own walk, fails exactly where
+  this image would have fooled it. (3) **Encoder version is part
+  of the specimen.** All of this is mksquashfs 4.6.1 default
+  behaviour; another encoder (or -always-use-fragments) may
+  fragment multi-block tails. The container pass records the
+  encoder and its flags with the image, and treats any format rule
+  as version-scoped until a second encoder confirms it.
+- **What this entry does not do.** It does not test
+  -always-use-fragments output (the multi-block-fragment shape the
+  kernel's fragment-tail path expects); it does not walk the
+  lookup or id tables (their index-prefixed shape was confirmed
+  on a diagnostic image during debugging, not by this script's
+  assertions); it does not explain the +3 directory file_size gap
+  or the root parent_inode = inodes+1 reading; it does not
+  decompress xz/zstd/lz4 blocks (gzip only); it does not walk
+  extended inodes, xattrs, or sparse holes (no sparse file was
+  built); it does not parse a SquashFS image from any other
+  encoder. Next: the -always-use-fragments image (does the
+  multi-block tail move into the fragment block, and does the
+  fragment rule then match the miniatures?), or the +3/parent
+  explanations, or an xz-compressed image.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1, 4K
+blocks, gzip): 6 files resolved byte-identically; sequential
+inode-table walks consume exactly their tables; fragment table
+read via its index; fragment block holds beta + note tails (111
+bytes); single-file image fragments = 0 with a 2-entry block
+list; bytes_used vs file padding; the +3 gap on all three
+directories walked; root parent = inodes+1 on both roots;
+non-root parent exact — hidden_files/squashfs-interop-mini.py,
+run 2026-11-01, passing; CLAIMED on the -always-use-fragments
+option's existence and effect (documented option, not passed or
+tested here); SPECULATION — the Gauntlet mappings are doctrine,
+never run.]*
+
+*SquashFS real-image interop check entry seeded 2026-11-01 ~14:59 EST by the decoder-create-loop.*
