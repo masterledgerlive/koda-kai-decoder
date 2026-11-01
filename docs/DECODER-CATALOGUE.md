@@ -8881,3 +8881,69 @@ mappings are doctrine, never run; no real image from any
 other encoder was parsed.]*
 
 *SquashFS lz4 interop entry seeded 2026-11-01 ~17:50 EST by the decoder-create-loop.*
+
+- **SquashFS lz4 + -always-use-fragments interop check (4.0).** The
+  last matrix corner, named by the lz4 entry's does-not-do:
+  gzip, xz, and zstd have all been checked under both flags;
+  lz4 under default only. Same sources, same pure-Python
+  reader as the lz4 check, one flag added (mksquashfs 4.6.1,
+  4K blocks, -noappend, -comp lz4, -always-use-fragments).
+  The answer is yes: the AUF tail rule holds under lz4 exactly
+  as under the other three compressors. Main image:
+  superblock compression id 5; alpha.txt 5000 drops from 2
+  blocks to 1 (span 293 bytes, the same first block as under
+  default) with fragment idx 0 carrying its 904-byte tail;
+  beta.txt 100 takes fragment idx 1; gamma.txt 4096 (exact
+  multiple) keeps 1 block, fragment = none; delta.txt 0 keeps
+  0 blocks, fragment = none; inner/note.txt 11 resolves
+  through its fragment. Fragments = 2, and the two fragment
+  blocks decompress to exactly 1015 bytes = 904 + 100 + 11,
+  no padding — every tail byte accounted for, none extra.
+  Single-file image: big.txt 5000 keeps 1 block + fragment
+  idx 0, fragments = 1 — the tail that was a partial block
+  under default is a fragment under AUF. The raw-block form
+  holds under AUF too: every metadata, data, and fragment
+  block decompresses via lz4.block, never lz4.frame. Three
+  constants reconfirmed on the new images: the directory
+  file_size +3 gap (root 95 vs 92, inner 31 vs 28, single root
+  30 vs 27 — identical figures to the default walks), root
+  parent_inode = inodes + 1 (8 for 7 inodes, 3 for 2), and the
+  inode-table walk exact at 232 bytes (main) and 68 bytes
+  (single) — exactly 4 bytes shorter than the default walks,
+  the one block-list entry alpha no longer carries.
+- **Decoder-design note (lz4 x AUF -> Gauntlet).** The matrix
+  is now complete: four compressors (gzip, xz, zstd, lz4) by
+  two flags (default, -always-use-fragments) = eight corners,
+  all agreeing on the same grammar with only the decompressor
+  and the tail rule changing. The tail rule is flag-driven,
+  not compressor-driven: a reader that hardcodes "tail = a
+  partial block" is right on four corners and wrong on the
+  other four, and a reader that hardcodes "tail = a fragment"
+  is wrong in mirror. The specimen record's four fields
+  (encoder + compressor + flags + container form) are now
+  validated across the full matrix, not just asserted for it.
+  [SPECULATION — the Gauntlet mappings are doctrine, never run]
+- **What this entry does not do.** It does not walk the lookup
+  or id tables; it does not explain the +3 directory file_size
+  gap or the root parent_inode = inodes + 1 reading (both
+  reconfirmed here, still unexplained); it does not test a
+  sparse file under lz4, under AUF, or under both; it does not
+  parse a SquashFS image from any other encoder. Next: sparse
+  under lz4 x AUF, or the +3/parent explanations, or the
+  export/uid-gid/xattr table walks.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1, 4K
+blocks, lz4, -noappend, -always-use-fragments): 6 files
+resolved byte-identically; superblock compression id 5;
+alpha 1 block + fragment idx 0 with its 904-byte tail in the
+fragments, single big.txt 1 block + fragment idx 0;
+fragment blocks totalling exactly 1015 bytes (904 + 100 +
+11); exact multiple and empty files keep fragment = none;
+all blocks decompress as raw LZ4 blocks; inode-table walk
+exact at 232/68 bytes; +3 gap and root parent = inodes + 1
+reconfirmed on both images — hidden_files/squashfs-lz4auf-mini.py,
+run 2026-11-01, passing on first run; SPECULATION — the
+Gauntlet mappings are doctrine, never run; no real image from
+any other encoder was parsed.]*
+
+*SquashFS lz4 + -always-use-fragments interop entry seeded 2026-11-01 ~18:15 EST by the decoder-create-loop.*
