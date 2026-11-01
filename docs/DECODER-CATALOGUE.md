@@ -8114,3 +8114,76 @@ first run; SPECULATION — the Gauntlet mappings are doctrine, never
 run, and no real SquashFS image was parsed.]*
 
 *SquashFS split-tail corruption entry seeded 2026-11-01 ~12:12 EST by the decoder-create-loop.*
+- **SquashFS second-tail corruption miniature.** The corruption
+  shape the split-tail entry's "does not do" named, built this
+  pass: a file claiming a fragment entry plus a second,
+  non-fragment tail source — a split by another name. The
+  split-tail pass decided the fragment count (at most one); this
+  pass decides the tail-source count. For block size B and declared
+  file size S, the block list must hold exactly S // B entries,
+  and a fragment entry may exist only when S % B != 0, in which
+  case its size must equal S % B. A surplus block in the tail
+  position, full or sparse, is a second tail; so is a fragment on
+  a file whose size is an exact multiple of B. The crime is the
+  count, not the bytes: every corrupt claim below names in-bounds,
+  legal ranges. The miniature uses block size 10 and one 10-byte
+  fragment block (`frag-tail!`) for three controls and three
+  second-tail claims: alpha (size 15, one full block + fragment
+  @0 len 5) resolves to `FULL-BLK-Afrag-`; beta (size 20, two full
+  blocks, no fragment) resolves to `FULL-BLK-AFULL-BLK-B`; gamma
+  (size 25, one full block + a sparse block + fragment @5 len 5)
+  resolves to the full block, ten zero bytes, and `tail!`. gamma
+  is the discriminating control: a sparse block in a MIDDLE
+  position is a legitimate hole, not a second tail — only a
+  surplus block in the tail position is. delta (size 15, two full
+  blocks + fragment), epsilon (size 15, one full block + a sparse
+  block + fragment), and zeta (size 20, two full blocks +
+  fragment) each yield UNREAD, never partial bytes. epsilon is the
+  sharpest case: a resolver that merely dropped the surplus sparse
+  entry would return alpha's exact bytes, and zeta truncated to
+  size would return beta's exact bytes — both plausible, both
+  refused.
+- **Why the earlier checks are absent here, on purpose.** The
+  fragsplit pass already owns the fragment count and the frag4
+  pass already owns overlap, and running either here would let a
+  second-tail claim fail for the wrong reason, leaving this rule
+  itself untested. Each corrupt claim here carries exactly one
+  fragment, and no two claims share a fragment range, so each
+  UNREAD above is attributable to the second tail alone. The
+  resolver checks the block-list length and the
+  fragment-presence rule before producing any byte, so a corrupt
+  claim cannot leak a truncated prefix.
+- **Decoder-design note (second tail → Gauntlet).** One rung.
+  **A tail has exactly one source.** A Gauntlet walk that
+  truncated to declared size, or quietly dropped a surplus sparse
+  entry, would turn a malformed inode into a plausible file — the
+  worst direction for a decoder to err. The walk rule is: block
+  count must equal S // B, fragment present exactly when
+  S % B != 0, fragment size equal to S % B; anything else in the
+  tail position is UNREAD, and the file's other evidence (full
+  datablocks, name, size) does not rescue it.
+- **What this entry does not do.** It does not parse a real
+  mksquashfs image (the interop check is still the open line from
+  the directory entry — and the build VM has no mksquashfs binary,
+  so that check cannot run there until the tool is installed); it
+  does not decompress any fragment block or verify the fragment
+  entry's on-disk field widths against the public header; it does
+  not walk the export, uid/gid, or xattr tables; it does not test
+  a file whose block list is SHORT of S // B (a missing block,
+  rather than the surplus decided here), or a fragment whose size
+  differs from S % B while the block count is correct. Next: the
+  mksquashfs interop check, once a tool that can emit a real image
+  is available, or the short-block-list / wrong-size fragment
+  shapes.
+
+*[Grade: CLAIMED on the block-count and fragment-presence rule —
+an inference from the section 3.5 lineage of the prior entries,
+not re-read this pass; VERIFIED on the worked miniature (alpha /
+beta / gamma resolve as stated; delta / epsilon / zeta all UNREAD
+as stated, with the naive truncation and surplus-dropping
+outcomes shown refused) — the miniature script, held privately
+with the project, run 2026-11-01, passing; SPECULATION — the
+Gauntlet mappings are doctrine, never run, and no real SquashFS
+image was parsed.]*
+
+*SquashFS second-tail corruption entry seeded 2026-11-01 ~12:40 EST by the decoder-create-loop.*
