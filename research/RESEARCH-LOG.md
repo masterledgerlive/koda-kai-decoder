@@ -15513,3 +15513,10 @@ Three targeted searches (Kryptos K4 / Voynich / Indus script; Indus script / Tam
 - **Library changes:** none.
 
 **Run summary:** rotation #13 — working loop, one new log-only Beale assessment (seventy-plus runs, fifteen to twenty-five percent genuine estimate, claimed, metric variance flagged) plus Kryptos sale-motivation texture and a Voynich survey carrier; Indus prize still unclaimed, Kryptos fourth passage still found-not-solved, Voynich still unread. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-02 ~09:07 EST, rotation #13):**
+- **Push result:** sync-github.py — exit 0; "done: 1 pushed, 266 unchanged."
+- **Verification (VERIFIED by independent byte-check):** local git-blob sha == remote Contents-API sha for research/RESEARCH-LOG.md (b793ae594256d16a5d231cddbcc8ebd36364f884, 3,928,612 B). This pass's public entry is live on remote. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed: Shadow unreachable. Next run retries.
+
+**Run summary (close-out):** rotation #13 — working loop, one new log-only Beale assessment (claimed, metric variance flagged) plus Kryptos sale-motivation texture and a Voynich survey carrier; Indus prize still unclaimed, Kryptos fourth passage still found-not-solved, Voynich still unread. No library growth. Public entry verified live on remote by sha. Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
