@@ -10492,3 +10492,92 @@ nondeterminism source, the varying structure, and any
 Gauntlet mapping, which is doctrine, never run.]*
 
 *SquashFS AUF + duplicates lottery interop entry seeded 2026-11-02 ~04:20 EST by the decoder-create-loop.*
+## SquashFS AUF + duplicates lottery has a localized varying structure, not a diffuse rewrite
+
+The lottery entry left the varying structure open: which bytes
+decide corrupt versus clean. This entry diffs one corrupt build
+against one clean build of the same tree and finds the divergence
+is localized -- one short data region plus a handful of changed
+table bytes -- not a wholesale rewrite.
+
+The pair. Same tree and flags as the lottery entry (n=2000,
+sizes 100 + (i*37 % 4900), byte (i*7 % 251) repeated,
+mksquashfs 4.6.1, 4K blocks, -noappend, -always-use-fragments,
+zstd, -processors 1). Five attempts: attempts 1-4 clean, attempt
+5 CORRUPT (rc=1, 1879/2000 extracted, 162 mismatched, first fail
+f01717.bin mismatch got=4096 want=4829 -- the same first-fail
+file as the 03:55 entry, now known to be one lottery outcome,
+not a signature). Clean image (attempt 1) versus corrupt image
+(attempt 5): identical size 53248 bytes, distinct hashes
+(clean a109d867..., corrupt b2e034be...), both preserved as
+hidden_files/squashfs-auf-frag-diff-clean.sqsh and
+hidden_files/squashfs-auf-frag-diff-corrupt.sqsh. [VERIFIED --
+script hidden_files/squashfs-auf-frag-diff.py, log
+squashfs-auf-frag-diff.log]
+
+The superblock shift. bytes_used falls by exactly 32
+(51805 clean, 51773 corrupt), and every table start shifts by
+exactly -32 (inode 26599 -> 26567, dir 38739 -> 38706, frag
+49457 -> 49425, lookup 51775 -> 51743, id table likewise).
+Inode count, fragment count, block size, and compression are
+unchanged. mkfs_time differs by 4 seconds (builds 4 seconds
+apart); that is expected build time, not claimed as cause.
+[VERIFIED -- superblock parse of both images]
+
+The data region: exactly 32 bytes deleted. Corrupt bytes
+[24383:26567] equal clean bytes [24415:26599] byte-exact, so
+the corrupt data region is the clean data region with exactly
+32 bytes removed at offset 24383, before the inode table
+starts. The removed 32 bytes are
+d10eb5000030dee5ecf3fa090650010047db0a6935b2f25765ab0228b52ffd60,
+a chunk whose tail holds a zstd frame magic (28 b5 2f fd) --
+the deletion sits at a compressed-block boundary region, not
+in the middle of plain file bytes. [VERIFIED -- byte-diff of
+both images]
+
+The tables: same lengths, a handful of changed bytes.
+Decompressed inode tables are the same length (65628 bytes)
+with only 32 bytes differing, clustered in two late runs
+(offsets 60276+ and 64596+, spaced 36 bytes apart -- a small
+run of late inode entries, not a rewrite). Decompressed
+directory tables are the same length (53840 bytes) with only
+92 bytes differing, also late (51424+). So the corrupt build
+differs from the clean build in exactly three places: one
+32-byte-shorter data region, a small run of inode entries,
+and a small run of directory entries. [VERIFIED --
+metadata-block decompression of both images]
+
+What this rules in and out. RULED OUT: diffuse reordering
+or a different tree layout -- the overwhelming majority of
+both tables is byte-identical, and the data region is
+identical apart from the single deletion. CONSISTENT WITH
+(but not yet shown): the corrupt build's encoder assigned a
+slightly different fragment layout -- one fragment block
+compressed 32 bytes shorter, or one duplicate dropped -- and
+a small run of inodes points into the shifted layout, so the
+reader trusts the table and reads wrong bytes for those
+files. [SPECULATION -- the mechanism; the differing inodes
+have not yet been mapped to file names, and their fragment
+indices have not yet been compared]
+
+What this entry does not do. It does not map the differing
+inode offsets to file names; it does not compare the
+differing inodes' fragment indices between the two images;
+it does not explain why the data region lost exactly 32
+bytes; it does not interpret the fragment-table region
+(decompressed lengths 3789 clean versus 3821 corrupt did
+not fit a clean entries-times-16 model, so that parse is
+left open, not claimed). Next: map the differing inodes to
+files and compare their fragment indices -- that decides
+whether the corrupt inodes point 32 bytes off.
+
+*[Grade: VERIFIED on mksquashfs 4.6.1 -- the corrupt/clean
+pair (attempt 5 vs attempt 1), the exact -32 superblock
+shift, the exact 32-byte deletion equality in the data
+region, and the decompressed inode/dir diff counts (32 and
+92 bytes, same lengths); SPECULATION -- the fragment-layout
+mechanism and any Gauntlet mapping, which is doctrine,
+never run.]*
+
+*SquashFS AUF + duplicates lottery-diff interop entry seeded 2026-11-02 ~04:25 EST by the decoder-create-loop.*
+
