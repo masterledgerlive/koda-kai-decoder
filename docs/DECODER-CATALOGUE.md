@@ -10276,3 +10276,118 @@ SPECULATION -- @36 as xattr-none and the Gauntlet
 mappings, which are doctrine, never run.]*
 
 *SquashFS multi-block lookup-table interop entry seeded 2026-11-02 ~03:28 EST by the decoder-create-loop.*
+
+## SquashFS AUF + duplicates corruption trigger: the 03:28 open item closes negative
+
+The multi-block entry's OPEN item was AUF file-content
+resolution: its reader passed every check on default flags
+but stopped at AUF file resolution, and the entry guessed
+write-flap-corrupted sources (empty files from refused
+exec writes that night). This entry re-runs that leg from
+readback-verified sources -- and the failure persists,
+with the cause moved from the reader to the encoder: under
+-always-use-fragments with duplicate detection on,
+mksquashfs 4.6.1 writes a corrupt image for this tree,
+and the reference extractor fails on it too. The
+corrupted-sources hypothesis is REFUTED for this failure:
+sources were verified byte-for-byte before every build
+below, and one tree was re-read stable across five passes.
+
+The tree, unchanged from the multi entry: 4000 files
+f00000.bin..f03999.bin, sizes 100 + (i*37 % 4900) bytes,
+content byte (i*7 % 251) repeated -- single-byte runs, so
+files sharing a byte share identical full blocks and
+identical tails. Builds: mksquashfs 4.6.1, 4K blocks,
+-noappend, -always-use-fragments unless noted, zstd
+unless noted, -processors 1 unless noted. Check: full
+unsquashfs extraction (single-processor) byte-compared
+against the source tree, plus the multi script's reader.
+
+Symptom, in order of discovery. (1) The multi reader,
+re-run on a fresh AUF image from verified sources, again
+stops at file resolution: "cannot decompress fragment
+block (33 bytes): zstd decompress error: Unknown frame
+descriptor." (2) The fragment table is NOT misread: an
+independent re-parse (fresh index walk, not the reader's
+read_table) agrees on all 2213 entries, 0 diffs -- and
+the shared entry both parses name (fragment block 1472,
+seven files' tails at offsets 0, 732, 1501, 2307, 3150,
+4030, 4043 in one build) points at 34 bytes that are not
+a zstd frame. (3) The reference tool fails on the same
+images: unsquashfs dies mid-extraction, "zstd uncompress
+failed with error code 70" in one run and 72 in others,
+"FATAL ERROR: writer: failed to read/uncompress file ..."
+-- so this is not a reader bug. The reader and
+unsquashfs agree the bytes are wrong; they disagree
+nowhere.
+
+Discriminators, each a full build + full extraction
+check. AUF + zstd + repeated-byte content: corrupt at
+4000 files (default threads and -processors 1; /tmp
+tmpfs and disk alike -- build location is not the
+variable). AUF + gzip + repeated-byte content: corrupt
+too, so the compressor is not the variable either.
+Default flags (no AUF) + repeated-byte content at 4000:
+CLEAN, 4000/4000 -- which also retroactively firms the
+multi entry's default-flags leg (its reader pass plus
+-ll agreement now joined by a full extraction pass).
+AUF + repeated-byte content + -no-duplicates: CLEAN,
+4000/4000. AUF + SEEDED RANDOM content at 4000 (same
+sizes, bytes from Random(1234 + i)): CLEAN, twice.
+Scale, repeated-byte content, AUF: 100, 500, 1000, 1200,
+1500, 1800 all clean; 2000 corrupt -- and deterministic
+per tree: two separate 2000-file builds both die at the
+same file, f01717. The threshold sits between 1800 and
+2000 files for this tree and was not bisected further.
+
+What this pins down, and what it does not. Pinned: the
+trigger needs all three -- AUF, duplicate detection on,
+and highly-duplicative content. Remove any one leg and
+the image extracts cleanly. NOT pinned: which dedup
+structure misassigns. Note the subtlety that rules out
+the naive account: no two files in this tree share a
+(byte, size) pair (byte period 251, size period 4900,
+coprime, 4000 files), so there are NO whole-file
+duplicates for -no-duplicates to suppress -- the
+interaction must live at block or fragment level
+(identical full blocks across same-byte files, identical
+tails across same-byte same-tail-length files), but
+that is inference from the discriminator, not a located
+fault. The 1800-to-2000 threshold, the exact miswritten
+structure, other encoder versions, and the kernel read
+path are all OPEN, not claimed.
+
+Gauntlet consequence, stated as doctrine. An AUF
+fixture built from duplicative content is untrustworthy
+until an extraction check passes: the multi entry's
+reader leg alone would have certified structure while
+the bytes were corrupt, because the corruption sits in
+a fragment block the reader trusts the table to locate.
+Fixture rule going forward: AUF fixtures use
+-no-duplicates or non-duplicative content, AND every
+fixture build ends with a full unsquashfs extraction
+byte-compare, not just -ll. The default-flags fixture
+family is unaffected. Script
+hidden_files/squashfs-lookup-multi-auf-rerun.py (the
+re-run), squashfs-auf-frag-locate.py,
+squashfs-auf-frag-autopsy2.py,
+squashfs-auf-frag-indep.py, squashfs-auf-frag-threads.py,
+squashfs-auf-frag-scale.py, squashfs-auf-frag-loc.py,
+squashfs-auf-frag-pattern.py, squashfs-auf-frag-nodup.py,
+squashfs-auf-frag-default.py,
+squashfs-auf-frag-gzip-autopsy.py (autopsy chain).
+
+*[Grade: VERIFIED on mksquashfs 4.6.1 -- the
+discriminator matrix above (AUF corrupt, default clean,
+-no-duplicates clean, random-content clean, 2000-file
+deterministic failure at f01717, 1800 clean); VERIFIED
+that the reader's fragment table matches an independent
+parse on all 2213 entries and that unsquashfs itself
+fails on the corrupt images (so the fault is not the
+reader); REFUTED -- the 03:28 corrupted-sources
+hypothesis for this failure; SPECULATION -- the
+block/fragment-level dedup mechanism, the exact
+1800-to-2000 threshold, and any Gauntlet mapping, which
+is doctrine, never run.]*
+
+*SquashFS AUF + duplicates corruption-trigger interop entry seeded 2026-11-02 ~03:55 EST by the decoder-create-loop.*
