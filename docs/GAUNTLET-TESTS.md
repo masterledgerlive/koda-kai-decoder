@@ -24510,3 +24510,178 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-311 instrument seeded 2026-11-01 ~10:16 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-312 — the Merged-Revision Instrument *(design, never run)*
+
+*TDW-312 instrument seeded 2026-11-01 ~21:00 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-312 — the Merged-Revision Instrument — designed:**
+TDW-311 closed the merge: the merged glossary is the pair's
+sole citation authority, and the TDW-310 register is
+archived, not destroyed. TDW-311 never said what happens
+when the merged document itself is defective — a failure
+mis-copied into the working section, a lineage step dropped
+or reordered in the repaired section, a preamble naming the
+wrong register or the wrong grades. A merged document can
+carry a defect its holdings do not, and the fork is real:
+revise the merged version in place, and a quiet rewrite of
+the merge's terms becomes a forgery of standing in the other
+direction; re-split on every defect, and the merge is worth
+nothing, because no document of that length stays clean.
+This instrument tests exactly that fork: when a defect is
+found in a sealed merged glossary, does the pair revise the
+merge, or does it un-merge?
+
+The instrument runs only on a MERGE-CLOSED pair with its
+sealed merged glossary, version one. Never on a
+MERGE-LEAKING pair (no merge to revise), never on a void or
+UNGRADED run, never on a pair whose merged glossary was
+never sealed, never on a pair still under a TDW-310 register
+(nothing merged yet — that is TDW-311's business, not this
+instrument's). It runs on a disposable lab host, never the
+mother genesis block, never Shadow's live environment. Pass
+A, the defect declaration and the revision draft: the office
+declares the defect in writing — which part it sits in
+(preamble, working section, repaired section) and what it is
+(mis-copied failure wording, dropped or reordered lineage
+step, preamble naming the wrong register or the wrong
+grades) — and seals the declaration. Citation through the
+merged version is FROZEN from the declaration until the
+instrument grades: no new citation may be licensed through a
+document under declared defect, because a citation licensed
+through a defective text inherits the defect. The freeze is
+prospective, not retroactive — pre-declaration citations
+stand as they were read, and the freeze covers this
+instrument's window only, not any other pair's citations.
+The office then drafts a revised merged glossary — a NEW
+document, version two, not an edit over version one —
+carrying the same three parts, the defect repaired in the
+part it sat in, and a revision preamble naming version one,
+the sealed defect declaration, and the grades it does not
+touch (TDW-307's DEGRADED, TDW-308's REPAIRED, TDW-310's
+CITATION-CLOSED, and TDW-311's MERGE-CLOSED all stand; the
+revision changes the merged document's text only, never any
+holding and never the merge itself). A revision draft that
+changes a holding grade, re-licenses a direction, or adds a
+fourth part is not a draft, it is a new license, and this
+instrument grants none. Pass B, the cold sort: a citation
+auditor, naive to both dialects and to every holder's
+performances, its naivety verified against T-190's
+contamination ledger, receives the sealed version-two draft,
+the sealed defect declaration, and nothing else — no
+version-one text, no glossary text, no sealed transcript, no
+holder — and a test set of citations naming the pair:
+genuine version-two citations, and planted mis-citations
+covering every break (version-two working without the
+failure, version-two repaired without the lineage, version-
+two repaired with lineage out of order, version-two repaired
+with lineage naming version one as if it were the original
+glossary, version one cited after the revision as if still
+live, archived-register citation after the revision, a
+citation from inside the frozen window licensed retroactively
+through version two, preamble cited as a license for a
+direction on its own, direction unnamed, section unnamed,
+version unnamed). The auditor sorts each citation LICENSED
+or UNLICENSED, and states the version-two draft's part that
+decides it. The auditor performs no holding and judges no
+holding; it judges citations only. Pass C, the single
+comparison: the office compares the auditor's sort against
+the version-two draft's own rule, part by part. No heir
+judges, because no holding is at stake; the version-two
+draft is its own judge, and a draft that disagrees with its
+own rule has failed itself.
+
+The instrument grades in three grades, and no other grade
+exists. REVISION-CLOSED: every planted mis-citation is
+sorted UNLICENSED and every genuine citation LICENSED — the
+revision stands, version two is sealed as the pair's sole
+citation authority, version one is archived beside the
+TDW-310 register (not destroyed: old citations are read
+through the version that licensed them, new citations only
+through version two), and the freeze lifts on sealing.
+RE-SPLIT: any planted mis-citation is sorted LICENSED, or
+any genuine citation UNLICENSED, or the defect is proved
+unrepairable in place (the defect sits in the merge's terms
+themselves, not in any part's text — the preamble licensed
+a direction the split never allowed, or the merge closed
+over a register that was never CITATION-CLOSED) — the
+revision is refused and the pair re-splits: the merged
+glossary, version one and the version-two draft alike, is
+archived, and the TDW-310 register revives as the pair's
+sole citation authority. A re-split un-merges nothing that
+was graded: TDW-307, TDW-308, and TDW-310 grades stand, and
+TDW-311's MERGE-CLOSED seal is archived as a closed merge
+later un-merged, not erased. Note the asymmetry with
+TDW-311, and why it is honest: a failed merge surrenders
+nothing, because nothing had yet been trusted to the merge;
+but a defective merge that cannot be repaired in place
+cannot be trusted to stand while it is repaired, so a failed
+revision surrenders the merge. A second revision attempt is
+a new instrument, not a retry of this one, and it needs a
+new declaration, a new draft, a new auditor, and a new test
+set. UNGRADED: any leak — the auditor saw a version-one
+text or a glossary text, a sealed transcript was quoted, a
+test citation was previously seen, the auditor was not
+naive, a citation was licensed during the freeze, or the
+draft gained a fourth part during the run — recorded in
+T-190's contamination ledger as contamination, and the run
+is void, not failed. A void run leaves the version-one seal
+standing and the freeze in place: the defect is still
+declared, so the freeze must not lift on a void, or
+citations would flow through a known-defective text. A
+fresh run of this instrument, with a new auditor and a new
+test set, is permitted, because a void run graded nothing.
+
+What this instrument does not do: it does not re-grade
+TDW-307, TDW-308, TDW-310, or TDW-311 — a REVISION-CLOSED
+seal confirms the citation record, not the holdings, and a
+RE-SPLIT un-merges the citation authority, not the grades.
+It does not revise the archived TDW-310 register — the
+register is the fallback, not the patient; a defect in the
+register is TDW-310's business, and this instrument does not
+borrow it. It does not merge a second pair, revise two
+pairs' merged glossaries together, or revise a merged
+glossary against another pair's register — one pair, one
+merged document, one defect. It does not judge the defect's
+merits beyond its location and its repairability — whether
+the failure wording was wise is the holdings' business, not
+this instrument's. It does not license retroactive citation
+through version two for the frozen window — citations made
+during the freeze stay frozen, read through the version that
+licensed them at the time, or not at all.
+
+Chain lineage (established in this file, designs never
+run): TDW-311's Merged-License Instrument (the
+MERGE-CLOSED seal this instrument revises — its version-one
+glossary is the patient, and its archived register is the
+re-split's fallback); TDW-310's Repaired-Relay Citation
+Instrument (the CITATION-CLOSED register a RE-SPLIT revives
+— archived, not destroyed, under TDW-311, and revived, not
+rewritten, here); TDW-309's Closed-Relay Citation Instrument
+(the REPAIR-FAILED split this instrument does not touch —
+its register must not be borrowed as a fallback); TDW-308's
+Relay Repair Instrument (the REPAIRED grade and revised
+glossary the merged draft's repaired section inherits);
+TDW-307's Relay Instrument (the DEGRADED grade, the second
+glossary, and the failure the merged draft's working section
+carries); TDW-306's Glossary Instrument (the SUFFICIENT
+grade and original glossary the merged draft's lineage names
+first); T-190's contamination ledger (the quarantine — the
+auditor's naivety verified against it, every sealed
+transcript entered into it as evidence, and any leak
+recorded in it as contamination, which forces UNGRADED);
+T-69's volunteering law (the office may not obey what it did
+not write — and may not cite a version it has not licensed,
+in either direction, under either name, merged, split, or
+revised).
+SPECULATION — the three passes and the three grades are
+doctrine until run. No instrument or draft promised
+this run. No other open promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-312 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-312 instrument seeded 2026-11-01 ~21:00 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
