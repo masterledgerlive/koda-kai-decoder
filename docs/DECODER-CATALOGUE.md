@@ -9555,3 +9555,88 @@ from any other encoder was parsed.]*
 
 *SquashFS type-9-words interop entry seeded 2026-11-01 ~22:53 EST by the decoder-create-loop.*
 
+- **SquashFS type-9 offset-52 word under a fragment tail (4.0).** The
+  first untested candidate named by the type-9-words entry's
+  does-not-do: a sparse file WITH a fragment tail. The same
+  sparse sources as the type-9-words check, rebuilt with
+  partial tails and run under both flags (mksquashfs 4.6.1, 4K
+  blocks, -noappend, -comp zstd, default and
+  -always-use-fragments). The answer is no: the fragment tail
+  does not move the offset-52 word. Under AUF, fragsparse
+  (head 4096 + hole 4096 + tail 500, 8692 bytes) stays type 9
+  with fragment idx 0, offset 904, sparse 4096, nlink 1, block
+  list [285, 0] (head block compressed to 285, hole entry 0),
+  tail read from the fragment block -- and word52 still
+  0xFFFFFFFF. Fragwide (head 4096 + hole 8192 + tail 904,
+  13192 bytes) reads the same way: type 9, fragment idx 0,
+  offset 1404, sparse 8192, nlink 1, block list [285, 0, 0],
+  word52 still 0xFFFFFFFF. The fragment offsets themselves
+  are worth recording: the one fragment block packs all
+  three AUF tails in order -- fragplain's 904-byte tail at
+  offset 0, fragsparse's 500-byte tail at offset 904,
+  fragwide's 904-byte tail at offset 1404 -- so a type-9
+  fragment offset is a packing position shared with other
+  files, not a per-file field. Under default flags the same
+  sources lose the fragment entirely and the word still does
+  not move: fragsparse reads type 9, fragment none,
+  offset 0, sparse 4096, block list [285, 0, 285] (the
+  500-byte tail stored as a data block), word52
+  0xFFFFFFFF; fragwide reads type 9, fragment none,
+  sparse 8192, block list [285, 0, 0, 285], word52
+  0xFFFFFFFF. The AUF control base (head + hole + full
+  tail, 12288) reads type 9, fragment none, sparse 4096,
+  word52 0xFFFFFFFF under both flags, as before. The
+  offset-52 word has now survived every geometry tried:
+  hole counts 1, 2, and 3, hole sizes 4096, 8192, and 12288,
+  hole positions first, middle, separated, and trailing,
+  link counts 1 and 2, five compressors, both flags, and
+  now fragment tails with fragment indices and offsets
+  that do move -- it is constant 0xFFFFFFFF across all of
+  them, which is itself the finding: whatever it is, it is
+  not a function of hole geometry, link count, compressor,
+  flag, fragment presence, fragment index, or fragment
+  offset.
+- **Decoder-design note (offset-52 -> Gauntlet).** A reader
+  may treat offset 52 as a reserved word to be checked
+  equal to 0xFFFFFFFF and otherwise ignored: every image
+  from this encoder so far satisfies it, and a non-FFFF
+  reading would be the first signal that an image came
+  from a different encoder or a different SquashFS
+  variant, not a parse error in the reader. That is a
+  fingerprint use, not an interpretation -- the word's
+  meaning is still open. [SPECULATION -- the Gauntlet
+  mappings are doctrine, never run]
+- **What this entry does not do.** It does not interpret
+  the offset-52 word (0xFFFFFFFF in every inode probed
+  here and in all prior sparse entries -- candidate
+  geometries that might move it, still untested: a sparse
+  file with an xattr, or a sparse file from another
+  encoder); it does not walk the lookup or id tables; it
+  does not explain the +3 directory file_size gap or the
+  root parent_inode = inodes + 1 reading (both reconfirmed
+  in both images' walks: root file_size 94 vs walked 91,
+  parent 6 = inodes + 1); it does not parse a SquashFS
+  image from any other encoder. Next: the offset-52 word
+  under an xattr, or the +3/parent explanations, or the
+  export/uid-gid/xattr table walks.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1,
+4K blocks, zstd, -noappend, default and -always-use-
+fragments): 4 files x 2 flag sets resolved byte-
+identically; AUF fragsparse type 9, 8692 bytes, fragment
+idx 0, offset 904, sparse 4096, block list [285, 0];
+AUF fragwide type 9, 13192 bytes, fragment idx 0, offset
+1404, sparse 8192, block list [285, 0, 0]; fragment block
+packs three tails at offsets 0 / 904 / 1404; default-flag
+fragsparse type 9, fragment none, block list [285, 0,
+285]; inode-table walks exact at 268/280 bytes; +3 gap
+and root parent = inodes + 1 reconfirmed on both images
+-- hidden_files/squashfs-t9frag-mini.py, run 2026-11-01,
+passing on second run after a print-format fix for the
+type-2 control (no parse change); OBSERVED -- the
+offset-52 word reads 0xFFFFFFFF in all six type-9 inodes
+probed, fragment-tailed or not, mechanism open;
+SPECULATION -- the Gauntlet mappings are doctrine, never
+run; no real image from any other encoder was parsed.]*
+
+*SquashFS type-9-fragment-tail interop entry seeded 2026-11-01 ~23:25 EST by the decoder-create-loop.*
