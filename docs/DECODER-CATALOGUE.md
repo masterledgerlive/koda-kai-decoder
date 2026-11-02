@@ -10132,3 +10132,147 @@ never run; no multi-block table, no other-encoder image,
 and no appended image was parsed.]*
 
 *SquashFS export-table interop entry seeded 2026-11-02 ~02:30 EST by the decoder-create-loop.*
+
+## SquashFS multi-block lookup table: refs are stream byte offsets, not block indices
+
+The export entry closed the last named table walk and left
+"a multi-block lookup/export table" as next. This entry
+builds it: mksquashfs 4.6.1, 4K blocks, -comp zstd,
+-noappend, default flags and -always-use-fragments, one
+flat tree each of 4000 files f00000.bin..f03999.bin, sizes
+100 + (i*37 % 4900) bytes, content byte (i*7 % 251)
+repeated, so no two files share a size pattern and the
+inode refs form an irregular sequence. The lookup table
+holds one u64 ref per inode: 4001 inodes, 32008 bytes,
+four 8192-byte metadata blocks on both flag sets (32008
+= 3 x 8192 + 7432; blocks are filled to 8192 but the
+last). Default: lookup_table_start 116275, table region
+[111625, 116307), 4682 bytes on disk, stored lens [1141,
+1174, 1262, 1065], index 32 bytes. AUF: start 99542,
+region [94984, 99574), 4590 bytes, stored lens [1169,
+1178, 1137, 1066]. The blocks tile contiguously and the
+last ends exactly at lookup_table_start, on both flag
+sets -- the export entry's corrected geometry holds at
+multi-block scale.
+
+CORRECTION, and it is the point of this entry. A ref's
+high word is NOT a block index. It is the BYTE OFFSET of
+the metadata block within the table's COMPRESSED stream
+(cumulative stored sizes). Default inode blocks start at
+[0, 1360, 2771, 4175, 5579, 6958, 8351, 9735, 11129,
+12524, 13927, 15324, 16693, 18079, 19491, 20879, 22283];
+the refs' high words are exactly those 17 values. AUF:
+[0, 1440, 2918, 4433, 5968, 7490, 9013, 10541, 12053,
+13572, 15065, 16575, 18109, 19656, 21211, 22747, 24321],
+all 17 again -- except that AUF's 17th block holds only
+the tail of the straddling root record, so no ref starts
+there and only 16 high words appear. Every prior entry
+had a single inode metadata block, where index 0 and
+offset 0 coincide, so their ref readings stand but their
+reader model was wrong: the t9 reader's read_inode (block
+index) fails past block 0. The reader here maps each
+stored offset to a block index and reads at
+block_index * 8192 + (ref & 0xFFFF) in the CONCATENATED
+stream -- because inodes STRADDLE block boundaries (14
+default, 13 AUF records cross one), so no single-block
+read suffices in general. All 4001 refs read back to
+their own inode number on both flag sets, and the last
+ref equals the superblock root_inode on both.
+
+The root directory of 4000 entries is a type-8 EXTENDED
+directory inode (ldir), not a basic dir: 40-byte header
+(nlink 2, file_size u32, offset 0, parent u32, i_count
+u32, xattr u32 0xFFFFFFFF = none) + i_count index
+entries of (header listing-offset u32, header dir-block
+byte-offset u32, first-entry name-length-minus-1 u32,
+first-entry name). Default: file_size 72303, i_count 8,
+index names f00453, f00906, f01359, f01812, f02265,
+f02718, f03171, f03624 -- one per internal dir-block
+boundary, each pointing at the header spanning it, at
+header offsets 8178, 16368, 24558, 32748, 40938, 49128,
+57306, 65496 with dir-block byte offsets 0, 1939, 3901,
+5903, 7952, 9980, 11988, 14025. Every index entry was
+verified against the walked headers (position, first
+name, length-minus-1) and the dir-block stored offsets.
+AUF: file_size 72291, same 8 names, offsets 0, 2018,
+3955, 6005, 8037, 10086, 12106, 14144 (one header
+position shifts, f02718 at 49116, because AUF's
+different inode stream cuts the headers differently:
+24 headers against default's 25, hence the 12-byte
+listing difference). The +3 directory gap holds at this
+scale on both flag sets (walked 72300 -> 72303; walked
+72288 -> 72291), and the root parent sentinel holds
+(parent 4002 = inodes + 1 on both). Every directory
+entry's (header start_block, entry offset) ref equals
+its lookup-table ref, 4000 of 4000 on both flag sets --
+so dir-header start_block is the same byte-offset unit,
+and the dir table and the lookup table cross-check each
+other entry by entry.
+
+Two corrections to earlier geometry fall out of the
+walks. First, the dir stream does NOT end at
+frag_start: frag_start is the fragment INDEX, and the
+blocks before it are the fragment table's blocks. A
+naive [dir_start, frag_start) walk decompresses 106316
+bytes for a 72300-byte listing; the extra 34016 are
+exactly the fragment table (2126 entries x 16 bytes),
+not listing data. Second, a reader bug fixed in passing:
+an all-zero partial tail stores as hole entry 0, and the
+t9 reader emitted a full 4096 zeros for it; it now
+emits file_size % BLOCK zeros. Files f00000, f00251,
+and every 251st file are all zeros and exercise it.
+
+What it proves, and what it does not do. It proves the
+multi-block layout, the byte-offset ref unit, the
+straddle rule, the ldir header and index format, and
+the +3 gap and parent sentinel at 4001-inode scale; on
+default flags it proves all of it end to end, every one
+of the 4000 files resolving byte-identically with
+unsquashfs -ll agreeing on all 4000 names. It does not
+prove AUF file-content resolution: the AUF image passes
+every structural check above, but its file-resolution
+loop failed in the runs available (one build: a
+4765-byte file resolved to 4096, its fragment tail
+missing; debug builds: a same-length content mismatch
+and a fragment slice that was not a zstd frame). Two
+candidate explanations are NOT distinguished: a genuine
+AUF fragment-indexing difference the reader mishandles,
+or write-flap-corrupted sources (the debug builds ran
+while exec writes were intermittently refused with
+EPERM, creating empty files -- a build from such
+sources fails exactly this way). This entry claims NO
+AUF content resolution; the next run must rebuild AUF
+from readback-verified sources and re-run. It does not
+identify the ldir listing's start_block field: the @16
+word reads 2, which fits nlink exactly (a root with no
+subdirs), while the listing demonstrably starts at dir
+block 0 offset 0; @36 = 0xFFFFFFFF reads as xattr-none
+by extended-inode analogy [SPECULATION]. It does not
+cover any other encoder, any appended image, or any
+kernel read path. Script
+hidden_files/squashfs-lookup-multi-mini.py (default:
+full pass; AUF: passes through the ldir index check,
+stops at file resolution -- the open item above).
+
+*[Grade: VERIFIED on two real images (mksquashfs 4.6.1,
+4K blocks, zstd, -noappend, default and
+-always-use-fragments): 4-block lookup tables with
+contiguous tiling ending at lookup_table_start; ref
+high words == inode-block stored offsets (17/17
+default, 16/17 AUF with the last-block tail
+explained); all 4001 refs resolve via the concatenated
+stream; 14/13 straddling inodes; ldir header + 8 index
+entries verified against walked headers; +3 gap and
+parent 4002 on both flag sets; 4000/4000 dir-entry refs
+== lookup refs on both flag sets; OBSERVED -- the
+dir-stream end correction (34016 extra bytes ==
+2126 x 16 fragment table) and the hole-tail fix;
+VERIFIED on default flags only -- all 4000 files
+byte-identical, unsquashfs -ll agrees; OPEN -- AUF
+file-content resolution (see above) and the ldir
+start_block field; CLAIMED -- the kernel reads refs
+the same way (layout only, no kernel run);
+SPECULATION -- @36 as xattr-none and the Gauntlet
+mappings, which are doctrine, never run.]*
+
+*SquashFS multi-block lookup-table interop entry seeded 2026-11-02 ~03:28 EST by the decoder-create-loop.*
