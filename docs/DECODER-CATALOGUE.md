@@ -10391,3 +10391,104 @@ block/fragment-level dedup mechanism, the exact
 is doctrine, never run.]*
 
 *SquashFS AUF + duplicates corruption-trigger interop entry seeded 2026-11-02 ~03:55 EST by the decoder-create-loop.*
+## SquashFS AUF + duplicates corruption is a per-build lottery, not a file-count threshold
+
+The 03:55 entry closed its open item with two strong
+claims: the corruption threshold sits between 1800 and
+2000 files for its tree, and at 2000 it is deterministic
+per tree (two separate builds both died at f01717). This
+entry set out to bisect that threshold exactly -- and
+instead refutes both claims. The corruption fires or not
+per build, from the same command on the same tree.
+
+The bisect, and why its answer is not an answer. Same
+tree as the 03:55 entry (sizes 100 + (i*37 % 4900), byte
+(i*7 % 251) repeated), mksquashfs 4.6.1, 4K blocks,
+-noappend, -always-use-fragments, zstd, -processors 1,
+full unsquashfs extraction byte-compared per probe.
+Bisection from lo=1800 clean / hi=2000 corrupt walked
+1900 CORRUPT, 1850 clean, 1875 CORRUPT, 1862 clean,
+1868 clean, 1871 CORRUPT, 1869 CORRUPT -- and reported
+smallest-corrupt 1869, largest-clean 1868. A confirmation
+rebuild of 1869 then came out CLEAN. The bisect path is
+real data about those seven builds, not a property of
+the tree: re-running the same count re-rolls the outcome.
+
+The repeat sweep. Fresh builds, same flags, extraction
+byte-compared: n=1869, 2 corrupt of 5; n=1900, 0 of 3;
+n=2000, 0 of 2; n=1800, 0 of 2. The corrupt 1869 builds
+failed at different files (f01717 twice, f00395 once in
+the bisect, f00792 at 1875) -- the failing file varies
+too, so the 03:55 entry's twice-repeated f01717 was
+coincidence across two builds, not a signature. A
+corrupt build is unmistakable when it fires (one 1869
+build: 397 of 1869 files extracted; one 1900 build: all
+1900 extracted but 183 mismatched, first fail f01717
+got 4096 want 4829), but whether it fires is chance.
+
+The decisive check: determinism of the encoder itself.
+Three identical-input 2000-file builds (same sources,
+same flags, same command) produced three distinct image
+hashes at identical size 53248 bytes. A second set of
+four: four distinct hashes, one corrupt (890 of 2000
+extracted, 363 mismatched) and three clean. So
+mksquashfs 4.6.1 output varies run to run even under
+-processors 1 -- some ordering inside the encoder is
+not pinned by that flag -- and the corrupt layout is one
+of the possible outputs, not the output for a given file
+count. [VERIFIED -- the repeat sweep, the 3-build hash
+check, and the 4-build hash-plus-extraction check, all
+this run, script
+hidden_files/squashfs-auf-frag-bisect.py with its
+per-probe directory fix, logs squashfs-auf-frag-bisect.log,
+squashfs-auf-frag-repeat.log,
+squashfs-auf-frag-determinism.log]
+
+What survives of the 03:55 entry, and what does not.
+SURVIVES: the three-leg condition -- AUF, duplicate
+detection on, highly-duplicative content -- as the
+condition under which corruption CAN occur (every
+corrupt build here still sits inside it, and the
+-no-duplicates / random-content / default-flags legs
+still extract clean). REFUTED: the file-count threshold
+between 1800 and 2000, and determinism per tree at any
+count. The 03:55 entry's "1800 clean, 2000 corrupt" was
+two single builds that happened to land on opposite
+sides of a lottery.
+
+Gauntlet consequence, strengthening the 03:55 fixture
+rule. That rule said every fixture build ends with a
+full extraction byte-compare. It now needs its second
+half stated: a fixture build that passes ONCE certifies
+nothing about the next build of the same tree. The
+check must run on the exact image under test, every
+time -- a passed build is not a passed command. A
+reader leg alone still cannot certify an AUF fixture:
+the corruption sits in a fragment block the reader
+trusts the table to locate. [SPECULATION -- the
+Gauntlet mappings are doctrine, never run]
+
+What this entry does not do. It does not locate which
+varying bytes decide corrupt versus clean; it does not
+identify the nondeterminism source that survives
+-processors 1 (hash seed, readdir order, and dedup
+table order are candidates, none tested); it does not
+test whether any mksquashfs option restores byte-stable
+output, any other encoder version, or any compressor
+beyond zstd at these counts. Next: diff a corrupt
+image against a clean image of the same tree to find
+the varying structure, or pin the nondeterminism
+source -- either would turn this lottery into a cause.
+
+*[Grade: VERIFIED on mksquashfs 4.6.1 -- the repeat
+sweep (1869 2/5, 1900 0/3, 2000 0/2, 1800 0/2), the
+3-build distinct-hash check at identical size, and the
+4-build hash-plus-extraction check (1 corrupt, 3
+clean); REFUTED -- the 03:55 entry's file-count
+threshold between 1800 and 2000 and its determinism-per-
+tree claim at 2000, and this run's own bisect answer of
+1869 as smallest-corrupt; SPECULATION -- the
+nondeterminism source, the varying structure, and any
+Gauntlet mapping, which is doctrine, never run.]*
+
+*SquashFS AUF + duplicates lottery interop entry seeded 2026-11-02 ~04:20 EST by the decoder-create-loop.*
