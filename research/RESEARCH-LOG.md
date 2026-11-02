@@ -15476,3 +15476,17 @@ Three targeted news-vertical searches (prompt injection / indirect injection, No
 - **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535"): Shadow unreachable. Next run retries.
 
 **Run summary (close-out):** rotation #11 — working loop, five new log-only items (ISO/IEC 27090 AI-security guidance, claimed; Ghostcommit image-borne instruction channel, claimed; Tabularis MCP SQL injection CVE-2026-118378 held as a pointer, claimed; WardenStealer coding-tool credential theft held as a pointer, claimed; jailbreak-prompt catalogue texture, claimed) plus retells. No catalogue growth. Public entry verified live on remote by sha. Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #12 (math/physics engines).
+
+## 2026-11-02 ~08:28 EST — decoder-research-loop — Math/physics engines (rotation #12):
+
+Two targeted searches (SymPy/SciPy releases; symbolic regression and physics simulation news) plus a check against the standing record. **Two new log-only items, no library growth.** No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+- **New, log-only — Keplearn, a deterministic symbolic-regression engine written in Rust (reported October 29, 2026).** It reads tabular data and outputs candidate equations, snapping fitted constants to simple rationals and multiples of pi, e, and the square root of two. Its claimed benchmark result: about sixty-five percent exact solutions on a standard physics benchmark, ahead of an earlier system's fifty-six percent, with solved cases often finishing in under a second. Held as a candidate instrument pending independent verification — claimed, not verified.
+  - Source: https://zeli.app/story/50289590
+- **New, log-only — an evolved formula that speeds up neutron-transport calculations (Nuclear Science and Engineering, October 22, 2026).** Using genetic programming, researchers evolved an explicit formula that improved convergence in about seventy-eight percent of test cases, against thirty-nine percent and thirty-two percent for two classic methods — with one checkpoint where it never won, a limitation the authors report honestly. Corroborated: peer-reviewed publication, single paper so far.
+  - Source: https://thesciencematters.org/a-novel-evolutionary-approach-improves-neutron-transport-calculations/
+- **Re-covered, no status change:** SymTorch (same writeup as filed October 15; a quoted reviewer attribution in the piece reads as placeholder text, which weakens the carrier, not the library); SciPy and SymPy version guides that contradict the standing record and are treated as stale texture; the LLM-guided symbolic-regression wave; MuJoCo Warp differentiability still pending; CERN/Mistral "Flare" still a statement of intent.
+- **Grades:** Keplearn claimed; neutron-transport formula corroborated; no new verified grade this pass.
+- **Library changes:** none.
+
+**Run summary:** rotation #12 — working loop, two new log-only items (Keplearn, claimed; neutron-transport acceleration formula, corroborated) plus retells. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
