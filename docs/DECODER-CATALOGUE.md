@@ -9908,3 +9908,103 @@ doctrine, never run; no multi-block id table, no other-
 encoder image, and no appended image was parsed.]*
 
 *SquashFS uid/gid-id-table interop entry seeded 2026-11-02 ~02:00 EST by the decoder-create-loop.*
+## SquashFS lookup table walk: inode number -> inode reference, in number order
+
+- **The question the uid/gid entry left open.** The id-table
+  walk proved inode words resolve through a table. The
+  lookup table is the sibling index: the superblock's last
+  field, lookup_table_start, names a table of one u64 inode
+  reference per inode -- but in what order, and does it cover
+  directory inodes or only files? A reader that assumes the
+  refs are offset-sorted, or that directories are absent,
+  misresolves exactly the nested cases.
+- **The images.** mksquashfs 4.6.1, 4K blocks, -noappend,
+  -comp zstd, default flags and -always-use-fragments, one
+  source tree each: a.bin 5000 bytes and b.bin 3000 bytes in
+  the root, sub/c.bin 1234 bytes in a nested subdirectory.
+  Content bytes differ per file so no two files can merge
+  blocks. The nested directory is the point: its inode and
+  its child's inode must both appear in the table.
+- **The table layout.** Index-prefixed, like the fragment and
+  id tables: u64 block offsets from lookup_table_start, then
+  metadata blocks concatenated to inodes * 8 bytes. Default
+  image: lookup_table_start 392, bytes_used 414, a 22-byte
+  span (8-byte index + one compressed metadata block holding
+  five u64 refs). AUF image: lookup_table_start 390, same
+  22-byte span. The table is the last thing in the image:
+  nothing follows it before bytes_used. [VERIFIED -- the
+  reader's own parse on both images,
+  hidden_files/squashfs-lookup-mini.py]
+- **The refs are in inode-number order, not offset order.**
+  Default image: [0x0, 0x28, 0x68, 0x48, 0x88]. Read back,
+  each ref's inode-number word (u32 at header +12) equals its
+  lookup index + 1: a.bin ino 1, b.bin ino 2, sub ino 3,
+  c.bin ino 4, root ino 5. The subdirectory's ref (0x68)
+  sorts ABOVE its child's (0x48): the encoder assigned inode
+  numbers directory-before-contents, then laid the inodes out
+  in a different order. A reader that sorts the refs, or
+  assumes ref order equals file order, misresolves the
+  nested file. The AUF image reads [0x0, 0x24, 0x64, 0x44,
+  0x84] -- same order, every ref shifted by 4 bytes against
+  the default image's layout. [VERIFIED -- both images]
+- **The root is the last entry, and directories agree.**
+  lookup[4] equals the superblock's root_inode (0x88 default,
+  0x84 AUF) in both images: the root is numbered last, not
+  first. Every directory-listing ref matches its lookup
+  entry by inode number -- a.bin, b.bin, sub in the root
+  listing, c.bin in the subdirectory listing -- so the
+  lookup table and the directory walk are two views of the
+  same numbering, and either one checks the other.
+  [VERIFIED -- both images]
+- **Every file resolves, independently confirmed.** All three
+  files (5000, 3000, 1234 bytes) resolve byte-identically
+  through the reader on both flag sets, and unsquashfs -ll
+  lists the same three files on both images, so the readings
+  are not vacuous. [VERIFIED -- reader + unsquashfs
+  agreement on both flag sets, run 2026-11-02]
+- **Reconfirmed, still unexplained.** Both directories read
+  file_size 3 past the walked listing (root 52 vs 49, sub 28
+  vs 25 -- the same +3 gap as every prior entry), the root
+  directory's parent_inode is 6 = inodes + 1, and the
+  subdirectory's parent is 5, the root's own inode number.
+  The sub parent reading is new evidence for the parent
+  question: a non-root directory's parent is its real
+  parent, which makes the root's parent = inodes + 1 look
+  like a sentinel rather than a parent at all. [OBSERVED --
+  both images, both directories]
+- **Decoder-design note (lookup table -> Gauntlet).** The
+  lookup table gives the interrogator a second, independent
+  numbering of every inode: a specimen whose directory walk
+  and lookup table disagree on any ref is corrupt or tampered
+  before any file content is judged; a lookup entry pointing
+  at a header whose inode number is not its own index is
+  corrupt, never foreign; and a table shorter than the inode
+  count is truncated, not sparse -- the table's length IS the
+  inode count, so there is no room for a missing entry to
+  hide. [SPECULATION -- the Gauntlet mappings are doctrine,
+  never run]
+- **What this entry does not do.** It does not walk the
+  export table (the last named table walk); it does not
+  explain the +3 directory file_size gap or the root
+  parent_inode = inodes + 1 sentinel reading; it does not
+  test a lookup table spanning several metadata blocks (that
+  needs >1024 inodes), an image from any other encoder, or a
+  lookup table under -noappend appends. Next: the export
+  table walk, or the +3/parent explanations, or a multi-block
+  lookup table.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1,
+4K blocks, zstd, -noappend, default and -always-use-
+fragments): 5 inodes x 2 flag sets, every lookup entry read
+back to its own inode number, root entry equal to the
+superblock root_inode, every directory ref matching its
+lookup entry, all 3 files resolved byte-identically,
+unsquashfs -ll agrees on all 3 files in both images;
+OBSERVED -- the +3 directory gap on both directories and
+parent 6 = inodes + 1 on the root against parent 5 = root
+ino on the subdirectory, in both images; SPECULATION -- the
+Gauntlet mappings are doctrine, never run; no multi-block
+lookup table, no other-encoder image, and no appended image
+was parsed.]*
+
+*SquashFS lookup-table interop entry seeded 2026-11-02 ~02:15 EST by the decoder-create-loop.*
