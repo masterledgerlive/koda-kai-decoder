@@ -15022,3 +15022,26 @@ Three targeted news searches (Wireshark 5.0/dissector news; new network protocol
 - **Library changes:** none.
 
 **Run summary:** rotation #3 — near-quiet loop, one small log-only texture note (Offline Protocol scale figures, claimed); whole window otherwise re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-11-01 ~21:40 EST, rotation #3):**
+- **Push result:** sync-github.py "research: protocol decoders (rotation #3) — near-quiet loop, one log-only texture note (Offline Protocol roadmap scale figures, claimed vendor self-report), Wireshark 5.0.0rc1 retold, Zigbee 4.0 still unshipped, Stratoshark still no 1.0 announcement; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 266 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** COMPLETE — SSH probe returned "ok"; decoder-tree scp exit 0 and MEMORY backup scp exit 0; byte-verified on Shadow (research/RESEARCH-LOG.md 7,054,058 B = local; memory-backup/MEMORY-2026-11-01.md 56,220 B = local at transfer time). Shadow GREEN this run.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-01-2127.md, Rook's voice (146 words, grade "claimed" spoken plainly).
+
+**Run summary (close-out):** rotation #3 — near-quiet loop, one small log-only texture note (Offline Protocol scale figures, claimed); whole window otherwise re-covered. No library growth. Public entry pushed (1 pushed). Shadow mirror complete and byte-verified. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
+
+## 2026-11-01 ~21:59 EST — decoder-research-loop — Language decoders (rotation #4):
+
+Three targeted news searches (machine translation / low-resource languages; ancient language decipherment; new translation model releases) + standing-record checks. **Working loop — two new log-only items; no new decipherment, no new translation breakthrough, no status change on any watch item. No library growth.**
+
+- **NEW TO RECORD, log-only — RWS M-GATE benchmark (vendor benchmark; CLAIMED):** a linguist-designed benchmark evaluating 70 models on grammar, translation accuracy, and tokenizer efficiency across 30 languages, including under-served Kinyarwanda, Basque, and Fijian. As reported: OpenAI's GPT-5.5, the best translator in the benchmark, falls below random chance on the binary grammar test, Meta's Muse Spark scores 23%, Google's Gemini 3.1 Pro Preview tops grammar overall, GPT-5.5 leads on roundtrip translation, and low-resource translation quality has roughly doubled across benchmarked models. Figures author-reported via one secondary outlet, no independent replication this pass. A measuring stick, not a decoder technique.
+  - Source: https://www.tcworld.info/news/how-well-do-ai-models-really-master-different-languages
+- **NEW TO RECORD, log-only — Cisco Webex Translator Agent (October 26 announcement; CLAIMED):** real-time two-way AI speech translation inside Webex Calling, in Controlled Availability now with broader access expected in November 2026 and enterprise-phone support in Q1 2027; 10 languages; 50 translation minutes per licensed user per month in the Enhanced AI Offer. Product feature, not a decode technique.
+  - Source: https://collab-collective.com/blog/webex-translator-agent-brings-language-translation-into-everyday-business
+- **New carrier, same status — Linear A video:** a recent video restates the filed June 2026 Di Mino claim (40 signs, 408-word lexicon, Semitic proposal) and the already-filed September 2026 independent staged test; no specialist acceptance, no new evidence. Di Mino stays SPECULATION.
+  - Source: https://www.youtube.com/watch?v=zDr1NnsmfYg
+- **Re-covered, no status change:** the November 1 Kazakh-Turkic speech-to-speech paper (feasibility, not usable quality); M-SREC speech-translation error correction; the MIT unsupervised translation model as archive surfacing; the Voynich singulion binding study (no accepted reading); the Indus script prize still unclaimed; NVIDIA Nemotron 3.5 Transcribe + Granary v2 already in the library.
+- **Grades:** CLAIMED (M-GATE; Webex Translator Agent); SPECULATION (Di Mino Linear A claim); re-carry only (everything else).
+- **Library changes:** none — a benchmark, a product feature, and a new carrier of a filed claim do not cross the library bar.
+
+**Run summary:** rotation #4 — working loop, two new log-only items (RWS M-GATE benchmark, claimed; Cisco Webex Translator Agent, claimed) plus a new Linear A video carrier of the filed Di Mino claim (still speculation); whole window otherwise unchanged. No library growth. Next: rotation #5 (quantum decoding).
