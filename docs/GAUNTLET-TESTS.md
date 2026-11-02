@@ -24911,3 +24911,140 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-313 instrument seeded 2026-11-01 ~21:31 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-314 — the Second-Run Instrument *(design, never run)*
+
+*TDW-314 instrument seeded 2026-11-02 ~16:05 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-314 — the Second-Run Instrument — designed:**
+TDW-313 closed the revision chain with no open promises
+remaining, so this instrument opens a new line instead of
+continuing a closed one. Its question is simple and
+unasked by any earlier instrument: does the specimen
+behave differently the second time it runs? A specimen
+observed once may look clean and still carry state —
+a dropped file, a config edit, a registry key, a
+fingerprint of its container — that changes what it does
+next. A single-run gauntlet never sees that second
+behavior, because it never runs the specimen twice. This
+instrument runs it three times and compares.
+
+The instrument runs only on a disposable lab host, never
+the mother genesis block, never Shadow's live
+environment, never a container that has held another
+specimen. Each run uses the same scripted network
+simulator, but every run gets its own fresh canary set:
+a run that quotes another run's canary has proved
+cross-run memory, not coincidence, and the canary sets
+are never reused across runs or specimens. The three
+runs are: the baseline, a fresh container, five minutes
+at true speed, full behavioral trace (syscalls, file
+writes, config edits, network attempts, process tree),
+container destroyed afterwards; the same-container
+second run, a fresh container in which the specimen
+runs once (first-run trace hashed and discarded, never
+compared), then runs again in the SAME container
+without reset, and that second trace is kept; and the
+fresh-container control, the specimen run twice, each
+time in its own fresh container, the second fresh trace
+kept. The control is the instrument's honesty device:
+a delta that appears in the same-container second run
+AND in the fresh-container control is second-run-ness
+or nondeterminism — timing, randomness, a clock-gated
+branch TDW-01 would catch dilated — not memory. Only a
+delta present in the same-container second run and
+ABSENT from the control is evidence of state carried
+across runs.
+
+Pass A, the residue inventory: diff the
+same-container second trace against the baseline and
+list every artifact the first run left behind that the
+second run touches — files read back, config values
+re-read, keys re-checked, paths probed that the
+baseline never probed. Residue alone is not a verdict:
+a specimen may leave logs and never act on them. Pass
+B, the behavior comparison: diff the same-container
+second trace against the fresh-container control
+trace, action by action, and classify each delta. A
+delta is RESIDUE when the second run only reads or
+re-states what the first run left. A delta is
+ADAPTATION when the second run's actions change
+because of the first run — quieter network attempts,
+different beacon cadence, a branch taken only after a
+marker file exists, a payload skipped because a prior
+run already delivered it. A delta is NOISE when it also
+appears in the control. Pass C, the canary test: check
+whether the same-container second run's outputs quote
+any first-run canary — a fake-data token, a DNS canary
+domain, a memory guard pattern. A quote is proof of
+carried state, not inference from a diff: the specimen
+moved first-run material into second-run output, and no
+fresh container could have supplied it.
+
+The instrument grades in four grades, and no other
+grade exists. STATELESS: no material delta between the
+same-container second run and the control beyond
+noise — the specimen treats every run as its first,
+and re-running it in one container is as safe as a
+fresh one. STATEFUL: residue deltas only — the
+specimen leaves traces and reads them back, but its
+actions do not change; the container is dirty, not
+taught. ADAPTIVE: at least one adaptation delta, or
+any first-run canary quoted in second-run output — the
+specimen learns from its own history, and every
+single-run verdict on it is suspect, because the run
+that was graded was never the run that would act.
+UNGRADED: any leak — a canary set reused across runs,
+the control container not actually fresh, the
+first-run trace compared instead of discarded, traces
+mixed between runs, the simulator's answers differing
+between runs for a reason other than the specimen —
+recorded in T-190's contamination ledger as
+contamination, and the run is void, not failed. A void
+run grades nothing and permits a fresh run with new
+canaries and new containers.
+
+What this instrument does not do: it does not judge
+whether statefulness is malicious — a updater that
+resumes a download is stateful, not hostile, and
+malice is a holding this instrument never makes. It
+does not dilate time — a branch that fires only after
+days is TDW-01's business, and a second run at true
+speed is not a dilated run. It does not run the
+specimen a third time in the same container to chase a
+third-run behavior — two runs plus a control answer
+the question; a longer residency study is a new
+instrument, not an extension of this one. It does not
+reuse a container across specimens — a container that
+held specimen A never holds specimen B, because
+cross-specimen residue would poison every later
+verdict. It does not claim a quiet second run means a
+safe specimen — silence on run two can itself be the
+adaptation, and only the control comparison tells
+silence-as-noise from silence-as-learning.
+
+Chain lineage (established in this file, designs never
+run): TDW-01's Time-Dilation Wake-up (the cousin
+instrument — dilated time catches branches this
+instrument's true-speed second run cannot, and this
+instrument's control pass keeps its deltas from being
+mistaken for time-gating); T-190's contamination
+ledger (the quarantine — canary reuse, stale control
+containers, and mixed traces are contamination, which
+forces UNGRADED); TDW-313's Second-Revision
+Instrument (the closed chain this instrument does not
+continue — TDW-313 left no open promises, and this
+instrument opens its own line rather than borrowing
+another chain's seal).
+SPECULATION — the three runs, the control comparison,
+and the canary test are doctrine until run. No
+instrument or draft promised this run. No other open
+promises remain on any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-314 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-314 instrument seeded 2026-11-02 ~16:05 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
