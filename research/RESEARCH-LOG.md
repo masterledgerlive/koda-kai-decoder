@@ -15811,3 +15811,10 @@ Two targeted searches (Kryptos K4 / Voynich / Indus script, November 2026; Beale
 - **Indus script, prize still unclaimed:** the adda247, journosnews, and profitsolutionmarket carriers restate only the January 5, 2025 announcement (one million dollars, Mahadevan chair, expert-acceptance condition). A clickbait-titled video ("Scientists Finally Decoded the Indus Valley Script") itself says nobody has read the seals; no claimant, no bilingual find, no award.
 
 **Run summary:** rotation #13 — quiet loop, every carrier already filed (K4 still found-not-solved, Voynich singulion wave unchanged, Indus million-dollar prize still unclaimed, Beale static); two small log-only texture notes. No library growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-02 ~15:35 EST, rotation #13):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 266 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-02-1528.md, Rook's voice, one-line quiet-loop brief.
+
+**Run summary (close-out):** rotation #13 — quiet loop, every carrier already filed (K4 still found-not-solved, Voynich singulion wave unchanged, Indus million-dollar prize still unclaimed, Beale static); two small log-only texture notes. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
