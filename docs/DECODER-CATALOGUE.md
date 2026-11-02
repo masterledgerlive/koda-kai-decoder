@@ -10594,3 +10594,122 @@ never run.]*
 *[Grade: VERIFIED — 1939 first-edition challenge cipher, author's forgotten method, removal from later editions, still unsolved; CLAIMED — the 5×5 pair structure, the 14×14 transposition suggestion, Pelling's Kerckhoffs reversal, and the Hendrick preprint's exclusion figures (preprint not read first-party, not peer-reviewed); SPECULATION — the trailing-zero padding reading and the botched-by-author hypothesis, which stays live, not settled.]*
 
 *D'Agapeyeff catalogue entry seeded 2026-11-02 ~04:40 EST by the decoder-create-loop.*
+
+## SquashFS AUF + duplicates lottery: one stale fragment pointer, not a shifted layout
+
+The lottery-diff entry left exactly one named item: map the
+differing inodes to files and compare their fragment indices,
+to decide whether the corrupt inodes point 32 bytes off. This
+entry closes it, against the preserved pair (no rebuild: the
+lottery is a per-build draw, and rebuilding would draw a
+different pair). The answer refutes the lottery-diff entry's
+speculation in the direction that matters: the differing
+inodes do not point wrong at all.
+
+The differing inodes, mapped. The decompressed inode streams
+are the same length (65628 bytes) with exactly 32 bytes
+differing, and every differing byte sits in a start_block
+field (record offset +16, low byte or two). The 28 affected
+inodes are two consecutive runs: f01841.bin through
+f01854.bin (inodes 1842-1855) and f01973.bin through
+f01986.bin (inodes 1974-1987). For every one, the ONLY field
+that changes is start_block, and it changes by exactly -32
+(clean 24410 to corrupt 24378 for f01841, and so on down
+both runs). File size, fragment index, fragment offset, and
+the whole block list are byte-identical. [VERIFIED -- script
+hidden_files/squashfs-auf-frag-diff-map.py, log
+squashfs-auf-frag-diff-map.log]
+
+Fragment indices do not move. Across all 2001 inodes, ZERO
+fragment indices change between the images, and the sets of
+distinct indices are identical (1107 in each, counting the
+no-fragment sentinel). The corrupt inodes are not pointing
+into a shifted fragment layout; the -32 start_block shift is
+exactly the data-region deletion tracked, not corruption.
+All 28 differing inodes extract byte-identically through
+BOTH images' inodes. [VERIFIED -- same script]
+
+The fragment table tells the real story. Of 1106 fragment
+entries, 81 differ. Eighty of them shift by exactly -32 with
+sizes unchanged -- the same deletion tracking as the inodes.
+Exactly ONE does not: index 955, clean start 24378 size 32,
+corrupt start 24396 size 32 -- a shift of +18, in the
+opposite direction, with no size change anywhere in the
+table. [VERIFIED -- same script; delta histogram {-32: 80,
++18: 1}]
+
+The six truly corrupt files are exactly fragment 955's
+sharers. Record-level extraction of all 2000 files through
+the parsed records gives clean 0 mismatches, corrupt 6 --
+and the 6 are precisely the six inodes sharing fragment
+index 955: f01717.bin through f01721.bin plus f01830.bin.
+Their records are byte-identical between the images; every
+one fails at exactly byte 4096, the first byte of the
+fragment tail, with correct total length. The block region
+reads fine; only the shared fragment tail is wrong.
+[VERIFIED -- same script]
+
+The prior entry's 92 late directory bytes are the fragment
+table. The walked root listing itself (36147 bytes) is
+byte-identical between the images. The full dir-region
+metadata stream is 53840 bytes in both -- the prior entry's
+figure, reproduced -- and its 92 differing bytes start at
+offset 51424. That is exactly where the fragment table
+begins inside that stream: the table holds 1106 entries of
+16 bytes (17696 bytes), 53840 - 17696 = 36144, and entry
+955 sits at 36144 + 955 x 16 = 51424. The prior entry's open
+fragment-table parse is therefore closed: the 92 bytes are
+the 81 differing fragment entries' start fields, not a
+second directory difference. [VERIFIED -- same script]
+
+The unsquashfs blast radius, explained. Re-running
+unsquashfs on the preserved corrupt image gives rc=1 with
+"zstd uncompress failed" on f01717.bin, then a FATAL abort:
+161 mismatched (f01717 with 4096 of 4829 bytes written, and
+f01718 through f01877 as 0-byte placeholders) and 122
+missing (f01878 through f01999, never created). That differs by exactly one file
+from the lottery-diff run's 162 mismatched / 1879 extracted
+-- a parallel-queue race at the abort boundary, not a new
+corruption. The two readers agree on the corrupt set (first
+fail f01717 in both) and disagree only on blast radius: the
+record-level reader returns wrong tail bytes for the 6
+sharers without error, while unsquashfs errors on the first
+sharer and abandons the run. [VERIFIED -- unsquashfs rerun
+on the preserved corrupt image, /tmp/auf-corrupt-ext]
+
+What this rules in and out. RULED OUT: the lottery-diff
+speculation that a small run of inodes points 32 bytes off
+and reads wrong bytes -- those inodes point exactly 32
+bytes earlier, track the deletion, and read correctly.
+RULED IN: a single stale fragment pointer as the whole
+corruption -- one entry out of 1106, pointing 18 bytes past
+its clean position into a neighboring compressed chunk,
+poisoning exactly the six files that share that fragment and
+nothing else. The writer's bookkeeping tracked the deletion
+everywhere except this one entry. [VERIFIED -- the counts
+above; the writer mechanism itself is not shown]
+
+What this entry does not do. It does not explain why
+fragment 955 went stale by +18: +18 is neither the deletion
+point (24383) nor the clean block's end (24410), and the
+clean block 24378..24410 straddles the deletion start,
+which may be why this entry -- and only this entry -- went
+stale, but that is SPECULATION, not a shown mechanism. It
+does not reconcile the decompressor difference beyond the
+observation (wrong bytes returned vs hard error). Next:
+identify which neighboring chunk lives at corrupt offset
+24396 (clean 24428) and whether the stale pointer always
+lands on a shared fragment when the lottery is redrawn.
+
+*[Grade: VERIFIED on mksquashfs 4.6.1 -- the 28 mapped
+inodes and their exact -32 start_block shifts, zero fragment
+index changes, the 81 fragment-entry diffs with the sole
++18 outlier at index 955, the 6 record-level mismatches as
+exactly fragment 955's sharers failing at byte 4096, the
+92-byte dir-region diff as fragment-table bytes at
+51424+, and the unsquashfs abort cascade (161 mismatched,
+122 missing, rc=1); SPECULATION -- why index 955 went stale
+and any writer-race mechanism, which is doctrine, never
+run.]*
+
+*SquashFS AUF + duplicates lottery-diff-map interop entry seeded 2026-11-02 ~04:52 EST by the decoder-create-loop.*
