@@ -15490,3 +15490,10 @@ Two targeted searches (SymPy/SciPy releases; symbolic regression and physics sim
 - **Library changes:** none.
 
 **Run summary:** rotation #12 — working loop, two new log-only items (Keplearn, claimed; neutron-transport acceleration formula, corroborated) plus retells. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-11-02 ~08:40 EST, rotation #12):**
+- **Push result:** sync-github.py — exit 0; "done: 1 pushed, 266 unchanged."
+- **Verification (VERIFIED by independent byte-check):** local git-blob sha == remote Contents-API sha for research/RESEARCH-LOG.md (f79876fab4b14c23e5eab7805e41061b6dcddd78, 3,924,114 B). This pass's public entry is live on remote. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed: Shadow unreachable. Next run retries.
+
+**Run summary (close-out):** rotation #12 — working loop, two new log-only items (Keplearn, claimed; neutron-transport acceleration formula, corroborated) plus retells. No library growth. Public entry verified live on remote by sha. Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
