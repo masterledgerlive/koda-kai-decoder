@@ -10715,3 +10715,104 @@ and any writer-race mechanism, which is doctrine, never
 run.]*
 
 *SquashFS AUF + duplicates lottery-diff-map interop entry seeded 2026-11-02 ~04:52 EST by the decoder-create-loop.*
+
+## SquashFS AUF + duplicates lottery: the stale pointer lands exactly on f01842's block, not mid-chunk
+
+The lottery-diff-map entry left exactly one named item:
+identify which neighboring chunk lives at corrupt offset
+24396 (clean 24428). Against the preserved pair (no
+rebuild: the lottery is a per-build draw), the answer is
+exact, and it is a chunk boundary, not a mid-chunk drift.
+
+The chunk at the stale pointer is f01842.bin's block 0.
+In the clean image it sits at 24428..24446 (inode 1843,
+an 18-byte zstd chunk); in the corrupt image it sits at
+24396..24414 -- the same chunk, shifted -32 like the
+eighty tracked fragment entries and the twenty-eight
+tracked inodes, with byte-identical content
+(corrupt 24396..24414 == clean 24428..24446, and the
+full stale 32-byte read corrupt 24396..24428 ==
+clean 24428..24460). [VERIFIED -- script
+hidden_files/squashfs-auf-frag-neighbor.py, log
+squashfs-auf-frag-neighbor.log]
+
+The corrupt layout around the pointer, in order, is:
+fragment 1025 ends at 24378; f01841.bin block 0 runs
+24378..24396; f01842.bin block 0 runs 24396..24414;
+f01843.bin block 0 runs 24414..24432. The stale
+fragment 955 read (24396..24428, size field 32) therefore
+overlaps real chunks for its whole length: the first 18
+bytes are f01842's complete block frame, and the last 14
+bytes are the opening of f01843's block frame. In the
+chunk map, two entries claim the same start -- file
+block f01842 and fragment 955 -- an overlap, never a gap.
+[VERIFIED -- same script]
+
+Why the corruption is silent for a stream reader. The
+stale read's first 18 bytes are a complete, valid zstd
+frame: they decompress to 4096 bytes of 0x5D (93),
+f01842's repeated byte ((1842 x 7) % 251 = 93). A
+stream reader decodes that frame and ignores the
+trailing 14 bytes, returning 4096 bytes of 93 -- and the
+stale 32-byte read decompresses byte-identically to
+f01842's block 0 alone. Every one of the six sharers
+then slices that block at its own fragment offset, so
+every tail reads 93 regardless of offset: f01717
+(foff 0, want 222), f01718 (foff 733, want 229), f01719
+(foff 1503, want 236), f01720 (foff 2310, want 243),
+f01721 (foff 3154, want 250), f01830 (foff 4035,
+want 9) -- all got 93. [VERIFIED -- same script]
+
+The clean fragment, by contrast, is a packed tail block,
+not a full block: it decompresses to 4049 bytes whose
+byte set is exactly the six sharers' bytes
+{9, 222, 229, 236, 243, 250}, and 4049 is exactly the
+sum of the six tail lengths (733 + 770 + 807 + 844 +
+881 + 14). The stale read substitutes a 4096-byte
+single-byte block for a 4049-byte six-byte packed block,
+and the offset slicing hides the substitution -- the
+tails keep their lengths and only their bytes are wrong.
+[VERIFIED -- same script]
+
+What this rules in and out. RULED IN: the stale pointer
+is an exact-boundary landing, and that boundary is what
+makes the corruption silent for a stream reader -- the
+first frame is complete, so no error is raised and no
+length check trips. The unsquashfs hard error on the
+same image is consistent with a reader that demands
+exact frame consumption rather than first-frame
+tolerance, but that strictness difference is not probed
+here and stays SPECULATION. RULED OUT as a description:
+"the pointer drifts into the middle of a neighbor" --
+it lands exactly on a neighbor's first byte, and the
+neighbor it lands on is a file block, not a fragment.
+Numerically, +18 is also the size of f01841's block
+chunk, which occupies 24378..24396 in the corrupt
+image -- the stale pointer sits exactly at its end --
+but why the writer computed +18 is still not shown, and
+stays SPECULATION, as does any writer-race mechanism.
+
+What this entry does not do. It does not test whether
+the lottery, redrawn, produces a stale fragment pointer
+again, or whether a redrawn stale pointer again lands
+exactly on a chunk start. Next: redraw the lottery (new
+build, same tree and flags) and check whether a stale
+fragment pointer recurs, and whether it again lands on
+a chunk boundary.
+
+*[Grade: VERIFIED on mksquashfs 4.6.1 -- the chunk at
+corrupt 24396 / clean 24428 is f01842.bin block 0
+(inode 1843, 18-byte zstd chunk), byte-identical across
+the pair; the corrupt neighbor order f01841 / f01842 /
+f01843 block 0s; the stale 32-byte read as f01842's
+frame plus 14 bytes of f01843's frame, decompressing to
+4096 bytes of 93, byte-identical to f01842's block 0;
+the six sharers' foffs, wanted bytes, and got byte 93;
+the clean fragment's 4049-byte decompression as exactly
+the six tail lengths summed with exactly the six sharer
+bytes; SPECULATION -- why the pointer is +18, any
+writer-race mechanism, and unsquashfs's frame-consumption
+strictness, which is doctrine, never run.]*
+
+*SquashFS AUF + duplicates lottery-neighbor interop entry seeded 2026-11-02 ~05:10 EST by the decoder-create-loop.*
+
