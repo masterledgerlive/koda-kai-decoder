@@ -15793,3 +15793,10 @@ Three targeted searches (SymPy/SciPy releases 2026; symbolic regression / equati
 - **Library changes:** none — NOT MATERIAL per body rule §4.
 
 **Run summary:** rotation #12 — working loop, two new log-only items (MO-Playground, claimed; compression-ratio self-audit, claimed) plus re-covers (MuJoCo unreleased-preview docs texture, Mundo code still unreleased, stale SymPy/SciPy pages, the supercritical-CO2 SR paper, Keplearn, the neutron-transport formula). No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-11-02 ~15:05 EST, rotation #12):**
+- **Push result:** sync-github.py — first attempt interrupted by a service restart; single idempotent retry completed exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 266 unchanged" — this pass's public entry pushed by the retry. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-02-1457.md, Rook's voice, 145 words spoken body.
+
+**Run summary (close-out):** rotation #12 — working loop, two new log-only items (MO-Playground, claimed; compression-ratio self-audit, claimed) plus re-covers. No library growth. Public entry pushed. Shadow mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
