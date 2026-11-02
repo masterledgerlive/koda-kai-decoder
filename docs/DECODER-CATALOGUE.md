@@ -9640,3 +9640,96 @@ SPECULATION -- the Gauntlet mappings are doctrine, never
 run; no real image from any other encoder was parsed.]*
 
 *SquashFS type-9-fragment-tail interop entry seeded 2026-11-01 ~23:25 EST by the decoder-create-loop.*
+
+- **SquashFS type-9 offset-52 word under an xattr (4.0).** The
+  last untested candidate named by the type-9-words entry's
+  does-not-do (the fragment-tail entry closed the other one):
+  a sparse file WITH an xattr. The answer is yes, and it
+  settles the word: offset 52 is the xattr id. The same
+  sparse sources as the type-9-words check, plus a
+  non-sparse xattr file, rebuilt with user.test=hello-xattr
+  on three of the four files (os.setxattr -- no setfattr
+  binary on this VM), run under both flags (mksquashfs
+  4.6.1, 4K blocks, -noappend, -comp zstd). Under AUF:
+  xattrsparse (head + hole + tail, 12288) reads type 9,
+  sparse 4096, word52 0x0; xattrfrag (head + hole + 500-byte
+  tail, 8692) reads type 9, sparse 4096, fragment idx 0,
+  offset 0, word52 0x0; xattrplain (5000 bytes, no hole)
+  reads type 9, sparse 0, fragment idx 0, offset 500,
+  word52 0x0; base (xattrsparse's shape, no xattr) reads
+  type 9, sparse 4096, word52 0xFFFFFFFF. Under default
+  flags the same pattern holds with fragment none
+  everywhere (xattrfrag block list [283, 0, 283],
+  xattrplain [283, 283], word52 0x0 on all three xattr
+  files, 0xFFFFFFFF on base). All 4 files x 2 flag sets
+  resolve byte-identically. Two things follow. First, the
+  word is not "unexplained" any more: it is 0xFFFFFFFF
+  exactly when the file carries no xattr and a small id (0
+  here) when it does, across sparse and non-sparse shapes,
+  fragment-tailed or not, under both flags. All three xattr
+  files carry the identical set (one name, one value) and
+  all three read id 0, which is consistent with the encoder
+  deduplicating identical xattr sets to one id -- but this
+  check does not distinguish "one shared id" from "each
+  file's own id 0", so the dedup reading stays a hypothesis
+  until two different xattr sets are probed. Second, a
+  correction to the earlier framing: xattr presence alone
+  promotes a file to the extended inode. xattrplain has no
+  hole, yet reads type 9 under both flags, with sparse 0 --
+  type 9 is the extended inode, used whenever the file needs
+  the extra fields (sparse count or xattr id), not a
+  "sparse promotion" as the earlier entries called it. The
+  56-byte layout reading stands for both uses. A guard keeps
+  the result from being vacuous: the superblock xattr_start
+  is live in both images (2414 AUF, 2659 default), and
+  unsquashfs extraction of each image round-trips
+  user.test=hello-xattr on all three xattr files -- if
+  mksquashfs had dropped the xattrs, the word52 readings
+  would have proved nothing.
+- **Decoder-design note (offset-52 -> Gauntlet).** A reader
+  may now treat offset 52 as the xattr id: 0xFFFFFFFF means
+  no xattrs, anything else is an index into the xattr
+  table, and a reader that ignores xattrs may ignore the
+  word too -- but it must not mistake a non-FFFF reading
+  for corruption or for a different encoder. The old
+  fingerprint use (non-FFFF = foreign image) is retired by
+  this entry: a foreign-encoder signal now needs a word
+  that is neither FFFFFFFF nor a valid xattr id, which
+  needs the xattr table walk to judge. [SPECULATION -- the
+  Gauntlet mappings are doctrine, never run]
+- **What this entry does not do.** It does not walk the
+  xattr id table (so id 0 is not yet resolved to the
+  user.test set by this reader's own parse -- the
+  unsquashfs round-trip is the guard, not the parse); it
+  does not test two different xattr sets on two files (the
+  dedup question); it does not walk the lookup or id
+  tables; it does not explain the +3 directory file_size
+  gap or the root parent_inode = inodes + 1 reading (both
+  reconfirmed in both images' walks: root file_size 97 vs
+  walked 94, parent 6 = inodes + 1); it does not parse a
+  SquashFS image from any other encoder. Next: the xattr id
+  table walk, or two distinct xattr sets, or the +3/parent
+  explanations, or the export/uid-gid/xattr table walks.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1,
+4K blocks, zstd, -noappend, default and -always-use-
+fragments): 4 files x 2 flag sets resolved byte-
+identically; word52 = 0x0 on all three xattr-bearing files
+in both images, 0xFFFFFFFF on the no-xattr control in both;
+xattrplain (no hole) reads type 9, sparse 0, under both
+flags; inode-table walks exact at 292/300 bytes;
+superblock xattr_start live (2414/2659); unsquashfs
+round-trip returns user.test=hello-xattr on all three xattr
+files in both images -- hidden_files/squashfs-t9xattr-
+mini.py, run 2026-11-01, passing on second run after a type
+expectation fix for xattrplain (the first run failed on the
+old type-2 expectation -- the promotion finding itself);
+OBSERVED -- word52 tracks xattr presence exactly; the
+"xattr id" interpretation is corroborated by the field's
+behavior, not yet proven by a reader-side walk of the xattr
+id table; SPECULATION -- the Gauntlet mappings are
+doctrine, never run; the identical-set dedup reading is a
+hypothesis until two distinct xattr sets are probed; no real
+image from any other encoder was parsed.]*
+
+*SquashFS type-9-xattr interop entry seeded 2026-11-01 ~23:55 EST by the decoder-create-loop.*
