@@ -10937,3 +10937,116 @@ writer mechanism, and the f00395 first-fail connection.]*
 *[Grade: VERIFIED — the DTMF frequency matrix, the 1963 public introduction, and the Goertzel receiver shape; CORROBORATED — the Q.24 tolerance numbers, the 2600 Hz / blue-box history, the CCIS/SS7 fix dates, and the RFC 2833/4733 carriage; SPECULATION — the two Gauntlet design rungs, which are proposals, not results.]*
 
 *DTMF entry seeded 2026-11-02 ~06:20 EST by the decoder-create-loop.*
+
+## SquashFS AUF + duplicates lottery tally: seven stale pointers in one n=4000 build, two off-boundary
+
+The lottery-redraw entry left exactly one named item: redraw
+again (and again) and tally, per build, which fragment
+indices go stale -- does 955 recur every time, does 220,
+does the count per build vary -- and whether any redraw
+lands a stale pointer mid-chunk. This entry advances that
+tally by one build at a new scale, and answers the
+mid-chunk question in the negative -- with a new method
+that needs no clean pair. It also closes the lookup-multi
+entry's OPEN item: the AUF file-resolution failures were
+writer-side corruption, not write-flap sources, and the
+reader is exonerated.
+
+Method. Same size/content rule as every lottery entry
+(sizes 100 + (i*37 % 4900), byte (i*7 % 251) repeated),
+mksquashfs 4.6.1, 4K blocks, -comp zstd, -noappend,
+-always-use-fragments, but n=4000 files instead of 2000.
+Sources read back 4000/4000 byte-identical BEFORE the
+build, which removes the lookup-multi run's write-flap
+candidate by construction. The image is preserved as
+hidden_files/auf-diag2/img.sqsh and audited standalone by
+hidden_files/squashfs-auf-frag-audit.py: for each fragment
+index, concatenate its users' tails in frag_off order and
+compare against the stored block decompressed with the
+table's own (start, size). A mismatch is content evidence,
+not a shared-start scan -- the redraw entry's warning
+applies: shared starts alone prove nothing, and this audit
+never uses them as evidence. [VERIFIED -- audit script,
+reproduced exactly on the preserved image]
+
+The tally for this build: 7 stale pointers out of 2213
+fragment entries, 41 files affected, indices {1176, 1250,
+1397, 1471, 1545, 1765, 1913}. Neither 955 nor 220 is among
+them. The count per build therefore varies (1, 2, and now
+7 across the lottery builds and this one), and the stale
+set is not fixed to 955/220. Every sharer of every bad
+entry has size > 4096, so each one's fragment tail starts
+at file offset 4096 -- the same failure point as every
+lottery entry. [VERIFIED -- audit output: BAD 7, users
+5/5/6/7/6/7/5 = 41]
+
+Shape A -- stale duplicate pointer, truncated size (5 of
+7). Each bad entry shares its start offset with a good
+twin entry, but carries a smaller size: (1176, 27) vs twin
+(1178, 48) at 28157; (1250, 27) vs (1252, 45) at 29829;
+(1471, 35) vs (1473, 48) at 34220; (1545, 29) vs (1547, 48)
+at 35688; (1913, 27) vs (1915, 48) at 43076. The twin's
+block decompresses to exactly the twin's users' tails
+concatenated -- shown byte-identically for 1252 (45 bytes
+-> 3547 bytes = f02252..f02263 tails) -- while the bad
+entry's truncated slice decompresses to 0 bytes under the
+python reader and fails under unsquashfs with error 72.
+The bad entry is always the lower index of the pair.
+[VERIFIED -- audit output; twin check on 1252]
+
+Shape B -- pointer into non-frame bytes, off-boundary (2
+of 7). Fragment 1397 claims (32760, 33) and 1765 claims
+(40100, 35), but the bytes there are not a zstd frame:
+"Unknown frame descriptor" under both readers. A valid
+frame begins 7 bytes later at 32767 -- exactly fragment
+1396's start -- and 9 bytes later at 40109 -- exactly
+fragment 1764's start. Each stale pointer therefore
+overlaps the preceding stored block's tail by 7 / 9 bytes
+instead of landing on a chunk start. The lottery series'
+"both land exactly on a chunk start, never mid-chunk"
+finding, shown on two n=2000 corrupt images, does NOT
+generalize: at n=4000, stale pointers land off-boundary
+too. [VERIFIED -- byte dumps at 32760/40100, fragment
+ranges, twin starts]
+
+Reference-tool agreement. Single-file unsquashfs
+extraction of f02245.bin (fragment 1250, 4765 bytes)
+writes exactly 4096 bytes and fails -- the data block
+only, fragment tail missing -- matching the reader's
+(4096, 4765) short read. f02245 is the lookup-multi run's
+original failing file (same 4765 bytes), and it is a
+victim again in this build, a reader-mismatch victim in a
+tmp build made during this investigation, and the
+extraction-abort file in a -processors 1 build -- file-
+index recurrence across three builds, fragment index not
+shown equal, mechanism open.
+[VERIFIED -- unsquashfs single-file extracts; the two
+further builds' first-fail files]
+
+What this rules in and out. RULED IN: a corrupt AUF
+build can carry seven stale pointers at once; the stale
+set varies by build and is not confined to 955/220; stale
+pointers take at least two shapes (duplicate-start with
+truncated size, and off-boundary into a neighbor's tail);
+a single-image content audit finds them without a clean
+twin. RULED OUT: the lookup-multi run's write-flap
+candidate for the AUF failures, and any "always lands on
+a chunk start" rule. Still SPECULATION: the writer
+mechanism, why these indices, why f02245 recurs as a
+victim, and whether 955/220 recur at n=4000 across
+redraws. Next: redraw at n=4000 and extend the tally --
+same audit, more builds -- and check whether the bad
+entry is always the lower index of a duplicate pair.
+
+*[Grade: VERIFIED on mksquashfs 4.6.1 as installed here --
+the 4000/4000 source readback, the audit's 7 bad entries
+of 2213 with 41 sharers, the five duplicate-start pairs
+with truncated sizes and good twins (1252 byte-identical),
+the two off-boundary pointers (7 bytes early at 32760,
+9 bytes early at 40100), the unsquashfs 4096-of-4765
+single-file extraction of f02245, and f02245 as a victim
+in two further builds (reader mismatch in one,
+extraction abort in the other); SPECULATION -- any writer-race
+mechanism, why these indices, and why f02245 recurs.]*
+
+*SquashFS AUF lottery-tally entry seeded 2026-11-02 ~06:50 EST by the decoder-create-loop.*
