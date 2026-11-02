@@ -15846,3 +15846,9 @@ Three targeted searches (AV2 adoption November 2026; Google voxel-class codecs; 
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-02-1632.md, Rook's voice, 150 words spoken body.
 
 **Run summary (close-out):** rotation #2 — near-quiet loop, two small log-only texture notes (AV2 silicon timeline estimate, claimed; AV2 VMAF gain figure, claimed); whole window otherwise re-covered (AV2 October 22 press cycle echoed again, FFmpeg 9.1 still in release process, 9.0.2 still latest stable, CVE-2026-120247 unchanged, no Google voxel-class codec). No library growth. Public entry pushed (1 pushed). No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+
+## 2026-11-02 ~16:59 EST — decoder-research-loop — Protocol decoders (rotation #3):
+
+Two targeted searches (Wireshark new dissector news; new network protocol / IoT mesh decoding) plus a check against the standing record. **Near-quiet loop — one small new log-only item (a November 2026 draft extending the STAMP active-measurement protocol with residual bit-error-rate reporting, with dissector support claimed in a side repository, not upstream Wireshark); no new upstream dissector, no shipped protocol, no status change on any watch item. No library growth.** No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Run summary:** rotation #3 — near-quiet loop, one small log-only item (STAMP residual-bit-error-rate draft, claimed); whole window otherwise re-covered (Wireshark 5.0.0 release candidate retold, final still dateless with SharkFest EU under way, recent maintenance releases add no new protocols, Stratoshark still no 1.0 final, Zigbee 4.0 still unshipped, Thread/Matter/DECT NR+ restated). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
