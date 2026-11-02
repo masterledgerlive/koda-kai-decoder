@@ -9813,3 +9813,98 @@ multi-block xattr table, and no other-encoder image was
 parsed.]*
 
 *SquashFS xattr-id-table interop entry seeded 2026-11-02 ~00:30 EST by the decoder-create-loop.*
+
+## SquashFS uid/gid id table walk: inode words are indices, not ids
+
+- **The question the xattr-id entry left open.** The xattr walk
+  proved word52 resolves through an id table to a set. The
+  sibling table was still unproven by the reader's own parse:
+  are the uid/guid words in a SquashFS inode the real owner
+  ids, or indices into the superblock's id table? A reader
+  that treats them as raw ids gets every non-root owner wrong
+  whenever the table order is not the identity -- and this run
+  shows the order is not the identity.
+- **The images.** mksquashfs 4.6.1, 4K blocks, -noappend,
+  -comp zstd, default flags and -always-use-fragments, one
+  source tree each: root.bin 5000 bytes owner 0:0, user.bin
+  5000 bytes owner 1000:1000, nobody.bin 5000 bytes owner
+  65534:65534, mixed.bin 5000 bytes owner 1000:0. Content
+  bytes differ per file so no two files can merge blocks.
+  The mixed case is the point: uid and gid must resolve
+  independently, through the same table, by different indices.
+- **The table layout, corrected from a first wrong guess.**
+  The reader's first attempt treated id_table_start as a raw
+  metadata stream and died on a zstd frame error -- the
+  bytes at that offset are not the table but an INDEX of u64
+  block offsets, one per ceil(no_ids * 4 / 8192) metadata
+  blocks, exactly the fragment table's index-prefixed shape.
+  Default image: id_table_start 495, index entry 481, one
+  metadata block, header 0x800c (uncompressed, 12 bytes),
+  payload three u32 ids. AUF image: id_table_start 479,
+  index entry 465, same three ids. [VERIFIED -- the reader's
+  own parse on both images, hidden_files/squashfs-uidgid-mini.py]
+- **The ids are in encounter order, not sorted.** Both images
+  read [1000, 0, 65534]: mixed.bin's uid first, then its gid,
+  then nobody's id -- the order mksquashfs met the ids while
+  walking the tree, not ascending order. A reader must index
+  into the array; bisecting it, or assuming id[k] == k, or
+  assuming the first entry is root, all misresolve. [VERIFIED
+  -- both images, same order under both flag sets]
+- **Every inode resolves through the table.** Default image
+  (inodes 5, bytes_used 503): mixed.bin uid_idx 0 gid_idx 1
+  -> 1000:0; nobody.bin 2,2 -> 65534:65534; root.bin 1,1 ->
+  0:0; user.bin 0,0 -> 1000:1000; the root directory inode
+  itself (ino 5) 1,1 -> 0:0. The AUF image resolves
+  identically. Every file's 5000 bytes resolve byte-identically
+  through the reader, and unsquashfs -ll independently reports
+  the same four owners on both images, so the readings are
+  not vacuous: had mksquashfs stored raw ids in the inode
+  words, the index resolution would mismatch on at least the
+  1000 and 65534 files. [VERIFIED -- reader + unsquashfs
+  agreement on both flag sets, run 2026-11-02]
+- **Flag divergence that does not touch the table.** Default
+  flags store the four 904-byte tails as full data blocks
+  (fragments 0, frag word 0xFFFFFFFF on every file); AUF
+  packs them into one fragment block (fragments 1). The id
+  table, the indices, and the resolutions are identical
+  either way: tail storage is a flag decision, ownership
+  resolution is not. [VERIFIED -- both images]
+- **Reconfirmed, still unexplained.** The root directory
+  listing reads file_size 82 against a walked 79 (+3 gap)
+  and parent_inode 6 = inodes + 1, in both images -- the
+  same two open readings the xattr-id entry carried. They
+  are not this entry's subject and are not explained here.
+  [OBSERVED -- both images]
+- **Decoder-design note (uid/gid ids -> Gauntlet).** A reader
+  that has walked the id table can now judge a foreign or
+  corrupt ownership claim precisely: an inode uid/gid index
+  at or above no_ids is corrupt, never foreign (the table
+  bounds the index space); an index inside the table that
+  resolves to an id the interrogation does not expect is
+  foreign data, not a parse error; and a table whose id set
+  does not cover the indices the inodes actually carry is
+  corrupt, not sparse. [SPECULATION -- the Gauntlet mappings
+  are doctrine, never run]
+- **What this entry does not do.** It does not walk the
+  export table or the lookup table; it does not explain the
+  +3 directory file_size gap or the root parent_inode =
+  inodes + 1 reading; it does not test an id table spanning
+  several metadata blocks (that needs >2048 distinct ids),
+  an image from any other encoder, or a uid/gid table under
+  -noappend appends. Next: the export/lookup table walks,
+  or the +3/parent explanations, or a multi-block id table.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1,
+4K blocks, zstd, -noappend, default and -always-use-
+fragments): 4 files x 2 flag sets resolved byte-
+identically with owners matching the pre-build chowns;
+unsquashfs -ll agrees on all 4 files in both images;
+id index layout (u64 offsets, one 12-byte uncompressed
+metadata block) read from the bytes, not assumed -- the
+first raw-stream attempt failed loudly and exposed it;
+OBSERVED -- the +3 directory gap and parent 6 = inodes + 1
+in both images; SPECULATION -- the Gauntlet mappings are
+doctrine, never run; no multi-block id table, no other-
+encoder image, and no appended image was parsed.]*
+
+*SquashFS uid/gid-id-table interop entry seeded 2026-11-02 ~02:00 EST by the decoder-create-loop.*
