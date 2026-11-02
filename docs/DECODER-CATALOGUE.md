@@ -10819,3 +10819,108 @@ strictness, which is doctrine, never run.]*
 
 *SquashFS AUF + duplicates lottery-neighbor interop entry seeded 2026-11-02 ~05:10 EST by the decoder-create-loop.*
 
+## SquashFS AUF + duplicates lottery redraw: fragment 955 recurs, and a second stale pointer appears at fragment 220
+
+The lottery-neighbor entry left exactly one open question: redraw the
+lottery (new build, same tree and flags) and check whether a stale
+fragment pointer recurs, and whether it again lands on a chunk
+boundary. This entry answers it, and the answer is stronger than the
+question: the stale pointer recurs at the SAME index, and a second
+stale pointer appears in the same image.
+
+Method. Same tree and flags as every lottery entry: n=2000, sizes
+100 + (i*37 % 4900), byte (i*7 % 251) repeated, mksquashfs 4.6.1,
+4K blocks, -comp zstd, -noappend, -always-use-fragments,
+-processors 1. (The VM replacement had wiped squashfs-tools and
+zstandard; both were restored first -- squashfs-tools 4.6.1 via its
+Ubuntu noble .deb, zstandard via pip -- so the builder version
+matches the earlier entries exactly.) Builds looped until the first
+CORRUPT build; CORRUPT = unsquashfs nonzero, fewer than 2000 files,
+or any byte mismatch. The corrupt image is preserved as
+squashfs-auf-frag-redraw-corrupt.sqsh and analysed standalone with
+the diff-map parser: no clean twin is used, because clean builds
+themselves differ (determinism entry), so only this image's own
+chunk map and record-level extraction can judge it.
+
+The redraw. Attempt 1: CLEAN, sha da372b8dc6fcba6c, size 53248.
+Attempt 2: CORRUPT, sha 7bec568e503e131879b9119950b0f66886014e66821a17ac4b9f6bf7ca8be8e3,
+size 53248, bytes_used 51725. Two builds, two distinct hashes: the
+nondeterminism finding holds on redraw. Unsquashfs on attempt 2
+exits rc=1 with 1605 mismatches -- an abort cascade, as in the
+original pair (162 reported vs 6 real). Record-level extraction
+through the parsed inode/fragment records gives the true count:
+17 files mismatch, and they fall into exactly two fragment groups,
+each failing at byte 4096, the fragment-tail start, with block
+regions intact.
+
+Fragment 955 recurs exactly. Same index, same six sharers, same
+fragment offsets as the original corrupt image: f01717 (foff 0),
+f01718 (733), f01719 (1503), f01720 (2310), f01721 (3154), f01830
+(4035). This build's entry is (24352, 32): the pointer lands
+exactly on file-block chunk f01842.bin block 0 (24352..24370,
+inode 1843, 18-byte zstd chunk), and the stored 32 bytes
+decompress through a stream reader to 4096 bytes of 93,
+byte-identical to f01842's block 0. All six tails read 93 against
+wanted bytes 222, 229, 236, 243, 250, 9 respectively. The absolute
+pointer differs from the original corrupt image's 24396 because
+this build's data-region layout differs; what recurs is the index,
+the sharer set, the size field (32), the landing block, and the
+got byte. [VERIFIED -- this image's chunk map and extraction]
+
+Fragment 220 goes stale too, in the same image. Its sharer set is
+identical to the old clean pair's fragment 220 (verified against
+the preserved clean image, where it extracts correctly): f00395,
+f00396, f00397, f00506, f00507, f00508, f00509, f00510, f00511,
+f00512, f00513
+-- eleven files, foffs 0, 819, 1675, 2568, 2594, 2657, 2757, 2894,
+3068, 3279, 3527. This build's entry is (7020, 44); the size field
+is preserved from the old clean entry (7002, 44). The pointer
+lands exactly on file-block chunk f00517.bin block 0 (7020..7038,
+18-byte zstd chunk). The stored 44 bytes are f00517's frame (18)
+plus f00518's frame (18) plus 8 bytes of f00519's frame, so a
+stream reader returns two complete frames: 8192 bytes, first 4096
+of 105 (f00517's byte, (517 x 7) % 251 = 105), next 4096 of 112
+(f00518's byte). Every sharer slices its tail from the first
+frame, so all eleven tails read 105 against wanted bytes 4, 11,
+18, 28, 35, 42, 49, 56, 63, 70, 77 respectively. [VERIFIED -- this
+image's chunk map and extraction; old-clean sharer set and size
+verified against the preserved pair]
+
+What this rules in and out. RULED IN: stale fragment pointers
+recur across redraws; a corrupt build can carry TWO stale
+pointers at once; both land exactly on a chunk start, never
+mid-chunk (now shown in two independent corrupt images, at three
+indices: 955 twice, 220 once); the size field is preserved while
+the pointer moves. RULED OUT as descriptions: "the stale pointer
+is a one-off at index 955" and "one stale pointer per corrupt
+build." The shared-start chunk scan is NOT by itself evidence of
+staleness and is not used as such here: identical-content file
+blocks legitimately share one stored chunk under deduplication
+(dozens of shared starts in this image), and zero-length entries
+share starts too. The discriminating evidence is always the
+mismatch: sharers failing at the tail start with a foreign byte.
+Still SPECULATION: why these indices (955 twice, 220 once), why
+the old pair's displacement was +18, and any writer-race
+mechanism. A note, also SPECULATION: the 04:20 sweep's varying
+first-fail file f00395 is consistent with a fragment-220 stale
+pointer in that unpreserved build, but that build was never
+parsed, so the connection is not shown.
+
+What this entry does not do. It does not tally stale indices
+across builds: one redraw shows 955 recurring and 220 joining,
+but not their frequencies. Next: redraw again (and again) and
+tally, per build, which fragment indices go stale -- does 955
+recur every time, does 220, does the count per build vary -- and
+whether any redraw lands a stale pointer mid-chunk.
+
+*[Grade: VERIFIED on mksquashfs 4.6.1 -- the redraw attempts
+(1 clean, 2 corrupt, distinct shas); the redraw corrupt image's
+fragment 955 entry (24352, 32) landing on f01842 block 0 with
+six sharers failing at 4096 reading 93; its fragment 220 entry
+(7020, 44) landing on f00517 block 0 with eleven sharers failing
+at 4096 reading 105; the old-clean fragment 220 entry (7002,
+44) with the identical sharer set extracting correctly;
+SPECULATION -- why indices 955/220, the +18 displacement, any
+writer mechanism, and the f00395 first-fail connection.]*
+
+*SquashFS AUF + duplicates lottery-redraw entry seeded 2026-11-02 ~05:58 EST by the decoder-create-loop.*
