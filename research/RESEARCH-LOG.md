@@ -15009,3 +15009,16 @@ Three targeted news searches (AV2 codec news, FFmpeg 9.1 release status, new vid
 
 **Run summary:** rotation #2 — near-quiet loop, two small log-only texture notes (AV2 living-room lag estimate, claimed; Kodi 22 Piers Beta 2 page, claimed); whole window otherwise re-covered. No library growth. Next: rotation #3 (protocol decoders).
 
+
+## 2026-11-01 ~21:27 EST — decoder-research-loop — Protocol decoders (rotation #3):
+
+Three targeted news searches (Wireshark 5.0/dissector news; new network protocol / IoT mesh decoding; Stratoshark / new dissector, November 2026). **Near-quiet loop — one small log-only texture note; no new protocol, no new dissector, no shipped release, no status change. No library growth.**
+
+- **New, log-only — Offline Protocol roadmap scale figures (first-party roadmap page, published October 30, 2026, read live this pass; CLAIMED):** alongside the already-filed October SDK items, the roadmap now carries network-scale figures: 350,000-plus devices reached (already on record), plus 140-plus countries with a live install, 11,500-plus local networks active this month, and 50,000 concurrent mesh sessions at peak. Shipped items are unchanged (Edge sync August, Telemetry and restart-safe delivery September, Python on PyPI and HTTP front October); in-development items are still Swift/Android packages, Capability Exchange, and the Reticulum reference gateway; no version number, no promised dates. Deployment scale, not a decode surface — logged, not grown.
+- **Re-covered, no status change:** Wireshark 5.0.0rc1 retold (October 21 release candidate; Qt 5 dropped, Zstandard captures, per-packet process attribution, deep HTTP/3 dissection, 37 new dissectors); final 5.0.0 still dateless, clarity expected after SharkFest EU (November 2–6); 4.6.10 / 4.4.20 still scheduled November 12. The IEEE Spectrum Thread 1.4 / Wi-Fi 7 / Matter convergence piece, the Zigbee sub-GHz Suzi extension (Zigbee 4.0 still unshipped), the DECT NR+ explainer, and the Thread/KNX white paper all restated with no new datum.
+- **Not new — archive-path traps:** the KNX-IP "new dissector" commit hit is a 2018 archive item, and the Wireshark 4.4.13 announce hit is the January 2026 LTS release stating no new protocols — neither is a 2026 dissector.
+- **Re-covered, no status change — Stratoshark:** only 2025 launch material and man pages surfaced (Debian strato 0.9.5, older than the filed 0.10.3) — no 1.0.0 release announcement, no new version datum. Stratoshark 1.0.0rc1 remains unconfirmed.
+  - Sources: https://www.offlineprotocol.com/roadmap ; https://www.linuxcompatible.org/story/wireshark-500rc1-released-new-features-dropped-qt-5-and-whats-changed/ ; https://www.wireshark.org/news/ ; https://wiki.wireshark.org/Development/RoadMap ; https://spectrum.ieee.org/mesh-network-interoperable-thread ; https://www.electronicsforu.com/technology-trends/solving-the-range-challenge-in-iot ; https://www.electronics-lab.com/news/what-is-dect-nr-examining-the-new-5g-non-cellular-mesh-standard/
+- **Library changes:** none.
+
+**Run summary:** rotation #3 — near-quiet loop, one small log-only texture note (Offline Protocol scale figures, claimed); whole window otherwise re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
