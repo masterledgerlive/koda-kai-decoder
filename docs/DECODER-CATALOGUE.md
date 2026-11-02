@@ -11050,3 +11050,68 @@ extraction abort in the other); SPECULATION -- any writer-race
 mechanism, why these indices, and why f02245 recurs.]*
 
 *SquashFS AUF lottery-tally entry seeded 2026-11-02 ~06:50 EST by the decoder-create-loop.*
+
+## SquashFS AUF + duplicates lottery, second tally at n=4000 — fragment 220 recurs, and the bad entry is no duplicate pair at all
+
+*SquashFS AUF lottery-tally2 entry seeded 2026-11-02 by the decoder-create-loop.*
+
+Named Next item from the auf-tally entry: redraw at n=4000 and extend
+the tally; check whether the bad entry is always the lower index of a
+duplicate pair. Answer: no — in this build there is no duplicate pair
+at all.
+
+Method (VERIFIED — script, log, and preserved image below): a fresh
+build, same tree and flags as the first tally (n=4000, sizes
+100 + (i*37 % 4900), byte (i*7 % 251) repeated, mksquashfs 4.6.1, 4K
+blocks, -comp zstd, -noappend, -always-use-fragments, -processors 1).
+Attempt 1 was already corrupt (sha 39a1d60201538a59, size 102400,
+bytes_used 99815) — no clean attempts preceded it in this run.
+
+Findings (VERIFIED — single-image audit,
+hidden_files/squashfs-auf-frag-audit.py, reproduced on the preserved
+image):
+
+- Exactly 1 BAD fragment of 2213, affecting 11 files. Fragment-table
+  duplicate starts: 0. The bad entry therefore cannot be the lower
+  member of a duplicate pair, or any member of one, in this build.
+  Duplicate-pair membership is not a necessary condition for a stale
+  fragment pointer; the first tally's shape-A duplicate pattern is one
+  shape among several, not the mechanism.
+- The BAD entry is fragment 220 again: (start 7020, stored size 44),
+  the same index, start, and size as the redraw build's fragment 220
+  and the original pair's. Third build carrying it, same 11-file
+  sharer span (f00395..f00513). Recurrence of one index across three
+  independent builds is now the tally's strongest regularity.
+- The pointer lands exactly on a data-block chunk boundary, as in the
+  redraw: f00517.bin's block 0 starts at 7020 in this image's own
+  inode table (its start field; f02776 and f03027 share that block
+  start legitimately by dedup). The stored 44 bytes stream-decompress
+  to 4096 bytes of 105 (f00517's byte, (517*7)%251) followed by 4096
+  bytes of 112 (f00518's byte, block 0 at 7038) — so every sharer's
+  tail reads the wrong block, exactly as in the redraw.
+- Record-level truth vs abort cascade: unsquashfs reports 3605
+  mismatches over 871 extracted files (it abandons the run at the
+  first fatal file, f00395, and the rest are placeholders). The audit's
+  1 fragment / 11 files is the true count for this image. Do not quote
+  unsquashfs counts as corruption counts.
+
+Grades: third recurrence of fragment 220 with identical (7020, 44) —
+VERIFIED. Chunk-boundary landing on f00517 block 0 in this image —
+VERIFIED (inode start fields + frame bytes). Why 220 recurs, and why
+this build went corrupt on attempt 1 while the n=2000 redraw took
+attempt 2 — SPECULATION; no mechanism is claimed. This entry makes no
+verdict about any specimen and no claim about mksquashfs beyond these
+builds and flags.
+
+Artifacts: script hidden_files/squashfs-auf-frag-tally2.py, log
+hidden_files/squashfs-auf-frag-tally2.log, probe
+hidden_files/squashfs-auf-frag-tally2-probe.py, preserved corrupt image
+hidden_files/squashfs-auf-frag-tally2-corrupt.sqsh.
+
+Next: redraw again at n=4000 and tally whether 220 recurs a fourth
+time; or test whether 220's sharer set is exactly the
+dedup-equivalence class that makes it vulnerable.
+
+*Status: catalogue entry only. No gauntlet run, no verdict. First run of
+any derived test requires David's order and a disposable lab host —
+never the mother genesis block. Never Shadow's live environment.*
