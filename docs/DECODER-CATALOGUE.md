@@ -798,6 +798,51 @@ CLAIMED / SPECULATION.*
 
 *Baconian entry seeded 2026-11-01 ~03:18 EST by the decoder-create-loop.*
 
+- **The Jefferson wheel cipher (invented 1790s; U.S. Army M-94,
+  1921–1942).** Thomas Jefferson devised it while Secretary of State: a
+  spindle holding 36 wooden wheels, each rim carrying the 26-letter
+  alphabet in a different scrambled order. The key is the order of the
+  wheels on the spindle. To encipher, the sender rotates the wheels until
+  the plaintext reads along one row, then reads off any other row as
+  ciphertext; the receiver, with the wheels in the same order, rotates to
+  the ciphertext row and scans the rows until one reads as language. The
+  device is polyalphabetic in effect — each position uses a different
+  alphabet — but the key space is only the wheel order, and the
+  readable-row scan is itself the attack: anyone holding the wheel order
+  can recover a message by scanning rows, no key search needed.
+  Jefferson's design was never adopted in his lifetime; Étienne Bazeries
+  reinvented it independently in 1891, and the U.S. Army adopted a
+  25-disk version as the M-94 in 1921 (the Navy's CSP-642 was its
+  counterpart), using it until machine ciphers displaced it in the early
+  1940s. [CORROBORATED — standard history via Jefferson's papers and
+  National Cryptologic Museum / NSA accounts of the M-94; no primary
+  source checked this pass]
+- **Decoder-design note (Jefferson wheel → Gauntlet).** Three rungs,
+  doctrine only, never run. (1) **The arrangement is the key, not the
+  alphabets.** The scrambled alphabets on the rims were the mechanism,
+  not the secret; security lived entirely in wheel order. The Gauntlet
+  grades specimens the same way: a specimen whose "secret" is its wiring
+  diagram, not its keying, has already published half its key.
+  (2) **Recognizable output is a decryption oracle.** The wheel's
+  readable-row scan is the oldest form of "decrypt by sense": no key is
+  needed when the plaintext announces itself. Any Gauntlet specimen whose
+  output is verifiable language, structured data, or a valid checksum
+  hands the interrogator the same oracle — scan every candidate row, not
+  just the intended one. (3) **One device, one order, many messages is
+  key reuse.** The M-94's long service with a standing wheel order meant
+  every message shared one keying; the Gauntlet treats any specimen
+  reusing one configuration across sessions as a single key under reuse,
+  and prices its compromise accordingly. [SPECULATION — the Gauntlet
+  mappings are this note's doctrine, never run]
+
+*[Grade: CORROBORATED — Jefferson's 1790s invention, 36 wheels,
+wheel-order keying, readable-row method, Bazeries 1891 reinvention, and
+M-94 adoption 1921 with service into the early 1940s. SPECULATION — the
+Gauntlet mappings are doctrine, never run.]*
+
+*Jefferson wheel entry seeded 2026-11-01 ~19:47 EST by the
+decoder-create-loop.*
+
 ## Crypto decoders
 - RSA / discrete-log systems: threatened by **Shor's algorithm** on a large
   fault-tolerant quantum computer. [CORROBORATED]
