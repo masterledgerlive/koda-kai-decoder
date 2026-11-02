@@ -10008,3 +10008,127 @@ lookup table, no other-encoder image, and no appended image
 was parsed.]*
 
 *SquashFS lookup-table interop entry seeded 2026-11-02 ~02:15 EST by the decoder-create-loop.*
+
+## SquashFS export table walk: -exports adds exactly the lookup table, nothing else
+
+- **The question the lookup entry left open.** mksquashfs
+  documents -exports ("make filesystem exportable via NFS",
+  the default) as if it produced an export table, and the
+  lookup entry named the export table as the last table walk
+  still undone. But the superblock names no
+  export_table_start field -- only lookup_table_start. So
+  where is the export table? A reader hunting for a second
+  table would search the image forever; this entry runs the
+  paired experiment that settles it.
+- **The images.** mksquashfs 4.6.1, 4K blocks, -noappend,
+  -comp zstd, one source tree each: a.bin 5000 bytes and
+  b.bin 3000 bytes in the root, sub/c.bin 1234 bytes in a
+  nested subdirectory. Four images: default flags and
+  -always-use-fragments, each built once with exports and
+  once with -no-exports. Content bytes differ per file so no
+  two files can merge blocks.
+- **Correction to the lookup entry's geometry.** The lookup
+  entry reported the lookup table as a "22-byte span" and
+  "the last thing in the image." Both halves were the same
+  miscount: it measured from lookup_table_start to
+  bytes_used, which silently includes the id table behind
+  it. The real geometry, read off these four images: a
+  superblock *_start field points at a table's INDEX (one
+  u64 block offset per metadata block), and the table's
+  metadata blocks sit immediately BEFORE that index, so a
+  table's region is [block_start, index + 8) and the tables
+  tile contiguously -- fragment region ends where the next
+  table's block begins, and the last table ends exactly at
+  bytes_used. Default image: fragment block 315..349, index
+  349..357; lookup block 357..392, index 392..400 (region
+  43 bytes, not 22); id block 400..406, index 406..414 (=
+  bytes_used). The reader's read_table works either way
+  because it follows the index pointer, which is why the
+  miscount survived the lookup entry's own parse.
+  [VERIFIED -- all four images]
+- **There is no second table.** In the exportable default
+  image the bytes tile exactly: fragment region, lookup
+  region, id region, bytes_used -- no gap anywhere for an
+  export table to hide in, and no region left unaccounted.
+  In the -no-exports twin, lookup_table_start is all-ones
+  and the id block begins exactly at the fragment region's
+  end (357): nothing sits between them. The export table
+  and the lookup table are the same structure, not two
+  tables. [VERIFIED -- both flag sets]
+- **-no-exports deletes exactly that table, and only that
+  table.** Within each flag set the two images agree on
+  inode_table_start, directory_table_start,
+  fragment_table_start and the id entries, and their
+  superblock flags differ in exactly one bit, 0x80: set
+  iff exportable (0xc0 vs 0x40 default, 0xe0 vs 0x60 AUF).
+  bytes_used drops by exactly the lookup region size in
+  both pairs: 414 -> 371 default, 412 -> 369 AUF, a 43-byte
+  difference both times. The 0x80 bit is reported here
+  only as the bit that tracks exportability on these
+  images; no wider flag-naming claim is made.
+  [VERIFIED -- both pairs]
+- **The refs are the lookup entry's refs.** Default
+  exportable image: [0x0, 0x28, 0x68, 0x48, 0x88]; AUF:
+  [0x0, 0x24, 0x64, 0x44, 0x84] -- identical to the lookup
+  entry's readings on the same trees, an independent
+  re-parse confirming them. Every ref reads back to its
+  own inode number, and the last ref equals the
+  superblock's root_inode in both exportable images.
+  [VERIFIED -- both exportable images]
+- **Every file resolves with or without the table, and
+  independently confirmed.** All three files (5000, 3000,
+  1234 bytes) resolve byte-identically through the reader
+  in ALL FOUR images, and unsquashfs -ll lists the same
+  three files in the exportable and the -no-exports image
+  alike, so the readings are not vacuous -- and so the
+  lookup/export table is an index only: no walk in this
+  reader ever needs it, and a missing table loses nothing
+  but the shortcut. [VERIFIED -- reader + unsquashfs
+  agreement on all four images, run 2026-11-02]
+- **Reconfirmed, still unexplained.** Both directories read
+  file_size 3 past the walked listing (root 52 vs 49, sub
+  28 vs 25), the root directory's parent_inode is 6 =
+  inodes + 1, and the subdirectory's parent is 5, the
+  root's own inode number -- the same readings as every
+  prior entry, on all four images this time. [OBSERVED --
+  all four images, both directories]
+- **Decoder-design note (export table -> Gauntlet).** The
+  exportability bit and the table are one claim made twice:
+  a specimen that claims NFS-exportable (bit 0x80 set)
+  while lookup_table_start is all-ones is lying about its
+  own exportability, and a specimen with a lookup table
+  present but the bit clear is inconsistent in the other
+  direction. Either mismatch is a tamper-or-corruption
+  signal to be raised before any file content is judged --
+  the specimen's own header contradicting its own table
+  needs no outside reference to catch. [SPECULATION -- the
+  Gauntlet mappings are doctrine, never run]
+- **What this entry does not do.** It proves the on-disk
+  layout only: no kernel NFS export path was run, so the
+  claim that the kernel's NFS code reads this same table
+  rests on mksquashfs's -exports help text plus the
+  layout, not on a kernel run [CLAIMED, not VERIFIED]; it
+  does not explain the +3 directory file_size gap or the
+  root parent_inode = inodes + 1 sentinel reading; it does
+  not test a lookup/export table spanning several metadata
+  blocks (that needs >1024 inodes), an image from any
+  other encoder, or a table under -noappend appends. Next:
+  the +3/parent explanations, or a multi-block
+  lookup/export table.
+
+*[Grade: VERIFIED on four real images (mksquashfs 4.6.1, 4K
+blocks, zstd, -noappend, default and -always-use-fragments,
+each with and without -exports): no second export table in
+any image; -no-exports removes exactly the 43-byte lookup
+region; flags differ in exactly bit 0x80; every ref reads
+back to its own inode number; all 3 files resolve
+byte-identically in all 4 images; unsquashfs -ll agrees on
+all 4; OBSERVED -- the +3 directory gap and parent 6 =
+inodes + 1 on the root against parent 5 = root ino on the
+subdirectory, on all four images; CLAIMED -- the kernel NFS
+path reads this table (layout + help text only, no kernel
+run); SPECULATION -- the Gauntlet mappings are doctrine,
+never run; no multi-block table, no other-encoder image,
+and no appended image was parsed.]*
+
+*SquashFS export-table interop entry seeded 2026-11-02 ~02:30 EST by the decoder-create-loop.*
