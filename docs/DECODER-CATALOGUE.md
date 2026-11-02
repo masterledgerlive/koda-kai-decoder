@@ -9272,3 +9272,96 @@ from any other encoder was parsed.]*
 
 *SquashFS sparse-under-gzip interop entry seeded 2026-11-01 ~20:20 EST by the decoder-create-loop.*
 
+
+- **SquashFS sparse file under xz (4.0).** The second of the
+  remaining sparse shapes named by the lz4 x AUF entry's
+  does-not-do (sparse under gzip/xz/zstd), after gzip: the same
+  sparse sources as the sparse-under-lz4 check, default flags, xz
+  (mksquashfs 4.6.1, 4K blocks, -noappend, -comp xz). The answer
+  is yes on all three questions the corner asked. The sparse file
+  still promotes to a type-9 extended inode under xz, its hole
+  entry still reads 0, and the three unexplained type-9 header
+  words read exactly as under lz4 and gzip: sparse.txt, 12288
+  bytes, type 9, 68 bytes = 56-byte header + 3 block entries,
+  start_block 1068, file_size as u64 at header offset 24,
+  fragment = none (0xFFFFFFFF) at offset 44, offset 0 at
+  offset 48, block list at offset 56 reading [332, 0, 332] --
+  head block compressed to 332, hole entry 0 (the file offset
+  does not advance: the tail block follows at 1400, the same
+  offset the hole entry sits at), tail block compressed to 332.
+  The three unexplained words read u64 4096 at offset 32,
+  u32 1 at offset 40, u32 0xFFFFFFFF at offset 52 -- identical
+  under lz4 default, lz4 AUF, gzip default, and xz default: four
+  flag/compressor combinations, one reading, still printed, not
+  interpreted. The default-flag shape around the sparse file is
+  the lz4-default shape, not the AUF shape: alpha.txt 5000 keeps
+  2 blocks (spans 332/308) and fragment none; the main image
+  carries fragments = 1, decompressed total exactly 111 bytes =
+  beta.txt 100 + note.txt 11 (alpha's 904-byte tail is a data
+  block here, where AUF made it a fragment). Gamma.txt 4096
+  (exact multiple) keeps 1 block and fragment none; delta.txt 0
+  keeps 0 blocks and fragment none. Main image: superblock
+  compression id 4, inodes 8, fragments 1; inode-table walk
+  exact at 304 bytes -- the same 304 the default lz4 and gzip
+  sparse walks consumed, 4 more than the AUF walk (alpha's kept
+  block entry); root directory file_size 113 vs walked 110 (the
+  +3 gap again), parent_inode 9 = inodes + 1; inner directory 31
+  vs 28, parent 8 = the root's number. Single-file control:
+  big.txt 5000, 2 blocks, fragment none, fragments = 0 (AUF
+  lz4: 1 block + fragment idx 0). Plain control (rebuilt here
+  under xz): plain.txt, also 12288 bytes but fully written, no
+  hole -- stays a basic type-2 inode, 3 blocks, spans
+  332/332/332, all stored, walk exact at 76 bytes, fragments =
+  0. Same size, different inode type, under a fourth compressor:
+  the promotion is the hole, not the size, not the flag, and not
+  the compressor. The reader's xz blocks are .xz streams
+  (FORMAT_XZ) -- first success via xz-stream, single form
+  asserted throughout; the alone and raw-LZMA2 fallbacks never
+  fired.
+- **Decoder-design note (sparse x xz -> Gauntlet).** The sparse
+  rule is compressor-independent: a reader that branches on
+  inode type first (type 9 header 56 bytes, block list at +56),
+  then on the fragment field, then on the block-list zero
+  entries, resolves the sparse file under xz exactly as under
+  lz4 and gzip -- the only compressor-dependent code is the
+  block decompressor itself (xz-stream here, zlib there,
+  lz4-block there), and the two never mix: metadata, data, and
+  fragment blocks under one image all use the image's single
+  compressor. The remaining ambiguity is unchanged: the
+  exact-multiple sparse file carries fragment none under every
+  flag and compressor so far, so a reader cannot tell from the
+  inode alone whether its trailing block is stored or a hole
+  entry; it must read the block list. [SPECULATION -- the
+  Gauntlet mappings are doctrine, never run]
+- **What this entry does not do.** It does not test a sparse
+  file under zstd (gzip and xz are done, one compressor
+  remains); it does not interpret the three unexplained type-9
+  header words (u64 4096 at offset 32 -- still consistent with
+  a sparse-byte count, one 4096-byte hole, but not asserted --
+  u32 1 at offset 40, u32 0xFFFFFFFF at offset 52); it does not
+  walk the lookup or id tables; it does not explain the +3
+  directory file_size gap or the root parent_inode = inodes +
+  1 reading (both reconfirmed here under xz, still
+  unexplained); it does not parse a SquashFS image from any
+  other encoder. Next: sparse under zstd, or the type-9 header
+  words, or the +3/parent explanations, or the
+  export/uid-gid/xattr table walks.
+
+*[Grade: VERIFIED on the three real images (mksquashfs 4.6.1,
+4K blocks, xz, -noappend): 8 files resolved byte-identically;
+sparse.txt type 9, 68-byte inode, block list [332, 0, 332],
+file_size u64 at offset 24, fragment none at offset 44,
+offset 0 at offset 48; hole entry asserted 0 with no
+file-offset advance; alpha.txt 2 blocks, frag none, fragments
+= 1, decompressed fragment total exactly 111 bytes; plain.txt
+type 2, 3 stored blocks, same 12288 size; inode-table walks
+exact at 304/72/76 bytes; +3 gap and root parent = inodes +
+1 reconfirmed on all three images -- hidden_files/
+squashfs-xzsparse-mini.py, run 2026-11-01, passing on first
+run; OBSERVED -- the three unexplained type-9 header words,
+printed not interpreted, identical across lz4 default, lz4 AUF,
+gzip default, and xz default; SPECULATION -- the Gauntlet
+mappings are doctrine, never run; no real image from any other
+encoder was parsed.]*
+
+*SquashFS sparse-under-xz interop entry seeded 2026-11-01 ~20:40 EST by the decoder-create-loop.*
