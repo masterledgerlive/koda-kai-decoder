@@ -9460,3 +9460,98 @@ Gauntlet mappings are doctrine, never run; no real image from
 any other encoder was parsed.]*
 
 *SquashFS sparse-under-zstd interop entry seeded 2026-11-01 ~21:55 EST by the decoder-create-loop.*
+- **SquashFS type-9 header words, explained (4.0).** The
+  first item named by the sparse-under-zstd entry's
+  does-not-do: the three type-9 header words every sparse
+  entry printed without interpreting (u64 at offset 32, u32
+  at offset 40, u32 at offset 52). This check varies the
+  sparse geometry under one encoder (mksquashfs 4.6.1, 4K
+  blocks, -noappend, -comp zstd, default flags) and reads
+  those words for each shape, so each word faces a change
+  that should move it and changes that should not. Type-9
+  header layout as read here, 56 bytes: 16-byte base header;
+  start_block u64 at offset 16; file_size u64 at offset 24;
+  sparse u64 at offset 32; nlink u32 at offset 40; fragment
+  u32 at offset 44; offset u32 at offset 48; word u32 at
+  offset 52; block list at offset 56. The seven names in the
+  one main image (six inodes -- base and base-link share
+  one), every block's bytes distinct so the encoder cannot
+  merge blocks, all resolved byte-identically: base (head
+  4096 + hole 4096 + tail 4096, 12288 bytes) reads sparse
+  4096, nlink 2, block list [285, 0, 285]; base-link, the
+  hard link to base, reads the same inode and the same
+  words -- nlink 2 is the link count, not a per-name field,
+  and the two names resolve to the same bytes; wide (head +
+  8192 hole + tail, 16384) reads sparse 8192, nlink 1,
+  block list [285, 0, 0, 285]; first (hole at block 0 + two
+  stored blocks, 12288) reads sparse 4096, nlink 1, block
+  list [0, 283, 283] -- a leading hole promotes exactly like
+  a middle hole, and the first stored block starts at the
+  same file offset the hole entry sits at; two (head +
+  hole + mid + hole + tail, 20480) reads sparse 8192, nlink
+  1, block list [284, 0, 283, 0, 284]; three (head + 12288
+  hole + tail, 20480) reads sparse 12288, nlink 1, block
+  list [286, 0, 0, 0, 286]; trail (head 4096, then truncate
+  to 8192 -- a real trailing hole) reads sparse 4096, nlink
+  1, block list [286, 0]. Two words are now explained.
+  Offset 32 is the total sparse BYTE count: it scales 4096
+  -> 8192 -> 12288 with total hole bytes, and wide (one
+  2-block hole) and two (two separated 1-block holes) both
+  read 8192 -- bytes, not hole count, and not hole position
+  (first and base both read 4096). Offset 40 is the link
+  count: 2 for the hard-linked inode, 1 for every other
+  file in the image. Fragment reads 0xFFFFFFFF (none) and
+  offset reads 0 in all six inodes. The third word, offset
+  52, reads 0xFFFFFFFF in all six inodes -- across hole
+  counts 1, 2, and 3, hole sizes 4096, 8192, and 12288,
+  hole positions first, middle, separated, and trailing,
+  and link counts 1 and 2 -- and is still unexplained; it
+  is a second 0xFFFFFFFF beside the fragment field, not the
+  fragment field itself, and no geometry tried here moves
+  it. A probe trap worth recording: a seek past EOF with
+  no later write does NOT make a trailing hole -- the
+  source file stays 4096 bytes and stays type 2. Only
+  truncate (or a later write) extends the file, and only
+  then does the trailing hole promote to type 9.
+- **Decoder-design note (type-9 words -> Gauntlet).** A
+  reader can now trust offset 32 as the sparse-byte total
+  and offset 40 as nlink without a second source, and can
+  cross-check either against the block list: sparse bytes
+  must equal 4096 times the number of zero entries, and
+  nlink must equal the number of directory names pointing
+  at the inode. A mismatch on either is a tamper signal,
+  not a parse quirk -- the words are redundant with data
+  the reader already walks, which is exactly what makes
+  them useful as a check. [SPECULATION -- the Gauntlet
+  mappings are doctrine, never run]
+- **What this entry does not do.** It does not interpret
+  the offset-52 word (0xFFFFFFFF in all six inodes probed
+  -- candidate geometries that might move it, untested: a
+  sparse file WITH a fragment tail, a sparse file under
+  -always-use-fragments, a sparse file with an xattr, or a
+  sparse file from another encoder); it does not walk the
+  lookup or id tables; it does not explain the +3
+  directory file_size gap or the root parent_inode =
+  inodes + 1 reading (both reconfirmed in this image's
+  walk: root file_size 134 vs walked 131, parent 8 =
+  inodes + 1); it does not parse a SquashFS image from any
+  other encoder. Next: the offset-52 word under a
+  fragment-tailed sparse file, or the +3/parent
+  explanations, or the export/uid-gid/xattr table walks.
+
+*[Grade: VERIFIED on the one real image (mksquashfs 4.6.1,
+4K blocks, zstd, -noappend): 7 names / 6 inodes resolved
+byte-identically; sparse u64 at offset 32 = 4096 / 8192 /
+12288 exactly tracking total hole bytes across one-hole,
+two-hole, three-hole, leading-hole, and trailing-hole
+shapes; nlink u32 at offset 40 = 2 for the hard-linked
+inode, 1 elsewhere; fragment none at offset 44, offset 0
+at offset 48, in all six inodes -- hidden_files/
+squashfs-t9words-mini.py, run 2026-11-01, passing on first
+run; OBSERVED -- the offset-52 word reads 0xFFFFFFFF in
+all six inodes, mechanism open; SPECULATION -- the
+Gauntlet mappings are doctrine, never run; no real image
+from any other encoder was parsed.]*
+
+*SquashFS type-9-words interop entry seeded 2026-11-01 ~22:53 EST by the decoder-create-loop.*
+
