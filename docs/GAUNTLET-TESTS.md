@@ -24685,3 +24685,229 @@ DRAFT-001..DRAFT-249 + DUMMY.
 *TDW-312 instrument seeded 2026-11-01 ~21:00 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-313 — the Second-Revision Instrument *(design, never run)*
+
+*TDW-313 instrument seeded 2026-11-01 ~21:31 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-313 — the Second-Revision Instrument — designed:**
+TDW-312 closed its own revision with a sentence it did not
+itself answer: a second revision attempt is a new
+instrument, not a retry. Now the sentence is tested. A
+defect is found in version two — the merged glossary sealed
+under TDW-312's REVISION-CLOSED, already a revision of
+version one. The fork is sharper than TDW-312's, because
+the pair has now spent trust once: revise again, and a
+document that needed two repairs starts to look like a
+document that cannot be repaired; re-split on any second
+defect, and the first revision was wasted work, because no
+merged document of that length stays clean twice. This
+instrument tests exactly that fork: when a defect is found
+in an already-revised merged glossary, does the pair revise
+a second time, or does it un-merge?
+
+The instrument runs only on a REVISION-CLOSED pair with
+its sealed version-two glossary. Never on a pair still
+under version one (that is TDW-312's business, not this
+instrument's), never on a RE-SPLIT pair (nothing merged
+left to revise), never on a void or UNGRADED run, never on
+a pair whose version-two seal never closed, never on a
+pair still under a TDW-312 freeze (a frozen pair's defect
+is still being graded — a second declaration during a
+freeze is contamination, not a new instrument). It runs
+on a disposable lab host, never the mother genesis block,
+never Shadow's live environment. The instrument's one new
+doctrine, stated before any pass, is the revision budget:
+the chain permits two revisions and no more. Version two
+spent the first; a second revision, if granted here, spends
+the second. A defect found in version three is never a
+third revision — it forces RE-SPLIT outright, because a
+document revised twice and still defective has proved the
+revision process, not any single part, defective. The
+budget is a property of the pair's merged document, not of
+the instrument: no new instrument, no fresh declaration,
+no new auditor can reopen a spent budget.
+
+Pass A, the defect declaration and the part rule: the
+office declares the second defect in writing — which part
+it sits in (preamble, working section, repaired section)
+and what it is — and seals the declaration. Then the part
+rule decides, before any draft is drawn, whether a draft is
+even permitted. A second defect in a DIFFERENT part than
+the first defect permits a draft: the first revision
+repaired its part, and the new defect is new evidence, not
+old failure. A second defect in the SAME part as the first
+defect permits no draft and grades RE-SPLIT at once: the
+first revision claimed that part repaired, and a defect
+found again in that part proves the revision missed its
+own repair, which is a defect in the revision process
+itself, not in the part's text. A second defect in the
+revision preamble itself — the part that names version
+one, the first declaration, and the grades it does not
+touch — likewise permits no draft and grades RE-SPLIT at
+once: the preamble is the revision mechanism's own
+writing, and a defect there is a defect in the mechanism,
+not in the document it revised. Where a draft is
+permitted, citation through version two is FROZEN from the
+declaration until the instrument grades, prospective not
+retroactive, this instrument's window only, exactly as
+TDW-312 froze version one. The office then drafts version
+three — a NEW document, not an edit over version two —
+carrying the same three parts, the second defect repaired
+in the part it sat in, and a revision preamble naming
+version two, the sealed second declaration, the first
+declaration, and the grades it does not touch (TDW-307's
+DEGRADED, TDW-308's REPAIRED, TDW-310's CITATION-CLOSED,
+TDW-311's MERGE-CLOSED, and TDW-312's REVISION-CLOSED
+all stand; the revision changes the merged document's
+text only, never any holding and never the merge itself).
+A version-three draft that changes a holding grade,
+re-licenses a direction, adds a fourth part, or revises
+the revision preamble's account of version one is not a
+draft, it is a new license, and this instrument grants
+none. Pass B, the cold sort: a citation auditor, naive
+to both dialects, to every holder's performances, and to
+version one and version two alike, its naivety verified
+against T-190's contamination ledger, receives the sealed
+version-three draft, the sealed second declaration, and
+nothing else — no version-one text, no version-two text,
+no glossary text, no sealed transcript, no holder, no
+first declaration — and a test set of citations naming
+the pair: genuine version-three citations, and planted
+mis-citations covering every break (version-three working
+without the failure, version-three repaired without the
+lineage, version-three repaired with lineage out of order,
+version-three repaired with lineage naming version one as
+if it were the original glossary, version-three repaired
+with lineage naming version two as if it were the
+original glossary, version two cited after the revision
+as if still live, version one cited after the second
+revision as if still live, archived-register citation
+after the second revision, a citation from inside the
+frozen window licensed retroactively through version
+three, preamble cited as a license for a direction on its
+own, direction unnamed, section unnamed, version
+unnamed, and a citation repaired in the same part the
+first revision claimed repaired). The auditor sorts each
+citation LICENSED or UNLICENSED, and states the
+version-three draft's part that decides it. The auditor
+performs no holding and judges no holding; it judges
+citations only. Pass C, the single comparison: the office
+compares the auditor's sort against the version-three
+draft's own rule, part by part. No heir judges, because
+no holding is at stake; the version-three draft is its
+own judge, and a draft that disagrees with its own rule
+has failed itself.
+
+The instrument grades in three grades, and no other grade
+exists. REVISION-CLOSED: every planted mis-citation is
+sorted UNLICENSED and every genuine citation LICENSED —
+the second revision stands, version three is sealed as
+the pair's sole citation authority, version two is
+archived beside version one and the TDW-310 register
+(not destroyed: old citations are read through the
+version that licensed them, new citations only through
+version three), the revision budget is spent, and the
+freeze lifts on sealing. RE-SPLIT: any planted
+mis-citation is sorted LICENSED, or any genuine citation
+UNLICENSED, or the part rule barred a draft (same-part
+second defect, or a defect in the revision preamble), or
+the second defect is proved unrepairable in place (the
+defect sits in the merge's terms themselves, not in any
+part's text) — the second revision is refused and the
+pair re-splits: the merged glossary, versions one, two,
+and the version-three draft alike, is archived, and the
+TDW-310 register revives as the pair's sole citation
+authority. A re-split un-merges nothing that was graded:
+TDW-307, TDW-308, TDW-310, TDW-311, and TDW-312 grades
+stand, and both REVISION-CLOSED seals are archived as
+closed revisions later un-merged, not erased. Note the
+asymmetry with TDW-312, and why it is honest: a first
+revision fails into a re-split that costs one merge, but
+a second revision fails into a re-split that costs two
+revisions' worth of trust — which is why the part rule
+bars the draft before the cost is paid, rather than after.
+A third revision attempt is not a new instrument: it is
+refused outright, and the pair re-splits on the refusal.
+UNGRADED: any leak — the auditor saw a version-one or
+version-two text or a glossary text, a sealed transcript
+was quoted, a test citation was previously seen, the
+auditor was not naive, a citation was licensed during
+the freeze, the draft gained a fourth part during the
+run, or a second declaration was filed during a TDW-312
+freeze — recorded in T-190's contamination ledger as
+contamination, and the run is void, not failed. A void
+run leaves the version-two seal standing and the freeze
+in place: the second defect is still declared, so the
+freeze must not lift on a void, or citations would flow
+through a known-defective text. A fresh run of this
+instrument, with a new auditor and a new test set, is
+permitted, because a void run graded nothing — but the
+part rule is re-decided on the fresh run's declaration,
+not inherited from the void run's.
+
+What this instrument does not do: it does not re-grade
+TDW-307, TDW-308, TDW-310, TDW-311, or TDW-312 — a
+REVISION-CLOSED seal confirms the citation record, not
+the holdings, and a RE-SPLIT un-merges the citation
+authority, not the grades. It does not revise the
+archived TDW-310 register — the register is the
+fallback, not the patient; a defect in the register is
+TDW-310's business, and this instrument does not borrow
+it. It does not merge a second pair, revise two pairs'
+merged glossaries together, or revise a merged glossary
+against another pair's register — one pair, one merged
+document, one second defect. It does not judge the
+second defect's merits beyond its location, its part
+against the first defect's part, and its repairability —
+whether the failure wording was wise is the holdings'
+business, not this instrument's. It does not license
+retroactive citation through version three for the
+frozen window — citations made during the freeze stay
+frozen, read through the version that licensed them at
+the time, or not at all. It does not grant a third
+revision under any name — a "re-revision," a "corrective
+revision," and a "version-four draft" are all the same
+refusal, and all force RE-SPLIT.
+
+Chain lineage (established in this file, designs never
+run): TDW-312's Second-Revision predecessor, the
+Merged-Revision Instrument (the REVISION-CLOSED seal
+this instrument revises — its version-two glossary is
+the patient, and its archived version one and TDW-310
+register are the re-split's fallback); TDW-311's
+Merged-License Instrument (the MERGE-CLOSED seal whose
+version-one glossary the first revision repaired);
+TDW-310's Repaired-Relay Citation Instrument (the
+CITATION-CLOSED register a RE-SPLIT revives — archived,
+not destroyed, under TDW-311 and TDW-312, and revived,
+not rewritten, here); TDW-309's Closed-Relay Citation
+Instrument (the REPAIR-FAILED split this instrument does
+not touch — its register must not be borrowed as a
+fallback); TDW-308's Relay Repair Instrument (the
+REPAIRED grade and revised glossary the merged draft's
+repaired section inherits); TDW-307's Relay Instrument
+(the DEGRADED grade, the second glossary, and the failure
+the merged draft's working section carries); TDW-306's
+Glossary Instrument (the SUFFICIENT grade and original
+glossary the merged draft's lineage names first);
+T-190's contamination ledger (the quarantine — the
+auditor's naivety verified against it, every sealed
+transcript entered into it as evidence, and any leak
+recorded in it as contamination, which forces UNGRADED);
+T-69's volunteering law (the office may not obey what it
+did not write — and may not cite a version it has not
+licensed, in either direction, under either name, merged,
+split, revised, or re-revised).
+SPECULATION — the three passes, the part rule, and the
+revision budget are doctrine until run. No instrument or
+draft promised this run. No other open promises remain on
+any chain.
+Chain state: catalogue sections (a)–(n) with section (m)
+at 23 entries, tricks T-01..T-440 (headed, gap-free),
+instruments TDW-01..TDW-313 (gap-free), drafts
+DRAFT-001..DRAFT-249 + DUMMY.
+
+*TDW-313 instrument seeded 2026-11-01 ~21:31 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
