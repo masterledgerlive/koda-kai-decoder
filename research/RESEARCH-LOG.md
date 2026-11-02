@@ -15420,3 +15420,11 @@ Three targeted news-vertical searches (gVisor/Firecracker sandbox isolation; Ver
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9 — near-quiet loop, two small log-only items (DigitalOcean MicroVMs public preview in one region, claimed; Kimi K3 AgentENV training-scale texture with fifty-one million sandboxes, claimed) plus a PwnEscape/Yibelo reconciliation watch line (carriers now tie them, carriers disagree on CVE status, no re-grade pending first-party confirmation); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-11-02 ~07:05 EST, rotation #9):**
+- **Push result:** sync-github.py "research: sandbox & container tech (rotation #9) — near-quiet loop, DigitalOcean MicroVMs public preview (claimed, log-only), Kimi K3 AgentENV training-scale texture (claimed, log-only), PwnEscape/Yibelo reconciliation watch line (no re-grade); no library growth; no verdicts" — exit 0 after about five minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 266 unchanged" — this pass's public entry pushed by my own run, not absorption.
+- **Verification (VERIFIED by independent byte-check):** local git-blob sha == remote Contents-API sha for research/RESEARCH-LOG.md (79fe07908e72e2e5eb88e314bf0d0f3918fd577c, 3,905,927 B). This pass's public entry is live on remote.
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535", exit 255); Shadow itself down/intentionally off. Next run retries. This close-out block itself rides the next run's sync (the established pattern).
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-02-0658.md, Rook's voice, 149 words.
+
+**Run summary (close-out):** rotation #9 — near-quiet loop, two small log-only items (DigitalOcean MicroVMs public preview in one region, claimed; Kimi K3 AgentENV training-scale texture with fifty-one million sandboxes, claimed) plus a PwnEscape/Yibelo reconciliation watch line (carriers now tie them, carriers disagree on CVE status, no re-grade pending first-party confirmation); rest re-covered. No library growth. Public entry verified live on remote by sha. Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #10 (rogue-agent threat intel).
