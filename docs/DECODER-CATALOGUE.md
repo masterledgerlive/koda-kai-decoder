@@ -9733,3 +9733,76 @@ hypothesis until two distinct xattr sets are probed; no real
 image from any other encoder was parsed.]*
 
 *SquashFS type-9-xattr interop entry seeded 2026-11-01 ~23:55 EST by the decoder-create-loop.*
+
+## SquashFS xattr id table walk: word52 resolves to the set, identical sets share one id
+
+- **Claim.** A type-9 inode's offset-52 word is an index into the
+  xattr id table, and the reader can resolve it to the file's
+  actual xattr set without any other tool. Two files carrying
+  the identical xattr set share one id: the encoder deduplicates
+  sets, not just entries. [VERIFIED -- reader's own parse,
+  below]
+- **How the walk goes.** The superblock's xattr_id_table_start
+  points at a 24-byte footer, not at the xattr table: three
+  u64s -- the file offset of the xattr table's metadata block,
+  the id count, and the file offset of the id entries'
+  metadata block. The footer is always 24 bytes whatever the
+  id count (checked at 1, 2, and 3 distinct sets in probing;
+  the shipped run uses 2). The xattr table decompresses to a
+  back-to-back stream of entries, each u16 type (0 = user.),
+  u16 name_len, name bytes, u32 value_len, value bytes, with
+  no padding and no terminator. Each id entry is 16 bytes:
+  u64 stream offset, u32 count, u32 size, where size counts
+  each entry's bytes except its u16 type field (alpha's
+  16-byte entry contributes 14; gamma+beta contribute 16-2
+  and 15-2 = 27). A file's word52 selects its id entry; the
+  entry's stream offset plus count entries are the file's set.
+- **Observed.** Default-flag image (bytes_used 566, footer at
+  542): table block 461, id block 509, id block ending exactly
+  at the footer, stream 47 bytes. Id 0 = offset 0, count 1,
+  size 14, set {user.alpha=aaa}; id 1 = offset 16, count 2,
+  size 27, set {user.gamma=ggg, user.beta=bbb}. seta.bin and
+  seta2.bin (identical user.alpha=aaa, different content
+  bytes) both read word52 0x0; setb.bin reads 0x1; plain.bin
+  (no xattrs) stays type 2 with no word52 at all. The AUF
+  image repeats every id and every resolved set exactly
+  (footer at 522, table block 441, id block 489). One
+  encoder-order quirk, recorded not explained: setb's entries
+  store gamma-before-beta although beta was set first, so
+  sets compare as name-to-value maps, never as sequences.
+  The +3 directory gap (file_size 81 vs walked 78) and root
+  parent_inode 6 = inodes + 1 reconfirm in both images.
+- **Decoder-design note (xattr ids -> Gauntlet).** A reader
+  that has walked the footer can now judge the old foreign-
+  encoder signal precisely: a word52 that is neither
+  0xFFFFFFFF nor a valid id-table index is foreign or corrupt,
+  and a valid id whose resolved set fails its own size/count
+  check is corrupt, not foreign. [SPECULATION -- the Gauntlet
+  mappings are doctrine, never run]
+- **What this entry does not do.** It does not walk the
+  lookup, export, or uid/gid tables; it does not explain the
+  +3 directory file_size gap or the root parent_inode =
+  inodes + 1 reading; it does not test xattr prefixes other
+  than user., an xattr table spanning several metadata blocks,
+  or a SquashFS image from any other encoder. Next: the +3/
+  parent explanations, or the export/uid-gid/lookup table
+  walks, or a multi-block xattr table.
+
+*[Grade: VERIFIED on the two real images (mksquashfs 4.6.1,
+4K blocks, zstd, -noappend, default and -always-use-
+fragments): 4 files x 2 flag sets resolved byte-
+identically; seta and seta2 share id 0 with resolved set
+{user.alpha=aaa}, setb id 1 resolves to {user.beta=bbb,
+user.gamma=ggg}, plain type 2; footer 24 bytes in both
+images with id block ending exactly at the footer and
+bytes_used = footer + 24; unsquashfs round-trips every set
+in both images -- hidden_files/squashfs-xattrid-mini.py,
+run 2026-11-02, passing on first run; OBSERVED -- the
+footer's three-u64 layout and the id size rule (entry bytes
+minus the u16 type field); the gamma-before-beta store order
+is an encoder quirk, not a rule; SPECULATION -- the Gauntlet
+mappings are doctrine, never run; no non-user. prefix, no
+multi-block xattr table, and no other-encoder image was
+parsed.]*
+
+*SquashFS xattr-id-table interop entry seeded 2026-11-02 ~00:30 EST by the decoder-create-loop.*
