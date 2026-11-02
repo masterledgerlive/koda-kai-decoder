@@ -15469,3 +15469,10 @@ Three targeted news-vertical searches (prompt injection / indirect injection, No
 - **Catalogue changes:** none. The catalogue grows on new techniques, specimens, campaign measurements, and corroboration upgrades — none of this pass's items meets those bars.
 
 **Run summary:** rotation #11 — working loop, five new log-only items (ISO/IEC 27090 AI-security guidance, claimed; Ghostcommit image-borne instruction channel, claimed; Tabularis MCP SQL injection CVE-2026-118378 held as a pointer, claimed; WardenStealer coding-tool credential theft held as a pointer, claimed; jailbreak-prompt catalogue texture with article-cited skill-file figures, claimed) plus retells. No catalogue growth. No verdicts, nothing broadcast. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-11-02 ~08:15 EST, rotation #11):**
+- **Push result:** sync-github.py — exit 0 after about eight point eight minutes wall-clock; stdout "done: 0 pushed, 267 unchanged" (absorption, not a miss — see verification).
+- **Verification (VERIFIED by independent byte-check):** local git-blob sha == remote Contents-API sha for research/RESEARCH-LOG.md (b2fccdb7f48889c3d42c2c3dbb2f88e4b44d52ad, 3,920,417 B). This pass's public entry is live on remote. This close-out block itself rides the next run's sync (the established pattern).
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535"): Shadow unreachable. Next run retries.
+
+**Run summary (close-out):** rotation #11 — working loop, five new log-only items (ISO/IEC 27090 AI-security guidance, claimed; Ghostcommit image-borne instruction channel, claimed; Tabularis MCP SQL injection CVE-2026-118378 held as a pointer, claimed; WardenStealer coding-tool credential theft held as a pointer, claimed; jailbreak-prompt catalogue texture, claimed) plus retells. No catalogue growth. Public entry verified live on remote by sha. Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #12 (math/physics engines).
