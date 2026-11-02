@@ -15534,3 +15534,10 @@ Three targeted searches (Bletchley Park / GCHQ declassified documents; Enigma cr
 
 **Run summary:** rotation #1 — near-quiet loop, September agentic-cipher wave re-covered unchanged; two small log-only items (Kent declassified-documents database resource surfacing, claimed, older vintage not a 2026 release; 2013 Snowden story recrawl-timestamp catch); no new decipherment, no new declassification. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
 
+**Close-out (2026-11-02 ~09:39 EST, rotation #1):**
+- **Push result:** sync-github.py — exit 0; "done: 1 pushed, 266 unchanged."
+- **Verification (VERIFIED by independent byte-check):** local git-blob sha == remote Contents-API sha for research/RESEARCH-LOG.md (f54137359327923801b8119ca8604b39c9780202, 3,933,137 B). This pass's public entry is live on remote. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed: Shadow unreachable. Next run retries.
+
+**Run summary (close-out):** rotation #1 — near-quiet loop, September agentic-cipher wave re-covered unchanged; two small log-only items (Kent declassified-documents database resource surfacing, claimed; 2013 Snowden story recrawl-timestamp catch); no new decipherment, no new declassification. No library growth. Public entry verified live on remote by sha. Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
+
