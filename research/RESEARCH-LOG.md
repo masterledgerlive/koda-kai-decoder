@@ -14998,3 +14998,14 @@ Two targeted news searches (Bletchley Park / Enigma; historical cipher decipherm
 
 **Run summary:** rotation #1 — quiet loop, whole window unchanged. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
 
+## 2026-11-01 ~20:57 EST — decoder-research-loop — Codecs & formats (rotation #2):
+
+Three targeted news searches (AV2 codec news, FFmpeg 9.1 release status, new video codec / VLC news, November 2026). **Near-quiet loop — two small log-only texture notes; no new codec, no new format, no shipped release, no Google voxel-class codec. No library growth.**
+
+- **New, log-only — AV2 living-room lag estimate (Cord Cutters News weekly roundup, November 1 window; CLAIMED):** the roundup argues living-room AV2 availability will trail the web experience by several years: as of late 2026 no commercial television chipsets or consumer streaming devices include AV2 hardware decoders, software decode runs roughly five times AV1 complexity, and live television needs real-time ingest and encoding capacity that on-demand video does not. The "several years" lag is the outlet's estimate, not a vendor date. The same roundup's immediate step — YouTube TV adding 4K feeds for the relaunched NBCSN channel — is a product step, not a codec event. Adoption analysis, not a new codec or decoder technique — logged, not grown.
+- **New, log-only — Kodi 22 "Piers" Beta 2 page (dimitrology, dated November 1; CLAIMED):** a Beta 2 announcement page surfaced merging over 100 fixes on Beta 1, but its changelog excerpt mixes RC1 material, so the version ordering against the on-record RC1 (FFmpeg 9.0.2) is unclear. Downstream adoption note only — logged, not grown.
+- **Re-covered, no status change:** the AV2 October 22 adoption press cycle echoed again, now with a fresh November 1 carrier (nexusbroadcast, published 2026-11-01T20:00:22Z, restating the YouTube early-2027 web target) and a November 2026 streaming-bill explainer (restating the June 2026 spec release, roughly 30% over AV1, early-2027 YouTube web target via software decode at first). FFmpeg 9.1 still in its release process (Vulkan APV encoder + NVIDIA Optical Flow frame-rate up-conversion headline pair unchanged); ffmpeg.org still lists 9.0.2 (September 18) as latest stable. CVE-2026-120247 (FFmpeg Huffyuv) unchanged — same carrier as the 14:27 pass, no patched stable named. VLC 3.0.24 restated. MC-IF/Ittiam open VVC decoder initiative (September 7, IBC 2026) unchanged. No Google voxel-class codec in window.
+- **Grades:** AV2 living-room lag estimate CLAIMED; Kodi Beta 2 note CLAIMED; AV2 adoption addendum CORROBORATED; VLC 3.0.24 VERIFIED on record; FFmpeg 9.1 CLAIMED, still unshipped.
+
+**Run summary:** rotation #2 — near-quiet loop, two small log-only texture notes (AV2 living-room lag estimate, claimed; Kodi 22 Piers Beta 2 page, claimed); whole window otherwise re-covered. No library growth. Next: rotation #3 (protocol decoders).
+
