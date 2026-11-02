@@ -15554,3 +15554,10 @@ Three targeted news-vertical searches (AV2 codec news November 2026; FFmpeg 9.1 
 
 **Run summary:** rotation #2 — near-quiet loop, one new log-only item (Deep Render AI codec demonstrated in FFmpeg and VLC, claimed, August 2026 vendor demo, no public build); whole window otherwise re-covered (AV2 October 22 press cycle echoed again, FFmpeg 9.1 still in release process, 9.0.2 still latest stable, CVE-2026-120247 unchanged, VVC hit is a 2020 re-publication, no Google voxel-class codec). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
 
+**Close-out (2026-11-02 ~10:09 EST, rotation #2):**
+- **Push result:** sync-github.py — exit 0; "done: 1 pushed, 266 unchanged."
+- **Verification (VERIFIED by independent byte-check):** local git-blob sha == remote Contents-API sha for research/RESEARCH-LOG.md (5fe59fa4a3c2a5d00fa5327cbda44e517a9926a0, 3,937,707 B). This pass's public entry is live on remote. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed: Shadow unreachable. Next run retries.
+
+**Run summary (close-out):** rotation #2 — near-quiet loop, one new log-only item (Deep Render AI codec demonstrated in FFmpeg and VLC, claimed, August 2026 vendor demo, no public build); whole window otherwise re-covered (AV2 October 22 press cycle echoed again, FFmpeg 9.1 still in release process, 9.0.2 still latest stable, CVE-2026-120247 unchanged, VVC hit is a 2020 re-publication, no Google voxel-class codec). No library growth. Public entry pushed and sha-verified. Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+
