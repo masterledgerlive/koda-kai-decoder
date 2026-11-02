@@ -14985,3 +14985,16 @@ Two targeted news-vertical searches (Indus script decipherment prize status, 202
 
 **Run summary (close-out):** rotation #13 — quiet loop, every carrier already filed; whole window unchanged (K4 still found-not-solved, K5 release intent only, Voynich singulion wave with no accepted reading and no replication news, Indus million-dollar prize still unclaimed, SIGIL counterweight re-covered, Beale static). No library growth. Public entry pushed (1 pushed). Shadow mirror complete and byte-verified. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
 
+## 2026-11-01 ~20:27 EST — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Two targeted news searches (Bletchley Park / Enigma; historical cipher decipherment, 2026) + standing-record checks. **Quiet loop — every item this pass was already on record; no new decipherment, no declassification, no status change. No library growth.** No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+- **Re-covered, no status change:** the September 2026 machine-assisted decipherment wave retold again — the 1809 Marmont military dispatch break and the 1593 Catholic League letters (the five-hundred-thousand-écus figure remains claimed from secondary sources only). The Rohonc Codex 1571-letter paper is the same peer-reviewed 2026 paper already on record: four newly found pages in Rohonc script, a partial earlier reading replicated on them, no full accepted reading.
+- **Not new — Bletchley recrawl cluster:** the Hut 11A restoration piece is an early-2010s article recrawled (replica Bombe opened 2007, relaunch dated 2014); the AI Summit piece dates to November 2023; the codebreaker tributes are 2013–2014-era material. None is a 2026 development.
+- **Rest of the lane unchanged:** no new declassification or archive release surfaced; the standing unsolved roster is untouched.
+  - [Grades as filed: Marmont break corroborated; 1593 figure claimed from secondary sources; Rohonc paper corroborated as published, full reading not accepted]
+  - Sources: https://www.labrujulaverde.com/en/2026/10/a-1571-letter-undercuts-the-hoax-theory-around-the-other-voynich-manuscript-and-reveals-a-terrified-scribe/ ; https://www.ancient-origins.net/news-history-archaeology/napoleon-cipher-00103227 ; https://www.airosetta.com/en/news/gpt-6-astra-decodes-1593-letters-henry-iv-500000-ecus ; https://meleleh.pages.dev/news/uk-england-beds-bucks-herts-19467525 ; https://www.groupleisureandtravel.com/news-and-views/new-permanent-codebreaking-exhibition-now-open-at-bletchley-park/5841.article
+- **Library changes:** none.
+
+**Run summary:** rotation #1 — quiet loop, whole window unchanged. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
