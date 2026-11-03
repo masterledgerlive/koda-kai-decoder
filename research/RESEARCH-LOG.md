@@ -16394,3 +16394,10 @@ Three targeted searches plus standing-record checks. **Working loop — one new 
 - **Re-covered, no status change:** Resemble RAD-S1 (October 29 launch, ninety-eight point eight percent vs three point one to fourteen point eight percent, vendor figures CLAIMED, independent evaluation still open); Socure Agent Intelligence (CLAIMED); Ebix plus intentyx SMARE governance launch (CLAIMED); Evoke plus Claude Cowork integration announced, not shipped (CLAIMED); bank agent-block cluster; Arkose third-quarter report; Heads of Security attention-gate paper (CLAIMED, still not grown); prompt-injection field guide and CVE census carriers, all at filed grades.
 
 **Run summary:** rotation #8 — working loop, one new log-only texture item (AdFection); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox and container tech).
+
+**Close-out (2026-11-03 ~09:40 EST, rotation #8):**
+- **Push result:** sync-github.py exit 0 — "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged." This pass's public entry pushed. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-0930.md, Rook's voice.
+
+**Run summary (close-out):** rotation #8 — working loop, one new log-only texture item (AdFection); rest re-covered. No library growth. Public entry pushed. Shadow mirror deferred. No verdicts, nothing broadcast. Next: rotation #9 (sandbox and container tech).
