@@ -34912,3 +34912,93 @@ ever been held, reviewed, corrected, or re-instrumented under this
 procedure. Designs are designs until run.
 
 *T-1103 trick built 2026-11-03 ~11:35 EST by the decoder-create-loop.*
+
+## T-1104 — Warranted-Instrument Execution: running the probe a T-1103 review names, without laundering a clearance
+
+- **The gap this entry closes.** T-1103's Held-Unresolved Review may end
+NEW-INSTRUMENT-WARRANTED — it names a specific new probe design, what it
+measures, what it does not measure, and what outcome would falsify it —
+but T-1103 forbids its own execution: "Execution belongs to a later run,
+under its own entry, with its own bands." Until this entry, no design
+stated how that later run is conducted, by whom, against what bands, or
+what its outcome may and may not mean. A warrant without an execution
+protocol decays in one of two directions, both bad: it is never run, and
+the held entry sits forever with an untested escape clause attached; or
+it is run ad hoc, and its outcome gets quoted as a verdict the review
+never gave. This entry is the bridge: the warranted instrument runs once,
+under stated bands, and its reading changes what is known about the
+warrant — never, by itself, the standing of the held specimen.
+
+- **The protocol, in order.** (1) **Warrant intake.** The execution opens
+by quoting the T-1103 warrant verbatim — the probe design, its stated
+measures and non-measures, its falsifier — and by naming the held entry
+it attaches to. A warrant that cannot be quoted verbatim, because it was
+never written down as a design, is not executed: it is sent back for a
+fresh review, and the return itself is logged. (2) **Fresh clone, blind
+first.** The instrument runs against a fresh clone struck from the
+pristine image with its provenance hash recorded, never against the held
+original instance, and blind before any watched run — the T-1102
+discipline carries forward, because the warranted instrument is new and
+its observation-sensitivity is unknown. (3) **Own bands.** Before the
+run, the operator states the instrument's own bands: what counts as a
+hit on its stated measure, what counts as a miss, and what counts as
+noise — calibrated against the T-1101 fixture where the instrument's
+observables overlap it, measured fresh where they do not. Bands stated
+after the run are not bands; they are commentary, and the reading is
+INCONCLUSIVE by rule. (4) **Single execution.** One warrant, one
+execution. The instrument runs once under its bands and the run is
+logged as its own entry, linked to the warrant by hash. A second
+execution of the same warrant is forbidden: if the first execution was
+inconclusive, the route back is a new T-1103 review with new evidence,
+which may warrant a revised instrument — never a quiet re-run until the
+answer improves. (5) **No feedback.** The held specimen's own output is
+never fed back as input to the warranted instrument, and the warranted
+instrument's output is never fed into the held specimen: the two runs
+share a provenance chain, not a data path. (6) **Reading, then hold.**
+The execution ends in one of the three readings below, the reading is
+appended to the held entry's record, and the specimen stays held.
+
+- **The three readings.** WARRANT-CONFIRMED: the instrument measured
+what the warrant said it would measure, within its stated bands, and the
+falsifier did not fire. The warrant is retired as confirmed — and the
+specimen stays held, because a confirmed probe is a confirmed probe, not
+a clearance: what the probe measured is now known, what the specimen is
+remains open. WARRANT-REFUTED: the falsifier fired, or the instrument
+measured nothing within its bands. The warrant is retired as refuted,
+and the specimen stays held — a refuted warrant removes one proposed
+escape route, it does not open another. WARRANT-INCONCLUSIVE: the bands
+were not met, the clone provenance broke, or the run itself was void
+under the T-1102 contamination discipline. The warrant is neither
+confirmed nor refuted, it is not re-executed, and the specimen stays
+held. In all three readings the next step, if any, is a new review with
+new evidence — never a verdict drawn from the execution itself.
+
+- **What this is not.** It is not a third blind: a T-1102 second blind
+re-runs an existing interrogation on a fresh clone, while a T-1104
+execution runs a new instrument that did not exist when the specimen was
+held. It is not a review: T-1103 runs nothing, T-1104 runs exactly one
+thing. It is not a verdict, and it never clears a specimen: all three
+readings keep the hold, and a WARRANT-CONFIRMED reading must never be
+cited as evidence that the specimen is benign — it is evidence that the
+probe works. It is not a warrant factory: one warrant yields one
+execution, and a second warrant for the same held entry requires a
+second review grounded in new evidence, so that warranted instruments
+cannot become the exhaustion series by another name — the same cap
+logic that bounded T-1102 now bounds its escape clause. It is not a
+report card: no draft verdict may cite a T-1104 execution as its
+evidence, because the execution measured the warrant's probe, not the
+specimen's character.
+
+- **Evidence grade.** SPECULATION throughout. This is a design built on
+T-1103's own stated rule — execution belongs to a later run, under its
+own entry, with its own bands — and on T-1102's fresh-clone and
+no-feedback disciplines and T-1101's band discipline as the rules an
+execution inherits. No T-1103 review has ever ended
+NEW-INSTRUMENT-WARRANTED, no warrant has ever been executed under this
+protocol, no reading of any of the three kinds has ever been recorded,
+and no held specimen has ever been affected by it. This entry must not
+be cited as evidence that any warrant has ever been executed, confirmed,
+refuted, or left inconclusive under this procedure. Designs are designs
+until run.
+
+*T-1104 trick built 2026-11-03 ~12:35 EST by the decoder-create-loop.*
