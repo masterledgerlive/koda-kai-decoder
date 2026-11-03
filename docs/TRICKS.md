@@ -35192,3 +35192,143 @@ evidence that any warrant has ever been revised, re-granted, or
 parked. Designs are designs until run.
 
 *T-1106 trick built 2026-11-03 ~13:00 EST by the decoder-create-loop.*
+
+## T-1107 — Drift Re-calibration Trigger: when a frozen band stops deserving trust
+
+- **The gap it closes.** T-1101 freezes noise-floor bands and
+T-1105 freezes fresh bands for a warranted instrument's novel
+observables, and both treat the frozen band as good until an
+execution reads against it. Neither says when a band goes stale.
+A rig change, a slow environment shift, or a run of
+boundary-straddling check readings can all move the floor under a
+frozen band, and the first sign of that movement should not be a
+specimen execution that reads DIVERGENT against a band that no
+longer describes the rig. This entry is the trigger that retires
+a band before it is used, not after it surprises.
+
+- **What a band is trusted to describe.** A frozen band describes
+one rig at one time: one container image, one host class, one
+instrument version, one clock source, one fixture build. Change
+any of those and the band describes a rig that no longer exists,
+whatever the numbers say. A band also describes one season of
+the rig: enough executions, enough elapsed campaign time, or
+enough load variation will move wall time, CPU, and memory
+distributions even when nothing was deliberately changed. Trust
+in a band is therefore bounded in three directions at once: by
+configuration, by age and use, and by ongoing check evidence.
+A band that has survived all three bounds is HOLD; a band that
+has tripped any one of them is not HOLD, and no execution may
+borrow it while the trip stands.
+
+- **Trigger (1): configuration change — automatic.** Any change
+to the container image, the host, the instrument build, the
+clock source, or the fixture itself retires every band measured
+on the old configuration, immediately and without a vote. This
+is the only trigger that needs no measurement: the band's
+subject has changed, so the band is void by description, not by
+drift. The retired bands are archived with their configuration
+fingerprint, never deleted, and a fresh calibration under
+T-1101 or T-1105 is required before any execution that would
+have used them. A configuration change discovered after an
+execution does not retroactively void that execution's reading,
+but it flags the entry: read under a band whose configuration
+has since been retired, re-read only under a fresh band.
+
+- **Trigger (2): age and use — counted, not felt.** Every frozen
+band carries two counters from the moment it is frozen: campaign
+runs since calibration, and campaign time since calibration.
+The counters' limits are set in the band record itself, before
+any execution — a band without stated limits is unbanded, and
+T-1105 step (5) already forbids its use. When either counter
+reaches its limit, the band retires on schedule, whether or not
+any check reading looks odd. Scheduled retirement is not
+suspicion: it is the band's own expiry, and it costs a
+re-calibration, not an explanation. Limits are set tight enough
+that a band is never asked to outlive the rig season it was
+measured in; a limit revised upward after the fact is
+calibration shopping, forbidden by T-1106, and a revised limit
+applies only to bands frozen after the revision.
+
+- **Trigger (3): check-run drift — measured.** Between
+calibrations, the fixture is re-run on a schedule stated in the
+band record: a small check set (two watched, two blind, first
+of each discarded as warm-up, the same discard rule as
+T-1101), compared against the frozen bands, never against a
+specimen. A check set inside the bands is HOLD and resets
+nothing — it does not extend the age/use counters, which keep
+counting toward scheduled retirement regardless. A check set
+outside the bands on any observable trips DRIFT: executions
+using those bands halt, the band is retired pending
+re-calibration, and the check set itself is preserved as the
+drift evidence. Two consecutive check sets straddling a band
+edge — inside on one run, outside on the next, on the same
+observable, with no configuration change — trip DRIFT as well:
+a band edge that the fixture itself cannot sit still inside is
+not a band, it is a guess with a border.
+
+- **What re-calibration is, and is not.** Re-calibration repeats
+the original measurement, not a patch: a full T-1101 fixture
+set for rig-floor bands, or a full T-1105 fixture-as-subject
+set for fresh bands, first of each set discarded, bands frozen
+anew into the warrant or campaign record before any execution.
+The old bands stay in the record, marked retired with the
+trigger that retired them (configuration, schedule, or drift)
+and the check evidence where there is any. Re-calibration never
+widens a band to fit a specimen reading: if the new band is
+wider than the hit threshold for the question it serves, the
+result is BANDS-VOID under T-1105, and the warrant returns for
+T-1106 revision — a drift trigger must not become a quiet route
+around a BANDS-VOID return. Re-calibration is also never
+mid-execution: a band that trips during an execution run
+finishes that run under the band it started with, and the trip
+is recorded against the reading; the next execution waits for
+fresh bands. Stopping mid-run would trade one untrustworthy
+reading for a half-measured one.
+
+- **Rig floor versus specimen floor.** A drift trip on the rig
+floor (the T-1101 fixture bands) retires every band that rests
+on that floor, including fresh T-1105 bands measured on the
+same rig, because their zero-width exact observables were
+certified against a floor that has moved. A drift trip on a
+fresh band alone — one novel observable's band, rig floor
+steady — retires only that observable's band; the rest of the
+warrant's bands stand. The distinction is recorded in the
+retirement entry, because a rig-floor trip is evidence about
+the rig and a fresh-band trip is evidence about one instrument
+against one question, and confusing the two either halts work
+that is sound or trusts work that is not.
+
+- **Readings.** BANDS-HOLD: checks inside, counters unexpired,
+configuration unchanged — executions proceed. DRIFT-RECALIBRATE:
+any trigger tripped — executions halt, fresh calibration
+required, old bands archived with their trigger. BANDS-VOID-ON-
+RECHECK: re-calibration widens a band past its question's hit
+threshold — the warrant returns under T-1106, and no execution
+proceeds on the widened band. All three readings keep the held
+specimen held, none is a verdict, none clears anything, and a
+drift trip is evidence about the rig or the instrument, never
+about the specimen's character.
+
+- **What this is not.** It is not a specimen test: check runs
+touch only the fixture, never a specimen clone, and a drift
+trip says nothing about any specimen. It is not a band
+extension: a clean check set does not renew counters or
+postpone scheduled retirement. It is not calibration shopping:
+re-calibration that fails to reproduce a usable band is a
+BANDS-VOID return, not an invitation to keep measuring until a
+narrow band appears. It is not a verdict, and a retired band is
+not evidence that any reading taken under it was wrong — only
+that readings after the trip would be.
+
+- **Evidence grade.** SPECULATION throughout. This is a design
+built on T-1101's frozen bands, T-1105's fresh bands and its
+no-band-by-analogy rule, T-1106's calibration-shopping ban, and
+T-1104's one-execution discipline as the work the trigger
+protects. No band has ever tripped any trigger in this entry,
+no check set has ever straddled a band edge, no re-calibration
+has ever been run, and no held specimen has ever been affected
+by a retired band. This entry must not be cited as evidence
+that any band has ever drifted, been retired, or been
+re-calibrated. Designs are designs until run.
+
+*T-1107 trick built 2026-11-03 ~13:05 EST by the decoder-create-loop.*
