@@ -36559,3 +36559,142 @@ or lapsed under this entry. Designs are designs
 until run.
 
 *T-1119 trick built 2026-11-03 ~17:10 EST by the decoder-create-loop.*
+## T-1120 — Scarcity-Lift Reopening: in what order deferred challenge windows open when the auditor pool refills
+
+- **The gap it closes.** T-1119 says scarcity
+lifts at the first check-run where two cleared
+auditors exist again, and that deferred windows
+then open — but not in what order, not how fast,
+not what happens to a challenge filed while
+scarcity still stood, and not what happens if the
+pool drains again before the queue empties. Left
+there, a lift could open every deferred window at
+once and swamp the two auditors it just regained,
+or a second scarcity could silently swallow
+windows that never opened, or a challenge filed
+in good faith during scarcity could be ruled
+untimely for arriving before its window existed.
+This entry adds the queue, the stagger, and the
+pause — and nothing else.
+
+- **The lift.** Scarcity lifts at the first
+T-1108 check-run where the campaign's pool holds
+two or more T-1112-cleared auditors in total.
+The lift is recorded on the campaign record as
+SCARCITY-LIFTED with the check-run number and
+the pool count; a lift is a fact about the pool,
+not a finding about any attestation. An
+attestation filed while scarcity stood keeps its
+ATTESTED-UNJUDGEABLE flag until its own window
+opens — the lift does not clear flags in bulk,
+and it does not validate any attestation it
+touches.
+
+- **The queue.** Deferred attestations queue in
+attestation order, oldest first — the same order
+T-1119 judges undecided challenges in, so the
+oldest unjudgeable custody is the first to become
+challengeable. The queue is fixed at the lift:
+attestations filed after the lift are not
+deferred at all, they take the ordinary T-1118
+window from their own attestation, and they do
+not join the queue. No attestation jumps the
+queue, and no challenger picks which deferred
+attestation opens next — queue order is the only
+order.
+
+- **The stagger.** Windows open one per
+check-run, starting at the lift check-run itself:
+the oldest deferred attestation's window opens at
+the lift, the next at the following check-run,
+and so on. Each opened window runs exactly as a
+T-1118 window runs — to the next check-run
+after its opening — so at most one deferred
+window is ever open at a time, and the two
+regained auditors are never asked to judge more
+than one reopened challenge per check-run. A
+stagger is a throttle, not a delay tactic: the
+queue may not be stretched beyond one opening
+per check-run, and it may not be compressed
+below it either, because compressing it would
+re-create the flood the stagger exists to
+prevent.
+
+- **Filed during scarcity.** A challenge filed
+against an ATTESTED-UNJUDGEABLE attestation
+before its window opens is recorded as
+FILED-DEFERRED, not as untimely and not as
+filed. It is timely by definition — it arrived
+before the window it challenges, and a window
+that has not opened cannot be missed. When that
+attestation's window opens, the FILED-DEFERRED
+challenge becomes the window's challenge: the
+window is consumed by it, no second challenge on
+the same ground may be filed in that window, and
+the T-1119 undecided clock runs from the filing
+inside the window, not from the earlier deferred
+filing. A FILED-DEFERRED challenge whose window
+never opens because scarcity returns first stays
+FILED-DEFERRED, visible on the record, and is
+never silently dropped.
+
+- **Scarcity returns mid-queue.** If at a
+check-run before the queue empties the pool
+again holds fewer than two cleared auditors, the
+campaign records SCARCITY-RETURNED and the
+queue pauses: windows already opened run their
+course, challenges already filed fall under the
+T-1118/T-1119 adjudication rules as usual, but
+no new deferred window opens until the next
+lift. The pause preserves queue order exactly —
+the next window to open at the next lift is the
+one that would have opened next before the
+pause, not the oldest attestation filed since.
+A window that opened before the return is never
+re-deferred, and a FILED-DEFERRED challenge
+whose window opened before the return is never
+unfiled by it.
+
+- **What a lift never does.** A lift does not
+validate an attestation, clear a
+CONTESTED-ATTESTED flag, revive a
+CHALLENGE-LAPSED challenge, reopen a judged
+challenge, hold a requester, or say anything
+about any specimen. Only a judged SUSTAINED
+voids a closeout, and only a fingerprinted
+return upgrades one — the queue, the stagger,
+and the pause decide when a challenge may be
+heard, never what it proves.
+
+- **Readings.** SCARCITY-LIFTED: two cleared
+auditors again, queue fixed in attestation
+order. WINDOW-QUEUED: deferred, awaiting its
+staggered opening. WINDOW-OPEN: the window for
+one deferred attestation, running to the next
+check-run. WINDOW-PAUSED: queue paused by a
+returned scarcity, order preserved. FILED-
+DEFERRED: challenge filed before its window
+opened, timely, becoming the window's challenge
+on opening. None of these readings is a verdict,
+none clears a held specimen, and none says
+anything about any specimen — only about when
+a deferred challenge to one copy's destruction
+attestation may finally be heard.
+
+- **Evidence grade.** SPECULATION throughout. This
+is a design built on T-1119's AUDITOR-SCARCE
+flag and deferred windows, T-1118's challenge
+window and burden rule, T-1112's cleared
+auditor, T-1108's check-run schedule, and
+T-1117's destruction attestation; it adds only
+the lift record, the attestation-order queue
+fixed at the lift, the one-opening-per-check-run
+stagger, the FILED-DEFERRED standing for
+challenges filed during scarcity, and the
+order-preserving pause on a returned scarcity.
+No scarcity has ever lifted, no deferred window
+has ever opened, and no challenge has ever been
+filed deferred under this entry. Designs are
+designs until run.
+
+*T-1120 trick built 2026-11-03 ~17:57 EST by the decoder-create-loop.*
