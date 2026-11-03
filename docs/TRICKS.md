@@ -36172,3 +36172,122 @@ and no re-opened request has ever gone stale.
 Designs are designs until run.
 
 *T-1116 trick built 2026-11-03 ~15:20 EST by the decoder-create-loop.*
+
+## T-1117 — Expired-Copy Closeout: what ends a retrieval copy's life, and what an unended copy costs
+
+- **The gap it closes.** T-1114 delivers a
+RETRIEVAL-COPY under return-not-retention and names
+an EXPIRED reading, but never says how a copy ends:
+when its life runs out, how its return is proved,
+what happens when it does not come back, or what a
+copy used after expiry means. Left there, a copy can
+linger past its review, be kept "just in case," or be
+used after expiry with nothing on the record to show
+it. This entry adds the closeout rules, and nothing
+else.
+
+- **Every copy carries its own ending on its face.**
+At delivery the copy is stamped with its archive id,
+its request id, its delivery date, its expiry, and
+its delivery fingerprint. Expiry is the named
+review's duration, fixed at delivery: a delay, a
+challenge, or a re-opening under T-1116 does not
+extend it, and a review that runs longer does not
+extend it either. A requester who still needs the
+material after expiry files a new T-1114 request for
+the live review; an extension of the old copy would
+be retention in advance, which T-1114 forbids.
+
+- **Closeout by return.** The copy is surrendered,
+its fingerprint is re-checked against the delivery
+fingerprint, and a match files COPY-RETURNED on the
+archive record, citing the request id, the copy id,
+the return date, and both fingerprints. A mismatch
+is not a closeout: the return is refused as a
+T-1114 MISMATCH, the copy is held, and a
+T-1112-cleared auditor is notified. A mismatched
+copy is never closed on the requester's word alone.
+
+- **Closeout by attested destruction.** When return
+is impossible — the working copy was destroyed under
+the review's own handling rules, or its media failed
+— the requester files a destruction attestation with
+a second hand, never alone: the copy id, the method,
+and the date, signed by both. The archive record
+marks it COPY-DESTROYED-ATTESTED. A T-1112-cleared
+auditor may challenge the attestation; a sustained
+challenge voids the closeout and the copy returns to
+overdue. Destruction attested is closed, but
+challengeable — it is not the same standing as a
+fingerprinted return, and the record keeps the
+difference visible.
+
+- **Overdue is unaccounted, nothing more and nothing
+less.** At expiry with neither return nor attestation
+filed, an OVERDUE notice goes on the archive record
+and the requester is notified. The copy is treated as
+unaccounted: not presumed destroyed, and not presumed
+kept in bad faith — the record says only that it has
+not been closed. Overdue does not retroactively void
+readings already filed from the copy, but no new
+reliance is placed on it until closeout: the review
+does not cite it further. If the copy is still
+unclosed at the next T-1108 check-run, the overdue
+escalates to a T-1112-cleared auditor, and the
+requester's further T-1114 requests are held until
+this closeout is filed. The hold is on future
+retrieval, not on the specimen, and not on the
+review's existing record.
+
+- **Use after expiry is a record error.** A copy used
+after its expiry files COPY-EXPIRED-USE, a T-1103
+record error: readings drawn from post-expiry use are
+filed under that mark and are not relied on, and the
+copy is surrendered immediately on discovery. The
+discovery does not reopen the T-1109 audit, does not
+lift a T-1115 hold, and says nothing about the
+specimen — only that custody lapsed and the use
+after it cannot be trusted as a review source.
+
+- **Closeout closes custody, nothing else.** A closed
+copy — returned, or destruction-attested — says
+nothing about any specimen, clears no held specimen,
+lifts no hold, and extends no review. The archive
+record keeps delivery, return or attestation, overdue
+notices, escalation, and any expired-use filing
+together, so the whole custody history of a copy
+lives in one place and a later review can see
+whether the copy it is reading about ended cleanly,
+ended attested, or never ended at all.
+
+- **Readings.** COPY-RETURNED: fingerprint matched at
+surrender, custody closed cleanly. COPY-DESTROYED-
+ATTESTED: return impossible, two-hand attestation
+filed, closeout challengeable. COPY-OVERDUE: expiry
+passed with no return and no attestation, copy
+unaccounted, further retrieval held on escalation.
+COPY-EXPIRED-USE: copy used after expiry, that use
+filed as a record error and not relied on. None of
+these readings is a verdict, none clears a held
+specimen, and a closed copy says nothing about any
+specimen — only about whether the copy that left a
+sealed archive came back, was attested destroyed, or
+is still unaccounted for.
+
+- **Evidence grade.** SPECULATION throughout. This is
+a design built on T-1114's return-not-retention rule,
+four-field request, delivery and return fingerprint
+checks, and EXPIRED reading, T-1116's no-extension
+for delay, T-1112's cleared auditor, T-1108's
+check-run schedule, T-1109's sealed archive and
+archive record, and T-1103's record-error reading;
+it adds only the fixed-at-delivery expiry, the
+fingerprinted return, the two-hand destruction
+attestation with its challengeable standing, the
+overdue-as-unaccounted rule with its no-new-reliance
+and escalation hold, and the expired-use record
+error. No copy has ever been returned, attested
+destroyed, gone overdue, or been used after expiry
+under this entry. Designs are designs until run.
+
+*T-1117 trick built 2026-11-03 ~15:35 EST by the decoder-create-loop.*
