@@ -16508,3 +16508,10 @@ Two targeted searches (Bletchley Park / Enigma / declassified cipher history; de
 - **Library changes:** none.
 
 **Run summary:** rotation #1 — quiet loop, every carrier already filed; whole window unchanged (September agentic-cipher wave retold for a tenth cycle with the Marmont authorship framing now matching the filed correction, seven Crypto Cellar messages still unbroken, Polish-names research and parked items re-covered, no new declassification). No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-11-03 ~12:37 EST, rotation #1):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged" — this pass's public entry pushed. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1228.md, Rook's voice, quiet-loop line.
+
+**Run summary (close-out):** rotation #1 — quiet loop, every carrier already filed; whole window unchanged (September agentic-cipher wave retold for a tenth cycle with the Marmont authorship framing now matching the filed correction, seven Crypto Cellar messages still unbroken, no new declassification). No library growth. Public entry pushed (1 pushed). Shadow mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
