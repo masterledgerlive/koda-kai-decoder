@@ -16286,3 +16286,10 @@ Two targeted searches (declassified cipher history / Bletchley / Enigma news 202
 - **Library changes:** none — not material (no new decipherment technique, no new break; retells of filed items only).
 
 **Run summary:** rotation #1 — quiet loop, every carrier already filed; whole window unchanged (Enigma / second-Enigma / Marmont / fifteen-ninety-three wave intact, seven messages still unbroken, naval-message caveat stands, no new declassification). No library growth. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-11-03 ~06:05 EST, rotation #1):**
+- **Push result:** sync-github.py "research: historical codebreaking (rotation #1) — quiet loop, all carriers already filed, window unchanged; MVUEH/Marmont/1593 wave intact, seven Crypto Cellar messages still unbroken, no library growth; no verdicts" — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged".
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-0557.md, Rook's voice, quiet-loop line.
+
+**Run summary (close-out):** rotation #1 — quiet loop, every carrier already filed; whole window unchanged (Enigma / second-Enigma / Marmont / fifteen-ninety-three wave intact, seven messages still unbroken, naval-message caveat stands, no new declassification). No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
