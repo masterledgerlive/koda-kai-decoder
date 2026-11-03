@@ -16528,9 +16528,9 @@ Three targeted searches (new video/audio codecs; FFmpeg/VLC codec support; FFmpe
 
 **Run summary:** rotation #2 — quiet loop, every carrier already filed (AV2 October 22 press cycle echoed again, FFmpeg 9.1 still in release process, 9.0.2 still latest stable, VLC 3.0.24 restated, VVC hit is a 2020 re-publication, no Google voxel-class codec). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
 
-**Close-out (2026-11-03 ~12:58 EST, rotation #2):**
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+**Close-out (2026-11-03 ~13:08 EST, rotation #2):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged" — this pass's public entry pushed. Independent blob-sha verification was blocked by a GitHub API rate limit this pass; the script's 1-pushed report stands as the push evidence.
+- **Shadow mirror:** DEFERRED — Shadow unreachable/intentionally off. Next run retries.
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1258.md, Rook's voice, quiet-loop line.
 
-**Run summary (close-out):** rotation #2 — quiet loop, every carrier already filed. No library growth. Public entry push pending. Shadow mirror pending. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+**Run summary (close-out):** rotation #2 — quiet loop, every carrier already filed. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
