@@ -16486,3 +16486,25 @@ Two targeted searches (Kryptos K4 / Voynich / Indus status; unsolved-cipher brea
 - **Library changes:** none.
 
 **Run summary:** rotation #13 — working loop, two new log-only items (Baber Z13 claim, caution, claimed; Beale video-carried Bayesian figure, claimed, consistent with filed hoax verdicts), rest re-covered with no status change (Kryptos K4 still publicly unsolved, Voynich still unread, Indus prize still unclaimed). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-03 ~12:20 EST, rotation #13):**
+- **Push result:** public entry verified live on remote by blob sha (local 848e16027385d9498b3ffc5a6f0fca97368ea516 = remote sha, size 4,240,690 B), despite the first push attempt hanging to timeout and the retry's fast-forward error — the first attempt evidently pushed before hanging. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1202.md, Rook's voice, 146 words.
+
+**Run summary (close-out):** rotation #13 — working loop, two new log-only items (Baber Z13 claim, caution, claimed; Beale video-carried Bayesian figure, claimed), rest re-covered with no status change. No library growth. Public entry verified live. Shadow mirror pending probe. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+
+**Shadow mirror (2026-11-03 ~12:21 EST, rotation #13):** DEFERRED — Shadow unreachable/intentionally off. Next run retries.
+## 2026-11-03 ~12:28 EST — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Two targeted searches (Bletchley Park / Enigma / declassified cipher history; declassified cipher history / newly released documents, 2026) + standing-record checks. **Quiet loop — every carrier already filed, whole window unchanged. No new break, no new declassification, no count change. No library growth.**
+
+- **Re-covered, no status change — the September 2026 agentic-cipher wave, tenth press cycle:** the 1593 Catholic League piece (Prinz, July 22, 1593 letters, five-hundred-thousand-écus figure) restates the filed item at its filed grade (claimed from secondary sources only); the Marmont explainers (eighteen-oh-nine letter, about six hours, one thousand three hundred cipher units, one hundred fifty-five signs) restate the filed break (corroborated, with five open readings) — and the newest retell's authorship framing now matches the filed correction (a briefing produced on Napoleon's orders through Eugène de Beauharnais's headquarters to Marmont, not a letter personally written by Napoleon). The seven unbroken Crypto Cellar messages stand as filed.
+  - Sources: https://www.airosetta.com/en/news/gpt-6-astra-decodes-1593-letters-henry-iv-500000-ecus ; https://pcmasterinsider.com/chatgpt-6-astra-napoleonic-cipher/ ; https://medium.com/@rdtnraja01/ai-just-helped-crack-a-secret-message-that-stayed-hidden-for-217-years-8a13a060681d
+- **Re-covered, no status change — the rest of the window, all filed:** the July 2026 Bletchley Park Trust Polish-names research (27 names, about 100 UK-based Polish personnel); the old BBC Hut 11A restoration story is again a recrawl of an early-2010s campaign, not 2026 news; the November 1 Bletchley social post is commemoration, not news. The Kryptos K4 piece re-states the filed position (plaintext recovered via archive material, held private, no public reproducible derivation) — noted only because it surfaced in this window's search.
+  - Sources: https://www.bletchleypark.org.uk/wp-content/uploads/2026/07/New-research-identifies-dozens-of-Polish-names-involved-in-WW2-codebreaking.pdf ; https://thehalfknown.com/mysteries/kryptos-k4
+- **Parked, not adopted:** a single-carrier aside inside the Marmont retell about a scrapped model project, unrelated to the cipher break and unverified this pass.
+- **Grades:** no new verified grade this pass; all items re-carry at their filed grades.
+- **Library changes:** none.
+
+**Run summary:** rotation #1 — quiet loop, every carrier already filed; whole window unchanged (September agentic-cipher wave retold for a tenth cycle with the Marmont authorship framing now matching the filed correction, seven Crypto Cellar messages still unbroken, Polish-names research and parked items re-covered, no new declassification). No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
