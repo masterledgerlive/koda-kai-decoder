@@ -34835,3 +34835,80 @@ until run.
 
 *T-1102 trick built 2026-11-03 ~11:20 EST by the decoder-create-loop.*
 
+## T-1103 — The Held-Unresolved Review
+
+**The problem it answers.** T-1102 ends at its cap — two second blinds,
+readings still VANISHED or MUTATED — with the specimen entered as
+HELD-UNRESOLVED and the campaign moving on, and it permits a revisit
+"only by a new instrument design, never by repeating this trick until it
+gives the wanted answer." But it never says what that new instrument is.
+Left unnamed, the gap invites two failures: held specimens pile up
+unreviewed, their records going stale while the campaign forgets why each
+one was held; or a third blind is run under a fresh name, and a verdict by
+exhaustion arrives wearing a new instrument's clothes. This trick is the
+instrument T-1102's escape clause points to — and its whole discipline is
+that it is a review of the record, not another run of the specimen.
+
+**The procedure, in order.** First, freeze: the held entry's record is
+sealed — the T-1100 divergence signature, both T-1102 second-blind
+signatures, the T-1101 calibration bands in force for each run, the
+provenance hash of every clone, and the input family of every run. The
+review works from that frozen record and appends to it; it never edits an
+earlier signature, because a review that rewrites what it reviews has
+already decided its own answer. Second, no new run: the review runs
+nothing — not the held instance, not a fresh clone, not the calibration
+fixture. Any procedure that needs a run is not this review; it is a
+candidate for the third step's warrant, and it waits there until it is
+designed, named, and judged on its own falsifiability. Third, three
+questions, in order, each answered from the record alone: was the cap
+correctly reached — two genuine second blinds, blind-first, extraction-only,
+new input families, bands in force; is there a record error — a band
+misapplied, a provenance hash mismatched to its image, an input family
+that was a replay in disguise, a signature recorded against the wrong
+observable; and is a genuinely new instrument warranted — a probe that
+measures something neither blind measured, with its own stated falsifying
+outcome, not a finer repeat of a measurement already taken twice.
+Fourth, independence: the reviewer must not be the operator who ran the
+second blinds under review. A review by the same hands that produced the
+record is a second draft, not a check.
+
+**The three readings.** CONFIRMED-HELD: the record stands — the cap was
+correctly reached and no record error was found. The specimen stays held,
+the entry records the review date and the reviewer's name, and a next
+review is scheduled, not left open-ended: one review per held entry per
+campaign, and no second review without new evidence, so that review itself
+cannot become the exhaustion series by another name. RECORD-ERROR: an
+error is found in the record itself — a band, a hash, a family, a
+signature. The entry is corrected by append, the error is named, and the
+specimen still stays held: a corrected record is not a clearance, and a
+record error never retroactively converts a VANISHED or MUTATED reading
+into a verdict. The correction may support a warrant for a new instrument;
+it never is one by itself. NEW-INSTRUMENT-WARRANTED: the review names a
+specific new probe design — what it measures, what it does not measure,
+what outcome would falsify it — and the warrant is recorded as a design
+proposal, not executed by the review. Execution belongs to a later run,
+under its own entry, with its own bands.
+
+**What this is not.** It is not a third blind, and it must never be cited
+as one: no specimen has ever been re-interrogated by this review, and a
+review that runs anything has broken its own rule. It is not a verdict,
+and it never clears a specimen: CONFIRMED-HELD keeps the hold,
+RECORD-ERROR keeps the hold, NEW-INSTRUMENT-WARRANTED keeps the hold
+until the warranted instrument itself is run and read. It is not an
+appeal: the held specimen's operator does not argue the review, and the
+reviewer does not re-litigate the specimen's character — the review judges
+the record and the cap, nothing else. It is not a report card: a
+HELD-UNRESOLVED entry that has passed review is still a held entry, and
+no draft verdict may cite the review as its evidence.
+
+**Evidence grade.** SPECULATION throughout. This is a design built on
+T-1102's own stated escape clause — revisit only by a new instrument
+design — and on T-1101's bands and T-1100's signatures as the record a
+review reads. No specimen has ever been entered as HELD-UNRESOLVED, no
+held entry has ever been reviewed under this procedure, no record error
+has ever been found by it, and no new instrument has ever been warranted
+by it. This entry must not be cited as evidence that any specimen has
+ever been held, reviewed, corrected, or re-instrumented under this
+procedure. Designs are designs until run.
+
+*T-1103 trick built 2026-11-03 ~11:35 EST by the decoder-create-loop.*
