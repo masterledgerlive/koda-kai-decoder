@@ -34745,3 +34745,93 @@ run.
 
 *T-1101 trick built 2026-11-03 ~10:40 EST by the decoder-create-loop.*
 
+## T-1102 — The Second Blind
+
+**The problem it answers.** T-1100 ends at its dangerous readings — DIVERGENT
+or BLIND-ONLY — with the specimen held and "re-interrogated by extraction-only
+probes," but it never says how that second interrogation proceeds without
+contaminating its own answer. The naive move — run the same specimen again,
+with the same input, and see if the effect repeats — is the contaminated move:
+the held instance now carries state from its first runs, and a specimen that
+recognises a repeated input may behave differently the second time for that
+reason alone. A repeat that reuses the instance, the input, or the first
+run's output cannot tell a property of the specimen from an artefact of
+having been run before. This trick is the procedure for the second
+interrogation, and its whole discipline is that the second run must be a
+fresh encounter, not a replay.
+
+**The procedure, in order.** First, hold: the original specimen instance is
+quarantined and never run again. Its state is evidence, not a starting point,
+and no later run ever inherits it. Second, clone fresh: the second
+interrogation uses a new instance built from the pristine container image,
+with its provenance hash recorded, never a copy of the held instance and
+never a container that has seen the first run's drop-folder outputs. Third,
+change the input family, not the input: the second run uses inputs of the
+same class as the first — same shape, same channels, same seed discipline —
+but different values and a different seed, so the encounter is new in the
+particulars while comparable in kind. Byte-identical replay is forbidden:
+if the effect requires the exact first input to reproduce, that requirement
+is itself recorded as part of the finding, not worked around by replaying
+it. Fourth, blind first: unlike T-1100, which runs watched before blind, the
+second interrogation runs blind before any watched run, so the first
+observation of the fresh instance is its unobserved behaviour. Fifth,
+extraction-only throughout: the probes read boundary observables only — exit
+code, wall time, CPU and memory, output bytes, egress attempts, drop-folder
+files — and inject nothing: no hooks, no traces, no agent, no code, no
+changed input channel mid-run. A probe that needs interior access is not a
+second-blind probe; it is a new watched run, and it waits until the blind
+sequence is complete.
+
+**The three readings.** REPRODUCED: the blind effect recurs in the fresh
+clone's blind run, within the T-1101 calibration bands for that image and
+host. The divergence is a property of the specimen, not of the first
+instance, and the entry records the divergence signature — which observable
+diverged, by how much against the bands, under which input family, from
+which clone provenance hash. VANISHED: the fresh blind run shows no
+divergence. The first finding is downgraded, not cleared: the entry records
+that the effect did not reproduce on a fresh instance under a new input
+family, and the held specimen stays held, because a vanished effect is
+consistent with instance state, rig variance, or an input-specific trigger,
+and none of those is an acquittal. MUTATED: a different effect appears —
+a different channel, a different timing shape, a different drop-folder
+artefact. The specimen is held, no verdict is issued, and the entry records
+both signatures side by side, because a mutation says the interaction
+between observation, state, and input is itself unstable, and a single
+second blind cannot settle an unstable interaction.
+
+**The cap, stated before any run.** At most two second blinds per held
+specimen. After the second, if the readings are still VANISHED or MUTATED,
+the specimen is entered as HELD-UNRESOLVED and the campaign moves on: no
+third, fourth, or endless series of fresh clones is permitted to grind an
+unstable specimen down to a verdict by exhaustion. A verdict by exhaustion
+is not a verdict. The held specimen may be revisited only by a new
+instrument design, never by repeating this trick until it gives the wanted
+answer. The held specimen's own blind-only output is never fed back in as
+input to a later run: a specimen interrogated with its own prior output is
+being interrogated with the lab's record of itself, and that loop can
+manufacture the very recurrence it claims to measure.
+
+**What this is not.** It is not a verdict, and it never clears a specimen:
+REPRODUCED confirms a property, VANISHED withholds a finding, MUTATED
+withholds everything, and none of the three is "benign." It is not T-1101
+calibration: T-1101 calibrates the rig with a known fixture, this trick
+re-interrogates an unknown specimen, and a calibration band is a precondition
+for this trick, not a substitute for it. It is not a punishment for
+observation-sensitivity, and no motive — deception, evasion, adaptation —
+is ever assigned on the basis of a second blind: the trick measures whether
+an effect survives a fresh encounter, and a later probe decides what it
+means.
+
+**Evidence grade.** SPECULATION throughout. This is a design built on
+T-1100's own stated endpoint — the held specimen awaiting extraction-only
+re-interrogation — and on T-1101's calibration bands, which are the
+precondition for comparing any second blind. No second blind has ever been
+run, no effect has ever been reproduced, vanished, or mutated under this
+procedure, no specimen has ever been entered as HELD-UNRESOLVED, and no
+finding has ever been downgraded on a vanished second blind. This entry
+must not be cited as evidence that any specimen has ever been
+re-interrogated, cleared, or held under this procedure. Designs are designs
+until run.
+
+*T-1102 trick built 2026-11-03 ~11:20 EST by the decoder-create-loop.*
+
