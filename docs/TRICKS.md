@@ -34662,3 +34662,86 @@ observation-sensitive, that any blind run has ever diverged, or that any
 verdict has ever been withheld on this ground. Designs are designs until run.
 
 *T-1100 trick built 2026-11-03 ~10:25 EST by the decoder-create-loop.*
+## T-1101 — The Blind-Run Noise-Floor Calibration Fixture
+
+**The problem it answers.** T-1100's noise floor is measured watched-versus-
+watched: Run W run twice, and any blind difference smaller than that gap is
+noise. But that floor is watched-only. A blind run may vary more than a
+watched run does — scheduler jitter without the tracer's pacing, a cold cache
+on the first uninstrumented launch, egress-boundary timing with no agent
+inside to absorb it — and a blind difference that clears the watched floor
+may still be rig noise, not an observation effect. Judging a specimen
+divergent on a floor measured in the wrong condition is a false finding
+waiting for a specimen. This trick supplies the missing condition: a
+known-benign calibration fixture, run blind as well as watched, so the floor
+under a blind comparison is measured blind.
+
+**The fixture.** A fixed, published, deterministic calibration program, never
+a specimen and never judged: the same fixed input and seed on every run, a
+known output byte-for-byte, no randomness, no wall-clock dependence, no
+network input, no egress attempt by construction. It does a small amount of
+real work — enough to register on every boundary observable T-1100 reads —
+and nothing else. Its code is frozen before the campaign; a fixture that
+changes mid-campaign calibrates nothing, and any change to it voids every
+band it set.
+
+**The calibration run.** Before any blind-twin campaign, and again after any
+change to the container image, the host, or the egress boundary, the fixture
+is run five times watched and five times blind, same image, same seed, same
+input. The first run of each set is warm-up and discarded — cold-cache and
+first-launch effects are rig properties, not measurements. The remaining four
+runs of each set give, per observable, a band: the watched band and the blind
+band separately. For exact observables the band is zero-width by rule, not by
+measurement: output bytes must be byte-identical across all eight kept runs,
+the exit code must be identical, egress attempts must be zero, and the drop-
+folder manifest must match. For measured observables — wall time, total CPU,
+peak memory — the band is the observed spread of the kept runs, widened by
+one further kept run's worth of slack: a blind difference must clear the
+blind band, not the watched band, to count.
+
+**The two floors, and which governs.** T-1100's specimen floor and this
+fixture's rig floor are both required, and the wider governs. The specimen
+floor (Run W twice) captures what this specimen varies by under observation;
+the rig floor (fixture, watched and blind) captures what the rig varies by
+between conditions. A blind-versus-watched difference on a real specimen is
+a finding only if it clears both bands. Clearing the specimen floor but not
+the rig floor reads "within rig variance" — never DIVERGENT. Clearing both
+reads DIVERGENT under T-1100's rules, with the fixture bands cited alongside
+the specimen floor in the entry.
+
+**The three readings.** CALIBRATED: all eight kept fixture runs agree on
+every exact observable, and both bands are set. The campaign may proceed,
+and the bands travel with every blind-twin entry made under them.
+UNCALIBRATED: the fixture itself varies on an exact observable — output
+bytes differ, an egress attempt appears, the drop folder disagrees — or a
+measured band is so wide it would swallow any plausible divergence. The
+protocol halts: no specimen is judged blind-versus-watched until the fixture
+passes, because a rig that cannot reproduce its own calibration cannot
+measure a specimen. DRIFT: a later fixture re-run, after an image or host
+change, lands outside the bands it set. The campaign re-calibrates before
+any new specimen is judged, and blind-twin entries made under the old bands
+are flagged for re-run under the new ones — flagged, not silently voided,
+because the old bands were the best measurement available when they were
+made, and the flag says exactly that.
+
+**What this is not.** It is not a specimen, and no verdict of any kind is
+ever issued on the fixture: a fixture that misbehaves indicts the rig, never
+itself. It is not a substitute for T-1100's specimen floor — a rig band
+cannot capture a specimen's own variance, and a specimen floor cannot
+capture the rig's condition gap. It is not a pass mark for the rig in
+general: calibration under this fixture licenses blind-twin comparisons
+only, on this image and host, until the next change forces re-calibration.
+
+**Evidence grade.** SPECULATION throughout. This is a design built on
+T-1100's own stated weak joint — the noise floor measured in the wrong
+condition — and on the container-interrogation rule that foreign code never
+touches the mother genesis block. No calibration fixture has ever been
+frozen, no blind band has ever been measured, no campaign has ever been
+halted as UNCALIBRATED, and no drift flag has ever been raised. This entry
+must not be cited as evidence that any rig has ever been calibrated, that
+any blind band has ever been set, or that any specimen finding has ever
+been cleared or withheld on rig-variance grounds. Designs are designs until
+run.
+
+*T-1101 trick built 2026-11-03 ~10:40 EST by the decoder-create-loop.*
+
