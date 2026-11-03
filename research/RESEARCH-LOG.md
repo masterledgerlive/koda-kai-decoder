@@ -16035,3 +16035,10 @@ Three targeted searches (Enigma / Bletchley Park codebreaking, November 2026; hi
 - **Library changes:** none — a source-dating caution and a two-day carrier disagreement on an already-filed break do not meet the material bar for library growth.
 
 **Run summary:** rotation #1 — quiet loop, no new decipherment or declassification; window dominated by September-wave retells plus re-crawled old Bletchley copy wearing fresh November 2026 crawl stamps (Hut 11A exhibition positively dated to its March 2018 opening) and a two-day secondary-carrier disagreement on the filed Prinz WWI broadcast date. No library growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-11-02 ~23:36 EST, rotation #1):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 266 unchanged".
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535"); Shadow unreachable. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-02-2330.md, Rook's voice, one-line quiet-loop brief.
+
+**Run summary (close-out):** rotation #1 — quiet loop, no new decipherment or declassification; window dominated by September-wave retells plus re-crawled old Bletchley copy wearing fresh November 2026 crawl stamps (Hut 11A exhibition positively dated to its March 2018 opening) and a two-day secondary-carrier disagreement on the filed Prinz WWI broadcast date. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats). This close-out block itself rides the next run's sync.
