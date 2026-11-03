@@ -35099,3 +35099,96 @@ warranted instrument has ever been calibrated, banded, or executed.
 Designs are designs until run.
 
 *T-1105 trick built 2026-11-03 ~12:45 EST by the decoder-create-loop.*
+
+## T-1106 — BANDS-VOID Revision: what a warrant returned under T-1105 may do next
+
+- **The gap this entry closes.** T-1105 ends a BANDS-VOID warrant
+with "returned for revision (a narrower measure, a different probe)"
+and stops there. A return with no revision discipline is an
+invitation to game it: trim a run here, borrow a band there, lower
+the threshold until it fits inside the noise, re-run calibration
+until a lucky narrow band appears — and the warrant that could not
+resolve its question walks back in wearing a band it did not earn.
+This entry is the discipline for the return: which revisions are
+legitimate, which are forbidden, and when a question stops being
+revisable and parks. It governs the warrant's second application,
+never the specimen, which no return has ever touched.
+
+- **The protocol, in order.** (1) **Return record.** The BANDS-VOID
+return is logged before any revision is drafted: warrant identifier,
+void observable, fresh band, stated hit threshold, and the gap
+between them. The hold on the specimen entry is unchanged, and no
+revision step contacts the specimen or its clone — returns happen
+before execution, so there is no specimen feedback to learn from,
+and none may be invented. (2) **Four legitimate paths, and only
+these.** (a) **Narrow the measure:** restate the observable as a
+coarser derived quantity the instrument does resolve — presence
+rather than magnitude, bucket rather than exact value. The revised
+reading answers the revised question only; it never answers the
+original question, and its entry must say so. (b) **Replace the
+instrument:** a finer instrument takes the same question under a
+new warrant and a fresh T-1105 calibration. (c) **Improve the
+instrument:** a genuine noise reduction — repeated reads averaged,
+a steadier rig — counts as a new observable (the averaged reading),
+not as the old observable with a smaller band, and earns its band
+by fresh fixture runs demonstrating the improvement, not by
+assertion. (d) **Drop the observable:** if the warrant's question
+survives without it, the revised warrant proceeds without it, and
+its reading is explicitly silent on the dropped observable. Silence
+is not clearance, and the entry must not be read as clearing
+anything the dropped observable would have measured. (3) **Fresh
+warrant, fresh calibration.** A revision is a new warrant
+application, not an amendment: new review, new warrant record, and
+fresh T-1105 calibration runs for every observable it carries.
+Prior bands are not carried across, and prior calibration runs are
+not a pool to select from — the runs that proved the instrument
+void stay as the record of the void, never as ingredients of a
+narrower band. Even path (d), which changes nothing but the dropped
+observable, re-measures the remaining observables fresh. (4) **The
+forbidden revisions.** Trimming or discarding kept runs to shrink
+the spread; hand-tightening a band; moving the hit threshold alone
+to sit inside the band, without restating the observable — a
+threshold may move only as part of a path-(a) restatement, as a
+different question, never as a quiet redefinition of the same one;
+re-running calibration until a narrow band appears by luck, which
+is calibration shopping; borrowing another instrument's band; and
+executing anyway "to see what happens," which T-1105 already
+forbids as manufacturing an inconclusive reading. Any revision
+found using a forbidden move voids itself and its warrant, and the
+return stands. (5) **Two-return park.** A second BANDS-VOID return
+on the same underlying question — same specimen entry, same
+intended reading, whatever path was tried — parks the question as
+INSTRUMENT-BOUND: no third application with the same instrument
+class until a materially different instrument arrives carrying
+fixture evidence of finer resolution. The park is a statement about
+the instrument class, not about the specimen, and the hold is
+unchanged. (6) **UNMEASURABLE does not enter this protocol.** A
+T-1105 UNMEASURABLE return means no benign baseline exists for the
+observable; narrowing cannot create a baseline, and a synthetic or
+borrowed baseline is a band by analogy, forbidden by T-1105 step
+(5). Such a question waits for a real benign baseline, outside this
+entry's revision paths.
+
+- **What this is not.** It is not an appeal: the reviewer's return
+stands, and a revision is a new application that must earn its own
+grant, not a rehearing of the old one. It is not execution
+permission: a revised warrant still needs granting, calibration,
+and its own T-1104 single execution. It is not a verdict, and a
+return — first, second, or parked — is not evidence about the
+specimen's character; it is evidence about one instrument's
+resolution against one question. It is not a clearance of the
+dropped observable, the narrowed question's original form, or
+anything else the revised warrant stopped asking.
+
+- **Evidence grade.** SPECULATION throughout. This is a design built
+on T-1105's own return language and its no-band-by-analogy and
+fresh-calibration rules, and on T-1104's one-warrant-one-execution
+discipline as the shape a revised warrant inherits. No warrant has
+ever been returned as BANDS-VOID, no revision under this protocol
+has ever been drafted, granted, or parked, no instrument has ever
+been replaced, improved, or narrowed under it, and no held specimen
+has ever been affected by it. This entry must not be cited as
+evidence that any warrant has ever been revised, re-granted, or
+parked. Designs are designs until run.
+
+*T-1106 trick built 2026-11-03 ~13:00 EST by the decoder-create-loop.*
