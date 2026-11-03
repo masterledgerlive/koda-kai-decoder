@@ -25363,3 +25363,183 @@ TDW-315 unchanged by this run.
 *TDW-316 instrument seeded 2026-11-03 ~01:20 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-317 — the Indefinite-Residency Instrument *(design, never run)*
+
+*TDW-317 instrument seeded 2026-11-03 ~01:48 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-317 — the Indefinite-Residency Instrument — designed:**
+TDW-316 ran a specimen twenty times and then stopped on
+purpose: it does not run past twenty runs to chase a
+twenty-first-run behavior, and it names a longer study
+as a new instrument, not an extension of itself. This
+is that instrument. Its question is the one TDW-316
+leaves open by design: a specimen quiet through twenty
+runs may be dormant, not settled, and dormancy has no
+deadline — a study that stops at twenty cannot tell the
+difference. TDW-317 therefore sets no final run count.
+It continues the SAME residency container from TDW-316
+in blocks of twenty runs — runs 21-40, then 41-60,
+then onward — and reports per block, so every statement
+it makes is dated to a run number and expires when the
+next block runs.
+
+The instrument runs only on a disposable lab host,
+never the mother genesis block, never Shadow's live
+environment, never a container that has held another
+specimen. A completed TDW-316 is this instrument's
+prerequisite gate, and only a completed TDW-316
+qualifies: a TDW-316 run graded UNGRADED must be
+re-run fresh, never continued, because a void run's
+container carries contamination, not residency. A
+TDW-316 graded STILL-ESCALATING qualifies first — it
+is already changing when this instrument picks it up —
+and a TDW-316 graded STABLE qualifies as the dormancy
+question itself: quiet through twenty, still unproven.
+Each block runs at true speed against the same
+scripted network simulator, five minutes per run,
+full behavioral trace per run (syscalls, file writes,
+config edits, network attempts, process tree), each
+run its own fresh canary set, never reused across runs
+or specimens. Beside each block run three controls,
+and no block is complete without all three: the
+fresh-container control, the specimen run once in a
+fresh container at the block's first slot and again at
+its last slot, so simulator drift across the block
+shows up in the control too; the rested control, the
+TDW-316 rested copy carried idle onward and run once
+at each block's end, so age without runs is separated
+from runs at every block, not just once; and the
+restarted control, the residency container restarted
+— same files, fresh processes — before one run in each
+block, so live-process state is separated from on-disk
+residue in every block. At each block's end the
+instrument snapshots the residency container: the
+block-boundary checkpoint. A contaminated block is
+void and re-run from its opening checkpoint, never
+continued past the contamination and never skipped —
+a skipped block breaks the run-number index, and an
+index with a hole cannot date a first appearance.
+
+Pass A, the continued first-appearance index: diff
+each block's traces against every earlier residency
+trace and against the block's controls, and index
+every new behavior by the run number where it first
+appears. A behavior present in a block's fresh control
+is noise, not residency, whatever run it appears on.
+Pass B, the deep-late threshold test: a behavior whose
+first appearance is at run twenty-one or later, absent
+from every control trace, is DEEP-LATE-GATED — it
+needed more than TDW-316's twenty runs, not merely
+five and not the clock. Pass C, the four-way
+correlation: correlate each deep-late behavior's onset
+with run number, with the marker count at that run
+(TDW-315's residue inventory, continued through
+TDW-316 and onward), with container age, and with
+block number. Onset that tracks a marker count is
+count-gated; onset that tracks the run number
+regardless of marker count is run-gated; onset that
+tracks age and appears in the rested control too is
+age-gated; onset that tracks block number alone —
+appearing at block boundaries regardless of run,
+marker, or age — is checkpoint-suspect, and the
+instrument checks the snapshot and restore path
+before it reports any gate at all. Pass D, the
+ablation test, as in TDW-316, repeated for each block
+where a new behavior appears: remove only the
+suspected marker artifacts from a copy of that
+block's end checkpoint, re-run the specimen once, and
+check whether the gated behavior disappears. A
+behavior that vanishes when its markers vanish is
+proved residue-caused, not inferred from a diff; a
+behavior that survives ablation was never gated on
+those markers, and the instrument says so instead of
+claiming a mechanism it did not prove. Pass E, the
+restart test, as in TDW-316, per block: re-run the
+specimen in the residency container after a restart,
+markers intact. A behavior that vanishes on restart
+was live-process state, not residue, whatever its run
+number; a behavior that survives restart is residue or
+age, and Pass C decides between those two.
+
+The instrument grades per block, in six grades, and
+no other grade exists. QUIET-THROUGH-N: no new
+behavior through run N — a dated interim statement,
+never a clearance, and it expires when the next block
+runs, because silence through run N can itself be the
+dormancy. DEEP-LATE-THRESHOLD: a new behavior first
+at run twenty-one or later, absent from every control,
+surviving restart, not age-explained and not
+checkpoint-suspect — the sleeper TDW-316 could not
+live long enough to catch. STILL-ESCALATING: new
+behaviors still appearing in the latest block's final
+runs — the specimen is still changing when the block
+ends, and any verdict on it is a verdict on an
+unfinished specimen. AGE-GATED: onset tracks
+container age and appears in the rested control — the
+gate followed the calendar, not the runs, and a
+run-count story about it would be wrong.
+PROCESS-STATE: behavior vanishes on restart with
+markers intact — live state, not residue, and no
+marker ablation can explain it. UNGRADED: any leak —
+a canary set reused across runs, a control container
+not actually fresh, a rested control that was run
+during its rest, traces mixed between runs or blocks,
+the simulator's answers differing between slots for a
+reason other than the specimen, a block restored from
+a non-boundary snapshot, a checkpoint reused across
+specimens, a block run out of order — recorded in
+T-190's contamination ledger as contamination, and
+the block is void, not failed. A void block grades
+nothing and is re-run from its opening checkpoint;
+a void that cannot be re-run clean ends the study at
+the last clean block, dated to its run number, never
+papered over with the void block's traces.
+
+What this instrument does not do: it does not close —
+no block count proves absence, and a study stopped by
+order at a block boundary reports its last block's
+grade dated to its run number, never a final verdict.
+It does not judge whether deep-late behavior is
+malicious — a trial counter that unlocks a feature on
+run forty-one is gated, not hostile, and malice is a
+holding this instrument never makes. It does not
+dilate time — a branch that fires only after days is
+TDW-01's business, and blocks of runs at true speed
+are not a dilated run. It does not skip a void block
+to keep the index tidy, it does not reuse a container
+across specimens, and it does not claim a quiet run
+count means a safe specimen — silence through any run
+number can itself be the dormancy, and only a longer
+study, which this instrument always is, could tell.
+
+Chain lineage (established in this file, designs never
+run): TDW-316's Long-Residency Instrument (the parent
+instrument — it deferred beyond-twenty residency to a
+new instrument, and this instrument is that deferral
+answered; TDW-316 remains the prerequisite gate);
+TDW-315's Residency Instrument (the grandparent — it
+deferred beyond-five residency first, and this
+instrument answers the deferral at its second remove);
+TDW-01's Time-Dilation Wake-up (the cousin instrument
+— dilated time catches clock-gated branches this
+instrument's true-speed blocks cannot, and this
+instrument's rested control keeps its age deltas from
+being mistaken for run-gating); T-190's contamination
+ledger (the quarantine — canary reuse, stale or
+rested-but-run controls, mixed traces, and checkpoint
+misuse are contamination, which forces UNGRADED).
+SPECULATION — the blocks of twenty, the three
+controls per block, the block-boundary checkpoints,
+the four-way correlation, the per-block ablation and
+restart tests, and the dated per-block grades are
+doctrine until run. No instrument or draft promised
+this run. No other open promises remain on any chain.
+Chain state: instruments TDW-01..TDW-317 (gap-free,
+verified this pass); drafts DRAFT-001..DRAFT-249 +
+DUMMY; catalogue and trick counts carried from
+TDW-316 unchanged by this run.
+
+*TDW-317 instrument seeded 2026-11-03 ~01:48 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
