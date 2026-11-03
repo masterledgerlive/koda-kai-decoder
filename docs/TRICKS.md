@@ -36291,3 +36291,134 @@ destroyed, gone overdue, or been used after expiry
 under this entry. Designs are designs until run.
 
 *T-1117 trick built 2026-11-03 ~15:35 EST by the decoder-create-loop.*
+
+## T-1118 — Attestation-Challenge Adjudication: how a challenge to a destroyed-copy closeout is judged, and what each outcome does
+
+- **The gap it closes.** T-1117 lets a
+T-1112-cleared auditor challenge a
+COPY-DESTROYED-ATTESTED closeout, and says a
+sustained challenge voids the closeout and returns
+the copy to overdue — but never says who judges
+the challenge, on what showing, by when, or what
+each outcome does next. Left there, a challenge is
+a veto with no procedure: filed by anyone's word,
+judged by nobody, open forever, and a voided
+closeout with no stated road back to closed. This
+entry adds the adjudication, and nothing else.
+
+- **Who may challenge, and on what ground.**
+Only a T-1112-cleared auditor may file, on the
+archive record, citing the copy id, the attestation
+date, and exactly one ground: the stated method was
+impossible for the copy's media; the second hand
+was not independent of the requester; the attested
+date is inconsistent with the review's handling
+log; or the copy was sighted after the attested
+date. One ground per challenge. A second ground
+against the same attestation is a second challenge,
+judged on its own record, and still inside the
+window below.
+
+- **The window.** A challenge must be filed by the
+next T-1108 check-run after the attestation. After
+that check-run the attestation stands as filed:
+still marked attested, never upgraded to returned,
+and no longer challengeable. A late challenge is
+refused as untimely, filed on the record as
+CHALLENGE-UNTIMELY, and voids nothing. Finality is
+not forgiveness — the attestation keeps its
+challengeable standing on the record, marked as
+unchallenged-in-window — but a copy cannot live
+under an open challenge forever, or no review could
+ever treat its custody as settled.
+
+- **Who judges.** A second T-1112-cleared auditor,
+cleared fresh for this adjudication, never the
+challenger. The challenger never judges their own
+challenge; the requester and the second hand never
+judge it either. If no second cleared auditor is
+available, the challenge stands filed and undecided
+— CHALLENGE-UNDECIDED — and the closeout stays
+attested, not voided, until judged. An undecided
+challenge voids nothing and holds nothing; it waits
+on the record, visible, until a judge is cleared.
+
+- **The showing.** The adjudicator weighs the
+review's handling log, any media-failure record,
+the second hand's statement, and any
+post-attestation sighting. The burden sits on the
+challenger: a destruction attestation is a sworn
+two-hand filing, and overturning it needs a record,
+not a suspicion. Doubt favors the attestation. A
+challenge that shows only that destruction is
+unusual, or that the requester benefits from
+closure, is not sustained — benefit is not
+evidence, and unusual is not impossible.
+
+- **SUSTAINED.** The closeout is voided, the copy
+returns to OVERDUE, the attestation is marked
+CHALLENGE-SUSTAINED, and the requester's further
+T-1114 requests are held — the same hold as a
+T-1117 escalation — until a closeout is filed
+again. The same copy may close again only by
+fingerprinted return, or by a fresh two-hand
+attestation with a different second hand,
+countersigned by the adjudicating auditor. A
+sustained challenge raises the bar for the second
+try; it does not make re-closeout impossible, or
+the copy would sit overdue forever on a record
+that can never be satisfied.
+
+- **NOT-SUSTAINED.** The attestation stands, the
+challenge is filed on the record, and no penalty
+falls on the challenger — a failed challenge is
+not misconduct, and punishing it would chill the
+next honest one. The same ground may not be filed
+again against the same attestation: no
+re-litigation of a judged ground. A different
+ground may still be filed, inside the window, and
+is judged on its own record.
+
+- **Adjudication closes the challenge, nothing
+else.** It does not reopen the T-1109 audit, does
+not lift a T-1115 hold, does not extend the review,
+does not upgrade an attested closeout to a
+fingerprinted return, and says nothing about any
+specimen — only about whether the destruction
+attestation for one copy stands. The archive
+record keeps the attestation, every challenge, and
+every adjudication together, so a later review can
+see not just how a copy ended, but whether its
+ending was ever contested and how the contest
+came out.
+
+- **Readings.** CHALLENGE-FILED: cleared auditor,
+one stated ground, inside the window, awaiting a
+second cleared judge. CHALLENGE-UNTIMELY: filed
+after the next check-run, refused, voids nothing.
+CHALLENGE-UNDECIDED: filed but no second judge
+cleared yet, closeout still attested. CHALLENGE-
+SUSTAINED: closeout voided, copy overdue, re-
+closeout only by return or auditor-countersigned
+fresh attestation with a different second hand.
+CHALLENGE-NOT-SUSTAINED: attestation stands, same
+ground barred from re-filing. None of these
+readings is a verdict, none clears a held
+specimen, and a judged challenge says nothing
+about any specimen — only about whether one
+copy's claimed destruction survived examination.
+
+- **Evidence grade.** SPECULATION throughout. This
+is a design built on T-1117's two-hand destruction
+attestation and its challengeable standing, T-1112's
+cleared auditor, T-1108's check-run schedule,
+T-1114's retrieval hold, and T-1109's archive
+record; it adds only the four stated grounds, the
+next-check-run window, the second-judge rule, the
+challenger's burden with doubt favoring the
+attestation, the sustained re-closeout bar, and the
+no-re-litigation rule. No attestation has ever
+been challenged, sustained, or left undecided under
+this entry. Designs are designs until run.
+
+*T-1118 trick built 2026-11-03 ~16:20 EST by the decoder-create-loop.*
