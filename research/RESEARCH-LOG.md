@@ -16378,3 +16378,10 @@ Three targeted searches (prediction-market midterm coverage; Bayesian forecastin
 - **epymorph (medRxiv preprint, October 26, 2026):** modular spatial epidemic modeling — transmission, movement, geography as interchangeable components, Bayesian filters feeding probabilistic forecasts, two forecasting experiments. CLAIMED (preprint, not peer-reviewed).
 - **Severity-aware IoT intrusion detection (MDPI Electronics, November 1, 2026):** CNN best on TON_IoT + IoTID20 pool (ninety-six point seven percent accuracy, ninety-five point nine percent F1, held-out test); one hundred seventy-seven anomalies flagged, eighty point two percent medium/high severity under the authors' heuristic. CLAIMED (single paper).
 - **Texture:** online Q-learning LDoS detection in P4 SDN (November 2, 2026): F1 zero point eight five five, false positive rate zero point one four one (upper confidence bound above target), latency four point two one seconds — CLAIMED. Bayesian landslide forecasting framework (September 17, 2026), twenty-two-year dataset, posterior-over-prior gains — CLAIMED.
+
+**Close-out (2026-11-03 ~09:10 EST, rotation #7):**
+- **Push result:** sync-github.py exit 0 — "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged." This pass's public entry pushed; the single-file push also carries the rotation #5 (07:57) and #6 (08:28) public entries held back by GitHub HTTP 500s. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-0900.md, Rook's voice.
+
+**Run summary (close-out):** rotation #7 — working loop, three new log-only items (election-day midterm snapshot, corroborated as price reporting; epymorph preprint, claimed; IoT intrusion framework, claimed) plus texture notes; no library growth. Public entry pushed (including #5/#6 backlog). Shadow mirror deferred. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
