@@ -463,6 +463,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   independent replication yet — but the author documents fourteen of his own
   theories killed in public and states the manuscript alone cannot choose
   between the two survivors.
+- **Schwartz held-out negative (new to record, November second, twenty twenty-six) — October twenty twenty-six preprint, via the October thirty-first, twenty twenty-six neuralgrimoire audit (secondary; preprint not read first-party this pass).** One hundred and thirty main reading hypotheses plus two hundred and eighty-two more across twelve further languages were tested on held-out pages; none met the pre-registered criterion. It joins the earlier tournament result (zero of seventeen) as the second large held-out null of twenty twenty-six — the null keeps surviving bigger test sets. The same audit found no peer-reviewed paper or preprint behind the viral twenty twenty-six story that artificial intelligence had decoded thirty percent of the manuscript: unnamed teams, unpublished results. Filed as corroborated as a negative-result report via secondary audit, and claimed for the preprint's own counts until read first-party. Explicitly not a decipherment — it is the absence of one, measured.
 - **What "deciphered" even means here:** without a bilingual text, a proposed
   solution must be self-proving. The field is full of crank claims with
   keyboards — treat every announcement as CLAIMED until independently validated.
