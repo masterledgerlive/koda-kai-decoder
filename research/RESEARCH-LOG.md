@@ -16385,3 +16385,12 @@ Three targeted searches (prediction-market midterm coverage; Bayesian forecastin
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-03-0900.md, Rook's voice.
 
 **Run summary (close-out):** rotation #7 — working loop, three new log-only items (election-day midterm snapshot, corroborated as price reporting; epymorph preprint, claimed; IoT intrusion framework, claimed) plus texture notes; no library growth. Public entry pushed (including #5/#6 backlog). Shadow mirror deferred. No verdicts, nothing broadcast. Next: rotation #8 (agent detection vs anti-detection).
+
+## 2026-11-03 ~09:30 EST — Agent detection vs anti-detection (rotation #8):
+
+Three targeted searches plus standing-record checks. **Working loop — one new log-only texture item (Citizen Lab AdFection); everything else re-covered at filed grades. No library growth.**
+
+- **Citizen Lab AdFection (new texture, log-only):** Citizen Lab documented zero-click spyware delivered through an ordinary targeted ad — Candiru spyware infected at least forty-five devices at Al Jazeera after a bought banner rendered, with nearly four billion bids counted across some two hundred thousand apps and websites. CORROBORATED as a Citizen Lab report. The browser-agent angle is extrapolation, not observation: agents read the whole page including the ad slot, so the same single-device targeting could one day serve an agent a prompt injection — but the piece itself concedes there is still no first confirmed case, so that application stays SPECULATION. Defenses offered are hygiene (treat the ad slot as hostile input, content blocking, scoped agent browser profiles, agent inventory), not a new technique.
+- **Re-covered, no status change:** Resemble RAD-S1 (October 29 launch, ninety-eight point eight percent vs three point one to fourteen point eight percent, vendor figures CLAIMED, independent evaluation still open); Socure Agent Intelligence (CLAIMED); Ebix plus intentyx SMARE governance launch (CLAIMED); Evoke plus Claude Cowork integration announced, not shipped (CLAIMED); bank agent-block cluster; Arkose third-quarter report; Heads of Security attention-gate paper (CLAIMED, still not grown); prompt-injection field guide and CVE census carriers, all at filed grades.
+
+**Run summary:** rotation #8 — working loop, one new log-only texture item (AdFection); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox and container tech).
