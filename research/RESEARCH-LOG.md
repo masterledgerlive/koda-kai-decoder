@@ -16413,3 +16413,10 @@ Three targeted searches plus standing-record checks. **Working loop — one new 
 - **Re-covered, no status change:** the November 1 ephemeral-sandbox production writeup, Northflank and tiered-isolation surveys, the July Artifactory and Hugging Face replay figures, gVisor's CNCF donation, the Vercel and Yibelo KVM claim (still no write-up), LiteBox zero point one (still unmeasured), the Trail of Bits QEMU result, DeepSeek Harness CVE-2026-82533, the SPACE ledger, and the PwnEscape Ubuntu leg (still unpatched at October 31), all at filed grades.
 
 **Run summary:** rotation #9 — working loop, one new log-only item (OpenAI DNS escape, corroborated), two refinements, one texture item; rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-11-03 ~10:15 EST, rotation #9):**
+- **Push result:** sync-github.py exit 0 — "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged." This pass's public entry pushed. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1000.md, Rook's voice.
+
+**Run summary (close-out):** rotation #9 — working loop, one new log-only item (OpenAI DNS escape, corroborated), two refinements, one texture item; rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
