@@ -36698,3 +36698,136 @@ filed deferred under this entry. Designs are
 designs until run.
 
 *T-1120 trick built 2026-11-03 ~17:57 EST by the decoder-create-loop.*
+## T-1121 — The Deferred Hearing: what a challenge to a destruction attestation is judged on when the copy is already gone
+
+- **The gap it closes.** T-1120 opens the
+deferred window and seats the FILED-DEFERRED
+challenge as the window's challenge — but it
+never says what the hearing weighs. The copy
+is destroyed: that is the act the attestation
+attests. A hearing that demands the copy
+re-examined proves nothing can ever be
+challenged, because the evidence the challenge
+would re-examine is the thing destroyed. A
+hearing that accepts the attestation at face
+value proves nothing can ever be overturned,
+because the attestation is the only record the
+destruction left. Left there, every deferred
+challenge is either impossible or ceremonial.
+This entry gives the hearing its object — the
+attestation record, never the copy — and
+nothing else.
+
+- **The record under judgment.** The hearing
+judges the T-1117 destruction attestation and
+its companions, and nothing else: the
+attestation itself, the copy identity it names,
+the fingerprint or return record that ties the
+act to that identity, the T-1108 check-run
+log entries bracketing the act, and the
+challenger's named ground. The specimen is
+not judged, the requester is not judged, and
+no other attestation is judged — a defect in
+one copy's record voids that copy's closeout
+only, and never travels to a sibling copy.
+
+- **The burden.** T-1118's burden rule, applied
+to a record that is all that remains: the
+challenger shows a defect IN the record, not a
+fact ABOUT the copy. A missing fingerprint, a
+copy identity the record never ties to the act,
+a check-run gap where the log should bracket
+the destruction, an attestation filed under a
+flag the record contradicts — any of these is
+a ground. "The copy is gone" is never itself
+a ground, because destruction was the attested
+act; a challenger who proves only that the copy
+cannot be produced proves the attestation's
+premise, not its failure. A challenger who
+proves the record does not tie the act to the
+named copy proves the attestation failed, even
+though the copy is gone either way.
+
+- **Interim status.** While the challenge is
+pending — undecided under T-1119's clock —
+the closeout stands but is marked
+CHALLENGE-PENDING: neither void nor
+confirmed, visible on the record, and the
+copy's file is barred from any second
+closeout until judgment. The bar is not
+resurrection: nothing about a pending
+challenge says the copy survives, and no
+auditor may treat CHALLENGE-PENDING as a
+hold on any specimen. It bars only the paper
+— one copy, one closeout at a time, so a
+judged SUSTAINED never has to void two
+closeouts for one destruction.
+
+- **Judgment.** SUSTAINED: the closeout is
+void, per T-1120's rule that only a judged
+SUSTAINED voids a closeout. Voiding does not
+un-destroy the copy — the act stands, the
+attestation falls — and the copy's record is
+marked UNATTESTED-DESTRUCTION: destroyed,
+but no longer attested destroyed, and open to
+a fresh attestation on a fresh record, never
+to a re-destruction of what is already gone.
+DENIED: the closeout is confirmed, the
+CHALLENGE-PENDING mark clears, and the
+attestation stands for that copy. UNDECIDED
+past T-1119's clock: the mark stays, the
+closeout stands, and the challenge remains
+visible — an undecided challenge is a pending
+question, never a quiet denial.
+
+- **What a hearing never does.** A hearing
+does not re-examine the copy, summon the copy
+back, judge the specimen, hold the requester,
+clear a CONTESTED-ATTESTED flag on any other
+attestation, revive a CHALLENGE-LAPSED
+challenge, or reopen a judged challenge. Only
+a judged SUSTAINED voids a closeout, and only
+a fingerprinted return upgrades one — the
+hearing decides what the record proves, never
+what the destruction means.
+
+- **Readings.** HEARING-OPEN: the deferred
+window's challenge is being heard on its
+record. RECORD-JUDGED: the attestation record
+weighed, the copy never summoned.
+CHALLENGE-PENDING: closeout stands, second
+closeout barred, judgment awaited.
+SUSTAINED-UNATTESTED: closeout void, act
+stands, attestation fallen, fresh attestation
+open. DENIED-CONFIRMED: closeout confirmed,
+mark cleared. None of these readings is a
+verdict on any specimen, and none says the
+copy survives — only what one copy's
+destruction record proves.
+
+- **Evidence grade.** SPECULATION throughout.
+This is a design built on T-1120's deferred
+window and FILED-DEFERRED standing, T-1119's
+undecided clock, T-1118's challenge window
+and burden rule, T-1117's destruction
+attestation, T-1112's cleared auditor, and
+T-1108's check-run schedule; it adds only the
+record as the hearing's object, the
+record-defect burden, the CHALLENGE-PENDING
+interim mark with its one-closeout bar, and
+the SUSTAINED-UNATTESTED / DENIED-CONFIRMED
+judgment pair. No deferred challenge has ever
+been heard, no closeout has ever been voided,
+and no copy has ever been marked
+UNATTESTED-DESTRUCTION under this entry.
+Admitted here, unsolved: whether a SUSTAINED
+voiding should require a fresh attestation or
+may stand permanently unattested — a copy
+destroyed under a fallen attestation may have
+no fresh record left to attest with; and
+whether CHALLENGE-PENDING should bar closeouts
+on sibling copies of the same original, or only
+on the challenged copy itself. Designs are
+designs until run.
+
+*T-1121 trick built 2026-11-03 ~18:50 EST by the decoder-create-loop.*
