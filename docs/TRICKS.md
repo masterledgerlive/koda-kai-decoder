@@ -35438,3 +35438,98 @@ been missed, suspended, or retired under this entry, and no
 band has ever expired unchecked. Designs are designs until run.
 
 *T-1108 trick built 2026-11-03 ~13:17 EST by the decoder-create-loop.*
+
+## T-1109 — Retired-Band Archive Audit: what a retired band leaves behind, and what it does to the readings that used it
+
+- **The gap it closes.** T-1107 retires bands (configuration
+change, age/use expiry, check-run drift) and T-1108 retires
+them for two consecutive missed checks, but neither says what
+happens to the retired band afterwards, or to the executions
+and readings that ran against it while it lived. A retired
+band that simply vanishes takes its evidence with it: nobody
+can later tell whether a reading was taken inside a valid
+band or past its retirement. A retired band that lingers
+as a usable record is worse — it invites reuse. This entry
+fixes both ends: every retirement archives the band and
+audits the executions that read against it, and no retired
+band is ever used again.
+
+- **The archive record, written at retirement.** Retirement
+writes one archive record, in the same act as the
+retirement, never later and never from memory: the band's
+frozen values and the observables they cover; the freeze
+date and rig fingerprint; the schedule and age/use counter
+limits from T-1108; the full check history (each check set,
+its result, its operator); the retirement reason — which
+T-1107 trigger, or T-1108's two-missed-checks rule — with
+the execution or date at which it took effect and the
+operator who recorded it; and the list of executions that
+read against the band, by execution id, from freeze to
+retirement. A retirement without its archive record is
+incomplete: the band is treated as still live for audit
+purposes — executions against it stay halted — until the
+record is written. The archive is evidence, not a spare
+band: its values may be consulted as history, but they
+may never be carried into a new band, quoted as a current
+band, or used to grade a new execution.
+
+- **The audit, run once per retirement.** The audit is a
+sweep of the execution list in the archive record, run by
+an auditor independent of the operator who ran those
+executions, and it asks exactly one question per execution:
+was this reading taken while the band was valid — frozen,
+checked on schedule, and not yet retired? A reading taken
+inside the valid window stands exactly as recorded; the
+audit changes nothing about it. A reading taken after
+the retirement should have taken effect — an execution
+that ran against a band already retired, or against a
+band whose check was missed and its suspension ignored —
+does not stand: it is flagged TAINTED, its specimen's
+record is annotated, and any held specimen whose hold
+rested on it returns to T-1103 review, not to clearance.
+A reading whose execution id references a band with no
+archive record at all is an ORPHAN: a record error under
+T-1103, handled there, never silently repaired by writing
+a backdated archive. The audit's result is recorded on
+the archive record itself, with auditor and date, so the
+retirement and its audit travel together.
+
+- **No resurrection, no quiet reuse.** A retired band is
+never re-frozen, never re-activated after a clean check,
+and never revived because a later re-calibration produced
+similar values. Similarity is not identity: a new band is
+a new full measurement under T-1101 or T-1105, frozen
+under its own schedule, with its own archive record
+waiting at its own retirement. The old archive stays
+readable for as long as any held specimen, held verdict,
+or open review cites it — deletion of an archive record
+while a citation stands is forbidden, and the audit
+itself is what certifies that no live citation remains.
+An archive whose citations have all closed may be sealed,
+not deleted: sealed archives stay retrievable, marked
+SEALED, with their audit result attached.
+
+- **Readings.** ARCHIVE-CLEAN: every listed execution fell
+inside the valid window — readings stand, archive sealed
+when its citations close. ARCHIVE-TAINTED: at least one
+execution ran past retirement or past suspension — those
+readings flagged, affected holds returned to T-1103
+review, none cleared by the audit itself. ARCHIVE-ORPHAN:
+an execution cites a band with no archive record — record
+error, T-1103 handling, no backdated repair. None of
+these readings is a verdict, none clears a held specimen,
+and a clean audit says nothing about any specimen — only
+about whether the bands its readings rested on were
+watched, retired on time, and accounted for afterwards.
+
+- **Evidence grade.** SPECULATION throughout. This is a
+design built on T-1107's retirement triggers, T-1108's
+missed-check retirement and its recorded check history,
+T-1106's ban on carried bands, and T-1103's record-error
+reading; it adds only the archive record, the one-question
+audit, and the no-resurrection rule. No band has ever
+been retired, archived, or audited under this entry, no
+reading has ever been flagged TAINTED, and no archive
+has ever been sealed. Designs are designs until run.
+
+*T-1109 trick built 2026-11-03 ~13:35 EST by the decoder-create-loop.*
