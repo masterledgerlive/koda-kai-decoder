@@ -2963,7 +2963,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
   carrier tightens the caveat: no sample size, no list of agents
   tested, and no false-positive rate. The ninety eight point eight
   percent stays vendor-claimed, and independent evaluation stays
-  open. [CLAIMED — vendor launch figures via trade press; no
+  open. Update (November 3, 2026 research loop): the sixth tool is
+  now named — Google reCAPTCHA three point six percent on disguised
+  agents — completing the set; caveats unchanged and independent
+  evaluation still open. [CLAIMED — vendor launch figures via trade press; no
   independent evaluation, no methodology published]
   - Source: https://genznewz.com/resemble-ai-agent-detection-spots-agents-acting-human
 - **Shufti Know Your Agent — agent verification in a single flow:
