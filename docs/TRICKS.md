@@ -34463,3 +34463,128 @@ T-920 left open whether payment by a petitioner, by itself, defeats a translator
 **What this rule does not do.** It does not decide two pairs plus thirty-six further settlements at different times, or whether a thirty-sixth further inserts into a thirty-seven-link chain on the same insertion-without-re-judgment terms; two pairs plus thirty-five furthers where two furthers settle at the same instant, and whether two singles at one instant form a pair-unit under the same rules as P and Q; two pairs plus a further settlement at the same instant as one pair-unit, and whether that pair grows into a set while the other stays a pair; a pair plus a set at different times, beyond the pair-plus-third and set-plus-later cases, where the set's whole-set judgment meets the pair-unit's judgment rather than a single settlement's; two pairs in successive intervals over the same role; two pairs plus a further settlement where the further settlement is itself a pair or a set, so three units meet rather than a chain of units and settlements; a chain of three units where the middle unit is a set rather than a pair; a chain link that is appealed successfully and then reinstated on a further appeal, and whether the chain re-forms or stays held; a further settlement that arrives after the t1 map entry but before the first joint act relying on the role, beyond the pre-act amendment decided in T-1045; a pair whose ground expressly depends on the other pair's ground, or on one member of the other pair, where dependency and time order collide; a further settlement whose ground is partly the pair-unit's ground and partly independent, where only the dependent part fails; point-splitting a held role across operative points, for pairs, sets, pair-plus-later, set-plus-later, and two-pair cases alike; a priority clause naming a pair-unit that is itself disputed, beyond the fallback to time order in the sixth rule; a joint order of all thirty-nine disputes' parties that is itself disputed, forged, or appealed, beyond the fallback to chain order; a joint order directing separate treatment of a merged set that is itself disputed, forged, or appealed, beyond the return to merger; a pair backdated to an instant between tp and tq, beyond the backdating reservation in T-1046; a two-pair case at the boundary instants t0 or t1 exactly, beyond the interval-membership reservation in the seventh rule; a disputed merger instrument combined with an interval settlement; a merger unwound before t1 with a two-pair case pending; the mirror case, a dispute at A rather than B settling in the interval; a settlement after map entry and after the first joint act relying on the role, beyond the pre-act amendment decided in T-1045; a candidate joining after t1 whose dispute settled in the interval before they joined; a merger of three-plus bottoms with a disputed person, beyond the two-bottom case; two disputed persons merging, beyond the single-disputed-person case; a dispute arising after the merger at the merged bottom; a person joining an N-triple stack after entry time; a cycle spanning two bottoms beyond the pending-cycle re-test decided in T-1043; an arbiter at a third bottom dependent on both bottoms; a whole-cycle record that is itself later contradicted by a further record, beyond the forgery case decided in T-1050; two independent four-way conflicts on the same pair arising at different times; a third forgery by a barred issuer's successor, and whether succession itself can be barred; a keeper who is also a disputant in the stack its ledger serves; a forgery discovered after a third re-closure, and whether the fixed point declared in T-1056's second rule holds for a fourth re-opening; a closure forged by a successor keeper, and whether succession itself can be barred; a successor of a permanently excluded source, and whether the exclusion follows the successor or dies with the source; two forgeries discovered in separate sweeps with no re-closure between them, beyond the single-event counting rule for simultaneous discoveries decided in T-1056's sixth rule; a third forgery that impeaches both prior fresh resolutions at once, beyond the single-impeachment distinction in T-1056's second rule; a sole resolution that is merely uncorroborated rather than proved forged — that record stays held and unproved, not struck, and its cycle stays held for want of proof, not revived by striking; two authors forging against each other, each alleging the other's record; keeper forgery spanning two ledgers the same keeper holds, beyond the sweep decided in T-1051's eighth rule; a keeper who is also the auditor of its own ledger, beyond the clean-arbiter bar in T-1051's sixth rule; an appeal already under appeal at t0, an appeal filed after the merger is unwound, two appellate decisions on the same settlement reaching opposite outcomes from parallel appellate routes at B with no hierarchy between them, an appeal against a boundary-instant settlement whose order relative to t0 or t1 is itself under a T-1047 conflict, or an appeal filed after the merged stack has closed on the settlement, beyond the appeal rules in T-1057; or a candidate whose B-roles are themselves disputed at B beyond the candidacy suspension decided in T-1042 — the underlying B-dispute's own merits, procedure, and appeal route remain B's business, not this rule's.
 
 *T-1098 trick built 2026-11-02 ~22:10 EST by the decoder-create-loop.*
+
+## T-1099 — The General Two-Pairs-Plus-N-Furthers Rule
+
+**The problem it answers.** T-1063 through T-1098 decide the two-pairs-plus-furthers
+case one integer at a time: one further, then two, then three, up to thirty-five
+furthers, each entry re-arguing the same chain in longer words. That grind has no
+natural end — a thirty-sixth further would demand T-1100, a fortieth T-1104, and
+so on, with nothing new decided at any step. This rule decides the case once, for
+every finite n, and retires the increment series: a future case cites this rule
+with its own n, not a new numbered entry. It is a design, never run: no test, no
+specimen, no result.
+
+**The case.** Pair P = {A1, A2} settles at instant tp and pair Q = {B1, B2} settles
+at instant tq, tp ≠ tq, both inside the interval [t0, t1) over the same role R.
+Let n ≥ 0 be finite, and let n further single settlements F1, …, Fn settle at
+distinct instants tf1, …, tfn, also inside [t0, t1) over R, with tp, tq, and all
+tfi pairwise distinct. (n = 0 is the bare two-pairs case of T-1063; n = 35 is
+T-1098.) The furthers are indexed here by instant order, not by the letter-run
+naming of T-1063–T-1098 — the D-through-Z then AA-onward letters were bookkeeping,
+not substance, and they are not carried forward.
+
+**The first rule is that there is one chain of n + 2 links, and insertion is not
+re-judgment.** Let L be the earlier pair-unit and O the later pair-unit under
+T-1063. The n + 2 entry-units sort by instant into a single chain; later-controls
+under T-1058 runs between adjacent links only. There is no furthers-first bracket,
+no pairs-first bracket, and no unit of units: the bar on brackets in T-1095–T-1098
+holds for every n. A further that arrives while a chain is already formed inserts
+as one more link: it sorts by instant into the chain and forms exactly two new
+comparisons, one against the link immediately below it and one against the link
+immediately above it, or one comparison if it lands at the bottom or the top.
+Every comparison among the prior links that remains adjacent after insertion stands
+as decided — it is not re-run, re-judged, or re-opened because a new link arrived.
+The single comparison the inserted link severs, where it lands between two formerly
+adjacent links, is retired, not re-decided: its supersession record stays in the
+chain as history, and any citation of that supersession must now run through the
+inserted link. Insertion never revives a superseded link, never re-orders two links
+whose relative order the chain has already placed, and never changes the operative
+entry except by the inserted link itself landing on top of the chain. The chain is
+computed over all units present at t1: insertion order, filing order, dispute-id
+order, receipt order, and list position are barred as tie-breaks exactly as in
+T-1060, T-1062, and T-1063–T-1098.
+
+**The second rule is that the operative entry is the top link, and a fallen top
+link does not revive what it displaced.** The top link of the chain is operative
+for R. If the operative entry is appealed, struck for forgery, or fails the
+merged-stack re-test on its own ground, the chain outcome returns to the next link
+down — the link that was operative before the fallen entry arrived — not to any
+earlier superseded link, and no displaced link revives. This is the no-revival
+rule of T-1095–T-1098, stated once for every n rather than once per n.
+
+**The third rule is that a priority clause or joint order displaces one adjacent
+comparison at a time, that a displacement dies with the comparison it displaces,
+and that a pre-insertion whole-chain order does not bind the inserted link.** The
+chain order is displaced only by (a) an express priority clause in the merger
+instrument itself naming the two adjacent entries being compared — a further and a
+pair-unit, both members together, or two furthers where they are adjacent — as
+controlling for R against each other, or (b) a joint order of every party to all
+n + 4 disputes (A1, A2, B1, B2, and F1, …, Fn) naming the controlling entry. A
+clause naming two entries that are not adjacent names a comparison that never
+runs, and breaks nothing. A clause naming "the furthers" as a side, or naming a
+pair-unit plus all n furthers as a combined side, invents a unit and breaks nothing.
+Displacing one comparison of a middle link leaves that link's other comparison
+intact. Where insertion severs a comparison that a priority clause had displaced,
+the displacement retires with the comparison: it does not transfer to either of the
+inserted link's new comparisons. Where a whole-chain joint order predates a further,
+it does not bind the inserted link: its displacements survive only for comparisons
+among the original parties that remain adjacent, the inserted link's comparisons run
+by instant against its neighbours, and the top link of the resulting chain is
+operative — whether that is the joint order's entry or the inserted link. Only a
+fresh joint order of every party to all disputes in the enlarged chain reorders the
+chain as a whole. A joint order signed by all but one party breaks nothing:
+near-unanimity is a majority with a dissent. In every branch, a displacing clause or
+order passes the merged-stack re-test on its own ground, and if it fails the
+re-test, is appealed, or is struck for forgery, the chain outcome returns.
+
+**The fourth rule is that overlapping units, furthers over different roles, shared
+instants, and boundary or backdated instants are not two-pairs-plus-n-furthers cases
+at all.** If any further is the same dispute as a pair member, there is no further
+settlement meeting two pairs but a union question already governed by T-1063's sixth
+rule — a shared member is counted once, and the units never form as distinct. If any
+further settles a role R2 distinct from R, it enters independently under T-1045: the
+chain counts only for a shared role. If any two furthers settle at the same instant,
+they are not furthers at different times but a same-instant pair-formation question,
+left open below. If a further settles at the same instant as a pair-unit, the case is
+the pair-growth case left open in T-1063–T-1098, not this rule. If a further is
+itself a pair or a set rather than a single settlement, the case is the three-units
+case left open below, not this rule. The boundary instants t0 and t1 are outside
+this rule: any entry at t0 or t1 exactly raises interval membership under T-1046
+before any chain comparison runs. A further settlement backdated to an instant is not
+at that instant under this rule either: backdating is reserved under T-1046, and a
+backdated instant neither joins the chain nor displaces a link unless the backdating
+itself survives its own challenge. A further that arrives only after the t1 map entry
+is not an insertion into this chain at all: it raises the T-1045 pre-act amendment
+question, reserved below, and does not retroactively re-sort a chain already entered.
+
+**What this rule retires, and what it leaves open.** T-1063–T-1098 stand as the
+worked instances for n = 0 through n = 35; they are not repealed, and a citation to
+a specific worked instance still resolves to this rule with that n. No new numbered
+entry is needed for any further n: a case with n furthers cites "T-1099 with n = k"
+and runs the four rules above. Left open, as in T-1098: two pairs plus a further
+that is itself a pair or set; same-instant pair formation among furthers; the
+pair-growth case; interval membership at t0/t1; the T-1045 pre-act amendment
+question; and every open case carried forward in T-1098's closing list — a merger
+unwound before t1 with a two-pair case pending; the mirror case; a settlement after
+map entry and after the first joint act relying on the role; a candidate joining
+after t1 whose dispute settled in the interval before they joined; and the rest of
+that list, which this rule does not decide and does not shorten.
+
+**Evidence grade.** SPECULATION throughout. This rule is a design built on the prior
+designs T-1045, T-1046, T-1047, T-1050, T-1053, T-1057, T-1058, T-1059, T-1060,
+T-1061, T-1062, and T-1063–T-1098, which are themselves designs, not runs. No
+specimen has ever presented two pairs plus n further settlements in a merger
+interval under observation for arbitrary n, no further has ever inserted into a
+formed chain of arbitrary length, and no priority clause or joint order has ever
+named a general-n chain entry. Every claim above about what a merged stack would do
+is a proposal for a future gauntlet run, not a report of one. This entry must not be
+cited as evidence that any dispute has ever settled in a merger interval, that two
+pairs plus any number of further settlements have ever shared an interval or a role,
+that any pair-unit or chain link has ever been judged compatible or held, that any
+re-test has ever passed or failed, that any entry has ever been superseded or
+appealed or struck, that any chain has ever formed, that any insertion has ever
+severed a comparison, or that any priority clause or joint order has ever been
+issued or honored.
+
+*T-1099 trick built 2026-11-03 ~07:05 EST by the decoder-create-loop.*
