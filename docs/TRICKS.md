@@ -35002,3 +35002,100 @@ refuted, or left inconclusive under this procedure. Designs are designs
 until run.
 
 *T-1104 trick built 2026-11-03 ~12:35 EST by the decoder-create-loop.*
+
+## T-1105 — Fresh-Band Measurement: giving a warranted instrument bands for the observables the T-1101 fixture never touches
+
+- **The gap this entry closes.** T-1104 step (3) requires the warranted
+instrument's own bands stated before the run, "calibrated against the
+T-1101 fixture where the instrument's observables overlap it, measured
+fresh where they do not." Overlap has a procedure — T-1101. Fresh
+measurement has none. Until this entry, an operator facing a novel
+observable — one the fixture never exercises — had exactly two bad
+moves: borrow a T-1101 band for an observable the fixture never read,
+which is false precision dressed as calibration; or state a band by
+feel, which T-1104 already rules as commentary, making the execution
+INCONCLUSIVE by rule. A warranted instrument whose novel observables
+carry no honest band is a warrant that cannot be executed at all, and
+the escape clause quietly dies. This entry is the missing procedure:
+how a novel observable earns a band before the single execution, and
+when it cannot earn one.
+
+- **The protocol, in order.** (1) **Observable inventory.** Before any
+calibration, the operator lists every observable the warranted
+instrument reads, and sorts each into OVERLAP — the T-1101 fixture
+exercises it, so the fixture's bands govern — or NOVEL — the fixture
+never touches it. An observable left unsorted is unbanded by rule: the
+warrant is not executed until the inventory is complete, because an
+unlisted observable is an unbanded one. (2) **Fixture-as-subject.**
+For each NOVEL observable, the instrument is run against the T-1101
+calibration fixture itself — not against any specimen, not against the
+held clone. The fixture is known-benign, deterministic, and
+output-known, so whatever the instrument reads from it is
+rig-and-instrument noise, never specimen signal. Five runs watched,
+five blind, same image, same seed, same input; the first run of each
+set is discarded as warm-up, exactly as T-1101 prescribes. (3) **Band
+rules carried over.** Exact observables get zero-width bands by rule:
+the instrument's reading of the fixture must be identical across all
+eight kept runs, or the observable is unbandable (see step 5).
+Measured observables get the observed spread of the kept runs widened
+by one further kept run's worth of slack — the T-1101 rule, applied to
+the instrument's own readings. (4) **Freeze before execution.** The
+fresh bands are written into the warrant record before the T-1104
+single execution, and they travel with its entry. Bands stated after
+the execution are commentary, and the reading is INCONCLUSIVE by the
+same rule that governs T-1104's own bands. (5) **No band by analogy.**
+If the instrument cannot read the fixture — its novel observable
+requires specimen-class input the fixture cannot supply, or the
+instrument's reading of the fixture varies on an exact observable —
+then the observable earns no band, and the warrant is returned
+unexecuted, not executed on a borrowed band. A band borrowed from a
+different observable, a different instrument, or a prior campaign is a
+band from nowhere, and executing on it would launder a guess into a
+reading. (6) **Calibration is not execution.** The fixture runs in
+step (2) do not consume the T-1104 single execution: they read the
+fixture, never the specimen clone, and they produce no reading about
+the specimen. One calibration per warrant; a recalibration after an
+image or host change re-runs the fixture sets, and bands set under old
+conditions are flagged, not silently carried, under T-1101's drift
+discipline.
+
+- **The three outcomes.** BANDS-SET: every NOVEL observable earned a
+band under steps (2)–(3), the warrant record carries the full
+inventory, and the T-1104 execution may proceed under those bands.
+BANDS-VOID: a fresh band is wider than the warrant's stated hit
+threshold — the instrument cannot resolve what the warrant asks it to
+measure. The warrant is returned for revision (a narrower measure, a
+different probe), not executed to see what happens; executing an
+instrument known unable to resolve its question is manufacturing an
+inconclusive reading. UNMEASURABLE: step (5) fired — no benign
+baseline exists for the observable. The warrant is returned, and the
+held entry keeps its hold with the return logged. None of the three is
+a reading about the specimen, none clears anything, and none is a
+verdict: all three are statements about the instrument, made before it
+ever touches a specimen clone.
+
+- **What this is not.** It is not a T-1101 re-calibration: T-1101
+calibrates the rig with a known fixture, this calibrates a new
+instrument against that same fixture. It is not a specimen run:
+calibration reads the fixture only, and a calibration run that touches
+the held clone voids itself and the warrant. It is not a second
+execution: the T-1104 single execution still runs exactly once, under
+bands this entry helped set. It is not a band factory: one warrant
+earns one calibration, and a revised warrant earns a fresh one — bands
+do not accumulate across warrants into a general-purpose table, because
+a band measured for one instrument's question is not a band for
+another's.
+
+- **Evidence grade.** SPECULATION throughout. This is a design built on
+T-1104's own step (3) — bands "measured fresh where they do not"
+overlap the T-1101 fixture — and on T-1101's five-and-five fixture
+runs, warm-up discard, zero-width exact bands, and spread-plus-slack
+measured bands as the rules a fresh measurement inherits. No warranted
+instrument has ever carried a novel observable, no fresh band has ever
+been measured under this procedure, no warrant has ever been returned
+as BANDS-VOID or UNMEASURABLE, and no held specimen has ever been
+affected by it. This entry must not be cited as evidence that any
+warranted instrument has ever been calibrated, banded, or executed.
+Designs are designs until run.
+
+*T-1105 trick built 2026-11-03 ~12:45 EST by the decoder-create-loop.*
