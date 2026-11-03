@@ -16553,3 +16553,10 @@ Three targeted searches (Wireshark 5.0 release / new dissector, November 2026; n
 - **Library changes:** none — not material (chip/module announcements and a proprietary-mesh-to-MQTT gateway note; no new dissector, no shipped decode surface, no open wire spec).
 
 **Run summary:** rotation #3 — near-quiet loop, two small new log-only texture notes (Nordic nRF71 Wi-Fi/Bluetooth LE/Thread chip announced November 3, claimed vendor announcement; NeoMesh electronica 2026 demo with NeoGW proprietary-to-MQTT gateway detail, claimed vendor demo announcement); whole window otherwise re-covered (Wireshark 5.0.0 final still dateless with SharkFest EU under way, 4.6.10/4.4.20 due November 12, STAMP residual-BER draft unchanged, Thread/KNX white paper and Spectrum convergence restated, no SharkFest announcement surfaced). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-11-03 ~13:35 EST, rotation #3):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged" — this pass's public entry pushed.
+- **Shadow mirror:** DEFERRED — Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1328.md, Rook's voice, quiet-loop line.
+
+**Run summary (close-out):** rotation #3 — near-quiet loop, two small new log-only texture notes (Nordic nRF71 chip announced November 3, claimed; NeoMesh electronica demo with NeoGW gateway detail, claimed); whole window otherwise re-covered (Wireshark 5.0.0 final still dateless, SharkFest EU under way, 4.6.10/4.4.20 due November 12). No library growth. Public entry pushed (1 pushed). Shadow mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
