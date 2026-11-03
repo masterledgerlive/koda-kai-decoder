@@ -36051,3 +36051,124 @@ ever been imposed or released, and no refusal has
 ever been challenged. Designs are designs until run.
 
 *T-1115 trick built 2026-11-03 ~15:05 EST by the decoder-create-loop.*
+
+## T-1116 — The Granted Re-opening: what a re-opened request may receive, and what it may not
+
+- **The gap it closes.** T-1115 re-opens a
+wrongly-refused request as a fresh request, then stops:
+it says the re-opened request still needs a full T-1114
+grant, but never says what that grant looks like when
+the request arrives carrying a refusal and a challenge
+on its back. Left there, a re-opening can quietly
+become more than the original request — a wider scope,
+a longer life, a fresh purpose slipped in while the
+challenge is pending — or less than it: granted in
+name, then refused again on the same ground the
+challenge already overturned, so the overturn means
+nothing. This entry adds the grant rules for a
+re-opened request, and nothing else.
+
+- **Re-opening restores, it does not rewrite.** The
+re-opened request carries the original four T-1114
+fields exactly: same archive, same requester, same
+purpose, same scope. Any change — a wider scope, a
+new purpose, a different requester — is not a
+re-opening; it is a new request, filed fresh, and it
+loses the overturned refusal's standing. A requester
+who wants more than the original asked for files for
+it separately, after the re-opened grant, not inside
+it.
+
+- **The full check runs fresh, at grant time.**
+Overturning a refusal opens the door; it does not
+grant the retrieval. The re-opened request passes the
+whole T-1114 check again, against the facts at grant
+time, not at first filing. A quarantine that has
+attached since the first filing still refuses; a
+quarantine that has lifted since still leaves the
+four fields to be checked. And the ground the
+challenge overturned may not be re-refused on: a
+refusal overturned as "field was present" cannot be
+re-issued for that same field on the same request —
+a second refusal needs a different, named ground, or
+it is itself a record error under T-1103.
+
+- **Overturn and grant are separate hands.** The
+T-1112-cleared auditor who overturned the refusal
+does not grant the retrieval. The grant passes the
+normal T-1114 path, so no single auditor both
+overturns and grants — the same independence T-1112
+demands of an audit, applied to the grant that
+follows a challenge. If the overturning auditor is
+also the only grantor available, the grant waits for
+a second cleared hand.
+
+- **The grant carries its history on its face.** A
+re-opened grant is marked REOPENED-GRANT, citing
+the original request id, the refusal id, and the
+challenge id with its overturning auditor. The
+delivered RETRIEVAL-COPY carries those citations
+alongside the T-1109 audit result, so any later
+review reading the copy can see it arrived by
+challenge, not by a clean first request. The
+overturned refusal itself is not erased: it stays on
+the archive record, annotated OVERTURNED with the
+challenge id beside it, so the history shows the
+error and its correction instead of rewriting it
+away.
+
+- **No compensation in access for the delay.** A
+wrong refusal costs the requester time, and the
+record says so: the delay between refusal and grant
+is filed on the archive record as a cost of the
+error. It is not repaid with wider scope, a longer
+copy life, or an extended review: the re-opened copy
+lives only for the named review's duration, under
+the same return-not-retention rule as any T-1114
+copy, and the scope stays the original scope. Delay
+is a recorded cost, not a credit.
+
+- **Stale purposes and standing holds.** If the
+named review has closed while the challenge was
+pending, the re-opened request is refused as stale
+— the purpose it served no longer lives, and a copy
+for a closed review is retention in advance. The
+requester files a new request for a live review
+instead. And a single overturn does not lift a
+T-1115 three-refusal hold: a hold is about the
+pattern across refusals, and its release still needs
+the hold review, even when one refusal in the
+pattern has been overturned.
+
+- **Readings.** REOPENED-GRANTED: re-opened request
+passed the fresh T-1114 check, copy delivered under
+its original scope, history cited on the grant.
+REOPENED-REFUSED: the fresh check failed on a new,
+named ground — no copy leaves. REOPENED-STALE: the
+named review closed during the challenge — no copy
+for a closed review. None of these readings is a
+verdict, none clears a held specimen, and a granted
+re-opening says nothing about any specimen — only
+about whether a wrongly refused request was restored
+exactly, granted cleanly, and bounded to what it
+originally asked.
+
+- **Evidence grade.** SPECULATION throughout. This is
+a design built on T-1115's re-opening and
+single-challenge rules, T-1114's four-field request
+and return-not-retention rule, T-1113's quarantine
+scope, T-1112's independent auditor, T-1109's sealed
+archive and audit attachment, and T-1103's
+record-error reading; it adds only the
+restore-not-rewrite rule, the fresh-check-at-grant
+rule with its no-re-refusal-on-overturned-ground
+bar, the separate-hands rule, the cited
+REOPENED-GRANT and annotated OVERTURNED refusal,
+the delay-as-recorded-cost rule, and the
+stale-purpose and standing-hold rules. No request
+has ever been re-opened and granted under this
+entry, no copy has ever carried challenge citations,
+and no re-opened request has ever gone stale.
+Designs are designs until run.
+
+*T-1116 trick built 2026-11-03 ~15:20 EST by the decoder-create-loop.*
