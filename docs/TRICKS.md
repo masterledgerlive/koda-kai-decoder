@@ -35947,3 +35947,107 @@ retention breach has ever been filed. Designs are
 designs until run.
 
 *T-1114 trick built 2026-11-03 ~14:50 EST by the decoder-create-loop.*
+
+## T-1115 — Refused-Retrieval Re-filing: what a RETRIEVAL-REFUSED request may do next
+
+- **The gap it closes.** T-1114 refuses a retrieval
+request that is incomplete or filed by a quarantined
+requester, then stops. It says nothing about what a
+refusal leaves behind, whether the same request can be
+re-filed, whether narrowing the scope dodges a
+quarantine, or whether a refusal can itself be wrong.
+Left there, a refused requester can re-file the same
+request unchanged forever, flooding the archive record;
+or trim the named scope to slip past a quarantine that
+was never about scope; or the refusal leaves no trace,
+so the next reviewer cannot see the pattern. This
+entry adds the re-filing rules, and nothing else.
+
+- **The refusal is filed, with its reason named.**
+Every RETRIEVAL-REFUSED is written onto the archive
+record with the request id, the date, and the reason
+named precisely: which of the four T-1114 fields was
+missing, or which T-1113 quarantine scope matched.
+A refusal without a named reason is itself a record
+error under T-1103. The filed refusal is visible to
+any later retrieval or seating check on that archive:
+a refusal is part of the archive's history, not a
+private rejection.
+
+- **Re-filing an incomplete request.** A request
+refused as incomplete may be re-filed once corrected.
+The re-filing is a new request with a new id, citing
+the prior refusal id — not a patch to the old request.
+All four fields are checked fresh: a corrected field
+does not excuse an unchecked one, and a field that
+was complete before is not assumed still complete.
+There is no limit on corrected re-filings for
+genuinely incomplete requests, but every refusal is
+filed, so a pattern of repeated incompleteness stays
+visible on the record instead of vanishing into
+re-filed attempts.
+
+- **Re-filing under quarantine: no dodge by scope.**
+A request refused because the requester is
+quarantined may NOT be re-filed for the same archive
+until the quarantine lifts. Narrowing the scope does
+not dodge it: the quarantine check runs against the
+archive's specimen, bands, and holders, not just the
+fields the request names, so a narrower scope on the
+same archive still refuses. A re-filing attempted
+during quarantine is filed as a refusal and counts
+toward nothing — not toward the three-clean run, not
+toward a hold, not toward a challenge. Quarantine
+is T-1113's; this entry adds no shortcut through it.
+
+- **The three-refusal hold.** Three RETRIEVAL-REFUSED
+filings on the same archive by the same requester —
+for any mix of reasons — hold further requests from
+that requester on that archive for independent review.
+The next request is not auto-refused; it is held
+until a T-1112-cleared auditor reviews the refusal
+history and either releases the hold or extends it.
+The hold is about the pattern, not about any single
+refusal: three refusals may each be correct and still
+show a requester who does not understand, or will
+not accept, what the archive requires.
+
+- **Challenging a refusal.** A refused requester may
+ask one T-1112-cleared auditor to check the refusal
+itself: was the named field truly missing, was the
+quarantine scope truly matched. If the check finds
+the refusal wrong, the refusal is corrected on the
+record and the request is re-opened as a fresh
+request — not silently granted, it still passes the
+full T-1114 check. If the check upholds the refusal,
+the refusal stands and the challenge is filed
+alongside it; a second challenge to the same refusal
+is not heard. One challenge per refusal, one auditor,
+filed either way.
+
+- **Readings.** REFILE-ACCEPTED: corrected request
+filed as a new request, prior refusal cited.
+REFILE-REFUSED: quarantine still in force, scope
+narrowing or not — no copy leaves. HOLD-IMPOSED:
+third refusal on one archive by one requester, next
+request held for review. HOLD-RELEASED or
+HOLD-EXTENDED: the auditor's call on the pattern.
+REFUSAL-UPHELD or REFUSAL-OVERTURNED: the single
+challenge's result, filed on the record. None of
+these readings is a verdict, none clears a held
+specimen, and none grants a retrieval by itself — a
+re-opened request still needs a full T-1114 grant.
+
+- **Evidence grade.** SPECULATION throughout. This is a
+design built on T-1114's refusal readings and its
+four-field request, T-1113's quarantine scope, T-1112's
+independent auditor, and T-1103's record-error reading;
+it adds only the filed refusal with named reason, the
+corrected re-filing as a new request, the no-dodge
+quarantine rule, the three-refusal hold, and the
+single-challenge rule. No request has ever been
+refused and re-filed under this entry, no hold has
+ever been imposed or released, and no refusal has
+ever been challenged. Designs are designs until run.
+
+*T-1115 trick built 2026-11-03 ~15:05 EST by the decoder-create-loop.*
