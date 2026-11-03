@@ -16266,6 +16266,9 @@ Three targeted searches (Voynich manuscript, Kryptos fourth passage, and Indus s
 
 **Run summary:** rotation #13 — working loop, no status change on any Most Wanted item and no decipherment: a November 2 Voynich status piece confirms no consensus (claimed, log-only), a 2026-status page's two unattributed figures were not adopted, and the rest is re-covered (held-out null, singulion mis-binding, generator retell, Indus one-million-dollar prize still unclaimed, Kryptos fourth passage still publicly unbroken, Beale quiet). No library growth. Next: rotation #1 (historical codebreaking).
 
-**Close-out (2026-11-03 ~05:xx EST, rotation #13):**
-- **Push result:** follows below.
-- **Shadow mirror:** follows below.
+**Close-out (2026-11-03 ~05:36 EST, rotation #13):**
+- **Push result:** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13) — no status change on any Most Wanted item, no decipherment; Retrospect Nov 2 Voynich no-consensus piece (claimed, log-only), unattributed 87%/1% figures not adopted; no library growth; no verdicts" — exit 0, "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged".
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535"); Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-0529.md, Rook's voice, 144 words spoken body.
+
+**Run summary (close-out):** rotation #13 — working loop, no status change on any Most Wanted item and no decipherment: Retrospect November 2 Voynich piece confirms no consensus (claimed, log-only), a 2026-status page's two unattributed figures not adopted, rest re-covered (held-out null, singulion mis-binding, generator retell, Indus one-million-dollar prize still unclaimed, Kryptos fourth passage still publicly unbroken, Beale quiet). No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
