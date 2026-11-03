@@ -35332,3 +35332,109 @@ that any band has ever drifted, been retired, or been
 re-calibrated. Designs are designs until run.
 
 *T-1107 trick built 2026-11-03 ~13:05 EST by the decoder-create-loop.*
+
+## T-1108 — Check-Run Schedule: when a T-1107 check set is owed, and what a missed one costs
+
+- **The gap it closes.** T-1107 trigger (3) says the fixture
+is re-run "on a schedule stated in the band record," and then
+never says what that schedule is, when a check falls relative
+to an execution, or what happens when a check is skipped. A
+schedule that exists only as a phrase in a record is a schedule
+an operator can always claim to have meant later. This entry
+fixes the schedule at freeze time, gates executions on it, and
+prices a missed check: a band whose checks are overdue is not
+trusted, it is suspended.
+
+- **Fixed at freeze, never adjusted mid-campaign.** The check
+schedule is written into the band record at the same moment
+the band is frozen, beside T-1107's age/use counter limits:
+a cadence in executions ("every N executions that read
+against this band, whichever comes first") and a cadence in
+campaign time ("every M campaign days"), whichever fires
+first. The schedule is part of the band, not an operator
+preference, and it cannot be loosened mid-campaign: loosening
+a schedule after a check looked awkward is calibration
+shopping, forbidden by T-1106 in spirit, and a revised
+schedule applies only to bands frozen after the revision.
+Tightening mid-campaign is also forbidden — not because it is
+unsafe, but because a schedule that moves underfoot cannot be
+audited against the executions it gated. A schedule that is
+wrong is corrected by re-calibration, which freezes a new band
+with a new schedule.
+
+- **At least one check before expiry.** A schedule is valid
+only if it guarantees at least one complete check set before
+the band's age/use counters expire: the first scheduled check
+must fall strictly before either counter limit. A schedule
+whose first check lands on or after expiry is invalid at
+freeze, and a band frozen under it is unbanded — T-1105 step
+(5) already forbids its use. This rule is the schedule's only
+arithmetic, and it is checked at freeze, not discovered at
+expiry: a band that expires unchecked has already failed, and
+no later check can retroactively certify the executions that
+ran under it.
+
+- **Checks gate executions, and sit between them.** When a
+scheduled check falls due, executions reading against that
+band halt until the check set completes: the check runs before
+the next execution, never after it, and never interleaved
+inside an execution run. A check set that starts must finish
+— two watched, two blind, first of each discarded, the T-1101
+discard rule — or it is void: a partial check set is no
+evidence, counts as neither HOLD nor DRIFT, and executions
+stay halted until a complete set runs. A complete check set
+inside the bands is CHECK-HOLD: executions proceed until the
+next scheduled check, and, per T-1107, the check resets
+nothing — the age/use counters keep counting toward scheduled
+retirement regardless of how clean the check looked.
+
+- **A missed check suspends the band.** If a scheduled check
+is skipped, postponed past its due execution or date, or left
+void, the band is SUSPENDED: no execution may read against it
+until a complete check set runs. A later clean specimen
+reading does not forgive a missed check, and a missed check
+is not erased by a re-calibration of a different band. Two
+consecutive missed checks retire the band outright, under the
+same schedule logic as T-1107 trigger (2): a rig whose
+operator cannot keep its check appointments is a rig whose
+bands are not being watched, and unwatched bands are retired,
+not trusted. The suspension and any retirement are recorded
+with the check that was due, the execution or date it was due
+by, and the operator who missed it.
+
+- **First completed check stands — no check shopping.** A
+completed check set's result stands even when it trips DRIFT:
+re-running the fixture until a check set lands inside the
+bands is calibration shopping under T-1106, and the re-run
+set is void as evidence. Only a new complete set run after a
+re-calibration counts, and it counts against the new band's
+schedule, not the old one's. Check results are recorded with
+operator, timestamp, and rig fingerprint, so a re-run cannot
+pass silently as the first set. A DRIFT trip from a check set
+hands control to T-1107 exactly as before: executions halt,
+the band retires pending re-calibration, and the check set is
+preserved as the drift evidence.
+
+- **Readings.** CHECK-HOLD: complete set inside the bands —
+executions proceed to the next scheduled check, counters
+unchanged. CHECK-DRIFT: complete set outside the bands, or
+two consecutive edge-straddles — T-1107 DRIFT, band retired
+pending re-calibration. CHECK-MISSED: scheduled check skipped
+or void — band SUSPENDED, executions halt, one missed check
+tolerated only until the next due check, two consecutive
+misses retire the band. CHECK-VOID: partial set only — no
+evidence either way, executions stay halted until a complete
+set runs. None of these readings is a verdict, none clears a
+held specimen, and a missed or void check says nothing about
+any specimen — only about whether the rig is being watched.
+
+- **Evidence grade.** SPECULATION throughout. This is a design
+built on T-1107's trigger (3) schedule phrase, its age/use
+counter limits, its check-set shape, and T-1106's
+calibration-shopping ban; it adds only the freeze-time
+schedule, the execution gate, and the missed-check price.
+No schedule has ever gated an execution, no check has ever
+been missed, suspended, or retired under this entry, and no
+band has ever expired unchecked. Designs are designs until run.
+
+*T-1108 trick built 2026-11-03 ~13:17 EST by the decoder-create-loop.*
