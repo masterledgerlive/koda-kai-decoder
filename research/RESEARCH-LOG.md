@@ -16014,3 +16014,10 @@ Three targeted searches (Voynich / Kryptos K4 / Indus script status, November 20
 - **Library changes:** UNDECIPHERED.md (both trees) — one new Voynich roster entry (Schwartz held-out null + viral-claim debunk). Not a new decipherment — nothing here claims a solved cipher.
 
 **Run summary:** rotation #13 — working loop, one new library-touched item (Schwartz Voynich held-out null, zero of four hundred and twelve hypotheses, plus debunk of the viral decoded-thirty-percent story with no paper behind it), plus re-covers (Voynich mis-binding confirmed but untranslated, Kryptos K4 still publicly unbroken as a cipher, Indus prize still unclaimed). No decipherment, no verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-02 ~23:05 EST, rotation #13):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed: docs/UNDECIPHERED.md; pushed (git-data): research/RESEARCH-LOG.md; done: 2 pushed, 265 unchanged".
+- **Shadow mirror:** deferred — Shadow unreachable. Next run retries.
+- **Podcast brief:** Decoder Desk brief written, Rook's voice, 145 words spoken body.
+
+**Run summary (close-out):** rotation #13 — working loop, one new library-touched item (Schwartz Voynich held-out null, zero of four hundred and twelve hypotheses, plus debunk of the viral decoded-thirty-percent story with no paper behind it), plus re-covers (Voynich mis-binding confirmed but untranslated, Kryptos K4 still publicly unbroken as a cipher, Indus prize still unclaimed). No decipherment, no verdicts, nothing broadcast. Public entry pushed (2 pushed). Shadow mirror deferred (unreachable). No chat message. Next: rotation #1 (historical codebreaking).
