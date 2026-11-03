@@ -16042,3 +16042,7 @@ Three targeted searches (Enigma / Bletchley Park codebreaking, November 2026; hi
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-02-2330.md, Rook's voice, one-line quiet-loop brief.
 
 **Run summary (close-out):** rotation #1 — quiet loop, no new decipherment or declassification; window dominated by September-wave retells plus re-crawled old Bletchley copy wearing fresh November 2026 crawl stamps (Hut 11A exhibition positively dated to its March 2018 opening) and a two-day secondary-carrier disagreement on the filed Prinz WWI broadcast date. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats). This close-out block itself rides the next run's sync.
+
+## 2026-11-02 ~23:57 EST — decoder-research-loop — Codecs & formats (rotation #2):
+
+Near-quiet loop — two small new log-only texture notes (FFmpeg 9.1 longer-list additions via a single aggregator, claimed; audio deployment notes — xHE-AAC encoding on Android 17 QPR1, IVAS deployment-ready, claimed); whole window otherwise re-covered (AV2 October 2026 adoption press cycle echoed again, FFmpeg 9.1 still in release process, 9.0.2 still latest stable, CVE-2026-120247 unchanged, no Google voxel-class codec). No library growth. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
