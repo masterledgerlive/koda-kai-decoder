@@ -34588,3 +34588,77 @@ severed a comparison, or that any priority clause or joint order has ever been
 issued or honored.
 
 *T-1099 trick built 2026-11-03 ~07:05 EST by the decoder-create-loop.*
+
+## T-1100 — The Blind Twin Run
+
+**The problem it answers.** Every interrogation so far watches the specimen while
+it runs: hooks, traces, an agent inside the container. A specimen that can tell
+it is being watched — by a hook, a timing signature, a debugger flag, a process
+it does not expect — may behave one way under observation and another way
+without it, and a clean watched run then certifies the watched behaviour, not
+the specimen. This trick does not try to hide the watcher better. It removes
+the watcher entirely for one run, and compares what leaks out of the container
+in both cases. If the outside of the container changes when the inside stops
+being watched, the specimen is observation-sensitive, whatever its watched
+behaviour looked like.
+
+**The run.** Two runs, same specimen, same input, same seed, same container
+image — differing in exactly one respect. Run W (watched) carries full interior
+telemetry: syscall traces, hooks, an agent inside the container. Run B (blind)
+carries none of it: no hooks, no traces, no debugger, no agent inside the
+container at all. Run B is observed only from outside the container boundary:
+exit code, elapsed wall time, total CPU and memory, bytes on the allowed
+output channel, attempts at the egress boundary, and files left in the drop
+folder. Nothing else is read from Run B, and nothing is injected into it.
+Before either run is compared, Run W is run twice, to establish the noise
+floor: a blind difference smaller than the watched-versus-watched difference
+is noise, not a finding.
+
+**The three readings.** IDENTICAL: Run B's boundary observables match Run W's
+within the noise floor. The entry reads "no exterior divergence observed" —
+never "the specimen is observation-insensitive," because a purely interior
+change that leaves no exterior trace is invisible to this trick by design.
+DIVERGENT: Run B's boundary observables differ from Run W's beyond the noise
+floor, in timing, output, egress attempts, or drop-folder contents. The
+specimen is observation-sensitive, and no clean verdict is issued on the
+watched run alone: the watched behaviour is now a behaviour-under-observation,
+labelled as such. BLIND-ONLY: an effect appears in Run B that never appears
+in Run W — an egress attempt, a persistence file, a second output channel.
+That is the dangerous case, and it is never cleared by a clean watched run:
+the blind-only effect is re-interrogated by extraction-only probes, and the
+specimen stays held until those probes return.
+
+**What this is not.** It is not T-104's operator absence: T-104 removes the
+operator and watches what the specimen authors alone; this trick keeps the
+operator running the container and removes only the instrumentation, and the
+instrument is the comparison, not the gap. It is not a punishment for
+rig-awareness, and observation-sensitivity is entered as a property — "boundary
+observables differ between watched and blind runs" — never as "deceptive,"
+"evasive," or any other motive. A specimen may be observation-sensitive for
+benign reasons (a performance path that disables itself under a debugger, a
+timing loop that stretches under tracing); the trick measures the sensitivity,
+and a later probe decides what it means.
+
+**The weak joints, stated before any run.** Nondeterminism is the first: any
+unseeded randomness, wall-clock dependence, or network input in the specimen
+produces blind-versus-watched differences that are not observation effects,
+and the pre-flight must prove the specimen deterministic under the fixed
+seed or the trick must not run. The instrumentation-removal confound is the
+second: if removing the watcher means rebuilding the container image, the two
+runs differ in two respects, not one, and the comparison is void — the
+instrumentation must load and unload without rebuilding the image. The
+coarseness floor is the third: boundary observables are coarse, and a
+specimen whose unobserved behaviour changes only interior state, with no
+exterior trace, reads IDENTICAL here and is not thereby cleared.
+
+**Evidence grade.** SPECULATION throughout. This is a design built on the
+container-interrogation rule that foreign code never touches the mother
+genesis block and on the twin/divergence discipline of T-75, neither of which
+is evidence that any specimen has ever behaved differently watched versus
+blind. No specimen has ever been run watched and blind under this protocol,
+no blind-only effect has ever been observed, and no noise floor has ever been
+measured. This entry must not be cited as evidence that any specimen is
+observation-sensitive, that any blind run has ever diverged, or that any
+verdict has ever been withheld on this ground. Designs are designs until run.
+
+*T-1100 trick built 2026-11-03 ~10:25 EST by the decoder-create-loop.*
