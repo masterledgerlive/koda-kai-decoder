@@ -35847,3 +35847,103 @@ until run.
 - **Evidence grade.** SPECULATION throughout. This is a design built on T-1112's INDEPENDENCE-CONFLICT reading and its restart rule, T-1103's review and record-error readings, and T-1109's archive record; it adds only the automatic trigger, the scoped coverage, the three-clean-check duration, the QUARANTINE-TAINTED flag on prior filings, and the recorded lifting rule. No auditor has ever been quarantined under this design, no three-clean run has ever been counted, and no tainted filing has ever been re-judged. Designs are designs until run.
 
 *T-1113 trick built 2026-11-03 ~14:35 EST by the decoder-create-loop.*
+
+## T-1114 — Sealed-Archive Retrieval: how a T-1109 sealed archive is read again without unsealing it
+
+- **The gap it closes.** T-1109 seals an archive whose
+citations have all closed, and says sealed archives stay
+retrievable, marked SEALED, with their audit result
+attached — then stops. It never says who may retrieve
+one, on what request, what they receive, whether retrieval
+re-opens the citations the sealing closed, or what happens
+if the copy that comes back differs from the sealed
+original. Left there, retrieval is either forbidden in
+practice — sealed means buried, and the audit history is
+lost to the next review that needs it — or informal: a
+copy handed out on a word, kept indefinitely, and quietly
+reused as a band, which breaks T-1109's no-resurrection
+rule by the back door. This entry adds the retrieval
+protocol, and nothing else.
+
+- **The request, filed first.** No retrieval happens on a
+verbal ask. The request is written onto the archive record
+before any copy leaves, and it names four things: the
+archive id, the requester, the purpose — which review,
+audit, or concordance review the retrieval serves — and
+the exact scope, whole archive or named fields. A request
+missing any of the four is refused, not repaired by
+assumption. There is no standing retrieval right: an
+auditor cleared for one review does not carry a retrieval
+right into the next, and each retrieval needs its own
+request. A requester quarantined under T-1113 on the
+archive's specimen, bands, or holders may not retrieve
+that archive until the quarantine lifts; a sealed archive
+is not a way around a quarantine.
+
+- **What is delivered: a copy, never the original.** The
+sealed original never leaves the archive and never
+changes state: retrieval does not unseal it, does not
+re-open its closed citations, and does not revive its
+band. What the requester receives is a read-only copy,
+marked RETRIEVAL-COPY with the archive id, the retrieval
+date, and the request id, carrying the T-1109 audit
+result attached, exactly as the sealed archive carries it.
+The copy is history, under the same ban as the archive
+itself: its values may be consulted, but never carried
+into a new band, quoted as a current band, or used to
+grade a new execution. A T-1110 or T-1111 review that
+uses a retrieved copy cites the retrieval id, not the
+archive alone, so the record shows which copy, for which
+review, was read.
+
+- **Verification at delivery and at return.** The copy's
+fingerprint is taken at delivery and checked against the
+sealed original, and checked again when the copy is
+returned: a copy that differs from the sealed original
+at either check is a RETRIEVAL-MISMATCH, the copy is
+destroyed, the mismatch is filed as a record error under
+T-1103, and no reading from that copy stands. Every
+retrieval is logged on the archive record — requester,
+date, scope, copy fingerprint, and return or destruction
+date — so the sealed archive carries its own retrieval
+history alongside its audit.
+
+- **Return, not retention.** A retrieval copy lives only
+for the named review's duration. When that review closes,
+the copy is returned or destroyed and the return is
+recorded; a copy kept past its review, forwarded to
+another reader, or filed as a private band library is a
+retention breach, filed on the archive record and treated
+as unsealed reuse under T-1109, not as a late return.
+Retention is the failure this protocol exists to prevent:
+a sealed archive that can be kept is a band that was
+never really retired.
+
+- **Readings.** RETRIEVAL-GRANTED: request complete,
+copy delivered and verified, original still sealed.
+RETRIEVAL-REFUSED: request incomplete, or requester
+quarantined on the archive's scope — no copy leaves.
+RETRIEVAL-MISMATCH: copy differs from the sealed
+original at delivery or return — copy destroyed, record
+error, no reading from it stands. RETRIEVAL-EXPIRED: the
+named review closed and the copy was not returned —
+retention breach, filed as unsealed reuse. None of these
+readings is a verdict, none clears a held specimen, and
+a clean retrieval says nothing about any specimen — only
+about whether a sealed archive was read without being
+unsealed, copied without being altered, or kept without
+being returned.
+
+- **Evidence grade.** SPECULATION throughout. This is a
+design built on T-1109's sealed archives and its
+no-resurrection rule, T-1103's record-error reading,
+and T-1113's quarantine scope; it adds only the filed
+request, the read-only marked copy, the delivery and
+return fingerprint checks, the retrieval log, and the
+return-not-retention rule. No archive has ever been
+sealed and retrieved under this entry, no copy has ever
+been fingerprinted at delivery or return, and no
+retention breach has ever been filed. Designs are
+designs until run.
+
+*T-1114 trick built 2026-11-03 ~14:50 EST by the decoder-create-loop.*
