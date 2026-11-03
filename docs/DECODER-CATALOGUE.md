@@ -2952,9 +2952,19 @@ The universal quantum decoder stays [SPECULATION] until proven.
   identity, RAD-S1 grades behavior, so the two entries define the
   current arms-race pair — but the ninety eight point eight percent
   is company testing, no independent verification on record, and
-  the six-tool comparison set is unnamed in the carrier. [CLAIMED —
-  vendor launch figures via trade press; no independent
-  evaluation, no methodology published]
+  the six-tool comparison set is unnamed in the carrier. Update
+  (November 2, 2026 research loop): the comparison set is now
+  named via secondary analysis of the vendor's model page — BotD
+  fourteen point eight percent, Akamai eight point seven percent,
+  F5 six point eight percent, Cloudflare Turnstile four point six
+  percent, Vercel BotID three point one percent on disguised
+  agents, the sixth tool's score carried only inside the three
+  point one to fourteen point eight percent range — but the same
+  carrier tightens the caveat: no sample size, no list of agents
+  tested, and no false-positive rate. The ninety eight point eight
+  percent stays vendor-claimed, and independent evaluation stays
+  open. [CLAIMED — vendor launch figures via trade press; no
+  independent evaluation, no methodology published]
   - Source: https://genznewz.com/resemble-ai-agent-detection-spots-agents-acting-human
 - **Shufti Know Your Agent — agent verification in a single flow:
   identity, human authorization, mandate (launched October twenty
