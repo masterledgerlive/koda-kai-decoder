@@ -36422,3 +36422,140 @@ been challenged, sustained, or left undecided under
 this entry. Designs are designs until run.
 
 *T-1118 trick built 2026-11-03 ~16:20 EST by the decoder-create-loop.*
+
+## T-1119 — Undecided-Challenge Escalation: what a T-1118 challenge does when no second judge ever comes
+
+- **The gap it closes.** T-1118 leaves a
+challenge with no second cleared auditor as
+CHALLENGE-UNDECIDED: the closeout stays attested,
+and the challenge waits on the record "until a
+judge is cleared" — with no deadline, no
+escalation, no limit, and no account of what the
+wait costs. Left there, a challenge can sit
+contested-but-attested forever: the copy's custody
+is neither settled nor voided, the challenger gets
+no answer, and a campaign short of auditors keeps
+minting new attestations nobody can judge. This
+entry adds the clock, the escalation, and the
+lapse — and nothing else.
+
+- **The undecided clock.** The clock runs in
+T-1108 check-runs, counted from the challenge's
+filing: the next check-run after filing is the
+first, the one after that the second, and so on.
+Between filing and the second check-run, the
+challenge is CHALLENGE-UNDECIDED exactly as
+T-1118 left it: the closeout stays attested, the
+challenge waits visibly on the archive record,
+nothing is held, and nothing is flagged beyond
+the filed challenge itself. A short wait for a
+judge is ordinary; this entry governs only the
+wait that stops being short.
+
+- **Escalation at the first deadline.** If no
+second T-1112-cleared auditor is cleared for the
+adjudication by the second check-run after
+filing, the challenge becomes
+CHALLENGE-ESCALATED: an escalation notice is
+filed on the archive record and the campaign's
+auditor pool is notified. The copy's closeout is
+flagged CONTESTED-ATTESTED: the attestation
+stands, but it may not be cited as settled custody
+in any new filing while the flag stands. The
+requester's further T-1114 requests are NOT held
+by an escalation — a challenge is unproven until
+judged, and T-1118's burden rule (doubt favors
+the attestation) forbids punishing the requester
+for a judge the campaign failed to supply.
+Escalation is a flag and a notice, not a hold
+and not a void.
+
+- **Lapse at the second deadline.** If still no
+judge is cleared by the fourth check-run after
+filing, the challenge becomes CHALLENGE-LAPSED:
+the challenge closes unjudged, the contested flag
+lifts, and the attestation stands as filed. A
+lapse is neither SUSTAINED nor NOT-SUSTAINED: it
+vindicates nothing and bars nothing. Unlike a
+NOT-SUSTAINED challenge, the same ground is NOT
+barred from re-filing, because it was never
+judged — but a lapse is not a re-window either.
+The same ground may be filed again only on new
+evidence (evidence not before the record when the
+lapsed challenge was filed), within one check-run
+of that evidence surfacing, before a judge cleared
+fresh for it. A lapsed challenge itself is never
+revived: a judge arriving late judges a fresh
+challenge, not the lapsed one, or a dead challenge
+could be judged on a record its challenger can no
+longer amend.
+
+- **AUDITOR-SCARCE.** If at two consecutive
+check-runs the campaign's pool holds fewer than
+two T-1112-cleared auditors in total — too few
+for a challenger plus a judge — the campaign
+records AUDITOR-SCARCE. During scarcity, new
+T-1117 destruction attestations are still filed,
+but each carries ATTESTED-UNJUDGEABLE, and its
+T-1118 challenge window does not open until
+scarcity lifts: the window runs from the first
+check-run after the lift, not from the
+attestation. Without this, a campaign could mint
+closeouts whose challenge windows expire before
+any judge exists to hear a challenge at all.
+Scarcity lifts at the first check-run where two
+cleared auditors exist again; the flag lifts, and
+deferred windows open.
+
+- **Queue and judge order.** Undecided challenges
+are judged oldest first. Clearance is per
+challenge, as T-1118 requires: a judge cleared for
+one adjudication does not carry to the next. The
+challenger does not choose the judge — no
+judge-shopping — the next cleared auditor in
+pool order judges. A judge clearing after a lapse
+does not reopen the lapsed challenge; see the
+lapse rule above.
+
+- **What escalation and lapse never do.** Neither
+voids a closeout, holds a requester, lifts a
+T-1115 hold, reopens a T-1109 audit, extends a
+review, or says anything about any specimen.
+Escalation does not upgrade a contested
+attestation to overdue, and lapse does not
+upgrade a standing attestation to a fingerprinted
+return. Only a judged SUSTAINED voids a closeout,
+and only a fingerprinted return upgrades one.
+
+- **Readings.** CHALLENGE-UNDECIDED: filed, inside
+the second-check-run deadline, awaiting a second
+cleared judge, closeout attested. CHALLENGE-
+ESCALATED: past the first deadline unjudged,
+closeout flagged CONTESTED-ATTESTED, requester
+not held. CHALLENGE-LAPSED: past the fourth
+check-run unjudged, challenge closed, attestation
+stands, same ground re-fileable only on new
+evidence within one check-run. AUDITOR-SCARCE:
+fewer than two cleared auditors at two consecutive
+check-runs, new attestations flagged
+ATTESTED-UNJUDGEABLE with deferred windows.
+None of these readings is a verdict, none clears
+a held specimen, and none says anything about any
+specimen — only about whether a challenge to one
+copy's destruction attestation ever got its judge.
+
+- **Evidence grade.** SPECULATION throughout. This
+is a design built on T-1118's CHALLENGE-UNDECIDED
+standing, T-1112's cleared auditor, T-1108's
+check-run schedule, T-1117's destruction
+attestation, and T-1109's archive record; it adds
+only the second- and fourth-check-run deadlines,
+the contested-attestation flag without a
+requester hold, the lapse with new-evidence
+re-filing, the AUDITOR-SCARCE flag with deferred
+challenge windows, and the oldest-first queue.
+No challenge has ever gone undecided, escalated,
+or lapsed under this entry. Designs are designs
+until run.
+
+*T-1119 trick built 2026-11-03 ~17:10 EST by the decoder-create-loop.*
