@@ -35610,3 +35610,102 @@ has ever been filed concordant or discordant. Designs are
 designs until run.
 
 *T-1110 trick built 2026-11-03 ~13:50 EST by the decoder-create-loop.*
+
+## T-1111 — Chain-Seam Review: what a specimen spanning more than two bands owes, link by link
+
+- **The gap it closes.** T-1110 files one seam at a time and
+names its own limit: a specimen spanning more than two
+bands reads SEAM-CHAINED, "one review per link," and then
+stops — it never says in what order the links are
+reviewed, what happens when an early link is discordant,
+or how the link filings combine into one chain reading.
+Left there, a chain review is either a single jump from
+oldest to newest band — which is exactly what T-1110
+forbids, because it hides which link moved — or a pile of
+uncombined link filings with no rule for what they mean
+together. This entry adds the chain procedure, and
+nothing else.
+
+- **The trigger.** The review is owed whenever a single
+specimen carries readings from three or more successive
+bands on at least one shared observable — each retirement
+under T-1107 or T-1108, each successor frozen under
+T-1101 or T-1105. It runs once per chain per specimen,
+before any verdict that would rest on any reading in the
+chain, and it is not optional: a verdict resting on a
+chain specimen without its chain review is a verdict
+resting on unreviewed seams.
+
+- **The reviewer and the order.** One reviewer handles
+the whole chain, independent of every band's operators
+and of the specimen's holder, receiving the archive
+records (T-1109) and the readings only — never any
+band's live values, never a verdict. The links are
+reviewed oldest first, one at a time, each filed before
+the next is read, so a discordant link is named on its
+own evidence before any later link is examined. The
+reviewer compares only observables both bands of that
+link measured; an observable measured by one band alone
+is listed as UNCOMPARED for that link, never assumed
+concordant, and a link with no shared observables at all
+is filed INDETERMINATE, not clean.
+
+- **What a discordant or indeterminate link does.**
+Neither stops the chain. A DISCORDANT link is filed with
+its observables named, and the review continues to the
+next link, so T-1103 receives a full map of which links
+moved rather than a chain abandoned at the first break.
+An INDETERMINATE link is filed as a record error under
+T-1103 and likewise does not halt the remaining links —
+a record gap in one link must not hide a discordance in
+another. No link's filing is ever revised by a later
+link: a clean later link does not excuse a discordant
+earlier one, and a discordant later link does not
+retroactively taint a clean earlier one. Each link
+stands on its own pair of readings.
+
+- **The chain rules — what the review must not do.** It
+must not compare the oldest and newest bands directly:
+a jump comparison is not a chain review, and a jump that
+agrees proves nothing about the links between. It must
+not average readings across the chain into a single
+reading: an averaged reading is a reading no band ever
+took, and it would launder every seam at once. It must
+not drop an intermediate band because its readings look
+redundant, and it must not re-open any band's T-1109
+archive audit: a new complaint about a band is a new
+T-1109 matter, not a chain matter. And it must not pick
+a winning band for the chain: the review files links,
+it does not crown readings.
+
+- **Readings.** CHAIN-CLEAN: every link concordant on
+every shared observable — the handovers did not move
+the readings, no verdict implied. CHAIN-DISCORDANT: at
+least one link discordant and no link indeterminate —
+the specimen goes to T-1103 review with the discordant
+links named, and no reading in the chain is cleared.
+CHAIN-INDETERMINATE: at least one link indeterminate
+and no link discordant — T-1103 record error, the
+remaining links filed as they stand, no assumption.
+CHAIN-MIXED: at least one link discordant and at least
+one link indeterminate — the specimen goes to T-1103
+with both lists attached, discordance and record error
+filed separately, never merged into one complaint. None
+of these readings is a verdict, none clears a held
+specimen, and a clean chain says nothing about any
+specimen — only about whether its readings survived
+every handover intact.
+
+- **Evidence grade.** SPECULATION throughout. This is a
+design built on T-1110's per-link comparison and
+SEAM-CHAINED reading, T-1109's archive records, and
+T-1103's review and record-error readings; it adds only
+the oldest-first order, the continue-after-discordance
+rule, the no-jump and no-averaging bans, and the four
+chain readings. No specimen has ever spanned three
+bands into this review, no chain has ever been filed
+CHAIN-CLEAN or CHAIN-DISCORDANT, and no link filing has
+ever been combined into a chain reading. Designs are
+designs until run.
+
+*T-1111 trick built 2026-11-03 ~14:05 EST by the decoder-create-loop.*
