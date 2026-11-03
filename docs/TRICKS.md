@@ -35709,3 +35709,121 @@ ever been combined into a chain reading. Designs are
 designs until run.
 
 *T-1111 trick built 2026-11-03 ~14:05 EST by the decoder-create-loop.*
+
+## T-1112 — Auditor-Independence Check: what "independent" has to mean before a T-1109 audit or a T-1110/T-1111 review may open
+
+- **The gap it closes.** T-1109 calls for "an independent
+auditor," T-1110 and T-1111 for a reviewer "independent
+of every band's operators and of the specimen's holder"
+— and none of the three ever says what independence is,
+how it is checked, or what happens when it fails. Left
+there, independence is a word the reviewer asserts about
+themselves, and the most interested person in the room
+is the one vouching for their own distance. A review
+opened on a self-asserted independence is a review whose
+first filing is already unexamined. This entry adds the
+check, and nothing else.
+
+- **The trigger.** The check runs before any T-1109
+archive audit, T-1110 seam review, or T-1111 chain
+review opens, once per review — not once per auditor,
+not once per career. An auditor cleared for one band's
+archive is not cleared for the next band, the next
+specimen, or the next link in the same chain. No
+reading is taken, no link is filed, and no archive is
+opened until the check returns INDEPENDENCE-CLEAR. A
+review that opened without its check is not a review
+with a paperwork gap; its filings are void, and it
+restarts under T-1112.
+
+- **The declaration.** The auditor files, before
+opening, a written declaration naming: every band they
+have operated, calibrated, band-set, or check-run for;
+every specimen they hold, have held, or have a stake
+in the outcome of; every prior filing they have made
+on the same specimen, the same bands, or any reading
+the review would re-judge; and every verdict they have
+authored that rests on a reading under review. Silence
+on any item is not a blank — it is an incomplete
+declaration, and an incomplete declaration cannot
+clear. The declaration is filed with the review record,
+not kept private, so a later conflict can be traced to
+exactly what was and was not disclosed.
+
+- **The four tests.** The declaration is not taken on
+trust: it is cross-checked against the record — the
+T-1109 archive operator fields, the band records, and
+the filing history — and it must pass all four tests.
+(1) No operator role: the auditor has never operated,
+calibrated, band-set, or check-run any band in the
+review's scope. (2) No holder interest: the auditor is
+not the specimen's holder, not in the holder's chain,
+and holds no stake in the review's outcome. (3) No
+self-review: the auditor has made no prior filing on
+the same specimen, bands, or readings that this review
+would judge. (4) No verdict interest: the auditor has
+authored no verdict resting on any reading under
+review. Failing any one test fails the check; passing
+three is not independence.
+
+- **Who checks the checker.** The record checks, not a
+second person. A second human check is welcome and may
+be added, but it is never a substitute for the
+record cross-check, and it never cures a record
+mismatch: a declaration that contradicts the archive
+fails on the contradiction, whatever anyone's
+intentions were. This stops the recursion — the check
+does not need an independent checker for the checker,
+because the checker is the filed record itself. Where
+the record is too thin to cross-check a declaration
+item, that item is UNVERIFIABLE, not assumed true.
+
+- **Readings.** INDEPENDENCE-CLEAR: all four tests
+passed on the record — the review may open, and the
+declaration stands as part of its record.
+INDEPENDENCE-CONFLICT: at least one test failed, with
+the conflict named — the auditor is replaced, and no
+filing they made in this review stands; the review
+restarts from the beginning under a cleared auditor,
+it is never patched by swapping the auditor mid-stream
+and keeping the earlier filings. INDEPENDENCE-
+UNVERIFIABLE: the record cannot confirm or deny at
+least one test — the review does not open, and the
+gap goes to T-1103 as a record error, never as a
+presumed clearance. None of these readings is a
+verdict, none clears a held specimen, and a clear
+check says nothing about the specimen — only that the
+person about to judge it stands apart from it.
+
+- **What the check must not do.** It must not be
+waived for urgency: a specimen under time pressure
+still waits for a cleared auditor. It must not be
+waived for scarcity: "the only auditor available"
+does not clear a conflicted one, it postpones the
+review. It must not be satisfied by rotation alone:
+rotating the review among the same band's operators
+is a rota, not independence. It must not accept a
+retroactive declaration: a declaration filed after
+filings exist covers nothing already filed. And it
+must not grandfather a mid-review discovery: if a
+conflict surfaces after the review opened, the
+filings to date are void, the review restarts, and
+any verdict already resting on a voided filing goes
+back to T-1103 — a verdict built on a conflicted
+review is not saved by the fact that it was already
+given.
+
+- **Evidence grade.** SPECULATION throughout. This is
+a design built on T-1109's independent auditor, T-1110
+and T-1111's independent reviewer, T-1109's archive
+operator fields, and T-1103's review and record-error
+readings; it adds only the pre-opening trigger, the
+declaration, the four tests, the record-as-checker
+rule, and the three check readings with their restart
+consequences. No auditor has ever been checked under
+this design, no review has ever been voided for a
+failed check, and no declaration has ever been
+cross-checked against an archive. Designs are designs
+until run.
+
+*T-1112 trick built 2026-11-03 ~14:20 EST by the decoder-create-loop.*
