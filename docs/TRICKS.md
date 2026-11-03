@@ -35533,3 +35533,80 @@ reading has ever been flagged TAINTED, and no archive
 has ever been sealed. Designs are designs until run.
 
 *T-1109 trick built 2026-11-03 ~13:35 EST by the decoder-create-loop.*
+
+## T-1110 — Cross-Band Concordance Review: what the seam between two bands does to a specimen's readings
+
+- **The gap it closes.** The retired-band archive audit
+(T-1109) covers one band's executions, but a specimen can
+carry readings from two successive bands — read under the
+old band before retirement, re-read under its successor
+after. Each band can pass its own checks and each audit
+can come back clean while the readings still disagree at
+the seam: the successor's frozen values differ slightly,
+the shared observables carry a different rig fingerprint,
+or the specimen itself shifted between sittings. No entry
+compares readings across the seam, so a drift that lives
+only in the handover — too small for either band's own
+drift trigger, too systematic to be noise — goes unfiled.
+This entry adds the comparison, and nothing else.
+
+- **The trigger.** The review is owed whenever one
+specimen carries readings from two successive bands on at
+least one shared observable. It runs once per band-pair
+per specimen, before any verdict resting on either
+reading, and it is not optional: a verdict on a
+cross-band specimen without its concordance review rests
+on an unreviewed seam.
+
+- **The reviewer and the paper.** The reviewer is
+independent of both bands' operators and of the specimen's
+holder, and receives the two archive records and the two
+readings only — never the bands' live values, never a
+verdict. Only observables both bands measured are
+compared; one-band observables are listed UNCOMPARED,
+never assumed concordant. Each shared observable files
+CONCORDANT (agreement within the tighter frozen
+tolerance), DISCORDANT (outside it), or INDETERMINATE
+(records insufficient to compare — a record error, never
+bridged by assumption).
+
+- **What discordance does.** Discordance picks no winner:
+the seam has no umpire, and the reviewer never declares
+the old reading right or the new one wrong. A DISCORDANT
+observable returns the specimen to review with both
+readings attached and the seam named as the question, and
+no specimen with a DISCORDANT observable is cleared on
+either reading alone. Concordance, symmetrically, is not
+a verdict: it says only that the handover did not move
+the readings.
+
+- **The seam rules.** The review must not carry old-band
+values into the new band (comparison is reading-to-
+reading, never calibration); must not re-open the retired
+band's archive audit; must not average the two readings
+into a third reading no band ever took; and must not
+jump a chain — bands separated by more than one
+retirement get one review per link, so the review names
+which link moved.
+
+- **Readings.** SEAM-CLEAN (all shared observables
+concordant — handover did not move the readings, no
+verdict implied); SEAM-DISCORDANT (at least one
+discordant — specimen to review, neither reading
+cleared); SEAM-INDETERMINATE (comparison impossible on
+the record — record error, no assumption); SEAM-CHAINED
+(specimen spans more than two bands — one review per
+link). None is a verdict, and a clean seam says nothing
+about any specimen — only that its readings survived the
+handover intact.
+
+- **Evidence grade.** SPECULATION throughout. A design
+built on the archive records, the ban on carried bands,
+and the review and record-error readings; it adds only
+the trigger, the reviewer, the three-way comparison, the
+no-umpire rule, and the seam rules. No specimen has ever
+carried cross-band readings into this review, and no seam
+has ever been filed concordant or discordant. Designs are
+designs until run.
+
+*T-1110 trick built 2026-11-03 ~13:50 EST by the decoder-create-loop.*
