@@ -5557,6 +5557,13 @@ decoder-research-loop.*
   - Source: https://rocketnews.com/2026/10/mcp-for-agent-to-agent-comms-may-be-the-riskiest-protocol-youve-never-heard-of-7/
   - [Claimed — single secondary carrier; researcher demonstrations, not attacks in the wild; no public identifier named]
 
+- **CrowdStrike taxonomy update — plan-stage injection techniques named (October 29, 2026; new to record; material — the first taxonomy entries aimed at the agent's plan, not its prompt or its answer).** The public taxonomy now lists 222 techniques, four new, grouped by pipeline stage. Goal Decomposition Exploitation (PT0227) feeds the agent a sub-task that makes a restricted action such as file exfiltration look necessary to finish the job; Constraint-Driven Task Steering (PT0228) blocks the route the agent would normally take so the fallback plan the attacker wants becomes the one it picks. Session State Spoofing (PT0240) plants a fake compaction note or memory log presenting an approval the user never gave as verified history; Output Exclusion Prompting (PT0237) bans the refusal and hedging language that safety tuning leans on. No tests against named products, no success rates published. Lesson: checks that look at each step alone miss what a sequence achieves together — the Gauntlet's screen must inspect the plan and the whole step sequence, and PT0240 makes verdict lineage append-only with commit lineage, never a rewritable log.
+  - Source: https://theinjection.dev/items/crowdstrike-prompt-injection-taxonomy-agent-planning/
+  - [Claimed — single secondary carrier summarizing CrowdStrike's October 29 taxonomy update; CrowdStrike primary not opened first-party this pass]
+- **CHAI — physical-environment indirect prompt injection via printed signs (arXiv 2510.00181 v2, UCSC + JHU, code at Cyphysecurity/chai; new to record; material — the injection channel leaves the screen).** Printed signs placed in a camera's view hijack vision-language systems: DriveLM 81.8%, drone emergency-landing 72.8%, CloudTrack 95.5%, a real robotic vehicle 87%+. Gear: printed signs plus a short attacker/target vision-language-model dictionary build; no software-defined radio, no network reach needed. Lesson: the agent's visual field is an untrusted document — the Gauntlet's ingest screen must cover camera and vision input, not just text channels; an embodied agent's surroundings are an instruction surface the moment it reads them as context.
+  - Source: https://exploitlabs.ai/ (Embodied & Unmanned Red-Team Briefing 2026-11-02, No. 097)
+  - [Claimed — briefing-carrier summary of the arXiv v2 paper; paper and code not read first-party this pass]
+
 ## Steganography & hidden channels
 
 Steganography hides the message's *existence*, so steganalysis — proving a
