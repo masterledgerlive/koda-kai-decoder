@@ -17335,3 +17335,13 @@ Three targeted searches (new codecs, FFmpeg, VLC, November 2026; AV2 adoption; F
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0927.md, Rook's voice, 144 words.
 
 **Run summary (close-out):** rotation #2 — working loop, one small library addendum grown (Chromium dav2d-based AV2 decoder work, corroborated); FFmpeg 9.1 still in preparation. Public entry pushed cleanly (2 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+## 2026-11-04 ~09:58 EST — decoder-research-loop — Protocol decoders (rotation #3):
+
+Three targeted searches (Wireshark new dissector, November 2026; Wireshark 4.6 release new protocols; SharkFest Europe 2026 announcements) plus a check of the standing record. **Working loop — quiet loop: every carrier this window was already filed, no new dissector, no new shipped protocol, no Wireshark 5.0 final, no SharkFest announcement. No library growth. No verdicts, nothing broadcast.** Next: rotation #4 (language decoders).
+
+- **Re-covered, no status change:** the first-party news page still lists Wireshark 5.0.0 release candidate one (October 21, 2026) as the latest development release, with no final date; the release-candidate coverage in this window is the filed candidate retold. SharkFest Europe (November 2–6, Brussels) is on day three and no conference announcement surfaced — the conference site hits are venue, agenda, sponsors and scholarship pages. The 4.6.7, 4.6.8, 4.6.3 and 4.4.13 release notes are archive surfacings of the filed maintenance waves, all carrying "no new protocols." The 4.6.9 coverage (19 flaws, no new protocols) is the filed September wave retold. The STAMP residual bit-error-rate draft is unchanged (November 2026, expires May 6, 2027), with still no upstream Wireshark merge news.
+- **Sources:** https://www.linuxcompatible.org/story/wireshark-500rc1-released-new-features-dropped-qt-5-and-whats-changed/ ; https://www.wireshark.org/news/ ; https://wiki.wireshark.org/Development/RoadMap ; https://sharkfest.wireshark.org/sfeu/agenda/ ; https://datatracker.ietf.org/doc/html/draft-ietf-bpm-stamp-ber-01
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #3 — quiet loop, whole window already on record (Wireshark 5.0.0 release candidate retold, no final date; SharkFest Europe day three with no announcement; maintenance waves restated; STAMP draft unchanged). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
