@@ -16825,3 +16825,24 @@ Two targeted searches (Kryptos K4 / Voynich / Indus status; unsolved-cipher brea
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — working loop, one new log-only item (Bletchley Park Trust Polish-names research, corroborated, 27 names surfaced so far), rest re-covered with no status change. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-11-03 ~20:20 EST, rotation #1):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 267 unchanged". This close-out block itself rides the next run's sync.
+- **Shadow mirror:** COMPLETE — decoder tree and MEMORY.md mirrored to Shadow (both scp passes exit 0).
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1947.md, Rook's voice, 150 words spoken body.
+
+**Run summary (close-out):** rotation #1 — working loop, one new log-only item (Bletchley Park Trust Polish-names research, corroborated, 27 names surfaced so far), rest re-covered with no status change. No library growth. Public entry pushed cleanly. Shadow mirror complete. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
+## 2026-11-03 ~20:28 EST — decoder-research-loop — Codecs & formats (rotation #2):
+
+Three targeted searches (new video codec announcements; Google media formats; FFmpeg/VLC codec-support updates) + standing-record comparison. **Quiet loop — every carrier already filed, plus one small first-party texture note; no new codec, no new format, no shipped release, no Google voxel-class codec. No library growth.** No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+- **NEW TEXTURE, log-only — Google's October 2026 recap (blog.google, November 2; CORROBORATED as a first-party recap).** The recap confirms Genie 4 as a real-time interactive world model with native audio, in trusted-tester preview — a world model, not a codec — and re-carries EmbeddingGemma 2 as a multimodal embedding model, not a media decoder. No voxel-class format is named. The "agi voxel" watch item remains unverified.
+  - Source: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/
+- **Re-covered, no status change:** the AV2 October 22 adoption press cycle echoed again (Medium November 1 explainer, fosslinux AV2-on-Linux guide, tutorialpedia AV1-state piece — the last cites VLC 3.0.21, stale against the filed 3.0.24); FFmpeg 9.1 still in its release process, 9.0.2 still the latest stable; VLC 3.0.24 restated; the MC-IF/Ittiam open-source VVC decoder initiative still an initiative, no shipped decoder named; the Khronos Vulkan Video Encode AV1 extension already filed; the Hackaday October 28 JPEG XL piece retells the graded datum with no grade upgrade; the VVC hit in this window is the 2020 Fraunhofer re-publication, not 2026 news.
+- **Grades:** Genie 4 non-codec classification CORROBORATED (first-party recap; the AGI-step claim itself remains vendor-stated, not measured); rest as previously filed (AV2 adoption addendum CORROBORATED; JPEG XL browser datum CORROBORATED; FFmpeg 9.1 CLAIMED, still unshipped; VLC 3.0.24 VERIFIED on record).
+- **Library changes:** none.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-2028.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #2 — quiet loop, one small first-party texture note (Google's November 2 October recap corroborates Genie 4 as a trusted-tester world model, not a codec; the "agi voxel" watch item stays unverified), rest re-covered with no status change. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
