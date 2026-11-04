@@ -37402,3 +37402,126 @@ original opening is spent for good.
 Designs are designs until run.
 
 *T-1125 trick built 2026-11-03 ~20:55 EST by the decoder-create-loop.*
+
+## T-1126 — Unattestable Window Fresh Opening: whether a window returned to queue as UNATTESTABLE may ever run again
+
+- **The gap it closes.** T-1125
+caps the re-attestation chain at
+two: a window whose second
+re-attestation is itself hit by an
+integrity finding returns to queue
+as UNATTESTABLE, and no challenge
+runs on that opening. It leaves
+one question open: is that the end
+of the matter, or may a fresh
+opening carry it? If the original
+opening could simply be re-opened,
+the cap is a fiction — the same
+hands, the same attestation, a new
+label. If the matter is buried
+forever, a twice-failed attestation
+chain kills a challenge that may
+itself be sound. This entry draws
+the line: the opening is spent, the
+matter is not buried.
+
+- **The rule.** The original opening
+is spent for good. It never runs a
+challenge again, it is never
+re-attested a third time, and it is
+never revived by new evidence about
+the old attestation. A fresh opening
+is a NEW window, not a continuation
+of the old one: a new window id,
+the back of the queue under T-1120
+order (no inherited position), a
+fresh attestation by auditors with
+no prior hand in the chain — no
+original attestor, no re-attestor,
+no challenger, no judge — each
+T-1112-cleared and subject to
+T-1122's conflict bar, a fresh
+T-1118 challenge window, and no
+carried filings, evidence, or
+challenge clock. The fresh opening
+must cite the UNATTESTABLE record
+id; a filing without that citation
+is FRESH-OPENING-REFUSED and takes
+no queue place, and may be re-filed
+once with the citation corrected —
+not re-argued, not re-shopped for
+friendlier hands.
+
+- **One fresh opening per matter.**
+If the fresh opening itself reaches
+UNATTESTABLE under T-1125, the
+matter is MATTER-CLOSED: no third
+opening, no further challenge on
+that matter through this chain. The
+matter is held as a T-1103 record,
+not decided — MATTER-CLOSED is a
+hold on the chain, never a verdict
+on any specimen, and it lifts no
+other hold.
+
+- **What the fresh opening does
+not do.** It does not clear, erase,
+or supersede the UNATTESTABLE mark:
+the mark is preserved on the old
+record and cross-referenced on the
+new window, so the chain's failure
+stays visible. It does not lift any
+other hold — T-1103 review,
+HEAD-BLOCKED under T-1123, and
+AUDITOR-SCARCE under T-1119 all
+stand untouched. It does not revive
+a lapsed challenge under T-1119, and
+it does not move the queue: windows
+ahead of the fresh filing keep their
+places, and a conflict-held head
+under T-1123 still governs the queue.
+
+- **Readings.** OPENING-SPENT: the
+original opening, never to run.
+FRESH-OPENING: a new window
+granted, back of queue, fresh
+attestation, fresh challenge window.
+FRESH-OPENING-REFUSED: missing
+UNATTESTABLE citation, or a prior
+hand in the proposed attestation.
+MATTER-CLOSED: the fresh opening
+also reached UNATTESTABLE, chain
+ended for that matter. None of these
+readings is a verdict on any
+specimen, and none says a challenge
+on the fresh opening succeeds — only
+whether the matter may proceed, and
+under whose hands.
+
+- **Evidence grade.** SPECULATION
+throughout. This is a design built
+on T-1125's chain cap and its
+UNATTESTABLE return-to-queue, on
+T-1120's queue order, on T-1112's
+independence check, on T-1122's
+conflict bar, on T-1123's queue-
+versus-window distinction, and on
+T-1103's record discipline; it adds
+only the spent-opening rule, the
+new-window conditions, the citation
+requirement, and the one-fresh-
+opening cap. No window has ever
+been returned as UNATTESTABLE, no
+fresh opening has ever been filed,
+and no matter has ever reached
+MATTER-CLOSED under this entry.
+Admitted here, unsolved: whether
+MATTER-CLOSED is permanent, or
+whether genuinely new matter — new
+evidence about the specimen, not
+about the attestation — may open a
+distinct window of its own. That
+question is deliberately not decided
+here. Designs are designs until run.
+
+*T-1126 trick built 2026-11-03 ~21:05 EST by the decoder-create-loop.*
