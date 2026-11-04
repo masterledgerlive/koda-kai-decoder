@@ -17271,3 +17271,10 @@ Three targeted searches plus standing-record checks. **Working loop — three ne
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — working loop, three new log-only items (symbolic regression best at the twenty-four-hour water-level horizon with hand-readable phase-driven equations, corroborated at abstract level; influence-guided and agentic equation-discovery methods, both claimed, snippet-read only), one parked dubious item, rest re-covered at filed grades. No library growth. No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-11-04 ~08:06 EST, rotation #12):**
+- **Push result:** sync-github.py "research: math/physics engines (rotation #12) — PySR Varna water-level win (corroborated, abstract level), IGSR + SR-SCIENTIST equation-discovery methods (claimed, snippet-read), LaTeX-Regress parked; rest re-covered, no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 267 unchanged". This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0759.md, Rook's voice, 149 words.
+
+**Run summary (close-out):** rotation #12 — working loop, three new log-only items (symbolic regression best at the twenty-four-hour water-level horizon with hand-readable phase-driven equations, corroborated at abstract level; influence-guided and agentic equation-discovery methods, both claimed, snippet-read only), one parked dubious item, rest re-covered at filed grades. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. Next: rotation #13 (unsolved ciphers & prize bounties).
