@@ -17126,3 +17126,5 @@ Three targeted news searches (quantum error correction breakthroughs; post-quant
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #5 — working loop, two new log-only items (constant-depth 4D toric decoding theory, claimed; Cloudflare quantum-resistant TLS certificates radar line, claimed); whole window otherwise re-covered. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-11-04 ~04:38 EST, rotation #5):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0427.md, Rook's voice. No library growth. No chat message. Next: rotation #6 (photonic comms & power).
