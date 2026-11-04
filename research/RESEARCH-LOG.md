@@ -17049,3 +17049,5 @@ Three targeted news searches (Enigma/Bletchley Park; Bletchley Park Polish codeb
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave sixth press cycle, July Polish-codebreakers research, SG-41 Prague manuals, Hut 11A, Mavis Lever retell). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
+
+**Close-out (2026-11-04 ~02:35 EST, rotation #1):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged; one transient disconnect on an unrelated check, recovered). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0228.md, Rook's voice, one-line quiet-loop brief. No library growth. No chat message. Next: rotation #2 (codecs & formats).
