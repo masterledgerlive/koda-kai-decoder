@@ -17391,3 +17391,10 @@ Three targeted searches (quantum error correction, post-quantum migration, fault
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #5 — quiet loop, whole quantum window already on record. No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-11-04 ~11:05 EST, rotation #5):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md" + "done: 1 pushed, 267 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1057.md, Rook's voice, quiet-loop line.
+
+**Run summary (close-out):** rotation #5 — quiet loop, whole quantum window already on record. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
