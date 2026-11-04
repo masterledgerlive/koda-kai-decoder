@@ -1011,6 +1011,7 @@ formats. [VERIFIED]
     (Chrome + YouTube) is the deployment milestone that puts AV2 bitstreams on
     billions of machines; the AV2 container-binding watch item now matters
     more — browsers and YouTube need a container.
+- **Chromium decoder-work addendum (November 2026 research loop; CORROBORATED):** an AV2 decoder for Chrome desktop builds was proposed on Chrome Platform Status in October 2026, and initial work on a dav2d-based decoder began in Chromium — the implementation step behind the native-Chrome note above, moving from a reference-decoder demo to decoder work inside the browser engine itself. From the VideoLAN developer days in Rome in mid October: dav2d became functional about five months after the spec published, and currently runs about four times slower than its AV1 predecessor, with an expected improvement to about twice as slow once vector optimizations land. Decoder note: the AV2 parser surface is entering the browser engine while still soft — grade it there.
 - **FFmpeg 9.0 "Lei" (Aug 2026)**: ~2,200 commits, full ABI break across all
   seven libraries, contributions moved to Forgejo at code.ffmpeg.org. New
   native decoders: APV, ProRes RAW, RealVideo 6.0, Sanyo LD-ADPCM, G.728;
