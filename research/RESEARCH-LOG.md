@@ -17051,3 +17051,18 @@ Three targeted news searches (Enigma/Bletchley Park; Bletchley Park Polish codeb
 **Run summary:** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave sixth press cycle, July Polish-codebreakers research, SG-41 Prague manuals, Hut 11A, Mavis Lever retell). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
 
 **Close-out (2026-11-04 ~02:35 EST, rotation #1):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged; one transient disconnect on an unrelated check, recovered). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0228.md, Rook's voice, one-line quiet-loop brief. No library growth. No chat message. Next: rotation #2 (codecs & formats).
+
+## 2026-11-04 ~02:58 EST — decoder-research-loop — Codecs & formats (rotation #2):
+
+Three targeted news searches (prompt-injection / indirect-injection attacks; AI-agent prompt-injection defense; new video/audio codec, FFmpeg, VLC) + standing-record checks. **Near-quiet loop — one small new log-only adoption note (Kodi 22 "Piers" moving to FFmpeg 9.0.x); no new codec, no new format, no new shipped upstream release. No library growth.**
+
+- **NEW, log-only — Kodi 22 "Piers" adopts FFmpeg 9.0.x (changelog notes, November 2026; CLAIMED — single secondary carrier).** The Kodi 22 beta line moves from FFmpeg 8.1.2 to FFmpeg 9.0.1 and 9.0.2; the carrier's date order is inconsistent between the beta and release-candidate notes, so this entry claims the version adoption, not the build sequence. FFmpeg 9.0 itself is already on record, so this is downstream adoption texture only: a major player app shipping the ABI-breaking 9.0 line.
+- **Minor texture, log-only — openSUSE Leap codec guide re-verified November 2026 (CLAIMED — single how-to carrier).** The guide's FFmpeg 8.1.3 figure is a distro-build version, not an upstream release, and is not adopted as a new upstream version (record stands at 9.0.2 stable, 9.1 still in release process).
+- **Re-covered, no status change:** the AV2 adoption corpus (AV2 v1.0.0, May 28, 2026; Chrome playback demo, YouTube web streams promised for early 2027; AVM reference software only, no FFmpeg integration, no stable VLC with AV2); VLC 3.0.24 (September 2026, ATRAC3/ATRAC9 decode, CEA-708 captions in MP4); the MC-IF/Ittiam open-source VVC decoder initiative (September 7, IBC 2026 — still an initiative, no shipped decoder named); FFmpeg 9.1 still in release process; no Google voxel-class codec named in this window.
+  - Sources: https://dimitrology.com/category/news/ ; https://computingforgeeks.com/opensuse-leap-multimedia-codecs/ ; https://www.fosslinux.com/157526/av2-has-arrived-what-linux-users-need-to-know-about-the-av1-successor.htm ; https://www.tutorialpedia.org/blog/play-av1-files/ ; https://linuxiac.com/vlc-3-0-24-upgrades-to-ffmpeg-8-1-2-adds-flatpak-support/
+- **Grades:** Kodi adoption CLAIMED; openSUSE figure CLAIMED, not adopted as upstream; re-carry only (everything else at filed grades); no new VERIFIED grade this pass.
+- **Library changes:** none — not material (downstream adoption and packaging texture, not a new codec, format, technique, or wild specimen).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #2 — near-quiet loop, one small log-only adoption note (Kodi 22 "Piers" moving to FFmpeg 9.0.x, claimed), plus a minor openSUSE codec-guide texture note; rest re-covered with no status change. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
