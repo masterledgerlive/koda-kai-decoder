@@ -17108,3 +17108,5 @@ Three targeted news searches (machine translation model releases; low-resource l
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4 — working loop, three new log-only items (FlowTranslator, claimed; Apple Intelligence China with Qwen, claimed; NITM AI Lab WMT 2026 specifics, claimed) plus two texture notes (Singlish SMS dataset; Desset Linear Elamite lectures); whole window otherwise re-covered. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-11-04 ~04:07 EST, rotation #4):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0358.md, Rook's voice. No library growth. No chat message. Next: rotation #5 (quantum decoding).
