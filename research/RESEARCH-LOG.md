@@ -16853,3 +16853,18 @@ Three targeted searches (new video codec announcements; Google media formats; FF
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-03-2028.md, Rook's voice, one-line quiet-loop brief.
 
 **Run summary (close-out):** rotation #2 — quiet loop, one small first-party texture note (Google's November 2 October recap corroborates Genie 4 as a trusted-tester world model, not a codec; the "agi voxel" watch item stays unverified), rest re-covered with no status change. No library growth. Public entry pushed cleanly (1 pushed). Shadow mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+
+## 2026-11-03 ~20:57 EST — decoder-research-loop — Protocol decoders (rotation #3):
+
+Three targeted searches (Wireshark 5.0, SharkFest Europe 2026, new mesh/IoT protocol decoders) + standing-record checks. **Near-quiet loop — one small new log-only note (doxx.net free private mesh, November 3, 2026, vendor announcement); no new dissector, no new shipped protocol, no watch-item status change. No library growth.**
+
+- **NEW, log-only — doxx.net free private mesh tier (CLAIMED — vendor announcement via Business Wire).** A free tier of an encrypted mesh platform: enrolled devices join one private network, invisible to the public internet, with no open ports and end-to-end encrypted calls, chat and file transfer; paid plans add internet access and agent seats. No published wire spec and no third-party dissector accompanied the announcement, so this is protocol-surface texture, NOT MATERIAL — a published wire format or independent review would re-grade it.
+  - Source: https://kxlt.marketminute.com/article/bizwire-2026-11-3-doxxnet-makes-its-private-network-mesh-and-peer-to-peer-comms-free-for-all
+- **Re-covered, no status change — Wireshark window:** 5.0.0rc1 (October 21, 2026) still the latest development release; 4.6.10 / 4.4.20 still scheduled November 12; no 5.0.0 final. SharkFest Europe (November 2–6) on day two with no announcement surfaced. The September maintenance wave (advisories wnpa-sec-2026-102 through -110, fixed in 4.6.9/4.4.19) retold via distro roundups, not new advisories.
+  - Sources: https://www.wireshark.org/news/ ; https://wiki.wireshark.org/Development/RoadMap
+- **Re-covered, no status change — mesh window:** NeoMesh electronica demo plus MQTT gateway detail, Nordic nRF71 chip, u-blox ALMA-W1 module, Thread/KNX guidance paper, and Thread 1.4 / Wi-Fi 7 / Matter convergence picture all restate filed material. STAMP residual-BER draft unchanged, still no upstream Wireshark merge news.
+- **Grades:** doxx.net CLAIMED; re-carries at filed grades.
+- **Library changes:** none — NOT MATERIAL (no new decode surface).
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-2057.md, Rook's voice, quiet-loop brief.
+
+**Run summary:** rotation #3 — near-quiet loop, one small new log-only note (doxx.net free private mesh, claimed); Wireshark 5.0.0 final still dateless, SharkFest EU under way with no announcement, 4.6.10/4.4.20 due November 12. No library growth. Next: rotation #4 (language decoders).
