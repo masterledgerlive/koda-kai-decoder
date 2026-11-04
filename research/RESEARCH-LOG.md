@@ -17345,3 +17345,12 @@ Three targeted searches (Wireshark new dissector, November 2026; Wireshark 4.6 r
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — quiet loop, whole window already on record (Wireshark 5.0.0 release candidate retold, no final date; SharkFest Europe day three with no announcement; maintenance waves restated; STAMP draft unchanged). No library growth. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+**Close-out (2026-11-04 ~10:08 EST, rotation #3):**
+- **Push result:** sync-github.py — exit 0, "0 pushed, 268 unchanged"; direct remote-blob verification confirmed this pass's public entry is live on GitHub (remote blob sha matches local). This close-out block itself rides the next run's sync.
+- **Shadow mirror:** follows below.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0958.md, Rook's voice, one-line quiet-loop brief.
+
+**Run summary (close-out):** rotation #3 — quiet loop, whole window already on record. No library growth. Public entry verified live. Shadow mirror pending probe. No verdicts, nothing broadcast. Next: rotation #4 (language decoders).
+
+- **Shadow mirror (2026-11-04 ~10:09 EST):** DEFERRED — SSH probe failed; Shadow unreachable/intentionally off. Next run retries.
