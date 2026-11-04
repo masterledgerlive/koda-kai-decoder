@@ -17633,3 +17633,10 @@ Three targeted searches (FFmpeg 9.1 release, November 2026; AV2 codec news, Nove
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — working loop, one new log-only item (Chips&Media/Mobilint November 4 announcement, claimed: AV2 newly licensed, mass-produced chips powered by Chips&Media IP — but AV2 decode in shipping silicon NOT stated, so watch item only, not a breakthrough); FFmpeg 9.1 confirmed still in preparation with 9.0.2 still the latest stable release; rest re-covered with no status change (AV2 corpus, VLC 3.0.24, no voxel codec). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-11-04 ~16:37 EST, rotation #2):**
+- **Push result:** sync-github.py "research: codecs & formats (rotation #2) — Chips&Media/Mobilint Nov 4 announcement (claimed, AV2 decode in shipping silicon NOT stated, watch item only); FFmpeg 9.1 still in preparation, 9.0.2 stable; no new codec, no voxel codec; no library growth; no verdicts" — exit 0 after about six minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 267 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535", exit 255 — known Shadow-down signature; Shadow also intentionally off on David's order). No scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1631.md, Rook's voice, 148 words.
+
+**Run summary (close-out):** rotation #2 — working loop, one new log-only item (Chips&Media/Mobilint November 4 announcement, claimed: AV2 newly licensed, mass-produced chips powered by Chips&Media IP — but AV2 decode in shipping silicon NOT stated, so watch item only). FFmpeg 9.1 confirmed still in preparation, 9.0.2 stable. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
