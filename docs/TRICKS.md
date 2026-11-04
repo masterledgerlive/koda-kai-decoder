@@ -37272,3 +37272,133 @@ is final once given. Designs are designs
 until run.
 
 *T-1124 trick built 2026-11-03 ~20:45 EST by the decoder-create-loop.*
+
+## T-1125 — Second Integrity Finding Against the Re-attesting Auditor: whether windows they re-attested re-open
+
+- **The gap it closes.** T-1124 settles
+what happens to windows opened by a
+revoked auditor: they stand by default,
+and re-attestation is owed only when the
+revocation names an attestation-integrity
+ground. It leaves one question open: what
+happens when the surviving auditor who
+gave that re-attestation is themselves hit
+by a second integrity finding? Is the
+re-attestation final once given, or does
+the chain re-open? A re-attestation that
+can never be questioned makes the second
+auditor a single point of trust; a
+re-attestation that voids on any later
+finding makes every window hostage to
+every later accusation. This entry draws
+the line between those two failures.
+
+- **The rule.** Re-attestation under
+T-1124 is conditional, not final: it
+stands only while the re-attesting
+auditor's own attestation integrity
+stands. A second integrity finding
+against the re-attesting auditor puts
+every window they re-attested into
+SECOND-LOOK — but only when the
+finding names attestation integrity:
+a finding that names the re-attestation
+procedure itself, or the re-attestor's
+attestation conduct generally, re-opens
+the window; a finding on unrelated
+conduct (attendance, paperwork, a
+dispute with another auditor) does not
+re-open anything, and is recorded only
+as ATTESTOR-FLAGGED on the window's
+ledger. The distinction is the finding's
+stated ground, not its severity: a grave
+unrelated finding still does not re-open,
+and a narrow procedure finding still does.
+
+- **What SECOND-LOOK does.** An
+in-flight window in SECOND-LOOK pauses
+at the next run boundary, exactly as
+RE-ATTEST-PENDING pauses under T-1124:
+the challenge does not proceed until a
+third auditor re-attests the opening
+procedure — the procedure only, never
+the challenge, per T-1124. The original
+attestation, the first re-attestation,
+and the second finding are all kept
+alongside on the window's ledger; nothing
+is struck, and no earlier attestation is
+retroactively declared false. A completed
+challenge is never re-opened: a second
+finding that arrives after completion
+marks the window SECOND-LOOK-LATE,
+annotates the outcome, and leaves the
+outcome untouched, paralleling
+RE-ATTEST-LATE under T-1124.
+
+- **The chain cap.** No window carries
+more than two re-attestations. If the
+third auditor — the second re-attestor —
+is themselves hit by an attestation-
+integrity finding naming that window's
+procedure, the window does not seek a
+fourth hand: it returns to its queue
+position marked UNATTESTABLE, and no
+challenge runs on it from that opening.
+UNATTESTABLE is a hold, not a verdict
+and not a failure of the specimen: the
+window waits for a fresh opening under
+whatever opening rule governs new
+windows, and it waits without blocking
+the head (per T-1123, a frozen window
+never becomes HEAD-BLOCKED). If no
+eligible third hand appears within two
+runs of SECOND-LOOK, the window is
+marked SECOND-LOOK-STALLED and frozen
+alone, on T-1124's two-run stall clock.
+
+- **Readings.** SECOND-LOOK: second
+attestation-integrity finding named, in-
+flight window paused, third attestation
+owed. SECOND-ATTESTED: third auditor
+confirmed the opening, challenge
+resumes, all three attestations kept.
+ATTESTOR-FLAGGED: unrelated finding
+recorded, window proceeds untouched.
+SECOND-LOOK-LATE: completed challenge,
+finding annotated, outcome untouched.
+SECOND-LOOK-STALLED: two runs, no
+eligible hand, window frozen alone.
+UNATTESTABLE: chain cap reached, window
+returned to queue, no challenge runs on
+that opening. None of these readings is
+a verdict on any specimen, and none
+says a window's challenge succeeds —
+only whose hands the opening has passed
+through, and whether it may proceed.
+
+- **Evidence grade.** SPECULATION
+throughout. This is a design built on
+T-1124's stand-by-default rule, its
+procedure-only re-attestation, its
+completed-challenge stand, and its
+two-run stall clock, plus T-1123's
+queue-versus-window distinction and
+T-1122's forward-looking revocation; it
+adds only the conditional-finality rule,
+the ground-named trigger, the unrelated-
+finding annotation, the completed-
+challenge stand, and the two-re-
+attestation chain cap. No re-attesting
+auditor has ever been hit by a second
+integrity finding, no window has ever
+been marked SECOND-LOOK, and no
+window has ever reached UNATTESTABLE
+under this entry. Admitted here,
+unsolved: whether a window returned to
+queue as UNATTESTABLE may ever be re-
+opened by a fresh opening rather than
+by re-attestation, or whether the
+original opening is spent for good.
+Designs are designs until run.
+
+*T-1125 trick built 2026-11-03 ~20:55 EST by the decoder-create-loop.*
