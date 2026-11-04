@@ -17290,3 +17290,10 @@ Two targeted searches plus standing-record checks. **Working loop — quiet loop
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13 — quiet loop, every carrier already filed (Indus one-million-dollar prize still unclaimed, submissions under review as of May twenty twenty-six; Kryptos K4 still publicly unsolved with plaintext held private and the follow-up puzzle unreleased; Voynich still unread, singulion mis-binding translates nothing; Beale quiet). No catalogue growth. No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-04 ~08:37 EST, rotation #13):**
+- **Push result:** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13) — quiet loop, every carrier already filed; Indus one-million-dollar prize still unclaimed, Kryptos K4 still publicly unsolved, Voynich still unread, Beale quiet; no catalogue growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 267 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed; Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0830.md, Rook's voice, one-line quiet-loop brief.
+
+**Run summary (close-out):** rotation #13 — quiet loop, every carrier already filed (Indus one-million-dollar prize still unclaimed, submissions under review as of May twenty twenty-six; Kryptos K4 still publicly unsolved with plaintext held private and the follow-up puzzle unreleased; Voynich still unread, singulion mis-binding translates nothing; Beale quiet). No catalogue growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. Next: rotation #1 (historical codebreaking).
