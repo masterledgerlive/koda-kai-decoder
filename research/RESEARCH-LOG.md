@@ -17033,3 +17033,19 @@ Three targeted searches (Kryptos K4 / Voynich / Indus status; Indus prize status
 **Run summary:** rotation #13 — working loop, two new log-only texture items (Kryptos retell with a claimed net-proceeds figure; Indus prize-protocol criteria asserted by a secondary explainer, tension unresolved), one reconciliation (Schwartz Voynich 130 + 282 = 412, same preprint, same null), rest re-covered with no status change (Kryptos K4 still publicly unsolved, Voynich still unread, Indus $1M prize still unclaimed). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
 
 **Close-out (2026-11-04 ~02:07 EST, rotation #13):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged; one transient disconnect on an unrelated check, recovered). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0158.md, Rook's voice, 150 words. No library growth. No chat message. Next: rotation #1 (historical codebreaking).
+
+## 2026-11-04 ~02:28 EST — decoder-research-loop — Historical codebreaking (rotation #1):
+
+Three targeted news searches (Enigma/Bletchley Park; Bletchley Park Polish codebreakers; newly declassified cipher history) + standing-record checks. **Quiet loop — whole window already on record, no new finding, no status change. No library growth.**
+
+- **Re-covered, no status change — the September 2026 agentic-cipher wave, sixth press cycle:** the MVUEH 1941 Enigma break (82 letters, July 10, 1941, validated by cryptologist Frode Weierud), the second 1941 Enigma message, the 1809 Marmont homophonic break (1,300 cipher units, 155 signs), and the 1918 ADFGVX break (170 symbols, Sevastopol date match) all restated by fresh carriers with no new fact; the "10 hours" MVUEH figure remains a flagged press compression of the ~2-day primary record, not a second run. The seven-remaining Crypto Cellar Enigma count stands.
+  - Sources: https://blog.msharsha.com/posts/enigma-cracked.html ; https://allatra.media/news/ai-tech-enigma-mvueh-break ; https://www.explainx.ai/blog/gpt-6-astra-enigma-wwi-cipher-decoded-2026 ; https://backyarddrunkard.com/daily-trends/gpt-6-astra-decodes-108-year-old-world-war-i-adfgvx-cipher/ ; https://medium.com/@rdtnraja01/ai-just-helped-crack-a-secret-message-that-stayed-hidden-for-217-years-8a13a060681d
+- **Re-covered, no status change — the July 2026 Polish-codebreakers research:** the Bletchley Park Trust release (27 Polish codebreakers and SIGINT workers identified so far, ~100 UK-based Polish personnel 1940–1945, first Polish Codebreaking Festival July 25–26, 2026) and the June 27, 2026 Liss plaque for Henryk Zygalski — same July window already on record, no follow-up count or new names this window.
+  - Sources: https://www.bletchleypark.org.uk/wp-content/uploads/2026/07/New-research-identifies-dozens-of-Polish-names-involved-in-WW2-codebreaking.pdf ; https://katycarr.com/2026/07/31/katy-carrs-july-aug-2026-summer-reflections-polish-codebreakers-upcoming-pbic-concert/
+- **Re-covered, no status change:** the Schlüsselgerät 41 Prague manual find (Cryptologia 2025 — still the lane's newest genuine archive datum, retell adds nothing new); the Hut 11A restoration item; the Mavis Lever / Cape Matapan retell (settled 1940 history, no new artifact).
+- **Grades:** re-carry only; no new VERIFIED grade this pass.
+- **Library changes:** none — not material per the loop's rule (no new technique, format, advance, or wild specimen this pass).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave sixth press cycle, July Polish-codebreakers research, SG-41 Prague manuals, Hut 11A, Mavis Lever retell). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
