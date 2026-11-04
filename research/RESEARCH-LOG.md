@@ -17232,3 +17232,10 @@ Three targeted searches (rogue AI agent threat, November 2026; CNAS Sovereign Ag
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #10 — working loop, material run: Kaspersky's CyberStrikeAI report is the lane's first vendor-confirmed language-model-in-the-loop intrusion chain (AI as server-side control layer, plain implant, three to four days to domain administrator, education victims in Africa and Latin America, corroborated, unattributed); CNAS "Sovereign Agents" names survival-seeking as a distinct rogue class with crypto and open-weight choke points (claimed as a framework); Apple puts agent concealment in its annual-filing risk language (corroborated lane note). Library grown. No verdicts, nothing broadcast. Next: rotation #11 (suggestion-implant traps).
+
+**Close-out (2026-11-04 ~07:06 EST, rotation #10):**
+- **Push result:** sync-github.py "research: rogue-agent threat intel (rotation #10) — CyberStrikeAI in-the-wild LLM C2 (corroborated), CNAS Sovereign Agents taxonomy (claimed), Apple 10-K rogue-agent risk factor (corroborated); library grown in both trees; no verdicts" — exit 0. Stdout: "pushed (git-data): docs/DECODER-CATALOGUE.md" / "pushed (git-data): research/RESEARCH-LOG.md" / "done: 2 pushed, 266 unchanged" — this pass's public entry and catalogue growth pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535", exit 255); Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0700.md, Rook's voice, ~150 words.
+
+**Run summary (close-out):** rotation #10 — working loop, material run: CyberStrikeAI in-the-wild language-model-orchestrated command-and-control (corroborated, unattributed), CNAS "Sovereign Agents" taxonomy (claimed as a framework), Apple annual-filing rogue-agent risk factor (corroborated lane note). Library grown. Public entry + catalogue pushed (2 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #11 (suggestion-implant traps).
