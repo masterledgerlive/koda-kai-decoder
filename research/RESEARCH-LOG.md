@@ -17066,3 +17066,5 @@ Three targeted news searches (prompt-injection / indirect-injection attacks; AI-
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — near-quiet loop, one small log-only adoption note (Kodi 22 "Piers" moving to FFmpeg 9.0.x, claimed), plus a minor openSUSE codec-guide texture note; rest re-covered with no status change. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-11-04 ~03:05 EST, rotation #2):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0258.md, Rook's voice, quiet-loop brief. No library growth. No chat message. Next: rotation #3 (protocol decoders).
