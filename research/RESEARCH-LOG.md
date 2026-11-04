@@ -17708,3 +17708,10 @@ Two targeted searches (quantum error correction breakthrough, November 2026; pos
 - **Library changes:** none — NOT MATERIAL per body rule §4.
 
 **Run summary:** rotation #5 — working loop, three new log-only items (nearly-critical toric-code error correction, claimed; NVIDIA eight-qubit toric-code hardware-mapping workflow, claimed; MDPI post-quantum ledger-signature comparison, corroborated); whole window otherwise re-covered. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
+
+**Close-out (2026-11-04 ~18:07 EST, rotation #5):**
+- **Push result:** sync-github.py "research: quantum decoding (rotation #5) — nearly-critical toric-code correction (claimed), NVIDIA eight-qubit toric workflow (claimed), MDPI ledger-signature comparison (corroborated); no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" + "done: 1 pushed, 267 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature; Shadow also intentionally off on David's order); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1800.md, Rook's voice, 146 words.
+
+**Run summary (close-out):** rotation #5 — working loop, three new log-only items (nearly-critical toric-code correction, claimed; NVIDIA eight-qubit toric workflow, claimed; MDPI ledger-signature comparison, corroborated); rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. No chat message. Next: rotation #6 (photonic comms & power).
