@@ -37791,3 +37791,119 @@ are deliberately not decided here.
 Designs are designs until run.
 
 *T-1128 trick built 2026-11-03 ~21:31 EST by the decoder-create-loop.*
+
+## T-1129 — Contested Materiality: who judges materiality when the new evidence itself is contested
+
+- **The gap it closes.** T-1127 asks
+who judges materiality when the new
+evidence itself is contested — a
+second gate reviewer, or the
+challenge's own judge — and T-1128
+carries it forward unsolved. This
+entry answers it: neither. The gate
+reviewer judges newness; contested
+materiality goes to a referee who
+judges nothing else.
+
+- **The split.** A newness filing has
+two questions, judged by different
+hands. The gate reviewer — T-1127's
+gate, T-1112-cleared, no prior hand
+in the closed chain — judges the
+legs except materiality: whether the
+evidence is about the specimen,
+genuinely new, and sourced.
+Materiality — whether it could
+change the outcome — is the gate
+reviewer's call only while it is
+uncontested. Once it is contested
+under the bar below, the gate
+reviewer steps back from that item's
+materiality and the referee decides.
+
+- **What counts as a contest.** A bare
+"not material" is not a contest: it
+is argument, and the gate reviewer
+decides it as before. A contest is a
+filing that names the materiality
+claim it attacks and cites the record
+it relies on — a prior consideration,
+a measurement, a log line. Only a
+cited contest moves the question to
+the referee. This bar exists so no
+filing can buy a second judge merely
+by uttering the word "contested."
+
+- **The referee.** The MATERIALITY
+REFEREE is T-1112-cleared, has no
+prior hand in the closed chain or in
+the window's founding evidence, and
+is not the challenge's judge. The
+referee decides on papers only — the
+filing, the contest, the cited
+record — before the window opens,
+and files a written finding:
+MATERIAL or NOT-MATERIAL, with the
+record cited. The referee never
+judges the challenge itself, never
+rules on newness, and never sits
+twice on the same matter.
+
+- **The outcomes.** If the contested
+item is a supplement (T-1128's
+path): MATERIAL admits it as
+QUEUE-WAIT-SUPPLEMENTED;
+NOT-MATERIAL makes it
+QUEUE-WAIT-REFUSED for this window,
+held and cited for a later filing,
+and the window opens on its founding
+evidence alone. If the contested item
+is the founding evidence itself:
+MATERIAL opens the window;
+NOT-MATERIAL sends it to
+DISTINCT-EVIDENCE-REFUSED before
+opening under T-1128's impeachment
+path, queue place released, no
+challenge runs. The referee's finding
+replaces the gate reviewer's
+materiality call on that item only —
+it does not reopen the other legs.
+
+- **Timing and queue.** The window
+does not open until the referee
+rules, and its queue place is held
+while the referee sits: a contested
+filing must not lose its place for
+being contested, nor jump the queue
+for it. One referee per contested
+item; a second contest on the same
+item with no new cited record is
+argument, not a new contest, and
+goes to the gate reviewer.
+
+- **Evidence grade.** SPECULATION
+throughout. This is a design built
+on T-1127's gate and four legs, on
+T-1128's supplement, impeachment,
+and refusal paths and its opening
+boundary, on T-1112's clearance, on
+T-1122's conflict bar, and on
+T-1120's queue order; it adds only
+the contest bar (cited record
+required), the referee, the split of
+newness from materiality, and the
+queue-place hold during referral. No
+referee has ever sat, no contested
+materiality has ever been referred,
+and no GATE-REVIEW has ever run.
+Admitted here, unsolved: whether
+evidence the gate reviewer finds
+themselves, filed by nobody, may
+trigger GATE-REVIEW — carried
+forward — and whether a referee's
+finding may itself be contested, and
+by whom. Those questions are
+deliberately not decided here.
+Designs are designs until run.
+
+*T-1129 trick built 2026-11-03 ~22:05 EST by the decoder-create-loop.*
