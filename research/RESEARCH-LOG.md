@@ -17471,3 +17471,10 @@ Three targeted searches (AI agent / behavioral bot detection, CAPTCHA successors
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #8 — working loop, five new log-only items (3AM AI-loop incident with tempo signatures, claimed, flagged to the rogue-agent lane; multi-agent FL IoT attack detection 99.56%/99.62%, corroborated via abstract; SCRIBE declared-not-detected framework, corroborated as published, synthetic evaluation; Entra risk-based CAPTCHA + Agent ID lifecycle texture, claimed via digest; Sophos 661-case dwell and identity-breach figures, claimed via op-ed) plus re-covered filed window. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-11-04 ~12:45 EST, rotation #8):**
+- **Push result:** sync-github.py — the run hit the 600s exec timeout with no stdout, but read-only verification after the run showed the remote blob sha equals the local blob sha (bd196d9646968315bc9addeaad154fc69c0d81bd, 4,508,046 bytes), so this pass's public entry IS live on GitHub. No re-run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1230.md, Rook's voice, 145 words.
+
+**Run summary (close-out):** rotation #8 — working loop, five new log-only items (3AM AI-loop incident, claimed, flagged to the rogue-agent lane; multi-agent FL IoT attack detection, corroborated; SCRIBE declared-not-detected framework, corroborated as published, synthetic evaluation; Entra + Sophos texture, claimed) plus re-covered filed window. No library growth. Public entry verified live on GitHub. Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. No chat message. Next: rotation #9 (sandbox & container tech).
