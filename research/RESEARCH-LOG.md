@@ -17189,3 +17189,10 @@ Three targeted searches (AI agent / bot detection, November 2026; CAPTCHA succes
 - **Shadow mirror:** to follow in the close-out block below.
 
 **Run summary:** rotation #8 — working loop, one new announced-not-shipped detection item (CrowdStrike Agent Insider Threat Detection, Q4 delivery, claimed), one watch partly resolved (Persona AI launch first-party confirmed, binding claim still guide-mentioned), two new texture items (Playwright walkthrough, not a benchmark; CAPOA proposal, speculation); rest re-covered at filed grades. No library growth. No verdicts, nothing broadcast. Next: rotation #9 (sandbox & container tech).
+
+**Close-out (2026-11-04 ~06:05 EST, rotation #8):**
+- **Push result:** sync-github.py "research: agent detection vs anti-detection (rotation #8) — CrowdStrike insider-threat announcement (Q4, claimed), Persona AI launch first-party confirmed (binding claim still guide-mentioned), Playwright walkthrough + CAPOA proposal as texture; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535", exit 255); Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0557.md, Rook's voice, 148 words.
+
+**Run summary (close-out):** rotation #8 — working loop, one new announced-not-shipped detection item (CrowdStrike Agent Insider Threat Detection, Q4 delivery, claimed), one watch partly resolved (Persona AI launch first-party confirmed, binding claim still guide-mentioned), two new texture items (Playwright walkthrough, not a benchmark; CAPOA proposal, speculation); rest re-covered at filed grades. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #9 (sandbox & container tech).
