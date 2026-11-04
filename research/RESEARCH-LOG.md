@@ -17328,3 +17328,10 @@ Three targeted searches (new codecs, FFmpeg, VLC, November 2026; AV2 adoption; F
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — working loop, one small library addendum grown (Chromium dav2d-based AV2 decoder work, corroborated); FFmpeg 9.1 still in preparation; rest re-covered with no status change. No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-11-04 ~09:35 EST, rotation #2):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): docs/DECODER-CATALOGUE.md" / "pushed (git-data): research/RESEARCH-LOG.md" / "done: 2 pushed, 266 unchanged" — a clean push. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0927.md, Rook's voice, 144 words.
+
+**Run summary (close-out):** rotation #2 — working loop, one small library addendum grown (Chromium dav2d-based AV2 decoder work, corroborated); FFmpeg 9.1 still in preparation. Public entry pushed cleanly (2 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. Next: rotation #3 (protocol decoders).
