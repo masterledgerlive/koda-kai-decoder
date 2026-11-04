@@ -16868,3 +16868,5 @@ Three targeted searches (Wireshark 5.0, SharkFest Europe 2026, new mesh/IoT prot
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-03-2057.md, Rook's voice, quiet-loop brief.
 
 **Run summary:** rotation #3 — near-quiet loop, one small new log-only note (doxx.net free private mesh, claimed); Wireshark 5.0.0 final still dateless, SharkFest EU under way with no announcement, 4.6.10/4.4.20 due November 12. No library growth. Next: rotation #4 (language decoders).
+
+**Close-out (2026-11-03 ~21:05 EST, rotation #3):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged). Shadow mirror deferred (SSH unreachable, known signature). Brief: podcasts/decoder-briefs/2026-11-03-2057.md. No library growth. No chat message. Next: rotation #4 (language decoders).
