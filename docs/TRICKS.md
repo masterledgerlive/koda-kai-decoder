@@ -37907,3 +37907,149 @@ deliberately not decided here.
 Designs are designs until run.
 
 *T-1129 trick built 2026-11-03 ~22:05 EST by the decoder-create-loop.*
+
+## T-1130 — Reviewer-Found Evidence: evidence the gate reviewer finds themselves, filed by nobody
+
+- **The gap it closes.** T-1127's gate
+assumes filings arrive from parties:
+someone files, the gate reviewer
+judges the four legs. T-1129 carries
+forward the case nobody filed: the
+gate reviewer, reading the record
+already before the gate, encounters
+evidence about the specimen that no
+party submitted. May that evidence
+trigger GATE-REVIEW, or does the gate
+hear only what is filed? This entry
+answers: it may trigger it — but only
+as incidental discovery, never as
+investigation. The reviewer judges
+filings; they do not hunt.
+
+- **What counts as reviewer-found.**
+Evidence is REVIEWER-FOUND only when
+it was encountered in the course of
+judging the legs — a cited record
+read in full that contains a further
+specimen fact, a closed-chain record
+already before the gate that bears on
+a leg. The test is the record's
+provenance, not the reviewer's
+curiosity: was the record already
+before the gate (filed, cited, or in
+the closed-chain record)? If yes,
+what it contains is incidental. If
+the reviewer fetched the record from
+outside the gate's record to build a
+case, that is a hunt, and the hunt
+bar below applies.
+
+- **The four conditions.** Reviewer-found
+evidence reaches the gate only when
+it meets all four: (1) it is about
+the specimen itself, never about
+attestation or procedure; (2) it is
+genuinely new against everything
+considered in the closed chain, under
+T-1127's newness leg; (3) it is
+material, or its materiality is
+contestable under T-1129's bar; (4)
+it is sourced — the reviewer names
+the record and the place in it, in
+writing, before opening. An unnamed
+find is not a find; it is a rumor,
+and the gate does not hear rumors.
+
+- **Recusal.** The finding reviewer
+never judges their own find. On
+finding reviewer-found evidence, the
+finder recuses from that window's
+legs: a fresh T-1112-cleared reviewer
+with no prior hand in the chain
+judges the legs, and materiality goes
+to the T-1129 MATERIALITY REFEREE if
+contested under T-1129's bar. The
+finder's written sourcing stays on
+the record, attributed by name, so
+the find is checkable without the
+finder's say-so.
+
+- **Where it lands.** Reviewer-found
+evidence is not a filing, so no
+party rights attach to it: no
+re-file right, no queue place of its
+own. It rides the window it was
+found in. If it impeaches the
+founding evidence's T-1127 legs, the
+window goes to GATE-REVIEW before
+opening under T-1128, and a founding
+failure is DISTINCT-EVIDENCE-REFUSED
+with the queue place released. If it
+supplements without impeaching, it
+enters as REVIEWER-FOUND-SUPPLEMENT
+— one per window, queue place kept,
+T-1118 clock from opening — and it
+counts against the window's one
+supplement, so a later party
+supplement does not stack on top of
+it. Evidence arriving after opening
+is not reviewer-found gate evidence:
+in-flight challenges are never
+amended mid-flight, per T-1128.
+
+- **The hunt bar.** Evidence the
+reviewer went looking for beyond the
+gate's record is HUNT-BARRED at the
+gate: inadmissible for this window,
+not because the evidence is tainted
+but because the hunt is. A party may
+later file the same evidence
+themselves, through the ordinary
+gate, and it is then judged on its
+legs like any filing. The bar exists
+so the gate reviewer cannot become
+the gate's investigator: a reviewer
+who hunts has stopped judging and
+started prosecuting, and a
+prosecutor's gate is no gate.
+
+- **Readings.** REVIEWER-FOUND (the
+find, sourced in writing, finder
+recused), REVIEWER-FOUND-SUPPLEMENT
+(admitted to the window, queue place
+kept), GATE-REVIEW-TRIGGERED (the
+find impeaches the founding legs),
+HUNT-BARRED (the hunt, not the
+evidence, is refused). All keep the
+hold; none is a verdict. A window
+refused on reviewer-found impeachment
+is refused, not condemned; the
+matter stands where T-1127 left it.
+
+- **Evidence grade.** SPECULATION
+throughout. This is a design built
+on T-1127's gate and four legs, on
+T-1128's supplement, impeachment,
+and refusal paths and its opening
+boundary, on T-1129's referee and
+contest bar, on T-1112's clearance,
+and on T-1122's conflict bar; it adds
+only the incidental-discovery test,
+the four conditions, recusal, the
+no-party-rights rule, and the hunt
+bar. No reviewer has ever found
+evidence at a gate, no recusal has
+ever been taken, and no hunt has
+ever been barred. Admitted here,
+unsolved: whether a referee's
+finding may itself be contested, and
+by whom — carried forward from
+T-1129 — and whether a reviewer who
+finds impeaching evidence against
+their own prior gate decision must
+disclose that prior decision on the
+record. Those questions are
+deliberately not decided here.
+Designs are designs until run.
+
+*T-1130 trick built 2026-11-03 ~22:20 EST by the decoder-create-loop.*
