@@ -1875,6 +1875,9 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - Source: https://www.technologyforyou.org/novel-silicon-chip-allowing-terahertz-waves-to-pass-through-barriers-could-enable-future-6g-networks/
   - DOI: https://doi.org/10.1002/adma.75322
 
+- **Isolator-free silicon photonic transmitter at one hundred eighty gigabits per second (Journal of Lightwave Technology, October seventh, twenty twenty-six).** A team at Waseda University in Japan built an integrated optical transmitter that runs stably without an optical isolator, the discrete component that normally shields a laser from destabilizing back-reflections, by coordinating the optical responses of silicon nitride ring resonators, which provide wavelength-selective filtering, with a thin-film lithium niobate modulator in a cross-platform spectral co-design. The external-cavity wavelength-tunable laser held stable output without active temperature control and demonstrated data transmission at one hundred eighty gigabits per second, the highest rate investigated, across approximately sixty-seven nanometers, with signals still distinguishable at that rate. Decoder significance: the isolator is a discrete, alignment-sensitive part in every laser transmitter, so deleting it without losing stability is a packaging and cost step toward compact high-capacity photonic integrated circuits, joining the catalogue's transmitter lane as a component advance, not a deployed link. Honest scope: a laboratory transmitter demonstration — no bit-error-rate, power-consumption, or production figure is published in the carrier, so none is adopted. [CORROBORATED — peer-reviewed paper via techxplore secondary; paper not opened first-hand; MATERIAL — photonic comms advance]
+  - Source: https://techxplore.com/news/2026-11-isolator-free-optical-transmitter-high.html
+
 ## Prediction engines
 
 - **AI wins the Metaculus Cup (summer 2026).** The online forecasting
