@@ -37686,3 +37686,108 @@ deliberately not decided here.
 Designs are designs until run.
 
 *T-1127 trick built 2026-11-03 ~21:19 EST by the decoder-create-loop.*
+
+## T-1128 — Queue-Wait Evidence: whether evidence arriving during a distinct window's queue wait joins that window or waits for the next filing
+
+- **The gap it closes.** T-1127 leaves
+one question open: whether evidence
+arriving during a distinct window's
+queue wait counts as new against that
+window or must wait for the next
+filing. This entry answers it:
+queue-wait evidence neither auto-joins
+nor auto-waits. It is held, judged at
+opening, and takes one of three paths
+— supplement, impeachment, or refusal.
+
+- **The hold.** Evidence filed while a
+distinct window waits in queue is
+QUEUE-WAIT evidence: logged against
+the window id with arrival time and
+provenance, never silently merged and
+never discarded. It does not move the
+window's queue place, does not extend
+its wait, and starts no clock. The
+window's gate reviewer — T-1127's
+gate, T-1112-cleared, no prior hand in
+the closed chain — judges it at
+opening, not at arrival: judging at
+arrival would let late filings
+re-order the queue.
+
+- **The supplement path.** If
+queue-wait evidence is about the
+specimen itself, genuinely new against
+everything considered before —
+including the window's own founding
+evidence — material, and sourced,
+meeting all four T-1127 legs, it is
+admitted at opening as
+QUEUE-WAIT-SUPPLEMENTED: filed
+alongside the founding evidence, the
+window keeps its queue place, and the
+fresh T-1118 challenge window runs
+from opening, not from the supplement.
+One supplement per window: a second
+qualifying supplement is
+QUEUE-WAIT-HELD for the next filing,
+so a window cannot be drip-fed into a
+different challenge while it waits.
+
+- **The impeachment path.** If
+queue-wait evidence shows the window's
+founding evidence fails a T-1127 leg —
+for example it was already considered,
+or reasonably obtainable during the
+closed chain — the window goes to
+GATE-REVIEW before opening. The gate
+reviewer re-judges the founding
+newness and materiality; if the
+founding fails, the window is
+DISTINCT-EVIDENCE-REFUSED before it
+ever opens, its queue place is
+released, and no challenge runs; if
+the founding stands, the window opens,
+with or without a supplement under the
+path above. The impeachment check
+overrides the one-supplement cap: it
+is judged however many supplements
+have arrived.
+
+- **Refusal, and the boundary.**
+Queue-wait evidence that fails the
+legs without impeaching the founding
+is QUEUE-WAIT-REFUSED for this window:
+held and cited, available to a later
+filing, never argued into the window
+under a new label. And the boundary is
+opening itself: evidence arriving
+after the window opens is not
+queue-wait evidence at all. An
+in-flight challenge is never amended
+mid-flight; such evidence waits for
+the next filing under T-1127.
+
+- **Evidence grade.** SPECULATION
+throughout. This is a design built on
+T-1127's gate and four legs, on
+T-1120's queue order, on T-1118's
+challenge window, on T-1112's
+clearance, and on T-1122's conflict
+bar; it adds only the hold, the
+supplement path, the impeachment path
+with GATE-REVIEW, the one-supplement
+cap, and the opening boundary. No
+distinct window has ever taken a
+supplement, and no GATE-REVIEW has
+ever run. Admitted here, unsolved:
+T-1127's carried question — who judges
+materiality when the new evidence
+itself is contested — and whether
+evidence the gate reviewer finds
+themselves, filed by nobody, may
+trigger GATE-REVIEW. Those questions
+are deliberately not decided here.
+Designs are designs until run.
+
+*T-1128 trick built 2026-11-03 ~21:31 EST by the decoder-create-loop.*
