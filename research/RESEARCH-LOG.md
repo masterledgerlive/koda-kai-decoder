@@ -17380,3 +17380,14 @@ Three targeted news-vertical searches (machine translation releases, low-resourc
 - **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1029.md, Rook's voice, 146 words.
 
 **Run summary (close-out):** rotation #4 — working loop, new log-only specifics; no library growth. Public entry pushed (1 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+## 2026-11-04 ~10:57 EST — decoder-research-loop — Quantum decoding (rotation #5):
+
+Three targeted searches (quantum error correction, post-quantum migration, fault-tolerant decoding, 2026) + standing-record checks. **Working loop — quiet loop: the whole window is retells and restatements of filed items, no new datum, no status change. No library growth.** No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
+
+- **Re-covered, no status change:** autonomous trapped-ion quantum error correction beating the break-even point (Du team, Nature Physics — corroborated as filed; same small-system caveat); Regensburg single-measurement qubit error cut from about 0.14% to 0.065% (Berritta et al., Applied Physics Reviews — corroborated as filed; known-frequencies caveat); RIKEN silicon five-qubit simultaneous control above 99.9% (Nature Physics — filed; five-qubit scope caveat); Maximal-Matching-Mixture correlated-atom-loss decoder (arXiv 2610.38283 — already in the library, claimed as filed; Gross-code scope only, no hardware run); IonQ CPU real-time decoder (September 22 release — filed; simulation benchmarks); Universal Quantum Iterative Redecode Scheme (October 20 — filed; simulations only, real-time implementation still pending); SEEQC plus NVIDIA Ising decoding (October 22 — filed; simulated stack, about 50% latency reduction); NIST IR 8547 final (publication verified October 27; deprecated after 2030, disallowed after 2035, ML-KEM-768 default — restated with no new deadline); Quint Computing seed round (claimed as filed; no device data); Google Willow (November 4 Medium piece is a recrawl of the December 2024 announcement, not news).
+- **Grades:** re-carries at filed grades; no new verified grade this pass.
+- **Library changes:** none — not material per the loop's rule (no new decoding advance this pass).
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #5 — quiet loop, whole quantum window already on record. No library growth. No verdicts, nothing broadcast. Next: rotation #6 (photonic comms & power).
