@@ -38053,3 +38053,115 @@ deliberately not decided here.
 Designs are designs until run.
 
 *T-1130 trick built 2026-11-03 ~22:20 EST by the decoder-create-loop.*
+
+## T-1131 — Contested Referee Finding: whether a referee's finding may itself be contested, and by whom
+
+- **The gap it closes.** T-1129 gives the
+MATERIALITY REFEREE a decision on papers
+before opening — MATERIAL or NOT-MATERIAL —
+but never says whether that finding can
+itself be contested. If it can never be
+contested, one misread record decides the
+window. If it can always be contested,
+every materiality fight becomes two fights
+and opening never arrives. This entry
+answers: contestable once, narrowly, on
+papers, by the affected party only — and
+then final. One contest, one second look,
+then the gate moves.
+
+- **Who may contest.** Only the party whose
+evidence the finding judged: the filer of
+the supplement, or the filer of the founding
+evidence where the finding bears on
+impeachment. Nobody else. Not the gate
+reviewer, who referred the question and does
+not become a party to it. Not a T-1130
+finder, who holds no party rights. Not a
+spectator, not the challenge's judge, not a
+later filer with no evidence in this window.
+A contest filed by anyone else is
+REFEREE-CONTEST-BARRED and the finding stands.
+
+- **The grounds, and only the grounds.** A
+contest must name a cited error, in writing,
+before opening: a misreading of a cited
+record, an overlooked cited record already
+before the gate, or the wrong T-1127 leg
+applied to the materiality question. Bare
+disagreement — "it is material," with no
+cited error — is not a ground and is barred.
+No new evidence rides in a contest: new
+evidence is a new filing under T-1127 and
+T-1128, not contest ammunition. A contest
+that smuggles new evidence has that portion
+struck and is judged on the cited record
+only; if nothing cited remains, it is barred.
+
+- **The second referee.** A contest goes to a
+fresh T-1112-cleared referee who has had no
+prior hand in the chain: never the first
+referee, never the gate reviewer, never the
+challenge's judge. The second referee decides
+on papers only, on the same record, with no
+hearing and no new evidence. They confirm or
+reverse — nothing else. The second referee's
+finding may not itself be contested: that bar
+is what stops the regress. A contest of a
+contest is barred on its face.
+
+- **While contested, and after.** Opening is
+stayed until the second referee decides; the
+queue place is held, and the T-1118 clock
+still runs from opening, so a contest costs
+the contestant no clock advantage and buys
+none. If the finding is confirmed, the T-1129
+outcomes stand exactly as first decided. If
+reversed, the outcomes re-map through T-1129:
+a reversed MATERIAL admits the supplement or
+carries the impeachment to GATE-REVIEW under
+T-1128; a reversed NOT-MATERIAL refuses the
+supplement for this window or leaves the
+founding evidence standing. A reversal is a
+record correction, not an impugnment: the
+first referee keeps clearance and may serve
+other windows, and the reversal is filed
+beside the original finding, never over it.
+
+- **Readings.** REFEREE-CONTESTED (the contest,
+cited and filed before opening),
+REFEREE-FINDING-CONFIRMED (the first finding
+stands), REFEREE-FINDING-REVERSED (the
+outcomes re-map through T-1129),
+REFEREE-CONTEST-BARRED (non-party, bare
+disagreement, second contest, or filed after
+opening). All keep the hold; none is a
+verdict. A window refused after a confirmed
+or reversed finding is refused, not
+condemned; the matter stands where T-1127
+left it.
+
+- **Evidence grade.** SPECULATION throughout.
+This is a design built on T-1127's gate and
+four legs, on T-1128's supplement, impeachment,
+and opening boundary, on T-1129's referee and
+contest bar, on T-1112's clearance, and on
+T-1130's no-party-rights rule; it adds only
+the affected-party contest, the cited-error
+grounds, the fresh second referee, the finality
+bar, and the stay-and-remap rule. No referee
+finding has ever been contested, no second
+referee has ever sat, and no finding has ever
+been reversed. Admitted here, unsolved:
+whether a reviewer who finds impeaching
+evidence against their own prior gate decision
+must disclose that prior decision on the
+record — carried forward from T-1130 — and
+whether a finding proved wrong by evidence
+discovered only after opening can ever reopen
+a window, given T-1128's rule that in-flight
+challenges are never amended mid-flight. Those
+questions are deliberately not decided here.
+Designs are designs until run.
+
+*T-1131 trick built 2026-11-03 ~22:35 EST by the decoder-create-loop.*
