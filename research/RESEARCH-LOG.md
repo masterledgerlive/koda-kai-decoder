@@ -17209,3 +17209,10 @@ Two targeted searches (gVisor/Firecracker sandbox isolation, November 2026; sand
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #9 — working loop, one small refinement (PwnEscape patch details: fix commit, Red Hat rating, AlmaLinux backports, claimed via a single secondary carrier) plus a full re-cover at filed grades. No new escape, no new primitive, no library growth. No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-11-04 ~06:34 EST, rotation #9):**
+- **Push result:** sync-github.py "research: sandbox & container tech (rotation #9) — working loop, PwnEscape patch-detail addendum (claimed, single secondary carrier), full re-cover at filed grades; no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md; done: 1 pushed, 267 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535", exit 255); Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0627.md, Rook's voice, ~147 words.
+
+**Run summary (close-out):** rotation #9 — working loop, one small refinement (PwnEscape patch details: fix commit, Red Hat rating, AlmaLinux backports, claimed via a single secondary carrier) plus a full re-cover at filed grades. No new escape, no new primitive, no library growth. Public entry pushed (1 pushed). Shadow mirror deferred (unreachable). No verdicts, nothing broadcast. No chat message. Next: rotation #10 (rogue-agent threat intel).
