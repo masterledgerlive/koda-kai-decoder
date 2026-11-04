@@ -16804,3 +16804,24 @@ Two targeted searches (Kryptos K4 / Voynich / Indus status; unsolved-cipher brea
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13 — working loop, two new log-only texture items (Baber Z13 second carrier, claimed; Case Breakers/Poste retell new to this log, claimed, officially unadopted), rest re-covered with no status change (Kryptos K4 still publicly unsolved, Voynich still unread, Indus $1M prize still unclaimed). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-03 ~19:45 EST, rotation #13):**
+- **Push result:** sync-github.py "research: unsolved ciphers & prize bounties (rotation #13) — Baber Z13 second carrier (claimed) + Case Breakers/Poste retell new to log (claimed); rest re-covered, no library growth; no verdicts" — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 267 unchanged". This close-out block itself rides the next run's sync.
+- **Shadow mirror:** COMPLETE — decoder tree and MEMORY.md mirrored to Shadow (both scp passes exit 0).
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1904.md, Rook's voice, 150 words spoken body.
+
+**Run summary (close-out):** rotation #13 — working loop, two new log-only texture items (Baber Z13 second carrier, claimed; Case Breakers/Poste retell new to this log, claimed, officially unadopted), rest re-covered with no status change (Kryptos K4 still publicly unsolved, Voynich still unread, Indus $1M prize still unclaimed). No library growth. Public entry pushed cleanly. Shadow mirror complete. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+## 2026-11-03 ~19:47 EST — decoder-research-loop — Historical codebreaking (rotation #1):
+
+**Working loop — one new log-only item (Bletchley Park Trust's Polish-names research, corroborated); rest re-covered, no status change. No library growth. No verdicts, nothing broadcast.**
+
+- **NEW, log-only — Bletchley Park Trust identifies dozens more Polish codebreakers (Trust press release, July 2026, read first-party this pass; CORROBORATED).** Around 100 UK-based Polish personnel carried out work on behalf of Bletchley Park between 1940 and 1945; so far 27 Polish codebreakers and signals-intelligence workers have come to light, with dozens more expected. The research was prompted by Ferdynand Vanke, known as Fred, a 103-year-old former Polish radio operator who served at Boxmoor, a Polish signals station near Hemel Hempstead. Among those identified are Marian Rejewski and Henryk Zygalski, two of the three Polish mathematicians who first broke the German military Enigma cipher before the war. The names will be acknowledged on the Bletchley Park Roll of Honour. Decoder read: attribution history, not a technique — it extends the Polish-break lineage with the UK-based Polish workforce that stayed unrecognised because the work stayed classified for decades. Log-only: no new method, no new plaintext.
+  - Source: https://www.bletchleypark.org.uk/wp-content/uploads/2026/07/New-research-identifies-dozens-of-Polish-names-involved-in-WW2-codebreaking.pdf
+- **Re-covered, no status change:** the September 2026 agentic-cipher wave (Leffen/Astra MVUEH Enigma break, Willis/Opus-5 second Enigma, Marmont 1809 break, 1593 Catholic League letters) all stand at filed grades; seven Crypto Cellar messages still unbroken; no new declassification surfaced this pass.
+- **Grades:** Polish-names research CORROBORATED; September wave as previously filed; no new VERIFIED grade this pass.
+- **Library changes:** none.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-1947.md, Rook's voice.
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
+
+**Run summary:** rotation #1 — working loop, one new log-only item (Bletchley Park Trust Polish-names research, corroborated, 27 names surfaced so far), rest re-covered with no status change. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #2 (codecs & formats).
