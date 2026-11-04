@@ -36831,3 +36831,138 @@ on the challenged copy itself. Designs are
 designs until run.
 
 *T-1121 trick built 2026-11-03 ~18:50 EST by the decoder-create-loop.*
+
+## T-1122 — Second-Auditor Mid-Stagger Clearance: how the reopening pace changes when the auditor pool grows mid-queue
+
+- **The gap it closes.** T-1120 staggers
+the reopening of deferred challenge windows
+at one per check run, under the single
+cleared auditor T-1112 provides and the
+check-run schedule T-1108 sets — but it
+never says what happens when a second
+auditor clears while the queue is still
+staggered. Left there, the second clearance
+is either wasted (the stagger keeps crawling
+at one per run for no reason) or dangerous
+(the queue floods open the moment a second
+name appears, with no accounting for who
+opened what). This entry sets the pace rule
+for a pool that grows mid-queue.
+
+- **Prospective pace, never retroactive.**
+The pace for a check run is the number of
+auditors cleared at that run's start. A
+second clearance landing mid-run adds no
+reopening to the running run; it takes
+effect at the next run. A run already
+opened at pace one stays pace one, and its
+ledger is never rewritten to pace two
+after the fact. Pace is a property of the
+run, fixed at its start, not of the queue
+in general.
+
+- **One reopening per auditor per run.**
+With two cleared auditors, at most two
+windows reopen per check run — one per
+auditor, each auditor attesting only their
+own reopening. No auditor signs another
+auditor's reopening, and no senior auditor
+opens two windows to "catch up" the queue.
+The rule generalizes: pace equals cleared
+auditors at run start, whether that number
+is one, two, or more. Speed comes from the
+pool, never from one auditor working twice.
+
+- **Order preserved under two hands.**
+The second auditor takes the next window in
+line, not a window of their choosing. Queue
+order from T-1120 is unchanged by the pool
+growing: the first auditor opens the head
+window, the second opens the next, and so
+on. A second auditor is a second hand on
+the same queue, not a second queue. Any
+window opened out of order is a pace-breach
+(see below), whatever its attestation says.
+
+- **The conflict bar.** An auditor may not
+reopen a window whose destruction
+attestation they signed, or whose deferred
+challenge they judged under T-1121. Such a
+window waits for a cleared auditor with no
+conflict. If no eligible auditor is
+available in that run, the window holds its
+place at the head and the run's slot for
+that auditor goes unused — the conflicted
+window is never passed over by its
+conflicted auditor to reach a later window.
+The other auditor, if eligible, may take it
+in their own slot.
+
+- **Revocation mid-stagger.** If an
+auditor's clearance is lost or suspended
+while the queue is still staggered, the pace
+drops at the next run, not mid-run: the
+in-flight run completes at its starting
+pace, and windows already opened stay open.
+A revoked auditor opens nothing further,
+and their past reopenings are not voided by
+the revocation alone — revocation changes
+the pool going forward, not the history of
+windows already opened under it.
+
+- **Accounting: the pace ledger.** Every
+reopening records four facts: the window
+id, the check-run id, the auditor id, and
+the window's queue position at opening. The
+pace audit for any run is a count: reopenings
+in that run must not exceed auditors cleared
+at the run's start, each auditor appearing
+at most once. An excess reopening is marked
+PACE-BREACH, its window returns to the queue
+at its original position, and its attestation
+is marked PACE-BREACH alongside — a mark on
+the opening procedure, never a verdict on
+any specimen behind the window.
+
+- **Scarcity still outranks pool size.**
+T-1120's scarcity rule is untouched: scarcity
+returning mid-queue pauses unopened windows
+preserving order, whatever the auditor count.
+Two cleared auditors do not outvote scarcity,
+and an opened window runs its course while
+unopened windows wait. Pool growth speeds
+the stagger; it never overrides the pause.
+
+- **Readings.** PACE-ONE: one cleared auditor,
+one reopening per run. PACE-TWO: two cleared
+auditors, at most two, one each. PACE-HELD:
+head window held by the conflict bar, slot
+unused, order preserved. PACE-BREACH: excess
+or out-of-order reopening, window returned,
+procedure marked. None of these readings is a
+verdict on any specimen, and none says a
+window's challenge succeeds — only how fast
+windows may open, and by whose hand.
+
+- **Evidence grade.** SPECULATION throughout.
+This is a design built on T-1120's stagger
+and order-preserving pause, T-1112's cleared
+auditor, T-1108's check-run schedule, and
+T-1121's hearing and its conflict logic; it
+adds only prospective pace, one-per-auditor,
+the conflict bar with its unused slot, the
+revocation step-down, and the four-field pace
+ledger. No second auditor has ever cleared
+mid-stagger, no window has ever reopened at
+pace two, and no PACE-BREACH has ever been
+marked under this entry. Admitted here,
+unsolved: whether a conflict-held head window
+should block the whole queue or only its
+conflicted auditor's slot when later windows
+have eligible auditors; and whether a revoked
+auditor's already-opened windows should be
+re-attested by a surviving auditor, or stand
+on the revoked auditor's original attestation.
+Designs are designs until run.
+
+*T-1122 trick built 2026-11-03 ~19:47 EST by the decoder-create-loop.*
