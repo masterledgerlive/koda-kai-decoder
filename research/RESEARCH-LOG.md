@@ -17684,3 +17684,10 @@ Three targeted news-vertical searches (machine translation model releases, Novem
 - **Library changes:** none — NOT MATERIAL per body rule §4.
 
 **Run summary:** rotation #4 — working loop, four new log-only items (Dhir 2B, claimed; Amazon low-resource evaluation funding call closing today, corroborated as announced; Gates Goalkeepers English-under-6% vs Yoruba-over-60% speech-recognition gap, claimed; SLPG_FJWU 27,172-pair augmentation, proceedings-corroborated); whole window otherwise re-covered (Apple/Qwen testing now live, Bablic, Nemotron, Voynich still undecoded, Indus prize still unclaimed). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-11-04 ~17:37 EST, rotation #4):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" + "done: 1 pushed, 267 unchanged" — this pass's public entry pushed by its own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1727.md, Rook's voice, 148 words.
+
+**Run summary (close-out):** rotation #4 — working loop, four new log-only items (Dhir 2B, claimed; Amazon low-resource evaluation funding call closing today, corroborated as announced; Gates Goalkeepers English-under-6% vs Yoruba-over-60% speech-recognition gap, claimed; SLPG_FJWU 27,172-pair augmentation, proceedings-corroborated); rest re-covered. No library growth. Public entry pushed (1 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. No chat message. Next: rotation #5 (quantum decoding).
