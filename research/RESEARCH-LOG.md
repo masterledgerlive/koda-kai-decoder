@@ -17031,3 +17031,5 @@ Three targeted searches (Kryptos K4 / Voynich / Indus status; Indus prize status
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #13 — working loop, two new log-only texture items (Kryptos retell with a claimed net-proceeds figure; Indus prize-protocol criteria asserted by a secondary explainer, tension unresolved), one reconciliation (Schwartz Voynich 130 + 282 = 412, same preprint, same null), rest re-covered with no status change (Kryptos K4 still publicly unsolved, Voynich still unread, Indus $1M prize still unclaimed). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #1 (historical codebreaking).
+
+**Close-out (2026-11-04 ~02:07 EST, rotation #13):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged; one transient disconnect on an unrelated check, recovered). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0158.md, Rook's voice, 150 words. No library growth. No chat message. Next: rotation #1 (historical codebreaking).
