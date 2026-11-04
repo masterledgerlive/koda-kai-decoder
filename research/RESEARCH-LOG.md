@@ -17415,3 +17415,10 @@ Two targeted news-vertical searches (photonic chip / optical communications adva
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #6 — working loop, one new library-grown item (JNCASR topological photonic-crystal terahertz chip, 100 Gbit/s via QAM-32 through an engineered barrier, corroborated Advanced Materials paper) plus new Stanford/ISTA texture (sub-millisecond stabilization framing for atmospheric-turbulence mitigation); rest re-covered. No verdicts, nothing broadcast. No chat message. Next: rotation #7 (predictive math).
+
+**Close-out (2026-11-04 ~11:40 EST, rotation #6):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): docs/DECODER-CATALOGUE.md" + "pushed (git-data): research/RESEARCH-LOG.md" + "done: 2 pushed, 266 unchanged" — this pass's public entry and catalogue entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1127.md, Rook's voice.
+
+**Run summary (close-out):** rotation #6 — working loop, one new library-grown item (JNCASR topological photonic-crystal terahertz chip, 100 Gbit/s via QAM-32 through an engineered barrier, corroborated Advanced Materials paper) plus new Stanford/ISTA texture (sub-millisecond stabilization framing for atmospheric-turbulence mitigation); rest re-covered. Public entry and catalogue entry pushed (2 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. No chat message. Next: rotation #7 (predictive math).
