@@ -37525,3 +37525,164 @@ question is deliberately not decided
 here. Designs are designs until run.
 
 *T-1126 trick built 2026-11-03 ~21:05 EST by the decoder-create-loop.*
+
+## T-1127 — Distinct Window on New Specimen Evidence: whether MATTER-CLOSED is permanent, or genuinely new matter may open a window of its own
+
+- **The gap it closes.** T-1126
+leaves one question open:
+whether MATTER-CLOSED is
+permanent, or whether genuinely
+new matter — new evidence about
+the specimen, not about the
+attestation — may open a distinct
+window of its own. T-1126 already
+answers half of it: new evidence
+about the old attestation never
+revives the spent opening. This
+entry answers the other half: the
+chain is closed, the matter is not
+sealed. A closed chain ends that
+chain's challenge route, not the
+specimen's future. What may open
+is not a third opening of the
+closed chain but a distinct window
+on a distinct evidentiary footing.
+
+- **The rule.** A distinct window
+may be granted only on evidence
+that is (1) about the specimen
+itself — its contents, provenance,
+behaviour, or readings — never
+about the attestation, the
+auditors, the challenge procedure,
+or the closed chain; (2) genuinely
+new — not filed, considered, or
+reasonably obtainable during the
+closed chain's life, so evidence
+that was available and merely
+unused is not new, and evidence
+already considered under any
+earlier window is not new; (3)
+material — it changes what a
+challenge on the matter would be
+judged on, not merely how strongly
+an old argument is put; and (4)
+sourced — its provenance is filed
+with the request, so the gate
+reviewer can check newness without
+re-running the challenge. A request
+that fails any leg is
+DISTINCT-EVIDENCE-REFUSED, takes
+no queue place, and may be re-filed
+once with a corrected filing — not
+re-argued with the same evidence
+under a new label.
+
+- **The gate.** Newness is judged
+before any window opens, by a
+reviewer with no prior hand in the
+closed chain, T-1112-cleared and
+under T-1122's conflict bar. The
+gate judges only newness and
+materiality — never the merits of
+the challenge the window would
+carry, and never whether the
+specimen is benign or rogue. A gate
+refusal is a filing refusal, not a
+verdict, and it does not decide the
+matter.
+
+- **What a granted distinct window
+is.** A new window id, the back of
+the queue under T-1120 order, a
+fresh T-1112-cleared attestation by
+auditors with no prior hand in the
+closed chain, a fresh T-1118
+challenge window, and a citation of
+the MATTER-CLOSED record id plus
+the new-evidence provenance. It
+carries no filings, no evidence,
+and no clock from the closed chain
+except the cross-reference: the
+MATTER-CLOSED mark is preserved on
+the old record and cited on the new
+window, never erased. The distinct
+window runs its own T-1125 chain —
+its own two re-attestations, its
+own one fresh opening under
+T-1126 — and if that chain also
+ends MATTER-CLOSED, that closure
+stands on the same terms: a further
+window needs further genuinely new
+specimen evidence, each time judged
+afresh. There is no cap on distinct
+windows in the abstract, only on
+each filing: every filing must bring
+evidence that is new against
+everything considered before it.
+
+- **What the distinct window does
+not do.** It does not revive the
+closed chain, reopen the spent
+opening, or re-attest the old
+window. It does not lift any other
+hold — T-1103 review, HEAD-BLOCKED
+under T-1123, and AUDITOR-SCARCE
+under T-1119 all stand untouched.
+It does not revive a lapsed
+challenge under T-1119, and it does
+not move the queue: windows ahead
+of the new filing keep their places.
+And it does not decide the matter:
+a granted window says only that a
+challenge may proceed on new
+footing, not that it succeeds.
+
+- **Readings.** MATTER-CLOSED-STANDS:
+no qualifying new specimen evidence
+filed, the closure holds.
+DISTINCT-WINDOW: a new window
+granted, back of queue, fresh
+attestation, fresh challenge window.
+DISTINCT-EVIDENCE-REFUSED: evidence
+about attestation rather than
+specimen, already considered,
+available-but-unused, immaterial,
+or unsourced. DISTINCT-CHAIN-CLOSED:
+the distinct window's own chain
+also reached MATTER-CLOSED. None of
+these readings is a verdict on any
+specimen, and none says a challenge
+on the distinct window succeeds —
+only whether the matter may proceed,
+and on what footing.
+
+- **Evidence grade.** SPECULATION
+throughout. This is a design built
+on T-1126's spent-opening rule and
+its MATTER-CLOSED hold, on T-1125's
+chain cap, on T-1112's independence
+check, on T-1122's conflict bar, on
+T-1120's queue order, on T-1118's
+challenge window, and on T-1103's
+record discipline; it adds only the
+four-leg newness test, the pre-open
+gate, the distinct-window conditions,
+and the per-filing newness bar. No
+matter has ever reached
+MATTER-CLOSED, no distinct window
+has ever been filed, and no gate
+reviewer has ever judged newness.
+Admitted here, unsolved: who judges
+materiality when the new evidence
+itself is contested — a second gate
+reviewer, or the challenge's own
+judge — and whether evidence that
+arrives during a distinct window's
+queue wait counts as new against
+that window or must wait for the
+next filing. Those questions are
+deliberately not decided here.
+Designs are designs until run.
+
+*T-1127 trick built 2026-11-03 ~21:19 EST by the decoder-create-loop.*
