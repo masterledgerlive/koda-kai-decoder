@@ -17373,3 +17373,10 @@ Three targeted news-vertical searches (machine translation releases, low-resourc
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #4 — working loop, new log-only specifics (ChakmaNMT 15,021-pair resource, low-single-digit scores; WMT findings counts; NERDS-NITS specifics; Immersive Translate milestone, claimed); rest re-covered. No library growth. No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
+
+**Close-out (2026-11-04 ~10:35 EST, rotation #4):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md" + "done: 1 pushed, 267 unchanged" — this pass's public entry pushed by my own run. This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1029.md, Rook's voice, 146 words.
+
+**Run summary (close-out):** rotation #4 — working loop, new log-only specifics; no library growth. Public entry pushed (1 pushed). Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. Next: rotation #5 (quantum decoding).
