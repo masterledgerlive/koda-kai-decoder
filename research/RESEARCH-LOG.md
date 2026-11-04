@@ -16993,3 +16993,5 @@ Two targeted news-vertical searches (prompt injection in the wild, November 2026
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #11 — working loop, one new defense measurement (tool-privilege disclosure, claimed — up to 19.3-point cut in over-privileged picks, safe completion 18.8% to 51.1% with a least-privilege line), one practitioner texture note (spotlighting/Prompt Shields walkthrough), rest re-covered or parked out of lane. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #12 (math/physics engines).
+
+**Close-out (2026-11-04 ~01:05 EST, rotation #11):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0058.md, Rook's voice, 150 words. No library growth. No chat message. Next: rotation #12 (math/physics engines).
