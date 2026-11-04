@@ -36966,3 +36966,143 @@ on the revoked auditor's original attestation.
 Designs are designs until run.
 
 *T-1122 trick built 2026-11-03 ~19:47 EST by the decoder-create-loop.*
+
+## T-1123 — Conflict-Held Head Window: whether a held head blocks the queue or only its auditor's slot
+
+- **The gap it closes.** T-1122's conflict
+bar holds a window at the head of the
+T-1120 queue and leaves its conflicted
+auditor's slot unused — but it never says
+whether that held head blocks the whole
+queue, or only the conflicted auditor's
+slot, when later windows have eligible
+auditors. Left there, a single conflict
+either freezes every window behind it for
+no reason, or quietly lets the queue drain
+around a head nobody is facing. This entry
+settles the question: a held head blocks
+its conflicted auditor, never the queue —
+until the head-block clock runs out.
+
+- **Slot-hold, not queue-block.** When the
+head window is held by the conflict bar,
+the conflicted auditor opens nothing in
+that run — not the head, and not a later
+window reached by passing over it, per
+T-1122. But an eligible auditor, cleared
+under T-1112 with no conflict on the window
+in hand, may open a later window in their
+own slot. The head's conflict is a property
+of one auditor-window pair, not a lock on
+the queue. A run with two cleared auditors,
+one conflicted on the head and one eligible
+for the next window, opens exactly that next
+window, and the conflicted slot goes unused.
+
+- **The head is never demoted or dropped.**
+A window opened around a held head keeps
+its own queue position; positions are
+permanent, and opening order is not queue
+order. The held head stays first in the
+queue record, stays first in line for the
+next eligible auditor, and is never moved
+back, renumbered, or dropped to let the
+queue "move on." A pass-around opening is
+recorded as PASS-AROUND, naming the held
+head it passed, so the record always shows
+which windows opened while the head waited.
+Nothing opened around the head is judged
+ahead of the head's own filing: challenge
+outcomes are recorded per window, and the
+head's outcome, when it comes, is filed in
+its first position, not appended after the
+windows that passed it.
+
+- **The head opens first when a hand appears.**
+The first run in which an eligible auditor
+is present opens the head before any new
+window, whatever the pass-around count.
+That auditor's slot goes to the head, not
+to the next window in line, and only then
+does the stagger resume in queue order.
+An eligible auditor may not choose a later
+window while the head waits — eligibility
+for the head claims the slot first. This is
+what keeps slot-hold from becoming
+queue-jumping: passing is permitted only
+while no eligible hand for the head exists.
+
+- **The head-block clock.** Passing around
+a held head is a temporary measure, not a
+way to empty the queue past a head nobody
+can face. If two consecutive check runs
+pass with no auditor eligible for the head
+— every cleared auditor conflicted on it,
+or no cleared auditor at all — the queue
+is marked HEAD-BLOCKED at the second run,
+and pass-around openings stop: later
+windows hold their places, unopened, until
+an eligible auditor for the head appears.
+HEAD-BLOCKED freezes the queue; it does
+not void any window, close any challenge,
+or lift any hold. When an eligible auditor
+appears, the head opens first under the
+rule above, the HEAD-BLOCKED mark clears,
+and the stagger resumes. The clock counts
+runs, not days: a run with no check set is
+not a run for this purpose, per T-1108.
+
+- **What head-block is not.** HEAD-BLOCKED
+is not T-1119 AUDITOR-SCARCE: scarcity is
+about the size of the cleared pool, while a
+head can be blocked with a full pool every
+member of which is conflicted on it. No
+AUDITOR-SCARCE flag is filed for conflict
+alone, and no scarcity deferral is claimed
+for a head-block. Where both apply — pool
+below two AND head held — both marks stand,
+and the T-1119 scarcity rules govern the
+queue while the head-block rules govern the
+head. Nor is a pass-around opening a
+judgment on the head: it says nothing about
+whether the head's challenge will succeed,
+only that another window's turn came while
+the head waited.
+
+- **Readings.** HEAD-HELD: head held by the
+conflict bar, conflicted slot unused, queue
+otherwise moving. PASS-AROUND: later window
+opened in an eligible auditor's own slot
+while the head waits, head's position kept.
+HEAD-CLEARED: eligible auditor present,
+head opens first, stagger resumes in order.
+HEAD-BLOCKED: two consecutive runs with no
+eligible hand for the head, pass-around
+stopped, queue frozen until a hand appears.
+None of these readings is a verdict on any
+specimen, and none says a window's
+challenge succeeds — only whether the head
+waits, the queue moves around it, or both
+stand still.
+
+- **Evidence grade.** SPECULATION throughout.
+This is a design built on T-1122's conflict
+bar and unused slot, T-1120's queue order
+and order-preserving pause, T-1112's cleared
+auditor, and T-1108's check-run schedule; it
+adds only the slot-hold rule, the permanent
+queue positions with PASS-AROUND marking,
+the head-opens-first rule, and the
+two-run head-block clock. No head window
+has ever been held by conflict, no window
+has ever opened around one, and no queue
+has ever been marked HEAD-BLOCKED under
+this entry. Admitted here, unsolved: the
+second half of T-1122's pair — whether a
+revoked auditor's already-opened windows
+should be re-attested by a surviving
+auditor, or stand on the revoked auditor's
+original attestation. Designs are designs
+until run.
+
+*T-1123 trick built 2026-11-03 ~20:30 EST by the decoder-create-loop.*
