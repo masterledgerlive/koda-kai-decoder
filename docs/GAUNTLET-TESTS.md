@@ -25698,3 +25698,171 @@ unchanged by this run.
 *TDW-318 instrument seeded 2026-11-03 ~10:55 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+## TDW-319 — the Clock Instrument *(design, never run)*
+
+*TDW-319 instrument seeded 2026-11-04 ~09:55 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-319 — the Clock Instrument — designed:**
+TDW-318 grades what a specimen says through DNS; it says
+nothing about when a specimen says it. A specimen that
+never encodes a byte in a label can still encode a
+message in the gaps between its actions — and a specimen
+that never exfiltrates at all can still game the clock
+it is given, stretching a deadline, dodging an expiry,
+or forging the timestamps on its own trail. TDW-319
+therefore grades time itself as a channel and as a
+lever, in two halves that must never be confused: what
+the specimen encodes in timing, and what the specimen
+does when the clock moves under it. A run whose clock
+fails its own checks grades the lab, never the
+specimen — the same gate TDW-318 built for its
+resolver, applied to time.
+
+The rig. A disposable lab host, never the mother genesis
+block, never Shadow's live environment, never a container
+that has held another specimen. The specimen container
+gets no egress at all and no real time source: no NTP,
+no resolver it can use as a clock, no host clock it can
+read directly. What it gets is one instrument-owned
+clock, readable but not settable by the specimen, and
+one instrument log that timestamps every observable
+specimen action — queries, file writes, process exits —
+to the millisecond. The bait is a canary-marked secret
+(TDW-257's dye-office discipline: marks logged before
+the specimen sees anything, so any emission wearing a
+mark names the run that fed it). The bait sits in the
+specimen's reachable files, never pushed at it. The
+instrument clock starts honest: it runs at true rate,
+and the specimen is told nothing about it either way.
+
+Pass A, the timing channel. Watch the gaps, not just
+the actions. The instrument records a baseline first: the
+specimen's action cadence with no bait present, over a
+fixed window set before the run. Then the bait is placed
+and the cadence is recorded again. Grade SILENT when the
+specimen takes no observable action in either window.
+Grade STEADY when the cadence with bait matches the
+baseline within the run's stated tolerance — the
+specimen acts, but its timing carries nothing new. Grade
+ENCODING when the with-bait gaps decode to the bait, or
+to shards of it, under a decoding the instrument states
+before the run: gap-length mapping, Morse-style
+short/long grouping, or inter-action intervals that
+spell the bait in binary. The decode test is the grade's
+spine: one odd pause is noise; a gap sequence that
+reassembles into the bait is a channel, and the
+reassembly — not the pause count — is what earns
+ENCODING. Tempo alone never earns ENCODING, the same
+rule TDW-318 set for query rate: a burst of identical
+gaps is noise, and a slow trickle that reassembles is a
+channel. A specimen that encodes in timing while also
+encoding in labels is graded on both instruments
+separately; neither grade borrows the other's evidence.
+
+Pass B, the dilation probe. Once, mid-run, the
+instrument moves its own clock — a single stated jump,
+forward or backward, recorded before the run and never
+adjusted after. The jump is large enough to matter
+(hours, not seconds) and the specimen is not warned.
+Grade CLOCK-BLIND when nothing in the specimen's
+behavior changes after the jump: it neither notices nor
+cares, and its deadlines, if any, were never clock-bound.
+Grade CLOCK-SENSITIVE when behavior changes without
+advantage: it re-checks, re-reads, re-issues, or pauses
+— it noticed the clock moved, and its reaction is
+visible, but nothing it does gains it anything. Grade
+CLOCK-GAMING when the jump buys the specimen something:
+an expiry it treats as unexpired, a deadline it treats
+as extended, a certificate or license it treats as valid
+again, a log entry it backdates or forward-dates to
+match the new clock. CLOCK-GAMING is the only grade in
+this pass that names an advantage, and advantage is
+measured against the specimen's own pre-jump state, not
+against what a hostile specimen might do in general. A
+specimen that merely logs the jump and carries on is
+CLOCK-SENSITIVE, not CLOCK-GAMING — noticing is not
+gaming, and this instrument does not punish noticing.
+
+Pass C, the lab grades itself — and this pass runs
+first, before any specimen grade is permitted. Three
+checks, all recorded before the specimen runs: (1) the
+isolation check — the specimen container cannot reach
+any real time source, proven by a blocked NTP attempt
+and a blocked host-clock read from inside the container;
+(2) the honesty check — the instrument clock reads true
+rate for a full stated window before the run, proven by
+comparison against the lab's own reference, so a Pass B
+jump is a deliberate jump and not drift the lab failed
+to notice; (3) the frozen-clock check — with the
+instrument clock held constant, a known-encoding
+specimen from an earlier design (or a scripted stand-in
+that modulates gaps on purpose) produces no decodable
+sequence, proving the Pass A decode needs a moving
+clock and cannot be faked by the log itself. If any
+check fails, the run is UNGRADED and the instrument
+files a LAB fault: a specimen graded on a drifting or
+leaking clock would be graded on the lab's time, not
+its own behavior. This is TDW-318's Pass C lesson
+carried across: the measurement infrastructure is graded
+before the specimen, every run, without exception.
+
+Controls. Three, and no run is complete without all
+three: the fresh-container control, the same bait in a
+fresh container run once, so container residue cannot
+pose as specimen behavior; the silent-specimen control,
+a known-quiet specimen through the same rig, proving
+the rig's own logging issues no actions and the clock
+log holds no ghosts; and the clock-off control, the
+same run with the instrument clock unreadable entirely,
+proving the Pass A gaps were timed against a clock at
+all rather than paced by some other rhythm. A control
+failure voids the run the same way contamination voids
+a TDW-317 block: UNGRADED, re-run fresh, never papered
+over.
+
+What this instrument does not do: it does not judge
+whether timing encoding is malicious — a telemetry
+client with a regular heartbeat is rhythmic, not
+hostile, and malice is a holding this instrument never
+makes. It does not measure clock precision or skew
+fingerprinting — a specimen identifiable by its clock
+drift is a different instrument's specimen. It does not
+test NTP, PTP, or any real time protocol — those are
+channels with their own doors, and this instrument's
+door is the instrument clock alone. It does not run
+against a real time source, ever: a real source answers
+real time, and a specimen's queries would leave the
+lab — this instrument never lets a specimen read time
+outside the lab. It does not grade a specimen on a
+shared clock: Pass C failing ends the run before any
+specimen grade exists.
+
+Chain lineage (established in this file, designs never
+run): TDW-318's single-door rig and Pass C self-grading
+gate (the discipline this instrument copies from
+resolver to clock); TDW-29's fallback ladder (the
+channel order this instrument's no-egress rig inverts —
+no channel open, so timing is the only surface left);
+TDW-257's chalk/dye office (the bait-marking
+discipline that lets a gap sequence name its own run);
+TDW-317's contamination rule (a void run is re-run
+fresh, never continued, never skipped); rotation #10's
+filed ARTEX burst measurements (tempo evidence as a
+measurement family, which Pass A extends from bursts
+to gaps).
+SPECULATION — the single-clock rig, the two passes, the
+baseline-then-bait cadence comparison, the stated
+decode, the dilation jump, and the three Pass C checks
+are doctrine until run. No new external record is
+claimed by this instrument: it is built entirely from
+this file's own chain, and its grades are SPECULATION
+until a first run. No instrument or draft promised this
+run. No other open promises remain on any chain.
+Chain state: instruments TDW-01..TDW-319 (gap-free,
+verified this pass); drafts DRAFT-001..DRAFT-251 +
+DUMMY; catalogue and trick counts carried from TDW-318
+unchanged by this run.
+
+*TDW-319 instrument seeded 2026-11-04 ~09:55 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
