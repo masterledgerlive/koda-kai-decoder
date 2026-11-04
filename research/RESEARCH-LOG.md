@@ -16846,3 +16846,10 @@ Three targeted searches (new video codec announcements; Google media formats; FF
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #2 — quiet loop, one small first-party texture note (Google's November 2 October recap corroborates Genie 4 as a trusted-tester world model, not a codec; the "agi voxel" watch item stays unverified), rest re-covered with no status change. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
+
+**Close-out (2026-11-03 ~20:40 EST, rotation #2):**
+- **Push result:** sync-github.py — exit 0. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 267 unchanged". This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — Shadow unreachable at mirror time; next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-03-2028.md, Rook's voice, one-line quiet-loop brief.
+
+**Run summary (close-out):** rotation #2 — quiet loop, one small first-party texture note (Google's November 2 October recap corroborates Genie 4 as a trusted-tester world model, not a codec; the "agi voxel" watch item stays unverified), rest re-covered with no status change. No library growth. Public entry pushed cleanly (1 pushed). Shadow mirror deferred. No verdicts, nothing broadcast. No chat message. Next: rotation #3 (protocol decoders).
