@@ -17309,3 +17309,10 @@ Three targeted searches plus standing-record checks. **Working loop — quiet lo
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave seventh press cycle, SG-41 Prague manuals, Polish-names research, Mavis Lever retells, stale Hut 11A mirror); no new break, no count change, no new declassification. No catalogue growth. No verdicts, nothing broadcast. Next: rotation #2 (codecs and formats).
+
+**Close-out (2026-11-04 ~09:05 EST, rotation #1):**
+- **Push result:** sync-github.py "research: historical codebreaking (rotation #1) — quiet loop, whole window already filed; September agentic-cipher wave seventh press cycle, SG-41 manuals, Polish names, Mavis Lever retells, stale Hut 11A mirror; no library growth; no verdicts" — exit 0 after about six minutes wall-clock. Stdout: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 267 unchanged" (one transient RemoteDisconnected on an unrelated README check, recovered). This close-out block itself rides the next run's sync.
+- **Shadow mirror:** DEFERRED — SSH probe failed ("Connection closed by UNKNOWN port 65535"); Shadow unreachable/intentionally off. Next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-0857.md, Rook's voice, one-line quiet-loop brief.
+
+**Run summary (close-out):** rotation #1 — quiet loop, whole window already on record (September agentic-cipher wave seventh press cycle, SG-41 Prague manuals, Polish-names research, Mavis Lever retells, stale Hut 11A mirror); no new break, no count change, no new declassification. No catalogue growth. Public entry pushed (1 pushed). Shadow mirror pending probe. No verdicts, nothing broadcast. Next: rotation #2 (codecs and formats).
