@@ -17011,3 +17011,5 @@ Three targeted news-vertical searches (symbolic-regression stack; symbolic regre
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #12 — working loop, one new log-only item (minimum-description-length self-audit of a discovery ledger, claimed — 252 relations, eighty-six percent at or below a compression ratio of one, eight canonical laws above one point five), one evidence-quality note (CoSR abstract read first-party, grade unchanged at corroborated), rest re-covered. No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-11-04 ~01:35 EST, rotation #12):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0129.md, Rook's voice, 150 words. No library growth. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
