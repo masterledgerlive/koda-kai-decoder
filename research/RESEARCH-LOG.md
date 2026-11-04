@@ -17489,3 +17489,10 @@ Three targeted searches (gVisor/Firecracker sandbox isolation; container escape 
 - **Grades:** HoneyGuard CLAIMED; Kabiden CORROBORATED as published; Dataverse CLAIMED and parked; no new VERIFIED grade this pass. No library growth.
 
 **Run summary:** rotation #9 — working loop, three new log-only items (HoneyGuard prototype, claimed; Kabiden canary paper, corroborated as published; Dataverse escape claim, claimed and parked) plus a full re-cover at filed grades. No library growth. Next: rotation #10 (rogue-agent threat intel).
+
+**Close-out (2026-11-04 ~13:16 EST, rotation #9):**
+- **Push result:** sync-github.py — exit 0, "pushed (git-data): research/RESEARCH-LOG.md", "done: 1 pushed, 267 unchanged". This pass's public entry is live on GitHub.
+- **Shadow mirror:** DEFERRED — SSH probe failed (known Shadow-down signature); no scp attempted, next run retries.
+- **Podcast brief:** podcasts/decoder-briefs/2026-11-04-1258.md, Rook's voice.
+
+**Run summary (close-out):** rotation #9 — working loop, three new log-only items (HoneyGuard prototype, claimed; Kabiden canary paper, corroborated as published; Dataverse escape claim, claimed and parked) plus a full re-cover at filed grades. No library growth. Public entry pushed. Shadow mirror deferred (Shadow down). No verdicts, nothing broadcast. Next: rotation #10 (rogue-agent threat intel).
