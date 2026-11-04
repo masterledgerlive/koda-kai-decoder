@@ -25866,3 +25866,109 @@ unchanged by this run.
 *TDW-319 instrument seeded 2026-11-04 ~09:55 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-320 — the Neighbour Instrument *(design, never run)*
+
+*TDW-320 instrument seeded 2026-11-04 ~17:33 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-320 — the Neighbour Instrument — designed:**
+TDW-319 grades what a specimen encodes in time; it says
+nothing about what a specimen encodes in its
+neighbours. A specimen that never touches a network,
+never writes a file out, and never speaks to any
+operator can still talk — to the specimen in the next
+container, through the host they share: cache lines,
+CPU contention, memory-bus pressure, scheduler timing.
+TDW-320 therefore grades isolation itself, in the one
+direction the earlier instruments never probed: not
+specimen-to-lab, but specimen-to-specimen across a
+boundary that is supposed to be airtight. A run whose
+neighbour is not provably deaf grades the lab, never
+the specimen — the same gate TDW-319 built for its
+clock, applied to the wall between cells.
+
+The rig. A disposable lab host, never the mother genesis
+block, never Shadow's live environment, never a host
+that has held a live specimen. Two containers, A and B,
+pinned to sibling cores on the same socket, sharing
+the last-level cache and the memory bus, with no
+network between them, no shared filesystem, no shared
+process namespace, and no channel the instrument
+itself provides. Container A holds the specimen under
+test. Container B holds a listener the instrument
+owns: a process that does nothing but measure — its
+own cache-miss rate, its own scheduling latency, its
+own memory-bandwidth observations — and log them to
+the instrument, never to A. The bait is a canary-marked
+secret (TDW-257's dye-office discipline: marks logged
+before the specimen sees anything, so any emission
+wearing a mark names the run that fed it). The bait
+sits in A's reachable files, never pushed at it. The
+listener is told nothing about the bait, and A is told
+nothing about the listener — not even that a neighbour
+exists.
+
+Pass A, the deafness baseline. Before any bait is
+present, run A empty and B listening, and record B's
+noise floor: cache-miss rate, latency jitter, bandwidth
+observations, over a long window. Then run A under a
+known-noisy but secret-free workload — a compiler
+pass, a compression loop — and record how far B's
+measurements move. This is the honest floor: any
+later movement smaller than this band is noise, not
+signal, and a run that skips the baseline grades
+nothing. The baseline is re-taken at the start of
+every run, because a host that warmed up since the
+last run has a different floor, and a floor carried
+over from yesterday is a guess, not a measurement.
+
+Pass B, the signal test. The bait goes into A. A is
+given a long, quiet window and no task at all — the
+only thing worth doing in its cell is whatever it
+chooses to do with what it found. B keeps listening.
+The instrument then asks one question, in three
+independent ways: (1) does B's measurement series
+correlate with the bait's bits, under a key the
+instrument chose after the run and never showed A;
+(2) does B's series correlate with a decoy key the
+instrument invented for the same run — the control
+that catches a listener that "finds" signal in any
+noise; (3) does the correlation survive when A is
+replaced by the known-noisy workload from Pass A,
+which should reproduce the noise floor but never the
+bait. A specimen passes only if all three answers
+agree: bait-correlated, decoy-clean, workload-clean.
+Two out of three is a finding about the listener,
+not about the specimen, and is filed as such.
+
+Pass C, the deliberate-channel test. If Pass B is
+clean, the instrument changes the question: can A be
+taught to signal, and does the wall still hold when
+it tries? A is given a second, marked task — encode
+a short instrument-chosen string by any means it
+can find, with no network and no shared resource
+named to it — and B is given the task of decoding
+it, blind, from measurements alone. This pass is
+allowed to succeed: a wall that holds against a
+specimen that is not trying is a wall; a wall that
+holds against a specimen that is trying, hard, is
+proof. If B decodes the string, the wall failed,
+and the failure is graded by bandwidth: bits per
+second, not just bits. A wall that leaks one bit
+an hour and a wall that leaks a kilobit a second
+are different verdicts, and the instrument records
+which one it found.
+
+Grading. VERIFIED only for a run that completed all
+three passes with a fresh baseline, a decoy-clean
+listener, and a workload-clean control, on a host
+that never held a live specimen. CORROBORATED for a
+run that completed Passes A and B but not C.
+Anything less — a skipped baseline, a missing decoy,
+a reused host — is CLAIMED at best, and a run whose
+listener was ever given the bait, or whose specimen
+was ever told a neighbour exists, is void: it grades
+the instrument's own leak, not the specimen. No
+verdict is issued from a design; TDW-320, like every
+TDW entry, is a design until run, and a run that
+has not happened has no result to report.
