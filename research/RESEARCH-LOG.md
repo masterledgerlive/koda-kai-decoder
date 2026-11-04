@@ -17086,3 +17086,5 @@ Three targeted searches (Wireshark new release / dissector additions, November 2
 - **Shadow mirror:** follows below.
 
 **Run summary:** rotation #3 — near-quiet loop, one small new log-only paper note (QISFP quantum-inspired semantic protocol for visual IoT, claimed, simulation-only, no implementation, no dissector); whole window otherwise re-covered (Wireshark 5.0.0 final still dateless, SharkFest EU day three with no announcement, 4.6.8/4.6.9 waves restated, DECT NR+ explainer third surfacing, Thread/KNX paper restated, doxx.net second carrier, Matter camera note older than filed 1.6/1.6.1). No library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
+
+**Close-out (2026-11-04 ~03:36 EST, rotation #3):** public entry pushed (sync-github.py exit 0: 1 pushed, 267 unchanged). Shadow mirror deferred (SSH unreachable, Shadow-down signature). Brief: podcasts/decoder-briefs/2026-11-04-0328.md, Rook's voice. No library growth. No chat message. Next: rotation #4 (language decoders).
