@@ -37106,3 +37106,169 @@ original attestation. Designs are designs
 until run.
 
 *T-1123 trick built 2026-11-03 ~20:30 EST by the decoder-create-loop.*
+
+## T-1124 — Revoked-Auditor Opened Windows: whether windows opened by a revoked auditor stand or need re-attestation
+
+- **The gap it closes.** T-1122 says
+revocation is forward-looking: a revoked
+auditor opens nothing further, and windows
+they already opened stay open, not voided
+by the revocation alone — but it never says
+whether those opened windows stand on the
+revoked auditor's original attestation, or
+need a surviving auditor to re-attest the
+opening before their challenges proceed.
+Left there, a revocation either casts doubt
+over every window the auditor ever touched,
+or quietly lets a possibly bad opening
+carry a challenge to a decision. This entry
+settles the question: opened windows stand
+by default, and re-attestation is owed only
+when the revocation names an
+attestation-integrity ground.
+
+- **Stand by default.** Revocation for
+administrative grounds — clearance expiry,
+pool rotation, voluntary withdrawal, or
+any ground unrelated to the auditor's
+openings — changes nothing about windows
+already opened. Each such window is marked
+STANDS-ON-ORIGINAL, naming the revoked
+auditor and the revocation ground, and its
+challenge proceeds on the original
+attestation. No surviving auditor need
+touch it, and no delay is owed to it. The
+revocation is recorded against the pool,
+not against the windows.
+
+- **Re-attestation on integrity grounds.**
+When the revocation notice names an
+attestation-integrity ground — a false
+attestation, a conflict-bar violation, a
+pace-breach, or any finding that the
+auditor's openings cannot be trusted —
+every window that auditor opened, whose
+challenge is still in flight, is marked
+RE-ATTEST-PENDING at the next check run.
+The mark pauses that window's challenge:
+it advances nothing, decides nothing, and
+is voided by nothing while pending. It is
+a pause on procedure, never a verdict on
+any specimen behind the window.
+
+- **What re-attestation checks.** A surviving
+cleared auditor with no conflict on the
+window re-attests the opening procedure
+only: that the window id, the check-run
+id, the queue position at opening, and the
+pace count for that run were as recorded
+in the pace ledger. Re-attestation never
+re-judges the challenge itself — the
+opener is not the judge, and the
+challenge is heard on its own merits
+under T-1121. A re-attested window is
+marked RE-ATTESTED, naming the surviving
+auditor, and its challenge resumes. The
+original attestation is kept alongside,
+never erased: the record shows both hands.
+
+- **When re-attestation fails.** If the
+opening procedure does not check out —
+the window opened out of order, above
+pace, or on a conflicted hand — the
+re-attesting auditor marks RE-ATTEST-FAILED,
+and the window returns to the queue at
+its original position under T-1122's
+pace-breach rule, its attestation marked
+alongside. The challenge does not proceed
+from a failed opening; it waits for a
+clean reopening in queue order. A failed
+re-attestation is a mark on procedure,
+never a verdict on the specimen.
+
+- **Completed challenges stand.** A window
+whose challenge already reached a filed
+outcome before the revocation is not
+re-opened by it, whatever the ground.
+Its record gains the revocation note and,
+on integrity grounds, a RE-ATTEST-LATE
+annotation for the opening procedure —
+but its filed outcome is untouched. An
+opening doubt does not un-decide a
+challenge that was judged on its merits,
+and no outcome is re-heard through the
+back door of an auditor's revocation.
+
+- **The stall clock.** If no eligible
+surviving auditor re-attests a pending
+window — every survivor conflicted on it,
+or no cleared auditor at all — the window
+waits, and after two consecutive check
+runs with no eligible hand it is marked
+RE-ATTEST-STALLED. The stall freezes that
+window's challenge only; the stagger of
+unopened windows continues under T-1120
+and T-1122, and no HEAD-BLOCKED mark is
+filed for a stalled opened window, per
+T-1123: head-block governs the queue, and
+an opened window is no longer in it. When
+an eligible auditor appears, re-attestation
+proceeds, the stall mark clears, and the
+challenge resumes or returns on the result.
+
+- **Unstated grounds.** A revocation notice
+that states no ground is treated as
+administrative: its windows stand, marked
+STANDS-ON-ORIGINAL with the ground
+recorded as GROUND-UNSTATED. Silence is
+not an integrity finding. But the mark is
+upgradable: if a later integrity finding
+names that auditor's openings, every
+still-in-flight window they opened moves
+to RE-ATTEST-PENDING at the next run,
+under the integrity rule above. Completed
+challenges still stand, per the rule above.
+
+- **Readings.** STANDS-ON-ORIGINAL: window
+stands on the revoked auditor's
+attestation, challenge proceeds.
+RE-ATTEST-PENDING: integrity ground
+named, challenge paused, re-attestation
+owed. RE-ATTESTED: surviving auditor
+confirmed the opening, challenge resumes,
+both attestations kept. RE-ATTEST-FAILED:
+opening did not check out, window
+returned to its queue position.
+RE-ATTEST-STALLED: two runs with no
+eligible hand, challenge frozen alone.
+RE-ATTEST-LATE: completed challenge,
+opening annotated, outcome untouched.
+None of these readings is a verdict on any
+specimen, and none says a window's
+challenge succeeds — only whose hand the
+opening stands on, and whether it may
+proceed.
+
+- **Evidence grade.** SPECULATION throughout.
+This is a design built on T-1122's
+forward-looking revocation and pace
+ledger, T-1120's queue order, T-1121's
+hearing, T-1123's queue-versus-window
+distinction, and T-1119's scarcity rules;
+it adds only the stand-by-default rule,
+the integrity-ground trigger, the
+procedure-only re-attestation, the
+completed-challenge stand, the two-run
+stall clock, and the upgradable
+unstated-ground mark. No auditor has ever
+been revoked mid-stagger, no opened window
+has ever been re-attested, and no window
+has ever been marked RE-ATTEST-STALLED
+under this entry. Admitted here, unsolved:
+whether a second integrity finding against
+the re-attesting auditor re-opens windows
+they re-attested, or whether re-attestation
+is final once given. Designs are designs
+until run.
+
+*T-1124 trick built 2026-11-03 ~20:45 EST by the decoder-create-loop.*
