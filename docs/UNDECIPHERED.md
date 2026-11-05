@@ -360,6 +360,67 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   settle what the signs are. A decipherment claim that has not fixed its
   alphabet has nothing to decipher. [DOCTRINE — information-theoretic; the
   reclassification as the model case]
+- **Proto-Elamite script** (~3100–2900 BCE, Susa and the Iranian plateau) —
+  the oldest writing system still unread, and the twin of proto-cuneiform:
+  the two scripts share tablet blanks, inscribing method, the reverse-for-
+  summation practice, and an administrative accounting function, and
+  Proto-Elamite's numerical systems were understood through the
+  Mesopotamian parallel. [VERIFIED unsolved; the proto-cuneiform parallel
+  CORROBORATED — standard scholarship]
+  Some ~1,600 tablets, the vast majority from Susa — the first two found by
+  Jacques de Morgan in the late 1800s — the rest scattered: Anshan /
+  Tal-i Malyan 33, Tepe Yahya 27, Tepe Sofalin 12, Tepe Sialk 5, and single
+  tablets at Ozbaki, Shahr-e Sukhteh, and Tepe Hissar. [VERIFIED — corpus
+  counts, standard epigraphic literature] More than half the glyphs are
+  numerical, and the numbers are read — decimal, sexagesimal, bisexagesimal,
+  and capacity systems — and a number of signs depict the objects they
+  represent, so the content of many tablets is known in outline: a Susa
+  tablet reads as 47 nanny goats, 8 billy goats, 6 female sheep, 6 male
+  sheep, 10 female kids, 2 male kids, 1 female lamb, 1 male lamb.
+  [CORROBORATED — the numerical read] But the majority of signs are
+  abstract, the sign list is still in progress (many singletons; Meriggi's
+  1971–74 catalogues fixed a working consensus), and the language is
+  unknown — Elamite has been suggested with no positive evidence, and the
+  earliest inscriptions are purely ideographic, carrying no linguistic
+  information at all. [CORROBORATED — the language unknown]
+  No bilingual text exists, and unlike Cypro-Minoan there is not even a
+  daughter to lean on: Linear Elamite, attested a millennium later, may or
+  may not descend from it — the relationship is speculative.
+  [CORROBORATED] The honest motion is Dahl's: since 2012 the Oxford project
+  has put ~1,600 tablets online via CDLI with RTI imaging, crowdsourcing
+  the corpus itself; Born et al. (CAWL 2023) disambiguated the numeral
+  sequences computationally; Monroe et al. (*Near Eastern Archaeology* 88.4,
+  2025) survey the recent progress. [CORROBORATED — peer-reviewed record]
+  The daughter-script side of the family moved first: Desset's Linear
+  Elamite decipherment (announced 2020; sign forms 2022) now claims 97.3%
+  of 2,033 sign occurrences read across 45 inscriptions — a purely phonetic
+  grid, 5 vowels × 12 consonants — but the claim is not universally
+  accepted, and it does not read the mother: Proto-Elamite remains unread.
+  [CORROBORATED — the project's own figures; the acceptance caveat VERIFIED]
+  New claimant, March 2026: "Reading Proto-Elamite" (Zenodo) — three
+  1.5-billion-parameter language models on a laptop assign readings to 272
+  of 349 signs across 1,275 digitized tablets (15,534 tokens), seven
+  readings anchored in prior scholarship, the rest from cross-linguistic
+  structural mapping; treewidth analysis (Susa tw = 116 vs 2–7 at
+  peripheral sites) as the administrative-hierarchy measure. Self-published,
+  no peer review, no independent replication; the dictionary reads
+  livestock and commodity ledgers in a four-part HEADER–COMMODITY–
+  ADMINISTRATIVE–TOTAL structure. Parked beside the Lackadaisical "14
+  scripts" claim — the "solved scripts" genre keeps resurfacing, and a
+  dictionary no second lab has checked is a hypothesis, not a reading.
+  [CLAIMED — self-published preprint; the corpus statistics are the author's
+  own] The encoding lags the reading: ISO 15924 gave it a code (Pelm, 016)
+  in 2021, Pandey's Unicode proposal (L2/23-196, Aug 2023) is filed, and the
+  Script Encoding Initiative still listed Proto-Elamite as in active
+  development in October 2025 — no Unicode block yet. [CORROBORATED —
+  Unicode documents]
+- **The decoder's lesson, in 1,600 tablets:** Proto-Elamite is the case
+  where the numbers are solved and the language is not — a script can be
+  half-read and still unread. The numerals were cracked by borrowing the
+  neighbour's system; the words have no neighbour to borrow from. A claim
+  that reads the ledger but not the language has read the arithmetic, not
+  the writing. [DOCTRINE — information-theoretic; the numerals-read /
+  words-unread split as the model case]
 - **Voynich manuscript** (Beinecke MS 408, parchment 1404–1438) — two new items,
   logged Oct 15, 2026. (a) Two researchers in Ottawa (February 2026) read the
   script as angular Glagolitic cursive — a medieval Croatian script tradition
@@ -603,6 +664,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Linear A | ~1800 BCE | Unsolved; Di Mino claim (Jun 2026, 408-word dictionary via Claude Code, "proposed" values) under academic review | — |
 | Byblos script | ~1800–1500 BCE | Unsolved; ~114 signs, ~10 inscriptions, no bilingual; syllabary by sign-count, no accepted reading | — |
 | Cypro-Minoan script | ~1550–1050 BCE | Unsolved; ~250 objects, ~4,000 signs, no bilingual, language unknown; 2022 deep-learning reclassification (PLOS ONE) unifies CM1/CM2/CM3 into one script — no accepted reading | — |
+| Proto-Elamite script | ~3100–2900 BCE | Unsolved; ~1,600 tablets, numbers read, language unknown, no bilingual; Desset's Linear Elamite decipherment (2022) does not read the mother; Mar 2026 LLM dictionary claim (Zenodo, CLAIMED, unreplicated); Unicode proposal filed 2023, no block yet | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
 | Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
