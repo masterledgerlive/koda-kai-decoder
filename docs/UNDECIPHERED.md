@@ -421,6 +421,77 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   that reads the ledger but not the language has read the arithmetic, not
   the writing. [DOCTRINE — information-theoretic; the numerals-read /
   words-unread split as the model case]
+- **Cretan hieroglyphic script** (~2100–1700 BCE, Minoan Crete, MM I–III) —
+  the earliest certain attestation of writing in Europe, and the least well
+  understood member of the Aegean script family — Linear A, Linear B,
+  Cypro-Minoan, and the Cypriot syllabary being its siblings, of which only
+  Linear B is read. [VERIFIED unsolved as of 2026; the "earliest writing in
+  Europe" and "least well understood" framings CORROBORATED — Civitillo,
+  Ferrara & Meissner (eds.), *Cretan Hieroglyphic*, Cambridge University
+  Press, 2025, the first unified volume on the script, output of the ERC
+  INSCRIBE programme]
+  The corpus is small and seal-heavy: as of 1989, seals and sealings ~150
+  documents, 307 sign-groups, 832 signs; other documents on clay ~120
+  documents, 274 sign-groups, 723 signs. The standard corpus, CHIC
+  (Godart & Olivier, *Corpus Hieroglyphicarum Inscriptionum Cretae*, 1996),
+  lists 314 items — clay documents (H 1–122), sealstone impressions
+  (I 123–179), sealstones (S 180–314) — and with post-1996 finds the
+  corpus is just over 360 inscriptions: the Petras deposit (excavated from
+  1995, published 2010) added 12 clay documents, 5 seal impressions, and
+  6 seals, and a four-sided prism turned up at Vrysinas in 2011.
+  [VERIFIED — the 1989 counts and the CHIC breakdown; CORROBORATED — the
+  post-1996 additions and the 360+ total]
+  The inventory is the unsettled part: CHIC counts 96 syllabograms, ten of
+  which double as logograms, plus 33 logograms/ideograms, 9 klasmatograms
+  (fractions and measures), 4 numeral signs (1, 10, 100, 1000), and 2
+  stiktograms (sequence markers) — a logo-syllabic system like Linear A and
+  B. Ferrara's opening chapter counts Cretan Hieroglyphic among the ancient
+  scripts still lacking a standard sign list, beside Rongorongo and
+  Cypro-Minoan; more than half of all sign occurrences sit on seals and
+  seal impressions, so the corpus is mostly stamps, not running text.
+  [CORROBORATED — the CHIC inventory; the no-standard-list point
+  CORROBORATED — Ferrara 2025]
+  No bilingual text exists, the language ("Minoan") is unknown and
+  unclassified, and the script has no fixed writing direction — so texts
+  are not transliterated but *transnumerated*: every sign rendered as a
+  number in a conventional order. [VERIFIED unsolved; CORROBORATED — the
+  transnumeration practice]
+  The descent question is the live science: Cretan Hieroglyphic predates
+  Linear A by about a century and the two ran in parallel for most of
+  their history, but whether Linear A descends from it is still disputed.
+  The old Egyptian-influence story has receded — recent scholarship treats
+  the script as an original Aegean creation, the first writing system in
+  the Aegean, grown from local seal iconography, though this view is not
+  unanimous: the earliest attestations are seals bearing the so-called
+  "Archanes formula" (ca. 2000–1900 BCE), with an "Archanes script" as
+  possible antecedent. Meissner & Salgarella (ch. 7) state the position
+  bluntly: no general agreement on the nature of the script, the number of
+  its characters, or even whether all writing traditionally called "Cretan
+  Hieroglyphic" is one unified whole. [CORROBORATED — the Cambridge
+  volume chapters]
+  The encoding lags everything: unlike its siblings — Linear A
+  (U+10600–U+1077F), Cypro-Minoan (U+12F90–U+12FFF, Unicode 14.0), the
+  Phaistos Disc (U+101D0–U+101FF, Unicode 5.1) — Cretan Hieroglyphs have
+  no Unicode block as of Unicode 17.0 (Sept 2025). The container has not
+  shipped at all: the inverse of Cypro-Minoan, where the container shipped
+  before the content, and of the Phaistos Disc, where a single object got
+  a block before its script did. [CORROBORATED — checked against the
+  Unicode 17.0 repertoire and the sibling blocks]
+  No 2025–26 decipherment claim found this pass — the news is the Cambridge
+  volume itself, not a reading. The Lackadaisical "14 scripts" page claims
+  Cretan Hieroglyphs deciphered; already parked as SPECULATION
+  (self-published, self-graded, rotation #4) and it stays parked.
+  [SPECULATION for the parked claim]
+- **The decoder's lesson, in 360 inscriptions:** Cretan Hieroglyphic is
+  the case where the alphabet is still on trial and the corpus is mostly
+  luggage tags: the sign list is disputed, the field is not agreed the
+  material is one script, and most of what survives is stamps on seals.
+  The honest fallback when a script will not be transliterated is
+  transnumeration — numbering the signs instead of reading them — and that
+  is an index, not a reading. A claim that reads Cretan Hieroglyphic
+  without first settling the inventory has deciphered a list it invented.
+  [DOCTRINE — information-theoretic; the unsettled-inventory /
+  seal-heavy-corpus split as the model case]
 - **Voynich manuscript** (Beinecke MS 408, parchment 1404–1438) — two new items,
   logged Oct 15, 2026. (a) Two researchers in Ottawa (February 2026) read the
   script as angular Glagolitic cursive — a medieval Croatian script tradition
@@ -665,6 +736,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Byblos script | ~1800–1500 BCE | Unsolved; ~114 signs, ~10 inscriptions, no bilingual; syllabary by sign-count, no accepted reading | — |
 | Cypro-Minoan script | ~1550–1050 BCE | Unsolved; ~250 objects, ~4,000 signs, no bilingual, language unknown; 2022 deep-learning reclassification (PLOS ONE) unifies CM1/CM2/CM3 into one script — no accepted reading | — |
 | Proto-Elamite script | ~3100–2900 BCE | Unsolved; ~1,600 tablets, numbers read, language unknown, no bilingual; Desset's Linear Elamite decipherment (2022) does not read the mother; Mar 2026 LLM dictionary claim (Zenodo, CLAIMED, unreplicated); Unicode proposal filed 2023, no block yet | — |
+| Cretan hieroglyphic script | ~2100–1700 BCE | Unsolved; just over 360 inscriptions, 96 syllabograms in CHIC with the inventory still disputed, no bilingual, language unknown, no fixed direction; Linear A descent disputed; first unified volume 2025 (CUP, INSCRIBE) — no decipherment claim on record; no Unicode block as of 17.0 | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
 | Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
