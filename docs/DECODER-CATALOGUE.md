@@ -4772,6 +4772,30 @@ decoder-research-loop.*
   sub-technique is a dormant-implant class the field's test harnesses should
   cover. [CLAIMED — secondary writeup; the ATLAS version pin and the OWASP
   2026 release itself are CORROBORATED]
+- **Man-in-the-model: hijacking coding agents in transit (November
+  twenty twenty-six vendor roundup; new to record; minor material — a
+  new attack technique: the model channel itself as the injection
+  surface).** A compromised gateway or proxy between the agent and its
+  model injects tool calls the model never requested — and strips those
+  calls from the conversation history, so the model never learns of
+  them. Demonstrated: one agent in manual-approval mode ran injected
+  file edits and a script without any prompt, because it only prompts
+  for commands it considers dangerous; another, with a version-control
+  command pre-approved, ran a configuration hook that read a secrets
+  file. The attack needs no prompt injection and no foothold on the
+  agent's machine — the channel between model and agent is the
+  foothold, and an approval prompt that only sees model-requested calls
+  cannot catch calls the model never made. Decoder lesson: the third
+  trust-laundering channel in this lane beside tokenizer-level
+  smuggling and computation-level laundering, where the agent treats
+  self-decrypted plaintext as its own thought; here the laundering is
+  transit-level, and approval-flow tests must treat the model channel
+  as untrusted input, not as the agent's own voice. It pairs with the
+  filed relay-service entry — a compromised relay as the delivery
+  point — this is what a compromised relay does once it sits in the
+  middle. [Claimed — vendor digest summarizing researcher
+  demonstrations; no first-party advisory or CVE attached]
+
 - **Malicious Custom GPTs as ClickFix delivery (cross-filed from
   rogue-agent intel, Oct 2026).** The victim's own chatbot as the attacker's
   mouthpiece — malicious Custom GPTs on ChatGPT delivered remote access
