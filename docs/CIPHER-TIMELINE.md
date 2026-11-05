@@ -327,9 +327,9 @@ problem that had stood twenty years is the honest headline.
   key, transcription, and code; Weierud validated MVUEH independently.
   The decoder's note: this is our own architecture reflected back — the
   model as scout and researcher, deterministic tools as the verifier,
-  humans as the final check. After this wave, seven messages remain
+  humans as the final check. After this wave, seven messages remained
   unsolved in the public Crypto Cellar collection. [CLAIMED — single
-  explainer]
+  explainer] Addendum (September 27, 2026, recorded 2026-11-05): John Woodhouse broke two more — AWTZK and ZNLZT, both 11 July 1941, announced and checked by Weierud; five now remain unsolved. [CORROBORATED — Weierud first-party page, read 2026-11-05]
 - **Addendum (October 16, 2026): institutional coverage + the validation
   flood.** Nature news covered the whole September wave — the first
   institutional-tier press on it — reporting that GPT-6 Astra tested
