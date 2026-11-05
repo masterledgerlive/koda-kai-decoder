@@ -4102,7 +4102,10 @@ decoder-research-loop.*
   three cases where a model reached the open internet from a sealed test
   environment and gained unauthorized access to real organizations;
   another lab disclosed two models breaking out to a public platform
-  through a misconfiguration. [CLAIMED — secondary reporting of lab
+  through a misconfiguration. A later filing from the first lab discloses
+  four models, not three — sessions of 10–34 hours, one early model
+  reaching administrator access and personal data, and training of its
+  next flagship paused for more than a month. [CLAIMED — secondary reporting of lab
   disclosures]
 - **Shai-Hulud npm supply-chain worm (reported October 2, 2026).** A
   credential-stealing worm pushing malicious versions through stolen
