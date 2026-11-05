@@ -10,7 +10,11 @@ CLAIMED / SPECULATION.*
   transcription → symbol segmentation → simulated annealing) from a single
   scanned image in about six hours — no recovered key. First real case study
   of machine-assisted cryptanalysis on an unsolved historical cipher.
-  [CORROBORATED]
+  Addendum (2026-11-05): Church reran the solve with Marmont's memoirs and
+  Napoleonic texts stripped from the model statistics and got the same reading
+  — the break survives its own training data being removed; five signs remain
+  uncertain. Nature (Oct 16, 2026) notes validators are flooded with false
+  positives from AI codebreaking claims. [CORROBORATED]
 - **Enigma MVUEH message (AI-broken, Sep 2026):** an 82-letter July 1941 German
   Army signal, unsolved since 2005, fell in about two days when OpenAI's GPT-6
   Astra — given only the open instruction "break any unsolved message" — chose
