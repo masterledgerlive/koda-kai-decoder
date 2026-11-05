@@ -5428,6 +5428,22 @@ decoder-research-loop.*
   defense. Decoder lesson: scoreboards that average across models are
   fiction. [CLAIMED — public research repo]
 
+- **Security Cube — a multi-dimensional scoreboard for jailbreak
+  defenses (SoK paper, May 6, 2026; to appear at IEEE S&P 2026).** A
+  systematization-of-knowledge paper argues attack success rate alone
+  hides how jailbreak defenses actually behave, and introduces Security
+  Cube, a unified multi-dimensional framework for evaluating jailbreak
+  attacks and defenses, with a systematic taxonomy on both sides. The
+  authors benchmark thirteen representative attacks and five defenses
+  through it, with automated judges, and distill findings and open
+  problems. Decoder lesson: one number per defense is a fiction twice
+  over — across models and across axes — and the gauntlet's own scoring
+  should carry the multi-axis shape, not just a pass rate.
+  [CORROBORATED — arXiv abstract read first-party; secondary summary
+  agrees on the framework and the thirteen-attack/five-defense
+  benchmark; 2026-11-05 research loop]
+  - Source: https://arxiv.org/abs/2605.05058
+
 - **Indirect injection as the coming initial-access vector (late September
   2026).** An industry assessment expects indirect prompt injection to become
   the dominant way attackers first get into enterprise AI deployments through
