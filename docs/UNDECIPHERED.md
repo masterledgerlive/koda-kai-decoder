@@ -652,6 +652,68 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   solution must be self-proving. The field is full of crank claims with
   keyboards — treat every announcement as CLAIMED until independently validated.
   [DOCTRINE]
+- **Tărtăria tablets / Vinča symbols** (circa fifty-three hundred BCE,
+  Tărtăria, Romania — new to record, November fifth, twenty twenty-six) —
+  the oldest writing claim on the watch list, and the one where the open
+  question is not what it says but whether it is writing at all. Three small
+  unfired clay tablets, unearthed in nineteen sixty-one by a team led by
+  Nicolae Vlassa of the National Museum of Transylvanian History in
+  Cluj-Napoca, at a Neolithic site in the village of Tărtăria, about thirty
+  kilometres from Alba Iulia, together with twenty-six clay and stone
+  figurines, a shell bracelet, and the burnt, broken, disarticulated bones
+  of an adult. All three tablets carry incised signs on one face only; the
+  unpierced rectangular tablet shows a horned animal, an unclear figure, and
+  a vegetal motif, a branch or tree. Filed as verified — discovery facts,
+  standard archaeological literature.
+  The dating is by association, not by the tablets themselves: museum
+  workers baked the originally unfired tablets to preserve them, making
+  direct radiocarbon dating impossible, and the stratigraphy of the find is
+  disputed — Vlassa never discussed the circumstances or the stratigraphy.
+  Radiocarbon dates on the other Tărtăria finds, extended by association to
+  the tablets, put them around fifty-three hundred BCE (some readings as
+  early as fifty-five hundred BCE), which would predate Sumerian
+  proto-cuneiform by more than a millennium. Filed as corroborated for the
+  associated dates; the dating dispute is verified.
+  The tablets are not an isolated fluke: the Vinča symbols have been known
+  since the late nineteenth century, from Zsófia Torma's excavations at
+  Turdaș in Transylvania, and Marco Merlini's DatDas database catalogues
+  five thousand four hundred and twenty-one signs across one thousand one
+  hundred and seventy-eight multi-sign inscriptions and nine hundred and
+  seventy-one inscribed artifacts, the bulk dated forty-five hundred to four
+  thousand BCE, the symbols falling out of use around thirty-five hundred
+  BCE. A related find, the Gradeshnitsa tablets (nineteen sixty-nine, near
+  Gradeshnitsa, Bulgaria), carries incised marks of the same tradition.
+  Filed as corroborated — corpus counts, DatDas.
+  The field splits on the nature of the system, and the split is the entry:
+  Harald Haarmann and the "Old European script" reading treat the signs as
+  a true writing system — which, at circa fifty-three hundred BCE, would
+  make this the world's oldest writing — while most scholars hold the
+  symbols are proto-writing at most: religious or ownership marks, not a
+  representation of a spoken language. The conservative case is structural:
+  most "texts" are one or two signs long, too short for syntax or grammar
+  to grip; the language of the Vinča people is unknown, with no bilingual
+  and no cultural continuity after the culture's collapse around forty-five
+  hundred BCE. Filed as corroborated — the scholarly split and the
+  structural case.
+  Authenticity has been disputed from the beginning, including a forgery
+  claim resting on the similarity between some signs and reproductions of
+  Sumerian symbols in popular Romanian literature available at the time of
+  discovery, and a counter-claim that the tablets are an intrusion from
+  upper strata. Filed as corroborated — the dispute as published.
+  No decipherment claim on this roster has survived intake: the
+  Lackadaisical Security page claiming fourteen ancient scripts deciphered
+  lists Vinča and the Tărtăria tablets among them — self-published,
+  self-graded, no peer review — and it stays parked as speculation.
+- **The decoder's lesson, in three tablets:** Tărtăria is the case where
+  the corpus is large, the signs are catalogued, and there is still nothing
+  to decipher — because decipherment presupposes a writing system, and
+  whether this is one is itself the undecided question. The honest motion
+  here is not a key but a classification: settle writing-versus-mark before
+  asking what the marks say. A claim that reads Vinča without first proving
+  it is writing has deciphered a list it invented — the same failure mode
+  as Cretan Hieroglyphic's unsettled inventory, one layer deeper.
+  [DOCTRINE — information-theoretic; the writing-versus-mark split as the
+  model case]
 
 ## 4. Biological codes
 
@@ -737,6 +799,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Cypro-Minoan script | ~1550–1050 BCE | Unsolved; ~250 objects, ~4,000 signs, no bilingual, language unknown; 2022 deep-learning reclassification (PLOS ONE) unifies CM1/CM2/CM3 into one script — no accepted reading | — |
 | Proto-Elamite script | ~3100–2900 BCE | Unsolved; ~1,600 tablets, numbers read, language unknown, no bilingual; Desset's Linear Elamite decipherment (2022) does not read the mother; Mar 2026 LLM dictionary claim (Zenodo, CLAIMED, unreplicated); Unicode proposal filed 2023, no block yet | — |
 | Cretan hieroglyphic script | ~2100–1700 BCE | Unsolved; just over 360 inscriptions, 96 syllabograms in CHIC with the inventory still disputed, no bilingual, language unknown, no fixed direction; Linear A descent disputed; first unified volume 2025 (CUP, INSCRIBE) — no decipherment claim on record; no Unicode block as of 17.0 | — |
+| Tărtăria tablets / Vinča symbols | ~5300 BCE | Unsolved; 5,421 signs catalogued (DatDas) across 1,178 multi-sign inscriptions, but no accepted reading — and the open question is prior: whether the signs are writing at all (Haarmann "Old European script" versus majority proto-writing); dating by association only (circa 5300 BCE, disputed stratigraphy, tablets baked so no direct radiocarbon dating); parked "14 scripts" decipherment claim — speculation | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
 | Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
