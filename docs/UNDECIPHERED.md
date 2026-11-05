@@ -308,6 +308,58 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   Rongorongo, and Cretan hieroglyphs. [VERIFIED unsolved; sign-count and
   discovery facts CORROBORATED — standard epigraphic literature; Dunand's own
   count was 114]
+- **Cypro-Minoan script** (~1550–1050 BCE, Cyprus) — an undeciphered
+  syllabary used across Late Bronze Age Cyprus and by its trading partners
+  (finds also at Ugarit on the Syrian coast), descended from the still-
+  undeciphered Linear A of Crete: a chain of two unknowns. [VERIFIED
+  unsolved; the Linear A descent CORROBORATED — standard scholarship]
+  Roughly 250 inscribed objects — clay balls, cylinders, tablets, potmarks,
+  copper ingots from the Cape Gelidonya shipwreck (1960) — and eight full or
+  partial tablets, three from Enkomi, totalling over 2,000 signs and carrying
+  a significant share of the whole corpus. [CORROBORATED — corpus counts,
+  standard epigraphic literature] The earliest long text is an Enkomi clay
+  tablet found in 1955, dated ~1500 BCE, three lines; the longest legible
+  single text is an Enkomi cylinder of 217 signs, 14th century BCE; dozens
+  of small clay balls from Enkomi and Kition carry 3–5 signs each.
+  [VERIFIED — the 1955 tablet; CORROBORATED — the cylinder and clay balls]
+  The whole corpus holds only ~4,000 signs — against 7,000+ for Linear A and
+  the ~30,000 Ventris had when Linear B fell — and the sign inventory itself
+  is unsettled, modern estimates ranging from 57–59 to 96. [VERIFIED]
+  No bilingual text exists; the language (or languages) is unknown, and it
+  is not Mycenaean Greek — attempts on that assumption have failed.
+  [CORROBORATED] The classification fight is the live science: Olivier's
+  three classes (CM1, CM2, CM3) and Masson's four chronological stages
+  (archaic CM, CM1 = Linear C, CM2, CM3 = Levanto-Minoan) against Ferrara's
+  2011–2012 case that CM1, CM2, and CM3 existed simultaneously, share the
+  same statistical and combinatorial regularities, and track writing material
+  rather than chronology — only archaic CM is distinct. [CORROBORATED —
+  the classification dispute as published] The 2022 instrument: Corazza,
+  Tamburini, Valério & Ferrara, "Unsupervised deep learning supports
+  reclassification of Bronze age cypriot writing system" (*PLOS ONE* 17(7):
+  e0269544) — unsupervised deep learning over sign shapes, finding the
+  three-way split an artefact of medium and the corpus one unitary script.
+  [CORROBORATED — peer-reviewed paper; model and code published] The
+  INSCRIBE programme (Bologna, Ferrara PI) carries the same result into its
+  *Computational methods for undeciphered scripts* volume: one writing
+  system, not three. [CORROBORATED — the programme's own volume] Palaima's
+  standing verdict — "all past and current schemes of decipherment of
+  Cypro-Minoan are improbable" — and Ferrara's own 2012 conclusion agree:
+  without a bilingual or many more texts, decipherment is extremely
+  difficult. [CORROBORATED — published verdicts] Only 15–20 signs have clear
+  parallels in cognate scripts, so even the daughter helps little: the
+  Cypriot syllabary that descends from Cypro-Minoan is read — it wrote
+  Greek — but the mother script's language is not Greek, and sign-shape
+  continuity across a language change buys no sound values. [CORROBORATED —
+  the descendant's decipherment; the language non-identity] Unicode encoded
+  the script before anyone could read it (U+12F90–U+12FFF, ISO 15924 Cpmn):
+  the container ships before the content. [VERIFIED — the Unicode block]
+- **The decoder's lesson, in 4,000 signs:** Cypro-Minoan is the Dorabella
+  problem at corpus scale — too little text for frequency to grip, no crib,
+  no bilingual, and not even a settled inventory to count. The 2022
+  reclassification is the honest motion: before asking what the signs say,
+  settle what the signs are. A decipherment claim that has not fixed its
+  alphabet has nothing to decipher. [DOCTRINE — information-theoretic; the
+  reclassification as the model case]
 - **Voynich manuscript** (Beinecke MS 408, parchment 1404–1438) — two new items,
   logged Oct 15, 2026. (a) Two researchers in Ottawa (February 2026) read the
   script as angular Glagolitic cursive — a medieval Croatian script tradition
@@ -550,6 +602,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Dhofari 1 | pre-Islamic | **Solved Jul 2026** — Al-Jallad (Ohio State): three inscriptions were abecedaries; the corpus carried its own alphabet | — |
 | Linear A | ~1800 BCE | Unsolved; Di Mino claim (Jun 2026, 408-word dictionary via Claude Code, "proposed" values) under academic review | — |
 | Byblos script | ~1800–1500 BCE | Unsolved; ~114 signs, ~10 inscriptions, no bilingual; syllabary by sign-count, no accepted reading | — |
+| Cypro-Minoan script | ~1550–1050 BCE | Unsolved; ~250 objects, ~4,000 signs, no bilingual, language unknown; 2022 deep-learning reclassification (PLOS ONE) unifies CM1/CM2/CM3 into one script — no accepted reading | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
 | Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
