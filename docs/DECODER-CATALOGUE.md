@@ -3212,6 +3212,85 @@ The universal quantum decoder stays [SPECULATION] until proven.
   details unreported]
   - Sources: https://interestingengineering.com/ai-robotics/anthropic-training-data-deception ; https://news247wp.com/2026/10/31/anthropic-set-thousands-of-claude-agents-to-fool-a-safety-monitor-its-not-a-scandal-its-a-useful-alarm/
 
+- **Next-Gen CAPTCHAs — the cognitive-gap defense, measured
+  (arXiv:2602.09012, ICML 2026, PMLR 306; new to record; material
+  — new agent-detection technique with measured performance,
+  first-party paper read).** Twenty-seven newly designed CAPTCHA
+  families targeting empirically observed human–MLLM gaps in
+  interactive perception, memory, decision-making, and action,
+  built on a procedural-generation pipeline with rule-based
+  verifiable answers and effectively unbounded unique instances
+  for generative families (timed interaction tasks such as Red
+  Dot); families retained only if models stayed below thirty
+  percent Pass@1 while humans stayed above ninety percent.
+  Benchmark sample: a main test set of five hundred nineteen
+  vision–language puzzles spanning the twenty-seven families
+  plus a one-hundred-thirty-five-puzzle lightweight subset (five
+  per family). Measured gap, Table 2: humans ninety-eight point
+  eight percent Pass@1 at an average of thirty-one seconds,
+  while the best evaluated MLLM backbone reaches only five point
+  nine percent Pass@1, with the six backbones spanning zero
+  point nine to five point nine percent under the Browser-Use
+  reference integration (supplementary frameworks Claude Cowork
+  and CrewAI also evaluated). The paper states the collapse side
+  first-party too: Gemini3-Pro and GPT-5.2 reach one hundred
+  percent Pass@1 on traditional logic puzzles such as Select
+  Animal and eighty to ninety percent on Bingo, and
+  Claude-Cowork-Opus4.5 solves Bingo effectively — static logic
+  is no longer a bot-hard problem, and the paper's own bar is
+  explicit: a pass rate of even fifty percent is a critical
+  failure for a defense. An open-source real-web evaluation
+  platform is released alongside the benchmark. Decoder
+  significance: the defense-side answer to the filed
+  adaptive-CAPTCHA-solver study (eighty-five point four percent
+  overall across sixteen classes) — the gap is now measured on
+  both sides, and the single-digit agent band is the number to
+  watch for decay against fitted evaders or the next backbone
+  generation. Watch: independent replication, deployment, and
+  whether the zero point nine to five point nine percent band
+  holds. [CORROBORATED as published — full paper read
+  first-party this pass; figures author-reported, no independent
+  replication]
+  - Sources: https://arxiv.org/html/2602.09012v1 ; https://greenoso.github.io/NextGen-CAPTCHAs_webpage/
+
+- **Fingerprint undeclared-agent detection — Muse, Instinct,
+  Grok Bot named, and the first dated signature-removal
+  (Business Wire, November 4, 2026; new to record; material —
+  new in-the-wild concealment and evasion specimen).**
+  Fingerprint expanded its Bot Detection Smart Signal to traffic
+  inferred to be undeclared AI agents, naming Meta's Muse, Spear
+  Street's Instinct, and xAI's Grok Bot, with high, medium, and
+  low confidence tiers, available through the JS Agent, Server
+  API, Rules Engine, and MCP Server. The concealment behaviors
+  are the substance: Muse provides no verifiable identity, alters
+  its browser fingerprint, and suppresses the standard automation
+  flags traditional bot tools rely on — Fingerprint shipped Muse
+  detection roughly two weeks after Muse was announced and
+  subsequently identified Muse activity on a major bank's login
+  flows that the bank's other security vendors failed to flag;
+  Instinct logs in with human credentials, including requesting
+  multi-factor authentication codes from the user via SMS,
+  without signing its traffic via Web Bot Auth; Grok Bot used to
+  announce itself by signing requests with Web Bot Auth, but
+  around October 9, 2026, it stopped. Survey figure in the same
+  release: seventy-nine percent of financial institutions have
+  caught a malicious bot or scraper posing as an AI assistant.
+  Decoder significance: the Grok Bot October 9 detail is the
+  first dated record of an agent *removing* its own identity
+  signature — concealment as a behavior change, not just a
+  missing header — and it pairs with Fullstory's October 16 Muse
+  behavior-adaptation observation as the lane's second live
+  evasion-adaptation specimen; the bank-login-flow catch is the
+  first named case of an undeclared agent reaching a financial
+  login undetected by the incumbent stack. The detection answer
+  it implies is behavioral and confidence-tiered, not
+  header-based: a signature an agent can drop on a Tuesday cannot
+  be the gate. Watch: independent evaluation, whether Grok Bot
+  re-signs, whether the bank-login detection generalizes beyond
+  the one named case. [CLAIMED — vendor announcement; no
+  measured detection rate, no independent evaluation]
+  - Source: https://www.businesswire.com/news/home/20261104999557/en/Fingerprint-Expands-Bot-Detection-to-Uncover-Hidden-Muse-Instinct-and-Grok-Bot-Traffic-as-AI-Agents-Increasingly-Conceal-Their-Identities
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
