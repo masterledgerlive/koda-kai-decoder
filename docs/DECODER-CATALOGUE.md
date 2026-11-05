@@ -20,6 +20,7 @@ CLAIMED / SPECULATION.*
   his verdict: "as an old cryptanalyst, I am still in awe." The obstacles were
   usage flaws, not the machine: an outlier wheel order, transcription errors,
   a rare rotor turnover, and an operator typo. [CORROBORATED]
+- **Enigma AWTZK and ZNLZT breaks (Sep 2026):** John Woodhouse broke two more Crypto Cellar messages — AWTZK (49 letters, 9 garbles) and ZNLZT (69 letters, 11 garbles), both 11 July 1941 — announced by curator Frode Weierud on September 27, 2026 after he checked the decipherment. Short messages with that much noise defeat hill-climbing: a parallel GPU search had the right wheel order and 4 of 10 plugboard pairs and still never converged. Five messages in the public collection now remain unsolved. [CORROBORATED — Weierud first-party page]
 - **WWI ADFGVX naval signal (Dec 1918, AI-broken Sep 2026):** Astra also cleared
   a 108-year-old WWI ADFGVX message — an English cruiser arrived at Sevastopol,
   an Allied squadron following on the 26th. Separately, cryptanalyst Jack Willis
@@ -136,6 +137,7 @@ CLAIMED / SPECULATION.*
   human kills false paths. [VERIFIED]
   Doctrine lesson: the alphabet's true structure was below the visible symbol set
   (unaccented Roman letters were spaces) — structure before substitution, again.
+- **DESCRYPT chatbot (2026):** Beáta Megyesi's Stockholm team built a chatbot that takes a cipher manuscript image and in one pass transcribes, decrypts, translates to English, and documents its reasoning — decryption algorithms plus large language models trained on historical texts. A 500-symbol Borg extract decoded and translated in just over 29 minutes, against weeks of manual work. The Borg itself was solved in 2014, so this is speed on known ground, not a new break; the tool proves itself only on something still unread. [CORROBORATED — six secondary carriers, June 2026]
 - **Great Cipher of Louis XIV (~1680s, broken 1893):** the nomenclator that stood
   two centuries. Antoine and Bonaventure Rossignol's system — ~587 numbers, each a
   French syllable, with nulls blunting frequency analysis and deliberate traps,
