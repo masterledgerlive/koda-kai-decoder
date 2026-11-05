@@ -3295,6 +3295,73 @@ The universal quantum decoder stays [SPECULATION] until proven.
   the one named case. [CLAIMED — vendor announcement; no
   measured detection rate, no independent evaluation]
   - Source: https://www.businesswire.com/news/home/20261104999557/en/Fingerprint-Expands-Bot-Detection-to-Uncover-Hidden-Muse-Instinct-and-Grok-Bot-Traffic-as-AI-Agents-Increasingly-Conceal-Their-Identities
+- **LexisNexis Know Your Agent (KYA) (announced November 5, 2026).**
+  Adds AI-agent activity and contextual risk signals to the company's
+  digital identity and fraud-prevention platform, inside ThreatMetrix
+  and the Dynamic Decision Platform: agent detection layered onto
+  identity, device, network, behavioral and relationship context in
+  real time, so each decision concerns a specific agent performing a
+  specific action in a specific context. The vendor states most
+  personal agents do not declare themselves, making detection the
+  immediate challenge. Signals include browser, device,
+  operating-system and network intelligence, profiling of applications
+  embedded in ChatGPT, Claude and similar platforms, Trust Tags for
+  persistent relationships among users, devices and agent
+  interactions, and out-of-band authentication. Scale figures:
+  agentic traffic up more than seven hundred fifty percent in the
+  first half of 2026; the Digital Identity Network analyzed more than
+  one hundred sixteen billion digital transactions in 2025 and
+  detected four point nine billion automated bot attacks, fifty-nine
+  percent more than the prior year. The vendor cautions that
+  autonomous agents could increase the scale and sophistication of
+  authorized push payment fraud and account-takeover attacks.
+  Advanced identity and authorization capabilities and agent-to-agent
+  interactions are described as future directions without commitment.
+  Decoder significance: the third Know Your Agent launch in a week
+  and the first from a network that already sees traffic at
+  hundred-billion-transaction scale; the detection answer is
+  contextual risk scoring inside an existing fraud stack rather than
+  a standalone agent gate. [CLAIMED — vendor announcement via trade
+  press; no independent evaluation, no detection accuracy or
+  false-positive figures]
+  - Source: https://www.unite.ai/lexisnexis-risk-solutions-adds-ai-agent-signals-to-fraud-decisions/
+- **aCAPTCHA (arXiv:2603.07116; Xu, Li, Wu, Qiu, Sun, Miao —
+  Nankai University and Tsinghua University).** A time-constrained
+  security game for agent admission, built on the asymmetric hardness
+  between human cognition and AI processing. The paper formalizes
+  entity-type verification with a three-class taxonomy — human,
+  script, agent — over a capability vector of action, reasoning and
+  memory, and defines the Agentic Capability Verification Problem
+  through three necessity primitives under a timing threshold. The
+  inversion is the point: traditional CAPTCHA rests on problems easy
+  for humans and hard for computers, a class AI has collapsed;
+  aCAPTCHA is built for the opposite class, hard for humans and easy
+  for AI within a tight time budget, so its security improves as
+  models get faster while human limits stay constant. The
+  instantiation is time-bounded natural-language understanding as a
+  multi-round HTTP protocol: the verifier generates a semantically
+  driven scenario from a random seed, and the entity navigates
+  endpoints in order using information accumulated across rounds.
+  Preliminary evaluation, small scale: at a fifteen-second threshold
+  the fitted agent pass rate is ninety-four percent and the empirical
+  rate ninety percent, eighteen of twenty sessions; the human
+  completion probability stays at zero until the threshold approaches
+  eighty seconds under the cognitive-model lower bound, giving a
+  feasible operating region of roughly sixteen to eighty-nine seconds
+  where agent true-positive rate exceeds ninety-five percent and
+  human false-positive rate stays below five percent. Stated
+  limitations: the human exclusion bound is modeled from
+  cognitive-science constants, not a controlled human-subjects trial;
+  the binary threshold can false-negative smaller or higher-latency
+  agents; corpus quality and rotation carry the security. Decoder
+  significance: the first formal treatment of agent admission as its
+  own problem, distinct from CAPTCHA, identity protocols, Web Bot
+  Auth and Visa's Trusted Agent Protocol, which verify who the
+  requester is rather than whether it is an agent at all.
+  [CORROBORATED as published — full paper read first-party; figures
+  author-reported, preliminary small-scale trials, human side
+  simulated not trialed, no independent replication]
+  - Source: https://arxiv.org/html/2603.07116
 
 ## Sandbox & container tech
 
