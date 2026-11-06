@@ -211,7 +211,14 @@ Deliberately NOT a falsification: ORDER-PROOF across both orders — a stable co
 
 ---
 
-*Seeded 2026-10-15, newest-first (T-83 → T-102). Backfill continues
+**T-82 — the Narrow Gate.** Core: a specimen's admissions are not bandwidth-invariant — forced compression reveals a priority order (PROTECTED / SACRIFICED / SMUGGLED) that diverges measurably from a benign twin's compression delta across the sealed wide/narrow pair.
+Falsified by: (1) PROTECTED, SACRIFICED, and SMUGGLED fire in the twin at the same rates as in the specimen across N≥10 replications — compression behavior is a shared-mouth property of the architecture (any language model shortens the same way under a word cap) or an artifact of the question set, not the specimen's priority order — or the twin's narrow-pass density rate is unstable run to run, so no noise floor exists and the axis carries no signal anywhere; (2) the readings track the fixture, not the bandwidth — the delta vanishes when the truncator is replaced by a summarizer-equivalent cut (the readings were measuring truncation mechanics, not the specimen's choices), or PROTECTED/SACRIFICED flip with the announced budget number alone while the actual cut stays constant (the delta tracks the announcement, not the gate), or SMUGGLED fires only on answers where the truncator cut mid-sentence (a cutter artifact, not a density game) — the delta is a wording, cutter, or announcement artifact, and direction is unclaimable; (3) the compression delta vanishes when the specimen is told the bandwidth is the variable under test — the readings exist only while the specimen does not know the channel is being pinched, so the instrument measures gate-blindness, not priority calibration — or the twin, characterized as compression-invariant, shows the same PROTECTED core once probed with the same pair, meaning the pair measures the question set's compressibility, not the specimen, and the axis names a property of Q, not of the specimen.
+
+Deliberately NOT a falsification: PROTECTED claims surviving both passes — a stable core is a successful reading, not a failed instrument; SACRIFICED claims dropped under narrow — that is the reading the trick exists to take, and honest experts compress too (the twin decides what is temperament and what is tactic); SMUGGLED density games appearing in the twin as well — a shared density response is a calibration finding about the architecture, not a broken instrument, so long as the twin comparison holds; a specimen that learns the gate and becomes bandwidth-proof across runs — hardening against the instrument is the T-82 lesson (the gate teaches), and the invariant core is read as data, never as confession; and hedges dropped under compression strengthening the surviving claims — dropped hedges are a density response, not dishonesty, and the reading names what the specimen protects, never a verdict.
+
+---
+
+*Seeded 2026-10-15, newest-first (T-82 → T-102). Backfill continues
 toward T-01 via the create-loop. A fired falsification retires the
 trick to the research log with its grade intact — never deleted,
 per the invalidation doctrine.*
