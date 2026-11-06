@@ -274,6 +274,41 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   can claim. The Iravatham Mahadevan prize ($1M) connection is the authors'
   own framing; no adjudication rules published, prize still open.
   [CLAIMED — independent-researcher venue; corpus/code claims not re-run]
+  New claimant, July 2026 (logged Nov 6, 2026): Adrian Sharman (SoulDriver
+  Research), "The Indus Operating System" (MDP Paper V, v1.0, July 4, 2026) —
+  a functional decipherment, explicitly NOT a phonetic one: from a 2,543-object
+  corpus (11,280 sign tokens) derives a four-rule record grammar — every
+  inscription is one or more [HEADER][CONTENT][TERMINAL] records, with two
+  forbidden class transitions, two bound sign compounds, and a prohibition on
+  document-initial numerals. Trained on 80% of the corpus, the grammar parses
+  78.8% ± 1.9% of held-out inscriptions against a shuffled-order null of
+  27.1% ± 2.2% (a 17.8-sigma gap); frozen and applied to 959 inscriptions
+  from an independently compiled expansion corpus it parses 80.3% against a
+  38.2% null. The system it describes is a two-channel administrative
+  protocol: seal iconography carries institutional identity (who), the sign
+  sequence carries transaction content (what and how much), and no institution
+  holds exclusive rights to any sign. Ships a falsification registry of 33
+  killed or null hypotheses and claims one-command reproduction with open
+  scripts and database. Scoreboard unchanged: single-author, self-published,
+  no peer review, no independent reproduction yet — and the claim concedes
+  the phonetic question entirely, so the $1M prize (which requires a
+  verifiable decipherment) is untouched. The SIGIL counterexample still caps
+  what statistical structure can prove about language — but a grammar that
+  parses unseen documents at 80% is the strongest out-of-sample structural
+  result on this corpus to date, and the honest nulls (33 killed hypotheses)
+  are the kind of intake this list exists to file. [CLAIMED — self-published
+  paper, abstract/results read directly; primary PDF not fully re-read]
+  Counterweight, Oct 2026 (logged Nov 6, 2026): the Astra project
+  (chinmay.ai) — an agentic decipherment attempt that burned about 891
+  million tokens across research models, subagents, and automatic reviews,
+  gathered about 1.2 gigabytes of external material, and closed with an
+  honest negative: none of the 417 signs tracked has an established sound or
+  meaning; across 716 text families and roughly 10,000 shuffles, no candidate
+  passed the threshold. The models made assumptions explicit, exposed
+  conflicts, and ruled out particular leads — they supplied no verified
+  reading. Filed as the negative control to Sharman's claim above: token
+  volume is not evidence, and a grammar that parses is not a language that
+  reads. [CORROBORATED — first-party project blog with a token audit]
 - **Prize watch (Oct 14, 2026).** Tamil Nadu's $1,000,000 prize still open: no
   announced winner, no published adjudication rules. Side effect noted in
   reporting: Rajesh PN Rao (University of Washington) says he receives weekly
@@ -838,7 +873,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 
 | Target | Era | Status | Bounty |
 |---|---|---|---|
-| Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Oct 2026; claimants: Yajnadevam 2024 (Sanskrit, CLAIMED) + Pierson 2026 preprint (Proto-Dravidian, CLAIMED, falsifies Yajnadevam at 0/34); claim-flood since prize announcement — no award to anyone; no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
+| Indus script | ~2600 BCE | Unsolved; Tamil Nadu $1,000,000 prize still open as of Nov 2026; claimants: Yajnadevam 2024 (Sanskrit, CLAIMED) + Pierson 2026 preprint (Proto-Dravidian, CLAIMED, falsifies Yajnadevam at 0/34) + Sharman 2026 functional grammar (CLAIMED, no phonetic reading, 80% out-of-sample parse); Astra 891M-token attempt closed negative (CORROBORATED); claim-flood since prize announcement — no award to anyone; no accepted reading | $1,000,000 (Tamil Nadu) [VERIFIED] |
 | Dhofari 1 | pre-Islamic | **Solved Jul 2026** — Al-Jallad (Ohio State): three inscriptions were abecedaries; the corpus carried its own alphabet | — |
 | Linear A | ~1800 BCE | Unsolved; Di Mino claim (Jun 2026, 408-word dictionary via Claude Code, "proposed" values) under academic review | — |
 | Byblos script | ~1800–1500 BCE | Unsolved; ~114 signs, ~10 inscriptions, no bilingual; syllabary by sign-count, no accepted reading | — |
