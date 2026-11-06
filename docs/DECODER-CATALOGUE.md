@@ -3366,6 +3366,38 @@ The universal quantum decoder stays [SPECULATION] until proven.
   author-reported, preliminary small-scale trials, human side
   simulated not trialed, no independent replication]
   - Source: https://arxiv.org/html/2603.07116
+- **Descope Envoy (announced November 4, 2026).** A delegated
+  sign-in path letting personal AI agents enter a consumer app under
+  their own identity, with their own permissions and approval flows,
+  instead of borrowing the customer's credentials. Built on the
+  Personal Agent Protocol (Poppy), draft 0.1 published by Meta and
+  Sierra in October 2026: Descope handles discovery, agent
+  identification through Client ID Metadata Documents with no
+  pre-registration, session tokens bound to the agent's key with
+  Demonstrated Proof of Possession, and all three Poppy sign-in
+  types. Granular agent permissions via Rich Authorization Requests;
+  out-of-band approval for sensitive actions via Client-Initiated
+  Backchannel Authentication; delegation instead of impersonation,
+  so the customer and the acting agent stay distinct in every token
+  and log entry and an agent's access can be revoked without signing
+  the customer out. Launch and design partners include GoFundMe,
+  You.com, GoodRx and Composio; Descope also published a Poppy SDK
+  for agent builders. Descope's own blog names the agents it has in
+  mind: Instinct and Muse. Decoder significance: the first
+  Poppy-compliant product, and the admission-side answer to the same
+  undeclared-agent problem the detection side chased in the same
+  forty-eight-hour window — Fingerprint's November 4 expansion
+  targets Muse and Instinct as agents that conceal themselves, and
+  Envoy says come in through the front door with your own key. It
+  is also the commercial answer to the filed Amazon block of Muse in
+  September for non-identification. Watch: general availability date
+  and pricing, whether launch partners ship it, whether Poppy
+  survives as the standard or forks, and whether any agent adopts
+  the declared lane over the concealed one. [CLAIMED — vendor
+  announcement via release and first-party blog; no independent
+  evaluation, no deployment figures, no general availability date,
+  no pricing]
+  - Sources: https://www.globenewswire.com/news-release/2026/11/04/3395352/0/en/descope-unveils-envoy-an-identity-aware-way-for-personal-ai-agents-to-act-on-people-s-behalf.html ; https://www.descope.com/blog/post/envoy
 
 ## Sandbox & container tech
 
