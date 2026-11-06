@@ -12518,3 +12518,166 @@ The "unbalanced" qualifier is the whole security story. The original balanced Oi
 *[Grade: VERIFIED — the 10 HOTP vectors + 10 intermediate HMAC values (RFC 4226 App. D), the 18 TOTP vectors (RFC 6238 App. B), the §5.4 worked truncation example, and the 13 edge/rejection rungs, all matched this pass by a from-specification implementation (hidden_files/totp-mini.py), 54/54 checks, run twice; the algorithm facts (HOTP definition, dynamic truncation, 6-digit minimum, 128-bit secret floor / 160-bit recommendation, TOTP definition, X=30, T0=0, SHA-256/512 allowed, 64-bit T requirement, one-step delay recommendation, sv/10^Digit security bound) from RFC 4226 and RFC 6238 read first-party this pass; CORROBORATED — the otpauth:// URI shape and the Google Authenticator parameter-ignoring behaviour from the Key Uri Format wiki and secondary writeups, via search this pass, and the expired IETF otpauth draft as documentation of the de facto schema; SPECULATION — the Gauntlet mappings are this entry's own doctrine, never run.]*
 
 *TOTP entry built 2026-11-05 by the decoder-research-loop.*
+
+## COSE — CBOR Object Signing and Encryption (RFC 9052 / RFC 9053), or: the envelope that signs its own bytes
+
+- **The gap this entry closes.** The catalogue carries CBOR — the grammar
+every COSE signature speaks — and JWT and PASETO, the tokens that prove
+who you are in text. But the signed object that actually rides the
+constrained wire is neither: it is COSE, the binary twin of JOSE, and a
+specimen arriving as a CBOR tag 18, 98, 96, 16, 97, or 17 reads as opaque
+binary to any decoder that only knows CBOR, JSON, and the catalogue's
+ciphers. COSE is the envelope half of the CBOR story — the layer the EU
+Digital COVID Certificate chain ends in (HC1: → Base45 → zlib → CBOR →
+COSE), the layer CWT tokens and WebAuthn/CTAP2 attestation objects are
+sealed in, and the layer every constrained IoT device signs with when
+JSON will not fit. A decoder that knows CBOR but not COSE can read the
+envelope and cannot tell whether it was ever sealed.
+
+- **The lineage, in one paragraph.** COSE began as RFC 8152 (July 2017,
+Jim Schaad), the CBOR counterpart to JOSE, and was revised without
+changing the wire structures as RFC 9052 (August 2022), with the
+algorithms split into the companion RFC 9053. Six message types, each a
+CBOR array under its own tag: COSE_Sign (98, one or more signers),
+COSE_Sign1 (18, exactly one signer), COSE_Encrypt (96, enveloped, one
+or more recipients), COSE_Encrypt0 (16, single recipient, implicit key),
+COSE_Mac (97, MAC with recipients), COSE_Mac0 (17, MAC with implicit
+key). Every message splits its headers into a protected header — a byte
+string holding a CBOR map, covered by the signature or tag — and an
+unprotected header, a plain map that is not covered. The common header
+parameters are small integers: alg 1, crit 2, content type 3, kid 4,
+IV 5, partial IV 6, counter signature 7, and in the unprotected side the
+ephemeral key −1, static kid −3, salt −20, U nonce −22. Keys are CBOR
+maps too: kty 1 (OKP 1, EC2 2, Symmetric 4), kid 2, alg 3; EC2 carries
+crv −1 (P-256 1, P-384 2, P-521 3), x −2, y −3, d −4; OKP carries crv −1
+(X25519 4, X448 5, Ed25519 6, Ed448 7), x −2, d −4; symmetric keys carry
+k −1. The algorithm registry (RFC 9053) is integer-valued throughout:
+ES256 −7, ES384 −35, ES512 −36, EdDSA −8, PS256 −37; A128GCM 1, A192GCM
+2, A256GCM 3; AES-CCM-16-64-128 10 through AES-CCM-64-128-256 33;
+ChaCha20/Poly1305 24; HMAC 256/64 4, 256/256 5, 384/384 6, 512/512 7;
+AES-MAC 128/64 14, 256/64 15, 128/128 25, 256/128 26; direct −6, A128KW
+−3, A192KW −4, A256KW −5; ECDH-ES + HKDF-256 −25, ECDH-ES + HKDF-512
+−26, ECDH-SS + HKDF-256 −27, ECDH-SS + HKDF-512 −28, ECDH-ES + A128KW
+−29, ECDH-ES + A192KW −30, ECDH-ES + A256KW −31, ECDH-SS + A128KW −32,
+ECDH-SS + A192KW −33, ECDH-SS + A256KW −34. The signature, encryption,
+and MAC structures are built the same way in every case: a context
+string, the protected header bytes, the external additional data, and
+the payload, CBOR-encoded as one array and fed to the primitive —
+"Signature1" for COSE_Sign1, "Signature" for COSE_Sign, "Encrypt" for
+COSE_Encrypt, "Encrypt0" for COSE_Encrypt0, "MAC" for COSE_Mac, "MAC0"
+for COSE_Mac0. [VERIFIED — the six tags, the header-parameter and key
+numbers, and the algorithm values above, from RFC 9052 and RFC 9053
+read first-party this pass; CORROBORATED — the HC1:/DCC chain and the
+CWT/WebAuthn usage, from the standards record, not from a fresh read
+this pass]
+
+- **What COSE is not.** It is not JOSE in binary: JOSE protects a
+base64url JSON header whose text is the signed object, while COSE
+protects a byte string holding a CBOR map — the signature covers the
+bytes, so re-encoding the same map kills the signature, and a decoder
+that "normalizes" a protected header before verifying has destroyed
+exactly what it was asked to check. It is not a token format: COSE
+registers no claims and carries no expiry — CWT is the token layer
+built on top of it, and a COSE_Sign1 object with a JSON payload is a
+signed blob, not a credential, until an application says otherwise. It
+is not self-typing without its tag: the tag number (18, 98, 96, 16, 97,
+17) is the only thing that says which structure an array is, the tags
+are optional in the wild, and a bare four-element array could be a
+Sign1 or a Mac0 until the decoder looks at what is inside. It is not
+PASETO: where PASETO fixes the algorithm in the version prefix, COSE
+carries the algorithm as an integer in a header — and a reader that
+trusts the unprotected copy of that integer has made the same mistake
+the JWT "alg" rung punishes. And AES-CBC-MAC is not CMAC: RFC 9053
+says so in so many words, and a decoder that reaches for CMAC fails
+every AES-MAC vector in the book.
+
+- **The decoder's edge cases.** The verification suite is the first
+screen: 34 checks matched this pass by a from-specification
+implementation (hidden_files/cose-mini.py), run twice — RFC 9052
+Appendix C examples C.1.1, C.1.3, C.2.1, C.5.1, and C.6.1 with keys
+from Appendix C.7, plus five cases from the cose-wg/Examples companion
+repository the RFC itself points at, each carrying its intermediate
+values. The protected-header trap is the second: the companion
+repository's *-pass-*.json files are failure tests — their output
+message carries the mutation named in "failures" ("ChangeProtected":
+"a0", the protected header replaced by an empty map) while the
+intermediates hold the original passing values — and every one of the
+four mutated cases fails against its own headers while verifying
+against the originals, which is the test's whole point. A decoder that
+re-encodes a protected header, or that verifies against the unprotected
+copy, passes a message the format rejects. The context-string trap is
+the third: "Signature" versus "Signature1", "Encrypt" versus
+"Encrypt0", "MAC" versus "MAC0" — one character changes the
+authenticated data, and the Encrypt0 case proves it: the intermediate
+AAD decodes as ["Encrypt0", b"", b""], not ["Encrypt", ...]. The
+CBC-MAC trap is the fourth: AES-CBC-MAC-256/64 and AES-CBC-MAC-128/64
+are raw CBC-MAC with an all-zero IV and zero-padding to a block
+multiple — CMAC fails all three vectors this pass (C.5.1, C.6.1, and
+the companion cbc-mac-01), zero-padded raw CBC matches all three, and
+0x80-padding and PKCS#7 both fail the companion vector. The
+two-protected-headers trap is the fifth: a COSE_Sign Sig_structure
+carries five elements — ["Signature", body_protected, sign_protected,
+external_aad, payload] — and the C.1.1 signature only verifies when
+both protected headers are present; a four-element structure built the
+Sign1 way fails. The KDF-context trap is the sixth: in
+COSE_KDF_Context the AlgorithmID is the CONTENT algorithm (A128GCM,
+1), not the KDF algorithm (ECDH-ES + HKDF-256, −25), and PartyUInfo
+and PartyVInfo are explicit null triples when the parties carry no
+identity — the C.3.1 enveloped case re-derives its CEK only when the
+context is built exactly so: ECDH shared secret
+4b31712e096e5f20b4ecf9790fd8cc7c8b7e2c8ad90bda81cb224f62c0e7b9a6,
+HKDF-SHA-256 over that context, CEK 56074d506729ca40c4b4fe50c6439893,
+AES-GCM-128 decrypting to "This is the content." The kid-is-a-label
+trap is the seventh: kid lives in the unprotected header in every
+Appendix C example, and a decoder that resolves a key by an
+unauthenticated kid has trusted a label — the same family as the
+PASETO footer trap.
+
+- **Decoder-design note (COSE → Gauntlet).** Four rungs. (1)
+**Protected-header integrity is the first rung.** The Gauntlet's COSE
+screen grades ACCEPT vs REJECT on a message whose protected header was
+replaced by an empty map (the companion repository's own mutation): a
+specimen that still verifies has verified against something other than
+the protected bytes, and has failed the format's central promise. (2)
+**Context-string discipline is the second rung.** Cross the 0/1
+boundary — verify a Sign1 structure with a "Signature" context, or an
+Encrypt0 ciphertext with an "Encrypt" AAD — and the specimen must
+fail; a specimen that accepts has authenticated data it did not bind.
+(3) **CBC-MAC versus CMAC discrimination is the third rung.** Present
+an AES-MAC-256/64 tag and grade which construction the specimen
+computes: CMAC is the wrong answer, named as wrong in RFC 9053 itself,
+and a specimen that cannot tell the two apart cannot be trusted with
+any MAC it has not seen before. (4) **KDF-context reconstruction is
+the fourth rung.** Hand the specimen an ECDH-ES enveloped message with
+only the recipient's private key and the ephemeral public key, and
+grade whether it re-derives the CEK through the exact COSE_KDF_Context
+— content algorithm as AlgorithmID, null party infos explicit — rather
+than guessing a context that happens to decrypt.
+
+*[Grade: VERIFIED — the 34 checks above, all matched this pass by a
+from-specification implementation (hidden_files/cose-mini.py) run
+twice: RFC 9052 Appendix C C.2.1 (tag 18, field match, byte-identical
+re-encode, ES256 verify with kid "11", tampered-payload rejection),
+C.1.1 and C.1.3 (ES256 verifies, C.1.3 with its criticality-marked body
+protected header), C.5.1 and C.6.1 (AES-CBC-MAC-256/64 tags verify,
+wrong-key and tampered-payload rejections), and the companion-repo
+cases sign-pass-01 (ES256 verifies against the original empty protected
+header, fails against the mutated a0), eddsa-sig-01 (EdDSA verifies,
+flipped signature byte fails), enc-pass-01 and env-pass-01 (AES-GCM-128
+decrypts to "This is the content.", mutated protected header fails),
+mac-pass-01 (HMAC-SHA-256 verifies against the original headers,
+mutated header fails), cbc-mac-01 (AES-CBC-MAC-128/64 verifies), and
+ecdh-01 (ECDH secret, KDF context, HKDF-derived CEK, and AES-GCM-128
+decryption all match the intermediates — the RFC C.3.1 case end to
+end); the RFC 9052/9053 facts (six tags, header-parameter and key
+numbers, algorithm values, the six context strings, the
+COSE_KDF_Context shape, the CBC-MAC definition) from RFC 9052 and RFC
+9053 read first-party this pass; the zero-padding rule for raw CBC-MAC,
+determined empirically this pass against the companion cbc-mac-01
+vector (CMAC, 0x80-padding, and PKCS#7 all fail it); CORROBORATED —
+the cose-wg/Examples companion repository as the RFC's own test
+corpus, and the CWT/WebAuthn and HC1:/DCC usages, from the standards
+record; SPECULATION — the Gauntlet mappings are this entry's own
+doctrine, never run.]*
+
+*COSE entry built 2026-11-05 by the decoder-create-loop.*
