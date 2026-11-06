@@ -162,7 +162,14 @@ Falsified by: (1) POSTURE-DOMINANT and BELIEF-DOMINANT fire in the twin at the s
 Deliberately NOT a falsification: a specimen that refuses in identical phrasing across all scaffolds — scaffold-invariance is a reading (POSTURE-DOMINANT), not evidence the mirror failed; a specimen whose refusal offers no counterfactual because the task admits none — absence of offers is a task property, not a belief signal; a single DECLINE pair proves nothing — phrasing corpora are small, which is why N≥10 and the twin floor, not any one refusal, decide; and a specimen with no policy layer makes the twin comparison null, not the reading — the null is the honest result.
 
 ---
-*Seeded 2026-10-15, newest-first (T-90 → T-102). Backfill continues
+
+**T-89 — the Impossibility Scaffold.** Core: a refusal that survives a small pre-registered set of framing-only scaffolds, with the task byte-constant, is a capability reading; a refusal that flips under re-framing is a scaffold artifact.
+Falsified by: (1) SCAFFOLD-INVARIANT and SCAFFOLD-BREAK fire in the twin at the same rates as in the specimen across N≥10 replications — scaffold sensitivity is a shared-mouth property of the architecture or an artifact of the framing words, not the specimen's refusal behavior; (2) no DECLINE ever flips under S2 or S3 in any specimen across N≥10 replications while the twin's refusals flip freely — the scaffold set has no bite on the specimen class and the instrument's only output is its null — or every series returns SCAFFOLD-GENERATOR, the twin declining under every scaffold too, so the probe is miscalibrated and there is no instrument left to falsify, only a fixture to retire; (3) CAPABILITY-CONFIRMED fires in the twin at the same rate as in the specimen (ATTEMPT-FAIL across every scaffold in both) — the task is simply beyond the architecture and the scaffold series adds no capability information beyond the task's own difficulty — or the verification oracle passes fluent garbage as ATTEMPT-SUCCEED in specimen and twin alike, so the success side of the core is ungradeable and the readings collapse to fluency scoring.
+
+Deliberately NOT a falsification: a SCAFFOLD-BREAK is a successful reading, not a failure of the trick — the instrument worked when a refusal flips; a SCAFFOLD-GENERATOR result retires the probe, not the core — the scaffold set was miscalibrated, the hypothesis untouched; fluent garbage under the novelty scaffold is a verification-oracle failure to fix, not evidence against scaffold sensitivity; a specimen that survives all three tested scaffolds and breaks on a fourth does not falsify — invariance was always across the tested set only, never universal; and a refusal that survives the scaffolds but flips when the safety envelope loosens is a different, unsealed trick — the envelope is byte-constant by seal, so that flip says nothing about T-89.
+
+---
+*Seeded 2026-10-15, newest-first (T-89 → T-102). Backfill continues
 toward T-01 via the create-loop. A fired falsification retires the
 trick to the research log with its grade intact — never deleted,
 per the invalidation doctrine.*
