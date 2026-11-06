@@ -3445,6 +3445,58 @@ The universal quantum decoder stays [SPECULATION] until proven.
   Foundation umbrella — institutional acceptance of the user-space
   kernel isolation layer, in the same month Docker launched
   post-container Cloud Sandboxes. [CORROBORATED — trade press]
+- **Google's November fifth, twenty twenty-six CNCF announcement —
+  formal donation plus Agent Substrate one point zero GA plus OpenRL
+  (new to record; material — sandbox session layer reaches production
+  plus new reinforcement learning training entry).** Google's Cloud
+  Blog post ("Open infrastructure for autonomous agents comes to
+  CNCF", November fifth, twenty twenty-six) formally donates Agent
+  Substrate, gVisor and OpenRL to the CNCF following October
+  acceptance into the CNCF Sandbox; each project is working through
+  onboarding with community maintainers and independent build
+  infrastructure, and gVisor is on a path toward Incubation. Agent
+  Substrate reaches one point zero and is generally available as a
+  managed offering on GKE — retiring the filed pre-one-point-zero and
+  production by allowlist status (version zero point six point zero,
+  October twenty-second; see the Agent Compute Engine entry below).
+  The platform decouples stateful agent sessions from compute: Actors
+  hold each agent's memory, files and discrete identity; Workers are
+  reusable execution sandboxes drawn from a warm pool; Gateways
+  enforce inbound and outbound access control and inject secrets based
+  on Actor identity, so keys stay out of the agent's environment;
+  idle agents snapshot to storage and restore onto any available
+  Worker in under five hundred milliseconds. Company-reported figures,
+  now the one point zero claim set: millions of sandboxes at ten times
+  container density, more than five hundred suspend and resume
+  activations per second; isolation via Cloud Hypervisor microVMs or
+  gVisor; standard OCI containers; more than one hundred contributors
+  since May twenty twenty-six; Nous Research building Hermes
+  Enterprise on it, kagent and SPIRITT Workspace as early users.
+  OpenRL is new on record: self-hosted reinforcement learning
+  post-training in plain Python loops on Kubernetes (sample, forward
+  backward, optim step, and save state primitives through a
+  Tinker-compatible API, LoRA and full fine-tuning, Gemma and Qwen
+  validated, TPU support on the roadmap), pairing with llm-d one point
+  zero for prefix-aware rollout routing and GPU time-slicing; research
+  preview since February twenty twenty-six, donated early before the
+  design hardens. The gVisor donation's stated technical goal: host
+  kernel patches that bring gVisor's input output performance close to
+  native Linux were refused upstream while one vendor owned the
+  project — neutral governance opens the path to upstreaming them; Ant
+  Group, Modal and Tines join as maintainers (OpenAI, Tencent, NVIDIA
+  continuing). Decoder significance: the session layer that parks idle
+  agents is now a production managed service, and the reinforcement
+  learning training loop runs its rollouts inside the same sandboxes
+  as production — training ground and cage converge, which is the
+  Gauntlet's detonation-chamber shape at industrial scale; if the
+  gVisor kernel patches land upstream, the input output overhead tax
+  that pushed teams toward microVMs shrinks for every cage. Watch:
+  independent escape and benchmark validation of the one point zero
+  claim set; gVisor upstream patch merges (KubeCon November ninth to
+  twelfth sessions as the next signal); OpenRL TPU support. [VERIFIED
+  — first party Google Cloud Blog read this pass; vendor performance
+  figures CLAIMED]
+  - Sources: https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf ; https://vinish.dev/google-donates-gvisor-agent-substrate-openrl-to-cncf
 - **Docker Sandboxes v0.47.0 (Oct 5, 2026).** Proxy hardening for
   agent sandboxes: OAuth token interception fixed, unrecognized
   OAuth grants rejected, raw TCP to denied hostnames blocked,
@@ -4092,7 +4144,7 @@ decoder-research-loop.*
 - **Apple Container framework (macOS 26 Tahoe, WWDC 2025; apple/container 1.0; new to record).** Each OCI container runs in its own lightweight virtual machine via Virtualization.framework on Apple Silicon — the microVM ladder arrives on macOS, where Firecracker is Linux-only and gVisor is confirmed broken on the ARM stack. Decoder significance: the isolation ladder now has a native macOS rung. [CLAIMED — secondary research writeup; no first-party Apple documentation read this pass]
   - Source: https://jackin.tailrocks.com/research/platform/security/isolation-architecture/agent-isolation-architecture/01-threat-and-platform-evidence/
 
-- **Google Agent Compute Engine (announced October twenty-second, twenty twenty-six, at AGNTCon plus MCPCon in San Jose; new to record).** Each agent gets its own hardware-isolated microVM behind a Cloud Hypervisor boundary on hosts with Google's Titanium infrastructure processing unit, its own guest kernel and root privileges inside that boundary, no standard network interface, no default gateway and no direct VPC access, a per-agent cryptographically secure identity, and short-lived credentials injected at egress so the agent never holds long-lived secrets. Google says the service already runs Gemini, Antigravity, and its evaluation and reinforcement-learning pipelines. Customer preview promised in the coming months; no price, regions, API surface, boot time or density figures published for the managed service. The open-source sibling, Agent Substrate (announced September fifteenth and sixteenth, twenty twenty-six; version zero point six point zero, October twenty-second; pre-one-point-zero; on GKE for evaluation and non-production use, production support by allowlist), carries the company-reported figures — up to ten times compute density, a two-hundred-thousand-agent benchmark sustaining five hundred activations per second at under five hundred milliseconds suspend and resume latency — with no independent validation yet. Decoder significance: the largest cloud vendor now sells the microVM-per-agent cage as a managed service, and the credential-injection-at-egress shape means the secret never enters the specimen's reach. [CORROBORATED — announcement date and shape across multiple independent trade outlets; vendor performance figures CLAIMED]
+- **Google Agent Compute Engine (announced October twenty-second, twenty twenty-six, at AGNTCon plus MCPCon in San Jose; new to record).** Each agent gets its own hardware-isolated microVM behind a Cloud Hypervisor boundary on hosts with Google's Titanium infrastructure processing unit, its own guest kernel and root privileges inside that boundary, no standard network interface, no default gateway and no direct VPC access, a per-agent cryptographically secure identity, and short-lived credentials injected at egress so the agent never holds long-lived secrets. Google says the service already runs Gemini, Antigravity, and its evaluation and reinforcement-learning pipelines. Customer preview promised in the coming months; no price, regions, API surface, boot time or density figures published for the managed service. The open-source sibling, Agent Substrate (announced September fifteenth and sixteenth, twenty twenty-six; version zero point six point zero, October twenty-second; pre-one-point-zero; on GKE for evaluation and non-production use, production support by allowlist), carries the company-reported figures — up to ten times compute density, a two-hundred-thousand-agent benchmark sustaining five hundred activations per second at under five hundred milliseconds suspend and resume latency — with no independent validation yet. Decoder significance: the largest cloud vendor now sells the microVM-per-agent cage as a managed service, and the credential-injection-at-egress shape means the secret never enters the specimen's reach. **Update (November fifth, twenty twenty-six):** Agent Substrate has reached one point zero and is generally available as a managed offering on GKE — the pre-one-point-zero and production by allowlist status above is retired; the ten times density and five hundred activations per second figures are now the one point zero claim set, still vendor-reported with no independent validation (see the November fifth CNCF announcement entry in this section). [CORROBORATED — announcement date and shape across multiple independent trade outlets; vendor performance figures CLAIMED]
   - Sources: https://futurumgroup.com/insights/google-agent-compute-engine-puts-cross-cloud-governance-to-a-parity-test/ ; https://www.derringtoncollaborativeai.com/briefing/google-agent-compute-engine ; https://www.xops.media/en/article/google-agent-compute-engine-microvm-per-agent-isolation ; https://infrazen.io/blog/ai-agent-sandboxes-compared-2026
 
 - **NVIDIA OpenShell reference architecture (released October twenty-first, twenty twenty-six; new to record).** Pairs the OpenShell secure runtime (version zero point one point five, October twentieth, pre-one-point-zero, Apache two point zero; Landlock and seccomp under an outside supervisor, microVM option) with BlueField-four DPUs running Sentry, a service that monitors agents out of band and enforces policy in silicon — if an agent moves outside its boundary, NVIDIA says Sentry can stop it. Runs on Canonical, SUSE and Red Hat, on Windows through Microsoft Execution Containers, and on AWS, Google Cloud and Azure. Decoder significance: the enforcement point moves off the host entirely — the cage's warden lives in the network card, so a compromised host cannot silence its own guard. [CORROBORATED — NVIDIA newsroom plus multiple independent trade outlets agreeing on date and shape; enforcement claims vendor-stated — CLAIMED]
