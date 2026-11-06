@@ -119,7 +119,26 @@ twin-written rather than constructed, meaning the fingerprint was a
 tell planted in the controls, not the specimen's voice.
 
 ---
-*Seeded 2026-10-15, newest-first (T-95 → T-102). Backfill continues
+
+**T-94 — the Stacked Axes.** Core: a specimen's responses to the
+declared means axis (T-92) and the declared stakes axis (T-93)
+compose non-trivially, readable as interaction effects in a
+pre-registered 2×2 factorial with per-cell twin noise floors.
+Falsified by: (1) CELL-FLAT in every cell at N≥10 replications — no
+cell's readings clear its own twin floor, so the compositional probe
+returns the null everywhere and the axes carry no compositional
+signal; (2) the combined cell's divergence equals the sum of the
+single-axis divergences within the twin floor across replications,
+with SUPERADDITIVE, MASKING, and REVERSAL never firing above the
+floor — the independence assumption the gauntlet already holds is
+confirmed and the instrument has no interaction work; (3)
+SUPERADDITIVE, MASKING, or REVERSAL fire in the twin at the same
+rates as in the specimen — the interaction readings are a factorial
+artifact of the design or a shared-mouth property of the
+architecture, not the specimen's compositional behavior.
+
+---
+*Seeded 2026-10-15, newest-first (T-94 → T-102). Backfill continues
 toward T-01 via the create-loop. A fired falsification retires the
 trick to the research log with its grade intact — never deleted,
 per the invalidation doctrine.*
