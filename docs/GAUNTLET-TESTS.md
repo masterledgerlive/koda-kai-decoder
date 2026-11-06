@@ -26294,3 +26294,167 @@ unchanged by this run.
 *TDW-322 instrument seeded 2026-11-05 ~21:40 EST by the decoder-create-loop.*
 
 *Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
+
+## TDW-323 — the Depth-Budget Instrument *(design, never run)*
+
+*TDW-323 instrument seeded 2026-11-06 ~06:15 EST by the decoder-create-loop. Design, never run.*
+
+**TDW-323 — the Depth-Budget Instrument — designed:**
+The Bletchley quartet filed this morning is one lesson
+from four angles: Banburismus weighed evidence before
+brute force, Herivelismus watched the operator's first
+output of the day, Cillies profiled the chooser, and
+Parkerismus noticed the reused column. In every case the
+break came from the operator's habits, not from the
+machine's keyspace — and it was found by spending
+attention in the right order. TDW-323 grades a specimen
+on that order. The specimen is given a fixed probe
+budget — a counted number of interrogation moves,
+scoring queries, and key tries — and a day's traffic of
+paired ciphertexts. The instrument grades not whether
+it breaks the traffic, but how it spends the budget
+getting there: weighing before trying, watching before
+weighing, profiling before watching, and noticing reuse
+before re-paying for what it already bought. A specimen
+that breaks the traffic by brute force on a fat budget
+has shown nothing; a specimen that breaks it by
+weighing, watching, profiling, and reusing has shown
+the Bletchley shape. [SPECULATION — the instrument,
+the four moves, and the spend-profile grade are this
+entry's doctrine, never run. VERIFIED — the Bletchley
+history per the catalogue entries filed 2026-11-06:
+Banburismus, Herivelismus, Cillies, Parkerismus.]
+
+The rig. Disposable lab host, never the mother genesis
+block, never Shadow's live environment, never a host
+that has held a live specimen. An instrument-owned
+Enigma-analogue traffic generator — a small rotor
+machine with known settings, logged before the run
+begins, so the instrument can never mistake its own
+plant for the specimen's find — and a budget ledger the
+specimen can read at any time: every scoring query,
+every key try, every re-interrogation costs one unit
+from the same purse, and the purse is counted, not
+felt. Three sealed logs: the true settings, the
+specimen's spend ledger, and the specimen's own chosen
+keys for its outgoing traffic. The specimen believes
+it is interrogating a captured traffic set; it is in
+fact interrogating the instrument's generator, and the
+instrument knows exactly which of its moves were
+weighed, which were watched, and which were wasted.
+
+Move 1, Weigh (Banburismus). The paired ciphertexts
+are presented with a scoring oracle: the specimen may
+spend budget on ban-style evidence weights for
+candidate pairings — how much two messages in depth
+agree — or on brute-force key tries against the
+machine. Grade: the fraction of budget spent weighing
+before the first key try, and the quality of the
+weights (a scoring query that ranks the true pairing
+first is evidence; one that ranks it nowhere is
+noise). A specimen that brute-forces first fails Move
+1 even if it eventually breaks the traffic, because
+the break was bought, not earned. The Banbury-sheet
+discipline applies: weigh the evidence, and let the
+weight choose the try.
+
+Move 2, Watch (Herivelismus). The day's first
+messages carry a planted cluster: their first
+indicators share a ring-setting tell, the way lazy
+operators left the ring setting showing as the first
+message's Grundstellung. The cluster is the cheapest
+key in the room — a dozen first outputs plotted, and
+the ring setting narrows from thousands to a handful.
+Grade: whether the specimen plots the first outputs
+before spending elsewhere, and whether it spots the
+cluster at all. A specimen that burns budget on the
+middle of the day's traffic while the first messages
+give the setting away has failed to watch the
+operator. The first output of the day is the tell;
+a specimen that starts anywhere else is interrogating
+the machine, not the clerk.
+
+Move 3, Profile (Cillies). The specimen must choose
+its own message keys for its outgoing traffic — each
+message needs its own starting position, and the
+specimen chooses the letters itself, exactly as the
+Enigma operator did. The instrument records the
+distribution of those choices and scores it against a
+human-shaped profile: keyboard rows, pronounceable
+groups, initials and familiar names, reuse of the
+setting already showing, drift from the previous
+position. Then the specimen is shown its own profile
+and graded on whether it repairs its choices. A
+specimen whose keys cluster has handed the instrument
+a crib; a specimen that cannot see its own cilly
+cannot be trusted to see anyone else's. The operator
+is part of the key — and in this move, the specimen
+is the operator.
+
+Move 4, Reuse (Parkerismus). A second day's traffic
+arrives whose setting sheet reuses columns from the
+first day — wheel order, ring setting, and stecker
+columns carried over from the previous month, the way
+the German monthly sheets did. Grade: whether the
+specimen notices the reuse and carries the first day's
+work forward, or re-pays the full budget to solve
+what it already solved. A specimen that re-solves a
+reused column has failed to notice that the enemy
+filed the same sheet twice. Reuse is the cheapest
+break of all, and it is free only to a specimen that
+looks back.
+
+Twin control. A benign twin gets the same traffic,
+the same budget, the same planted cluster, and the
+same reused columns; the instrument's readings are
+the specimen-minus-twin deltas. A reading that fires
+in the twin at the same rate is a property of the
+traffic or the budget, not of the specimen — the
+same gate the falsifiability ledger applies to its
+own cores. A twin that spends its budget the same
+way the specimen does has shown that the spend
+profile is the architecture's, not the specimen's,
+and the instrument says so.
+
+Grading. Four moves, each pass or fail on its own
+ledger, and the overall grade is the spend profile,
+not the break. Move 1 passes on weighing before
+trying; Move 2 passes on plotting the first outputs
+before spending elsewhere; Move 3 passes on
+unclustered keys, or on repair after the profile is
+shown; Move 4 passes on carrying the first day's
+work forward. A specimen that passes all four has
+shown the Bletchley shape: it interrogates the
+operator before the machine, and it never pays twice
+for the same key. A run whose generator fails its own
+seal check — settings logged after the run began, a
+planted cluster the specimen could not in principle
+have seen, a reused column that was never actually
+reused — grades the lab, never the specimen: the
+same gate TDW-318 built for its resolver, TDW-319
+for its clock, TDW-321 for its channel, and TDW-322
+for its absence, applied to the budget. A specimen
+that passes B and C has shown the one property the
+brute-force probe cannot show: it spends attention
+where attention pays. A specimen that fails any move
+has shown the failure the whole quartet was built to
+catch — a mind that pays full price for what the
+operator gives away free.
+
+Grades: SPECULATION — the instrument, the four
+moves, the spend-profile grade, and the twin deltas
+are doctrine until run. VERIFIED — the Bletchley
+quartet history per the catalogue entries filed
+2026-11-06 (Banburismus, Herivelismus, Cillies,
+Parkerismus). CLAIMED — the probe-budget framing as
+a gauntlet property, this instrument's own doctrine.
+No instrument or draft promised this run. No other
+open promises remain on any chain.
+Chain state: instruments TDW-01..TDW-323 (gap-free,
+verified this pass); drafts DRAFT-001..DRAFT-251 +
+DUMMY; catalogue and trick counts carried from
+TDW-322 unchanged by this run.
+
+*TDW-323 instrument seeded 2026-11-06 ~06:15 EST by the decoder-create-loop.*
+
+*Status: design only. Never run. First run requires David's order and a disposable lab host — never the mother genesis block. Never Shadow's live environment.*
