@@ -1158,7 +1158,8 @@ formats. [VERIFIED]
   release notes for 4.6.1 through 4.6.7 all carry the same line — no new
   protocols, maintenance only. 4.6.9 updated ~30 existing dissectors and
   fixed 19 vulnerabilities. The mainstream analyzer is hardening, not
-  expanding; new protocols land open first. [VERIFIED]
+  expanding; new protocols land open first. [VERIFIED] Four point six point three fixed four more dissector crashes, and four point six point four fixed three, with C V E numbers for the U S B H I D memory exhaustion, the N T S K E crash, and the R F four C E crash.
+- **STAMP residual bit error rate draft (Nov 2026)**: an Internet Engineering Task Force draft extends Stamp, the Simple Two-Way Active Measurement Protocol, to measure residual bit error rate, the errors that survive correction. A Wireshark dissector already exists for it, and Cisco ships an implementation in I O S X R twenty six point one point one for the eight thousand series. The measurement protocol names its own residual error, the same posture the gauntlet grades by. [CORROBORATED]
 - **MeshCore Companion Radio codec (Oct 2026)**: byte-exact pure codec of the
   MeshCore companion-radio protocol (LoRa off-grid mesh) — frames serial/TCP
   payloads, encodes app-to-radio commands, decodes responses and pushes, and
