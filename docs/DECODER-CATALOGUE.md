@@ -1160,6 +1160,25 @@ formats. [VERIFIED]
   fixed 19 vulnerabilities. The mainstream analyzer is hardening, not
   expanding; new protocols land open first. [VERIFIED] Four point six point three fixed four more dissector crashes, and four point six point four fixed three, with C V E numbers for the U S B H I D memory exhaustion, the N T S K E crash, and the R F four C E crash.
 - **STAMP residual bit error rate draft (Nov 2026)**: an Internet Engineering Task Force draft extends Stamp, the Simple Two-Way Active Measurement Protocol, to measure residual bit error rate, the errors that survive correction. A Wireshark dissector already exists for it, and Cisco ships an implementation in I O S X R twenty six point one point one for the eight thousand series. The measurement protocol names its own residual error, the same posture the gauntlet grades by. [CORROBORATED]
+- **GOAT-net, open-source tactical data fabric (Nov 2026)**: the U.S. Army
+  Europe and Africa team released GOAT-net open source as USAREUR-AF/goatcore
+  (repository created November third, twenty twenty-six, Apache two point oh):
+  an identity-based mesh (NetBird-managed WireGuard tunnels, relays where
+  direct paths fail) plus a brokerless Eclipse Zenoh publish-and-subscribe
+  data plane, with identity on every layer (Ory for people and services,
+  SPIFFE for workloads, an offline certificate authority for machines) and
+  site state in replicated PostgreSQL. A complete network stands up on one
+  laptop in about ten minutes. The alert reports it already runs as a NATO
+  Eastern Flank data backbone, moving from test bench to production in five
+  months, carrying live sensor feeds, with more than twenty sensors and
+  effectors talking live to seven command-and-control systems at a recent
+  accelerator event. Decoder significance: a government-published, openly
+  readable protocol stack whose traffic is double-wrapped and identity-bound
+  at every layer — the decode surface is the Zenoh stream inside a WireGuard
+  mesh, and the open repository means dissectors can be built against the
+  real thing. The quantum-resistant key exchange claim for the inner session
+  comes from the alert alone; the repository readme as read does not name it.
+  [CORROBORATED]
 - **MeshCore Companion Radio codec (Oct 2026)**: byte-exact pure codec of the
   MeshCore companion-radio protocol (LoRa off-grid mesh) — frames serial/TCP
   payloads, encodes app-to-radio commands, decodes responses and pushes, and
