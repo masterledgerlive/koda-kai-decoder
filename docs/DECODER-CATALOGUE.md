@@ -2088,6 +2088,15 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - Source: https://www.arblens.com/blog/weekly-020.html
   - [CLAIMED — hedge-fund paper via secondary summary; paper not read first-party this pass]
 
+- **The 2026 midterms, scored in public before a vote was counted (November 2026).** Prediction-market favorites won four hundred seventy-nine of the first four hundred eighty-seven called races. Under a scoring rule fixed in August — the market price at eleven in the evening Eastern on November second, the side above fifty cents as the favorite, the race list fixed in advance — the favorite won thirty-one of thirty-two called Senate races and all fifty-three called House districts, and won all nine races where the market and the expert ratings differed by more than ten points. On California's propositions the markets were thirteen of fourteen by late October, the single miss a proposition leading by less than one point. Proposition forty is the cleanest markets-versus-polls separation on the record: the polls showed failure likely only days before the vote, while the market had priced failure below fifty percent since the market opened the previous December. Nine AI agents also predicted the midterms, the best calling four hundred nineteen of four hundred twenty-three races — but they had internet access, including the markets themselves, so they were aggregating other calls as much as forecasting. The decoder files the post-mortem as the largest pre-registered, receipt-scored market test on the record, and the AI caveat as the receipts discipline applied to forecasters.
+  - Source: https://predictionmarketspicks.com/articles/how-accurate-were-prediction-markets-2026-midterms
+  - Source: https://medium.com/@gaetanlion/the-prediction-markets-did-very-well-predicting-california-propositions-outcomes-516c00a3d5cf
+  - [CORROBORATED — pre-registered scorecard + multiple outlets]
+
+- **The human forecasters are still ahead of the bots, barely (Fall 2026).** Metaculus opened its Fall 2026 FutureEval bot tournament — fifty thousand dollars, three to four hundred questions — and published its Spring 2026 analyses. Human Pros only narrowly retain their lead over forecasting bots, without statistical significance, and nine of ten individual Pros beat every individual bot. The bot makers' own advice: simplicity beats complexity, and research quality is the bottleneck. The decoder files it as the honest negative the receipts discipline wants on the record — the human-versus-machine gap is closing but not closed, and research quality, not model size, is the bottleneck.
+  - Source: https://www.metaculus.com/notebooks/45615/announcement-of-futureeval-fall-2026/
+  - [CORROBORATED — Metaculus's own announcement and published analyses]
+
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
