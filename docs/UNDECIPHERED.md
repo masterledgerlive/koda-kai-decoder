@@ -309,6 +309,26 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   reading. Filed as the negative control to Sharman's claim above: token
   volume is not evidence, and a grammar that parses is not a language that
   reads. [CORROBORATED — first-party project blog with a token audit]
+  State-of-the-evidence paper, Nov 2026 (logged Nov 7, 2026): Richard
+  Vigslist, "The Paperwork of Meluhha: What the Indus Script Was For" (Zenodo
+  record 24018946, v1) — from a merged working set of 5,474 distinct
+  inscription units, argues the script was a paperwork system centred on
+  identification, not accounting: its one fully measurable construction pairs
+  a free heading with a quantity satellite (a vessel-measure sign beside a
+  numeral from {1, 2, 3, 4}), filled in at the moment of use on objects made
+  to certify a consignment and then be broken or kept as its record. Harappa
+  concentrates the practice to a degree that prices as a checkpoint; Lothal
+  ran the seal legends and none of the documents. Signary audited pair by
+  pair: an estimated 390 to 420 graphemes behind roughly 710 attested
+  code-level forms; the cup is the one sign whose identity photography can
+  settle. Language stated as a theory only: an elder language of the Indus
+  people themselves, donating trade vocabulary into the languages that
+  followed rather than descending from any of them. Claims NO decipherment —
+  no sign is given a sound. Filed beside Sharman as the second 2026
+  functional-not-phonetic Indus result, and the more conservative of the two:
+  where Sharman parses, Vigslist describes the paperwork. [CLAIMED —
+  single-author, self-published Zenodo preprint, no peer review; publication
+  facts VERIFIED by first-party Zenodo read]
 - **Prize watch (Oct 14, 2026).** Tamil Nadu's $1,000,000 prize still open: no
   announced winner, no published adjudication rules. Side effect noted in
   reporting: Rajesh PN Rao (University of Washington) says he receives weekly
