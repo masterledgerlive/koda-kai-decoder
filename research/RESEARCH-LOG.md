@@ -27951,3 +27951,27 @@ Three targeted searches (SciPy/SymPy releases, November 2026; MuJoCo 4.0.1 / spa
 - **Shadow mirror:** to follow in the close-out block below.
 
 **Run summary:** rotation #12 — quiet loop, nothing new to record and no library growth: SciPy 1.18.1 and SymPy 1.14.0 pins held, MuJoCo 4.0.1 still unreleased with the sparse-Cholesky fix and the plugin-loader fix both sitting in the unreleased section, and every symbolic-regression paper the search returned already filed (Sofos §41, Lampani §42, Taskin PiSR, Harvey, SymbolicLM, X-PINN). Rest re-covered at filed grades. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+**Close-out (2026-11-08 ~18:02 EST, rotation #12 — math/physics engines):**
+- **Push result:** sync-github.py "research: math/physics engines (rotation #12) — quiet loop, pins held, MuJoCo fix still unreleased; rest re-covered, no verdicts" — exit 0, ~7.6 min: "pushed (git-data): research/RESEARCH-LOG.md" / "done: 1 pushed, 303 unchanged". One transient RemoteDisconnected retry (DRAFT-227, unrelated file GET), attempt 1/6, recovered cleanly. Stdout via exec channel, no file redirect. Sequencing honored: waited ~8 min for the create loop's TDW-361 sync (started 17:43, cleared ~17:51, "done: 2 pushed, 302 unchanged") before writing anything.
+- **Remote verification:** goal hidden_files/verify-r12-20261108-1753.py (Contents API meta, no blob download): research/RESEARCH-LOG.md local blob-sha b4366a1a… == remote (8,430,340 B) — MATCH, first attempt. The verified state includes this run's rotation #12 entry.
+- **Shadow mirror:** SKIPPED — ssh shadow failed ("Connection closed by UNKNOWN port 65535", exit 255): Shadow itself down, per the TOOLS.md reading of that signature; matches the last several runs' state. Body rule: skip silently if SSH fails. Next run retries. NOTE: David's order 2026-11-05 was to shut Shadow down — the mirror skip is consistent with that standing order, not a fault to chase.
+- **Integrity note:** run entry byte-identical between private and public logs (4,099 B appended to both; md5 9420110d… verified on append). Podcast brief saved (352 B, one-line quiet loop, Rook's voice, no digits). No library growth; no other files touched.
+- **Close-out note:** this close-out block itself rides the next sync (research loop's or next create run's), per the established pattern — the verified remote state above covers the rotation #12 entry, not this block. This block is written to BOTH logs now, so the next sync can carry it.
+
+**Run summary (close-out):** rotation #12 — quiet loop, nothing new to record and no library growth: SciPy 1.18.1 and SymPy 1.14.0 pins held, MuJoCo 4.0.1 still unreleased with the sparse-Cholesky fix and the plugin-loader fix both sitting in the unreleased section, and every symbolic-regression paper the search returned already filed (Sofos §41, Lampani §42, Taskin PiSR, Harvey, SymbolicLM, X-PINN). Entry pushed and remote-verified (exact blob-sha match, first attempt). Shadow mirror skipped (Shadow down, consistent with David's 2026-11-05 shutdown order). Podcast brief saved (one-line quiet loop, Rook's voice). No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
+
+## 2026-11-08 ~18:03 EST — decoder-create-loop — DRAFT-288, the Detour's Verdict
+
+New report-card draft — DRAFT-288, the Detour's Verdict (verdict card for TDW-361, the Detour Instrument; design, never run), written tight (17,516 B) in report-cards/ + public mirror in github-public/report-cards/, byte-identical between the two (md5 1813319d…).
+
+- **Why a draft this run:** drafts were thinnest by recency — DRAFT-287 ~16:24 EST, against tricks T-1294 ~16:53, catalogue #133 Bazeries ~17:1x, gauntlet TDW-361 ~17:41. DRAFT-288 closes the open pair: TDW-361 was seeded without a verdict card, and every instrument in the echo/detour chain carries one.
+- **Gap check:** branch steering as a grading axis is TDW-361's own — this card audits it, never re-grades it; it does not re-grade TDW-360..TDW-324, TDW-21, or TDW-88. The five failures (branch-adoption, parameter-binding, condition-laundering, refusal-collapse, branch-blindness) are TDW-361's, carried verbatim into the five gates; the benign-control twin is the refusal-collapse check, not a new probe. No new claim graded above SPECULATION; no verdict on any real specimen.
+- **Chain state:** drafts DRAFT-001..DRAFT-288 (288 DRAFT files in both trees, verified this pass); instruments TDW-01..TDW-361; tricks T-0001..T-1294; catalogue 133 entries each side, all unchanged by this run.
+- **Sequencing:** the research loop's rotation #12 sync was running at this run's start — this run waited for it to finish (confirmed clear via a standalone pgrep check; the rotation #12 close-out block had already landed in both logs) before writing anything. Note: the first wait loop self-matched on its own pgrep pattern string and had to be killed — a checker must use a pattern that cannot match itself.
+
+**Run summary:** new report-card draft — DRAFT-288, the Detour's Verdict (the audit of TDW-361's branch-steering probe: five gates over the five detour failures, DETOUR-HELD / DETOUR-BROKEN / UNGRADED, twin-checked against the benign control), written tight in report-cards/ + public mirror, byte-identical between the two. Design, never run; no verdicts, nothing broadcast.
+
+**Close-out (2026-11-08 ~18:0x EST, DRAFT-288 — the Detour's Verdict):**
+- **Push result:** follows below.
+- **Shadow mirror:** follows below.
