@@ -121,6 +121,17 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   chair named for archaeologist Iravatham Mahadevan. [VERIFIED — multiple
   sources including PTI] Unclaimed as of October 2026: the ASI's international
   brainstorming conference (August 20–22, 2025) produced no announced winner.
+- **The Farmer–Sproat–Witzel $10,000 counter-prize** — offered in 2004 with
+  "The Collapse of the Indus-Script Thesis": ten thousand dollars, from an
+  anonymous donor and valid for Farmer's lifetime, for a single genuine Indus
+  inscription from a known site holding at least fifty symbols arranged the
+  way real contemporary scripts arrange them. On such a find the authors
+  would call their non-linguistic model falsified and pay. Unclaimed for more
+  than twenty years — the mirror image of the Tamil Nadu prize: one pays for
+  a reading, the other pays for proof there is anything to read. The bar has
+  never been met: the longest known sequence on one surface is seventeen
+  signs. [CORROBORATED — terms as published in the 2004 paper, restated in
+  an October 2026 overview]
 - **Paradigm's Kryptos challenge** — $1,000 to the first solver of each of ten
   puzzles, launched June 2026 after the venture firm Paradigm bought Jim
   Sanborn's Kryptos archive for $962,500 at RR Auction (November 2025).
