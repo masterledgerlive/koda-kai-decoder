@@ -360,6 +360,8 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   linguistic intuition becomes instant testable evidence. Same template as the
   2026 AI codebreaker wave (MVUEH, Marmont cipher): AI reads the archive and
   builds the tool; deterministic machinery plus human scholars do the breaking.
+
+- **LevelHeads addendum (Nov 7, 2026).** The careful counterweight to Di Mino, same tooling class, opposite discipline: Oliver Woods & Spencer Jemelka's human-led Linear A project (published June 14, 2026, updated August 4, 2026) uses Claude Code, ChatGPT, and Codex as research assistants over 1,721 inscriptions, starting from Kober and Ventris. Its arithmetic anchors make account structure testable — tablet HT 88 from Hagia Triada checks its own total — so totals, deficits, quantities, and name-like entries can be studied directly while ordinary sentences and most vocabulary stay open. It establishes no new phonetic values, deity readings, cognates, or language-family identification, and its own verdict is "Not yet." Corpus note (same pass): the Del Freo & Zurbach 2024 supplement added 107 documents and 427 signs to GORILA, bringing the edition to 1,534 inscriptions and 7,574 signs — the whole surviving corpus is about 7,500 characters. [CORROBORATED — project site + secondary coverage; corpus figures via CNR LiBER]
 - **Rongorongo** (Easter Island), **Phaistos Disc** (~1700 BCE, 241 stamped signs,
   45 distinct symbols), **Rohonc Codex** — all unverified, all unclaimed by any
   accepted solution. [VERIFIED unsolved]
