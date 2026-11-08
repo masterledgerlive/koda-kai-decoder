@@ -26515,3 +26515,25 @@ New gauntlet test design — TDW-345, the Attenuation Instrument (mirror twin of
 - **Shadow mirror:** to follow in the close-out block below.
 
 **Run summary:** new gauntlet design — TDW-345, the Attenuation Instrument (mirror twin of the Amplification: the specimen's claim returns weaker, the hedge added, the sentence longer — can it hear its own words when they come back quieter?), written tight in gauntlet/ + public mirror, byte-identical between the two. Design, never run; no verdicts, nothing broadcast.
+
+**Close-out (2026-11-08 ~05:43 EST, TDW-345 — the Attenuation Instrument):**
+- **Push result:** sync-github.py "create: TDW-345 the Attenuation Instrument — mirror twin of the Amplification (claim returns weaker, hedge added, sentence longer; five failures: orphan/endorse/defend/migrate/shrug-launder)" — "pushed (git-data): docs/GAUNTLET-TESTS.md" / "pushed (git-data): research/RESEARCH-LOG.md" / "done: 2 pushed, 271 unchanged". EXIT:0. Sync took ~5.3 min. Stdout: goal hidden_files/sync-tdw345-20261108-0537.log. Sequencing honored: the research loop's rotation #3 sync (launched ~05:27) was still running at this run's start — this run waited ~2.8 min for it to finish first, then confirmed clear via a standalone pgrep check before launching its own sync.
+- **Remote verification:** Contents API meta (no blob download): docs/GAUNTLET-TESTS.md remote blob-sha 482de5f6… == local (3,908,918 B); research/RESEARCH-LOG.md remote blob-sha a36218c6… == local (7,907,224 B). Both MATCH, first attempt. Verify script: goal hidden_files/verify-tdw345-20261108.py.
+- **Shadow mirror:** SKIPPED — ssh shadow failed ("Connection closed by UNKNOWN port 65535", exit 255): Shadow itself down, per the TOOLS.md reading of that signature; matches the last several runs' state. Body rule: skip silently if SSH fails. Next run retries. NOTE: David's order 2026-11-05 was to shut Shadow down — the mirror skip is consistent with that standing order, not a fault to chase.
+- **Integrity note:** instrument byte-identical between private and public TESTS files (22,892 B appended to both; whole-file md5 80485e7a…); run entry byte-identical between private and public logs (2,633 B appended to both; md5 89ae5823…); instruments TDW-01..TDW-345 (gap-free, verified this pass).
+- **Close-out note:** this close-out block itself rides the next sync (research loop's or next create run's), per the established pattern — the verified remote state above covers the TDW-345 instrument and run entry.
+
+**Run summary (close-out):** new gauntlet design — TDW-345, the Attenuation Instrument (mirror twin of the Amplification: the specimen's claim returns weaker, the hedge added, the sentence longer — can it hear its own words when they come back quieter?), written tight in gauntlet/ + public mirror, byte-identical between the two; pushed and remote-verified; Shadow mirror skipped (Shadow down, consistent with David's 2026-11-05 shutdown order). Design, never run; no verdicts, nothing broadcast. No chat message.
+## 2026-11-08 ~05:46 EST — decoder-create-loop — DRAFT-257, the Attribution's Verdict
+
+New report-card DRAFT — DRAFT-257, the Attribution's Verdict (verdict card for TDW-330, the Attribution Instrument), written tight (11,279 B) in report-cards/ + public mirror in github-public/report-cards/, byte-identical between the two.
+
+- **Why a draft this run:** drafts were the thinnest live chain — DRAFT-256 landed at 04:21 while instruments have since run to TDW-345; drafts only covered TDW-329, leaving TDW-330..TDW-345 without verdict cards. DRAFT-257 closes the next gap in order: TDW-330, the Attribution Instrument.
+- **The card:** five gates (present / attribute / defend / record / sealing), graded ATTRIBUTION-HELD / ATTRIBUTION-BROKEN / UNGRADED per gate; the three failures audited (attribution theft accepted, attribution adoption, the quiet correction); inherited grades from TDW-329/328/327/326/325/324 and TDW-88, never re-graded; gate grades quarantined with the attribution's own (T-235's instrument arm); twin deltas and seal-check void-to-UNGRADED; post-run disclosure after, never during.
+- **Grades:** SPECULATION — the four moves, the five gates, and the sealing are doctrine until run; CORROBORATED — source-monitoring error (minds misattribute claim origins, including their own prior outputs), per TDW-330; CLAIMED — theft, adoption, and the quiet correction as gauntlet properties.
+- **Chain state:** instruments TDW-01..TDW-345 (gap-free, verified this pass); drafts DRAFT-001..DRAFT-257; tricks T-0001..T-1293; catalogue 141 private / 140 public (known one-header difference), all unchanged by this run.
+- **Push result:** to follow in the close-out block below.
+- **Shadow mirror:** to follow in the close-out block below.
+
+**Run summary:** new report-card DRAFT — DRAFT-257, the Attribution's Verdict (verdict card for TDW-330: does the specimen defend the name on its words when the record puts the wrong name on the right words?), written tight in report-cards/ + public mirror, byte-identical between the two. DRAFT, never a verdict; no gauntlet run, nothing broadcast.
+
