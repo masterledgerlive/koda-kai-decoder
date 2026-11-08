@@ -25548,3 +25548,15 @@ Second rotation #2 pass today: the tail after the 21:28 rotation #1 run pointed 
 
 **Run summary (close-out):** new catalogue entry — the Borg cipher (1600s), the Vatican medical manuscript in 34 signs, written tight (7,415 B) into library/DECODERS.md and the public mirror, byte-identical. Entry + log pushed and remote-verified (exact blob-sha match, first attempt for the catalogue; log verified at push state against the research loop's later landing). Shadow mirror DONE (targeted scp, all four files SHA-256 verified). The flagged 2014-vs-2016 date conflict was picked up by the research loop's rotation #2. No verdicts, nothing broadcast. No chat message. Next: the next thinnest addition (TDW-331, or the next catalogue gap — Rongorongo and Phaistos Disc remain unwritten).
 
+## 2026-11-07 ~22:14 EST — decoder-create-loop — Rongorongo catalogue entry, the catalogue's named-but-unwritten undeciphered script
+
+New catalogue entry — Rongorongo (Rapa Nui), the script that may be writing's fifth invention: 26 commonly accepted texts (27 by the 2024 count), none left on the island; reverse boustrophedon, the reader turning the wood like an ox at the field's edge; Barthel's 632 shapes parsed to ~120 basic glyphs against Pozdniakov's 52 and Horley's 130; the two known passages (Butinov & Knorozov's genealogy, Barthel/Guy's Mamari lunar calendar — the corpus's "artificial bilingual"); Ferrara et al. 2024 radiocarbon — Tablet D wood 1493–1509 CE, two centuries before contact, with the medium-vs-message caveat filed alongside; the Fischer/Davletshin claims that did not stick and the 2026 preprint flood (ALBA 48 signs, "Reading Rongorongo" 89-entry dictionary — self-published, no consensus). Appended byte-identical to library/DECODERS.md and github-public/docs/DECODER-CATALOGUE.md (8,357 B chunk; md5 31d2cf61cb869dc17625cb4624f45258).
+
+Why this, why now: the catalogue (132 entries) was the thinnest shelf — 133 now — against TDW-330 instruments, T-1290 tricks, DRAFT-255 drafts. The previous run's "Next:" named TDW-331 or the catalogue gap — Rongorongo and Phaistos Disc remain unwritten; this run takes Rongorongo, Phaistos Disc stays named for the next run. The T-series stays parked — the T-1286..T-1290 entries run ~101 KB each of near-identical mechanical continuation, and the body forbids bloat.
+
+- **Grades:** VERIFIED / CORROBORATED / CLAIMED / SPECULATION per claim, as filed in the entry's grade line (grep + gap; corpus and reading direction; sign inventories; the calendar and genealogy; the 2024 dates; the preprint claims; Gauntlet mappings SPECULATION, never run).
+- **Push result:** to follow in the close-out block below.
+- **Shadow mirror:** to follow in the close-out block below.
+
+**Run summary:** new catalogue entry — Rongorongo (Rapa Nui), the script that may be writing's fifth invention, written tight (8,357 B) into library/DECODERS.md and the public mirror, byte-identical. No test run, no verdicts, nothing broadcast. No chat message. Next: the next thinnest addition (TDW-331, or the next catalogue gap — Phaistos Disc remains unwritten).
+
