@@ -215,6 +215,66 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   "two systems" remark as hearsay — noted as a datum without letting it
   steer the search. CORROBORATED — community research documents; the
   artist's remarks are reported statements, not independent confirmations.
+- **Live elimination ledger (new to record, November 8, 2026).** (a) The K4
+  elimination database at kryptosbot.com — Colin Patrick's project (human
+  lead; Claude as AI computational partner; the same project as the
+  on-record community K4 research repository) — frequently-asked-questions
+  page read first-party this pass: five hundred ninety-seven recorded
+  experiments covering more than seven hundred twenty-one billion
+  configurations across every major classical family (Vigenère, Beaufort,
+  columnar transposition, Playfair, Bifid, running keys); standard
+  single-layer ciphers eliminated under direct positional correspondence,
+  with named gaps still open (untested running-key texts, repeating keys
+  using two different keyword-mixed alphabets, a Gromark cipher with keyed
+  alphabets on both sides, keys longer than the checks cover, Trifid and
+  Bifid on a six-by-six square inconclusive). By April 2026 the project had
+  enumerated one hundred five thousand six hundred ninety-two two-layer
+  compositions and eight hundred thirty-eight thousand three hundred fifty
+  non-columnar three-layer compositions inside its registered layer
+  families, with no signal above noise. The honest retraction inside the
+  same record: an earlier "mathematically proved" claim that seventeen of
+  twenty-five key lengths fail for every possible rearrangement was
+  withdrawn in August 2026 — the consistency check behind it only holds
+  when letters stay in place, and a counterexample showed it false;
+  columnar searches were re-run without it (grid widths four to nine, every
+  column order, substitution first then rearrangement: no repeating key of
+  length one to twenty-four on the standard alphabet fits the twenty-four
+  known letters; lengths twenty-five and twenty-six undecidable on
+  twenty-four letters). A June 2026 detector test for the monoalphabetic
+  plus transposition plus running-key family scored real and shuffled text
+  alike (zero of six planted cases detected) — filed as a limit on
+  detection, not a lead. Open residuals named by the project: a
+  W-delimiter or other finite segmentation, running keys from non-public or
+  non-English texts, bespoke procedural ciphers from the artist's encoding
+  charts, and "a genuinely novel mechanism we have not thought of."
+  [CORROBORATED — first-party project page; counts are the project's own,
+  not independently re-run]
+  (b) Intel Today, November 3, 2026 anniversary update ("Can AI solve
+  Kryptos K4?") — the custody texture: the auction catalogue describes K5
+  as "an unpublished 1988 alternative to the K4 plaintext and coding
+  chart"; the archive's secrets were handed to Paradigm in sealed envelopes
+  and Paradigm confirmed in June 2026 it had not opened them; the two
+  researchers who found the plaintext have agreed not to publish it and the
+  Smithsonian material is sealed until September 2075. Paradigm's public
+  verification system lets anyone submit a proposed K4 solution, confirmed
+  against a cryptographic hash without revealing the plaintext (per a
+  secondary account: the artist typed the plaintext into a laptop, a
+  SHA-256 hash plus a Google Cloud key service tag were produced, the laptop
+  was wiped, and each guess costs one dollar). The update's verdict on the
+  AI wave: projects have now explored billions — in some cases quadrillions
+  — of configurations, one project explicitly asked ChatGPT to attack K4,
+  and AI itself has been invited to solve Kryptos and has failed; the
+  missing ingredient is not compute but knowledge of the right question.
+  [CORROBORATED — first-party update; the one-dollar / SHA-256 / Google
+  key-service mechanics via secondary reporting]
+  Decoder read: the two items belong together — the elimination ledger is
+  the largest published negative result on K4 (hundreds of billions of
+  configurations, a withdrawn proof repaired in public, detection limits
+  stated as limits), and the custody update explains why the negative
+  result cannot be shortcut: the ground truth sits in sealed envelopes and
+  a sealed archive, so the only honest motion left is elimination with
+  pre-registration. [DOCTRINE — the withdrawn-proof repair as the model
+  case for the intake discipline]
 - **Retired, not active:** the RSA Factoring Challenge (1991–2007).
   [VERIFIED — literature] The Beale "treasure" carries no verified bounty —
   treasure-hunting speculation, not a prize. [DOCTRINE note]
@@ -926,7 +986,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Cicada 3301 (Liber Primus) | 2012– | ~55 of ~75 pages unsolved; 2012/13 chains solved | — |
 | Rohonc Codex | ~1571/1838 | Forgery ruled out 2026 (peer-reviewed); partial 2018 decipherment replicated on 4 newly found pages; full reading not accepted | — |
 | Voynich manuscript | 1400s | Unsolved; 2026 work is pre-registered held-out statistics, no accepted reading; Oct 2026 CORROBORATED: Layfield (U. Malta) + Davis — manuscript likely mis-bound mid-to-late 1400s from loose singulions, read out of order for a century; five scribes, communal object (The Guardian); Jun 2026 anonymous "DECODED" claim (self-published, self-graded) — SPECULATION; Oct 14, 2026: Hafner Middle-Welsh herbal claim (Zenodo, CLAIMED) + pre-registered tournament 0/17 hypotheses met threshold (CORROBORATED); Oct 15, 2026: Zuger and Zuger Croatian Glagolitic-pharmacy claim (CLAIMED) + Hoeben geometric-structural preprint, explicitly non-decipherment (CLAIMED) + Davis ultraviolet find: Marci's seventeenth-century key attempt on the first page, a documented failure (CORROBORATED) + a self-published Latin claim graded by its own table (SPECULATION, rejected on intake); October 16, 2026: the Composite-Glyph Protocol Hypothesis (Zenodo, June 2026, first version — a structural framework only, explicitly not a decipherment — CLAIMED); October 18, 2026: a categorical naive Bayes sixteen-slot morphological model (preprint, October sixth — an attribute-tagging reframing with domain discrimination; the hoax-refutation claim outruns the evidence — CLAIMED) and "The Voynich Manuscript as a Writing System" (preprint — a falsification battery with positive controls: substitution solvers recover sixty-nine to ninety-eight percent on known texts versus at most thirty-six on the Voynich; the calibrated solver scores at chance in seventy-one languages — CLAIMED; the intake-bar reference); October 21, 2026: a new named claimant joins the roster — Jahaziel Ortiz Velazquez, "The Voynich Manuscript as an Analog Decision Engine" (open repository, September twenty twenty-six) — a fifteenth-century spagyric lab-manual / decision-engine reinterpretation, one diagram folio read as a mechanical modulo-seventeen calculator; claimed, self-published, no independent replication; October twenty twenty-six: Shepherd (open repository, version four) — folio eighty-six-v's rosette anchored to a Lake Garda castle, the manuscript identified as a fifteenth-century clinical formulary and thermal-spring manual with claimed recipe decodings; claimed, self-published, no independent replication; November fifth, twenty twenty-six: Honeycutt, "Voynich Reader Studies" (open repository, November first — a typed reference ledger and a profile-compatibility matrix, structural, explicitly not a decipherment — claimed) and Zsiros, "The Mining Hypothesis" (open repository, twenty twenty-six — the nine-rosette drawing as a mining and ore-processing installation plan — claimed) with Shlygin, "The Spy Hypothesis" (a long-form essay, November twenty twenty-six — the codex as a spy's gold-bearing-silver mining account, with a falsifiable historical model named — speculation); November sixth, twenty twenty-six: Greshko, the Naibbe cipher (Cryptologia, November twenty twenty-five — a hand-executable verbose homophonic cipher reproducing Voynich statistics, corroborated as published, not a decipherment) and Parisel twin arXiv preprints (slot and Cardan-grille generators fail the four-signature test; the Currier A/B split is real at eighty-nine percent held-out accuracy — claimed) and a Zenodo October twenty-second "Voynich Manuscript Decoded" working paper (speculation, parked) | — |
-| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); Oct 15, 2026: formal negative results recorded — attack session eliminated composite cipher families over sixty million positive-controlled configurations, back-build falsified the card-plus-gate mechanism, and the researcher publicly withdrew its own unsupported claims (CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION; October 16, 2026: the Ground Truth Divergence Map — the K4 ciphertext is identical across both ground truths, the as-carved text is authoritative, and any method must decrypt it as-is (CORROBORATED — community research documents); the live surface is reframed as substitution plus a rearranging layer, with the artist's "two systems" remark tiered as hearsay; October twenty twenty-six: a self-published page proposes the carved screen is a sunlight projector — cut letters as apertures, the encoded and tableau sides as a paired optical system, the answer readable only under the right orientation, season, and sun — no mechanism demonstrated; speculation; November 7, 2026: Manvelyan "The Complete Solution to Kryptos K4" (Zenodo, July 2025) — cryptogeographic claim: coordinates plus a Berlin Wall timestamp of twenty-three fifty-one on November 9, 1989, via a magnetic-declination model; accounts only for the four released clue words, concedes the rest as "verification codes" — speculation, self-published, intake-parked | $1k/puzzle (Paradigm) |
+| Kryptos K4 | 1990 | Plaintext recovered 2025 (archival); method publicly unsolved; Oct 5, 2026 independent audit REFUTED the self-verified "deterministic solution" (tautological headline proof, at-chance mechanism, back-solved cards — refutation CORROBORATED); Oct 15, 2026: formal negative results recorded — attack session eliminated composite cipher families over sixty million positive-controlled configurations, back-build falsified the card-plus-gate mechanism, and the researcher publicly withdrew its own unsupported claims (CORROBORATED); live open work runs elimination with pre-registration; K5 depth-of-two gated (K5 CT unpublished, plaintext sealed to 2075); Oct 14, 2026: ForFoxs assessment CORROBORATED (plaintext recovered/archival, cipher publicly unsolved — matches standing formulation); new self-published "complete solution" (mattklepp/k4, self-graded) — SPECULATION; October 16, 2026: the Ground Truth Divergence Map — the K4 ciphertext is identical across both ground truths, the as-carved text is authoritative, and any method must decrypt it as-is (CORROBORATED — community research documents); the live surface is reframed as substitution plus a rearranging layer, with the artist's "two systems" remark tiered as hearsay; October twenty twenty-six: a self-published page proposes the carved screen is a sunlight projector — cut letters as apertures, the encoded and tableau sides as a paired optical system, the answer readable only under the right orientation, season, and sun — no mechanism demonstrated; speculation; November 7, 2026: Manvelyan "The Complete Solution to Kryptos K4" (Zenodo, July 2025) — cryptogeographic claim: coordinates plus a Berlin Wall timestamp of twenty-three fifty-one on November 9, 1989, via a magnetic-declination model; accounts only for the four released clue words, concedes the rest as "verification codes" — speculation, self-published, intake-parked; November 8, 2026: the K4 elimination ledger — five hundred ninety-seven experiments covering more than seven hundred twenty-one billion configurations, one hundred five thousand six hundred ninety-two two-layer plus eight hundred thirty-eight thousand three hundred fifty three-layer compositions with no signal above noise, and the August 2026 withdrawal of the seventeen-of-twenty-five proof (repaired in public) — corroborated (first-party project page); Intel Today, November 3, 2026: K5 catalogued as an unpublished 1988 alternative to the K4 chart, Paradigm confirmed in June 2026 the sealed envelopes were unopened, hash-based public verification live — corroborated | $1k/puzzle (Paradigm) |
 | Zodiac 340 | 1969/2020 | Solved 2020 | — |
 | Napoleon 1809 | 1809/2026 | Solved 2026 (AI) | — |
 | MVUEH Enigma | 1941/2026 | Solved 2026 (agent) | — |
