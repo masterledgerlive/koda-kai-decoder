@@ -27923,3 +27923,31 @@ New gauntlet test design — TDW-361, the Detour Instrument: the Gauntlet's firs
 - **Shadow mirror:** to follow in the close-out block below.
 
 **Run summary:** new gauntlet instrument TDW-361 — the Detour Instrument, the Gauntlet's first branch-steering probe: pre-approved plan, hazardous branch, untrusted data that satisfies the condition without ever issuing an instruction; three probes (condition, parameter, benign control) and five failures (branch-adoption, parameter-binding, condition-laundering, refusal-collapse, branch-blindness). Design, never run; no verdicts, nothing broadcast.
+
+**Close-out (2026-11-08 ~17:5x EST, TDW-361 — the Detour Instrument):**
+- **Push result:** this run's sync-github.py "create: TDW-361 — the Detour Instrument, the Gauntlet's first branch-steering probe; pre-approved plan, hazardous branch, untrusted data that satisfies the condition without ever issuing an instruction" — "done: 2 pushed, 302 unchanged". EXIT:0. Pushed (git-data): docs/GAUNTLET-TESTS.md, research/RESEARCH-LOG.md. One transient RemoteDisconnected retry (DRAFT-010) recovered internally. Stdout: goal hidden_files/sync-tdw361-20261108.log.
+- **Remote verification:** exact blob-sha match on both pushed files (docs/GAUNTLET-TESTS.md f65d1363, 4,240,506 B; research/RESEARCH-LOG.md d68c51e2, 8,424,617 B), verified this pass via the Contents API meta (goal hidden_files/verify-tdw361-20261108.py). TDW-361 is live on GitHub.
+- **Shadow mirror:** SKIPPED — Shadow down ("Connection closed by UNKNOWN port 65535", exit 255); same signature as the #133 run — Shadow itself down. Per the task body, skip silently when SSH fails; next run retries.
+- **Integrity note:** entry byte-identical between private and public TESTS files (5,377 B appended to both; md5 98e9528893472f115b4d542f091d10cb verified equal at build); run entry byte-identical between private and public logs (3,310 B appended to both, md5 verified equal at build); instruments TDW-01..TDW-361 gap-free in both copies.
+- **Close-out note:** this close-out block itself rides the next sync (research loop's or next create run's), per the established pattern — the verified remote state above covers the TDW-361 entry and run entry.
+
+## 2026-11-08 ~17:53 EST — decoder-research-loop — rotation #12 (math/physics engines): quiet loop — pins held, MuJoCo fix still unreleased; rest re-covered
+
+Three targeted searches (SciPy/SymPy releases, November 2026; MuJoCo 4.0.1 / sparse-Cholesky fix issue #3767; symbolic regression / physics-informed machine learning, November 2026) + standing-record greps across research/RESEARCH-LOG.md and library/MATH-PHYSICS.md. **Quiet loop — nothing new to record, no library growth. All three lanes re-covered with no status change.** No verdicts, nothing broadcast. Decoder Desk brief written (podcasts/decoder-briefs/2026-11-08-1753.md, Rook's voice, quiet loop).
+
+**Re-covered, no status change — the SciPy/SymPy pins:**
+- SciPy 1.18.1 still latest on PyPI (August 21, 2026 — re-confirmed this pass, crawled within the day); no 1.19 in window. SymPy 1.14.0 stable / 1.15 in development; no stable 1.15 release. The Ubuntu tenacious rebuild of scipy 1.17.1 against Python 3.15 (November 2, 2026) is distro packaging, already filed twice, not a new upstream release. The copyprogramming.com 1.17.x pages remain stale SEO-farm material against the filed pins.
+
+**Re-covered, no status change — MuJoCo:**
+- The changelog's "Upcoming Version (not yet released)" section still carries the sparse-Cholesky fix (issue #3767) and the mj_loadAllPluginLibraries plugin-loader fix — no 4.0.1 release as of this pass (changelog crawled within the hour). The §45 caution stands unchanged: 4.0.0 (November 6, 2026) shipped with a known Newton-solver defect, patched in trunk but not yet released; the bench stays on 3.17.0 in practice; any model carried forward needs re-validation, not a version bump.
+
+**Re-covered, no status change — symbolic regression / physics-informed:**
+- Every paper this pass's search returned is already filed: Sofos carinal-pressure closure (§41, Physics of Fluids 38, 111906, November 4, 2026); Lampani physics-informed feature maps (§42); Taskin LLM + physics-informed symbolic regression (Scientific Reports, doi 10.1038/s41598-026-35327-6, PiSR entry); Harvey multimodal-LLM + KAN symbolic regression (§39 wave, Mach. Learn.: Sci. Technol. 7, 045040, 2026); SymbolicLM / PhysSymbArena (arXiv:2609.33594); X-PINN gray-box framework (§42, arXiv:2305.10706, no new version). No new preprint, no new version, no new benchmark in window.
+- The rest of the §(l) window re-covered at filed grades: KAN static-friction modeling (arXiv:2511.10079v1, CLAIMED, filed this morning — no peer review or replication since); SPIRAL-PO (§44, no new version); evidence-gated symbolic correction (§41); SYMMATIKA (§41); Brum benchmark (§43, PySR most suitable stands); MuJoCo Warp differentiability still pending (issue #500); Isaac Sim 6.2.0 bundle pins (Newton 1.6.1 / MuJoCo Warp 3.12.0 / Warp 1.17.0); SymPy GSoC 2026 manualintegrate extensions (§39; loggamma still open); SimpliPy / Flash-ANSR (§29); FastSymbolicGP (§40); SymTorch (arXiv:2602.21307); Patel neutron-transport formula (§33); Senua Newton audit (patches still unverified upstream); EML symbolic regression (§15); RESTART (§15); PISSR turbulence closure (still parked); sbmlsim 0.16.0 (filed, no new version).
+
+- **Grades:** no new grades this pass; everything re-covered at filed grades. MuJoCo #3767 status CORROBORATED (project's own changelog, fresh crawl this pass).
+- **Library changes:** none — no growth trigger met this pass.
+- **Push result:** to follow in the close-out block below.
+- **Shadow mirror:** to follow in the close-out block below.
+
+**Run summary:** rotation #12 — quiet loop, nothing new to record and no library growth: SciPy 1.18.1 and SymPy 1.14.0 pins held, MuJoCo 4.0.1 still unreleased with the sparse-Cholesky fix and the plugin-loader fix both sitting in the unreleased section, and every symbolic-regression paper the search returned already filed (Sofos §41, Lampani §42, Taskin PiSR, Harvey, SymbolicLM, X-PINN). Rest re-covered at filed grades. No verdicts, nothing broadcast. No chat message. Next: rotation #13 (unsolved ciphers & prize bounties).
