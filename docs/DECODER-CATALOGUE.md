@@ -1142,6 +1142,21 @@ formats. [VERIFIED]
   dissector lands inside the hostile-input doctrine — the parser is the first
   interrogation room, and it gets interrogated too. [VERIFIED — Wireshark
   commit record, merged by maintainer]
+- **Wireshark 5.0.0rc1 contents addendum (Nov 2026)**: the release candidate
+  also drops Qt 5, ends odd/even numbering, and ships deep HTTP/3 dissection
+  with reassembly and gzip/deflate/brotli/zstd decompression — the
+  encrypted-transport reader the October 21 record did not name.
+  [CORROBORATED]
+- **Wireshark 4.6.5–4.6.8 advisory waves (Nov 2026)**: 4.6.5 fixed
+  wnpa-sec-2026-08 through -26, 4.6.7 -52 through -61, 4.6.8 -66 through
+  -87 — dissector crashes and infinite loops, no new protocols in any of
+  them; 4.6.9 remains the current stable. The 4.6.5 notes credit "a recent
+  trend in AI-assisted vulnerability reports." [CORROBORATED]
+- **ecapture_decryptor v1.2.0 (Oct 22, 2026)**: Go library for offline and
+  streaming decryption of TLS 1.2/1.3 and QUIC v1 captures; v1.2.0 adds
+  complete QUIC v1 + HTTP/3 decoding; keys from NSS key logs or pcapng
+  Decryption Secrets Blocks. A capture plus a key log is enough — decrypt
+  offline, inside the container. [CORROBORATED]
 - **SPMTNet / XiXiaDB — structural-prior Tangut recognition (Oct 2026)**:
   deep learning that reads Tangut characters by their component structure
   (composition + spatial relations), not whole-glyph appearance — the general
