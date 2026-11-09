@@ -3103,9 +3103,29 @@ The universal quantum decoder stays [SPECULATION] until proven.
   percent within two hundred milliseconds, checks repeat until two
   consecutive reads agree, and the session is then classified for
   the rest of the visit; pricing is a free tier of one million
-  sessions, then one dollar per one thousand sessions. Independent
-  evaluation still open. [CLAIMED — vendor launch figures via trade press; no
-  independent evaluation, no methodology published]
+  sessions, then one dollar per one thousand sessions. Update
+  (November 8, 2026 research loop): independent trade-press audit
+  of the vendor's own model page adds the evasion-technique splits
+  — Camoufox at least ninety six point eight percent, Patchright at
+  least ninety two point six percent, Stealth Playwright at least
+  ninety two point seven percent, session takeover at least ninety
+  six point seven percent for RAD-S1, against zero to six point six
+  percent, zero to five point nine percent, zero to ten point two
+  percent and four to fifty point two percent respectively for the
+  six rivals — and two catches: every technique-level floor sits
+  below the ninety eight point eight percent headline floor, which
+  the vendor does not explain, and in the session-takeover row one
+  unnamed rival reaches fifty point two percent, contradicting the
+  release's under fifteen percent ceiling; and on non-disguised
+  agents the ranking reverses (BotD at least ninety nine point three
+  percent, Akamai ninety nine point one percent, above RAD-S1's
+  ninety eight point seven percent floor) — the advertised gap
+  exists only for deliberately disguised agents. The audit also
+  notes low-interaction sessions come back Undecided and are mostly
+  treated as human, a gap for read-only agents that load, read and
+  leave. Independent evaluation still open. [CLAIMED — vendor
+  launch figures via trade press; no independent evaluation, no
+  methodology published]
   - Source: https://genznewz.com/resemble-ai-agent-detection-spots-agents-acting-human
 - **Shufti Know Your Agent — agent verification in a single flow:
   identity, human authorization, mandate (launched October twenty
