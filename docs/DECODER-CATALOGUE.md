@@ -2173,6 +2173,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - Source: https://www.metaculus.com/notebooks/45615/announcement-of-futureeval-fall-2026/
   - [CORROBORATED — Metaculus's own announcement and published analyses]
 
+- **Toto two point oh — open-weight time-series foundation models (Datadog, released April 2026; surfaced November 2026).** A family of models from four million to two and a half billion parameters under the Apache licence, built for metrics-style series: forecast the next window zero-shot, flag what falls outside the prediction interval. Scored on the vendor's BOOM benchmark — three hundred fifty million observations across two thousand eight hundred seven series. The decoder files it as the open-weight answer to the warehouse-locked forecasting models already on this shelf: zero-shot anomaly scoring anyone can run without a vendor account, in a licence the decoder itself can ship. The anomaly-score lane must assume the target side has the same commodity instruments.
+  - Source: https://www.forasoft.com/blog/article/machine-learning-algorithms-anomaly-detection
+  - [CLAIMED — vendor release via trade-press playbook; benchmark as reported by the vendor]
+
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
