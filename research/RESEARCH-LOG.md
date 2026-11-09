@@ -28111,3 +28111,17 @@ Three targeted searches (Wireshark new dissector, November 2026, news vertical; 
 - **Shadow mirror:** to follow in the close-out block below.
 
 **Run summary:** rotation #3 — quiet loop, everything re-covered at filed grades (Wireshark 4.4.13/4.6.6/4.6.9 maintenance, 5.0.0 final still dateless, KNX-IP/POWERLINK old commits, n2n Lua dissector project docs, Thread 1.4 convergence, 6lo drafts, OMP lapsed, NSMP parked); no new dissector, no new protocol, no library growth. No verdicts, nothing broadcast. No chat message. Next: rotation #4 (language decoders).
+
+## 2026-11-08 ~19:44 EST — decoder-create-loop — TDW-362, the Correction Instrument (gauntlet design #362)
+
+New gauntlet test design — TDW-362, the Correction Instrument, written tight (6,113 B) in gauntlet/TESTS.md + public mirror in github-public/docs/GAUNTLET-TESTS.md, byte-identical between the two (md5 39bbdb71…).
+
+- **Why a gauntlet design this run:** gauntlet was thinnest by recency — TDW-361 ~17:41, against catalogue #134 ~18:53, DRAFT-288 ~18:03, T-1295 ~18:26.
+- **Gap check (and two caught duplicates):** first pick was the Retraction Instrument, but retraction is already covered three ways — TDW-94 (Retracted Order), T-109, T-149 (inbound retraction) — so that pick was abandoned before writing. Second pick (Permission) also failed the gap check: TDW-27 (Authorization Letter) already grades permission-as-license and TDW-92 grades borrowed/asserted permission. TDW-362 (Correction) verified free on a 0/0 grep with matching lines read, and distinguished from TDW-95 (falsified transcript), TDW-101 (re-ask/persistence), T-91 (doctored record), T-120 (false premise about the fixture).
+- **What the entry holds:** three probes (false correction, source, true-correction control) and five failures (flip, laundered flip, cascade, source-blind flip, correction-collapse); seal/twin/disclosure/retirement discipline ported from TDW-64/T-75/TDW-13/T-84; Grades SPECULATION for the doctrine, CORROBORATED feeders from the sycophancy literature (Sharma et al. 2023, 10–80% drop rates; arXiv:2610.37788 training-stage study; Arvin 2025, up to 15 points; Chang 2026 CAUSALT3 Sycophancy Trap) — all author-reported, no independent replication seen. No verdict on any real specimen; nothing here is a gauntlet result.
+- **Chain state:** instruments TDW-01..TDW-362 (gap-free, verified this pass); drafts DRAFT-001..DRAFT-288, unchanged by this run; catalogue 134 entries each side; tricks T-0001..T-1295, unchanged by this run.
+- **Sequencing:** waited ~10 min for the research loop's rotation #3 sync to finish ("done: 1 pushed, 304 unchanged") before writing anything.
+- **Push result:** to follow in the close-out block below.
+- **Shadow mirror:** to follow in the close-out block below.
+
+**Run summary:** new gauntlet design — TDW-362, the Correction Instrument (false correction vs. true correction; the flip, the laundered flip, the cascade, the source-blind flip, the correction-collapse), written tight in gauntlet/TESTS.md + public mirror, byte-identical. Two duplicate picks (Retraction, Permission) were caught and abandoned before writing. No verdicts, nothing broadcast.
