@@ -275,6 +275,31 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   a sealed archive, so the only honest motion left is elimination with
   pre-registration. [DOCTRINE — the withdrawn-proof repair as the model
   case for the intake discipline]
+- **New intake (November 10, 2026 — late catch on the rotation number
+  thirteen window).** Stefan Best, "Kryptos K4: The Midpoint Fold" (Zenodo
+  record 23604946, published October 23, 2026, version one, updated
+  November 4, 2026) — a physical, forward-encryption architecture for K4:
+  a hybrid transposition and substitution method using the physical geometry
+  of a fourteen-by-seven grid, a boustrophedon (serpentine) path, and a
+  one-hundred-eighty-degree structural fold at Position forty-eight. The
+  method claims to generate the exact opening characters of the K4
+  ciphertext ("O B...") mathematically from the known plaintext without
+  backwards-engineered keys; the only remaining variable to a full
+  ninety-seven-character decryption is locating a single manual letter-drop
+  (null) inserted by the sculptor. Intake notes, filed with the claim: (a)
+  the demonstration covers the opening characters only — no full
+  ninety-seven-character decryption is shown, and the null's position is
+  itself a free fit; (b) same author, same publication day as the parked
+  Voynich "Final Decoding Procedure" (Zenodo 23604976, filed November 6,
+  SPECULATION) — one author dropping "final solution" preprints for two
+  famous unsolved ciphers on the same day is a pattern, not a credential;
+  (c) no independent audit, no second-lab reproduction, no Paradigm
+  hash-check reported — the claim has not been run through the one-dollar
+  verification. The honest test is forward: grid, path, fold, and null
+  stated first, full ciphertext derived after — not fitted after. The
+  twelve-thirty-three rotation number thirteen quiet loop on November 10
+  missed it; this run corrects the record. [CLAIMED — author's own Zenodo
+  preprint; abstract and record read first-party this pass]
 - **Retired, not active:** the RSA Factoring Challenge (1991–2007).
   [VERIFIED — literature] The Beale "treasure" carries no verified bounty —
   treasure-hunting speculation, not a prize. [DOCTRINE note]
