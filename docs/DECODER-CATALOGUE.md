@@ -30,6 +30,28 @@ CLAIMED / SPECULATION.*
   an Allied squadron following on the 26th. Separately, cryptanalyst Jack Willis
   solved another unresolved Enigma message with help from Anthropic's Claude
   Opus 5 (more direct expert guidance). [CLAIMED]
+- **Enigma plugboard attack by directed gradient ascent (Nov 2026):** a
+  proceeding paper from the XXXIV Conference on Electrical and Electronic
+  Engineering (JIEE 2026, Quito, October 26–30), published November 2, 2026
+  in MDPI Engineering Proceedings, presents a hybrid automated Enigma
+  cryptanalysis: parallel exhaustive search over all 17,576 rotor alignments
+  on a multi-core Intel i9, plus a Directed Gradient Ascent heuristic for the
+  plugboard that mutates only the characters where the current decryption
+  disagrees with a known crib — the crib used was the 25-letter weather-report
+  fragment REPORTEDECLIMATEMPERATURA, and the 80-step loop gives roughly six
+  times the ten-cable space to escape local minima. The paper reports
+  convergence on historical 1940 keys in 3.6 s, against a Q-learning baseline
+  that never converged in 50 minutes; the authors frame the avalanche effect
+  as the reason LSTM-style sequential models fail here, which is why the
+  search is decoupled rather than learned end-to-end. Decoder-design note:
+  this is the third distinct 2026 Enigma method in the catalogue after the
+  agentic Bombe rebuild (MVUEH) and the garble-tolerant Bombe search
+  (AWTZK/ZNLZT) — and the first that is deterministic rather than agentic or
+  stochastic: the gradient is the crib error itself, so the method only works
+  where a crib is already known, which is exactly the gap the September
+  wave's short garbled messages exposed. [CLAIMED — single proceeding paper,
+  authors' own testbed, no independent replication; first-party read
+  2026-11-09]
 - **1593 Catholic League cipher letters (AI-deciphered, Oct 2026):** an
   independent researcher used OpenAI's GPT-6 Astra to decode two cipher letters
   dated July 22, 1593, sent from Paris to Rome and preserved in the
