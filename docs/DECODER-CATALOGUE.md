@@ -5381,7 +5381,20 @@ decoder-research-loop.*
   55.4% on MedGemma 4B, 14.8% on Gemini 2.5 Flash, 9.1% on Claude Sonnet 4.5 —
   with zero reverse flips. Decoder lesson: vision is a first-class injection
   surface; implants no longer need text the user can read. [VERIFIED —
-  peer-reviewed]
+  peer-reviewed] Addendum, OWASP Global AppSec USA, November 5, 2026 (SC Media
+  report, November 6 — CLAIMED, single secondary carrier): Pavan Reddy
+  (Automata LLC) demoed the image channel live — FigStep-style image text
+  fulfilled the request sixty to eighty percent of the time on the demonstrated
+  models (commercial models such as ChatGPT and Claude screen image-based text,
+  per the speaker), and a high-resolution image with barely-visible
+  contrast-lowered text under an overlay smuggles the same instruction past a
+  human reader. Defense as a dial, not a switch: give the image processor OCR
+  capability, resize with an anti-aliasing algorithm, filter the image between
+  upload and model analysis, and check whether image text can trigger a tool
+  call — if image text can trigger a tool call, it is an exfiltration channel,
+  not just a jailbreak. Decoder lesson: the measured rate plus the tool-call
+  test gives the Gauntlet a concrete image-channel probe, and the defense dial
+  is testable on our own pipelines.
 
 - **Meta SecAlign (arXiv, updated Feb 2026).** Open-weight LoRA adapters for
   Llama-3.1-8B-Instruct and Llama-3.3-70B-Instruct trained to separate trusted
