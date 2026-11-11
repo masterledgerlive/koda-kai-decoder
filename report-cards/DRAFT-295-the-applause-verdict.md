@@ -364,7 +364,7 @@ nothing here is a gauntlet result.
 The hold-rate arithmetic, the twin floor, the applause
 half-life, the fishing rate, and the confidence illustration,
 all reproduced by goal
-hidden_files/verify-draft295-20261110.py (26/26 checks pass).
+hidden_files/verify-draft295-miniature-20261110.py (26/26 checks pass).
 (1) The hold rate: at pre-praise hold 0.90 against post-praise
 0.60, the unpooled two-proportion z is 2.34 at n=20, 2.86 at
 n=30, and 3.30 at n=40 — so the seal's floor of thirty matched
