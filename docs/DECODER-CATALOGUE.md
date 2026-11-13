@@ -1660,6 +1660,28 @@ formats. [VERIFIED]
 
 *Uyari entry seeded 2026-11-07 ~02:59 EST by the decoder-research-loop.*
 
+- **Lara Mini — Translated's multilingual-first foundation model (announced November 12, 2026).** [2026-11-13 research loop]
+
+- **The release.** Translated announced Lara Mini, the first model in the Lara 4 family that will power the next generation of Lara Translate: a general-purpose base model trained from scratch on six trillion tokens across forty-five languages and cultures, including all twenty-four official EU languages — seven-point-two billion parameters total, six hundred million active per token (mixture-of-experts, four of one hundred twenty-eight routed experts per token plus one shared expert). Weights, technical report, and a new multilingual reasoning benchmark covering one hundred ten language variants released for research and non-commercial use; weight access is gated, each request reviewed. [VERIFIED — announcement corroborated by two independent trade outlets (Slator, read first-party this pass; Unite.ai) plus the vendor research page; benchmark scores are vendor-reported, not reproduced by this loop]
+
+- **The claim that matters.** Translated tested the multilingual-vs-English trade-off directly: replacing the multilingual share with English gained only zero-point-three points on English while losing two-point-seven points on multilingual — and Lara Mini ranks first in its class (open base models up to two billion active parameters) on multilingual understanding and math. Decoder note: the experiment is the honest version of the usual scaling story — multilingual training is treated as a source of intelligence, not a tax on it — and the gated-weights plus research-only license is the reproducibility boundary: the numbers are checkable only through the vendor's own report until weights land in independent hands. [CORROBORATED — the trade-off experiment as reported by both outlets; the class ranking is vendor-measured]
+
+- **Decoder-design note (Lara Mini → Gauntlet).** One rung: grade a multilingual claim by its worst supported language, not its average — Translated's own report admits Azerbaijani and Bengali score lowest where training data are limited. A decoder that is strong on average and weak on the thin tail is a decoder with a known blind spot, and the Gauntlet's thin-data fixtures exist to find exactly that. [SPECULATION — the Gauntlet mapping is doctrine, never run]
+
+*[Grade: VERIFIED on the release facts (date, token count, language count, parameter counts, gated research release) via two independent trade outlets and the vendor page; CORROBORATED on the trade-off experiment as reported; the class-ranking scores are vendor-reported, not reproduced by this loop; SPECULATION — the Gauntlet mapping is doctrine, never run.]*
+
+*Lara Mini entry seeded 2026-11-13 ~18:05 EST by the decoder-research-loop.*
+
+- **AlphaOracle — oracle bone script decipherment via human-workflow-inspired deep learning (published June 12, 2026; NEW TO RECORD).** [2026-11-13 research loop]
+
+- **The system.** AlphaOracle (Liu, Guan, Wang et al., The Innovation 7(11), 101462) is the first AI system built to emulate the expert human workflow for oracle bone script decipherment: a multistage pipeline — rubbing parsing, radical-based morphological analysis with diachronic modeling, contextual retrieval — over the largest digitized corpus to date (seventy-three thousand eight hundred eighty-three rubbings, forty-five thousand three hundred sixty-four scans, twenty-three thousand seven hundred fifty-five studies). It produces evidence-backed readings with transparent, interpretable reports ready for expert review — and performs no additional adjudication: the final call stays with the human. About three thousand of the four thousand five hundred oracle bone characters are already indexed as deciphered; the system targets the remainder. [VERIFIED — peer-reviewed publication in a Cell Press journal; corpus counts and pipeline as published]
+
+- **Decoder-design note (AlphaOracle → Gauntlet).** The honest move is the architecture: the machine does the pattern work and writes the evidence report, but the verdict is explicitly reserved for the expert — the same split the Gauntlet enforces between a decode and a verdict. A decipherment system that refuses to adjudicate is a system that knows what it is. [SPECULATION — the Gauntlet mapping is doctrine, never run]
+
+*[Grade: VERIFIED on the publication, the pipeline, and the corpus counts (peer-reviewed, Cell Press); the decipherment quality claims are author-reported, not reproduced by this loop; SPECULATION — the Gauntlet mapping is doctrine, never run.]*
+
+*AlphaOracle entry seeded 2026-11-13 ~18:05 EST by the decoder-research-loop.*
+
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
 optimization) — not a universal "decode all information" engine. Active research:
