@@ -3732,6 +3732,32 @@ The universal quantum decoder stays [SPECULATION] until proven.
   style, and whether ProcGrep gets adopted as an audit tool.
   - Sources: https://arxiv.org/html/2606.16988v2
   - [CLAIMED — preprint; controlled study on SWE-Bench traces, no real-world deployment]
+- **Feedzai Digital Trust: agentic detection at the bank front door (Feedzai press
+  release, November twelfth, two thousand twenty six; new to record; November
+  fourteenth, two thousand twenty six research loop; material — the first
+  bank-side agentic detection product filed, moving detection from the browser
+  to the ledger).** Feedzai expanded its Digital Trust solution to detect
+  artificial intelligence agents accessing customer accounts: persistent device
+  fingerprinting and network signals recognize returning activity over time; a
+  fraud score draws on Feedzai's network view and shared intelligence;
+  cryptographic device binding ties each session back to a known customer and
+  device, forming what the vendor calls a triangle of trust between customer,
+  device and bank. Detection combines the signals agents declare about
+  themselves with device fingerprinting and behavioral signals that reveal
+  automated activity. Vendor figure: forty-four percent more fraud detected
+  using shared signals in the highest-risk zero point one percent of sessions,
+  with no increase in false positives. Lesson: the detection ledger's first
+  entry from the financial-crime side — Fingerprint, RAD-S1, Shibboleth and
+  ProcGrep name the agent in traffic or in traces; Feedzai names it at the
+  account, where the money moves — and it arrives in the same fortnight the
+  banks rewrote liability in contract language (see the bank-block wave texture
+  in the November fourteenth rotation eight log entry), so detection and
+  liability are converging on the same choke point. Watch: independent
+  validation of the forty-four percent figure, whether other fraud vendors ship
+  comparable agentic detection, and whether device binding survives agents that
+  present a fresh device per session.
+  - Sources: https://www.feedzai.com/pressrelease/digital-trust-ai-agents-authentication-shared-intelligence-device-binding/
+  - [CLAIMED — vendor press release; no independent evaluation]
 
 ## Sandbox & container tech
 
