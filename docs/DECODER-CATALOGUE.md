@@ -3672,6 +3672,66 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - Sources: https://theddari.com/en/learn/how-banks-control-ai-agents-permissions-audit ; https://memeburn.com/jpmorgan-ai-agents/ ; https://cheq.ai/blog/ai-agent-split/ ; https://agentsfinance.io/entries/guide-ai-agents-company-bank-account-read-only-access-2026/ ; https://madrobot.blog/2026/10/22/ai-agents-us-bank-accounts-jpmorgan-wells-fargo-morgan-stanley-unauthorized/
   - [CORROBORATED — multiple independent secondaries (Axios, Reuters, American Banker, CNBC, Bloomberg, Financial Times) agreeing on the dates, the banks, and the policy split; the Dimon quote is an earnings-call remark as carried by CNBC and PYMNTS; the Wells Fargo agreement text as carried by USA TODAY; Amazon and Perplexity suit details as carried by CHEQ]
 
+- **"Say Shibboleth": fingerprinting the language models and harnesses behind
+  agentic attacks (Pasquini and colleagues, arXiv:2611.12386, submitted November
+  ninth, two thousand twenty six; new to record; November fourteenth, two
+  thousand twenty six research loop; material — the first fingerprinting method
+  aimed at the attacker behind an agentic attack, not the traffic in front of
+  it).** The paper studies fingerprinting of agentic cyberattacks: infer the
+  attacker's model version and harness from telemetry. The mechanism is
+  "shibboleth traps": modular honeypot services that make informative
+  interaction a condition for obtaining the resources the agent seeks, eliciting
+  model declarations and characteristic writing without requiring a successful
+  prompt injection. For harness fingerprinting, indirect probes reveal how a
+  harness masks secrets in tool output, enforces command time limits, and
+  schedules tool calls, using only effects visible in subsequent requests.
+  Results: combined declarative and behavioral inference distinguishes among
+  fifteen candidate models at ninety percent top-one accuracy, with behavioral
+  classifiers evaluated on held-out harnesses and task families; fixed probe
+  rules identify the correct harness at ninety two percent accuracy across four
+  harnesses. When instructed to conceal identity, agents' declarations go
+  uninformative but behavioral evidence remains useful. Lesson: the detection
+  side's answer to the undeclared-agent problem at the attribution layer —
+  Fingerprint and RAD-S1 say "we can see you even when you hide," Shibboleth
+  says "we can name the model and the harness behind you, even when it lies
+  about both" — and it turns the honeypot from a tripwire into an interrogation
+  room: the trap does not wait for an attack to complete, it makes the agent
+  talk to get what it wants. It supplies the measured fingerprinting primitive
+  the filed bait, fingerprinting and actor-tracking triad only described. Watch:
+  independent replication, whether the traps survive agents trained to recognize
+  honeypots, and whether harness vendors respond by randomizing the probed
+  behaviors.
+  - Sources: https://arxiv.org/abs/2611.12386
+  - [CLAIMED — preprint; controlled experiments, no independent evaluation; figures as reported by the authors]
+- **Agent trajectories as programs: procedural fingerprinting of coding agents
+  (Oderinwale and colleagues, arXiv:2606.16988v2, November two thousand twenty
+  six; new to record; November fourteenth, two thousand twenty six research
+  loop; material — the first procedural fingerprint of an agent's
+  problem-solving style, not its outputs).** Benchmark scores say what an agent
+  got right; this work compares how agents get there. Ten agents across four
+  scaffolds (SWE-agent, Agentless, DARS, Moatless), models from the GPT, Claude,
+  DeepSeek and Qwen families, are compared on SWE-Bench traces; an
+  emergent-vocabulary induction compresses each trajectory into a procedural
+  representation, and a probe over those procedural signatures attributes an
+  unseen trajectory to the correct agent at eighty five point seven percent
+  accuracy against an eleven point one percent chance baseline. Behavior is most
+  similar between models from similar release periods and models distilled from
+  one another; Claude-4 and SWE-agent-LM-32B are the most identifiable, GPT-4
+  and Claude-3 Opus the most confusable. The authors release ProcGrep, a library
+  for auditing agents by how they approach tasks, and show it beats language
+  models on episodic trace search in efficiency and accuracy. Lesson: a second,
+  independent fingerprinting primitive in the same week as Shibboleth —
+  Shibboleth fingerprints the attacker from the outside (honeypot probes),
+  ProcGrep fingerprints the agent from its own trace (procedural habits) — and
+  the two together close the loop the Gauntlet needs: an agent can be named from
+  the outside when it attacks and from the inside when it is audited. The
+  distillation-similarity finding is the caution: fingerprints cluster by
+  lineage, so attribution names a family as much as an individual. Watch:
+  whether procedural fingerprints survive prompt-level instruction to vary
+  style, and whether ProcGrep gets adopted as an audit tool.
+  - Sources: https://arxiv.org/html/2606.16988v2
+  - [CLAIMED — preprint; controlled study on SWE-Bench traces, no real-world deployment]
+
 ## Sandbox & container tech
 
 - **Docker Cloud Sandboxes (announced Sep 24, 2026).** MicroVM-based
