@@ -1682,6 +1682,22 @@ formats. [VERIFIED]
 
 *AlphaOracle entry seeded 2026-11-13 ~18:05 EST by the decoder-research-loop.*
 
+- **LiLa — open-access translation for Ladin and Ligurian (WMT 2026; NEW TO RECORD).** [2026-11-14 research loop]
+
+- **The system.** LiLa (Bueno, Domingues, Frontull, Maillard, Garg — Motorola Mobility Brasil, Instituto Eldorado, University of Innsbruck, Council for Ligurian Linguistic Heritage) is the constrained-track submission to the WMT 2026 General Machine Translation Task for Ladin and Ligurian, two low-resource Romance languages of Italy appearing in the shared task for the first time. The team tested LLM adaptation (Gemma-4: instruction tuning, continuous pre-training plus instruction tuning, low-rank adaptation) against a dedicated encoder-decoder pipeline — and the specialist won: fine-tuned NLLB models scored higher on automatic metrics than every investigated LLM adaptation, so the final submission is a fine-tuned NLLB-based pipeline (NLLB-200 distilled, one-point-three billion parameters) with a format-aware inference pipeline for plain text, HTML, and JSON. Code and models are released publicly. [VERIFIED — peer-reviewed WMT 2026 paper, Proceedings of the Eleventh Conference on Machine Translation, pages 1203–1212, Anthology ID 2026.wmt-main.60; scores are author-reported, not reproduced by this loop]
+
+- **The result that matters.** In blind contrastive evaluations by native speakers, LiLa took leading results in both English-to-Ladin and English-to-Ligurian translation — ahead of all evaluated commercial general-purpose large language models — while human translations still sit ahead of every system. The partnership behind it (Motorola, the Lenovo Foundation, University of Innsbruck, announced November 11, 2026) builds on Tradutur Ladin, the first machine translation system for Ladin, and the Digital Inclusion Initiative work that brought Ladin to smartphones. [CORROBORATED — the native-speaker results as reported by the University of Innsbruck; the WMT human-evaluation detail was not re-read this pass]
+
+- **Grammatist — the opposite answer for the same two languages (WMT 2026; NEW TO RECORD).** [2026-11-14 research loop]
+
+- **The system.** Grammatist (Frontull, Maillard, Haberland, Videsott, Lusito — University of Innsbruck, Council for Ligurian Linguistic Heritage) is the unconstrained-track submission to the same WMT 2026 task: an agentic framework that hands a large language model the community's own linguistic knowledge at inference time — bilingual dictionaries (thirteen thousand seven hundred four Italian source lemmas for Ligurian; twenty-nine thousand seven hundred thirty-seven for Ladin, Val Badia) plus grammar — instead of relying on parallel corpora the languages do not have. It was applied to structured document-level translation from English into Ligurian and Ladin, developed in direct collaboration with community members of both languages. Code released publicly. [VERIFIED — peer-reviewed WMT 2026 paper, pages 1248–1257, Anthology ID 2026.wmt-main.65; scores not quoted this pass]
+
+- **Decoder-design note (LiLa + Grammatist → Gauntlet).** One pair, two opposite honest answers for the same two thin languages: LiLa says the specialist encoder-decoder still wins when data is thin; Grammatist says the general model wins when you hand it the community's dictionaries and grammar at inference time. The Gauntlet lesson: grade a low-resource decode by its worst language, and by whether the community's knowledge is in the loop — not just in the training set. [SPECULATION — the Gauntlet mapping is doctrine, never run]
+
+*[Grade: VERIFIED on the publications, the submissions, the pipelines, and the code releases (peer-reviewed WMT 2026 papers, read via ACL Anthology and the first-party university page); CORROBORATED on LiLa's native-speaker leading results as university-reported; scores are author-reported, not reproduced by this loop; SPECULATION — the Gauntlet mapping is doctrine, never run.]*
+
+*LiLa + Grammatist entries seeded 2026-11-14 ~00:43 EST by the decoder-research-loop.*
+
 ## The quantum track (honestly scoped)
 Quantum advantage is **problem-specific** (factoring, search, simulation,
 optimization) — not a universal "decode all information" engine. Active research:
