@@ -2295,6 +2295,10 @@ The universal quantum decoder stays [SPECULATION] until proven.
   - Source: https://www.forasoft.com/blog/article/machine-learning-algorithms-anomaly-detection
   - [CLAIMED — vendor release via trade-press playbook; benchmark as reported by the vendor]
 
+- **The monoculture failure mode — language-model prediction markets that agree too much (essay, late October 2026; Begin and colleagues; Prophet Arena; Galanis).** On more than thirteen hundred Kalshi events, the leading model's forecasts were better calibrated than the market's prices — yet betting on them returned ninety-four cents per dollar staked against ninety cents for betting blindly at the market's own prices, so the better forecasts narrowed the loss without turning it into a profit; a market pays a trader only for moving its price toward the truth, and only when the move is worth more than the cost of trading. In simulated markets, preference-tuned model traders made errors that marched together at a correlation near seven tenths, and a market of ten of them was right less often than a single agent alone. A second study found model traders failing to pool information once the reasoning ran more than two levels deep. The decoder files it as the second market-structure failure mode on this shelf after the ladder markets — and the first that bites the decoder's own design: ten specimens from one family are not ten independent witnesses, and agreement is not evidence until the errors are shown to be independent.
+  - Source: https://lukstafi.github.io/notes/the-bookmaker-is-a-learner.html
+  - [CLAIMED — essay read first-party; the cited studies read via the essay, not first-party]
+
 ## Agent detection vs anti-detection
 
 - **Cloudflare Precursor (GA, ~July 2026).** Continuous behavioral
