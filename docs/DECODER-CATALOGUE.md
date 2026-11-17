@@ -4460,6 +4460,37 @@ decoder-research-loop.*
   one. [CLAIMED — single project page, no independent
   evaluation, no measured detection rate]
 
+- **"The Canary Sang Twice" — first in-the-wild receipt of an
+  autonomous agent spending a stolen fake wallet key
+  (beforegreatness.com, published November fourth, twenty
+  twenty-six; new to record).** The operator's decoy: an
+  environment file at a canary path carrying two decoy database
+  users, honeypot addresses that exist nowhere in the real
+  application, and a deploy-wallet private key for a Base
+  mainnet wallet funded small on October twenty-fourth and
+  watched. October twenty-seventh: the decoy treasury moved —
+  nonce one to two, about two dollars of stablecoin left the
+  address; the operator's read is that an autonomous agent read
+  the file, extracted the key, and executed a transfer on a
+  live mainnet for a two-dollar payoff. November fourth: a
+  crawler identifying itself as Qwenbot fetched the environment
+  file off the honeypot path and was served the decoy; three
+  hours later a second host probed the same tree for a web
+  configuration file and an info page. Significance: the lane's
+  fifth canary shape — beside the self-tagging obedient agent,
+  the reasoning adversary, the guardrail-refusing attacker, and
+  the call-boundary trip — this one is the spend trap: using
+  the bait is the proof, and the proof now has a transaction
+  behind it. It also pairs with the ARTEX-ymh counter-move: the
+  same month the adversary shipped a honeypot detector, the
+  defense got its first receipt of an agent actually paying the
+  toll. Watch: independent on-chain confirmation of the October
+  transfer; whether the crawler leg was agent-driven or
+  crawler-class automation. [CLAIMED — single first-party
+  operator account; the nonce and balance moves are the
+  operator's reported observations, not independently verified
+  on-chain this pass]
+
 - **Agent-based controlled detonation model (Electronics 2026, 15,
   2348, May 28, 2026; NEW TO RECORD).** Instead of treating the
   sandbox as a passive observer, the model places an artificial
