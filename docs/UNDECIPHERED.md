@@ -513,6 +513,23 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   settle what the signs are. A decipherment claim that has not fixed its
   alphabet has nothing to decipher. [DOCTRINE — information-theoretic; the
   reclassification as the model case]
+- **The 2025 instrument — Tamburini's combinatorial decipherment engine
+  (Frontiers in Artificial Intelligence, May 30, 2025).** Fabio Tamburini,
+  "On automatic decipherment of lost ancient scripts relying on
+  combinatorial optimisation and coupled simulated annealing" (*Frontiers
+  in Artificial Intelligence* 8:1581129): a general automatic-decipherment
+  method that encodes candidate sign mappings as k-permutations — null,
+  one-to-many, and many-to-one mappings all representable — and searches
+  them with coupled simulated annealing, evaluated on the
+  eastern-Mediterranean Bronze Age scripts, with Linear A, Cretan
+  Hieroglyphs, and Cypro-Minoan named as the test cases, and superior
+  performance to current state-of-the-art systems as author-reported.
+  Decoder note: the method grades mappings against the corpus rather than
+  asserting a language, and treats the mapping itself as the unknown to be
+  searched, not assumed. No script fell — a better search engine for the
+  same locked doors; Linear A, Cretan Hieroglyphs, and Cypro-Minoan stay
+  unread. [CORROBORATED — peer-reviewed journal paper; abstract read via
+  the journal's own page; paper not opened first-party this pass]
 - **Proto-Elamite script** (~3100–2900 BCE, Susa and the Iranian plateau) —
   the oldest writing system still unread, and the twin of proto-cuneiform:
   the two scripts share tablet blanks, inscribing method, the reverse-for-
