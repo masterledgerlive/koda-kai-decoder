@@ -300,6 +300,25 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
   twelve-thirty-three rotation number thirteen quiet loop on November 10
   missed it; this run corrects the record. [CLAIMED — author's own Zenodo
   preprint; abstract and record read first-party this pass]
+- **New intake (November 17, 2026).** Zachary McCormick, "The Beale
+  Ciphers Reconsidered: A Scholarly Presentation of Dual, Contradictory
+  Solutions and a Framework for Disciplinary Adjudication" (January 2026
+  preprint, posted via treasurenet.com) — two complete, methodologically
+  rigorous, mutually exclusive solutions to Beale Ciphers Number One and
+  Number Three. The bibliographic-mathematical thesis models the ciphers
+  as a homophonic dual-key book cipher anchored to a specific eighteen
+  twenty-two Lynchburg almanac and directory volume, with statistical
+  validation and computational reproducibility claimed by the author
+  (Cipher Number Three: six hundred and eighteen numbers, index of
+  coincidence zero point zero two three; Cipher Number One similar
+  profile). The author explicitly makes no claim the mystery is solved —
+  the contribution is the documented evidentiary contradiction, offered
+  for disciplinary adjudication by peer review. Intake note: two complete
+  solutions that cannot both be right is the honest shape for a
+  no-ground-truth item — adjudication, not belief, is the next step; the
+  hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) stand
+  untouched. [CLAIMED — author's own preprint via secondary carrier;
+  paper not read first-party this pass]
 - **Retired, not active:** the RSA Factoring Challenge (1991–2007).
   [VERIFIED — literature] The Beale "treasure" carries no verified bounty —
   treasure-hunting speculation, not a prize. [DOCTRINE note]
@@ -1039,7 +1058,7 @@ SPECULATION. Designs are designs; unsolved stays unsolved until proven otherwise
 | Tărtăria tablets / Vinča symbols | ~5300 BCE | Unsolved; 5,421 signs catalogued (DatDas) across 1,178 multi-sign inscriptions, but no accepted reading — and the open question is prior: whether the signs are writing at all (Haarmann "Old European script" versus majority proto-writing); dating by association only (circa 5300 BCE, disputed stratigraphy, tablets baked so no direct radiocarbon dating); parked "14 scripts" decipherment claim — speculation | — |
 | Rongorongo | 1700s–1800s | Unsolved | — |
 | Phaistos Disc | ~1700 BCE | Unsolved | — |
-| Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses) | none verified |
+| Beale ciphers 1 & 3 | 1820s/1885 | Unsolved (2 of 3); hoax verdicts on record (2024 IACR, 2025 Bayesian analyses); January 2026 dual contradictory solutions preprint (CLAIMED, author disclaims solve) | none verified |
 | Shugborough | 1748 | Unsolved | — |
 | D'Agapeyeff | 1939 | Unsolved (author forgot) | — |
 | Pigeon NURP.40.TW.194 | 1944 | Unsolved (likely OTP) | — |
